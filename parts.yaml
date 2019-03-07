@@ -1,0 +1,83 @@
+trrs-board:
+  id: trrs-board
+  description: TRRS Audio Connector on PCB
+  quantity: 1
+  quantityUnits: part
+  options:
+  - sparkfun-trrs-3_5mm-jack-breakout
+  - trrs-3_5mm-jack-breakout-board-generic
+  selectedOption: 1
+  notes: Originally designed with Sparkfun board, selected generic board due to significantly lower cost.
+wss:
+  id: wss
+  description: Wheel Speed Sensor
+  quantity: 1
+  quantityUnits: part
+  options:
+  - infineon-tle4996l
+  selectedOption: 0
+  notes: ''
+housing-base:
+  id: housing-base
+  description: Housing Base
+  quantity: 1
+  quantityUnits: part 
+  options:
+  - trrs-wssm-housing-base
+  selectedOption: 0
+  notes: 3D printed part
+housing-top:
+  id: housing-top
+  description: Housing Top
+  quantity: 1
+  quantityUnits: part
+  options:
+  - trrs-wssm-housing-top
+  selectedOption: 0
+  notes: 3D printed part
+adhesive-tape:
+  id: adhesive-tape
+  description: Adhesive Tape
+  quantity: 0.625
+  quantityUnits: in
+  options:
+  - _3m-9472LE-tape
+  selectedOption: 0
+  notes: 1 in wide tape, cut to 5/8 in long piece to fit the bottom of the housing.
+cotton-ball:
+  id: cotton-ball
+  description: Cotton Ball
+  quantity: 1
+  quantityUnits: part 
+  options:
+  - cotton-ball-generic
+  selectedOption: 0
+  notes: ''
+solder:
+  id: solder
+  description: Solder
+  quantity: 6
+  quantityUnits: in
+  options:
+  - solder-generic
+  selectedOption: 0
+  notes: ''
+alcohol:
+  id: alcohol
+  description: Rubbing Alcohol
+  quantity: 1
+  quantityUnits: teaspoon
+  options:
+  - isopropyl-alcohol-generic
+  selectedOption: 0
+  notes: 70% to 90% concentration
+super-glue:
+  id: super-glue
+  description: Super Glue
+  quantity: 4
+  quantityUnits: drops
+  options:
+  - loctite-super-glue-ultra-control
+  - cyanoacrylate-glue-generic
+  selectedOption: 0
+  notes: ''

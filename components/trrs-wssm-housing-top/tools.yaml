@@ -1,0 +1,27 @@
+pc:
+  id: pc
+  description: Personal Computer
+  quantity: 1
+  quantityUnits: part
+  options:
+  - pc-generic
+  selectedOption: 0
+  notes: Windows, Mac, or Linux
+slicer:
+  id: slicer
+  description: Slicer
+  quantity: 1
+  quantityUnits: part
+  options:
+  - slicer-software-generic
+  selectedOption: 0
+  notes: User's choice of slicer software
+_3d-printer:
+  id: _3d-printer
+  description: 3D Printer
+  quantity: 1
+  quantityUnits: part
+  options:
+  - _3d-printer-generic
+  selectedOption: 0
+  notes: And PLA compatible FDM 3D printer

@@ -1,0 +1,9 @@
+filament:
+  id: filament
+  description: Filament
+  quantity: 3.4
+  quantityUnits: g
+  options:
+  - pla-filament-generic
+  selectedOption: 0
+  notes: 'Thickness to match selected 3D printer specs'

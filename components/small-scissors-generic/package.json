@@ -1,0 +1,9 @@
+{
+  "name": "small-scissors-generic",
+  "version": "1.0.0",
+  "description": "Small Scissors (generic)",
+  "license": "(Unlicense AND CC0-1.0)",
+  "author": "Model B Rev 2, LLC (http://modelb.biz)",
+  "dependencies": {
+  }
+}

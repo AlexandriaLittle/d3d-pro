@@ -1,0 +1,9 @@
+{
+  "name": "_3d-printer-generic",
+  "version": "1.0.0",
+  "description": "3D Printer (generic)",
+  "license": "(Unlicense AND CC0-1.0)",
+  "author": "Model B Rev 2, LLC (http://modelb.biz)",
+  "dependencies": {
+  }
+}
