@@ -1,0 +1,13 @@
+name: soldering-iron-generic
+version: 1.0.0
+description: Soldering Iron (generic)
+license: (Unlicense AND CC0-1.0)
+author: 'Model B Rev 2, LLC (http://modelb.biz)'
+dependencies: {}
+components: {}
+parts: {}
+tools: {}
+precautions:
+  - 'Care must be taken when using the soldering iron, the tip is very hot'
+  - Always wear safety glasses while working with soldering irons
+assemblySteps: []

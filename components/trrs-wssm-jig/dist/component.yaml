@@ -1,0 +1,129 @@
+name: trrs-wssm-jig
+version: 1.0.0
+description: TRRS Wheel Speed Sensor Module Jig
+license: (CERN-OHL-1.2 AND Unlicense AND CC-BY-SA-3.0)
+author: 'Model B Rev 2, LLC (http://modelb.biz)'
+dependencies: {}
+components:
+  _3d-printer-generic:
+    name: _3d-printer-generic
+    version: 1.0.0
+    description: 3D Printer (generic)
+    license: (Unlicense AND CC0-1.0)
+    author: 'Model B Rev 2, LLC (http://modelb.biz)'
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
+    assemblySteps: []
+  pc-generic:
+    name: pc-generic
+    version: 1.0.0
+    description: Personal Computer (generic)
+    license: (Unlicense AND CC0-1.0)
+    author: 'Model B Rev 2, LLC (http://modelb.biz)'
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
+    assemblySteps: []
+  pla-filament-generic:
+    name: pla-filament-generic
+    version: 1.0.0
+    description: PLA Filament (generic)
+    license: (Unlicense AND CC0-1.0)
+    author: 'Model B Rev 2, LLC (http://modelb.biz)'
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
+    assemblySteps: []
+  slicer-software-generic:
+    name: slicer-software-generic
+    version: 1.0.0
+    description: Slicer Software (generic)
+    license: (Unlicense AND CC0-1.0)
+    author: 'Model B Rev 2, LLC (http://modelb.biz)'
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
+    assemblySteps: []
+parts:
+  filament:
+    id: filament
+    description: Filament
+    quantity: 1.6
+    quantityUnits: g
+    options:
+      - pla-filament-generic
+    selectedOption: 0
+    notes: Thickness to match selected 3D printer specs
+    descriptionLong: 'filament: Filament'
+    descriptionSelected: 'filament: Filament (PLA Filament (generic) v1.0.0)'
+tools:
+  pc:
+    id: pc
+    description: Personal Computer
+    quantity: 1
+    quantityUnits: part
+    options:
+      - pc-generic
+    selectedOption: 0
+    notes: 'Windows, Mac, or Linux'
+    descriptionLong: 'pc: Personal Computer'
+    descriptionSelected: 'pc: Personal Computer (Personal Computer (generic) v1.0.0)'
+  slicer:
+    id: slicer
+    description: Slicer
+    quantity: 1
+    quantityUnits: part
+    options:
+      - slicer-software-generic
+    selectedOption: 0
+    notes: User's choice of slicer software
+    descriptionLong: 'slicer: Slicer'
+    descriptionSelected: 'slicer: Slicer (Slicer Software (generic) v1.0.0)'
+  _3d-printer:
+    id: _3d-printer
+    description: 3D Printer
+    quantity: 1
+    quantityUnits: part
+    options:
+      - _3d-printer-generic
+    selectedOption: 0
+    notes: Any FDM 3D printer compatible with selected filament
+    descriptionLong: '_3d-printer: 3D Printer'
+    descriptionSelected: '_3d-printer: 3D Printer (3D Printer (generic) v1.0.0)'
+precautions: []
+assemblySteps:
+  - summary: ''
+    requiredParts: []
+    requiredTools: []
+    details: >
+      . Launch the *Slicer* software on your *Personal Computer*
+
+      . Open the _trrs-wssm-jig.stl_ geometry file in the *Slicer*
+
+      . (Optional) Suggested settings for *Slicer*, otherwise use default
+      settings for selected *Filament*
+
+      .. Create Raft = True
+
+      .. Skirt Distance = Far (10mm)
+
+      .. Generate Support Material = True
+
+      .. Support Percent = 30%
+
+      . Ensure *Filament* is loaded in the *3D Printer*
+
+      . Print the sliced geometry following the manufacturer's instructions for
+      the *3D Printer*
+
+      . Remove the completed *TRRS Wheel Speed Sensor Module Jig* from the *3D
+      Printer*
