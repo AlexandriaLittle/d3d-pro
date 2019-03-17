@@ -24,4 +24,4 @@ _3d-printer:
   options:
   - _3d-printer-generic
   selectedOption: 0
-  notes: And PLA compatible FDM 3D printer
+  notes: Any FDM 3D printer compatible with selected filament

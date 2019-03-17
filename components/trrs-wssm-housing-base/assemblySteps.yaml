@@ -1,0 +1,14 @@
+- summary: ''
+  requiredParts: []
+  requiredTools: []
+  details: |
+    . Launch the *{{tools.slicer.description}}* software on your *{{tools.pc.description}}*
+    . Open the _trrs-wssm-housing-base.stl_ geometry file in the *{{tools.slicer.description}}*
+    . (Optional) Suggested settings for *{{tools.slicer.description}}*, otherwise use default settings for selected *{{parts.filament.description}}*
+    .. Create Raft = True
+    .. Skirt Distance = Far (10mm)
+    .. Generate Support Material = True
+    .. Support Percent = 30%
+    . Ensure *{{parts.filament.description}}* is loaded in the *{{tools._3d-printer.description}}*
+    . Print the sliced geometry following the manufacturer's instructions for the *{{tools._3d-printer.description}}*
+    . Remove the completed *{{description}}* from the *{{tools._3d-printer.description}}*
