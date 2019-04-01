@@ -1,7 +1,7 @@
 = TRRS Wheel Speed Sensor Module Assembly Instructions
 Model B Rev 2, LLC (http://modelb.biz)
 :revnumber: v1.0.0
-:revdate: 3/16/2019
+:revdate: 3/31/2019
 :sectnums:
 :toc:
 
@@ -531,6 +531,8 @@ endif::[]
 . Bend *Wheel Speed Sensor* leads over to fix position of *Wheel Speed Sensor* relative *TRRS Audio Connector on PCB*
 . Remove *Wheel Speed Sensor*/*TRRS Audio Connector on PCB* sub-assembly from *Jig*
 
+video::UJ_s2-SHfPo[youtube,height=480,width=854]
+
 
 
 
@@ -566,8 +568,12 @@ endif::[]
 *Instructions*
 
 . Place *Wheel Speed Sensor*/*TRRS Audio Connector on PCB* sub-assembly in *Helping Hands*
++
+image::sensor-trrs-in-helping-hands.jpg[] 
 . Solder all 4 *Wheel Speed Sensor* leads to their pins on the *TRRS Audio Connector on PCB* (be sure to use the *Fume Extractor* while soldering)
 . Use the *Flush Snips* to trim back excess leads from *Wheel Speed Sensor*
++
+image::soldered-sensor-leads-trimmed.jpg[]
 
 
 
@@ -598,8 +604,12 @@ endif::[]
 *Instructions*
 
 . Place *Wheel Speed Sensor*/*TRRS Audio Connector on PCB* in *housing-base: Housing Base (TRRS Wheel Speed Sensor Module Housing Base v1.0.1)*
++
+image::sensor-subassembly-in-housing-base.jpg[]
 . Connect cable from *Test Stand* to jack on the *TRRS Audio Connector on PCB*
 . Place *Wheel Speed Sensor*/*TRRS Audio Connector on PCB*/*Housing Base* sub-assembly in sensor mount on *Test Stand*
++
+image::sensor-subassembly-on-test-stand.jpg[]
 . Run tests - see *Test Stand* documentation for API calls/application used to run these tests (there is a CLI tool to run these tests automatically)
 .. Verify direction
 ... it should report cw when wheel turns 20 rpm cw
@@ -649,14 +659,22 @@ endif::[]
 
 . Apply 1 drop of *super-glue: Super Glue (Loctite Super Glue Ultra Gel Control v1.0.0)* to each of the 4 corners of the inset portion of the *housing-top: Housing Top (TRRS Wheel Speed Sensor Module Housing Top v1.0.0)*
 . Place *Housing Top* on top of *Housing Base*
++
+image::housing-top-in-place.jpg[]
 . Press *Housing Top* into *Housing Base* until it clicks into place and sits flush on the *Housing Base*
++
+image::housing-top-attached.jpg[]
 . Add *adhesive-tape: Adhesive Tape (3M 9472LE 1/2-20-9472LE Adhesive Transfer Tape 1.0 inch wide v1.0.0)* to *Housing Base*
 .. Clean the bottom of the *Housing Base* with *alcohol: Rubbing Alcohol (Isopropyl Alcohol (generic) v1.0.0)* using a *cotton-ball: Cotton Ball (Cotton Ball (generic) v1.0.0)*
 .. Wait for the *Rubbing Alcohol* to dry
 .. Cut the *adhesive-tape: Adhesive Tape (3M 9472LE 1/2-20-9472LE Adhesive Transfer Tape 1.0 inch wide v1.0.0)* to length (1 in wide tape, cut to 5/8 in long piece to fit the bottom of the housing.)
 .. Apply *Adhesive Tape* to the bottom of the *Housing Base*
++
+image::adhesive-applied.jpg[]
 .. Press *Housing Base* firmly onto a flat surface for 60 seconds to secure the *Adhesive Tape*
 .. Trim excess tape off of *Housing Base* with the *Scissors*
++
+image::adhesive-trimmed.jpg[]
 
 
 
