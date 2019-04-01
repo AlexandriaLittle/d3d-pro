@@ -12,7 +12,7 @@ ifdef::env-github[]
 :important-caption: :heavy_exclamation_mark:
 :caution-caption: :fire:
 :warning-caption: :warning:
-:imagesdir: https://github.com/modelb-llc/trrs-wssmblob/master/dist/images/
+:imagesdir: https://github.com/modelb-llc/trrs-wssm/blob/master/dist/images/
 endif::[]
 
 // non-github specific things
