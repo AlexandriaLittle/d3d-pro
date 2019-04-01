@@ -531,7 +531,8 @@ endif::[]
 . Bend *Wheel Speed Sensor* leads over to fix position of *Wheel Speed Sensor* relative *TRRS Audio Connector on PCB*
 . Remove *Wheel Speed Sensor*/*TRRS Audio Connector on PCB* sub-assembly from *Jig*
 
-video::UJ_s2-SHfPo[youtube,height=480,width=854]
+//video::UJ_s2-SHfPo[youtube,height=480,width=854]
+See https://www.youtube.com/watch?v=UJ_s2-SHfPo[Holoseat v1 Alpha Sensor Assembly Build Step 1^] on YouTube (https://www.youtube.com/watch?v=UJ_s2-SHfPo) for more details.
 
 
 
