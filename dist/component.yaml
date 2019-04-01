@@ -3,6 +3,9 @@ version: 1.0.0
 description: TRRS Wheel Speed Sensor Module
 license: (CERN-OHL-1.2 AND Unlicense AND CC-BY-SA-3.0 AND CC0-1.0 AND CC-BY-SA-4.0)
 author: 'Model B Rev 2, LLC (http://modelb.biz)'
+repository:
+  type: git
+  url: 'https://github.com/modelb-llc/trrs-wssm.git'
 dependencies: {}
 components:
   _3m-9472LE-tape:
