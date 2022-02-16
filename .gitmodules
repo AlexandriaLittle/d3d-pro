@@ -1,0 +1,3 @@
+[submodule "dof-helpers"]
+	path = dof-helpers
+	url = git@github.com:capsulecorplab/dof-helpers.git
