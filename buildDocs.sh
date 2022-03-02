@@ -14,6 +14,10 @@ fi
 echo "generating dist/component.yaml..."
 docker run --rm -v $PWD:/src -w /src node node dof-helpers/parseComponent.js
 
+# copy source/images/ directory to dist/
+echo "copy source/images/ directory to dist/..."
+cp -r source/images/ dist/
+
 # generate dist/assemblyInstructions.adoc
 echo "generating dist/assemblyInstructions.adoc..."
 docker run --rm -v $PWD:/src -w /src node node dof-helpers/generateAssemblyInstructions.js
