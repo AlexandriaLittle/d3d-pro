@@ -21,3 +21,11 @@ cp -r source/images/ dist/
 # generate dist/assemblyInstructions.adoc
 echo "generating dist/assemblyInstructions.adoc..."
 docker run --rm -v $PWD:/src -w /src node node dof-helpers/generateAssemblyInstructions.js
+
+# generate dist/assemblyInstructions.html
+echo "generating dist/assemblyInstructions.html..."
+docker run --rm --volume $PWD:/src -w "/src" asciidoctor/docker-asciidoctor asciidoctor dist/assemblyInstructions.adoc -o dist/assemblyInstructions.html
+
+# generate dist/assemblyInstructions.pdf
+echo "generating dist/assemblyInstructions.pdf..."
+docker run --rm --volume $PWD:/src -w "/src" asciidoctor/docker-asciidoctor asciidoctor dist/assemblyInstructions.adoc -o dist/assemblyInstructions.pdf -r asciidoctor-pdf -b pdf
