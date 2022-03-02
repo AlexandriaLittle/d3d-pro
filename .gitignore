@@ -1,3 +1,5 @@
 # Dependency directories
 node_modules/
 
+# DOF output directories
+dist/
