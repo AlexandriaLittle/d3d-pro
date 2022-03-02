@@ -1,0 +1,39 @@
+= trrs-wssm
+
+You can build the documentation site on a local desktop:
+
+Note: It is recommended you run the following instructions on a Linux/Unix-like operating system. If you are on a Windows machine, consider installing https://docs.microsoft.com/en-us/windows/wsl/install-win10[Windows Subsystem for Linux].
+
+=== Installing requirements
+
+You will need https://git-scm.com/[git] to clone the project contents and https://www.docker.com/[docker] to run the docker image that contains the dependencies needed for building the documentation.
+
+. https://git-scm.com/downloads[git].
+. https://docs.docker.com/get-docker/[docker].
+
+=== Cloning the repo
+
+Clone the https://github.com/capsulecorplab/trrs-wssm[trrs-wssm] repo. Don't forget to use `--recurse-submodules` flag, or else you won't pull down some of the code you need to generate a working site.
+
+[source,bash]
+----
+git clone --recurse-submodules https://github.com/capsulecorplab/trrs-wssm.git
+cd trrs-wssm
+----
+
+Note: If you accidentally cloned without using `--recurse-submodules`, you can run `git submodule update --init --recursive` to pull down submodules needed to generate a working site.
+
+=== Building the documentation
+
+Once you've cloned the repo & installed docker, run the `buildDocs.sh` script in the project root directory (Note: Linux users may need to prepend this command `sudo`). This will build a docker image, as well as install node modules, needed for generating the `trrs-wssm` page locally. You can view all locally installed docker images by running `docker images`.
+
+[source,bash]
+----
+./buildDocs.sh
+----
+
+Once you run this step, you can locally view the documentation by opening `dist/assemblyInstructions.html` in a web browser or by opening `dist/assemblyInstructions.pdf` in a pdf viewer.
+
+'''
+
+Developed in http://sliderule.io[Sliderule] an implementation of the http://dof.sliderule.io[Distributed OSHW Framework].
