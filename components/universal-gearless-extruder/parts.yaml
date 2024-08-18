@@ -70,3 +70,12 @@ nozzle:
   - nozzle
   selectedOption: 0
   notes: ''
+heat-break:
+  id: heat-break
+  description: Haet Break
+  quantity: 1
+  quantityUnits: part
+  options:
+  - heat-break
+  selectedOption: 0
+  notes: ''
