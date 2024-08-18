@@ -3,7 +3,7 @@ node_modules/
 
 # DOF output directories
 dist/
-component.yaml
+**/component.yaml
 
 # Editor files
 .vscode/
