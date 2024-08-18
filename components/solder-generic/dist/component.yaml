@@ -7,8 +7,3 @@ dependencies: {}
 components: {}
 parts: {}
 tools: {}
-precautions:
-  - >-
-    Avoid breathing in the soldering fumes, use a vent or hood if needed to
-    provide adequate ventilation
-assemblySteps: []

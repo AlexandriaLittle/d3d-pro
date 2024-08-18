@@ -2,7 +2,7 @@
 node_modules/
 
 # DOF output directories
-**/dist
+**/dist/*
 
 
 # Editor files

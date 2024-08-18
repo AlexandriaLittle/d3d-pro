@@ -7,7 +7,3 @@ dependencies: {}
 components: {}
 parts: {}
 tools: {}
-precautions:
-  - 'Care must be taken when using the soldering iron, the tip is very hot'
-  - Always wear safety glasses while working with soldering irons
-assemblySteps: []
