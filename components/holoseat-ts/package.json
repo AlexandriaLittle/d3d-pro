@@ -1,9 +1,0 @@
-{
-  "name": "holoseat-ts",
-  "version": "1.0.0",
-  "description": "Holoseat Test Stand",
-  "license": "(CERN-OHL-1.2 AND CC-BY-SA-3.0)",
-  "author": "Model B Rev 2, LLC (http://modelb.biz)",
-  "dependencies": {
-  }
-}

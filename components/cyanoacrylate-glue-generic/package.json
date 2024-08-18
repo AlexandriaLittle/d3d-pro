@@ -1,9 +1,0 @@
-{
-  "name": "cyanoacrylate-glue-generic",
-  "version": "1.0.0",
-  "description": "Cyanoacrylate Glue (generic - super glue)",
-  "license": "(Unlicense AND CC0-1.0)",
-  "author": "Model B Rev 2, LLC (http://modelb.biz)",
-  "dependencies": {
-  }
-}

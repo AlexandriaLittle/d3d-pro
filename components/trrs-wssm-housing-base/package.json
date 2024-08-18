@@ -1,9 +1,0 @@
-{
-  "name": "trrs-wssm-housing-base",
-  "version": "1.0.1",
-  "description": "TRRS Wheel Speed Sensor Module Housing Base",
-  "license": "(CERN-OHL-1.2 AND Unlicense AND CC-BY-SA-3.0)",
-  "author": "Model B Rev 2, LLC (http://modelb.biz)",
-  "dependencies": {
-  }
-}
