@@ -3,3 +3,6 @@ node_modules/
 
 # DOF output directories
 dist/
+
+# Editor files
+.vscode/

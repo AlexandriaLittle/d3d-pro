@@ -1,12 +1,12 @@
 {
-  "name": "trrs-wssm",
-  "version": "1.0.0",
-  "description": "TRRS Wheel Speed Sensor Module",
-  "license": "(CERN-OHL-1.2 AND Unlicense AND CC-BY-SA-3.0 AND CC0-1.0 AND CC-BY-SA-4.0)",
-  "author": "Model B Rev 2, LLC (http://modelb.biz)",
+  "name": "d3d-pro",
+  "version": "23.12",
+  "description": "D3D Pro 3D Printer",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/modelb-llc/trrs-wssm.git"
+    "url" : "https://github.com/AlexandriaLittle/d3d-pro"
   },
   "dependencies": {
   }
