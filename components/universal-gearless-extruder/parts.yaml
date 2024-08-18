@@ -52,3 +52,12 @@ heater-cartridge:
   - heater-cartridge
   selectedOption: 0
   notes: ''
+thermistor:
+  id: thermistor
+  description: Thermistor
+  quantity: 1
+  quantityUnits: part
+  options:
+  - thermistor
+  selectedOption: 0
+  notes: ''
