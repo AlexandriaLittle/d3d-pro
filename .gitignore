@@ -2,7 +2,8 @@
 node_modules/
 
 # DOF output directories
-**/dist/
+dist/**
+component.yaml
 
 
 # Editor files
