@@ -72,7 +72,7 @@ nozzle:
   notes: ''
 heat-break:
   id: heat-break
-  description: Haet Break
+  description: Heat Break
   quantity: 1
   quantityUnits: part
   options:
