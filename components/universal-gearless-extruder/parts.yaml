@@ -1,0 +1,27 @@
+spring-tensioner:
+  id: spring-tensioner
+  description: Spring tensioner extruder component
+  quantity: 1
+  quantityUnits: part
+  options:
+  - spring-tensioner
+  selectedOption: 0
+  notes: 3D printed part
+heatsink:
+  id: heatsink
+  description: OSE Custom Heatsink
+  quantity: 1
+  quantityUnits: part
+  options:
+  - heatsink
+  selectedOption: 0
+  notes: 
+608-bearing:
+  id: 608-bearing
+  description: 608 ZZ Bearing
+  quantity: 1
+  quantityUnits: part
+  options:
+  - 608-bearing
+  selectedOption: 0
+  notes: 

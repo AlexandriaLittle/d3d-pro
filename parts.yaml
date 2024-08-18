@@ -1,9 +1,9 @@
-spring-tensioner:
-  id: spring-tensioner
-  description: Spring tensioner extruder component
+universal-gearless-extruder:
+  id: universal-gearless-extruder
+  description: OSE Universal Gearless Extruder
   quantity: 1
-  quantityUnits: part
+  quantityUnits: module
   options:
-  - spring-tensioner
-  selectedOption: 1
-  notes: 3D printed part
+  - universal-gearless-extruder
+  selectedOption: 0
+  notes:

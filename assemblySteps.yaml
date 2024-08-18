@@ -1,84 +1,9 @@
-- summary: Place {{parts.wss.description}} on {{parts.trrs-board.description}}
+- summary: Throw {{parts.universal-gearless-extruder.description}} out the window
   requiredParts:
-    - wss
-    - trrs-board
-  requiredTools:
-    - jig
-  details: |
-    . Place *{{parts.wss.descriptionSelected}}* in *{{tools.jig.description}}* with label facing “out” (toward window in *{{tools.jig.description}}*)
-    . Slide *{{parts.wss.description}}* into *{{tools.jig.description}}* until its label aligns can be seen through the window in *{{tools.jig.description}}*
-    . Bend *{{parts.wss.description}}* leads down along *{{tools.jig.description}}*
-    . Place *{{parts.wss.description}}* pins through holes in *{{parts.trrs-board.descriptionSelected}}* with the jack facing up
-    . Align *{{parts.trrs-board.description}}* with lip on *{{tools.jig.description}}*
-    . Bend *{{parts.wss.description}}* leads over to fix position of *{{parts.wss.description}}* relative *{{parts.trrs-board.description}}*
-    . Remove *{{parts.wss.description}}*/*{{parts.trrs-board.description}}* sub-assembly from *{{tools.jig.description}}*
+    - universal-gearless-extruder
 
-    //video::UJ_s2-SHfPo[youtube,height=480,width=854]
-    See https://www.youtube.com/watch?v=UJ_s2-SHfPo[Holoseat v1 Alpha Sensor Assembly Build Step 1^] on YouTube (https://www.youtube.com/watch?v=UJ_s2-SHfPo) for more details.
-- summary: Solder {{parts.wss.description}} to {{parts.trrs-board.description}}
-  requiredParts:
-    - solder
   requiredTools:
     - helping-hands
-    - soldering-iron
-    - fume-extractor
-    - flush-snips
+
   details: |
-    . Place *{{parts.wss.description}}*/*{{parts.trrs-board.description}}* sub-assembly in *{{tools.helping-hands.description}}*
-    +
-    image::sensor-trrs-in-helping-hands.jpg[] 
-    . Solder all 4 *{{parts.wss.description}}* leads to their pins on the *{{parts.trrs-board.description}}* (be sure to use the *{{tools.fume-extractor.description}}* while soldering)
-    . Use the *{{tools.flush-snips.description}}* to trim back excess leads from *{{parts.wss.description}}*
-    +
-    image::soldered-sensor-leads-trimmed.jpg[]
-- summary: Verify {{parts.wss.description}}/{{parts.trrs-board.description}} sub-assembly
-  requiredParts:
-    - housing-base
-  requiredTools:
-    - test-stand
-  details: |
-    . Place *{{parts.wss.description}}*/*{{parts.trrs-board.description}}* in *{{parts.housing-base.descriptionSelected}}*
-    +
-    image::sensor-subassembly-in-housing-base.jpg[]
-    . Connect cable from *{{tools.test-stand.description}}* to jack on the *{{parts.trrs-board.description}}*
-    . Place *{{parts.wss.description}}*/*{{parts.trrs-board.description}}*/*{{parts.housing-base.description}}* sub-assembly in sensor mount on *{{tools.test-stand.description}}*
-    +
-    image::sensor-subassembly-on-test-stand.jpg[]
-    . Run tests - see *{{tools.test-stand.description}}* documentation for API calls/application used to run these tests (there is a CLI tool to run these tests automatically)
-    .. Verify direction
-    ... it should report cw when wheel turns 20 rpm cw
-    ... it should report ccw when wheel turns 20 rpm ccw
-    .. Verify cadence (using average cadence)
-    ... it should report 30 +/- 2 when wheel turns cw at 30 rpm
-    ... it should report 50 +/- 2 when wheel turns cw at 50 rpm
-    ... it should report 45 +/- 2 when wheel turns cw at 45 rpm
-    ... it should report 25 +/- 2 when wheel turns cw at 45 rpm
-    . Take *{{parts.wss.description}}*/*{{parts.trrs-board.description}}*/*{{parts.housing-base.description}}* sub-assembly off {{tools.test-stand.description}}
-- summary: Finish Assembly
-  requiredParts:
-    - housing-top
-    - adhesive-tape
-    - cotton-ball
-    - alcohol
-    - super-glue
-  requiredTools:
-    - scissors
-  details: |
-    . Apply 1 drop of *{{parts.super-glue.descriptionSelected}}* to each of the 4 corners of the inset portion of the *{{parts.housing-top.descriptionSelected}}*
-    . Place *{{parts.housing-top.description}}* on top of *{{parts.housing-base.description}}*
-    +
-    image::housing-top-in-place.jpg[]
-    . Press *{{parts.housing-top.description}}* into *{{parts.housing-base.description}}* until it clicks into place and sits flush on the *{{parts.housing-base.description}}*
-    +
-    image::housing-top-attached.jpg[]
-    . Add *{{parts.adhesive-tape.descriptionSelected}}* to *{{parts.housing-base.description}}*
-    .. Clean the bottom of the *{{parts.housing-base.description}}* with *{{parts.alcohol.descriptionSelected}}* using a *{{parts.cotton-ball.descriptionSelected}}*
-    .. Wait for the *{{parts.alcohol.description}}* to dry
-    .. Cut the *{{parts.adhesive-tape.descriptionSelected}}* to length ({{parts.adhesive-tape.notes}})
-    .. Apply *{{parts.adhesive-tape.description}}* to the bottom of the *{{parts.housing-base.description}}*
-    +
-    image::adhesive-applied.jpg[]
-    .. Press *{{parts.housing-base.description}}* firmly onto a flat surface for 60 seconds to secure the *{{parts.adhesive-tape.description}}*
-    .. Trim excess tape off of *{{parts.housing-base.description}}* with the *{{tools.scissors.description}}*
-    +
-    image::adhesive-trimmed.jpg[]
+    . Hello World!
