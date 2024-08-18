@@ -1,1 +1,10 @@
-[]
+- summary: Assemble the Extruder!
+  requiredParts:
+    - 608-bearing
+    - heatsink
+    - spring-tensioner
+
+  requiredTools: []
+
+  details: |
+    . Hello World!
