@@ -61,3 +61,12 @@ thermistor:
   - thermistor
   selectedOption: 0
   notes: ''
+nozzle:
+  id: nozzle
+  description: Filament Extrusion Nozzle
+  quantity: 1
+  quantityUnits: part
+  options:
+  - nozzle
+  selectedOption: 0
+  notes: ''
