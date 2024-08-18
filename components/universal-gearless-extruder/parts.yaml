@@ -15,7 +15,7 @@ heatsink:
   options:
   - heatsink
   selectedOption: 0
-  notes: 
+  notes: ''
 608-bearing:
   id: 608-bearing
   description: 608 ZZ Bearing
@@ -24,4 +24,13 @@ heatsink:
   options:
   - 608-bearing
   selectedOption: 0
-  notes: 
+  notes: ''
+extruder-gear:
+  id: extruder-gear
+  description: Filament Drive Gear
+  quantity: 1
+  quantityUnits: part
+  options:
+  - extruder-gear
+  selectedOption: 0
+  notes: ''
