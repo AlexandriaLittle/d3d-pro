@@ -43,3 +43,12 @@ heater-block:
   - heater-block
   selectedOption: 0
   notes: ''
+heater-cartridge:
+  id: heater-cartridge
+  description: Hot End Heater Cartridge
+  quantity: 1
+  quantityUnits: part
+  options:
+  - heater-cartridge
+  selectedOption: 0
+  notes: ''
