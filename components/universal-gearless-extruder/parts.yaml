@@ -31,7 +31,7 @@ extruder-gear:
   quantity: 1
   quantityUnits: part
   options:
-  - extruder-gear
+  - mk7-extruder-drive-gear
   selectedOption: 0
   notes: ''
 heater-block:
