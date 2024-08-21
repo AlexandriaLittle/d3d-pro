@@ -124,3 +124,12 @@ blower-fan:
   - 24v-40mm-fan
   selectedOption: 0
   notes: ''
+m3-30mm-screw:
+  id: m3-30mm-screw
+  description: 40mm Fan
+  quantity: 2
+  quantityUnits: part
+  options:
+  - m3-30mm-socket-head-cap-screw
+  selectedOption: 0
+  notes: ''
