@@ -160,3 +160,12 @@ active-cooling-height-sensor-plotter:
   - universal-gearless-extruder-active-cooling-height-sensor-plotter
   selectedOption: 0
   notes: ''
+motor-mount:
+  id: motor-mount
+  description: Motor Mount Part
+  quantity: 1
+  quantityUnits: part
+  options:
+  - universal-gearless-extruder-motor-mount
+  selectedOption: 0
+  notes: ''
