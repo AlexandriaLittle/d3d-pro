@@ -88,3 +88,12 @@ extruder-spring:
   - 10mm-od-35mm-spring
   selectedOption: 0
   notes: ''
+stepper-motor:
+  id: stepper-motor
+  description: Nema 17 Stepper Motor
+  quantity: 1
+  quantityUnits: part
+  options:
+  - nema-17-0_5nm-stepper-motor
+  selectedOption: 0
+  notes: ''

@@ -1,0 +1,9 @@
+{
+  "name": "nema-17-0_5nm-stepper-motor",
+  "version": "1.0.0",
+  "description": "Nema 17 0.5Nm Stepper Motor",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}
