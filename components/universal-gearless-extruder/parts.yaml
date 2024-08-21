@@ -67,7 +67,7 @@ nozzle:
   quantity: 1
   quantityUnits: part
   options:
-  - nozzle
+  - 1_75mm-volcano-style-0_4mm-nozzle
   selectedOption: 0
   notes: ''
 heat-break:
