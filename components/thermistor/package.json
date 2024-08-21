@@ -1,9 +1,0 @@
-{
-  "name": "thermistor",
-  "version": "1.0.0",
-  "description": "Thermistor",
-  "license": "CC-BY-SA-4.0",
-  "author": "Alexandria Little",
-  "dependencies": {
-  }
-}

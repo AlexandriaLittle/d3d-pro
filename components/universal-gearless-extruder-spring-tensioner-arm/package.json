@@ -1,0 +1,9 @@
+{
+  "name": "universal-gearless-extruder-spring-tensioner-arm",
+  "version": "1.0.0",
+  "description": "Universal Gearless Extruder Spring Tensioner Arm",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

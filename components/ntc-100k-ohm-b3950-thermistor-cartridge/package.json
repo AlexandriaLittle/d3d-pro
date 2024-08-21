@@ -1,0 +1,9 @@
+{
+  "name": "ntc-100k-ohm-b3950-thermistor-cartridge",
+  "version": "1.0.0",
+  "description": "NTC 100K ohm B3950 Thermistor Cartridge",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

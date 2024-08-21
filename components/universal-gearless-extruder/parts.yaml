@@ -1,10 +1,10 @@
 spring-tensioner:
   id: spring-tensioner
-  description: Spring tensioner extruder component
+  description: Spring Tensioner Arm
   quantity: 1
   quantityUnits: part
   options:
-  - spring-tensioner
+  - universal-gearless-extruder-spring-tensioner-arm
   selectedOption: 0
   notes: 3D printed part
 heatsink:
@@ -58,7 +58,7 @@ thermistor:
   quantity: 1
   quantityUnits: part
   options:
-  - thermistor
+  - ntc-100k-ohm-b3950-thermistor-cartridge
   selectedOption: 0
   notes: ''
 nozzle:
