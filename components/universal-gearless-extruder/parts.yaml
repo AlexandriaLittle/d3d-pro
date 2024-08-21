@@ -151,3 +151,12 @@ m3-8mm-screw:
   - m3-8mm-socket-head-cap-screw
   selectedOption: 0
   notes: ''
+active-cooling-height-sensor-plotter:
+  id: active-cooling-height-sensor-plotter
+  description: Active Cooling Height Sensor Plotter Part
+  quantity: 1
+  quantityUnits: part
+  options:
+  - universal-gearless-extruder-active-cooling-height-sensor-plotter
+  selectedOption: 0
+  notes: ''

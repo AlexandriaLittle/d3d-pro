@@ -1,0 +1,9 @@
+{
+  "name": "universal-gearless-extruder-active-cooling-height-sensor-plotter",
+  "version": "1.0.0",
+  "description": "Universal Gearless Extruder Active Cooling Height Sensor Plotter Part",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}
