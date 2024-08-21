@@ -1,0 +1,9 @@
+{
+  "name": "10mm-od-35mm-spring",
+  "version": "1.0.0",
+  "description": "10mm Outer Diameter 35mm Long 1.2mm Thick Compression Spring",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

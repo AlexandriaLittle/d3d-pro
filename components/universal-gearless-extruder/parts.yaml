@@ -79,3 +79,12 @@ heat-break:
   - 1_75mm-heat-break
   selectedOption: 0
   notes: ''
+extruder-spring:
+  id: extruder-spring
+  description: Extruder Spring
+  quantity: 1
+  quantityUnits: part
+  options:
+  - 10mm-od-35mm-spring
+  selectedOption: 0
+  notes: ''
