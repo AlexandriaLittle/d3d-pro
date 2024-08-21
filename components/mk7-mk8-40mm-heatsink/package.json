@@ -1,0 +1,9 @@
+{
+  "name": "mk7-mk8-40mm-heatsink",
+  "version": "1.0.0",
+  "description": "Mk7/Mk8 40mm Heatsink",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}
