@@ -49,7 +49,7 @@ heater-cartridge:
   quantity: 1
   quantityUnits: part
   options:
-  - heater-cartridge
+  - 24v-70w-heater-cartridge
   selectedOption: 0
   notes: ''
 thermistor:

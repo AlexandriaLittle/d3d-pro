@@ -1,7 +1,7 @@
 {
-  "name": "heater-cartridge",
+  "name": "24v-70w-heater-cartridge",
   "version": "1.0.0",
-  "description": "40W Ceramic Heater Cartridge",
+  "description": "24V 70W 6mm Diameter Ceramic Heater Cartridge",
   "license": "CC-BY-SA-4.0",
   "author": "Alexandria Little",
   "dependencies": {
