@@ -76,6 +76,6 @@ heat-break:
   quantity: 1
   quantityUnits: part
   options:
-  - heat-break
+  - 1_75mm-heat-break
   selectedOption: 0
   notes: ''
