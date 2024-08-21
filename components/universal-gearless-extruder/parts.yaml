@@ -126,10 +126,19 @@ blower-fan:
   notes: ''
 m3-30mm-screw:
   id: m3-30mm-screw
-  description: 40mm Fan
+  description: M3 x 30mm Screw
   quantity: 2
   quantityUnits: part
   options:
   - m3-30mm-socket-head-cap-screw
+  selectedOption: 0
+  notes: ''
+m3-20mm-screw:
+  id: m3-20mm-screw
+  description: M3 x 20mm Screw
+  quantity: 7
+  quantityUnits: part
+  options:
+  - m3-20mm-socket-head-cap-screw
   selectedOption: 0
   notes: ''
