@@ -142,3 +142,12 @@ m3-20mm-screw:
   - m3-20mm-socket-head-cap-screw
   selectedOption: 0
   notes: ''
+m3-8mm-screw:
+  id: m3-8mm-screw
+  description: M3 x 8mm Screw
+  quantity: 1
+  quantityUnits: part
+  options:
+  - m3-8mm-socket-head-cap-screw
+  selectedOption: 0
+  notes: ''
