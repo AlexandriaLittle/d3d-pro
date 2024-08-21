@@ -115,3 +115,12 @@ blower-fan:
   - mk7-mk8-40mm-heatsink
   selectedOption: 0
   notes: ''
+40mm-fan:
+  id: 40mm-fan
+  description: 40mm Fan
+  quantity: 1
+  quantityUnits: part
+  options:
+  - 24v-40mm-fan
+  selectedOption: 0
+  notes: ''
