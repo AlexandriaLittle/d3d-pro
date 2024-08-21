@@ -97,3 +97,12 @@ stepper-motor:
   - nema-17-0_5nm-stepper-motor
   selectedOption: 0
   notes: ''
+blower-fan:
+  id: blower-fan
+  description: Blower Fan
+  quantity: 1
+  quantityUnits: part
+  options:
+  - 24v-5015-blower-fan
+  selectedOption: 0
+  notes: ''
