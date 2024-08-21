@@ -1,0 +1,9 @@
+{
+  "name": "universal-gearless-extruder-heatsink-block",
+  "version": "1.0.0",
+  "description": "Universal Gearless Extruder Heatsink Block",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

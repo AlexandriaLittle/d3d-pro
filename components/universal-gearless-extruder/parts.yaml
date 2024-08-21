@@ -13,7 +13,7 @@ heatsink:
   quantity: 1
   quantityUnits: part
   options:
-  - heatsink
+  - universal-gearless-extruder-heatsink-block
   selectedOption: 0
   notes: ''
 608-bearing:
