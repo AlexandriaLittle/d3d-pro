@@ -40,7 +40,7 @@ heater-block:
   quantity: 1
   quantityUnits: part
   options:
-  - heater-block
+  - volcano-style-heater-block-generic
   selectedOption: 0
   notes: ''
 heater-cartridge:

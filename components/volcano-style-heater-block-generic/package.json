@@ -1,7 +1,7 @@
 {
-  "name": "heater-block",
+  "name": "volcano-style-heater-block-generic",
   "version": "1.0.0",
-  "description": "Volcano Heater Block",
+  "description": "Volcano Style Heater Block (Generic)",
   "license": "CC-BY-SA-4.0",
   "author": "Alexandria Little",
   "dependencies": {
