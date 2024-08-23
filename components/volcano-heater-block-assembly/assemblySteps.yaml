@@ -1,1 +1,10 @@
-[]
+- summary: Assemble the Volcano Heater Block Assembly!
+  requiredParts:
+    - m3-4mm-grub-screw
+    - m3-10mm-screw
+    - volcano-heater-block
+
+  requiredTools: []
+
+  details: |
+    . Hello World!

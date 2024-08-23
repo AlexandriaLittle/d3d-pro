@@ -16,12 +16,3 @@ m3-4mm-grub-screw:
   - m3-4mm-grub-screw
   selectedOption: 0
   notes: ''
-volcano-heater-block:
-  id: volcano-heater-block
-  description: Volcano Style Heater Block
-  quantity: 1
-  quantityUnits: part
-  options:
-  - volcano-heater-block
-  selectedOption: 0
-  notes: ''
