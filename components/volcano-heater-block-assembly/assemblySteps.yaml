@@ -7,4 +7,5 @@
   requiredTools: []
 
   details: |
-    . Hello World!
+    . Unpack required parts from bag.
+    . Lightly screw the *{{ parts.m3-10mm-screw.description }}* {{parts.m3-10mm-screw.quantityUnits}} into the *{{parts.volcano-heater-block.description}}*.

@@ -7,4 +7,4 @@
   requiredTools: []
 
   details: |
-    . Hello World!
+    . Hello World! {{parts.608-bearing.description}}
