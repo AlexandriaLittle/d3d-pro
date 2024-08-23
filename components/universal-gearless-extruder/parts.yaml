@@ -36,11 +36,11 @@ extruder-gear:
   notes: ''
 heater-block:
   id: heater-block
-  description: Volcano Heater Block
+  description: Volcano Heater Block Assembly
   quantity: 1
   quantityUnits: part
   options:
-  - volcano-style-heater-block-generic
+  - volcano-heater-block-assembly
   selectedOption: 0
   notes: ''
 heater-cartridge:
