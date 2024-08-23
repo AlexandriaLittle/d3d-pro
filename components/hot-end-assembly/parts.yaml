@@ -1,0 +1,63 @@
+m3-10mm-screw:
+  id: m3-10mm-screw
+  description: M3 x 10mm Cap Screw
+  quantity: 2
+  quantityUnits: parts
+  options:
+  - m3-10mm-cap-screw
+  selectedOption: 0
+  notes: ''
+m3-4mm-grub-screw:
+  id: m3-4mm-grub-screw
+  description: M3 x 4mm Grub Screw
+  quantity: 1
+  quantityUnits: part
+  options:
+  - m3-4mm-grub-screw
+  selectedOption: 0
+  notes: ''
+volcano-heater-block:
+  id: volcano-heater-block
+  description: Volcano Style Heater Block
+  quantity: 1
+  quantityUnits: part
+  options:
+  - volcano-heater-block
+  selectedOption: 0
+  notes: ''
+heater-cartridge:
+  id: heater-cartridge
+  description: Heater Cartridge
+  quantity: 1
+  quantityUnits: part
+  options:
+  - 24v-70w-heater-cartridge
+  selectedOption: 0
+  notes: ''
+thermistor:
+  id: thermistor
+  description: Thermistor Cartridge
+  quantity: 1
+  quantityUnits: part
+  options:
+  - ntc-100k-ohm-b3950-thermistor-cartridge
+  selectedOption: 0
+  notes: ''
+nozzle:
+  id: nozzle
+  description: Volcano Nozzle
+  quantity: 1
+  quantityUnits: part
+  options:
+  - 1_75mm-volcano-style-0_4mm-nozzle
+  selectedOption: 0
+  notes: ''
+heat-break:
+  id: heat-break
+  description: Heat Break
+  quantity: 1
+  quantityUnits: part
+  options:
+  - 1_75mm-heat-break
+  selectedOption: 0
+  notes: ''

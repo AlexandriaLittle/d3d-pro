@@ -1,0 +1,21 @@
+- summary: Assemble the {{parts.volcano-heater-block.description}}
+  requiredParts:
+    - m3-4mm-grub-screw
+    - m3-10mm-screw
+    - volcano-heater-block
+    - heater-cartridge
+    - thermistor
+
+  requiredTools:
+    - 1mm-allen-wrench
+    - 2mm-allen-wrench
+
+  details: |
+    . Unpack required parts from bag.
+    . Using the *{{tools.2mm-allen-wrench.description}}*, lightly screw the *{{ parts.m3-10mm-screw.description }}* {{parts.m3-10mm-screw.quantityUnits}} into the two threaded holes on the side of the *{{parts.volcano-heater-block.description}}*.
+    . Using the *{{tools.1mm-allen-wrench.description}}*, lightly screw the *{{parts.m3-4mm-grub-screw.description}}* into the single threaded hole on the side of the *{{parts.volcano-heater-block.description}}*. Be sure to leave enough room for the *{{parts.thermistor.description}}* to be inserted later.
+    . Insert the *{{parts.heater-cartridge.description}}* into the *{{parts.volcano-heater-block.description}}* with the wires coming out of the end with an indent.
+    . Insert the *{{parts.thermistor.description}}* with the wires coming out of the same side as the previous step.
+    . Screw down the *{{parts.m3-4mm-grub-screw.description}}* {{parts.m3-4mm-grub-screw.quantityUnits}} lightly using a *{{tools.1mm-allen-wrench.description}}* to fasten the *{{parts.thermistor.description}}*, but very lightly as the {{parts.m3-4mm-grub-screw.quantityUnits}} can go right through the *{{parts.thermistor.description}}*.
+    . Screw down the *{{ parts.m3-10mm-screw.description }}* {{parts.m3-10mm-screw.quantityUnits}} using a *{{tools.2mm-allen-wrench.description}}*, so that the *{{parts.volcano-heater-block.description}}* is secured. Do this evenly by screwing down one *{{ parts.m3-10mm-screw.description }}* then the other and alternating four times.
+    . Screw the *{{parts.nozzle.description}}* into the end of the *{{parts.volcano-heater-block.description}}* that does not have wires, until there is 1/2 of a thread exposed. 

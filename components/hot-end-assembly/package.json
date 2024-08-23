@@ -1,7 +1,7 @@
 {
-  "name": "volcano-heater-block-assembly",
+  "name": "hot-end-assembly",
   "version": "1.0.0",
-  "description": "Volcano Style Heater Block Assembly",
+  "description": "Hot End Assembly",
   "license": "CC-BY-SA-4.0",
   "author": "Alexandria Little",
   "dependencies": {

@@ -34,51 +34,16 @@ extruder-gear:
   - mk7-extruder-drive-gear
   selectedOption: 0
   notes: ''
-heater-block:
-  id: heater-block
+hot-end-assembly:
+  id: hot-end-assembly
   description: Volcano Heater Block Assembly
   quantity: 1
   quantityUnits: part
   options:
-  - volcano-heater-block-assembly
+  - hot-end-assembly
   selectedOption: 0
   notes: ''
-heater-cartridge:
-  id: heater-cartridge
-  description: Hot End Heater Cartridge
-  quantity: 1
-  quantityUnits: part
-  options:
-  - 24v-70w-heater-cartridge
-  selectedOption: 0
-  notes: ''
-thermistor:
-  id: thermistor
-  description: Thermistor
-  quantity: 1
-  quantityUnits: part
-  options:
-  - ntc-100k-ohm-b3950-thermistor-cartridge
-  selectedOption: 0
-  notes: ''
-nozzle:
-  id: nozzle
-  description: Filament Extrusion Nozzle
-  quantity: 1
-  quantityUnits: part
-  options:
-  - 1_75mm-volcano-style-0_4mm-nozzle
-  selectedOption: 0
-  notes: ''
-heat-break:
-  id: heat-break
-  description: Heat Break
-  quantity: 1
-  quantityUnits: part
-  options:
-  - 1_75mm-heat-break
-  selectedOption: 0
-  notes: ''
+
 extruder-spring:
   id: extruder-spring
   description: Extruder Spring
