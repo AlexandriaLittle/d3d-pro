@@ -2,8 +2,7 @@
   requiredParts:
     - universal-gearless-extruder
 
-  requiredTools:
-    - helping-hands
+  requiredTools: []
 
   details: |
     . Hello World!

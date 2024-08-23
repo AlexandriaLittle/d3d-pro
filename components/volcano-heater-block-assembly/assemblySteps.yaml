@@ -4,8 +4,10 @@
     - m3-10mm-screw
     - volcano-heater-block
 
-  requiredTools: []
+  requiredTools:
+    - 1mm-allen-wrench
 
   details: |
     . Unpack required parts from bag.
     . Lightly screw the *{{ parts.m3-10mm-screw.description }}* {{parts.m3-10mm-screw.quantityUnits}} into the *{{parts.volcano-heater-block.description}}*.
+    . Lightly screw the
