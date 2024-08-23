@@ -1,1 +1,9 @@
-{}
+m3-10mm-screw:
+  id: m3-10mm-screw
+  description: M3 x 10mm Cap Screw
+  quantity: 1
+  quantityUnits: part
+  options:
+  - m3-10mm-cap-screw
+  selectedOption: 0
+  notes: ''
