@@ -52,3 +52,12 @@ vise:
   - metal-jaw-vise
   selectedOption: 0
   notes: 'The jaws of the vise must be metal for heat resistance.'
+needle-nose-pliers:
+  id: needle-nose-pliers
+  description: Needle Nose Pliers
+  quantity: 1
+  quantityUnits: part
+  options:
+  - needle-nose-pliers
+  selectedOption: 0
+  notes: ''

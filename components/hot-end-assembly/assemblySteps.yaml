@@ -11,6 +11,7 @@
     - 2mm-allen-wrench
     - 24v-power-supply
     - 7mm-socket-wrench
+    - needle-nose-pliers
 
   details: |
     . Unpack required parts from bag.
@@ -23,4 +24,8 @@
     . Screw the *{{parts.nozzle.description}}* into the end of the *{{parts.volcano-heater-block.description}}* that does not have wires, until there is 1/2 of a thread exposed. 
     . Screw the short end of the *{{parts.heat-break.description}}* into the other side of the *{{parts.volcano-heater-block.description}}* until it bottoms out against the *{{parts.nozzle.description}}*.
     . Gently secure the *{{parts.volcano-heater-block.description}}* in the *{{tools.vise.description}}*, leaving enough clearance to tighten down the *{{parts.nozzle.description}}*.
-    . Attach the *{{parts.heater-cartridge.description}}* wires onto the output of the *{{tools.24v-power-supply.description}}*
+    . Attach the *{{parts.heater-cartridge.description}}* wires onto the output of the *{{tools.24v-power-supply.description}}* and power on the *{{tools.24v-power-supply.description}}*.
+    . Wait two minutes for the *{{parts.volcano-heater-block.description}}* to get hot.
+    . Using *{{tools.needle-nose-pliers.description}}*, hold the *{{parts.heat-break.description}}* in place while tightening down the *{{parts.nozzle.description}}* using the *{{tools.7mm-socket-wrench.description}}*. Make sure that the *{{parts.nozzle.description}}* bottoms out against the *{{parts.heat-break.description}}*, not against the *{{parts.volcano-heater-block.description}}* - the goal is to close the filament flow gap between the *{{parts.nozzle.description}}* and *{{parts.heat-break.description}}*.
+    . Once tightened, disconnect the *{{parts.heater-cartridge.description}}* from the *{{tools.24v-power-supply.description}}*.
+    . Wait at least five minutes for the *{{parts.volcano-heater-block.description}}* to cool down to a temperature that is safe to touch.
