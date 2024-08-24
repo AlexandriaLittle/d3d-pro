@@ -43,3 +43,12 @@ slip-joint-pliers:
   - slip-joint-pliers
   selectedOption: 0
   notes: 'Optional alternative tool for socket wrench'
+vise:
+  id: vise
+  description: Metal Jaw Vise
+  quantity: 1
+  quantityUnits: part
+  options:
+  - metal-jaw-vise
+  selectedOption: 0
+  notes: 'The jaws of the vise must be metal for heat resistance.'

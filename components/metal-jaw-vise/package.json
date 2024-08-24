@@ -1,0 +1,9 @@
+{
+  "name": "metal-jaw-vise",
+  "version": "1.0.0",
+  "description": "Metal Jaw Vise",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}
