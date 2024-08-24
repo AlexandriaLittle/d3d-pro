@@ -16,3 +16,12 @@
   - 2mm-allen-wrench
   selectedOption: 0
   notes: ''
+24v-power-supply:
+  id: 24v-power-supply
+  description: 24v Power Supply
+  quantity: 1
+  quantityUnits: part
+  options:
+  - 24v-power-supply
+  selectedOption: 0
+  notes: ''
