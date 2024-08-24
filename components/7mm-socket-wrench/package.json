@@ -1,0 +1,9 @@
+{
+  "name": "7mm-socket-wrench",
+  "version": "1.0.0",
+  "description": "7mm Socket Wrench",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

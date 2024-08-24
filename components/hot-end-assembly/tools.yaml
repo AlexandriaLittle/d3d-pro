@@ -25,3 +25,12 @@
   - 24v-power-supply
   selectedOption: 0
   notes: ''
+7mm-socket-wrench:
+  id: 7mm-socket-wrench
+  description: 7mm Socket Wrench
+  quantity: 1
+  quantityUnits: part
+  options:
+  - 7mm-socket-wrench
+  selectedOption: 0
+  notes: ''
