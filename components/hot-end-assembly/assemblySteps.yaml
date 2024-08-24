@@ -22,4 +22,5 @@
     . Screw down the *{{ parts.m3-10mm-screw.description }}* {{parts.m3-10mm-screw.quantityUnits}} using a *{{tools.2mm-allen-wrench.description}}*, so that the *{{parts.volcano-heater-block.description}}* is secured. Do this evenly by screwing down one *{{ parts.m3-10mm-screw.description }}* then the other and alternating four times.
     . Screw the *{{parts.nozzle.description}}* into the end of the *{{parts.volcano-heater-block.description}}* that does not have wires, until there is 1/2 of a thread exposed. 
     . Screw the short end of the *{{parts.heat-break.description}}* into the other side of the *{{parts.volcano-heater-block.description}}* until it bottoms out against the *{{parts.nozzle.description}}*.
-    . 
+    . Gently secure the *{{parts.volcano-heater-block.description}}* in the *{{tools.vise.description}}*, leaving enough clearance to tighten down the *{{parts.nozzle.description}}*.
+    . Attach the *{{parts.heater-cartridge.description}}* wires onto the output of the *{{tools.24v-power-supply.description}}*
