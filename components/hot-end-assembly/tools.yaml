@@ -34,3 +34,12 @@
   - 7mm-socket-wrench
   selectedOption: 0
   notes: ''
+slip-joint-pliers:
+  id: slip-joint-pliers
+  description: Slip Joint Pliers
+  quantity: 1
+  quantityUnits: part
+  options:
+  - slip-joint-pliers
+  selectedOption: 0
+  notes: 'Optional alternative tool for socket wrench'
