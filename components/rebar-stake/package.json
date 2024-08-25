@@ -1,7 +1,7 @@
 {
-  "name": "universal-gearless-extruder",
+  "name": "rebar-stake",
   "version": "1.0.0",
-  "description": "Universal Gearless Extruder Module",
+  "description": "12.7mm x 450mm Rebar Stake",
   "license": "CC-BY-SA-4.0",
   "author": "Alexandria Little",
   "dependencies": {

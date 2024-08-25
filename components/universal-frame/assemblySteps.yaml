@@ -1,0 +1,31 @@
+- summary: Clean 3D Printed Parts
+  requiredParts: []
+
+  requiredTools: []
+
+  details: |
+    . 
+
+- summary: Assemble {{description}} Base
+  requiredParts: []
+
+  requiredTools: []
+
+  details: |
+    . 
+
+- summary: Assemble {{description}} Top
+  requiredParts: []
+
+  requiredTools: []
+
+  details: |
+    . 
+
+- summary: Assemble {{description}}
+  requiredParts: []
+
+  requiredTools: []
+
+  details: |
+    . 

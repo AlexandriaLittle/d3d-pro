@@ -1,0 +1,9 @@
+rebar-stake:
+  description: Rebar Stake
+  id: rebar-stake
+  notes: ''
+  options:
+    - rebar-stake
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0

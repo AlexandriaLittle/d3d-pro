@@ -1,9 +1,19 @@
+universal-frame:
+  id: universal-frame
+  description: Universal Frame
+  quantity: 1
+  quantityUnits: module
+  options:
+  - universal-frame
+  selectedOption: 0
+  notes: ''
 universal-gearless-extruder:
   id: universal-gearless-extruder
-  description: OSE Universal Gearless Extruder
+  description: Universal Gearless Extruder
   quantity: 1
   quantityUnits: module
   options:
   - universal-gearless-extruder
   selectedOption: 0
   notes: ''
+  
