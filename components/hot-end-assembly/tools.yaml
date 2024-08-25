@@ -1,63 +1,63 @@
 1mm-allen-wrench:
-  id: 1mm-allen-wrench
   description: 1mm Allen Wrench
+  id: 1mm-allen-wrench
+  notes: ''
+  options:
+    - 1mm-allen-wrench
   quantity: 1
   quantityUnits: part
-  options:
-  - 1mm-allen-wrench
   selectedOption: 0
-  notes: ''
-2mm-allen-wrench:
-  id: 2mm-allen-wrench
-  description: 2mm Allen Wrench
-  quantity: 1
-  quantityUnits: part
-  options:
-  - 2mm-allen-wrench
-  selectedOption: 0
-  notes: ''
 24v-power-supply:
-  id: 24v-power-supply
   description: 24v Power Supply
+  id: 24v-power-supply
+  notes: ''
+  options:
+    - 24v-power-supply
   quantity: 1
   quantityUnits: part
-  options:
-  - 24v-power-supply
   selectedOption: 0
+2mm-allen-wrench:
+  description: 2mm Allen Wrench
+  id: 2mm-allen-wrench
   notes: ''
+  options:
+    - 2mm-allen-wrench
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
 7mm-socket-wrench:
-  id: 7mm-socket-wrench
   description: 7mm Socket Wrench
-  quantity: 1
-  quantityUnits: part
-  options:
-  - 7mm-socket-wrench
-  selectedOption: 0
+  id: 7mm-socket-wrench
   notes: ''
-slip-joint-pliers:
-  id: slip-joint-pliers
-  description: Slip Joint Pliers
+  options:
+    - 7mm-socket-wrench
   quantity: 1
   quantityUnits: part
-  options:
-  - slip-joint-pliers
   selectedOption: 0
-  notes: ''
-vise:
-  id: vise
-  description: Metal Jaw Vise
-  quantity: 1
-  quantityUnits: part
-  options:
-  - metal-jaw-vise
-  selectedOption: 0
-  notes: 'The jaws of the vise must be metal for heat resistance.'
 needle-nose-pliers:
-  id: needle-nose-pliers
   description: Needle Nose Pliers
+  id: needle-nose-pliers
+  notes: ''
+  options:
+    - needle-nose-pliers
   quantity: 1
   quantityUnits: part
-  options:
-  - needle-nose-pliers
   selectedOption: 0
+slip-joint-pliers:
+  description: Slip Joint Pliers
+  id: slip-joint-pliers
   notes: ''
+  options:
+    - slip-joint-pliers
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+vise:
+  description: Metal Jaw Vise
+  id: vise
+  notes: The jaws of the vise must be metal for heat resistance.
+  options:
+    - metal-jaw-vise
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0

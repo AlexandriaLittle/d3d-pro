@@ -1,90 +1,90 @@
+heat-break:
+  description: Heat Break
+  id: heat-break
+  notes: ''
+  options:
+    - 1_75mm-heat-break
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+heater-cartridge:
+  description: Heater Cartridge
+  id: heater-cartridge
+  notes: ''
+  options:
+    - 24v-70w-heater-cartridge
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+heatsink-block:
+  description: Heatsink Block
+  id: heatsink-block
+  notes: ''
+  options:
+    - universal-gearless-extruder-heatsink-block
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
 m3-10mm-screw:
-  id: m3-10mm-screw
   description: M3 x 10mm Cap Screw
+  id: m3-10mm-screw
+  notes: ''
+  options:
+    - m3-10mm-cap-screw
   quantity: 2
   quantityUnits: parts
-  options:
-  - m3-10mm-cap-screw
   selectedOption: 0
-  notes: ''
 m3-4mm-grub-screw:
-  id: m3-4mm-grub-screw
   description: M3 x 4mm Grub Screw
+  id: m3-4mm-grub-screw
+  notes: ''
+  options:
+    - m3-4mm-grub-screw
   quantity: 1
   quantityUnits: part
-  options:
-  - m3-4mm-grub-screw
   selectedOption: 0
-  notes: ''
-volcano-heater-block:
-  id: volcano-heater-block
-  description: Volcano Style Heater Block
-  quantity: 1
-  quantityUnits: part
-  options:
-  - volcano-heater-block
-  selectedOption: 0
-  notes: ''
-heater-cartridge:
-  id: heater-cartridge
-  description: Heater Cartridge
-  quantity: 1
-  quantityUnits: part
-  options:
-  - 24v-70w-heater-cartridge
-  selectedOption: 0
-  notes: ''
-thermistor:
-  id: thermistor
-  description: Thermistor Cartridge
-  quantity: 1
-  quantityUnits: part
-  options:
-  - ntc-100k-ohm-b3950-thermistor-cartridge
-  selectedOption: 0
-  notes: ''
-nozzle:
-  id: nozzle
-  description: Volcano Nozzle
-  quantity: 1
-  quantityUnits: part
-  options:
-  - 1_75mm-volcano-style-0_4mm-nozzle
-  selectedOption: 0
-  notes: ''
-heat-break:
-  id: heat-break
-  description: Heat Break
-  quantity: 1
-  quantityUnits: part
-  options:
-  - 1_75mm-heat-break
-  selectedOption: 0
-  notes: ''
 m6-thin-nut:
-  id: m6-thin-nut
   description: M6 Thin Nut
+  id: m6-thin-nut
+  notes: ''
+  options:
+    - m6-thin-nut
   quantity: 1
   quantityUnits: part
-  options:
-  - m6-thin-nut
   selectedOption: 0
+nozzle:
+  description: Volcano Nozzle
+  id: nozzle
   notes: ''
+  options:
+    - 1_75mm-volcano-style-0_4mm-nozzle
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
 thermal-paste:
-  id: thermal-paste
   description: Thermal Paste
+  id: thermal-paste
+  notes: ''
+  options:
+    - thermal-paste
   quantity: 2
   quantityUnits: drop(s)
-  options:
-  - thermal-paste
   selectedOption: 0
+thermistor:
+  description: Thermistor Cartridge
+  id: thermistor
   notes: ''
-heatsink-block:
-  id: heatsink-block
-  description: Heatsink Block
+  options:
+    - ntc-100k-ohm-b3950-thermistor-cartridge
   quantity: 1
   quantityUnits: part
-  options:
-  - universal-gearless-extruder-heatsink-block
   selectedOption: 0
+volcano-heater-block:
+  description: Volcano Style Heater Block
+  id: volcano-heater-block
   notes: ''
+  options:
+    - volcano-heater-block
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0

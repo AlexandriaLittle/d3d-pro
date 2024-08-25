@@ -1,189 +1,189 @@
-spring-tensioner:
-  id: spring-tensioner
-  description: Spring Tensioner Arm
-  quantity: 1
-  quantityUnits: part
-  options:
-  - universal-gearless-extruder-spring-tensioner-arm
-  selectedOption: 0
-  notes: 3D printed part
-608-bearing:
-  id: 608-bearing
-  description: 608 ZZ Bearing
-  quantity: 1
-  quantityUnits: part
-  options:
-  - 608-bearing
-  selectedOption: 0
-  notes: ''
-extruder-gear:
-  id: extruder-gear
-  description: Filament Drive Gear
-  quantity: 1
-  quantityUnits: part
-  options:
-  - mk7-extruder-drive-gear
-  selectedOption: 0
-  notes: ''
-hot-end-assembly:
-  id: hot-end-assembly
-  description: Hot End Assembly
-  quantity: 1
-  quantityUnits: part
-  options:
-  - hot-end-assembly
-  selectedOption: 0
-  notes: ''
-extruder-spring:
-  id: extruder-spring
-  description: Extruder Spring
-  quantity: 1
-  quantityUnits: part
-  options:
-  - 10mm-od-35mm-spring
-  selectedOption: 0
-  notes: ''
-stepper-motor:
-  id: stepper-motor
-  description: Nema 17 Stepper Motor
-  quantity: 1
-  quantityUnits: part
-  options:
-  - nema-17-0_5nm-stepper-motor
-  selectedOption: 0
-  notes: ''
-blower-fan:
-  id: blower-fan
-  description: Blower Fan
-  quantity: 1
-  quantityUnits: part
-  options:
-  - 24v-5015-blower-fan
-  selectedOption: 0
-  notes: ''
-40mm-heatsink:
-  id: 40mm-heatsink
-  description: 40mm Heatsink Fins
-  quantity: 1
-  quantityUnits: part
-  options:
-  - mk7-mk8-40mm-heatsink
-  selectedOption: 0
-  notes: ''
 40mm-fan:
-  id: 40mm-fan
   description: 40mm Fan
+  id: 40mm-fan
+  notes: ''
+  options:
+    - 24v-40mm-fan
   quantity: 1
   quantityUnits: part
-  options:
-  - 24v-40mm-fan
   selectedOption: 0
+40mm-heatsink:
+  description: 40mm Heatsink Fins
+  id: 40mm-heatsink
   notes: ''
+  options:
+    - mk7-mk8-40mm-heatsink
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+608-bearing:
+  description: 608 ZZ Bearing
+  id: 608-bearing
+  notes: ''
+  options:
+    - 608-bearing
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+active-cooling-height-sensor-plotter:
+  description: Secondary Extruder Part
+  id: active-cooling-height-sensor-plotter
+  notes: 3D Printed Part
+  options:
+    - universal-gearless-extruder-active-cooling-height-sensor-plotter
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+blower-fan:
+  description: Blower Fan
+  id: blower-fan
+  notes: ''
+  options:
+    - 24v-5015-blower-fan
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+extruder-gear:
+  description: Filament Drive Gear
+  id: extruder-gear
+  notes: ''
+  options:
+    - mk7-extruder-drive-gear
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+extruder-spring:
+  description: Extruder Spring
+  id: extruder-spring
+  notes: ''
+  options:
+    - 10mm-od-35mm-spring
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+height-sensor:
+  description: Height Sensor
+  id: height-sensor
+  notes: ''
+  options:
+    - height-sensor
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+hot-end-assembly:
+  description: Hot End Assembly
+  id: hot-end-assembly
+  notes: ''
+  options:
+    - hot-end-assembly
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+m3-20mm-screw:
+  description: M3 x 20mm Screw
+  id: m3-20mm-screw
+  notes: ''
+  options:
+    - m3-20mm-socket-head-cap-screw
+  quantity: 4
+  quantityUnits: part(s)
+  selectedOption: 0
 m3-30mm-screw:
-  id: m3-30mm-screw
   description: M3 x 30mm Screw
+  id: m3-30mm-screw
+  notes: ''
+  options:
+    - m3-30mm-socket-head-cap-screw
   quantity: 2
   quantityUnits: part(s)
-  options:
-  - m3-30mm-socket-head-cap-screw
   selectedOption: 0
-  notes: ''
-m3-20mm-screw:
-  id: m3-20mm-screw
-  description: M3 x 20mm Screw
-  quantity: 4
-  quantityUnits: part(s)
-  options:
-  - m3-20mm-socket-head-cap-screw
-  selectedOption: 0
-  notes: ''
 m3-8mm-screw:
-  id: m3-8mm-screw
   description: M3 x 8mm Screw
+  id: m3-8mm-screw
+  notes: ''
+  options:
+    - m3-8mm-socket-head-cap-screw
   quantity: 4
   quantityUnits: part(s)
-  options:
-  - m3-8mm-socket-head-cap-screw
   selectedOption: 0
-  notes: ''
 m6-25mm-screw:
-  id: m6-25mm-screw
   description: M6 x 25mm Screw
+  id: m6-25mm-screw
+  notes: ''
+  options:
+    - m6-25mm-socket-head-cap-screw
   quantity: 1
   quantityUnits: part(s)
-  options:
-  - m6-25mm-socket-head-cap-screw
   selectedOption: 0
-  notes: ''
-active-cooling-height-sensor-plotter:
-  id: active-cooling-height-sensor-plotter
-  description: Secondary Extruder Part
-  quantity: 1
-  quantityUnits: part
-  options:
-  - universal-gearless-extruder-active-cooling-height-sensor-plotter
-  selectedOption: 0
-  notes: 3D Printed Part
-motor-mount:
-  id: motor-mount
-  description: Motor Mount
-  quantity: 1
-  quantityUnits: part
-  options:
-  - universal-gearless-extruder-motor-mount
-  selectedOption: 0
-  notes: 3D Printed Part
-height-sensor:
-  id: height-sensor
-  description: Height Sensor
-  quantity: 1
-  quantityUnits: part
-  options:
-  - height-sensor
-  selectedOption: 0
-  notes: ''
 m6-nut:
-  id: m6-nut
   description: M6 Nut
+  id: m6-nut
+  notes: ''
+  options:
+    - m6-nut
   quantity: 1
   quantityUnits: part
-  options:
-  - m6-nut
   selectedOption: 0
+motor-mount:
+  description: Motor Mount
+  id: motor-mount
+  notes: 3D Printed Part
+  options:
+    - universal-gearless-extruder-motor-mount
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+split-wire-loom:
+  description: 2 Meter Split Wire Loom
+  id: split-wire-loom
   notes: ''
+  options:
+    - split-wire-loom
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+spring-tensioner:
+  description: Spring Tensioner Arm
+  id: spring-tensioner
+  notes: 3D printed part
+  options:
+    - universal-gearless-extruder-spring-tensioner-arm
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+stepper-motor:
+  description: Nema 17 Stepper Motor
+  id: stepper-motor
+  notes: ''
+  options:
+    - nema-17-0_5nm-stepper-motor
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+stepper-motor-cable:
+  description: 2 Meter Stepper Motor Cable
+  id: stepper-motor-cable
+  notes: ''
+  options:
+    - stepper-motor-cable
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
 thermal-paste:
-  id: thermal-paste
   description: Thermal Paste
+  id: thermal-paste
+  notes: ''
+  options:
+    - thermal-paste
   quantity: 2
   quantityUnits: drop(s)
-  options:
-  - thermal-paste
   selectedOption: 0
-  notes: ''
-stepper-motor-cable:
-  id: stepper-motor-cable
-  description: 2 Meter Stepper Motor Cable
-  quantity: 1
-  quantityUnits: part
-  options:
-  - stepper-motor-cable
-  selectedOption: 0
-  notes: ''
-split-wire-loom:
-  id: split-wire-loom
-  description: 2 Meter Split Wire Loom
-  quantity: 1
-  quantityUnits: part
-  options:
-  - split-wire-loom
-  selectedOption: 0
-  notes: ''
 zip-tie-small:
-  id: zip-tie-small
   description: Small Zip Tie
+  id: zip-tie-small
+  notes: ''
+  options:
+    - zip-tie-small
   quantity: 1
   quantityUnits: part
-  options:
-  - zip-tie-small
   selectedOption: 0
-  notes: ''

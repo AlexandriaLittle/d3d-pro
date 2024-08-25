@@ -1,45 +1,45 @@
-1mm-allen-wrench:
-  id: 1mm-allen-wrench
-  description: 1mm Allen Wrench
-  quantity: 1
-  quantityUnits: part
-  options:
-  - 1mm-allen-wrench
-  selectedOption: 0
-  notes: ''
-2_5mm-allen-wrench:
-  id: 2_5mm-allen-wrench
-  description: 2.5mm Allen Wrench
-  quantity: 1
-  quantityUnits: part
-  options:
-  - 2_5mm-allen-wrench
-  selectedOption: 0
-  notes: ''
-5mm-allen-wrench:
-  id: 5mm-allen-wrench
-  description: 5mm Allen Wrench
-  quantity: 1
-  quantityUnits: part
-  options:
-  - 5mm-allen-wrench
-  selectedOption: 0
-  notes: ''
-hobby-knife:
-  id: hobby-knife
-  description: Hobby Knife
-  quantity: 1
-  quantityUnits: part
-  options:
-  - hobby-knife
-  selectedOption: 0
-  notes: ''
 1_75mm-filament:
-  id: 1_75mm-filament
   description: 1.75mm Filament
+  id: 1_75mm-filament
+  notes: ''
+  options:
+    - 1_75mm-3d-printer-filament
   quantity: 100
   quantityUnits: mm
-  options:
-  - 1_75mm-3d-printer-filament
   selectedOption: 0
+1mm-allen-wrench:
+  description: 1mm Allen Wrench
+  id: 1mm-allen-wrench
   notes: ''
+  options:
+    - 1mm-allen-wrench
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+2_5mm-allen-wrench:
+  description: 2.5mm Allen Wrench
+  id: 2_5mm-allen-wrench
+  notes: ''
+  options:
+    - 2_5mm-allen-wrench
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+5mm-allen-wrench:
+  description: 5mm Allen Wrench
+  id: 5mm-allen-wrench
+  notes: ''
+  options:
+    - 5mm-allen-wrench
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+hobby-knife:
+  description: Hobby Knife
+  id: hobby-knife
+  notes: ''
+  options:
+    - hobby-knife
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
