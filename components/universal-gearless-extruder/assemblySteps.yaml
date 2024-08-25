@@ -91,19 +91,28 @@
     . Insert the *{{parts.extruder-spring.description}}* between the arm of the *{{parts.spring-tensioner.description}}* and the mounting slot on the *{{parts.motor-mount.description}}*.
 
 - summary: Install {{parts.height-sensor.description}}
-  requiredParts: []
+  requiredParts:
+  - active-cooling-height-sensor-plotter
+  - height-sensor
+  - m6-25mm-screw
 
 
-  requiredTools: []
+  requiredTools:
+  - 5mm-allen-wrench
 
   details: |
-    . 
+    . Insert the *{{parts.height-sensor.description}}* into the slot on the left side of the *{{parts.active-cooling-height-sensor-plotter.description}}*.
+    . Adjust the height of the *{{parts.height-sensor.description}}* so the bottom is slightly above the bottom of the *{{parts.active-cooling-height-sensor-plotter.description}}*.
+    . Using the *{{tools.5mm-allen-wrench.description}}*, screw the *{{parts.m6-25mm-screw.description}}* into the hole at the back of the slot. Tighten the *{{parts.m6-25mm-screw.description}}* only enough to hold the *{{parts.active-cooling-height-sensor-plotter.description}}* in place and not damage it.
 
-- summary: Install {{parts.40mm-heatsink.description}}
-  requiredParts: []
+- summary: Install {{parts.40mm-fan.description}}
+  requiredParts: 
+  - 40mm-heatsink
+  - 40mm-fan
+  - m3-20mm-screw
 
-
-  requiredTools: []
+  requiredTools: 
+  - 2_5mm-allen-wrench
 
   details: |
     . 

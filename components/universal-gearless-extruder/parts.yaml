@@ -105,6 +105,15 @@ m3-8mm-screw:
   - m3-8mm-socket-head-cap-screw
   selectedOption: 0
   notes: ''
+m6-25mm-screw:
+  id: m6-25mm-screw
+  description: M6 x 25mm Screw
+  quantity: 1
+  quantityUnits: part(s)
+  options:
+  - m6-25mm-socket-head-cap-screw
+  selectedOption: 0
+  notes: ''
 active-cooling-height-sensor-plotter:
   id: active-cooling-height-sensor-plotter
   description: Secondary Extruder Part
