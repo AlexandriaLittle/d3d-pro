@@ -1,0 +1,9 @@
+{
+  "name": "ramps-1_4-endstop",
+  "version": "1.0.0",
+  "description": "RAMPS 1.4 Mechanical Limit Switch/Endstop",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

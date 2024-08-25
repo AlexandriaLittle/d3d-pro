@@ -1,0 +1,9 @@
+{
+  "name": "gt2-6mm-1500mm-belt",
+  "version": "1.0.0",
+  "description": "GT2 6mm Wide x 1500mm Long Belt",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}
