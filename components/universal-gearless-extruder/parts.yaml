@@ -62,7 +62,7 @@ blower-fan:
   notes: ''
 40mm-heatsink:
   id: 40mm-heatsink
-  description: 40mm Heatsink
+  description: 40mm Heatsink Fins
   quantity: 1
   quantityUnits: part
   options:
@@ -82,7 +82,7 @@ m3-30mm-screw:
   id: m3-30mm-screw
   description: M3 x 30mm Screw
   quantity: 2
-  quantityUnits: part
+  quantityUnits: part(s)
   options:
   - m3-30mm-socket-head-cap-screw
   selectedOption: 0
@@ -90,8 +90,8 @@ m3-30mm-screw:
 m3-20mm-screw:
   id: m3-20mm-screw
   description: M3 x 20mm Screw
-  quantity: 7
-  quantityUnits: part
+  quantity: 4
+  quantityUnits: part(s)
   options:
   - m3-20mm-socket-head-cap-screw
   selectedOption: 0
@@ -99,8 +99,8 @@ m3-20mm-screw:
 m3-8mm-screw:
   id: m3-8mm-screw
   description: M3 x 8mm Screw
-  quantity: 1
-  quantityUnits: part
+  quantity: 4
+  quantityUnits: part(s)
   options:
   - m3-8mm-socket-head-cap-screw
   selectedOption: 0
@@ -123,3 +123,12 @@ motor-mount:
   - universal-gearless-extruder-motor-mount
   selectedOption: 0
   notes: 3D Printed Part
+height-sensor:
+  id: height-sensor
+  description: Height Sensor
+  quantity: 1
+  quantityUnits: part
+  options:
+  - height-sensor
+  selectedOption: 0
+  notes: 

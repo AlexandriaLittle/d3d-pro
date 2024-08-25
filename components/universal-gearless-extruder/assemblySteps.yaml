@@ -1,7 +1,9 @@
 - summary: Assemble the {{parts.motor-mount.description}}
   requiredParts:
-    - 608-bearing
-    - spring-tensioner
+    - motor-mount
+    - stepper-motor
+    - m3-8mm-screw
+    - 
 
   requiredTools: []
 
@@ -27,7 +29,34 @@
   details: |
     . 
 
-- summary: Install
+- summary: Install {{parts.spring-tensioner.description}} and {{parts.extruder-gear.description}}
+  requiredParts: []
+
+
+  requiredTools: []
+
+  details: |
+    . 
+
+- summary: Install {{parts.height-sensor.description}}
+  requiredParts: []
+
+
+  requiredTools: []
+
+  details: |
+    . 
+
+- summary: Install {{parts.40mm-heatsink.description}}
+  requiredParts: []
+
+
+  requiredTools: []
+
+  details: |
+    . 
+
+- summary: Install {{parts.blower-fan.description}}
   requiredParts: []
 
 
