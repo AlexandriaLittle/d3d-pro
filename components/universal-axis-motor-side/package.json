@@ -1,0 +1,9 @@
+{
+  "name": "universal-axis-motor-side",
+  "version": "1.0.0",
+  "description": "Universal Axis Motor Side Module",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}
