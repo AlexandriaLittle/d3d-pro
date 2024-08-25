@@ -1,1 +1,9 @@
-{}
+universal-axis-idler-side:
+  id: universal-axis-idler-side
+  description: Universal Axis Idler Side
+  quantity: 1
+  quantityUnits: part
+  options:
+  - universal-axis-idler-side
+  selectedOption: 0
+  notes: ''
