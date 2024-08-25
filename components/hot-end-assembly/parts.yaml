@@ -61,3 +61,12 @@ heat-break:
   - 1_75mm-heat-break
   selectedOption: 0
   notes: ''
+m6-thin-nut:
+  id: m6-thin-nut
+  description: M6 Thin Nut
+  quantity: 1
+  quantityUnits: part
+  options:
+  - m6-thin-nut
+  selectedOption: 0
+  notes: ''

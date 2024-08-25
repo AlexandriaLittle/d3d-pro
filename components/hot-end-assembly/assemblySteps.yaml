@@ -2,6 +2,7 @@
   requiredParts:
     - m3-4mm-grub-screw
     - m3-10mm-screw
+    - m6-thin-nut
     - volcano-heater-block
     - heater-cartridge
     - thermistor
@@ -28,4 +29,7 @@
     . Wait two minutes for the *{{parts.volcano-heater-block.description}}* to get hot.
     . Using *{{tools.needle-nose-pliers.description}}*, hold the *{{parts.heat-break.description}}* in place while tightening down the *{{parts.nozzle.description}}* using the *{{tools.7mm-socket-wrench.description}}*. Make sure that the *{{parts.nozzle.description}}* bottoms out against the *{{parts.heat-break.description}}*, not against the *{{parts.volcano-heater-block.description}}* - the goal is to close the filament flow gap between the *{{parts.nozzle.description}}* and *{{parts.heat-break.description}}*.
     . Once tightened, disconnect the *{{parts.heater-cartridge.description}}* from the *{{tools.24v-power-supply.description}}*.
-    . Wait at least five minutes for the *{{parts.volcano-heater-block.description}}* to cool down to a temperature that is safe to touch.
+    . Wait at least five minutes for the *{{parts.volcano-heater-block.description}}* to cool down to a temperature that is safe to touch. 
+    . Reposition the *{{parts.volcano-heater-block.description}}* in the *{{tools.vise.description}}* so that the long end of the *{{parts.heat-break.description}}* is accessible to tools.
+    . Screw the *{{parts.m6-thin-nut.description}}* onto the *{{parts.heat-break.description}}* until the *{{parts.m6-thin-nut.description}}* is near the gap on the *{{parts.heat-break.description}}*.
+    . 
