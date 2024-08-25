@@ -27,14 +27,12 @@ extruder-gear:
   notes: ''
 hot-end-assembly:
   id: hot-end-assembly
-  description: Volcano Heater Block Assembly
-  quantity: 1
+  description: Hot End Assembly
   quantityUnits: part
   options:
   - hot-end-assembly
   selectedOption: 0
   notes: ''
-
 extruder-spring:
   id: extruder-spring
   description: Extruder Spring
@@ -109,19 +107,19 @@ m3-8mm-screw:
   notes: ''
 active-cooling-height-sensor-plotter:
   id: active-cooling-height-sensor-plotter
-  description: Active Cooling Height Sensor Plotter Part
+  description: Secondary Extruder Part
   quantity: 1
   quantityUnits: part
   options:
   - universal-gearless-extruder-active-cooling-height-sensor-plotter
   selectedOption: 0
-  notes: ''
+  notes: 3D Printed Part
 motor-mount:
   id: motor-mount
-  description: Motor Mount Part
+  description: Motor Mount
   quantity: 1
   quantityUnits: part
   options:
   - universal-gearless-extruder-motor-mount
   selectedOption: 0
-  notes: ''
+  notes: 3D Printed Part

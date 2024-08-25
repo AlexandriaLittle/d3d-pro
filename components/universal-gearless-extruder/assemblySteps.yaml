@@ -1,10 +1,37 @@
-- summary: Assemble the Extruder!
+- summary: Assemble the {{parts.motor-mount.description}}
   requiredParts:
     - 608-bearing
-    - heatsink
     - spring-tensioner
 
   requiredTools: []
 
   details: |
-    . Hello World! {{parts.608-bearing.description}}
+    . Clean off any extra plastic on the *{{parts.motor-mount.description}}*.
+
+- summary: Add the {{parts.active-cooling-height-sensor-plotter.description}}
+  requiredParts: 
+  - active-cooling-height-sensor-plotter
+
+
+  requiredTools: []
+
+  details: |
+    . 
+
+- summary: Install {{parts.hot-end-assembly.description}}
+  requiredParts: []
+
+
+  requiredTools: []
+
+  details: |
+    . 
+
+- summary: Install
+  requiredParts: []
+
+
+  requiredTools: []
+
+  details: |
+    . 
