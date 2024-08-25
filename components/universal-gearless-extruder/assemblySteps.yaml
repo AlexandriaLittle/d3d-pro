@@ -102,7 +102,7 @@
 
   details: |
     . Insert the *{{parts.height-sensor.description}}* into the slot on the left side of the *{{parts.active-cooling-height-sensor-plotter.description}}*.
-    . Adjust the height of the *{{parts.height-sensor.description}}* so the bottom is slightly above the bottom of the *{{parts.active-cooling-height-sensor-plotter.description}}*.
+    . Adjust the height of the *{{parts.height-sensor.description}}* so the bottom is 2mm above the bottom of the *{{parts.active-cooling-height-sensor-plotter.description}}*.
     . Using the *{{tools.5mm-allen-wrench.description}}*, screw the *{{parts.m6-25mm-screw.description}}* into the hole at the back of the slot. Tighten the *{{parts.m6-25mm-screw.description}}* only enough to hold the *{{parts.active-cooling-height-sensor-plotter.description}}* in place and not damage it.
 
 - summary: Install {{parts.40mm-fan.description}}
@@ -123,9 +123,11 @@
   - stepper-motor-cable
   - split-wire-loom
   - zip-tie-small
-
-  requiredTools: 
-  - 
+  
+  requiredTools: []
 
   details: |
-    . 
+    . Connect the *{{parts.stepper-motor-cable.description}}* to the *{{parts.stepper-motor.description}}* in the *{{parts.motor-mount.description}}*. There should only be one cable orientation that fits in the *{{parts.stepper-motor.description}}*.
+    . Bundle the *{{description}}* wires such that when looking at the front of the {{description}}, the wires are sent to the right hand side.
+    . Use a *{{parts.zip-tie-small.description}}* to hold the wires together.
+    . Take all 15 *{{description}}* wires and pull them through the *{{parts.split-wire-loom.description}}*.
