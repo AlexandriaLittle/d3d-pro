@@ -1,0 +1,9 @@
+{
+  "name": "rebar-mount",
+  "version": "1.0.0",
+  "description": "Rebar Mount",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

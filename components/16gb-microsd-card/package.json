@@ -1,0 +1,9 @@
+{
+  "name": "16gb-microsd-card",
+  "version": "1.0.0",
+  "description": "16GB MicroSD Card",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "raspberry-pi-4b",
+  "version": "1.0.0",
+  "description": "Raspberry Pi Model 4B",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "solid-state-relay",
+  "version": "1.0.0",
+  "description": "40A Solid State Relay (SSR-40DA)",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ground-fault-connection-interrupter",
+  "version": "1.0.0",
+  "description": "Ground Fault Connection Interrupter (GFCI)",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

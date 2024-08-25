@@ -1,0 +1,9 @@
+{
+  "name": "arduino-mega-2560",
+  "version": "1.0.0",
+  "description": "Arduino Mega 2560",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}
