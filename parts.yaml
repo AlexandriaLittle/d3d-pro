@@ -1,3 +1,39 @@
+universal-axis-x:
+  id: universal-axis-x
+  description: Universal X Axis
+  quantity: 1
+  quantityUnits: module
+  options:
+  - universal-axis-x
+  selectedOption: 0
+  notes: ''
+universal-axis-y1:
+  id: universal-axis-y1
+  description: Universal Y1 Axis
+  quantity: 1
+  quantityUnits: module
+  options:
+  - universal-axis-y1
+  selectedOption: 0
+  notes: ''
+universal-axis-y2:
+  id: universal-axis-y2
+  description: Universal Y2 Axis
+  quantity: 1
+  quantityUnits: module
+  options:
+  - universal-axis-y2
+  selectedOption: 0
+  notes: ''
+universal-axis-z:
+  id: universal-axis-z
+  description: Universal Z Axis
+  quantity: 2
+  quantityUnits: module
+  options:
+  - universal-axis-z
+  selectedOption: 0
+  notes: ''
 universal-frame:
   id: universal-frame
   description: Universal Frame
