@@ -1,0 +1,9 @@
+{
+  "name": "m3-25mm-socket-head-cap-screw",
+  "version": "1.0.0",
+  "description": "M3 x 25mm Socket Head Cap Screw",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

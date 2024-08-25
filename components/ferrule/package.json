@@ -1,0 +1,9 @@
+{
+  "name": "ferrule",
+  "version": "1.0.0",
+  "description": "Wire Ferrule",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

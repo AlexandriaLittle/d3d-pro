@@ -1,0 +1,9 @@
+{
+  "name": "reprap-discount-full-graphic-smart-controller",
+  "version": "1.0.0",
+  "description": "RepRap Discount Full Graphic Smart Controller",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "3mm-flat-screwdriver",
+  "version": "1.0.0",
+  "description": "3mm Flat Head Screwdriver",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

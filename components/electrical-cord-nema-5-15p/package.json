@@ -1,0 +1,9 @@
+{
+  "name": "electrical-cord-nema-5-15p",
+  "version": "1.0.0",
+  "description": "Electrical Cord (NEMA 5-15P)",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "electrical-plug-nema-1-15",
+  "version": "1.0.0",
+  "description": "Electrical Plug (NEMA 1-15)",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}
