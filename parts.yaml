@@ -1,3 +1,12 @@
+fast-heated-bed:
+  id: fast-heated-bed
+  description: Fast Heated Bed
+  quantity: 1
+  quantityUnits: module
+  options:
+  - fast-heated-bed
+  selectedOption: 0
+  notes: ''
 universal-axis-x:
   id: universal-axis-x
   description: Universal X Axis
@@ -32,6 +41,15 @@ universal-axis-z:
   quantityUnits: module
   options:
   - universal-axis-z
+  selectedOption: 0
+  notes: ''
+universal-controller:
+  id: universal-controller
+  description: Universal Controller
+  quantity: 1
+  quantityUnits: module
+  options:
+  - universal-controller
   selectedOption: 0
   notes: ''
 universal-frame:
