@@ -36,10 +36,14 @@
 
 
 - summary: Install {{parts.hot-end-assembly.description}}
-  requiredParts: []
+  requiredParts: 
+  - hot-end-assembly
+  - 40mm-heatsink
+  - m3-30mm-screw
+  - thermal-paste
 
-
-  requiredTools: []
+  requiredTools: 
+  - 1_75mm-filament
 
   details: |
     . 

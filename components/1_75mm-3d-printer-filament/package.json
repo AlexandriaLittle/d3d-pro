@@ -1,0 +1,9 @@
+{
+  "name": "1_75mm-3d-printer-filament",
+  "version": "1.0.0",
+  "description": "1.75mm 3D Printer Filament",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

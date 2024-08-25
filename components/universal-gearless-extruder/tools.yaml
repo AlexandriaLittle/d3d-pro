@@ -25,3 +25,12 @@ hobby-knife:
   - hobby-knife
   selectedOption: 0
   notes: ''
+1_75mm-filament:
+  id: 1_75mm-filament
+  description: 1.75mm Filament
+  quantity: 100
+  quantityUnits: mm
+  options:
+  - 1_75mm-3d-printer-filament
+  selectedOption: 0
+  notes: ''
