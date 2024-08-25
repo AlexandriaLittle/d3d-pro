@@ -1,0 +1,9 @@
+{
+  "name": "universal-axis-z-carriage",
+  "version": "1.0.0",
+  "description": "Universal Axis Z Carriage",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}
