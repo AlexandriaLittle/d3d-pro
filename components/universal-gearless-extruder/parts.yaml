@@ -160,3 +160,21 @@ thermal-paste:
   - thermal-paste
   selectedOption: 0
   notes: ''
+stepper-motor-cable:
+  id: stepper-motor-cable
+  description: 2 Meter Stepper Motor Cable
+  quantity: 1
+  quantityUnits: part
+  options:
+  - stepper-motor-cable
+  selectedOption: 0
+  notes: ''
+split-wire-loom:
+  id: split-wire-loom
+  description: 2 Meter Split Wire Loom
+  quantity: 1
+  quantityUnits: part
+  options:
+  - split-wire-loom
+  selectedOption: 0
+  notes: ''

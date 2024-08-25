@@ -1,0 +1,9 @@
+{
+  "name": "stepper-motor-cable",
+  "version": "1.0.0",
+  "description": "Stepper Motor Wire 4 Pin Dupont to 6 Pin XH2.54",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

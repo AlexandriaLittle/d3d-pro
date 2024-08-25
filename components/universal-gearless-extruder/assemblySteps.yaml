@@ -118,3 +118,12 @@
     . Orient the *{{parts.40mm-fan.description}}* over the *{{parts.40mm-heatsink.description}}* so that the fan will blow air toward the *{{parts.40mm-heatsink.description}}*.
     . Place the *{{parts.40mm-fan.description}}* directly over the front of the *{{parts.40mm-heatsink.description}}* and screw it into place using two *{{parts.m3-20mm-screw.description}}* {{parts.m3-20mm-screw.quantityUnits}} and the *{{tools.2_5mm-allen-wrench.description}}* in the bottom mounting holes of the *{{parts.40mm-fan.description}}*. The screws will be held in the *{{parts.40mm-heatsink.description}}*.
 
+- summary: Install and manage cables
+  requiredParts: 
+  - stepper-motor-cable
+
+  requiredTools: 
+  - 
+
+  details: |
+    . 
