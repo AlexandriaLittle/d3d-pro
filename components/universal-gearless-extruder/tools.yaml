@@ -16,3 +16,12 @@
   - 2_5mm-allen-wrench
   selectedOption: 0
   notes: ''
+hobby-knife:
+  id: hobby-knife
+  description: Hobby Knife
+  quantity: 1
+  quantityUnits: part
+  options:
+  - hobby-knife
+  selectedOption: 0
+  notes: ''

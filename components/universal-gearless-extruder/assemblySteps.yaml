@@ -7,19 +7,33 @@
 
   requiredTools: 
     - 2_5mm-allen-wrench
+    - hobby-knife
 
   details: |
-    . Clean off any extra plastic on the *{{parts.motor-mount.description}}*.
+    . Clean off any extra plastic on the *{{parts.motor-mount.description}}* using a *{{tools.hobby-knife.description}}*.
+    . Insert the *{{parts.m6-nut.description}}* into the slot in the middle of the *{{parts.motor-mount.description}}*.
+    . Insert the *{{parts.stepper-motor.description}}* into the *{{parts.motor-mount.description}}* with the mounting holes lined up.
+    . In the top right corner, use the *{{tools.2_5mm-allen-wrench.description}}* to screw an *{{parts.m3-8mm-screw.description}}* through the  *{{parts.motor-mount.description}}* and into the mounting hole on the *{{parts.stepper-motor.description}}*.
 
 - summary: Add the {{parts.active-cooling-height-sensor-plotter.description}}
   requiredParts: 
   - active-cooling-height-sensor-plotter
+  - blower-fan
+  - m3-8mm-screw
+  - m3-20mm-screw
 
-
-  requiredTools: []
+  requiredTools: 
+  - 2_5mm-allen-wrench
+  - hobby-knife
 
   details: |
-    . 
+    . Clean off any extra plastic on the *{{parts.active-cooling-height-sensor-plotter.description}}* using a *{{tools.hobby-knife.description}}*.
+    . Line up the *{{parts.active-cooling-height-sensor-plotter.description}}* with the mounting holes on the left side of the *{{parts.motor-mount.description}}*.
+    . Using the *{{tools.2_5mm-allen-wrench.description}}*, screw an *{{parts.m3-8mm-screw.description}}* into the furthest back mounting hole.
+    . Insert the open end of the *{{parts.blower-fan.description}}* into the fan duct on the *{{parts.active-cooling-height-sensor-plotter.description}}*.
+    . Using the *{{tools.2_5mm-allen-wrench.description}}*, screw two *{{parts.m3-20mm-screw.description}}* into the mounting holes of the *{{parts.blower-fan.description}}* to mount it to the *{{parts.active-cooling-height-sensor-plotter.description}}*.
+    . Use the *{{tools.2_5mm-allen-wrench.description}}* to screw *{{parts.m3-8mm-screw.description}}* {{parts.m3-8mm-screw.quantityUnits}} into the remaing open mounting holes in the *{{parts.active-cooling-height-sensor-plotter.description}}*.
+
 
 - summary: Install {{parts.hot-end-assembly.description}}
   requiredParts: []
@@ -57,11 +71,3 @@
   details: |
     . 
 
-- summary: Install {{parts.blower-fan.description}}
-  requiredParts: []
-
-
-  requiredTools: []
-
-  details: |
-    . 

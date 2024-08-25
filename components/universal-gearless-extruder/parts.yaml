@@ -141,3 +141,12 @@ m6-nut:
   - m6-nut
   selectedOption: 0
   notes: ''
+thermal-paste:
+  id: thermal-paste
+  description: Thermal Paste
+  quantity: 2
+  quantityUnits: drop(s)
+  options:
+  - thermal-paste
+  selectedOption: 0
+  notes: ''
