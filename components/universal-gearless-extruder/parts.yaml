@@ -28,6 +28,7 @@ extruder-gear:
 hot-end-assembly:
   id: hot-end-assembly
   description: Hot End Assembly
+  quantity: 1
   quantityUnits: part
   options:
   - hot-end-assembly
