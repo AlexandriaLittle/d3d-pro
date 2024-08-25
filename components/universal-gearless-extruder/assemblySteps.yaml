@@ -31,12 +31,13 @@
     . Line up the *{{parts.active-cooling-height-sensor-plotter.description}}* with the mounting holes on the left side of the *{{parts.motor-mount.description}}*.
     . Using the *{{tools.2_5mm-allen-wrench.description}}*, screw an *{{parts.m3-8mm-screw.description}}* into the furthest back mounting hole.
     . Insert the open end of the *{{parts.blower-fan.description}}* into the fan duct on the *{{parts.active-cooling-height-sensor-plotter.description}}*.
-    . Using the *{{tools.2_5mm-allen-wrench.description}}*, screw two *{{parts.m3-20mm-screw.description}}* into the mounting holes of the *{{parts.blower-fan.description}}* to mount it to the *{{parts.active-cooling-height-sensor-plotter.description}}*.
+    . Using the *{{tools.2_5mm-allen-wrench.description}}*, screw two *{{parts.m3-20mm-screw.description}}* {{parts.m3-20mm-screw.quantityUnits}} into the mounting holes of the *{{parts.blower-fan.description}}* to mount it to the *{{parts.active-cooling-height-sensor-plotter.description}}*.
     . Use the *{{tools.2_5mm-allen-wrench.description}}* to screw *{{parts.m3-8mm-screw.description}}* {{parts.m3-8mm-screw.quantityUnits}} into the remaing open mounting holes in the *{{parts.active-cooling-height-sensor-plotter.description}}*.
 
 
 - summary: Install {{parts.hot-end-assembly.description}}
   requiredParts: 
+  - active-cooling-height-sensor-plotter
   - hot-end-assembly
   - 40mm-heatsink
   - m3-30mm-screw
@@ -44,8 +45,13 @@
 
   requiredTools: 
   - 1_75mm-filament
+  - 2_5mm-allen-wrench
+
 
   details: |
+    . Apply one {{parts.thermal-paste.quantityUnits}} of *{{parts.thermal-paste.description}}* to the flat area between the mounting holes on the *{{parts.40mm-heatsink.description}}*.
+    . Place two *{{parts.m3-30mm-screw.description}}* {{parts.m3-30mm-screw.quantityUnits}} into the mounting holes of the *{{parts.40mm-heatsink.description}}* with the threads of the *{{parts.m3-30mm-screw.description}}* {{parts.m3-30mm-screw.quantityUnits}} sticking out of the flat side of the *{{parts.40mm-heatsink.description}}*.
+    . Position the *{{parts.hot-end-assembly.description}}* mounting holes against the bottom mounting holes of the *{{parts.stepper-motor.description}}* in the *{{parts.motor-mount.description}}*.
     . 
 
 - summary: Install {{parts.spring-tensioner.description}} and {{parts.extruder-gear.description}}
