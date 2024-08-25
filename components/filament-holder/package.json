@@ -1,7 +1,7 @@
 {
-  "name": "8mm-smooth-rod",
+  "name": "filament-holder",
   "version": "1.0.0",
-  "description": "8mm Smooth Rod",
+  "description": "Filament Holder Module",
   "license": "CC-BY-SA-4.0",
   "author": "Alexandria Little",
   "dependencies": {

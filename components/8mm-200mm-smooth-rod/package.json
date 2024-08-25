@@ -1,0 +1,9 @@
+{
+  "name": "8mm-200mm-smooth-rod",
+  "version": "1.0.0",
+  "description": "8mm x 200mm Smooth Rod",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}
