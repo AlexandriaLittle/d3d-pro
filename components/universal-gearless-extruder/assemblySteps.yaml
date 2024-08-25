@@ -121,6 +121,8 @@
 - summary: Install and manage cables
   requiredParts: 
   - stepper-motor-cable
+  - split-wire-loom
+  - zip-tie-small
 
   requiredTools: 
   - 

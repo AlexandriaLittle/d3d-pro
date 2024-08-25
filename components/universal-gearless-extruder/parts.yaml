@@ -178,3 +178,12 @@ split-wire-loom:
   - split-wire-loom
   selectedOption: 0
   notes: ''
+zip-tie-small:
+  id: zip-tie-small
+  description: Small Zip Tie
+  quantity: 1
+  quantityUnits: part
+  options:
+  - zip-tie-small
+  selectedOption: 0
+  notes: ''
