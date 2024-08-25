@@ -74,15 +74,21 @@
 
 - summary: Install {{parts.spring-tensioner.description}}
   requiredParts: 
+  - motor-mount
   - spring-tensioner
   - extruder-spring
+  - 608-bearing
   - m3-20mm-screw
 
-  requiredTools: []
+  requiredTools: 
+  - 2_5mm-allen-wrench
+  - hobby-knife
 
   details: |
-    . 
-
+    . Clean off any extra plastic on the *{{parts.spring-tensioner.description}}* using a *{{tools.hobby-knife.description}}*.
+    . Press the *{{parts.608-bearing.description}}* onto the peg on the *{{parts.spring-tensioner.description}}*.
+    . With the arm of the *{{parts.spring-tensioner.description}}* pointing right, screw the *{{parts.spring-tensioner.description}}* onto the top left mounting hole on the front of the *{{parts.motor-mount.description}}* using a *{{parts.m3-20mm-screw.description}}* and a *{{tools.2_5mm-allen-wrench.description}}*.
+    . Insert the *{{parts.extruder-spring.description}}* between the arm of the *{{parts.spring-tensioner.description}}* and the mounting slot on the *{{parts.motor-mount.description}}*.
 
 - summary: Install {{parts.height-sensor.description}}
   requiredParts: []
