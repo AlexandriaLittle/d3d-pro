@@ -1,18 +1,18 @@
-universal-axis-idler-side:
-  id: universal-axis-idler-side
+universal-axis-idler-side-assembly:
+  id: universal-axis-idler-side-assembly
   description: Universal Axis Idler Side
   quantity: 1
   quantityUnits: module
   options:
-  - universal-axis-idler-side
+  - universal-axis-idler-side-assembly
   selectedOption: 0
   notes: ''
-universal-axis-motor-side:
-  id: universal-axis-motor-side
+universal-axis-motor-side-assembly:
+  id: universal-axis-motor-side-assembly
   description: Universal Axis Motor Side
   quantity: 1
   quantityUnits: module
   options:
-  - universal-axis-motor-side
+  - universal-axis-motor-side-assembly
   selectedOption: 0
   notes: ''
