@@ -6,6 +6,8 @@
     - volcano-heater-block
     - heater-cartridge
     - thermistor
+    - thermal-paste
+    - heatsink-block
 
   requiredTools:
     - 1mm-allen-wrench
@@ -32,4 +34,9 @@
     . Wait at least five minutes for the *{{parts.volcano-heater-block.description}}* to cool down to a temperature that is safe to touch. 
     . Reposition the *{{parts.volcano-heater-block.description}}* in the *{{tools.vise.description}}* so that the long end of the *{{parts.heat-break.description}}* is accessible to tools.
     . Screw the *{{parts.m6-thin-nut.description}}* onto the *{{parts.heat-break.description}}* until the *{{parts.m6-thin-nut.description}}* is near the gap on the *{{parts.heat-break.description}}*.
-    . 
+    . Apply one {{parts.thermal-paste.quantityUnits}} of *{{parts.thermal-paste.description}}* to the threads of the *{{parts.heat-break.description}}* and spread the *{{parts.thermal-paste.description}}* evenly across the threads.
+    . Bend the *{{parts.heater-cartridge.description}}* wires out of the way so you can screw on the heat sink. Hold the bottom of the *{{parts.heater-cartridge.description}}* wire with *{{tools.needle-nose-pliers.description}}* so that when the wires are bent down they won't break from the *{{parts.heater-cartridge.description}}*.
+    . Screw the *{{parts.heatsink-block.description}}* onto the *{{parts.heat-break.description}}* so that the *{{parts.heat-break.description}}* sticks out 2mm above the *{{parts.heatsink-block.description}}*.
+    . Line up the wider sides of the *{{parts.heatsink-block.description}}* and the *{{parts.volcano-heater-block.description}}*.
+    . Tighten the *{{parts.m6-thin-nut.description}}* against the *{{parts.heatsink-block.description}}* using *{{tools.slip-joint-pliers.description}}*.
+    . Remove the completed *{{parts.volcano-heater-block.description}}* from the *{{tools.vise.description}}*.

@@ -7,15 +7,6 @@ spring-tensioner:
   - universal-gearless-extruder-spring-tensioner-arm
   selectedOption: 0
   notes: 3D printed part
-heatsink:
-  id: heatsink
-  description: OSE Custom Heatsink
-  quantity: 1
-  quantityUnits: part
-  options:
-  - universal-gearless-extruder-heatsink-block
-  selectedOption: 0
-  notes: ''
 608-bearing:
   id: 608-bearing
   description: 608 ZZ Bearing

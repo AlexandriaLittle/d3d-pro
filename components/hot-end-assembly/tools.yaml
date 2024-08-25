@@ -42,7 +42,7 @@ slip-joint-pliers:
   options:
   - slip-joint-pliers
   selectedOption: 0
-  notes: 'Optional alternative tool for socket wrench'
+  notes: ''
 vise:
   id: vise
   description: Metal Jaw Vise

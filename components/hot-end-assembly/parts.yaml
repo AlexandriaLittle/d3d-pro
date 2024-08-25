@@ -70,3 +70,21 @@ m6-thin-nut:
   - m6-thin-nut
   selectedOption: 0
   notes: ''
+thermal-paste:
+  id: thermal-paste
+  description: Thermal Paste
+  quantity: 2
+  quantityUnits: drop(s)
+  options:
+  - thermal-paste
+  selectedOption: 0
+  notes: ''
+heatsink-block:
+  id: heatsink-block
+  description: Heatsink Block
+  quantity: 1
+  quantityUnits: part
+  options:
+  - universal-gearless-extruder-heatsink-block
+  selectedOption: 0
+  notes: ''

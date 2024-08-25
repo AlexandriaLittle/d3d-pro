@@ -1,0 +1,9 @@
+{
+  "name": "thermal-paste",
+  "version": "1.0.0",
+  "description": "Thermal Paste",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}
