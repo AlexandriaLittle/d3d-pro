@@ -132,3 +132,12 @@ height-sensor:
   - height-sensor
   selectedOption: 0
   notes: ''
+m6-nut:
+  id: m6-nut
+  description: M6 Nut
+  quantity: 1
+  quantityUnits: part
+  options:
+  - m6-nut
+  selectedOption: 0
+  notes: ''

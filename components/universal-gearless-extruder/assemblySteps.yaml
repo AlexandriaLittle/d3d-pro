@@ -3,9 +3,10 @@
     - motor-mount
     - stepper-motor
     - m3-8mm-screw
-    - 
+    - m6-nut
 
-  requiredTools: []
+  requiredTools: 
+    - 2_5mm-allen-wrench
 
   details: |
     . Clean off any extra plastic on the *{{parts.motor-mount.description}}*.
