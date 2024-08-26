@@ -16,6 +16,15 @@ marker:
   quantity: 1
   quantityUnits: part
   selectedOption: 0
+vise-grip-pliers:
+  description: Vise Grip Pliers
+  id: vise-grip-pliers
+  notes: ''
+  options:
+    - vise-grip-pliers
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
 welder:
   description: Welder
   id: welder

@@ -1,7 +1,24 @@
-- summary: Assemble {{description}}
-  requiredParts: []
+- summary: Prepare the {{parts.steel-sheet.description}} for Welding
+  requiredParts:
+  - steel-sheet
 
-  requiredTools: []
+  requiredTools:
+  - plate-jig
+  - welding-brush
+  - marker
+
+  details: |
+    . Use the *{{tools.welding-brush.description}}* on the *{{parts.steel-sheet.description}}* to scrape off any surface impurities near the corners where the welds will occur.
+    . Align the *{{tools.plate-jig.description}}* to one of the corners of the *{{parts.steel-sheet.description}}*.
+    . In each of the holes on the *{{tools.plate-jig.description}}*, mark a circle the size of the hole using the *{{tools.marker.description}}*.
+
+- summary: Weld the {{parts.m6-25mm-screw.description}} {{parts.m6-25mm-screw.quantityUnits}} to the {{parts.steel-sheet.description}}
+  requiredParts:
+  - steel-sheet
+  - m6-25mm-screw
+
+  requiredTools:
+  - welder
 
   details: |
     . 
