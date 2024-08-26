@@ -1,0 +1,18 @@
+halogen-lightbulb:
+  description: R7S 118mm Halogen Lightbulb
+  id: halogen-lightbulb
+  notes: ''
+  options:
+    - r7s-118mm-halogen-lightbulb
+  quantity: 3
+  quantityUnits: part(s)
+  selectedOption: 0
+halogen-lightbulb-holder:
+  description: R7S 118mm Halogen Lightbulb Holder
+  id: halogen-lightbulb-holder
+  notes: ''
+  options:
+    - r7s-118mm-halogen-lightbulb-holder
+  quantity: 3
+  quantityUnits: part(s)
+  selectedOption: 0

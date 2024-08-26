@@ -1,0 +1,9 @@
+{
+  "name": "fast-heated-bed-lightbulb-assembly",
+  "version": "1.0.0",
+  "description": "Fast Heated Bed Halogen Lightbulb Assembly",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}
