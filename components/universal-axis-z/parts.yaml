@@ -81,7 +81,7 @@ m6-10mm-grub-screw:
   notes: ''
 gt2-belt:
   id: gt2-belt
-  description: GT2 6mm x 1500mm Belt
+  description: GT2 Belt
   quantity: 1
   quantityUnits: part(s)
   options:
@@ -105,4 +105,13 @@ painters-tape:
     - painters-tape
   quantity: 1
   quantityUnits: as needed
+  selectedOption: 0
+8mm-rod:
+  description: 8mm Smooth Rod
+  id: 8mm-rod
+  notes: ''
+  options:
+    - 8mm-600mm-smooth-rod
+  quantity: 2
+  quantityUnits: part(s)
   selectedOption: 0

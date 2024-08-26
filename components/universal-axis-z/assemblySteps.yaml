@@ -29,9 +29,47 @@
     . Slide two *{{parts.linear-bearing.description}}* {{parts.linear-bearing.quantityUnits}} onto the *{{tools.8mm-rod.description}}*.
     . Use the *{{parts.painters-tape.description}}* to evenly cover the *{{parts.linear-bearing.description}}* {{parts.linear-bearing.quantityUnits}} with around five layers of *{{parts.painters-tape.description}}*. Do this by applying the tape to both *{{parts.linear-bearing.description}}* {{parts.linear-bearing.quantityUnits}} and then rotating the {{parts.linear-bearing.quantityUnits}} on the *{{tools.8mm-rod.description}}* until enough *{{parts.painters-tape.description}}* is applied.
     . Remove the *{{parts.linear-bearing.description}}* {{parts.linear-bearing.quantityUnits}} from the *{{tools.8mm-rod.description}}*.
-    . Remove some *{{parts.painters-tape.description}}* from the *{{parts.linear-bearing.description}}* {{parts.linear-bearing.quantityUnits}} until the {{parts.linear-bearing.quantityUnits}} can fit into the holes of the *{{parts.carriage-side.description}}*.
+    . Remove some *{{parts.painters-tape.description}}* from the *{{parts.linear-bearing.description}}* {{parts.linear-bearing.quantityUnits}} using *{{tools.scissors.description}}* until the {{parts.linear-bearing.quantityUnits}} can fit into the holes of the *{{parts.carriage-side.description}}*.
     . Test the fit of the *{{parts.linear-bearing.description}}* {{parts.linear-bearing.quantityUnits}} by covering the open end of the *{{parts.carriage-side.description}}* with the *{{parts.carriage-closure.description}}* and then shaking the {{parts.carriage-closure.quantityUnits}}. If the *{{parts.linear-bearing.description}}* {{parts.linear-bearing.quantityUnits}} move around inside of the *{{parts.carriage-closure.description}}* then the fit is too loose and more *{{parts.painters-tape.description}}* must be added to the *{{parts.linear-bearing.description}}* {{parts.linear-bearing.quantityUnits}}.
     . Repeat the above step until the *{{parts.linear-bearing.description}}* {{parts.linear-bearing.quantityUnits}} fit into the *{{parts.carriage-side.description}}* without moving during the shake test.
     . Repeat all of the above steps for the other two *{{parts.linear-bearing.description}}* {{parts.linear-bearing.quantityUnits}}.
     . Orient the *{{parts.carriage-closure.description}}* over the opening of the *{{parts.carriage-side.description}}* so that the three mounting holes on the *{{parts.carriage-closure.description}}* line up with the mounting holes on the *{{parts.carriage-side.description}}*. The flat side of the *{{parts.carriage-closure.description}}* should be facing away from the *{{parts.carriage-side.description}}* and the side with the indents for the *{{parts.linear-bearing.description}}* {{parts.linear-bearing.quantityUnits}} should be facing toward the opening of the *{{parts.carriage-side.description}}*.
     . Fix the *{{parts.carriage-closure.description}}* in place by using a *{{tools.5mm-allen-wrench.description}}* to screw a *{{parts.m6-20mm-screw.description}}* into the center hole of the *{{parts.carriage-closure.description}}*.
+
+- summary: Assemble {{description}}
+  requiredParts:
+  - carriage-side
+  - universal-axis-motor-side-assembly
+  - universal-axis-idler-side-assembly
+  - 8mm-rod
+  - gt2-belt
+  - belt-peg
+  - belt-pinch
+  - m6-20mm-screw
+  - m6-10mm-grub-screw
+  - m6-nut
+
+  requiredTools: 
+  - 3mm-allen-wrench
+  - 5mm-allen-wrench
+
+  details: |
+    . Orient the *{{parts.universal-axis-motor-side-assembly.description}}* such that the section of the stepper motor that hangs off of the *{{parts.universal-axis-motor-side-assembly.description}}* is pointing left.
+    . Insert two *{{parts.8mm-rod.description}}* {{parts.8mm-rod.quantityUnits}} into the right side of the *{{parts.universal-axis-motor-side-assembly.description}}* until the {{parts.8mm-rod.quantityUnits}} are flush with the left face of the plastic part.
+    . Tighten down all six *{{parts.m6-10mm-grub-screw.description}}* {{parts.m6-10mm-grub-screw.quantityUnits}} on the *{{parts.universal-axis-motor-side-assembly.description}}*. This should fix the *{{parts.8mm-rod.description}}* {{parts.8mm-rod.quantityUnits}} in place.
+    . Slide the *{{parts.carriage-side.description}}* onto the *{{parts.8mm-rod.description}}* {{parts.8mm-rod.quantityUnits}} with the *{{parts.carriage-closure.description}}* facing the *{{parts.universal-axis-motor-side-assembly.description}}*.
+    . Slide the *{{parts.universal-axis-idler-side-assembly.description}}* onto the *{{parts.8mm-rod.description}}* {{parts.8mm-rod.quantityUnits}} such that the larger opening on the *{{parts.universal-axis-idler-side-assembly.description}}* faces the *{{parts.carriage-side.description}}*.
+    . Gently tighten down the *{{parts.m6-10mm-grub-screw.description}}* {{parts.m6-10mm-grub-screw.quantityUnits}} on the *{{parts.universal-axis-idler-side-assembly.description}}* to hold the *{{parts.universal-axis-idler-side-assembly.description}}* in place. The final position of the *{{parts.universal-axis-idler-side-assembly.description}}* will be adjusted in a later step.
+    . Take the *{{parts.gt2-belt.description}}* and make a loop on one end with the teeth of the belt locking into one another.
+    . Insert the loop into the side of the *{{parts.belt-peg.description}}* and use a *{{tools.3mm-allen-wrench.description}}* to screw a *{{parts.m6-10mm-grub-screw.description}}* {{parts.m6-10mm-grub-screw.quantityUnits}} into the loop.
+    . Thread the other end of the *{{parts.gt2-belt.description}}* through one of the openings on the *{{parts.carriage-side.description}}* that is closer to the *{{parts.universal-axis-idler-side-assembly.description}}*.
+    . Thread the end of the *{{parts.gt2-belt.description}}* through the *{{parts.universal-axis-motor-side-assembly.description}}*, around the pulley, and back through the *{{parts.universal-axis-motor-side-assembly.quantityUnits}}*.
+    . Thread the end of the *{{parts.gt2-belt.description}}* through the open slot in the *{{parts.carriage-side.description}}*.
+    . Thread the end of the *{{parts.gt2-belt.description}}* through the *{{parts.universal-axis-idler-side-assembly.description}}*, around the bearings, and back through the *{{parts.universal-axis-idler-side-assembly.quantityUnits}}*.
+    . Thread the end of the *{{parts.gt2-belt.description}}* back through the first slot of the *{{parts.carriage-side.description}}*. Make sure that the *{{parts.gt2-belt.description}}* goes around the *{{parts.belt-peg.description}}* {{parts.belt-peg.quantityUnits}} in such a way that the {{parts.belt-peg.quantityUnits}} is positioned on the inside of the *{{parts.gt2-belt.description}}*.
+    . Find the section of *{{parts.gt2-belt.description}}* that overlaps itself. This section will be coming out of the first slot of the *{{parts.carriage-side.description}}*.
+    . Take a *{{parts.belt-pinch.description}}* {{parts.belt-pinch.quantityUnits}} and, while pulling the *{{parts.gt2-belt.description}}* tight by hand, slide the {{parts.belt-pinch.quantityUnits}} over both sections of *{{parts.gt2-belt.description}}*.
+    . Place a *{{parts.m6-nut.description}}* in the nut catcher of the *{{parts.belt-pinch.description}}*.
+    . Push a *{{parts.m6-20mm-screw.description}}* through the other side of the *{{parts.belt-pinch.description}}*. The {{parts.m6-20mm-screw.quantityUnits}} may need to be wiggled while being pushed in.
+    . Gently tighten down the *{{parts.m6-20mm-screw.description}}* through the *{{parts.m6-nut.description}}* with a *{{tools.5mm-allen-wrench.description}}*. The final belt tension will be adjusted in a later step.
+    . The *{{description}}* is complete.
