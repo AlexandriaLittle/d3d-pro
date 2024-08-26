@@ -25,3 +25,21 @@ hobby-knife:
   quantity: 1
   quantityUnits: part
   selectedOption: 0
+8mm-rod:
+  description: 8mm Smooth Rod
+  id: 8mm-rod
+  notes: ''
+  options:
+    - 8mm-600mm-smooth-rod
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+scissors:
+  description: Scissors
+  id: scissors
+  notes: ''
+  options:
+    - scissors
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0

@@ -31,7 +31,7 @@ carriage-closure:
   quantity: 1
   quantityUnits: part
   options:
-  - universal-axis-z-carriage
+  - universal-axis-carriage-closure
   selectedOption: 0
   notes: ''
 belt-peg:
