@@ -1,1 +1,18 @@
-{}
+soldering-iron:
+  description: Soldering Iron
+  id: soldering-iron
+  notes: ''
+  options:
+    - soldering-iron
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+helping-hands:
+  description: Helping Hands
+  id: helping-hands
+  notes: ''
+  options:
+    - helping-hands
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0

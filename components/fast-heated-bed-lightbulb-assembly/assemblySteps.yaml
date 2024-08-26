@@ -1,7 +1,23 @@
 - summary: Assemble {{description}}
-  requiredParts: []
+  requiredParts: 
+  - halogen-lightbulb
+  - halogen-lightbulb-holder
+  - electrical-solder
 
-  requiredTools: []
+  requiredTools: 
+  - soldering-iron
 
   details: |
+    . Preheat the *{{tools.soldering-iron.description}}* to the operating temperature recommended by the *{{parts.electrical-solder.description}}* packaging.
+    . Position the wires of two *{{parts.halogen-lightbulb-holder.description}}* in the *{{tools.helping-hands.description}}* so that the exposed ends of the wires are touching.
+    . Hold the hot end of the *{{tools.soldering-iron.description}}* against the exposed wires in the *{{tools.helping-hands.description}}* for a few seconds to heat the wires.
+    . Apply *{{parts.electrical-solder.description}}* to the contact point between the hot end of the *{{tools.soldering-iron.description}}* and the exposed wires until enough has been added to fuse the wires and make a good electrical connection.
+    . Remove the hot end of the *{{tools.soldering-iron.description}}* from the wires.
+    . Wait for the wires to cool and then remove them from the *{{tools.helping-hands.description}}*. 
+    . Take the other wire of one of the previously soldered *{{parts.halogen-lightbulb-holder.description}}* {{parts.halogen-lightbulb-holder.quantityUnits}} and position it in the *{{tools.helping-hands.description}}*.
+    . Position one of the wires of the remaining *{{parts.halogen-lightbulb-holder.description}}* {{parts.halogen-lightbulb-holder.quantityUnits}} in the unused side of the *{{tools.helping-hands.description}}*.
+    . Hold the hot end of the *{{tools.soldering-iron.description}}* against the exposed wires in the *{{tools.helping-hands.description}}* for a few seconds to heat the wires.
+    . Apply *{{parts.electrical-solder.description}}* to the contact point between the hot end of the *{{tools.soldering-iron.description}}* and the exposed wires until enough has been added to fuse the wires and make a good electrical connection.
+    . Remove the hot end of the *{{tools.soldering-iron.description}}* from the wires.
+    . Wait for the wires to cool and then remove them from the *{{tools.helping-hands.description}}*.
     . 

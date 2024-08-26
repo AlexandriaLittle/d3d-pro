@@ -16,3 +16,12 @@ halogen-lightbulb-holder:
   quantity: 3
   quantityUnits: part(s)
   selectedOption: 0
+electrical-solder:
+  description: Electrical Solder
+  id: electrical-solder
+  notes: ''
+  options:
+    - electrical-solder
+  quantity: 2
+  quantityUnits: application(s)
+  selectedOption: 0
