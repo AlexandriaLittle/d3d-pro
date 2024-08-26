@@ -1,0 +1,9 @@
+{
+  "name": "7mm-sheet-metal-drill-bit",
+  "version": "1.0.0",
+  "description": "7mm Sheet Metal Drill Bit",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

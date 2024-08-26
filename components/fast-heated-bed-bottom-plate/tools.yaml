@@ -1,1 +1,36 @@
-{}
+plate-jig:
+  description: Plate Jig
+  id: plate-jig
+  notes: ''
+  options:
+    - fast-heated-bed-plate-jig
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+marker:
+  description: Permanent Marker
+  id: marker
+  notes: ''
+  options:
+    - permanent-marker
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+drill-press:
+  description: Drill Press
+  id: drill-press
+  notes: ''
+  options:
+    - drill-press
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+7mm-drill-bit:
+  description: 7mm Drill Bit
+  id: 7mm-drill-bit
+  notes: ''
+  options:
+    - 7mm-sheet-metal-drill-bit
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
