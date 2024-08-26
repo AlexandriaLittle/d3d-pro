@@ -1,0 +1,9 @@
+{
+  "name": "rebar-stake-stock-length",
+  "version": "1.0.0",
+  "description": "12.7mm Rebar Stake Stock Length",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

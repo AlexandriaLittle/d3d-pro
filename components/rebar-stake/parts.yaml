@@ -1,1 +1,9 @@
-{}
+rebar-stake-stock-length:
+  description: Stock Length Rebar Stake
+  id: rebar-stake-stock-length
+  notes: ''
+  options:
+    - rebar-stake-stock-length
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
