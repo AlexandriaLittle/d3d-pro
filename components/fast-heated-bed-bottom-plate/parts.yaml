@@ -1,1 +1,9 @@
-{}
+steel-sheet:
+  description: Steel Sheet
+  id: steel-sheet
+  notes: ''
+  options:
+    - 16ga-steel-sheet
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0

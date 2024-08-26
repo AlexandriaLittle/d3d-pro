@@ -1,0 +1,9 @@
+{
+  "name": "16ga-steel-sheet",
+  "version": "1.0.0",
+  "description": "16 Gauge 300mm x 300mm Steel Sheet",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}
