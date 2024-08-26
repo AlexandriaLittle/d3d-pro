@@ -1,0 +1,9 @@
+{
+  "name": "octoprint-raspberry-pi-software-image",
+  "version": "1.0.0",
+  "description": "Octoprint Raspberry Pi Software Image",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

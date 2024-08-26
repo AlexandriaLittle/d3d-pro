@@ -214,3 +214,21 @@ ramps-1_4-smart-adapter:
   quantity: 1
   quantityUnits: part
   selectedOption: 0
+marlin-firmware:
+  description: Marlin Firmware
+  id: marlin-firmware
+  notes: ''
+  options:
+    - marlin-firmware
+  quantity: 1
+  quantityUnits: image
+  selectedOption: 0
+octoprint-raspberry-pi-software-image:
+  description: Octoprint Raspberry Pi Software Image
+  id: octoprint-raspberry-pi-software-image
+  notes: ''
+  options:
+    - octoprint-raspberry-pi-software-image
+  quantity: 1
+  quantityUnits: image
+  selectedOption: 0
