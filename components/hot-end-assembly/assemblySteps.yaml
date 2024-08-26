@@ -43,6 +43,7 @@
   requiredParts:
     - m6-thin-nut
     - volcano-heater-block
+    - volcano-heater-block-sock
     - thermal-paste
     - heatsink-block
 
@@ -58,4 +59,6 @@
     . Screw the *{{parts.heatsink-block.description}}* onto the *{{parts.heat-break.description}}* so that the *{{parts.heat-break.description}}* sticks out 2mm above the *{{parts.heatsink-block.description}}*.
     . Line up the wider sides of the *{{parts.heatsink-block.description}}* and the *{{parts.volcano-heater-block.description}}*.
     . Tighten the *{{parts.m6-thin-nut.description}}* against the *{{parts.heatsink-block.description}}* using *{{tools.slip-joint-pliers.description}}*.
-    . Remove the completed *{{description}}* from the *{{tools.vise.description}}*.
+    . Remove the *{{description}}* from the *{{tools.vise.description}}*.
+    . Place the *{{parts.volcano-heater-block-sock.description}}* onto the *{{parts.volcano-heater-block.description}}*.
+    . The *{{description}}* is complete.

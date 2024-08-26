@@ -88,3 +88,12 @@ volcano-heater-block:
   quantity: 1
   quantityUnits: part
   selectedOption: 0
+volcano-heater-block-sock:
+  description: Volcano Style Heater Block Silicone Sock
+  id: volcano-heater-block-sock
+  notes: ''
+  options:
+    - volcano-heater-block-sock
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
