@@ -1,0 +1,9 @@
+{
+  "name": "2_54mm-jumper-cap",
+  "version": "1.0.0",
+  "description": "2.54mm Jumper Cap",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

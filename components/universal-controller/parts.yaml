@@ -178,3 +178,39 @@ zip-tie-small:
   quantity: 20
   quantityUnits: part(s)
   selectedOption: 0
+a4988-stepper-motor-driver:
+  description: A4988 Stepper Motor Driver
+  id: a4988-stepper-motor-driver
+  notes: ''
+  options:
+    - a4988-stepper-motor-driver
+  quantity: 5
+  quantityUnits: part(s)
+  selectedOption: 0
+jumper:
+  description: Jumper Cap
+  id: jumper
+  notes: ''
+  options:
+    - 2_54mm-jumper-cap
+  quantity: 15
+  quantityUnits: part(s)
+  selectedOption: 0
+10-pin-idc-connector:
+  description: 10 Pin IDC Conector
+  id: 10-pin-idc-connector
+  notes: ''
+  options:
+    - 10-pin-idc-connector
+  quantity: 2
+  quantityUnits: part(s)
+  selectedOption: 0
+ramps-1_4-smart-adapter:
+  description: RAMPS 1.4 Smart Adapter
+  id: ramps-1_4-smart-adapter
+  notes: ''
+  options:
+    - ramps-1_4-smart-adapter
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0

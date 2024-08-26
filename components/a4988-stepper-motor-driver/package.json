@@ -1,0 +1,9 @@
+{
+  "name": "a4988-stepper-motor-driver",
+  "version": "1.0.0",
+  "description": "A4988 Stepper Motor Driver",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

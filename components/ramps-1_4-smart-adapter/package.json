@@ -1,0 +1,9 @@
+{
+  "name": "ramps-1_4-smart-adapter",
+  "version": "1.0.0",
+  "description": "RAMPS 1.4 Smart Adapter",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}
