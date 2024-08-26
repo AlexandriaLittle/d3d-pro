@@ -16,3 +16,102 @@ universal-axis-motor-side-assembly:
   - universal-axis-motor-side-assembly
   selectedOption: 0
   notes: ''
+carriage-side:
+  id: carriage-side
+  description: Universal Axis Y2 Carriage Side
+  quantity: 1
+  quantityUnits: part
+  options:
+  - universal-axis-y2-carriage
+  selectedOption: 0
+  notes: ''
+carriage-closure:
+  id: carriage-closure
+  description: Carriage Closure
+  quantity: 1
+  quantityUnits: part
+  options:
+  - universal-axis-carriage-closure
+  selectedOption: 0
+  notes: ''
+belt-peg:
+  id: belt-peg
+  description: Belt Peg
+  quantity: 1
+  quantityUnits: part
+  options:
+  - universal-axis-belt-peg
+  selectedOption: 0
+  notes: ''  
+belt-pinch:
+  id: belt-pinch
+  description: Belt Pinch
+  quantity: 1
+  quantityUnits: part
+  options:
+  - universal-axis-belt-pinch
+  selectedOption: 0
+  notes: ''  
+m6-20mm-screw:
+  id: m6-20mm-screw
+  description: M6 x 20mm Screw
+  quantity: 2
+  quantityUnits: part(s)
+  options:
+  - m6-20mm-socket-head-cap-screw
+  selectedOption: 0
+  notes: ''
+m6-nut:
+  description: M6 Nut
+  id: m6-nut
+  notes: ''
+  options:
+    - m6-nut
+  quantity: 1
+  quantityUnits: part(s)
+  selectedOption: 0
+m6-10mm-grub-screw:
+  id: m6-10mm-grub-screw
+  description: M6 x 10mm Grub Screw
+  quantity: 1
+  quantityUnits: part(s)
+  options:
+  - m6-10mm-grub-screw
+  selectedOption: 0
+  notes: ''
+gt2-belt:
+  id: gt2-belt
+  description: GT2 Belt
+  quantity: 1
+  quantityUnits: part(s)
+  options:
+  - gt2-6mm-1500mm-belt
+  selectedOption: 0
+  notes: ''
+linear-bearing:
+  id: linear-bearing
+  description: Linear Bearing
+  quantity: 4
+  quantityUnits: part(s)
+  options:
+  - lm8uu-linear-bearing
+  selectedOption: 0
+  notes: ''
+painters-tape:
+  description: Painters Tape
+  id: painters-tape
+  notes: ''
+  options:
+    - painters-tape
+  quantity: 1
+  quantityUnits: as needed
+  selectedOption: 0
+8mm-rod:
+  description: 8mm Smooth Rod
+  id: 8mm-rod
+  notes: ''
+  options:
+    - 8mm-600mm-smooth-rod
+  quantity: 2
+  quantityUnits: part(s)
+  selectedOption: 0
