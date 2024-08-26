@@ -1,3 +1,14 @@
+- summary: Clean 3D Printed Parts
+  requiredParts:
+  - universal-axis-motor-side
+
+  requiredTools: 
+  - hobby-knife
+
+  details: |
+    . Use the *{{tools.hobby-knife.description}}* to clean any extra plastic off of the *{{parts.universal-axis-motor-side.description}}* {{parts.universal-axis-motor-side.quantityUnits}}.
+
+
 - summary: Assemble {{description}}
   requiredParts: []
 

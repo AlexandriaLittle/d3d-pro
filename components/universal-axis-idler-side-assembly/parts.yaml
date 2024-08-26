@@ -7,3 +7,39 @@ universal-axis-idler-side:
   - universal-axis-idler-side
   selectedOption: 0
   notes: ''
+m6-nut:
+  description: M6 Nut
+  id: m6-nut
+  notes: ''
+  options:
+    - m6-nut
+  quantity: 1
+  quantityUnits: part(s)
+  selectedOption: 0
+m6-10mm-grub-screw:
+  id: m6-10mm-grub-screw
+  description: M6 x 10mm Grub Screw
+  quantity: 2
+  quantityUnits: part(s)
+  options:
+  - m6-10mm-grub-screw
+  selectedOption: 0
+  notes: ''
+flanged-bearing:
+  id: flanged-bearing
+  description: Flanged Bearing
+  quantity: 2
+  quantityUnits: part(s)
+  options:
+  - m6-12mm-4mm-flanged-bearing
+  selectedOption: 0
+  notes: ''
+m6-20mm-screw:
+  id: m6-20mm-screw
+  description: M6 x 20mm Screw
+  quantity: 1
+  quantityUnits: part
+  options:
+  - m6-20mm-socket-head-cap-screw
+  selectedOption: 0
+  notes: ''
