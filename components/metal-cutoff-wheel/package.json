@@ -1,7 +1,7 @@
 {
-  "name": "0_5inch-trade-size-metal-conduit",
+  "name": "metal-cutoff-wheel",
   "version": "1.0.0",
-  "description": "0.5 Inch Trade Size 250mm Long Metal Conduit",
+  "description": "Metal Cutoff Wheel",
   "license": "CC-BY-SA-4.0",
   "author": "Alexandria Little",
   "dependencies": {
