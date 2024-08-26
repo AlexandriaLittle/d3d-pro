@@ -1,5 +1,5 @@
 rebar-stake-stock-length:
-  description: Stock Length Rebar Stake
+  description: Rebar Stake Stock Length
   id: rebar-stake-stock-length
   notes: ''
   options:
