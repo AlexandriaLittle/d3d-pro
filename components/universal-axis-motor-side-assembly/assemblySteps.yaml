@@ -1,7 +1,14 @@
-- summary: Assemble {{description}}
-  requiredParts: []
+- summary: Assemble the {{description}}
+  requiredParts:
+  - universal-axis-motor-side
+  - m6-10mm-grub-screw
+  - stepper-motor
+  - pulley
+  - m3-25mm-screw
 
-  requiredTools: []
+  requiredTools:
+  - 2_5mm-allen-wrench
+  - 3mm-allen-wrench
 
   details: |
     . 

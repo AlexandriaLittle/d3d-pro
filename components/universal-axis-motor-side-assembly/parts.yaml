@@ -1,1 +1,45 @@
-{}
+universal-axis-motor-side:
+  id: universal-axis-motor-side
+  description: Universal Axis Motor Side
+  quantity: 1
+  quantityUnits: part
+  options:
+  - universal-axis-motor-side
+  selectedOption: 0
+  notes: ''
+m6-10mm-grub-screw:
+  id: m6-10mm-grub-screw
+  description: M6 x 10mm Grub Screw
+  quantity: 6
+  quantityUnits: part(s)
+  options:
+  - m6-10mm-grub-screw
+  selectedOption: 0
+  notes: ''
+stepper-motor:
+  id: stepper-motor
+  description: Nema 17 Stepper Motor
+  quantity: 1
+  quantityUnits: part
+  options:
+  - nema-17-0_5nm-stepper-motor
+  selectedOption: 0
+  notes: ''
+pulley:
+  id: pulley
+  description: GT2 20 Tooth Pulley
+  quantity: 1
+  quantityUnits: part
+  options:
+  - gt2-6mm-5mm-20-tooth-pulley
+  selectedOption: 0
+  notes: ''
+m3-25mm-screw:
+  id: m3-25mm-screw
+  description: M3 x 25mm Screw
+  quantity: 1
+  quantityUnits: part
+  options:
+  - m3-25mm-socket-head-cap-screw
+  selectedOption: 0
+  notes: ''
