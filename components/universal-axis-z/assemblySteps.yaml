@@ -1,3 +1,15 @@
+- summary: Clean 3D Printed Parts
+  requiredParts:
+  - belt-peg
+  - belt-pinch
+
+  requiredTools: 
+  - hobby-knife
+
+  details: |
+    . Use the *{{tools.hobby-knife.description}}* to clean any extra plastic off of the *{{parts.belt-peg.description}}* {{parts.belt-peg.quantityUnits}} and *{{parts.belt-pinch.description}}* {{parts.belt-pinch.quantityUnits}}.
+
+
 - summary: Assemble {{description}}
   requiredParts: []
 

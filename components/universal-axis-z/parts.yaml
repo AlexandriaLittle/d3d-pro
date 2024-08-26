@@ -16,3 +16,66 @@ universal-axis-motor-side-assembly:
   - universal-axis-motor-side-assembly
   selectedOption: 0
   notes: ''
+carriage-side-assembly:
+  id: carriage-side-axxembly
+  description: Universal Axis Z Carriage Side Assembly
+  quantity: 1
+  quantityUnits: part
+  options:
+  - universal-axis-z-carriage
+  selectedOption: 0
+  notes: ''
+belt-peg:
+  id: belt-peg
+  description: Belt Peg
+  quantity: 1
+  quantityUnits: part
+  options:
+  - universal-axis-belt-peg
+  selectedOption: 0
+  notes: ''  
+belt-pinch:
+  id: belt-pinch
+  description: Belt Pinch
+  quantity: 1
+  quantityUnits: part
+  options:
+  - universal-axis-belt-pinch
+  selectedOption: 0
+  notes: ''  
+m6-20mm-screw:
+  id: m6-20mm-screw
+  description: M6 x 20mm Screw
+  quantity: 1
+  quantityUnits: part
+  options:
+  - m6-20mm-socket-head-cap-screw
+  selectedOption: 0
+  notes: ''
+m6-nut:
+  description: M6 Nut
+  id: m6-nut
+  notes: ''
+  options:
+    - m6-nut
+  quantity: 1
+  quantityUnits: part(s)
+  selectedOption: 0
+m6-10mm-grub-screw:
+  id: m6-10mm-grub-screw
+  description: M6 x 10mm Grub Screw
+  quantity: 1
+  quantityUnits: part(s)
+  options:
+  - m6-10mm-grub-screw
+  selectedOption: 0
+  notes: ''
+gt2-belt:
+  id: gt2-belt
+  description: GT2 6mm x 1500mm Belt
+  quantity: 1
+  quantityUnits: part(s)
+  options:
+  - gt2-6mm-1500mm-belt
+  selectedOption: 0
+  notes: ''
