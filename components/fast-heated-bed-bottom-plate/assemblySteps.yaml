@@ -1,7 +1,17 @@
-- summary: Assemble {{description}}
-  requiredParts: []
+- summary: Drill the {{description}}
+  requiredParts:
+  - steel-sheet
 
-  requiredTools: []
+  requiredTools:
+  - plate-jig
+  - marker
+  - drill-press
+  - 7mm-drill-bit
+  - metal-file
 
   details: |
-    . 
+    . Align the *{{tools.plate-jig.description}}* to one of the corners of the *{{parts.steel-sheet.description}}*.
+    . In each of the holes on the *{{tools.plate-jig.description}}*, mark a circle the size of the hole using the *{{tools.marker.description}}*.
+    . Insert the *{{tools.7mm-drill-bit.description}}* into the chuck of the *{{tools.drill-press.description}}* and secure it tightly per the manufacturer's instructions.
+    . Turn on the drill press and drill holes through each of the marks made on the *{{parts.steel-sheet.description}}* in the earlier steps.
+    . Using the *{{tools.metal-file.description}}*, file down any metal burrs created by the *{{tools.drill-press.description}}* on the *{{parts.steel-sheet.description}}*.

@@ -34,3 +34,12 @@ drill-press:
   quantity: 1
   quantityUnits: part
   selectedOption: 0
+metal-file:
+  description: Metal File
+  id: metal-file
+  notes: ''
+  options:
+    - metal-file
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
