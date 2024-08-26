@@ -1,1 +1,9 @@
-{}
+pliers:
+  description: Slip Joint Pliers
+  id: pliers
+  notes: ''
+  options:
+    - slip-joint-pliers
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
