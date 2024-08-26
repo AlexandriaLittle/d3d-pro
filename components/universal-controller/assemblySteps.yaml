@@ -1,1 +1,9 @@
-[]
+- summary: Clean 3D Printed Parts
+  requiredParts:
+  - 
+
+  requiredTools: 
+  - hobby-knife
+
+  details: |
+    . Use the *{{tools.hobby-knife.description}}* to clean any extra plastic off of the 3D printed components.

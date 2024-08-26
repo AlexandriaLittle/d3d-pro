@@ -1,0 +1,9 @@
+{
+  "name": "personal-computer",
+  "version": "1.0.0",
+  "description": "Personal Computer (PC)",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

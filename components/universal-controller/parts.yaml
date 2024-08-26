@@ -1,1 +1,180 @@
-{}
+ramps-board:
+  description: RAMPS 1.4 Board
+  id: ramps-board
+  notes: ''
+  options:
+    - ramps-1_4-board
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+electrical-tape:
+  description: Electrical Tape
+  id: electrical-tape
+  notes: ''
+  options:
+    - electrical-tape
+  quantity: 1
+  quantityUnits: as needed
+  selectedOption: 0
+16gb-microsd-card:
+  description: 16GB MicroSD Card
+  id: 16gb-microsd-card
+  notes: ''
+  options:
+    - 16gb-microsd-card
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+24v-power-supply:
+  description: 24v Power Supply Module
+  id: 24v-power-supply
+  notes: ''
+  options:
+    - 24v-power-supply
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+arduino-mega-2560:
+  description: Arduino Mega 2560
+  id: arduino-mega-2560
+  notes: ''
+  options:
+    - arduino-mega-2560
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+electrical-cord:
+  description: Three Prong Electrical Cord
+  id: electrical-cord
+  notes: ''
+  options:
+    - electrical-cord-nema-5-15p
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+electrical-plug:
+  description: Two Prong Electrical Plug
+  id: electrical-plug
+  notes: ''
+  options:
+    - electrical-plug-nema-1-15
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+electrical-solder:
+  description: Electrical Solder
+  id: electrical-solder
+  notes: ''
+  options:
+    - electrical-solder
+  quantity: 1
+  quantityUnits: applications
+  selectedOption: 0
+ferrule:
+  description: Ferrule
+  id: ferrule
+  notes: ''
+  options:
+    - ferrule
+  quantity: 20
+  quantityUnits: part
+  selectedOption: 0
+gfci:
+  description: GFCI
+  id: gfci
+  notes: ''
+  options:
+    - ground-fault-connection-interrupter
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+heat-shrink-tubing:
+  description: Heat Shrink Tubing
+  id: heat-shrink-tubing
+  notes: ''
+  options:
+    - heat-shrink-tubing
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+lever-wire-nut:
+  description: Lever Wire Nut
+  id: lever-wire-nut
+  notes: ''
+  options:
+    - lever-wire-nut
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+microsd-to-sd-card-adapter:
+  description: MicroSD to SD Card Adapter
+  id: microsd-to-sd-card-adapter
+  notes: ''
+  options:
+    - microsd-to-sd-card-adapter
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+raspberry-pi:
+  description: Raspberry Pi Computer
+  id: raspberry-pi
+  notes: ''
+  options:
+    - raspberry-pi-4b
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+reprap-controller:
+  description: RepRap Discount Full Graphic Smart Controller
+  id: reprap-controller
+  notes: ''
+  options:
+    - reprap-discount-full-graphic-smart-controller
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+solid-state-relay:
+  description: Solid State Relay (SSR)
+  id: solid-state-relay
+  notes: ''
+  options:
+    - solid-state-relay
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+split-wire-loom:
+  description: Split Wire Loom
+  id: split-wire-loom
+  notes: ''
+  options:
+    - split-wire-loom
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+case:
+  description: Universal Controller Case
+  id: case
+  notes: ''
+  options:
+    - universal-controller-case
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+zip-tie-large:
+  description: Large Zip Tie
+  id: zip-tie-large
+  notes: ''
+  options:
+    - zip-tie-large
+  quantity: 20
+  quantityUnits: part(s)
+  selectedOption: 0
+zip-tie-small:
+  description: Small Zip Tie
+  id: zip-tie-small
+  notes: ''
+  options:
+    - zip-tie-small
+  quantity: 20
+  quantityUnits: part(s)
+  selectedOption: 0

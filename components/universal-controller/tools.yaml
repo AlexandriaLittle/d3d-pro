@@ -1,1 +1,81 @@
-{}
+3mm-flat-screwdriver:
+  description: 3mm Flat Head Screwdriver
+  id: 3mm-flat-screwdriver
+  notes: ''
+  options:
+    - 3mm-flat-screwdriver
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+phillips-2-screwdriver:
+  description: 'Phillips Head #2 Screwdriver'
+  id: phillips-2-screwdriver
+  notes: ''
+  options:
+    - phillips-2-screwdriver
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+hobby-knife:
+  description: Hobby Knife
+  id: hobby-knife
+  notes: ''
+  options:
+    - hobby-knife
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+scissors:
+  description: Scissors
+  id: scissors
+  notes: ''
+  options:
+    - scissors
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+helping-hands:
+  description: Helping Hands
+  id: helping-hands
+  notes: ''
+  options:
+    - helping-hands
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+soldering-iron:
+  description: Soldering Iron
+  id: soldering-iron
+  notes: ''
+  options:
+    - soldering-iron
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+ferrule-crimper:
+  description: Ferrule Crimper
+  id: ferrule-crimper
+  notes: ''
+  options:
+    - ferrule-crimper
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+microsd-to-sd-card-adapter:
+  description: MicroSD to SD Card Adapter
+  id: microsd-to-sd-card-adapter
+  notes: ''
+  options:
+    - microsd-to-sd-card-adapter
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+pc:
+  description: PC
+  id: pc
+  notes: ''
+  options:
+    - personal-computer
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
