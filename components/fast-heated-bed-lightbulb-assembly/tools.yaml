@@ -16,3 +16,12 @@ helping-hands:
   quantity: 1
   quantityUnits: part
   selectedOption: 0
+paper-towels:
+  description: Paper Towels
+  id: paper-towels
+  notes: ''
+  options:
+    - paper-towels
+  quantity: 1
+  quantityUnits: section
+  selectedOption: 0
