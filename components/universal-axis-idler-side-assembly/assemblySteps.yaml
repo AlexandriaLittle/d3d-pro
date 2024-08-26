@@ -1,18 +1,31 @@
 - summary: Clean 3D Printed Parts
   requiredParts:
-  - universal-axis-motor-side
+  - universal-axis-idler-side
 
   requiredTools: 
   - hobby-knife
 
   details: |
-    . Use the *{{tools.hobby-knife.description}}* to clean any extra plastic off of the *{{parts.universal-axis-motor-side.description}}* {{parts.universal-axis-motor-side.quantityUnits}}.
+    . Use the *{{tools.hobby-knife.description}}* to clean any extra plastic off of the *{{parts.universal-axis-idler-side.description}}* {{parts.universal-axis-idler-side.quantityUnits}}.
 
 
 - summary: Assemble {{description}}
-  requiredParts: []
+  requiredParts: 
+  - universal-axis-idler-side
+  - m6-nut
+  - m6-10mm-grub-screw
+  - flanged-bearing
+  - m6-20mm-screw
 
-  requiredTools: []
+  requiredTools: 
+  - 3mm-allen-wrench
+  - 5mm-allen-wrench
 
   details: |
-    . 
+    . Take the two *{{parts.flanged-bearing.description}}* {{parts.flanged-bearing.quantityUnits}} and orient them so that they are touching with the flanges on opposite sides.
+    . Insert the *{{parts.flanged-bearing.description}}* {{parts.flanged-bearing.quantityUnits}} into the slot of the *{{parts.universal-axis-idler-side.description}}* until they align with the hole in the center of the *{{parts.universal-axis-idler-side.description}}*.
+    . Insert the *{{parts.m6-nut.description}}* into the nut holder above the hole that is aligned with the *{{parts.flanged-bearing.description}}* {{parts.flanged-bearing.quantityUnits}}.
+    . Insert the *{{parts.m6-20mm-screw.description}}* through the other side of the hole that aligns with the *{{parts.flanged-bearing.description}}* {{parts.flanged-bearing.quantityUnits}}.
+    . Use the *{{tools.5mm-allen-wrench.description}}* to gently tighten the *{{parts.m6-20mm-screw.description}}*.
+    . Using the *{{tools.3mm-allen-wrench.description}}*, screw two *{{parts.m6-10mm-grub-screw.description}}* into the holes on the face of the *{{parts.universal-axis-idler-side.description}}*. Only screw the *{{parts.m6-10mm-grub-screw.description}}* {{parts.m6-10mm-grub-screw.quantityUnits}} in enough to hold them in place as other parts will be inserted into the holes below in a future step.
+    . The *{{description}}* is now complete.
