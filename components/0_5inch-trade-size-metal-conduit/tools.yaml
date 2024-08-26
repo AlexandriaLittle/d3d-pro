@@ -1,1 +1,45 @@
-{}
+circular-saw:
+  description: Circular Saw
+  id: circular-saw
+  notes: ''
+  options:
+    - circular-saw
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+cutoff-wheel:
+  description: Cutoff Wheel
+  id: cutoff-wheel
+  notes: 'Make sure that the cutoff wheel that you purchase is compatible with your cutting tool!'
+  options:
+    - metal-cutoff-wheel
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+vise:
+  description: Vise
+  id: vise
+  notes: ''
+  options:
+    - metal-jaw-vise
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+measuring-tape:
+  description: Measuring Tape
+  id: measuring-tape
+  notes: ''
+  options:
+    - measuring-tape
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+marker:
+  description: Permanent Marker
+  id: marker
+  notes: ''
+  options:
+    - permanent-marker
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
