@@ -19,6 +19,10 @@
 
   requiredTools:
   - welder
+  - vise-grip-pliers
 
   details: |
-    . 
+    . Using *{{tools.vise-grip-pliers.description}}*, secure a *{{parts.m6-25mm-screw.description}}* over one of the *{{tools.plate-jig.description}}* circles drawn previously.
+    . While wearing proper safety equipment, spot weld the *{{parts.m6-25mm-screw.description}}* to the *{{parts.steel-sheet.description}}* using the *{{tools.welder.description}}*.
+    . Repeat the above steps for the remaining *{{tools.plate-jig.description}}* marks until there are a total of four *{{parts.m6-25mm-screw.description}}* {{parts.m6-25mm-screw.quantityUnits}} in the locations indicated by the *{{tools.plate-jig.description}}*.
+    . Clean off the welding marks on both sides of the *{{parts.steel-sheet.description}}* using the *{{tools.welding-brush.description}}*.
