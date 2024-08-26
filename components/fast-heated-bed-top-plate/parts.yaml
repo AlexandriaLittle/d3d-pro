@@ -7,3 +7,12 @@ steel-sheet:
   quantity: 1
   quantityUnits: part
   selectedOption: 0
+m6-25mm-screw:
+  description: M6 x 25mm Screw
+  id: m6-25mm-screw
+  notes: ''
+  options:
+    - m6-25mm-socket-head-cap-screw
+  quantity: 4
+  quantityUnits: part(s)
+  selectedOption: 0

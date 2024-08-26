@@ -1,1 +1,36 @@
-{}
+plate-jig:
+  description: Plate Jig
+  id: plate-jig
+  notes: ''
+  options:
+    - fast-heated-bed-plate-jig
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+marker:
+  description: Permanent Marker
+  id: marker
+  notes: ''
+  options:
+    - permanent-marker
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+welder:
+  description: Welder
+  id: welder
+  notes: ''
+  options:
+    - welder
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+welding-brush:
+  description: Welding Brush
+  id: welding-brush
+  notes: ''
+  options:
+    - wire-welding-brush
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
