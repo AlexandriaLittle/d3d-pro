@@ -37,9 +37,18 @@ pulley:
 m3-25mm-screw:
   id: m3-25mm-screw
   description: M3 x 25mm Screw
-  quantity: 1
-  quantityUnits: part
+  quantity: 3
+  quantityUnits: part(s)
   options:
   - m3-25mm-socket-head-cap-screw
   selectedOption: 0
   notes: ''
+m6-nut:
+  description: M6 Nut
+  id: m6-nut
+  notes: ''
+  options:
+    - m6-nut
+  quantity: 2
+  quantityUnits: part(s)
+  selectedOption: 0
