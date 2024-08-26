@@ -1,1 +1,126 @@
-{}
+8mm-rod:
+  description: 8mm Rod
+  id: 8mm-rod
+  notes: ''
+  options:
+    - 8mm-600mm-smooth-rod
+  quantity: 2
+  quantityUnits: part(s)
+  selectedOption: 0
+autoparallel:
+  description: Autoparallel
+  id: autoparallel
+  notes: ''
+  options:
+    - autoparallel
+  quantity: 2
+  quantityUnits: part(s)
+  selectedOption: 0
+bottom-plate:
+  description: Fast Heated Bed Bottom Plate
+  id: bottom-plate
+  notes: ''
+  options:
+    - fast-heated-bed-bottom-plate
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+clamp:
+  description: Fast Heated Bed Clamp
+  id: clamp
+  notes: ''
+  options:
+    - fast-heated-bed-clamp
+  quantity: 2
+  quantityUnits: part(s)
+  selectedOption: 0
+conduit:
+  description: Metal Conduit
+  id: conduit
+  notes: ''
+  options:
+    - 0_5inch-trade-size-metal-conduit
+  quantity: 4
+  quantityUnits: part(s)
+  selectedOption: 0
+corner-brace:
+  description: Corner Brace
+  id: corner-brace
+  notes: ''
+  options:
+    - corner-brace
+  quantity: 2
+  quantityUnits: part(s)
+  selectedOption: 0
+halogen-lightbulb:
+  description: R7S 118mm Halogen Lightbulb
+  id: halogen-lightbulb
+  notes: ''
+  options:
+    - r7s-118mm-halogen-lightbulb
+  quantity: 3
+  quantityUnits: part(s)
+  selectedOption: 0
+halogen-lightbulb-holder:
+  description: R7S 118mm Halogen Lightbulb Holder
+  id: halogen-lightbulb-holder
+  notes: ''
+  options:
+    - r7s-118mm-halogen-lightbulb-holder
+  quantity: 3
+  quantityUnits: part(s)
+  selectedOption: 0
+m6-20mm-screw:
+  description: M6 x 20mm Screw
+  id: m6-20mm-screw
+  notes: ''
+  options:
+    - m6-20mm-socket-head-cap-screw
+  quantity: 4
+  quantityUnits: part(s)
+  selectedOption: 0
+m6-nut:
+  description: M6 Nut
+  id: m6-nut
+  notes: ''
+  options:
+    - m6-nut
+  quantity: 8
+  quantityUnits: part(s)
+  selectedOption: 0
+pei-sheet:
+  description: PEI Sheet
+  id: pei-sheet
+  notes: ''
+  options:
+    - pei-sheet
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+sleeve:
+  description: Carbon Fiber Blanket Sleeve
+  id: sleeve
+  notes: ''
+  options:
+    - carbon-fiber-blanket-sleeve
+  quantity: 4
+  quantityUnits: part(s)
+  selectedOption: 0
+thermistor:
+  description: Thermistor
+  id: thermistor
+  notes: ''
+  options:
+    - ntc-100k-ohm-b3950-thermistor-cartridge
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+top-plate:
+  description: Fast Heated Bed Top Plate
+  id: top-plate
+  notes: ''
+  options:
+    - fast-heated-bed-top-plate
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
