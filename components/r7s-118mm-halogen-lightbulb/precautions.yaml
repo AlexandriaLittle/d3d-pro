@@ -1,2 +1,2 @@
-- Halogen Lightbulbs require special handling. The oils on human skin can shorten the lifetime of a Halogen Lightbulb if they get on the glass of the bulb. Always use something other than your hands to handle a Halogen Lightbulb.
-- If oils or other debris do get on the Halogen Lightbulb it can be cleaned with rubbing alcohol and a clean paper towel.
+- '{{description}} {{quantityUnits}} requires special handling. The oils on human skin can shorten the lifetime of a {{description}} if they get on the glass of the bulb. Always use something other than your hands to handle a {{description}}.'
+- 'If oils or other debris do get on the {{description}} it can be cleaned with rubbing alcohol and a clean paper towel.' 
