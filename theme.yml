@@ -15,6 +15,8 @@ base:
   font-family: Helvetica
   line-height: 1
   font-size: 10.5
+list:
+  item-spacing: 3
 heading:
   h-font-size: $base-font-size * 1.7
   line-height: 1
