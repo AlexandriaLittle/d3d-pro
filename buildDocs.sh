@@ -28,4 +28,4 @@ asciidoctor dist/assemblyInstructions.adoc -o dist/assemblyInstructions.html
 
 # generate dist/assemblyInstructions.pdf
 echo "generating dist/assemblyInstructions.pdf..."
-asciidoctor dist/assemblyInstructions.adoc -o dist/assemblyInstructions.pdf -r asciidoctor-pdf -b pdf
+asciidoctor dist/assemblyInstructions.adoc -o dist/assemblyInstructions.pdf -r asciidoctor-pdf -b pdf -a pdf-theme=theme.yml

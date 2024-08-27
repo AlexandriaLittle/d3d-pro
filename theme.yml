@@ -1,0 +1,31 @@
+      # This yaml file extends default theme. See https://github.com/asciidoctor/asciidoctor-pdf/blob/master/docs/theming-guide.adoc
+extends: default
+page:
+  layout: portrait
+  margin: [0.5in, 0.5in, 0.5in, 0.5in]
+  size: Letter
+caption:
+  align: center
+table:
+  caption:
+    side: bottom
+  cell:
+    padding: 3
+base:
+  font-family: Helvetica
+  line-height: 1
+  font-size: 10.5
+heading:
+  h-font-size: $base-font-size * 1.7
+  line-height: 1
+header:
+  height: 0.75in
+  line_height: 1
+footer:
+  columns: =100%
+  recto:
+    center:
+      content: '{page-number}'
+  verso:
+    center:
+      content: '{page-number}'
