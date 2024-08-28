@@ -11,6 +11,8 @@
 
   details: |
     . Unpack required parts from bag.
+    + 
+    meme::IMG_3425.jpg[Image 1 // here goes nothing] image:IMG_3425.jpg[,300,300,pdfwidth=40%]
     . Using the *{{tools.2mm-allen-wrench.description}}*, lightly screw the *{{ parts.m3-10mm-screw.description }}* {{parts.m3-10mm-screw.quantityUnits}} into the two threaded holes on the side of the *{{parts.volcano-heater-block.description}}*.
     . Using the *{{tools.1mm-allen-wrench.description}}*, lightly screw the *{{parts.m3-4mm-grub-screw.description}}* into the single threaded hole on the side of the *{{parts.volcano-heater-block.description}}*. Be sure to leave enough room for the *{{parts.thermistor.description}}* to be inserted later.
     . Insert the *{{parts.heater-cartridge.description}}* into the non-threaded hole in the *{{parts.volcano-heater-block.description}}* with the wires coming out of the end with an indent. Make sure the *{{parts.heater-cartridge.description}}* does not extend past the bottom of the *{{parts.volcano-heater-block.description}}*.
@@ -21,7 +23,7 @@
     . Screw the short end of the *{{parts.heat-break.description}}* into the other side of the *{{parts.volcano-heater-block.description}}* until it bottoms out against the *{{parts.nozzle.description}}*.
 
 
-- summary: Hot tighten the {{parts.nozzle.description}} and {{parts.heat-break.description}}
+- summary: Hot Tighten the {{parts.nozzle.description}} and {{parts.heat-break.description}}
   requiredParts:
     - m6-thin-nut
     - volcano-heater-block

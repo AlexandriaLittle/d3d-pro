@@ -61,3 +61,12 @@ vise:
   quantity: 1
   quantityUnits: part
   selectedOption: 0
+vise-grip-pliers:
+  description: Vise Grip Pliers
+  id: vise-grip-pliers
+  notes: (Optional alternative to the Metal Jaw Vise) The jaws of the vise grips must be metal for heat resistance.
+  options:
+    - vise-grip-pliers
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
