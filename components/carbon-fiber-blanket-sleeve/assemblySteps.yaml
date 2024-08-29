@@ -1,1 +1,12 @@
-[]
+- summary: Assemble {{description}}
+  requiredParts: 
+  - carbon-fiber-blanket-stock
+  - sewing-thread
+
+  requiredTools:
+  - sewing-machine
+  - scissors
+
+  details: |
+    . Using the *{{tools.scissors.description}}*, cut four rectangles of *{{parts.carbon-fiber-welding-blanket-stock.description}}* to size (80mm x 300mm).
+    

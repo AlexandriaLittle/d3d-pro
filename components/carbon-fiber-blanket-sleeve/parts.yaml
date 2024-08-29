@@ -1,1 +1,18 @@
-{}
+carbon-fiber-blanket-stock:
+  description: Carbon Fiber Blanket
+  id: carbon-fiber-blanket-stock
+  notes: ''
+  options:
+    - carbon-fiber-blanket-stock
+  quantity: 1
+  quantityUnits: part(s)
+  selectedOption: 0
+sewing-thread:
+  description: Sewing Thread
+  id: sewing-thread
+  notes: ''
+  options:
+    - sewing-thread
+  quantity: 1
+  quantityUnits: part(s)
+  selectedOption: 0

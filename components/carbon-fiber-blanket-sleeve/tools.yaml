@@ -1,1 +1,18 @@
-{}
+sewing-machine:
+  description: Sewing Machine
+  id: sewing-machine
+  notes: 'Optionally, use a needle and thread to hand sew components.'
+  options:
+    - sewing-machine
+  quantity: 1
+  quantityUnits: part(s)
+  selectedOption: 0
+scissors:
+  description: Scissors
+  id: scissors
+  notes: ''
+  options:
+    - scissors
+  quantity: 1
+  quantityUnits: part(s)
+  selectedOption: 0
