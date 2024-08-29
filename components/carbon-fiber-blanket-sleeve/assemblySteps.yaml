@@ -1,4 +1,4 @@
-- summary: Assemble {{description}}
+- summary: Assemble {{description}} Parts
   requiredParts: 
   - carbon-fiber-blanket-stock
   - sewing-thread
@@ -8,5 +8,11 @@
   - scissors
 
   details: |
-    . Using the *{{tools.scissors.description}}*, cut four rectangles of *{{parts.carbon-fiber-welding-blanket-stock.description}}* to size (80mm x 300mm).
-    
+    . Using the *{{tools.scissors.description}}*, cut four rectangles of *{{parts.carbon-fiber-blanket-stock.description}}* to size (80mm x 300mm).
+    . Set up the *{{tools.sewing-machine.description}}* and *{{parts.sewing-thread.description}}* by following the manufacturer's instructions for the *{{tools.sewing-machine.description}}*.
+    . Overlap/fold one rectangle of *{{parts.carbon-fiber-blanket-stock.description}}* so that it forms a 40mm x 300mm rectangle.
+    . Using the *{{tools.sewing-machine.description}}*, sew the 300mm long edges of the rectangle together. It should form a 300mm long sleeve.
+    . Repeat the previous two steps for all of the remaining *{{parts.carbon-fiber-blanket-stock.description}}* rectangles.
+    . Take one of the *{{description}}* parts and use *{{tools.scissors.description}}* to cut "X" shapes near the ends of the sleeve. The center of the "X" cuts should be approx. 20mm from each edge.
+    . Repeat the above step for all of the remaining *{{description}}* parts.
+    . The *{{description}}* parts are complete.
