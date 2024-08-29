@@ -63,13 +63,13 @@
 
   requiredTools: 
   - 1_75mm-filament
-  - 1mm-allen-wrench
+  - 1_5mm-allen-wrench
   - 2_5mm-allen-wrench
 
   details: |
     . Put the *{{parts.extruder-gear.description}}* on the shaft of the *{{parts.stepper-motor.description}}* in the *{{parts.motor-mount.description}}*. Do not tighten it down yet.
     . Insert the *{{tools.1_75mm-filament.description}}* into the top of the *{{parts.hot-end-assembly.description}}* and align the *{{parts.extruder-gear.description}}* teeth with the *{{tools.1_75mm-filament.description}}*.
-    . Tighten down the screw on the *{{parts.extruder-gear.description}}* using the *{{tools.1mm-allen-wrench.description}}*.
+    . Tighten down the screw on the *{{parts.extruder-gear.description}}* using the *{{tools.1_5mm-allen-wrench.description}}*.
     . Using the *{{tools.1_75mm-filament.description}}* as a guide, tighten down the *{{parts.m3-30mm-screw.description}}* {{parts.m3-30mm-screw.quantityUnits}} on the *{{parts.hot-end-assembly.description}}* using a *{{tools.2_5mm-allen-wrench.description}}*. Make sure that the *{{tools.1_75mm-filament.description}}* is coming _straight_ out of the top of the *{{parts.hot-end-assembly.description}}* before tightening.
 
 - summary: Install {{parts.spring-tensioner.description}}

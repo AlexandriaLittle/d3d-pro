@@ -1,9 +1,9 @@
-1mm-allen-wrench:
-  description: 1mm Allen Wrench
-  id: 1mm-allen-wrench
+1_5mm-allen-wrench:
+  description: 1.5mm Allen Wrench
+  id: 1_5mm-allen-wrench
   notes: ''
   options:
-    - 1mm-allen-wrench
+    - 1_5mm-allen-wrench
   quantity: 1
   quantityUnits: part
   selectedOption: 0
