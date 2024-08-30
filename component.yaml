@@ -1976,7 +1976,7 @@ components:
           Conduit* so that the *Metal Conduit* is in the middle of the *Carbon
           Fiber Blanket Sleeve*.
 
-          . Repeat the above step for the other three pairs of *Carbon Fiber
+          . Repeat the above step for the three other pairs of *Carbon Fiber
           Blanket Sleeve* part(s) and *Metal Conduit* part(s).
 
           . Orient the *Fast Heated Bed Top Plate* so that the screws are on
@@ -2004,8 +2004,25 @@ components:
           *Fast Heated Bed Top Plate. The *Fast Heated Bed Bottom Plate* should
           rest on top of the *M6 Nut* part(s) from the previous step.
 
-          .Take four *M6 Nut* part(s) and screw one onto every screw on the
+          . Take four *M6 Nut* part(s) and screw one onto every screw on the
           *Fast Heated Bed Top Plate* above the *Fast Heated Bed Bottom Plate*.
+          Tighten them down by hand; the final adjustment will take place later.
+
+          . Gently flip the *Fast Heated Bed Module* over so that the *Fast
+          Heated Bed Top Plate* is on top.
+
+          . Take the *PEI Sheet* and peel away the corner of the covering of the
+          adhesive side of the part
+
+          . Align the exposed adhesive corner of the *PEI Sheet* with the
+          machine cut side of the *Fast Heated Bed Top Plate*.
+
+          . Apply even and gentle pressure to the *PEI Sheet* to begin to stick
+          it to the surface of the *Fast Heated Bed Top Plate*.
+
+          . While keeping the edges aligned, peel back more of the adhesive
+          covering and apply more even pressure across the surface of the *PEI
+          Sheet* until the *part* is fully adheared.
   fast-heated-bed-bottom-plate:
     name: fast-heated-bed-bottom-plate
     version: 1.0.0
