@@ -7,12 +7,12 @@
   quantity: 100
   quantityUnits: mm
   selectedOption: 0
-1_5mm-allen-wrench:
-  description: 1.5mm Allen Wrench
-  id: 1_5mm-allen-wrench
+2mm-allen-wrench:
+  description: 2mm Allen Wrench
+  id: 2mm-allen-wrench
   notes: ''
   options:
-    - 1_5mm-allen-wrench
+    - 2mm-allen-wrench
   quantity: 1
   quantityUnits: part
   selectedOption: 0
