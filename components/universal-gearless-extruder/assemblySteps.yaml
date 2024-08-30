@@ -141,8 +141,9 @@
 
   details: |
     . Insert the *{{parts.height-sensor.description}}* into the slot on the left side of the *{{parts.active-cooling-height-sensor-plotter.description}}*.
+    . Using the *{{tools.5mm-allen-wrench.description}}*, screw the *{{parts.m6-25mm-screw.description}}* into the hole at the back of the slot. 
     . Adjust the height of the *{{parts.height-sensor.description}}* so the bottom is 2mm above the bottom of the *{{parts.active-cooling-height-sensor-plotter.description}}*.
-    . Using the *{{tools.5mm-allen-wrench.description}}*, screw the *{{parts.m6-25mm-screw.description}}* into the hole at the back of the slot. Tighten the *{{parts.m6-25mm-screw.description}}* only enough to hold the *{{parts.active-cooling-height-sensor-plotter.description}}* in place and not damage it.
+    . Tighten the *{{parts.m6-25mm-screw.description}}* only enough to hold the *{{parts.active-cooling-height-sensor-plotter.description}}* in place and not damage it.
 
 - summary: Install {{parts.40mm-fan.description}}
   requiredParts: 
