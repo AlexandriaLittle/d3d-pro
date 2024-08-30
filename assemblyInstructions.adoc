@@ -3877,8 +3877,17 @@ image:IMG_3466.jpg[,300,300,pdfwidth=40%]
 
 . Clean off any extra plastic on the *Motor Mount* using a *Hobby Knife*.
 . Insert the *M6 Nut* into the slot in the middle of the *Motor Mount*.
-. Insert the *Nema 17 Stepper Motor* into the *Motor Mount* with the mounting holes lined up.
++
+image:IMG_3503.jpg[,300,300,pdfwidth=40%] 
+. Insert the *Nema 17 Stepper Motor* into the *Motor Mount* with the mounting holes on both parts lined up.
++
+image:IMG_3504.jpg[,300,300,pdfwidth=40%] 
+image:IMG_3505.jpg[,300,300,pdfwidth=40%] 
 . In the top right corner, use the *2.5mm Allen Wrench* to screw an *M3 x 8mm Screw* through the  *Motor Mount* and into the mounting hole on the *Nema 17 Stepper Motor*.
++
+image:IMG_3506.jpg[,300,300,pdfwidth=40%] 
+image:IMG_3507.jpg[,300,300,pdfwidth=40%] 
+image:IMG_3508.jpg[,300,300,pdfwidth=40%] 
 
 
 
