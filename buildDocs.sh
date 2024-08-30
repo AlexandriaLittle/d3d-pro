@@ -24,7 +24,7 @@ podman run --rm -v $PWD:/src -w /src docker.io/node node dof-helpers/generateAss
 
 # generate dist/assemblyInstructions.html
 echo "generating dist/assemblyInstructions.html..."
-podman run --rm --volume $PWD:/src -w "/src" docker.io/asciidoctor/docker-asciidoctor asciidoctor dist/assemblyInstructions.adoc -o dist/assemblyInstructions.html
+podman run --rm --volume $PWD:/src -w "/src" docker.io/asciidoctor/docker-asciidoctor asciidoctor dist/assemblyInstructions.adoc -o dist/index.html
 
 # generate dist/assemblyInstructions.pdf
 echo "generating dist/assemblyInstructions.pdf..."
