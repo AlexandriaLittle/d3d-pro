@@ -13241,17 +13241,16 @@ components:
         selectedOption: 0
         descriptionLong: '1_75mm-filament: 1.75mm Filament'
         descriptionSelected: '1_75mm-filament: 1.75mm Filament (1.75mm 3D Printer Filament v1.0.0)'
-      1_5mm-allen-wrench:
-        description: 1.5mm Allen Wrench
-        id: 1_5mm-allen-wrench
+      2mm-allen-wrench:
+        description: 2mm Allen Wrench
+        id: 2mm-allen-wrench
         notes: ''
         options:
-          - 1_5mm-allen-wrench
+          - 2mm-allen-wrench
         quantity: 1
         quantityUnits: part
         selectedOption: 0
-        descriptionLong: '1_5mm-allen-wrench: 1.5mm Allen Wrench'
-        descriptionSelected: '1_5mm-allen-wrench: 1.5mm Allen Wrench (1.5mm Allen Wrench v1.0.0)'
+        descriptionLong: '2mm-allen-wrench: 2mm Allen Wrench'
       2_5mm-allen-wrench:
         description: 2.5mm Allen Wrench
         id: 2_5mm-allen-wrench
@@ -13261,8 +13260,6 @@ components:
         quantity: 1
         quantityUnits: part
         selectedOption: 0
-        descriptionLong: '2_5mm-allen-wrench: 2.5mm Allen Wrench'
-        descriptionSelected: '2_5mm-allen-wrench: 2.5mm Allen Wrench (2.5mm Allen Wrench v1.0.0)'
       5mm-allen-wrench:
         description: 5mm Allen Wrench
         id: 5mm-allen-wrench
@@ -13272,8 +13269,6 @@ components:
         quantity: 1
         quantityUnits: part
         selectedOption: 0
-        descriptionLong: '5mm-allen-wrench: 5mm Allen Wrench'
-        descriptionSelected: '5mm-allen-wrench: 5mm Allen Wrench (5mm Allen Wrench v1.0.0)'
       hobby-knife:
         description: Hobby Knife
         id: hobby-knife
@@ -13283,269 +13278,7 @@ components:
         quantity: 1
         quantityUnits: part
         selectedOption: 0
-        descriptionLong: 'hobby-knife: Hobby Knife'
-        descriptionSelected: 'hobby-knife: Hobby Knife (Hobby Knife v1.0.0)'
     precautions: []
-    assemblySteps:
-      - summary: Assemble the Motor Mount
-        requiredParts:
-          - motor-mount
-          - stepper-motor
-          - m3-8mm-screw
-          - m6-nut
-        requiredTools:
-          - 2_5mm-allen-wrench
-          - hobby-knife
-        details: >
-          . Clean off any extra plastic on the *Motor Mount* using a *Hobby
-          Knife*.
-
-          . Insert the *M6 Nut* into the slot in the middle of the *Motor
-          Mount*.
-
-          +
-
-          image:IMG_3503.jpg[,300,300,pdfwidth=40%] 
-
-          . Insert the *Nema 17 Stepper Motor* into the *Motor Mount* with the
-          mounting holes on both parts lined up.
-
-          +
-
-          image:IMG_3504.jpg[,300,300,pdfwidth=40%] 
-
-          image:IMG_3505.jpg[,300,300,pdfwidth=40%] 
-
-          . In the top right corner, use the *2.5mm Allen Wrench* to screw an
-          *M3 x 8mm Screw* through the  *Motor Mount* and into the mounting hole
-          on the *Nema 17 Stepper Motor*.
-
-          +
-
-          image:IMG_3506.jpg[,300,300,pdfwidth=40%] 
-
-          image:IMG_3507.jpg[,300,300,pdfwidth=40%] 
-
-          image:IMG_3508.jpg[,300,300,pdfwidth=40%] 
-      - summary: Add the Secondary Extruder Part
-        requiredParts:
-          - active-cooling-height-sensor-plotter
-          - blower-fan
-          - m3-8mm-screw
-          - m3-20mm-screw
-        requiredTools:
-          - 2_5mm-allen-wrench
-          - hobby-knife
-        details: >
-          . Clean off any extra plastic on the *Secondary Extruder Part* using a
-          *Hobby Knife*.
-
-          . Line up the *Secondary Extruder Part* with the mounting holes on the
-          left side of the *Motor Mount*.
-
-          +
-
-          image:IMG_3509.jpeg[,300,300,pdfwidth=40%]
-
-          . Using the *2.5mm Allen Wrench*, screw an *M3 x 8mm Screw* into the
-          furthest back mounting hole.
-
-          +
-
-          image:IMG_3510.jpeg[,300,300,pdfwidth=40%]
-
-          image:IMG_3511.jpeg[,300,300,pdfwidth=40%]
-
-          . Insert the open end of the *Blower Fan* into the fan duct on the
-          *Secondary Extruder Part*.
-
-          +
-
-          image:IMG_3512.jpeg[,300,300,pdfwidth=40%]
-
-          . Using the *2.5mm Allen Wrench*, screw two *M3 x 20mm Screw* part(s)
-          into the mounting holes of the *Blower Fan* to mount it to the
-          *Secondary Extruder Part*.
-
-          +
-
-          image:IMG_3513.jpeg[,300,300,pdfwidth=40%]
-
-          image:IMG_3514.jpeg[,300,300,pdfwidth=40%]
-
-          image:IMG_3515.jpeg[,300,300,pdfwidth=40%]
-
-          . Use the *2.5mm Allen Wrench* to screw *M3 x 8mm Screw* part(s) into
-          the remaing open mounting holes in the *Secondary Extruder Part*.
-
-          + 
-
-          image:IMG_3516.jpeg[,300,300,pdfwidth=40%]
-
-          image:IMG_3517.jpeg[,300,300,pdfwidth=40%]
-
-          image:IMG_3518.jpeg[,300,300,pdfwidth=40%]
-
-          image:IMG_3519.jpeg[,300,300,pdfwidth=40%]
-      - summary: Install Hot End Assembly
-        requiredParts:
-          - active-cooling-height-sensor-plotter
-          - hot-end-assembly
-          - 40mm-heatsink
-          - m3-30mm-screw
-          - thermal-paste
-        requiredTools:
-          - 2_5mm-allen-wrench
-        details: >
-          . Apply one drop(s) of *Thermal Paste* to the flat area between the
-          mounting holes on the *40mm Heatsink Fins*.
-
-          +
-
-          image:IMG_3520.jpeg[,300,300,pdfwidth=40%]
-
-          image:IMG_3521.jpeg[,300,300,pdfwidth=40%]
-
-          image:IMG_3522.jpeg[,300,300,pdfwidth=40%]
-
-          . Place two *M3 x 30mm Screw* part(s) into the mounting holes of the
-          *40mm Heatsink Fins* with the threads of the *M3 x 30mm Screw* part(s)
-          sticking out of the flat side of the *40mm Heatsink Fins*.
-
-          +
-
-          image:IMG_3523.jpeg[,300,300,pdfwidth=40%]
-
-          . Orient the *Hot End Assembly* with the longer side on the right.
-
-          +
-
-          image:IMG_3524.jpeg[,300,300,pdfwidth=40%]
-
-          . Insert the *M3 x 30mm Screw* part(s) through the mounting holes of
-          the *Hot End Assembly*. This should squish the *Thermal Paste* between
-          the *Hot End Assembly* and the *40mm Heatsink Fins*.
-
-          +
-
-          image:IMG_3525.jpeg[,300,300,pdfwidth=40%]
-
-          . Position the *Hot End Assembly* mounting holes against the bottom
-          mounting holes of the *Nema 17 Stepper Motor* in the *Motor Mount*.
-
-          +
-
-          image:IMG_3526.jpeg[,300,300,pdfwidth=40%]
-
-          . Lightly screw down the *M3 x 30mm Screw* part(s) using the *2.5mm
-          Allen Wrench* to hold the *Hot End Assembly* against the *Nema 17
-          Stepper Motor* in the *Motor Mount*, but not too hard as the position
-          of the *Hot End Assembly* will be adjusted later.
-
-          + 
-
-          image:IMG_3527.jpeg[,300,300,pdfwidth=40%]
-
-          image:IMG_3528.jpeg[,300,300,pdfwidth=40%]
-      - summary: Install and adjust Filament Drive Gear / Adjust Hot End Assembly
-        requiredParts:
-          - extruder-gear
-          - hot-end-assembly
-          - motor-mount
-        requiredTools:
-          - 1_75mm-filament
-          - 1_5mm-allen-wrench
-          - 2_5mm-allen-wrench
-        details: >
-          . Put the *Filament Drive Gear* on the shaft of the *Nema 17 Stepper
-          Motor* in the *Motor Mount*. Do not tighten it down yet.
-
-          . Insert the *1.75mm Filament* into the top of the *Hot End Assembly*
-          and align the *Filament Drive Gear* teeth with the *1.75mm Filament*.
-
-          . Tighten down the screw on the *Filament Drive Gear* using the *1.5mm
-          Allen Wrench*.
-
-          . Using the *1.75mm Filament* as a guide, tighten down the *M3 x 30mm
-          Screw* part(s) on the *Hot End Assembly* using a *2.5mm Allen Wrench*.
-          Make sure that the *1.75mm Filament* is coming _straight_ out of the
-          top of the *Hot End Assembly* before tightening.
-      - summary: Install Spring Tensioner Arm
-        requiredParts:
-          - motor-mount
-          - spring-tensioner
-          - extruder-spring
-          - 608-bearing
-          - m3-20mm-screw
-        requiredTools:
-          - 2_5mm-allen-wrench
-          - hobby-knife
-        details: >
-          . Clean off any extra plastic on the *Spring Tensioner Arm* using a
-          *Hobby Knife*.
-
-          . Press the *608 ZZ Bearing* onto the peg on the *Spring Tensioner
-          Arm*.
-
-          . With the arm of the *Spring Tensioner Arm* pointing right, screw the
-          *Spring Tensioner Arm* onto the top left mounting hole on the front of
-          the *Motor Mount* using a *M3 x 20mm Screw* and a *2.5mm Allen
-          Wrench*.
-
-          . Insert the *Extruder Spring* between the arm of the *Spring
-          Tensioner Arm* and the mounting slot on the *Motor Mount*.
-      - summary: Install Height Sensor
-        requiredParts:
-          - active-cooling-height-sensor-plotter
-          - height-sensor
-          - m6-25mm-screw
-        requiredTools:
-          - 5mm-allen-wrench
-        details: >
-          . Insert the *Height Sensor* into the slot on the left side of the
-          *Secondary Extruder Part*.
-
-          . Adjust the height of the *Height Sensor* so the bottom is 2mm above
-          the bottom of the *Secondary Extruder Part*.
-
-          . Using the *5mm Allen Wrench*, screw the *M6 x 25mm Screw* into the
-          hole at the back of the slot. Tighten the *M6 x 25mm Screw* only
-          enough to hold the *Secondary Extruder Part* in place and not damage
-          it.
-      - summary: Install 40mm Fan
-        requiredParts:
-          - 40mm-heatsink
-          - 40mm-fan
-          - m3-20mm-screw
-        requiredTools:
-          - 2_5mm-allen-wrench
-        details: >
-          . Orient the *40mm Fan* over the *40mm Heatsink Fins* so that the fan
-          will blow air toward the *40mm Heatsink Fins*.
-
-          . Place the *40mm Fan* directly over the front of the *40mm Heatsink
-          Fins* and screw it into place using two *M3 x 20mm Screw* part(s) and
-          the *2.5mm Allen Wrench* in the bottom mounting holes of the *40mm
-          Fan*. The screws will be held in the *40mm Heatsink Fins*.
-      - summary: Cables Management
-        requiredParts:
-          - stepper-motor-cable
-          - split-wire-loom
-          - zip-tie-small
-        requiredTools: []
-        details: >
-          . Connect the *2 Meter Stepper Motor Cable* to the *Nema 17 Stepper
-          Motor* in the *Motor Mount*. There should only be one cable
-          orientation that fits in the *Nema 17 Stepper Motor*.
-
-          . Bundle the *Universal Gearless Extruder Module* wires such that when
-          looking at the front of the Universal Gearless Extruder Module, the
-          wires are sent to the right hand side.
-
-          . Use a *Small Zip Tie* to hold the wires together.
-
-          . Take all 15 *Universal Gearless Extruder Module* wires and pull them
-          through the *2 Meter Split Wire Loom*.
   universal-gearless-extruder-active-cooling-height-sensor-plotter:
     name: universal-gearless-extruder-active-cooling-height-sensor-plotter
     version: 1.0.0
