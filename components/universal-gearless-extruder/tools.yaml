@@ -43,3 +43,12 @@ hobby-knife:
   quantity: 1
   quantityUnits: part
   selectedOption: 0
+scissors:
+  description: Scissors
+  id: scissors
+  notes: ''
+  options:
+    - scissors
+  quantity: 1
+  quantityUnits: part(s)
+  selectedOption: 0

@@ -164,10 +164,15 @@
   - split-wire-loom
   - zip-tie-small
   
-  requiredTools: []
+  requiredTools: 
+  - scissors
 
   details: |
     . Connect the *{{parts.stepper-motor-cable.description}}* to the *{{parts.stepper-motor.description}}* in the *{{parts.motor-mount.description}}*. There should only be one cable orientation that fits in the *{{parts.stepper-motor.description}}*.
     . Bundle the *{{description}}* wires such that when looking at the front of the {{description}}, the wires are sent to the right hand side.
     . Use a *{{parts.zip-tie-small.description}}* to hold the wires together.
     . Take all 15 *{{description}}* wires and pull them through the *{{parts.split-wire-loom.description}}*.
+    . Using *{{tools.scissors.description}}* cut the *{{parts.split-wire-loom.description}}* to 100mm shorter than the shortest cable.
+    . Take any cables that are too long and double them back into the *{{parts.split-wire-loom.description}}*.
+    . Use a *{{parts.zip-tie-small.description}}* to secure the loose end of the *{{parts.split-wire-loom.description}}*.
+    . Using *{{tools.scissors.description}}* cut the extra length off of the *{{parts.zip-tie-small.description}}* {{parts.zip-tie-small.quantityUnits}}.
