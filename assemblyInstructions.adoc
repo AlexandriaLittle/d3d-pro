@@ -3706,9 +3706,18 @@ image:IMG_3434.jpg[,300,300,pdfwidth=40%]
 image:IMG_3435.jpg[,300,300,pdfwidth=40%]
 image:IMG_3436.jpg[,300,300,pdfwidth=40%]
 . Screw down the *M3 x 4mm Grub Screw* part lightly using a *1.5mm Allen Wrench* to fasten the *Thermistor Cartridge*, but very lightly as the part can go right through the *Thermistor Cartridge*.
++
+image:IMG_3438.jpg[,300,300,pdfwidth=40%]
 . Screw down the *M3 x 10mm Cap Screw* parts using a *2mm Allen Wrench*, so that the *Volcano Style Heater Block* is secured. Do this evenly by screwing down one *M3 x 10mm Cap Screw* then the other and alternating four times.
++
+image:IMG_3439.jpg[,300,300,pdfwidth=40%]
 . Using a *7mm Socket Wrench*, screw the *Volcano Nozzle* into the end of the *Volcano Style Heater Block* that does not have wires, until there is 1/2 of a thread (approximately 1mm) exposed. 
++
+image:IMG_3440.jpg[,300,300,pdfwidth=40%]
 . Screw the short end of the *Heat Break* into the other side of the *Volcano Style Heater Block* until it bottoms out against the *Volcano Nozzle*.
++
+image:IMG_3441.jpg[,300,300,pdfwidth=40%]
+image:IMG_3442.jpg[,300,300,pdfwidth=40%]
 
 
 
@@ -3751,7 +3760,17 @@ image:IMG_3436.jpg[,300,300,pdfwidth=40%]
 *Instructions*
 
 . Gently secure the *Volcano Style Heater Block* in the *Metal Jaw Vise*, leaving enough clearance to tighten down the *Volcano Nozzle*.
++
+image:IMG_3444.jpg[,300,300,pdfwidth=40%]
 . Attach the *Heater Cartridge* wires onto the output of the *24v Power Supply* and power on the *24v Power Supply*.
++
+image:IMG_3445.jpg[,300,300,pdfwidth=40%]
+image:IMG_3446.jpg[,300,300,pdfwidth=40%]
+image:IMG_3447.jpg[,300,300,pdfwidth=40%]
+image:IMG_3448.jpg[,300,300,pdfwidth=40%]
+image:IMG_3449.jpg[,300,300,pdfwidth=40%]
+image:IMG_3450.jpg[,300,300,pdfwidth=40%]
+image:IMG_3432.jpg[,300,300,pdfwidth=40%]
 . Wait two minutes for the *Volcano Style Heater Block* to get hot.
 . Using *Needle Nose Pliers*, hold the *Heat Break* in place while tightening down the *Volcano Nozzle* using the *7mm Socket Wrench*. Make sure that the *Volcano Nozzle* bottoms out against the *Heat Break*, not against the *Volcano Style Heater Block* - the goal is to close the filament flow gap between the *Volcano Nozzle* and *Heat Break*.
 . Once tightened, turn off the *24v Power Supply*.
