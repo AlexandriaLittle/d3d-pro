@@ -38,11 +38,26 @@
   details: |
     . Clean off any extra plastic on the *{{parts.active-cooling-height-sensor-plotter.description}}* using a *{{tools.hobby-knife.description}}*.
     . Line up the *{{parts.active-cooling-height-sensor-plotter.description}}* with the mounting holes on the left side of the *{{parts.motor-mount.description}}*.
+    +
+    image:IMG_3509.jpeg[,300,300,pdfwidth=40%]
     . Using the *{{tools.2_5mm-allen-wrench.description}}*, screw an *{{parts.m3-8mm-screw.description}}* into the furthest back mounting hole.
+    +
+    image:IMG_3510.jpeg[,300,300,pdfwidth=40%]
+    image:IMG_3511.jpeg[,300,300,pdfwidth=40%]
     . Insert the open end of the *{{parts.blower-fan.description}}* into the fan duct on the *{{parts.active-cooling-height-sensor-plotter.description}}*.
+    +
+    image:IMG_3512.jpeg[,300,300,pdfwidth=40%]
     . Using the *{{tools.2_5mm-allen-wrench.description}}*, screw two *{{parts.m3-20mm-screw.description}}* {{parts.m3-20mm-screw.quantityUnits}} into the mounting holes of the *{{parts.blower-fan.description}}* to mount it to the *{{parts.active-cooling-height-sensor-plotter.description}}*.
+    +
+    image:IMG_3513.jpeg[,300,300,pdfwidth=40%]
+    image:IMG_3514.jpeg[,300,300,pdfwidth=40%]
+    image:IMG_3515.jpeg[,300,300,pdfwidth=40%]
     . Use the *{{tools.2_5mm-allen-wrench.description}}* to screw *{{parts.m3-8mm-screw.description}}* {{parts.m3-8mm-screw.quantityUnits}} into the remaing open mounting holes in the *{{parts.active-cooling-height-sensor-plotter.description}}*.
-
+    + 
+    image:IMG_3516.jpeg[,300,300,pdfwidth=40%]
+    image:IMG_3517.jpeg[,300,300,pdfwidth=40%]
+    image:IMG_3518.jpeg[,300,300,pdfwidth=40%]
+    image:IMG_3519.jpeg[,300,300,pdfwidth=40%]
 
 - summary: Install {{parts.hot-end-assembly.description}}
   requiredParts: 
@@ -58,11 +73,26 @@
 
   details: |
     . Apply one {{parts.thermal-paste.quantityUnits}} of *{{parts.thermal-paste.description}}* to the flat area between the mounting holes on the *{{parts.40mm-heatsink.description}}*.
+    +
+    image:IMG_3520.jpeg[,300,300,pdfwidth=40%]
+    image:IMG_3521.jpeg[,300,300,pdfwidth=40%]
+    image:IMG_3522.jpeg[,300,300,pdfwidth=40%]
     . Place two *{{parts.m3-30mm-screw.description}}* {{parts.m3-30mm-screw.quantityUnits}} into the mounting holes of the *{{parts.40mm-heatsink.description}}* with the threads of the *{{parts.m3-30mm-screw.description}}* {{parts.m3-30mm-screw.quantityUnits}} sticking out of the flat side of the *{{parts.40mm-heatsink.description}}*.
+    +
+    image:IMG_3523.jpeg[,300,300,pdfwidth=40%]
     . Orient the *{{parts.hot-end-assembly.description}}* with the longer side on the right.
+    +
+    image:IMG_3524.jpeg[,300,300,pdfwidth=40%]
     . Insert the *{{parts.m3-30mm-screw.description}}* {{parts.m3-30mm-screw.quantityUnits}} through the mounting holes of the *{{parts.hot-end-assembly.description}}*. This should squish the *{{parts.thermal-paste.description}}* between the *{{parts.hot-end-assembly.description}}* and the *{{parts.40mm-heatsink.description}}*.
+    +
+    image:IMG_3525.jpeg[,300,300,pdfwidth=40%]
     . Position the *{{parts.hot-end-assembly.description}}* mounting holes against the bottom mounting holes of the *{{parts.stepper-motor.description}}* in the *{{parts.motor-mount.description}}*.
+    +
+    image:IMG_3526.jpeg[,300,300,pdfwidth=40%]
     . Lightly screw down the *{{parts.m3-30mm-screw.description}}* {{parts.m3-30mm-screw.quantityUnits}} using the *{{tools.2_5mm-allen-wrench.description}}* to hold the *{{parts.hot-end-assembly.description}}* against the *{{parts.stepper-motor.description}}* in the *{{parts.motor-mount.description}}*, but not too hard as the position of the *{{parts.hot-end-assembly.description}}* will be adjusted later.
+    + 
+    image:IMG_3527.jpeg[,300,300,pdfwidth=40%]
+    image:IMG_3528.jpeg[,300,300,pdfwidth=40%]
 
 - summary:  Install and adjust {{parts.extruder-gear.description}} / Adjust {{parts.hot-end-assembly.description}}
   requiredParts: 
