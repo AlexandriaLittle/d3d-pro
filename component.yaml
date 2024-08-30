@@ -1971,8 +1971,18 @@ components:
       - summary: Assemble Fast Heated Bed Module
         requiredParts: []
         requiredTools: []
-        details: |
-          . 
+        details: >
+          . Slide one *Carbon Fiber Blanket Sleeve* part(s) over one *Metal
+          Conduit* so that the *Metal Conduit* is in the middle of the *Carbon
+          Fiber Blanket Sleeve*.
+
+          . Orient the *Fast Heated Bed Top Plate* so that the screws are on
+          top.
+
+          . Take one of the *Metal Conduit* / *Carbon Fiber Blanket Sleeve*
+          *part(s)* and align the "X" cuts on the ends of the *Carbon Fiber
+          Blanket Sleeve* with two bolts on the side of the *Fast Heated Bed Top
+          Plate*. 
   fast-heated-bed-bottom-plate:
     name: fast-heated-bed-bottom-plate
     version: 1.0.0
