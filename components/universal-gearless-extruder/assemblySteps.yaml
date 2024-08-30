@@ -107,9 +107,18 @@
 
   details: |
     . Put the *{{parts.extruder-gear.description}}* on the shaft of the *{{parts.stepper-motor.description}}* in the *{{parts.motor-mount.description}}*. Do not tighten it down yet.
+    +
+    image:IMG_3529.jpeg[,300,300,pdfwidth=40%]
     . Insert the *{{tools.1_75mm-filament.description}}* into the top of the *{{parts.hot-end-assembly.description}}* and align the *{{parts.extruder-gear.description}}* teeth with the *{{tools.1_75mm-filament.description}}*.
+    +
+    image:IMG_3530.jpeg[,300,300,pdfwidth=40%]
     . Tighten down the screw on the *{{parts.extruder-gear.description}}* using the *{{tools.2mm-allen-wrench.description}}*.
+    +
+    image:IMG_3531.jpeg[,300,300,pdfwidth=40%]
     . Using the *{{tools.1_75mm-filament.description}}* as a guide, tighten down the *{{parts.m3-30mm-screw.description}}* {{parts.m3-30mm-screw.quantityUnits}} on the *{{parts.hot-end-assembly.description}}* using a *{{tools.2_5mm-allen-wrench.description}}*. Make sure that the *{{tools.1_75mm-filament.description}}* is coming _straight_ out of the top of the *{{parts.hot-end-assembly.description}}* before tightening.
+    +
+    image:IMG_3532.jpeg[,300,300,pdfwidth=40%]
+    image:IMG_3533.jpeg[,300,300,pdfwidth=40%]
 
 - summary: Install {{parts.spring-tensioner.description}}
   requiredParts: 
@@ -126,8 +135,18 @@
   details: |
     . Clean off any extra plastic on the *{{parts.spring-tensioner.description}}* using a *{{tools.hobby-knife.description}}*.
     . Press the *{{parts.608-bearing.description}}* onto the peg on the *{{parts.spring-tensioner.description}}*.
+    +
+    image:IMG_3535.jpeg[,300,300,pdfwidth=40%]
+    image:IMG_3536.jpeg[,300,300,pdfwidth=40%]
     . With the arm of the *{{parts.spring-tensioner.description}}* pointing right, screw the *{{parts.spring-tensioner.description}}* onto the top left mounting hole on the front of the *{{parts.motor-mount.description}}* using a *{{parts.m3-20mm-screw.description}}* and a *{{tools.2_5mm-allen-wrench.description}}*.
+    +
+    image:IMG_3537.jpeg[,300,300,pdfwidth=40%]
+    image:IMG_3538.jpeg[,300,300,pdfwidth=40%]
     . Insert the *{{parts.extruder-spring.description}}* between the arm of the *{{parts.spring-tensioner.description}}* and the mounting slot on the *{{parts.motor-mount.description}}*.
+    image:IMG_3539.jpeg[,300,300,pdfwidth=40%]
+    image:IMG_3540.jpeg[,300,300,pdfwidth=40%]
+    image:IMG_3541.jpeg[,300,300,pdfwidth=40%]
+    image:IMG_3542.jpeg[,300,300,pdfwidth=40%]
 
 - summary: Install {{parts.height-sensor.description}}
   requiredParts:
@@ -141,9 +160,18 @@
 
   details: |
     . Using the *{{tools.5mm-allen-wrench.description}}*, screw the *{{parts.m6-25mm-screw.description}}* into the hole at the back of the slot on the left side of the *{{parts.active-cooling-height-sensor-plotter.description}}*.
+    +
+    image:IMG_3543.jpeg[,300,300,pdfwidth=40%]
     . Insert the *{{parts.height-sensor.description}}* into the slot.
+    +
+    image:IMG_3544.jpeg[,300,300,pdfwidth=40%]
     . Adjust the height of the *{{parts.height-sensor.description}}* so the bottom is 2mm above the bottom of the *{{parts.active-cooling-height-sensor-plotter.description}}*. When viewed from the side, the bottom of the *{{parts.height-sensor.description}}* should be _above_ the nozzle.
+    +
+    image:IMG_3545.jpeg[,300,300,pdfwidth=40%]
+    image:IMG_3547.jpeg[,300,300,pdfwidth=40%]
     . Tighten the *{{parts.m6-25mm-screw.description}}* only enough to hold the *{{parts.active-cooling-height-sensor-plotter.description}}* in place and not damage it.
+    +
+    image:IMG_3546.jpeg[,300,300,pdfwidth=40%]
 
 - summary: Install {{parts.40mm-fan.description}}
   requiredParts: 
@@ -156,7 +184,14 @@
 
   details: |
     . Orient the *{{parts.40mm-fan.description}}* over the *{{parts.40mm-heatsink.description}}* so that the fan will blow air toward the *{{parts.40mm-heatsink.description}}*.
+    +
+    image:IMG_3548.jpeg[,300,300,pdfwidth=40%]
     . Place the *{{parts.40mm-fan.description}}* directly over the front of the *{{parts.40mm-heatsink.description}}* and screw it into place using two *{{parts.m3-16mm-screw.description}}* {{parts.m3-16mm-screw.quantityUnits}} and the *{{tools.2_5mm-allen-wrench.description}}* in the bottom mounting holes of the *{{parts.40mm-fan.description}}*. The screws will be held in the *{{parts.40mm-heatsink.description}}*.
+    +
+    image:IMG_3551.jpeg[,300,300,pdfwidth=40%]
+    image:IMG_3552.jpeg[,300,300,pdfwidth=40%]
+    image:IMG_3553.jpeg[,300,300,pdfwidth=40%]
+    image:IMG_3554.jpeg[,300,300,pdfwidth=40%]
 
 - summary: Cables Management
   requiredParts: 
@@ -169,10 +204,26 @@
 
   details: |
     . Connect the *{{parts.stepper-motor-cable.description}}* to the *{{parts.stepper-motor.description}}* in the *{{parts.motor-mount.description}}*. There should only be one cable orientation that fits in the *{{parts.stepper-motor.description}}*.
+    +
+    image:IMG_3555.jpeg[,300,300,pdfwidth=40%]
+    image:IMG_3556.jpeg[,300,300,pdfwidth=40%]
     . Bundle the *{{description}}* wires such that when looking at the front of the {{description}}, the wires are sent to the right hand side.
-    . Use a *{{parts.zip-tie-small.description}}* to hold the wires together.
+    +
+    image:IMG_3557.jpeg[,300,300,pdfwidth=40%]
+    . Use a *{{parts.zip-tie-small.description}}* to hold the wires together. Snip the extra *{{parts.zip-tie-small.description}}* with *{{tools.scissors.description}}*.
+    +
+    image:IMG_3558.jpeg[,300,300,pdfwidth=40%]
     . Take all 15 *{{description}}* wires and pull them through the *{{parts.split-wire-loom.description}}*.
+    +
+    image:IMG_3561.jpeg[,300,300,pdfwidth=40%]
     . Using *{{tools.scissors.description}}* cut the *{{parts.split-wire-loom.description}}* to 100mm shorter than the shortest cable.
     . Take any cables that are too long and double them back into the *{{parts.split-wire-loom.description}}*.
+    +
+    image:IMG_3562.jpeg[,300,300,pdfwidth=40%]
     . Use a *{{parts.zip-tie-small.description}}* to secure the loose end of the *{{parts.split-wire-loom.description}}*.
+    +
+    image:IMG_3563.jpeg[,300,300,pdfwidth=40%]
     . Using *{{tools.scissors.description}}* cut the extra length off of the *{{parts.zip-tie-small.description}}* {{parts.zip-tie-small.quantityUnits}}.
+    . The *{{description}}* is complete.
+    +
+    image:IMG_3564.jpeg[,300,300,pdfwidth=40%]
