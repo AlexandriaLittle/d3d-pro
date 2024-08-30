@@ -4,4 +4,6 @@
   requiredTools: []
 
   details: |
-    . 
+    . Slide one *{{parts.sleeve.description}}* {{parts.sleeve.quantityUnits}} over one *{{parts.conduit.description}}* so that the *{{parts.conduit.description}}* is in the middle of the *{{parts.sleeve.description}}*.
+    . Orient the *{{parts.top-plate.description}}* so that the screws are on top.
+    . Take one of the *{{parts.conduit.description}}* / *{{parts.sleeve.description}}* *{{parts.sleeve.quantityUnits}}* and align the "X" cuts on the ends of the *{{parts.sleeve.description}}* with two bolts on the side of the *{{parts.top-plate.description}}*. 
