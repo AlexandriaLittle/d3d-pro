@@ -106,6 +106,15 @@ m3-8mm-screw:
   quantity: 4
   quantityUnits: part(s)
   selectedOption: 0
+m3-16mm-screw:
+  description: M3 x 16mm Screw
+  id: m3-16mm-screw
+  notes: ''
+  options:
+    - m3-16mm-socket-head-cap-screw
+  quantity: 2
+  quantityUnits: part(s)
+  selectedOption: 0
 m6-25mm-screw:
   description: M6 x 25mm Screw
   id: m6-25mm-screw
