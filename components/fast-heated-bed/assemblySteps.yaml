@@ -5,5 +5,10 @@
 
   details: |
     . Slide one *{{parts.sleeve.description}}* {{parts.sleeve.quantityUnits}} over one *{{parts.conduit.description}}* so that the *{{parts.conduit.description}}* is in the middle of the *{{parts.sleeve.description}}*.
+    . Repeat the above step for the other three pairs of *{{parts.sleeve.description}}* {{parts.sleeve.quantityUnits}} and *{{parts.conduit.description}}* {{parts.conduit.quantityUnits}}.
     . Orient the *{{parts.top-plate.description}}* so that the screws are on top.
-    . Take one of the *{{parts.conduit.description}}* / *{{parts.sleeve.description}}* *{{parts.sleeve.quantityUnits}}* and align the "X" cuts on the ends of the *{{parts.sleeve.description}}* with two bolts on the side of the *{{parts.top-plate.description}}*. 
+    . Take one of the *{{parts.conduit.description}}* / *{{parts.sleeve.description}}* {{parts.sleeve.quantityUnits}} and align the "X" cuts on the ends of the *{{parts.sleeve.description}}* with two bolts on the side of the *{{parts.top-plate.description}}*. 
+    . Repeat the above step for all four sides of the *{{parts.top-plate.description}}*.
+    . Without touching the bulbs, place the *{{parts.lightbulb-assembly.description}}* onto the center of the *{{parts.top-plate.description}}*.
+    . Pull the wires of the *{{parts.lightbulb-assembly.description}}* out past one side of the *{{parts.top-plate.description}}* so that the wires can be reached in a later step.
+    . 
