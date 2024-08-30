@@ -143,6 +143,7 @@
     image:IMG_3537.jpeg[,300,300,pdfwidth=40%]
     image:IMG_3538.jpeg[,300,300,pdfwidth=40%]
     . Insert the *{{parts.extruder-spring.description}}* between the arm of the *{{parts.spring-tensioner.description}}* and the mounting slot on the *{{parts.motor-mount.description}}*.
+    +
     image:IMG_3539.jpeg[,300,300,pdfwidth=40%]
     image:IMG_3540.jpeg[,300,300,pdfwidth=40%]
     image:IMG_3541.jpeg[,300,300,pdfwidth=40%]
