@@ -1976,13 +1976,28 @@ components:
           Conduit* so that the *Metal Conduit* is in the middle of the *Carbon
           Fiber Blanket Sleeve*.
 
+          . Repeat the above step for the other three pairs of *Carbon Fiber
+          Blanket Sleeve* part(s) and *Metal Conduit* part(s).
+
           . Orient the *Fast Heated Bed Top Plate* so that the screws are on
           top.
 
           . Take one of the *Metal Conduit* / *Carbon Fiber Blanket Sleeve*
-          *part(s)* and align the "X" cuts on the ends of the *Carbon Fiber
+          part(s) and align the "X" cuts on the ends of the *Carbon Fiber
           Blanket Sleeve* with two bolts on the side of the *Fast Heated Bed Top
           Plate*. 
+
+          . Repeat the above step for all four sides of the *Fast Heated Bed Top
+          Plate*.
+
+          . Without touching the bulbs, place the *Halogen Lightbulb Assembly*
+          onto the center of the *Fast Heated Bed Top Plate*.
+
+          . Pull the wires of the *Halogen Lightbulb Assembly* out past one side
+          of the *Fast Heated Bed Top Plate* so that the wires can be reached in
+          a later step.
+
+          . 
   fast-heated-bed-bottom-plate:
     name: fast-heated-bed-bottom-plate
     version: 1.0.0
