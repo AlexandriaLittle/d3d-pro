@@ -3174,7 +3174,6 @@ components:
 
           + 
 
-          meme::IMG_3425.jpg[Image 1 // here goes nothing]
           image:IMG_3425.jpg[,300,300,pdfwidth=40%]
 
           . Using the *2mm Allen Wrench*, lightly screw the *M3 x 10mm Cap
@@ -12472,7 +12471,6 @@ components:
 
               + 
 
-              meme::IMG_3425.jpg[Image 1 // here goes nothing]
               image:IMG_3425.jpg[,300,300,pdfwidth=40%]
 
               . Using the *2mm Allen Wrench*, lightly screw the *M3 x 10mm Cap
