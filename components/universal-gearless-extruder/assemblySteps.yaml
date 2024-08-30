@@ -12,8 +12,17 @@
   details: |
     . Clean off any extra plastic on the *{{parts.motor-mount.description}}* using a *{{tools.hobby-knife.description}}*.
     . Insert the *{{parts.m6-nut.description}}* into the slot in the middle of the *{{parts.motor-mount.description}}*.
-    . Insert the *{{parts.stepper-motor.description}}* into the *{{parts.motor-mount.description}}* with the mounting holes lined up.
+    +
+    image:IMG_3503.jpg[,300,300,pdfwidth=40%] 
+    . Insert the *{{parts.stepper-motor.description}}* into the *{{parts.motor-mount.description}}* with the mounting holes on both parts lined up.
+    +
+    image:IMG_3504.jpg[,300,300,pdfwidth=40%] 
+    image:IMG_3505.jpg[,300,300,pdfwidth=40%] 
     . In the top right corner, use the *{{tools.2_5mm-allen-wrench.description}}* to screw an *{{parts.m3-8mm-screw.description}}* through the  *{{parts.motor-mount.description}}* and into the mounting hole on the *{{parts.stepper-motor.description}}*.
+    +
+    image:IMG_3506.jpg[,300,300,pdfwidth=40%] 
+    image:IMG_3507.jpg[,300,300,pdfwidth=40%] 
+    image:IMG_3508.jpg[,300,300,pdfwidth=40%] 
 
 - summary: Add the {{parts.active-cooling-height-sensor-plotter.description}}
   requiredParts: 
