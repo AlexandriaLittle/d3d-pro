@@ -4057,9 +4057,18 @@ image:IMG_3528.jpeg[,300,300,pdfwidth=40%]
 *Instructions*
 
 . Put the *Filament Drive Gear* on the shaft of the *Nema 17 Stepper Motor* in the *Motor Mount*. Do not tighten it down yet.
++
+image:IMG_3529.jpeg[,300,300,pdfwidth=40%]
 . Insert the *1.75mm Filament* into the top of the *Hot End Assembly* and align the *Filament Drive Gear* teeth with the *1.75mm Filament*.
++
+image:IMG_3530.jpeg[,300,300,pdfwidth=40%]
 . Tighten down the screw on the *Filament Drive Gear* using the *2mm Allen Wrench*.
++
+image:IMG_3531.jpeg[,300,300,pdfwidth=40%]
 . Using the *1.75mm Filament* as a guide, tighten down the *M3 x 30mm Screw* part(s) on the *Hot End Assembly* using a *2.5mm Allen Wrench*. Make sure that the *1.75mm Filament* is coming _straight_ out of the top of the *Hot End Assembly* before tightening.
++
+image:IMG_3532.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3533.jpeg[,300,300,pdfwidth=40%]
 
 
 
@@ -4101,8 +4110,18 @@ image:IMG_3528.jpeg[,300,300,pdfwidth=40%]
 
 . Clean off any extra plastic on the *Spring Tensioner Arm* using a *Hobby Knife*.
 . Press the *608 ZZ Bearing* onto the peg on the *Spring Tensioner Arm*.
++
+image:IMG_3535.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3536.jpeg[,300,300,pdfwidth=40%]
 . With the arm of the *Spring Tensioner Arm* pointing right, screw the *Spring Tensioner Arm* onto the top left mounting hole on the front of the *Motor Mount* using a *M3 x 20mm Screw* and a *2.5mm Allen Wrench*.
++
+image:IMG_3537.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3538.jpeg[,300,300,pdfwidth=40%]
 . Insert the *Extruder Spring* between the arm of the *Spring Tensioner Arm* and the mounting slot on the *Motor Mount*.
+image:IMG_3539.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3540.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3541.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3542.jpeg[,300,300,pdfwidth=40%]
 
 
 
@@ -4137,9 +4156,18 @@ image:IMG_3528.jpeg[,300,300,pdfwidth=40%]
 *Instructions*
 
 . Using the *5mm Allen Wrench*, screw the *M6 x 25mm Screw* into the hole at the back of the slot on the left side of the *Secondary Extruder Part*.
++
+image:IMG_3543.jpeg[,300,300,pdfwidth=40%]
 . Insert the *Height Sensor* into the slot.
++
+image:IMG_3544.jpeg[,300,300,pdfwidth=40%]
 . Adjust the height of the *Height Sensor* so the bottom is 2mm above the bottom of the *Secondary Extruder Part*. When viewed from the side, the bottom of the *Height Sensor* should be _above_ the nozzle.
++
+image:IMG_3545.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3547.jpeg[,300,300,pdfwidth=40%]
 . Tighten the *M6 x 25mm Screw* only enough to hold the *Secondary Extruder Part* in place and not damage it.
++
+image:IMG_3546.jpeg[,300,300,pdfwidth=40%]
 
 
 
@@ -4174,7 +4202,14 @@ image:IMG_3528.jpeg[,300,300,pdfwidth=40%]
 *Instructions*
 
 . Orient the *40mm Fan* over the *40mm Heatsink Fins* so that the fan will blow air toward the *40mm Heatsink Fins*.
++
+image:IMG_3548.jpeg[,300,300,pdfwidth=40%]
 . Place the *40mm Fan* directly over the front of the *40mm Heatsink Fins* and screw it into place using two *M3 x 16mm Screw* part(s) and the *2.5mm Allen Wrench* in the bottom mounting holes of the *40mm Fan*. The screws will be held in the *40mm Heatsink Fins*.
++
+image:IMG_3551.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3552.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3553.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3554.jpeg[,300,300,pdfwidth=40%]
 
 
 
@@ -4209,13 +4244,29 @@ image:IMG_3528.jpeg[,300,300,pdfwidth=40%]
 *Instructions*
 
 . Connect the *2 Meter Stepper Motor Cable* to the *Nema 17 Stepper Motor* in the *Motor Mount*. There should only be one cable orientation that fits in the *Nema 17 Stepper Motor*.
++
+image:IMG_3555.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3556.jpeg[,300,300,pdfwidth=40%]
 . Bundle the *Universal Gearless Extruder Module* wires such that when looking at the front of the Universal Gearless Extruder Module, the wires are sent to the right hand side.
-. Use a *Small Zip Tie* to hold the wires together.
++
+image:IMG_3557.jpeg[,300,300,pdfwidth=40%]
+. Use a *Small Zip Tie* to hold the wires together. Snip the extra *Small Zip Tie* with *Scissors*.
++
+image:IMG_3558.jpeg[,300,300,pdfwidth=40%]
 . Take all 15 *Universal Gearless Extruder Module* wires and pull them through the *2 Meter Split Wire Loom*.
++
+image:IMG_3561.jpeg[,300,300,pdfwidth=40%]
 . Using *Scissors* cut the *2 Meter Split Wire Loom* to 100mm shorter than the shortest cable.
 . Take any cables that are too long and double them back into the *2 Meter Split Wire Loom*.
++
+image:IMG_3562.jpeg[,300,300,pdfwidth=40%]
 . Use a *Small Zip Tie* to secure the loose end of the *2 Meter Split Wire Loom*.
++
+image:IMG_3563.jpeg[,300,300,pdfwidth=40%]
 . Using *Scissors* cut the extra length off of the *Small Zip Tie* part.
+. The *Universal Gearless Extruder Module* is complete.
++
+image:IMG_3564.jpeg[,300,300,pdfwidth=40%]
 
 
 
