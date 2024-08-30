@@ -12919,6 +12919,17 @@ components:
         parts: {}
         tools: {}
         precautions: []
+      scissors:
+        name: scissors
+        version: 1.0.0
+        description: Scissors
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
       split-wire-loom:
         name: split-wire-loom
         version: 1.0.0
@@ -13320,6 +13331,17 @@ components:
         selectedOption: 0
         descriptionLong: 'hobby-knife: Hobby Knife'
         descriptionSelected: 'hobby-knife: Hobby Knife (Hobby Knife v1.0.0)'
+      scissors:
+        description: Scissors
+        id: scissors
+        notes: ''
+        options:
+          - scissors
+        quantity: 1
+        quantityUnits: part(s)
+        selectedOption: 0
+        descriptionLong: 'scissors: Scissors'
+        descriptionSelected: 'scissors: Scissors (Scissors v1.0.0)'
     precautions: []
     assemblySteps:
       - summary: Assemble the Motor Mount
@@ -13569,7 +13591,8 @@ components:
           - stepper-motor-cable
           - split-wire-loom
           - zip-tie-small
-        requiredTools: []
+        requiredTools:
+          - scissors
         details: >
           . Connect the *2 Meter Stepper Motor Cable* to the *Nema 17 Stepper
           Motor* in the *Motor Mount*. There should only be one cable
@@ -13583,6 +13606,18 @@ components:
 
           . Take all 15 *Universal Gearless Extruder Module* wires and pull them
           through the *2 Meter Split Wire Loom*.
+
+          . Using *Scissors* cut the *2 Meter Split Wire Loom* to 100mm shorter
+          than the shortest cable.
+
+          . Take any cables that are too long and double them back into the *2
+          Meter Split Wire Loom*.
+
+          . Use a *Small Zip Tie* to secure the loose end of the *2 Meter Split
+          Wire Loom*.
+
+          . Using *Scissors* cut the extra length off of the *Small Zip Tie*
+          part.
   universal-gearless-extruder-active-cooling-height-sensor-plotter:
     name: universal-gearless-extruder-active-cooling-height-sensor-plotter
     version: 1.0.0

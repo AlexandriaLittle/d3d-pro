@@ -3655,6 +3655,12 @@ image:IMG_3466.jpg[,300,300,pdfwidth=40%]
 |Hobby Knife
 |
 
+
+
+|Scissors
+|Scissors
+|
+
 |===
 
 
@@ -4180,6 +4186,11 @@ image:IMG_3528.jpeg[,300,300,pdfwidth=40%]
 
 // requiredTools
 //
+//*Required Tools*
+//
+//* Scissors
+//
+//
 
 // requiredParts
 //
@@ -4201,6 +4212,10 @@ image:IMG_3528.jpeg[,300,300,pdfwidth=40%]
 . Bundle the *Universal Gearless Extruder Module* wires such that when looking at the front of the Universal Gearless Extruder Module, the wires are sent to the right hand side.
 . Use a *Small Zip Tie* to hold the wires together.
 . Take all 15 *Universal Gearless Extruder Module* wires and pull them through the *2 Meter Split Wire Loom*.
+. Using *Scissors* cut the *2 Meter Split Wire Loom* to 100mm shorter than the shortest cable.
+. Take any cables that are too long and double them back into the *2 Meter Split Wire Loom*.
+. Use a *Small Zip Tie* to secure the loose end of the *2 Meter Split Wire Loom*.
+. Using *Scissors* cut the extra length off of the *Small Zip Tie* part.
 
 
 
