@@ -3770,9 +3770,13 @@ image:IMG_3447.jpg[,300,300,pdfwidth=40%]
 image:IMG_3448.jpg[,300,300,pdfwidth=40%]
 image:IMG_3449.jpg[,300,300,pdfwidth=40%]
 image:IMG_3450.jpg[,300,300,pdfwidth=40%]
-image:IMG_3432.jpg[,300,300,pdfwidth=40%]
+image:IMG_3452.jpg[,300,300,pdfwidth=40%]
 . Wait two minutes for the *Volcano Style Heater Block* to get hot.
 . Using *Needle Nose Pliers*, hold the *Heat Break* in place while tightening down the *Volcano Nozzle* using the *7mm Socket Wrench*. Make sure that the *Volcano Nozzle* bottoms out against the *Heat Break*, not against the *Volcano Style Heater Block* - the goal is to close the filament flow gap between the *Volcano Nozzle* and *Heat Break*.
++
+image:IMG_3453.jpg[,300,300,pdfwidth=40%]
+image:IMG_3454.jpg[,300,300,pdfwidth=40%]
+image:IMG_3455.jpg[,300,300,pdfwidth=40%]
 . Once tightened, turn off the *24v Power Supply*.
 . Disconnect the *Heater Cartridge* from the *24v Power Supply*.
 
@@ -3814,14 +3818,33 @@ image:IMG_3432.jpg[,300,300,pdfwidth=40%]
 
 . Wait at least five minutes for the *Volcano Style Heater Block* to cool down to a temperature that is safe to touch. 
 . Reposition the *Volcano Style Heater Block* in the *Metal Jaw Vise* so that the long end of the *Heat Break* is accessible to tools.
++
+image:IMG_3457.jpg[,300,300,pdfwidth=40%]    
 . Screw the *M6 Thin Nut* onto the *Heat Break* until the *M6 Thin Nut* is near the gap on the *Heat Break*.
++
+image:IMG_3458.jpg[,300,300,pdfwidth=40%]
+image:IMG_3459.jpg[,300,300,pdfwidth=40%]
 . Apply one drop(s) of *Thermal Paste* to the threads of the *Heat Break* and spread the *Thermal Paste* evenly across the threads.
++
+image:IMG_3460.jpg[,300,300,pdfwidth=40%]
 . Bend the *Heater Cartridge* wires out of the way so you can screw on the heat sink. Hold the bottom of the *Heater Cartridge* wire with *Needle Nose Pliers* so that when the wires are bent down they won't break from the *Heater Cartridge*.
++
+image:IMG_3461.jpg[,300,300,pdfwidth=40%]
 . Screw the *Heatsink Block* onto the *Heat Break* so that the *Heat Break* sticks out 2mm above the *Heatsink Block*.
++
+image:IMG_3462.jpg[,300,300,pdfwidth=40%]
 . Line up the wider sides of the *Heatsink Block* and the *Volcano Style Heater Block*.
++
+image:IMG_3463.jpg[,300,300,pdfwidth=40%]
 . Tighten the *M6 Thin Nut* against the *Heatsink Block* using *Slip Joint Pliers*.
++
+image:IMG_3464.jpg[,300,300,pdfwidth=40%]
 . Remove the *Hot End Assembly* from the *Metal Jaw Vise*.
++
+image:IMG_3465.jpg[,300,300,pdfwidth=40%]
 . Place the *Volcano Style Heater Block Silicone Sock* onto the *Volcano Style Heater Block*.
++
+image:IMG_3466.jpg[,300,300,pdfwidth=40%]
 . The *Hot End Assembly* is complete.
 
 
