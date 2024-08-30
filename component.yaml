@@ -13343,18 +13343,50 @@ components:
           . Line up the *Secondary Extruder Part* with the mounting holes on the
           left side of the *Motor Mount*.
 
+          +
+
+          image:IMG_3509.jpeg[,300,300,pdfwidth=40%]
+
           . Using the *2.5mm Allen Wrench*, screw an *M3 x 8mm Screw* into the
           furthest back mounting hole.
 
+          +
+
+          image:IMG_3510.jpeg[,300,300,pdfwidth=40%]
+
+          image:IMG_3511.jpeg[,300,300,pdfwidth=40%]
+
           . Insert the open end of the *Blower Fan* into the fan duct on the
           *Secondary Extruder Part*.
+
+          +
+
+          image:IMG_3512.jpeg[,300,300,pdfwidth=40%]
 
           . Using the *2.5mm Allen Wrench*, screw two *M3 x 20mm Screw* part(s)
           into the mounting holes of the *Blower Fan* to mount it to the
           *Secondary Extruder Part*.
 
+          +
+
+          image:IMG_3513.jpeg[,300,300,pdfwidth=40%]
+
+          image:IMG_3514.jpeg[,300,300,pdfwidth=40%]
+
+          image:IMG_3515.jpeg[,300,300,pdfwidth=40%]
+
           . Use the *2.5mm Allen Wrench* to screw *M3 x 8mm Screw* part(s) into
           the remaing open mounting holes in the *Secondary Extruder Part*.
+
+          + 
+
+          image:IMG_3516.jpeg[,300,300,pdfwidth=40%]
+
+          image:IMG_3517.jpeg[,300,300,pdfwidth=40%]
+
+          image:IMG_3518.jpeg[,300,300,pdfwidth=40%]
+
+          image:IMG_3519.jpeg[,300,300,pdfwidth=40%]
       - summary: Install Hot End Assembly
         requiredParts:
           - active-cooling-height-sensor-plotter
@@ -13368,23 +13400,53 @@ components:
           . Apply one drop(s) of *Thermal Paste* to the flat area between the
           mounting holes on the *40mm Heatsink Fins*.
 
+          +
+
+          image:IMG_3520.jpeg[,300,300,pdfwidth=40%]
+
+          image:IMG_3521.jpeg[,300,300,pdfwidth=40%]
+
+          image:IMG_3522.jpeg[,300,300,pdfwidth=40%]
+
           . Place two *M3 x 30mm Screw* part(s) into the mounting holes of the
           *40mm Heatsink Fins* with the threads of the *M3 x 30mm Screw* part(s)
           sticking out of the flat side of the *40mm Heatsink Fins*.
 
+          +
+
+          image:IMG_3523.jpeg[,300,300,pdfwidth=40%]
+
           . Orient the *Hot End Assembly* with the longer side on the right.
+
+          +
+
+          image:IMG_3524.jpeg[,300,300,pdfwidth=40%]
 
           . Insert the *M3 x 30mm Screw* part(s) through the mounting holes of
           the *Hot End Assembly*. This should squish the *Thermal Paste* between
           the *Hot End Assembly* and the *40mm Heatsink Fins*.
 
+          +
+
+          image:IMG_3525.jpeg[,300,300,pdfwidth=40%]
+
           . Position the *Hot End Assembly* mounting holes against the bottom
           mounting holes of the *Nema 17 Stepper Motor* in the *Motor Mount*.
+
+          +
+
+          image:IMG_3526.jpeg[,300,300,pdfwidth=40%]
 
           . Lightly screw down the *M3 x 30mm Screw* part(s) using the *2.5mm
           Allen Wrench* to hold the *Hot End Assembly* against the *Nema 17
           Stepper Motor* in the *Motor Mount*, but not too hard as the position
           of the *Hot End Assembly* will be adjusted later.
+
+          + 
+
+          image:IMG_3527.jpeg[,300,300,pdfwidth=40%]
+
+          image:IMG_3528.jpeg[,300,300,pdfwidth=40%]
       - summary: Install and adjust Filament Drive Gear / Adjust Hot End Assembly
         requiredParts:
           - extruder-gear
