@@ -1997,7 +1997,15 @@ components:
           of the *Fast Heated Bed Top Plate* so that the wires can be reached in
           a later step.
 
-          . 
+          . Take four *M6 Nut* part(s) and screw one onto every screw on the
+          *Fast Heated Bed Top Plate*.
+
+          . Position the *Fast Heated Bed Bottom Plate* onto the screws of the
+          *Fast Heated Bed Top Plate. The *Fast Heated Bed Bottom Plate* should
+          rest on top of the *M6 Nut* part(s) from the previous step.
+
+          .Take four *M6 Nut* part(s) and screw one onto every screw on the
+          *Fast Heated Bed Top Plate* above the *Fast Heated Bed Bottom Plate*.
   fast-heated-bed-bottom-plate:
     name: fast-heated-bed-bottom-plate
     version: 1.0.0
