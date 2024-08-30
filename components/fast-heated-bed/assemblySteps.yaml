@@ -11,4 +11,6 @@
     . Repeat the above step for all four sides of the *{{parts.top-plate.description}}*.
     . Without touching the bulbs, place the *{{parts.lightbulb-assembly.description}}* onto the center of the *{{parts.top-plate.description}}*.
     . Pull the wires of the *{{parts.lightbulb-assembly.description}}* out past one side of the *{{parts.top-plate.description}}* so that the wires can be reached in a later step.
-    . 
+    . Take four *{{parts.m6-nut.description}}* {{parts.m6-nut.quantityUnits}} and screw one onto every screw on the *{{parts.top-plate.description}}*.
+    . Position the *{{parts.bottom-plate.description}}* onto the screws of the *{{parts.top-plate.description}}. The *{{parts.bottom-plate.description}}* should rest on top of the *{{parts.m6-nut.description}}* {{parts.m6-nut.quantityUnits}} from the previous step.
+    .Take four *{{parts.m6-nut.description}}* {{parts.m6-nut.quantityUnits}} and screw one onto every screw on the *{{parts.top-plate.description}}* above the *{{parts.bottom-plate.description}}*.
