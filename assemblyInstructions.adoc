@@ -3689,7 +3689,11 @@ endif::[]
 + 
 image:IMG_3425.jpg[,300,300,pdfwidth=40%]
 . Using the *2mm Allen Wrench*, lightly screw the *M3 x 10mm Cap Screw* parts into the two threaded holes on the side of the *Volcano Style Heater Block*.
++ 
+image:IMG_3428.jpg[,300,300,pdfwidth=40%] image:IMG_3429.jpg[,300,300,pdfwidth=40%]
 . Using the *1.5mm Allen Wrench*, lightly screw the *M3 x 4mm Grub Screw* into the single threaded hole on the side of the *Volcano Style Heater Block*. Be sure to leave enough room for the *Thermistor Cartridge* to be inserted later.
++
+image:IMG_3430.jpg[,300,300,pdfwidth=40%]image:IMG_3431.jpg[,300,300,pdfwidth=40%]
 . Insert the *Heater Cartridge* into the non-threaded hole in the *Volcano Style Heater Block* with the wires coming out of the end with an indent. Make sure the *Heater Cartridge* does not extend past the bottom of the *Volcano Style Heater Block*.
 . Insert the *Thermistor Cartridge* into the smaller hole on the *Volcano Style Heater Block* with the wires coming out of the same side as the previous step. Make sure the *Thermistor Cartridge* does not extend past the bottom of the *Volcano Style Heater Block*.
 . Screw down the *M3 x 4mm Grub Screw* part lightly using a *1.5mm Allen Wrench* to fasten the *Thermistor Cartridge*, but very lightly as the part can go right through the *Thermistor Cartridge*.
