@@ -5,7 +5,7 @@
 
   details: |
     . Slide one *{{parts.sleeve.description}}* {{parts.sleeve.quantityUnits}} over one *{{parts.conduit.description}}* so that the *{{parts.conduit.description}}* is in the middle of the *{{parts.sleeve.description}}*.
-    . Repeat the above step for the other three pairs of *{{parts.sleeve.description}}* {{parts.sleeve.quantityUnits}} and *{{parts.conduit.description}}* {{parts.conduit.quantityUnits}}.
+    . Repeat the above step for the three other pairs of *{{parts.sleeve.description}}* {{parts.sleeve.quantityUnits}} and *{{parts.conduit.description}}* {{parts.conduit.quantityUnits}}.
     . Orient the *{{parts.top-plate.description}}* so that the screws are on top.
     . Take one of the *{{parts.conduit.description}}* / *{{parts.sleeve.description}}* {{parts.sleeve.quantityUnits}} and align the "X" cuts on the ends of the *{{parts.sleeve.description}}* with two bolts on the side of the *{{parts.top-plate.description}}*. 
     . Repeat the above step for all four sides of the *{{parts.top-plate.description}}*.
@@ -13,4 +13,9 @@
     . Pull the wires of the *{{parts.lightbulb-assembly.description}}* out past one side of the *{{parts.top-plate.description}}* so that the wires can be reached in a later step.
     . Take four *{{parts.m6-nut.description}}* {{parts.m6-nut.quantityUnits}} and screw one onto every screw on the *{{parts.top-plate.description}}*.
     . Position the *{{parts.bottom-plate.description}}* onto the screws of the *{{parts.top-plate.description}}. The *{{parts.bottom-plate.description}}* should rest on top of the *{{parts.m6-nut.description}}* {{parts.m6-nut.quantityUnits}} from the previous step.
-    .Take four *{{parts.m6-nut.description}}* {{parts.m6-nut.quantityUnits}} and screw one onto every screw on the *{{parts.top-plate.description}}* above the *{{parts.bottom-plate.description}}*.
+    . Take four *{{parts.m6-nut.description}}* {{parts.m6-nut.quantityUnits}} and screw one onto every screw on the *{{parts.top-plate.description}}* above the *{{parts.bottom-plate.description}}*. Tighten them down by hand; the final adjustment will take place later.
+    . Gently flip the *{{description}}* over so that the *{{parts.top-plate.description}}* is on top.
+    . Take the *{{parts.pei-sheet.description}}* and peel away the corner of the covering of the adhesive side of the {{parts.pei-sheet.quantityUnits}}
+    . Align the exposed adhesive corner of the *{{parts.pei-sheet.description}}* with the machine cut side of the *{{parts.top-plate.description}}*.
+    . Apply even and gentle pressure to the *{{parts.pei-sheet.description}}* to begin to stick it to the surface of the *{{parts.top-plate.description}}*.
+    . While keeping the edges aligned, peel back more of the adhesive covering and apply more even pressure across the surface of the *{{parts.pei-sheet.description}}* until the *{{parts.pei-sheet.quantityUnits}}* is fully adheared.
