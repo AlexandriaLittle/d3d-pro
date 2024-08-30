@@ -16,7 +16,7 @@ podman run --rm -v $PWD:/src -w /src docker.io/node node dof-helpers/parseCompon
 
 # copy source/images/ directory to dist/
 echo "copy source/images/ directory to dist/..."
-cp -r source/images/ dist/
+cp -r source/images dist/images
 
 # generate dist/assemblyInstructions.adoc
 echo "generating dist/assemblyInstructions.adoc..."
