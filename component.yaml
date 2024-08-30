@@ -3430,6 +3430,17 @@ components:
     parts: {}
     tools: {}
     precautions: []
+  m3-16mm-socket-head-cap-screw:
+    name: m3-16mm-socket-head-cap-screw
+    version: 1.0.0
+    description: M3 x 16mm Socket Head Cap Screw
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
   m3-20mm-socket-head-cap-screw:
     name: m3-20mm-socket-head-cap-screw
     version: 1.0.0
@@ -12809,6 +12820,17 @@ components:
               image:IMG_3466.jpg[,300,300,pdfwidth=40%]
 
               . The *Hot End Assembly* is complete.
+      m3-16mm-socket-head-cap-screw:
+        name: m3-16mm-socket-head-cap-screw
+        version: 1.0.0
+        description: M3 x 16mm Socket Head Cap Screw
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
       m3-20mm-socket-head-cap-screw:
         name: m3-20mm-socket-head-cap-screw
         version: 1.0.0
@@ -13118,6 +13140,19 @@ components:
         selectedOption: 0
         descriptionLong: 'm3-8mm-screw: M3 x 8mm Screw'
         descriptionSelected: 'm3-8mm-screw: M3 x 8mm Screw (M3 x 8mm Socket Head Cap Screw v1.0.0)'
+      m3-16mm-screw:
+        description: M3 x 16mm Screw
+        id: m3-16mm-screw
+        notes: ''
+        options:
+          - m3-16mm-socket-head-cap-screw
+        quantity: 2
+        quantityUnits: part(s)
+        selectedOption: 0
+        descriptionLong: 'm3-16mm-screw: M3 x 16mm Screw'
+        descriptionSelected: >-
+          m3-16mm-screw: M3 x 16mm Screw (M3 x 16mm Socket Head Cap Screw
+          v1.0.0)
       m6-25mm-screw:
         description: M6 x 25mm Screw
         id: m6-25mm-screw
@@ -13503,10 +13538,10 @@ components:
           - 5mm-allen-wrench
         details: >
           . Using the *5mm Allen Wrench*, screw the *M6 x 25mm Screw* into the
-          hole at the back of the slot. 
+          hole at the back of the slot on the left side of the *Secondary
+          Extruder Part*.
 
-          . Insert the *Height Sensor* into the slot on the left side of the
-          *Secondary Extruder Part*.
+          . Insert the *Height Sensor* into the slot.
 
           . Adjust the height of the *Height Sensor* so the bottom is 2mm above
           the bottom of the *Secondary Extruder Part*. When viewed from the
@@ -13518,7 +13553,7 @@ components:
         requiredParts:
           - 40mm-heatsink
           - 40mm-fan
-          - m3-20mm-screw
+          - m3-16mm-screw
         requiredTools:
           - 2_5mm-allen-wrench
         details: >
@@ -13526,7 +13561,7 @@ components:
           will blow air toward the *40mm Heatsink Fins*.
 
           . Place the *40mm Fan* directly over the front of the *40mm Heatsink
-          Fins* and screw it into place using two *M3 x 20mm Screw* part(s) and
+          Fins* and screw it into place using two *M3 x 16mm Screw* part(s) and
           the *2.5mm Allen Wrench* in the bottom mounting holes of the *40mm
           Fan*. The screws will be held in the *40mm Heatsink Fins*.
       - summary: Cables Management

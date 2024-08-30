@@ -3762,6 +3762,14 @@ image:IMG_3466.jpg[,300,300,pdfwidth=40%]
 
 
 
+|2 part(s)
+|m3-16mm-screw
+|M3 x 16mm Screw
+|M3 x 16mm Socket Head Cap Screw v1.0.0
+|
+
+
+
 |1 part(s)
 |m6-25mm-screw
 |M6 x 25mm Screw
@@ -4122,8 +4130,8 @@ image:IMG_3528.jpeg[,300,300,pdfwidth=40%]
 
 *Instructions*
 
-. Using the *5mm Allen Wrench*, screw the *M6 x 25mm Screw* into the hole at the back of the slot. 
-. Insert the *Height Sensor* into the slot on the left side of the *Secondary Extruder Part*.
+. Using the *5mm Allen Wrench*, screw the *M6 x 25mm Screw* into the hole at the back of the slot on the left side of the *Secondary Extruder Part*.
+. Insert the *Height Sensor* into the slot.
 . Adjust the height of the *Height Sensor* so the bottom is 2mm above the bottom of the *Secondary Extruder Part*. When viewed from the side, the bottom of the *Height Sensor* should be _above_ the nozzle.
 . Tighten the *M6 x 25mm Screw* only enough to hold the *Secondary Extruder Part* in place and not damage it.
 
@@ -4151,7 +4159,7 @@ image:IMG_3528.jpeg[,300,300,pdfwidth=40%]
 //
 //* 40mm Fan
 //
-//* M3 x 20mm Screw
+//* M3 x 16mm Screw
 //
 //
 
@@ -4160,7 +4168,7 @@ image:IMG_3528.jpeg[,300,300,pdfwidth=40%]
 *Instructions*
 
 . Orient the *40mm Fan* over the *40mm Heatsink Fins* so that the fan will blow air toward the *40mm Heatsink Fins*.
-. Place the *40mm Fan* directly over the front of the *40mm Heatsink Fins* and screw it into place using two *M3 x 20mm Screw* part(s) and the *2.5mm Allen Wrench* in the bottom mounting holes of the *40mm Fan*. The screws will be held in the *40mm Heatsink Fins*.
+. Place the *40mm Fan* directly over the front of the *40mm Heatsink Fins* and screw it into place using two *M3 x 16mm Screw* part(s) and the *2.5mm Allen Wrench* in the bottom mounting holes of the *40mm Fan*. The screws will be held in the *40mm Heatsink Fins*.
 
 
 
