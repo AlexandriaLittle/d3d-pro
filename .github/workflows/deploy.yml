@@ -3,7 +3,7 @@ name: Build w/ asciidoctor & deploy to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - github-actions-deploy-issue
 
 jobs:
   deploy:
