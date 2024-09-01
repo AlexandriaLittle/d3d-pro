@@ -4,7 +4,7 @@ Alexandria Little
 :revdate: 9/1/2024
 :sectnums:
 :toc:
-:docinfo: shared //ANL
+:docinfo: shared
 // :docinfodir: dist/
 
 // github specific things
