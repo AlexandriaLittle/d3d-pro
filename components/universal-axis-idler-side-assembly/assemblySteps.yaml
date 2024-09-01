@@ -22,10 +22,30 @@
   - 5mm-allen-wrench
 
   details: |
+    +
+    image:IMG_3619.jpg[,300,300,pdfwidth=40%]
     . Take the two *{{parts.flanged-bearing.description}}* {{parts.flanged-bearing.quantityUnits}} and orient them so that they are touching with the flanges on opposite sides.
+    +
+    image:IMG_3620.jpg[,300,300,pdfwidth=40%]
     . Insert the *{{parts.flanged-bearing.description}}* {{parts.flanged-bearing.quantityUnits}} into the slot of the *{{parts.universal-axis-idler-side.description}}* until they align with the hole in the center of the *{{parts.universal-axis-idler-side.description}}*.
+    +
+    image:IMG_3621.jpg[,300,300,pdfwidth=40%]
+    image:IMG_3622.jpg[,300,300,pdfwidth=40%]
+    image:IMG_3623.jpg[,300,300,pdfwidth=40%]
     . Insert the *{{parts.m6-nut.description}}* into the nut holder above the hole that is aligned with the *{{parts.flanged-bearing.description}}* {{parts.flanged-bearing.quantityUnits}}.
+    +
+    image:IMG_3624.jpg[,300,300,pdfwidth=40%]
     . Insert the *{{parts.m6-20mm-screw.description}}* through the other side of the hole that aligns with the *{{parts.flanged-bearing.description}}* {{parts.flanged-bearing.quantityUnits}}.
+    +
+    image:IMG_3625.jpg[,300,300,pdfwidth=40%]
+    image:IMG_3626.jpg[,300,300,pdfwidth=40%]
     . Use the *{{tools.5mm-allen-wrench.description}}* to gently tighten the *{{parts.m6-20mm-screw.description}}*.
+    +
+    image:IMG_3627.jpg[,300,300,pdfwidth=40%]
     . Using the *{{tools.3mm-allen-wrench.description}}*, screw two *{{parts.m6-10mm-grub-screw.description}}* into the holes on the face of the *{{parts.universal-axis-idler-side.description}}*. Only screw the *{{parts.m6-10mm-grub-screw.description}}* {{parts.m6-10mm-grub-screw.quantityUnits}} in enough to hold them in place as other parts will be inserted into the holes below in a future step.
+    +
+    image:IMG_3628.jpg[,300,300,pdfwidth=40%]
+    image:IMG_3629.jpg[,300,300,pdfwidth=40%]
     . The *{{description}}* is now complete.
+    +
+    image:IMG_3630.jpg[,300,300,pdfwidth=40%]
