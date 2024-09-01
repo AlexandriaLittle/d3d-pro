@@ -4424,14 +4424,14 @@ components:
 
           +
 
-          image:IMG_3619.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3619.jpeg[,300,300,pdfwidth=40%]
 
           . Take the two *Flanged Bearing* part(s) and orient them so that they
           are touching with the flanges on opposite sides.
 
           +
 
-          image:IMG_3620.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3620.jpeg[,300,300,pdfwidth=40%]
 
           . Insert the *Flanged Bearing* part(s) into the slot of the *Universal
           Axis Idler Side* until they align with the hole in the center of the
@@ -4439,33 +4439,33 @@ components:
 
           +
 
-          image:IMG_3621.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3621.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3622.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3622.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3623.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3623.jpeg[,300,300,pdfwidth=40%]
 
           . Insert the *M6 Nut* into the nut holder above the hole that is
           aligned with the *Flanged Bearing* part(s).
 
           +
 
-          image:IMG_3624.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3624.jpeg[,300,300,pdfwidth=40%]
 
           . Insert the *M6 x 20mm Screw* through the other side of the hole that
           aligns with the *Flanged Bearing* part(s).
 
           +
 
-          image:IMG_3625.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3625.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3626.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3626.jpeg[,300,300,pdfwidth=40%]
 
           . Use the *5mm Allen Wrench* to gently tighten the *M6 x 20mm Screw*.
 
           +
 
-          image:IMG_3627.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3627.jpeg[,300,300,pdfwidth=40%]
 
           . Using the *3mm Allen Wrench*, screw two *M6 x 10mm Grub Screw* into
           the holes on the face of the *Universal Axis Idler Side*. Only screw
@@ -4474,15 +4474,15 @@ components:
 
           +
 
-          image:IMG_3628.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3628.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3629.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3629.jpeg[,300,300,pdfwidth=40%]
 
           . The *Universal Axis Idler Side Module* is now complete.
 
           +
 
-          image:IMG_3630.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3630.jpeg[,300,300,pdfwidth=40%]
   universal-axis-motor-side:
     name: universal-axis-motor-side
     version: 1.0.0
@@ -4766,7 +4766,7 @@ components:
 
           +
 
-          image:IMG_3593.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3593.jpeg[,300,300,pdfwidth=40%]
 
           . Using the *1.5mm Allen Wrench*, loosen the screw(s) on the *GT2 20
           Tooth Pulley* and then slide the *GT2 20 Tooth Pulley* onto the shaft
@@ -4775,16 +4775,16 @@ components:
 
           +
 
-          image:IMG_3594.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3594.jpeg[,300,300,pdfwidth=40%]
 
           . Gently tighten down the screw on the *GT2 20 Tooth Pulley* so it
           stays in place on the *Nema 17 Stepper Motor* shaft.
 
           +
 
-          image:IMG_3595.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3595.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3596.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3596.jpeg[,300,300,pdfwidth=40%]
 
           . Insert the shaft of the *Nema 17 Stepper Motor* into the center hole
           of the *Universal Axis Motor Side* until the face of the *Nema 17
@@ -4793,9 +4793,9 @@ components:
 
           +
 
-          image:IMG_3598.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3598.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3599.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3599.jpeg[,300,300,pdfwidth=40%]
 
           . Look through the slot on the side of the *Universal Axis Motor Side*
           to see if the teeth of the *GT2 20 Tooth Pulley* align with the slot.
@@ -4804,11 +4804,11 @@ components:
 
           +
 
-          image:IMG_3600.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3600.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3601.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3601.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3602.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3602.jpeg[,300,300,pdfwidth=40%]
 
           . Once the *GT2 20 Tooth Pulley* is aligned with the slot, remove the
           *Nema 17 Stepper Motor* from the *Universal Axis Motor Side*.
@@ -4818,14 +4818,14 @@ components:
 
           +
 
-          image:IMG_3597.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3597.jpeg[,300,300,pdfwidth=40%]
 
           . Insert two *M6 Nut* part(s) into the nut catchers on the face of the
           *Universal Axis Motor Side*.
 
           +
 
-          image:IMG_3603.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3603.jpeg[,300,300,pdfwidth=40%]
 
           . Insert the shaft of the *Nema 17 Stepper Motor* into the center hole
           of the *Universal Axis Motor Side* and over the top of the *M6 Nut*
@@ -4833,7 +4833,7 @@ components:
 
           +
 
-          image:IMG_3604.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3604.jpeg[,300,300,pdfwidth=40%]
 
           . Turn the *Nema 17 Stepper Motor* in the hole of the *Universal Axis
           Motor Side* until the mounting holes in the face of the *Nema 17
@@ -4842,9 +4842,9 @@ components:
 
           +
 
-          image:IMG_3605.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3605.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3606.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3606.jpeg[,300,300,pdfwidth=40%]
 
           . While holding the current *Universal Axis Motor Side Module* in one
           hand, turn the *Universal Axis Motor Side Module* over so that the
@@ -4852,14 +4852,14 @@ components:
 
           +
 
-          image:IMG_3607.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3607.jpeg[,300,300,pdfwidth=40%]
 
           . Insert three *M3 x 25mm Screw* part(s) into the holes that are
           aligned with the mounting holes on the *Nema 17 Stepper Motor*. 
 
           +
 
-          image:IMG_3608.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3608.jpeg[,300,300,pdfwidth=40%]
 
           . Tighten down the *M3 x 25mm Screw* part(s) using a *2.5mm Allen
           Wrench*. The *M6 Nut* part(s) should now be secure between the *Nema
@@ -4867,18 +4867,18 @@ components:
 
           +
 
-          image:IMG_3609.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3609.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3610.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3610.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3611.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3611.jpeg[,300,300,pdfwidth=40%]
 
           . Flip the *Universal Axis Motor Side Module* back over so that the
           *Nema 17 Stepper Motor* is on top.
 
           +
 
-          image:IMG_3612.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3612.jpeg[,300,300,pdfwidth=40%]
 
           . Gently screw six *M6 x 10mm Grub Screw* part(s) into the holes on
           the *Universal Axis Motor Side* that run along the sides of the *Nema
@@ -4888,17 +4888,17 @@ components:
 
           +
 
-          image:IMG_3613.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3613.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3614.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3614.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3615.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3615.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3616.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3616.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3617.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3617.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3618.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3618.jpeg[,300,300,pdfwidth=40%]
 
           . The *Universal Axis Motor Side Module* is now complete.
   universal-axis-x:
@@ -5286,14 +5286,14 @@ components:
 
               +
 
-              image:IMG_3619.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3619.jpeg[,300,300,pdfwidth=40%]
 
               . Take the two *Flanged Bearing* part(s) and orient them so that
               they are touching with the flanges on opposite sides.
 
               +
 
-              image:IMG_3620.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3620.jpeg[,300,300,pdfwidth=40%]
 
               . Insert the *Flanged Bearing* part(s) into the slot of the
               *Universal Axis Idler Side* until they align with the hole in the
@@ -5301,34 +5301,34 @@ components:
 
               +
 
-              image:IMG_3621.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3621.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3622.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3622.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3623.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3623.jpeg[,300,300,pdfwidth=40%]
 
               . Insert the *M6 Nut* into the nut holder above the hole that is
               aligned with the *Flanged Bearing* part(s).
 
               +
 
-              image:IMG_3624.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3624.jpeg[,300,300,pdfwidth=40%]
 
               . Insert the *M6 x 20mm Screw* through the other side of the hole
               that aligns with the *Flanged Bearing* part(s).
 
               +
 
-              image:IMG_3625.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3625.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3626.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3626.jpeg[,300,300,pdfwidth=40%]
 
               . Use the *5mm Allen Wrench* to gently tighten the *M6 x 20mm
               Screw*.
 
               +
 
-              image:IMG_3627.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3627.jpeg[,300,300,pdfwidth=40%]
 
               . Using the *3mm Allen Wrench*, screw two *M6 x 10mm Grub Screw*
               into the holes on the face of the *Universal Axis Idler Side*.
@@ -5338,15 +5338,15 @@ components:
 
               +
 
-              image:IMG_3628.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3628.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3629.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3629.jpeg[,300,300,pdfwidth=40%]
 
               . The *Universal Axis Idler Side Module* is now complete.
 
               +
 
-              image:IMG_3630.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3630.jpeg[,300,300,pdfwidth=40%]
       universal-axis-motor-side-assembly:
         name: universal-axis-motor-side-assembly
         version: 1.0.0
@@ -5618,7 +5618,7 @@ components:
 
               +
 
-              image:IMG_3593.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3593.jpeg[,300,300,pdfwidth=40%]
 
               . Using the *1.5mm Allen Wrench*, loosen the screw(s) on the *GT2
               20 Tooth Pulley* and then slide the *GT2 20 Tooth Pulley* onto the
@@ -5627,16 +5627,16 @@ components:
 
               +
 
-              image:IMG_3594.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3594.jpeg[,300,300,pdfwidth=40%]
 
               . Gently tighten down the screw on the *GT2 20 Tooth Pulley* so it
               stays in place on the *Nema 17 Stepper Motor* shaft.
 
               +
 
-              image:IMG_3595.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3595.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3596.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3596.jpeg[,300,300,pdfwidth=40%]
 
               . Insert the shaft of the *Nema 17 Stepper Motor* into the center
               hole of the *Universal Axis Motor Side* until the face of the
@@ -5645,9 +5645,9 @@ components:
 
               +
 
-              image:IMG_3598.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3598.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3599.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3599.jpeg[,300,300,pdfwidth=40%]
 
               . Look through the slot on the side of the *Universal Axis Motor
               Side* to see if the teeth of the *GT2 20 Tooth Pulley* align with
@@ -5657,11 +5657,11 @@ components:
 
               +
 
-              image:IMG_3600.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3600.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3601.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3601.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3602.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3602.jpeg[,300,300,pdfwidth=40%]
 
               . Once the *GT2 20 Tooth Pulley* is aligned with the slot, remove
               the *Nema 17 Stepper Motor* from the *Universal Axis Motor Side*.
@@ -5671,14 +5671,14 @@ components:
 
               +
 
-              image:IMG_3597.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3597.jpeg[,300,300,pdfwidth=40%]
 
               . Insert two *M6 Nut* part(s) into the nut catchers on the face of
               the *Universal Axis Motor Side*.
 
               +
 
-              image:IMG_3603.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3603.jpeg[,300,300,pdfwidth=40%]
 
               . Insert the shaft of the *Nema 17 Stepper Motor* into the center
               hole of the *Universal Axis Motor Side* and over the top of the
@@ -5686,7 +5686,7 @@ components:
 
               +
 
-              image:IMG_3604.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3604.jpeg[,300,300,pdfwidth=40%]
 
               . Turn the *Nema 17 Stepper Motor* in the hole of the *Universal
               Axis Motor Side* until the mounting holes in the face of the *Nema
@@ -5695,9 +5695,9 @@ components:
 
               +
 
-              image:IMG_3605.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3605.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3606.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3606.jpeg[,300,300,pdfwidth=40%]
 
               . While holding the current *Universal Axis Motor Side Module* in
               one hand, turn the *Universal Axis Motor Side Module* over so that
@@ -5706,14 +5706,14 @@ components:
 
               +
 
-              image:IMG_3607.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3607.jpeg[,300,300,pdfwidth=40%]
 
               . Insert three *M3 x 25mm Screw* part(s) into the holes that are
               aligned with the mounting holes on the *Nema 17 Stepper Motor*. 
 
               +
 
-              image:IMG_3608.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3608.jpeg[,300,300,pdfwidth=40%]
 
               . Tighten down the *M3 x 25mm Screw* part(s) using a *2.5mm Allen
               Wrench*. The *M6 Nut* part(s) should now be secure between the
@@ -5721,18 +5721,18 @@ components:
 
               +
 
-              image:IMG_3609.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3609.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3610.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3610.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3611.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3611.jpeg[,300,300,pdfwidth=40%]
 
               . Flip the *Universal Axis Motor Side Module* back over so that
               the *Nema 17 Stepper Motor* is on top.
 
               +
 
-              image:IMG_3612.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3612.jpeg[,300,300,pdfwidth=40%]
 
               . Gently screw six *M6 x 10mm Grub Screw* part(s) into the holes
               on the *Universal Axis Motor Side* that run along the sides of the
@@ -5742,17 +5742,17 @@ components:
 
               +
 
-              image:IMG_3613.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3613.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3614.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3614.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3615.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3615.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3616.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3616.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3617.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3617.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3618.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3618.jpeg[,300,300,pdfwidth=40%]
 
               . The *Universal Axis Motor Side Module* is now complete.
       universal-axis-x-carriage:
@@ -6517,14 +6517,14 @@ components:
 
               +
 
-              image:IMG_3619.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3619.jpeg[,300,300,pdfwidth=40%]
 
               . Take the two *Flanged Bearing* part(s) and orient them so that
               they are touching with the flanges on opposite sides.
 
               +
 
-              image:IMG_3620.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3620.jpeg[,300,300,pdfwidth=40%]
 
               . Insert the *Flanged Bearing* part(s) into the slot of the
               *Universal Axis Idler Side* until they align with the hole in the
@@ -6532,34 +6532,34 @@ components:
 
               +
 
-              image:IMG_3621.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3621.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3622.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3622.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3623.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3623.jpeg[,300,300,pdfwidth=40%]
 
               . Insert the *M6 Nut* into the nut holder above the hole that is
               aligned with the *Flanged Bearing* part(s).
 
               +
 
-              image:IMG_3624.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3624.jpeg[,300,300,pdfwidth=40%]
 
               . Insert the *M6 x 20mm Screw* through the other side of the hole
               that aligns with the *Flanged Bearing* part(s).
 
               +
 
-              image:IMG_3625.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3625.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3626.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3626.jpeg[,300,300,pdfwidth=40%]
 
               . Use the *5mm Allen Wrench* to gently tighten the *M6 x 20mm
               Screw*.
 
               +
 
-              image:IMG_3627.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3627.jpeg[,300,300,pdfwidth=40%]
 
               . Using the *3mm Allen Wrench*, screw two *M6 x 10mm Grub Screw*
               into the holes on the face of the *Universal Axis Idler Side*.
@@ -6569,15 +6569,15 @@ components:
 
               +
 
-              image:IMG_3628.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3628.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3629.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3629.jpeg[,300,300,pdfwidth=40%]
 
               . The *Universal Axis Idler Side Module* is now complete.
 
               +
 
-              image:IMG_3630.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3630.jpeg[,300,300,pdfwidth=40%]
       universal-axis-motor-side-assembly:
         name: universal-axis-motor-side-assembly
         version: 1.0.0
@@ -6849,7 +6849,7 @@ components:
 
               +
 
-              image:IMG_3593.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3593.jpeg[,300,300,pdfwidth=40%]
 
               . Using the *1.5mm Allen Wrench*, loosen the screw(s) on the *GT2
               20 Tooth Pulley* and then slide the *GT2 20 Tooth Pulley* onto the
@@ -6858,16 +6858,16 @@ components:
 
               +
 
-              image:IMG_3594.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3594.jpeg[,300,300,pdfwidth=40%]
 
               . Gently tighten down the screw on the *GT2 20 Tooth Pulley* so it
               stays in place on the *Nema 17 Stepper Motor* shaft.
 
               +
 
-              image:IMG_3595.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3595.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3596.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3596.jpeg[,300,300,pdfwidth=40%]
 
               . Insert the shaft of the *Nema 17 Stepper Motor* into the center
               hole of the *Universal Axis Motor Side* until the face of the
@@ -6876,9 +6876,9 @@ components:
 
               +
 
-              image:IMG_3598.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3598.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3599.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3599.jpeg[,300,300,pdfwidth=40%]
 
               . Look through the slot on the side of the *Universal Axis Motor
               Side* to see if the teeth of the *GT2 20 Tooth Pulley* align with
@@ -6888,11 +6888,11 @@ components:
 
               +
 
-              image:IMG_3600.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3600.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3601.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3601.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3602.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3602.jpeg[,300,300,pdfwidth=40%]
 
               . Once the *GT2 20 Tooth Pulley* is aligned with the slot, remove
               the *Nema 17 Stepper Motor* from the *Universal Axis Motor Side*.
@@ -6902,14 +6902,14 @@ components:
 
               +
 
-              image:IMG_3597.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3597.jpeg[,300,300,pdfwidth=40%]
 
               . Insert two *M6 Nut* part(s) into the nut catchers on the face of
               the *Universal Axis Motor Side*.
 
               +
 
-              image:IMG_3603.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3603.jpeg[,300,300,pdfwidth=40%]
 
               . Insert the shaft of the *Nema 17 Stepper Motor* into the center
               hole of the *Universal Axis Motor Side* and over the top of the
@@ -6917,7 +6917,7 @@ components:
 
               +
 
-              image:IMG_3604.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3604.jpeg[,300,300,pdfwidth=40%]
 
               . Turn the *Nema 17 Stepper Motor* in the hole of the *Universal
               Axis Motor Side* until the mounting holes in the face of the *Nema
@@ -6926,9 +6926,9 @@ components:
 
               +
 
-              image:IMG_3605.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3605.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3606.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3606.jpeg[,300,300,pdfwidth=40%]
 
               . While holding the current *Universal Axis Motor Side Module* in
               one hand, turn the *Universal Axis Motor Side Module* over so that
@@ -6937,14 +6937,14 @@ components:
 
               +
 
-              image:IMG_3607.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3607.jpeg[,300,300,pdfwidth=40%]
 
               . Insert three *M3 x 25mm Screw* part(s) into the holes that are
               aligned with the mounting holes on the *Nema 17 Stepper Motor*. 
 
               +
 
-              image:IMG_3608.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3608.jpeg[,300,300,pdfwidth=40%]
 
               . Tighten down the *M3 x 25mm Screw* part(s) using a *2.5mm Allen
               Wrench*. The *M6 Nut* part(s) should now be secure between the
@@ -6952,18 +6952,18 @@ components:
 
               +
 
-              image:IMG_3609.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3609.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3610.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3610.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3611.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3611.jpeg[,300,300,pdfwidth=40%]
 
               . Flip the *Universal Axis Motor Side Module* back over so that
               the *Nema 17 Stepper Motor* is on top.
 
               +
 
-              image:IMG_3612.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3612.jpeg[,300,300,pdfwidth=40%]
 
               . Gently screw six *M6 x 10mm Grub Screw* part(s) into the holes
               on the *Universal Axis Motor Side* that run along the sides of the
@@ -6973,17 +6973,17 @@ components:
 
               +
 
-              image:IMG_3613.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3613.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3614.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3614.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3615.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3615.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3616.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3616.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3617.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3617.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3618.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3618.jpeg[,300,300,pdfwidth=40%]
 
               . The *Universal Axis Motor Side Module* is now complete.
       universal-axis-y1-carriage:
@@ -7748,14 +7748,14 @@ components:
 
               +
 
-              image:IMG_3619.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3619.jpeg[,300,300,pdfwidth=40%]
 
               . Take the two *Flanged Bearing* part(s) and orient them so that
               they are touching with the flanges on opposite sides.
 
               +
 
-              image:IMG_3620.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3620.jpeg[,300,300,pdfwidth=40%]
 
               . Insert the *Flanged Bearing* part(s) into the slot of the
               *Universal Axis Idler Side* until they align with the hole in the
@@ -7763,34 +7763,34 @@ components:
 
               +
 
-              image:IMG_3621.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3621.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3622.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3622.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3623.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3623.jpeg[,300,300,pdfwidth=40%]
 
               . Insert the *M6 Nut* into the nut holder above the hole that is
               aligned with the *Flanged Bearing* part(s).
 
               +
 
-              image:IMG_3624.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3624.jpeg[,300,300,pdfwidth=40%]
 
               . Insert the *M6 x 20mm Screw* through the other side of the hole
               that aligns with the *Flanged Bearing* part(s).
 
               +
 
-              image:IMG_3625.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3625.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3626.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3626.jpeg[,300,300,pdfwidth=40%]
 
               . Use the *5mm Allen Wrench* to gently tighten the *M6 x 20mm
               Screw*.
 
               +
 
-              image:IMG_3627.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3627.jpeg[,300,300,pdfwidth=40%]
 
               . Using the *3mm Allen Wrench*, screw two *M6 x 10mm Grub Screw*
               into the holes on the face of the *Universal Axis Idler Side*.
@@ -7800,15 +7800,15 @@ components:
 
               +
 
-              image:IMG_3628.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3628.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3629.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3629.jpeg[,300,300,pdfwidth=40%]
 
               . The *Universal Axis Idler Side Module* is now complete.
 
               +
 
-              image:IMG_3630.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3630.jpeg[,300,300,pdfwidth=40%]
       universal-axis-motor-side-assembly:
         name: universal-axis-motor-side-assembly
         version: 1.0.0
@@ -8080,7 +8080,7 @@ components:
 
               +
 
-              image:IMG_3593.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3593.jpeg[,300,300,pdfwidth=40%]
 
               . Using the *1.5mm Allen Wrench*, loosen the screw(s) on the *GT2
               20 Tooth Pulley* and then slide the *GT2 20 Tooth Pulley* onto the
@@ -8089,16 +8089,16 @@ components:
 
               +
 
-              image:IMG_3594.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3594.jpeg[,300,300,pdfwidth=40%]
 
               . Gently tighten down the screw on the *GT2 20 Tooth Pulley* so it
               stays in place on the *Nema 17 Stepper Motor* shaft.
 
               +
 
-              image:IMG_3595.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3595.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3596.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3596.jpeg[,300,300,pdfwidth=40%]
 
               . Insert the shaft of the *Nema 17 Stepper Motor* into the center
               hole of the *Universal Axis Motor Side* until the face of the
@@ -8107,9 +8107,9 @@ components:
 
               +
 
-              image:IMG_3598.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3598.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3599.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3599.jpeg[,300,300,pdfwidth=40%]
 
               . Look through the slot on the side of the *Universal Axis Motor
               Side* to see if the teeth of the *GT2 20 Tooth Pulley* align with
@@ -8119,11 +8119,11 @@ components:
 
               +
 
-              image:IMG_3600.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3600.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3601.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3601.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3602.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3602.jpeg[,300,300,pdfwidth=40%]
 
               . Once the *GT2 20 Tooth Pulley* is aligned with the slot, remove
               the *Nema 17 Stepper Motor* from the *Universal Axis Motor Side*.
@@ -8133,14 +8133,14 @@ components:
 
               +
 
-              image:IMG_3597.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3597.jpeg[,300,300,pdfwidth=40%]
 
               . Insert two *M6 Nut* part(s) into the nut catchers on the face of
               the *Universal Axis Motor Side*.
 
               +
 
-              image:IMG_3603.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3603.jpeg[,300,300,pdfwidth=40%]
 
               . Insert the shaft of the *Nema 17 Stepper Motor* into the center
               hole of the *Universal Axis Motor Side* and over the top of the
@@ -8148,7 +8148,7 @@ components:
 
               +
 
-              image:IMG_3604.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3604.jpeg[,300,300,pdfwidth=40%]
 
               . Turn the *Nema 17 Stepper Motor* in the hole of the *Universal
               Axis Motor Side* until the mounting holes in the face of the *Nema
@@ -8157,9 +8157,9 @@ components:
 
               +
 
-              image:IMG_3605.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3605.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3606.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3606.jpeg[,300,300,pdfwidth=40%]
 
               . While holding the current *Universal Axis Motor Side Module* in
               one hand, turn the *Universal Axis Motor Side Module* over so that
@@ -8168,14 +8168,14 @@ components:
 
               +
 
-              image:IMG_3607.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3607.jpeg[,300,300,pdfwidth=40%]
 
               . Insert three *M3 x 25mm Screw* part(s) into the holes that are
               aligned with the mounting holes on the *Nema 17 Stepper Motor*. 
 
               +
 
-              image:IMG_3608.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3608.jpeg[,300,300,pdfwidth=40%]
 
               . Tighten down the *M3 x 25mm Screw* part(s) using a *2.5mm Allen
               Wrench*. The *M6 Nut* part(s) should now be secure between the
@@ -8183,18 +8183,18 @@ components:
 
               +
 
-              image:IMG_3609.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3609.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3610.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3610.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3611.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3611.jpeg[,300,300,pdfwidth=40%]
 
               . Flip the *Universal Axis Motor Side Module* back over so that
               the *Nema 17 Stepper Motor* is on top.
 
               +
 
-              image:IMG_3612.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3612.jpeg[,300,300,pdfwidth=40%]
 
               . Gently screw six *M6 x 10mm Grub Screw* part(s) into the holes
               on the *Universal Axis Motor Side* that run along the sides of the
@@ -8204,17 +8204,17 @@ components:
 
               +
 
-              image:IMG_3613.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3613.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3614.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3614.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3615.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3615.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3616.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3616.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3617.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3617.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3618.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3618.jpeg[,300,300,pdfwidth=40%]
 
               . The *Universal Axis Motor Side Module* is now complete.
       universal-axis-y2-carriage:
@@ -8979,14 +8979,14 @@ components:
 
               +
 
-              image:IMG_3619.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3619.jpeg[,300,300,pdfwidth=40%]
 
               . Take the two *Flanged Bearing* part(s) and orient them so that
               they are touching with the flanges on opposite sides.
 
               +
 
-              image:IMG_3620.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3620.jpeg[,300,300,pdfwidth=40%]
 
               . Insert the *Flanged Bearing* part(s) into the slot of the
               *Universal Axis Idler Side* until they align with the hole in the
@@ -8994,34 +8994,34 @@ components:
 
               +
 
-              image:IMG_3621.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3621.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3622.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3622.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3623.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3623.jpeg[,300,300,pdfwidth=40%]
 
               . Insert the *M6 Nut* into the nut holder above the hole that is
               aligned with the *Flanged Bearing* part(s).
 
               +
 
-              image:IMG_3624.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3624.jpeg[,300,300,pdfwidth=40%]
 
               . Insert the *M6 x 20mm Screw* through the other side of the hole
               that aligns with the *Flanged Bearing* part(s).
 
               +
 
-              image:IMG_3625.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3625.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3626.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3626.jpeg[,300,300,pdfwidth=40%]
 
               . Use the *5mm Allen Wrench* to gently tighten the *M6 x 20mm
               Screw*.
 
               +
 
-              image:IMG_3627.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3627.jpeg[,300,300,pdfwidth=40%]
 
               . Using the *3mm Allen Wrench*, screw two *M6 x 10mm Grub Screw*
               into the holes on the face of the *Universal Axis Idler Side*.
@@ -9031,15 +9031,15 @@ components:
 
               +
 
-              image:IMG_3628.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3628.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3629.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3629.jpeg[,300,300,pdfwidth=40%]
 
               . The *Universal Axis Idler Side Module* is now complete.
 
               +
 
-              image:IMG_3630.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3630.jpeg[,300,300,pdfwidth=40%]
       universal-axis-motor-side-assembly:
         name: universal-axis-motor-side-assembly
         version: 1.0.0
@@ -9311,7 +9311,7 @@ components:
 
               +
 
-              image:IMG_3593.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3593.jpeg[,300,300,pdfwidth=40%]
 
               . Using the *1.5mm Allen Wrench*, loosen the screw(s) on the *GT2
               20 Tooth Pulley* and then slide the *GT2 20 Tooth Pulley* onto the
@@ -9320,16 +9320,16 @@ components:
 
               +
 
-              image:IMG_3594.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3594.jpeg[,300,300,pdfwidth=40%]
 
               . Gently tighten down the screw on the *GT2 20 Tooth Pulley* so it
               stays in place on the *Nema 17 Stepper Motor* shaft.
 
               +
 
-              image:IMG_3595.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3595.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3596.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3596.jpeg[,300,300,pdfwidth=40%]
 
               . Insert the shaft of the *Nema 17 Stepper Motor* into the center
               hole of the *Universal Axis Motor Side* until the face of the
@@ -9338,9 +9338,9 @@ components:
 
               +
 
-              image:IMG_3598.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3598.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3599.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3599.jpeg[,300,300,pdfwidth=40%]
 
               . Look through the slot on the side of the *Universal Axis Motor
               Side* to see if the teeth of the *GT2 20 Tooth Pulley* align with
@@ -9350,11 +9350,11 @@ components:
 
               +
 
-              image:IMG_3600.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3600.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3601.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3601.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3602.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3602.jpeg[,300,300,pdfwidth=40%]
 
               . Once the *GT2 20 Tooth Pulley* is aligned with the slot, remove
               the *Nema 17 Stepper Motor* from the *Universal Axis Motor Side*.
@@ -9364,14 +9364,14 @@ components:
 
               +
 
-              image:IMG_3597.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3597.jpeg[,300,300,pdfwidth=40%]
 
               . Insert two *M6 Nut* part(s) into the nut catchers on the face of
               the *Universal Axis Motor Side*.
 
               +
 
-              image:IMG_3603.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3603.jpeg[,300,300,pdfwidth=40%]
 
               . Insert the shaft of the *Nema 17 Stepper Motor* into the center
               hole of the *Universal Axis Motor Side* and over the top of the
@@ -9379,7 +9379,7 @@ components:
 
               +
 
-              image:IMG_3604.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3604.jpeg[,300,300,pdfwidth=40%]
 
               . Turn the *Nema 17 Stepper Motor* in the hole of the *Universal
               Axis Motor Side* until the mounting holes in the face of the *Nema
@@ -9388,9 +9388,9 @@ components:
 
               +
 
-              image:IMG_3605.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3605.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3606.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3606.jpeg[,300,300,pdfwidth=40%]
 
               . While holding the current *Universal Axis Motor Side Module* in
               one hand, turn the *Universal Axis Motor Side Module* over so that
@@ -9399,14 +9399,14 @@ components:
 
               +
 
-              image:IMG_3607.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3607.jpeg[,300,300,pdfwidth=40%]
 
               . Insert three *M3 x 25mm Screw* part(s) into the holes that are
               aligned with the mounting holes on the *Nema 17 Stepper Motor*. 
 
               +
 
-              image:IMG_3608.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3608.jpeg[,300,300,pdfwidth=40%]
 
               . Tighten down the *M3 x 25mm Screw* part(s) using a *2.5mm Allen
               Wrench*. The *M6 Nut* part(s) should now be secure between the
@@ -9414,18 +9414,18 @@ components:
 
               +
 
-              image:IMG_3609.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3609.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3610.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3610.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3611.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3611.jpeg[,300,300,pdfwidth=40%]
 
               . Flip the *Universal Axis Motor Side Module* back over so that
               the *Nema 17 Stepper Motor* is on top.
 
               +
 
-              image:IMG_3612.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3612.jpeg[,300,300,pdfwidth=40%]
 
               . Gently screw six *M6 x 10mm Grub Screw* part(s) into the holes
               on the *Universal Axis Motor Side* that run along the sides of the
@@ -9435,17 +9435,17 @@ components:
 
               +
 
-              image:IMG_3613.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3613.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3614.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3614.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3615.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3615.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3616.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3616.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3617.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3617.jpeg[,300,300,pdfwidth=40%]
 
-              image:IMG_3618.jpg[,300,300,pdfwidth=40%]
+              image:IMG_3618.jpeg[,300,300,pdfwidth=40%]
 
               . The *Universal Axis Motor Side Module* is now complete.
       universal-axis-z-carriage:
@@ -9701,13 +9701,13 @@ components:
 
           +
 
-          image:IMG_3631.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3631.jpeg[,300,300,pdfwidth=40%]
 
           . Slide two *Linear Bearing* part(s) onto the *8mm Smooth Rod*.
 
           +
 
-          image:IMG_3633.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3633.jpeg[,300,300,pdfwidth=40%]
 
           . Use the *Painters Tape* to evenly cover the *Linear Bearing* part(s)
           with around five layers of *Painters Tape*. Do this by applying the
@@ -9716,9 +9716,9 @@ components:
 
           +
 
-          image:IMG_3634.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3634.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3635.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3635.jpeg[,300,300,pdfwidth=40%]
 
           . Remove the *Linear Bearing* part(s) from the *8mm Smooth Rod*.
 
@@ -9727,9 +9727,9 @@ components:
 
           +
 
-          image:IMG_3636.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3636.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3637.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3637.jpeg[,300,300,pdfwidth=40%]
 
           . Remove some *Painters Tape* from the *Linear Bearing* part(s) using
           *Scissors* until the part(s) can fit into the holes of the *Universal
@@ -9737,9 +9737,9 @@ components:
 
           +
 
-          image:IMG_3639.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3639.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3638.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3638.jpeg[,300,300,pdfwidth=40%]
 
           . Test the fit of the *Linear Bearing* part(s) by covering the open
           end of the *Universal Axis Z Carriage Side* with the *Carriage
@@ -9750,7 +9750,7 @@ components:
 
           +
 
-          image:IMG_3643.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3643.jpeg[,300,300,pdfwidth=40%]
 
           . Repeat the above step until the *Linear Bearing* part(s) fit into
           the *Universal Axis Z Carriage Side* without moving during the shake
@@ -9758,14 +9758,14 @@ components:
 
           +
 
-          image:IMG_3641.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3641.jpeg[,300,300,pdfwidth=40%]
 
           . Repeat all of the above steps for the other two *Linear Bearing*
           part(s).
 
           +
 
-          image:IMG_3642.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3642.jpeg[,300,300,pdfwidth=40%]
 
           . Orient the *Carriage Closure* over the opening of the *Universal
           Axis Z Carriage Side* so that the three mounting holes on the
@@ -9777,11 +9777,11 @@ components:
 
           +
 
-          image:IMG_3644.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3644.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3645.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3645.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3646.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3646.jpeg[,300,300,pdfwidth=40%]
 
           . Fix the *Carriage Closure* in place by using a *5mm Allen Wrench* to
           screw a *M6 x 20mm Screw* into the center hole of the *Carriage
@@ -9789,9 +9789,9 @@ components:
 
           +
 
-          image:IMG_3648.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3648.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3649.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3649.jpeg[,300,300,pdfwidth=40%]
       - summary: Assemble Universal Z Axis Module
         requiredParts:
           - carriage-side
@@ -9815,7 +9815,7 @@ components:
 
           +
 
-          image:IMG_3669.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3669.jpeg[,300,300,pdfwidth=40%]
 
           . Insert two *8mm Smooth Rod* part(s) into the right side of the
           *Universal Axis Motor Side* until the part(s) are flush with the left
@@ -9823,7 +9823,7 @@ components:
 
           +
 
-          image:IMG_3670.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3670.jpeg[,300,300,pdfwidth=40%]
 
           . Using the *3mm Allen Wrench*, tighten down all six *M6 x 10mm Grub
           Screw* part(s) on the *Universal Axis Motor Side*. This should fix the
@@ -9831,7 +9831,7 @@ components:
 
           +
 
-          image:IMG_3671.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3671.jpeg[,300,300,pdfwidth=40%]
 
           . Slide the *Universal Axis Z Carriage Side* onto the *8mm Smooth Rod*
           part(s) with the *Carriage Closure* facing the *Universal Axis Motor
@@ -9839,7 +9839,7 @@ components:
 
           +
 
-          image:IMG_3672.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3672.jpeg[,300,300,pdfwidth=40%]
 
           . Slide the *Universal Axis Idler Side* onto the *8mm Smooth Rod*
           part(s) such that the larger opening on the *Universal Axis Idler
@@ -9847,9 +9847,9 @@ components:
 
           +
 
-          image:IMG_3657.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3657.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3658.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3658.jpeg[,300,300,pdfwidth=40%]
 
           . Gently tighten down the *M6 x 10mm Grub Screw* part(s) on the
           *Universal Axis Idler Side* to hold the *Universal Axis Idler Side* in
@@ -9858,29 +9858,29 @@ components:
 
           +
 
-          image:IMG_3659.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3659.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3660.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3660.jpeg[,300,300,pdfwidth=40%]
 
           . Take the *GT2 Belt* and make a loop on one end with the teeth of the
           belt locking into one another.
 
           +
 
-          image:IMG_3661.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3661.jpeg[,300,300,pdfwidth=40%]
 
           . Insert the loop into the side of the *Belt Peg* and use a *3mm Allen
           Wrench* to screw a *M6 x 10mm Grub Screw* part(s) into the loop.
 
           +
 
-          image:IMG_3662.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3662.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3663.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3663.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3664.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3664.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3665.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3665.jpeg[,300,300,pdfwidth=40%]
 
           . Thread the other end of the *GT2 Belt* through one of the openings
           on the *Universal Axis Z Carriage Side* that is closer to the
@@ -9888,31 +9888,31 @@ components:
 
           +
 
-          image:IMG_3666.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3666.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3667.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3667.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3668.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3668.jpeg[,300,300,pdfwidth=40%]
 
           . Thread the end of the *GT2 Belt* through the *Universal Axis Motor
           Side*, around the pulley, and back through the module.
 
           +
 
-          image:IMG_3673.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3673.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3674.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3674.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3675.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3675.jpeg[,300,300,pdfwidth=40%]
 
           . Thread the end of the *GT2 Belt* through the open slot in the
           *Universal Axis Z Carriage Side*.
 
           +
 
-          image:IMG_3676.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3676.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3677.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3677.jpeg[,300,300,pdfwidth=40%]
 
           . Thread the end of the *GT2 Belt* through the *Universal Axis Idler
           Side*, around the bearings, and back through the
@@ -9920,13 +9920,13 @@ components:
 
           +
 
-          image:IMG_3678.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3678.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3679.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3679.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3680.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3680.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3681.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3681.jpeg[,300,300,pdfwidth=40%]
 
           . Thread the end of the *GT2 Belt* back through the first slot of the
           *Universal Axis Z Carriage Side*. Make sure that the *GT2 Belt* goes
@@ -9935,9 +9935,9 @@ components:
 
           +
 
-          image:IMG_3682.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3682.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3683.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3683.jpeg[,300,300,pdfwidth=40%]
 
           . Find the section of *GT2 Belt* that overlaps itself. This section
           will be coming out of the first slot of the *Universal Axis Z Carriage
@@ -9948,24 +9948,24 @@ components:
 
           +
 
-          image:IMG_3684.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3684.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3685.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3685.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3686.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3686.jpeg[,300,300,pdfwidth=40%]
 
           . Place a *M6 Nut* in the nut catcher of the *Belt Pinch*.
 
           +
 
-          image:IMG_3687.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3687.jpeg[,300,300,pdfwidth=40%]
 
           . Push a *M6 x 20mm Screw* through the other side of the *Belt Pinch*.
           The part(s) may need to be wiggled while being pushed in.
 
           +
 
-          image:IMG_3688.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3688.jpeg[,300,300,pdfwidth=40%]
 
           . Gently tighten down the *M6 x 20mm Screw* through the *M6 Nut* with
           a *5mm Allen Wrench*. Leave the *M6 x 20mm Screw* a little loose; the
@@ -9973,9 +9973,9 @@ components:
 
           +
 
-          image:IMG_3689.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3689.jpeg[,300,300,pdfwidth=40%]
 
-          image:IMG_3690.jpg[,300,300,pdfwidth=40%]
+          image:IMG_3690.jpeg[,300,300,pdfwidth=40%]
 
           . The *Universal Z Axis Module* is complete.
   universal-axis-z-carriage:
