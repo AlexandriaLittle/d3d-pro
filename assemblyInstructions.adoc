@@ -1594,20 +1594,60 @@ endif::[]
 
 *Instructions*
 
++
+image:IMG_3593.jpg[,300,300,pdfwidth=40%]
 . Using the *1.5mm Allen Wrench*, loosen the screw(s) on the *GT2 20 Tooth Pulley* and then slide the *GT2 20 Tooth Pulley* onto the shaft of the *Nema 17 Stepper Motor* with the thicker end of the *GT2 20 Tooth Pulley* going on first.
++
+image:IMG_3594.jpg[,300,300,pdfwidth=40%]
 . Gently tighten down the screw on the *GT2 20 Tooth Pulley* so it stays in place on the *Nema 17 Stepper Motor* shaft.
++
+image:IMG_3595.jpg[,300,300,pdfwidth=40%]
+image:IMG_3596.jpg[,300,300,pdfwidth=40%]
 . Insert the shaft of the *Nema 17 Stepper Motor* into the center hole of the *Universal Axis Motor Side* until the face of the *Nema 17 Stepper Motor* is flush with the face of the *Universal Axis Motor Side*.
++
+image:IMG_3598.jpg[,300,300,pdfwidth=40%]
+image:IMG_3599.jpg[,300,300,pdfwidth=40%]
 . Look through the slot on the side of the *Universal Axis Motor Side* to see if the teeth of the *GT2 20 Tooth Pulley* align with the slot. Repeat the above steps to make adjustments to the position of the *GT2 20 Tooth Pulley* until it is properly aligned with the slot.
++
+image:IMG_3600.jpg[,300,300,pdfwidth=40%]
+image:IMG_3601.jpg[,300,300,pdfwidth=40%]
+image:IMG_3602.jpg[,300,300,pdfwidth=40%]
 . Once the *GT2 20 Tooth Pulley* is aligned with the slot, remove the *Nema 17 Stepper Motor* from the *Universal Axis Motor Side*.
-. Firmly tighten down the screw on the *GT2 20 Tooth Pulley*.
+. Firmly tighten down the screw on the *GT2 20 Tooth Pulley* using a *1.5mm Allen Wrench.
++
+image:IMG_3597.jpg[,300,300,pdfwidth=40%]
 . Insert two *M6 Nut* part(s) into the nut catchers on the face of the *Universal Axis Motor Side*.
++
+image:IMG_3603.jpg[,300,300,pdfwidth=40%]
 . Insert the shaft of the *Nema 17 Stepper Motor* into the center hole of the *Universal Axis Motor Side* and over the top of the *M6 Nut* part(s).
++
+image:IMG_3604.jpg[,300,300,pdfwidth=40%]
 . Turn the *Nema 17 Stepper Motor* in the hole of the *Universal Axis Motor Side* until the mounting holes in the face of the *Nema 17 Stepper Motor* align with the holes in the *Universal Axis Motor Side*.
++
+image:IMG_3605.jpg[,300,300,pdfwidth=40%]
+image:IMG_3606.jpg[,300,300,pdfwidth=40%]
 . While holding the current *Universal Axis Motor Side Module* in one hand, turn the *Universal Axis Motor Side Module* over so that the other side of the *Universal Axis Motor Side* part is accessible.
++
+image:IMG_3607.jpg[,300,300,pdfwidth=40%]
 . Insert three *M3 x 25mm Screw* part(s) into the holes that are aligned with the mounting holes on the *Nema 17 Stepper Motor*. 
++
+image:IMG_3608.jpg[,300,300,pdfwidth=40%]
 . Tighten down the *M3 x 25mm Screw* part(s) using a *2.5mm Allen Wrench*. The *M6 Nut* part(s) should now be secure between the *Nema 17 Stepper Motor* and *Universal Axis Motor Side*.
++
+image:IMG_3609.jpg[,300,300,pdfwidth=40%]
+image:IMG_3610.jpg[,300,300,pdfwidth=40%]
+image:IMG_3611.jpg[,300,300,pdfwidth=40%]
 . Flip the *Universal Axis Motor Side Module* back over so that the *Nema 17 Stepper Motor* is on top.
++
+image:IMG_3612.jpg[,300,300,pdfwidth=40%]
 . Gently screw six *M6 x 10mm Grub Screw* part(s) into the holes on the *Universal Axis Motor Side* that run along the sides of the *Nema 17 Stepper Motor*. Only screw the *M6 x 10mm Grub Screw* part(s) in enough to hold them in place as other parts will be inserted into the holes below in a future step.
++
+image:IMG_3613.jpg[,300,300,pdfwidth=40%]
+image:IMG_3614.jpg[,300,300,pdfwidth=40%]
+image:IMG_3615.jpg[,300,300,pdfwidth=40%]
+image:IMG_3616.jpg[,300,300,pdfwidth=40%]
+image:IMG_3617.jpg[,300,300,pdfwidth=40%]
+image:IMG_3618.jpg[,300,300,pdfwidth=40%]
 . The *Universal Axis Motor Side Module* is now complete.
 
 
