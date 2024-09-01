@@ -23,19 +23,59 @@
   - 3mm-allen-wrench
 
   details: |
+    +
+    image:IMG_3593.jpg[,300,300,pdfwidth=40%]
     . Using the *{{tools.1_5mm-allen-wrench.description}}*, loosen the screw(s) on the *{{parts.pulley.description}}* and then slide the *{{parts.pulley.description}}* onto the shaft of the *{{parts.stepper-motor.description}}* with the thicker end of the *{{parts.pulley.description}}* going on first.
+    +
+    image:IMG_3594.jpg[,300,300,pdfwidth=40%]
     . Gently tighten down the screw on the *{{parts.pulley.description}}* so it stays in place on the *{{parts.stepper-motor.description}}* shaft.
+    +
+    image:IMG_3595.jpg[,300,300,pdfwidth=40%]
+    image:IMG_3596.jpg[,300,300,pdfwidth=40%]
     . Insert the shaft of the *{{parts.stepper-motor.description}}* into the center hole of the *{{parts.universal-axis-motor-side.description}}* until the face of the *{{parts.stepper-motor.description}}* is flush with the face of the *{{parts.universal-axis-motor-side.description}}*.
+    +
+    image:IMG_3598.jpg[,300,300,pdfwidth=40%]
+    image:IMG_3599.jpg[,300,300,pdfwidth=40%]
     . Look through the slot on the side of the *{{parts.universal-axis-motor-side.description}}* to see if the teeth of the *{{parts.pulley.description}}* align with the slot. Repeat the above steps to make adjustments to the position of the *{{parts.pulley.description}}* until it is properly aligned with the slot.
+    +
+    image:IMG_3600.jpg[,300,300,pdfwidth=40%]
+    image:IMG_3601.jpg[,300,300,pdfwidth=40%]
+    image:IMG_3602.jpg[,300,300,pdfwidth=40%]
     . Once the *{{parts.pulley.description}}* is aligned with the slot, remove the *{{parts.stepper-motor.description}}* from the *{{parts.universal-axis-motor-side.description}}*.
-    . Firmly tighten down the screw on the *{{parts.pulley.description}}*.
+    . Firmly tighten down the screw on the *{{parts.pulley.description}}* using a *{{tools.1_5mm-allen-wrench.description}}.
+    +
+    image:IMG_3597.jpg[,300,300,pdfwidth=40%]
     . Insert two *{{parts.m6-nut.description}}* {{parts.m6-nut.quantityUnits}} into the nut catchers on the face of the *{{parts.universal-axis-motor-side.description}}*.
+    +
+    image:IMG_3603.jpg[,300,300,pdfwidth=40%]
     . Insert the shaft of the *{{parts.stepper-motor.description}}* into the center hole of the *{{parts.universal-axis-motor-side.description}}* and over the top of the *{{parts.m6-nut.description}}* {{parts.m6-nut.quantityUnits}}.
+    +
+    image:IMG_3604.jpg[,300,300,pdfwidth=40%]
     . Turn the *{{parts.stepper-motor.description}}* in the hole of the *{{parts.universal-axis-motor-side.description}}* until the mounting holes in the face of the *{{parts.stepper-motor.description}}* align with the holes in the *{{parts.universal-axis-motor-side.description}}*.
+    +
+    image:IMG_3605.jpg[,300,300,pdfwidth=40%]
+    image:IMG_3606.jpg[,300,300,pdfwidth=40%]
     . While holding the current *{{description}}* in one hand, turn the *{{description}}* over so that the other side of the *{{parts.universal-axis-motor-side.description}}* {{parts.universal-axis-motor-side.quantityUnits}} is accessible.
+    +
+    image:IMG_3607.jpg[,300,300,pdfwidth=40%]
     . Insert three *{{parts.m3-25mm-screw.description}}* {{parts.m3-25mm-screw.quantityUnits}} into the holes that are aligned with the mounting holes on the *{{parts.stepper-motor.description}}*. 
+    +
+    image:IMG_3608.jpg[,300,300,pdfwidth=40%]
     . Tighten down the *{{parts.m3-25mm-screw.description}}* {{parts.m3-25mm-screw.quantityUnits}} using a *{{tools.2_5mm-allen-wrench.description}}*. The *{{parts.m6-nut.description}}* {{parts.m6-nut.quantityUnits}} should now be secure between the *{{parts.stepper-motor.description}}* and *{{parts.universal-axis-motor-side.description}}*.
+    +
+    image:IMG_3609.jpg[,300,300,pdfwidth=40%]
+    image:IMG_3610.jpg[,300,300,pdfwidth=40%]
+    image:IMG_3611.jpg[,300,300,pdfwidth=40%]
     . Flip the *{{description}}* back over so that the *{{parts.stepper-motor.description}}* is on top.
+    +
+    image:IMG_3612.jpg[,300,300,pdfwidth=40%]
     . Gently screw six *{{parts.m6-10mm-grub-screw.description}}* {{parts.m6-10mm-grub-screw.quantityUnits}} into the holes on the *{{parts.universal-axis-motor-side.description}}* that run along the sides of the *{{parts.stepper-motor.description}}*. Only screw the *{{parts.m6-10mm-grub-screw.description}}* {{parts.m6-10mm-grub-screw.quantityUnits}} in enough to hold them in place as other parts will be inserted into the holes below in a future step.
+    +
+    image:IMG_3613.jpg[,300,300,pdfwidth=40%]
+    image:IMG_3614.jpg[,300,300,pdfwidth=40%]
+    image:IMG_3615.jpg[,300,300,pdfwidth=40%]
+    image:IMG_3616.jpg[,300,300,pdfwidth=40%]
+    image:IMG_3617.jpg[,300,300,pdfwidth=40%]
+    image:IMG_3618.jpg[,300,300,pdfwidth=40%]
     . The *{{description}}* is now complete.
 
