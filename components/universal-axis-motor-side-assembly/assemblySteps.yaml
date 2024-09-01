@@ -23,7 +23,7 @@
   - 3mm-allen-wrench
 
   details: |
-    . Using the *{{tools.1_5mm-allen-wrench.description}}*, loosen the screw on the *{{parts.pulley.description}}* and then slide the *{{parts.pulley.description}}* onto the shaft of the *{{parts.stepper-motor.description}}* with the thicker end of the *{{parts.pulley.description}}* going on first.
+    . Using the *{{tools.1_5mm-allen-wrench.description}}*, loosen the screw(s) on the *{{parts.pulley.description}}* and then slide the *{{parts.pulley.description}}* onto the shaft of the *{{parts.stepper-motor.description}}* with the thicker end of the *{{parts.pulley.description}}* going on first.
     . Gently tighten down the screw on the *{{parts.pulley.description}}* so it stays in place on the *{{parts.stepper-motor.description}}* shaft.
     . Insert the shaft of the *{{parts.stepper-motor.description}}* into the center hole of the *{{parts.universal-axis-motor-side.description}}* until the face of the *{{parts.stepper-motor.description}}* is flush with the face of the *{{parts.universal-axis-motor-side.description}}*.
     . Look through the slot on the side of the *{{parts.universal-axis-motor-side.description}}* to see if the teeth of the *{{parts.pulley.description}}* align with the slot. Repeat the above steps to make adjustments to the position of the *{{parts.pulley.description}}* until it is properly aligned with the slot.
