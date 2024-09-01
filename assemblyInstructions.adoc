@@ -1594,6 +1594,7 @@ endif::[]
 
 *Instructions*
 
+. Gather all parts for the Universal Axis Motor Side Module.
 +
 image:IMG_3593.jpg[,300,300,pdfwidth=40%]
 . Using the *1.5mm Allen Wrench*, loosen the screw(s) on the *GT2 20 Tooth Pulley* and then slide the *GT2 20 Tooth Pulley* onto the shaft of the *Nema 17 Stepper Motor* with the thicker end of the *GT2 20 Tooth Pulley* going on first.
@@ -1847,13 +1848,34 @@ image:IMG_3618.jpg[,300,300,pdfwidth=40%]
 
 *Instructions*
 
+. Gather all parts for the Universal Axis Idler Side Module.
++
+image:IMG_3619.jpg[,300,300,pdfwidth=40%]
 . Take the two *Flanged Bearing* part(s) and orient them so that they are touching with the flanges on opposite sides.
++
+image:IMG_3620.jpg[,300,300,pdfwidth=40%]
 . Insert the *Flanged Bearing* part(s) into the slot of the *Universal Axis Idler Side* until they align with the hole in the center of the *Universal Axis Idler Side*.
++
+image:IMG_3621.jpg[,300,300,pdfwidth=40%]
+image:IMG_3622.jpg[,300,300,pdfwidth=40%]
+image:IMG_3623.jpg[,300,300,pdfwidth=40%]
 . Insert the *M6 Nut* into the nut holder above the hole that is aligned with the *Flanged Bearing* part(s).
++
+image:IMG_3624.jpg[,300,300,pdfwidth=40%]
 . Insert the *M6 x 20mm Screw* through the other side of the hole that aligns with the *Flanged Bearing* part(s).
++
+image:IMG_3625.jpg[,300,300,pdfwidth=40%]
+image:IMG_3626.jpg[,300,300,pdfwidth=40%]
 . Use the *5mm Allen Wrench* to gently tighten the *M6 x 20mm Screw*.
++
+image:IMG_3627.jpg[,300,300,pdfwidth=40%]
 . Using the *3mm Allen Wrench*, screw two *M6 x 10mm Grub Screw* into the holes on the face of the *Universal Axis Idler Side*. Only screw the *M6 x 10mm Grub Screw* part(s) in enough to hold them in place as other parts will be inserted into the holes below in a future step.
++
+image:IMG_3628.jpg[,300,300,pdfwidth=40%]
+image:IMG_3629.jpg[,300,300,pdfwidth=40%]
 . The *Universal Axis Idler Side Module* is now complete.
++
+image:IMG_3630.jpg[,300,300,pdfwidth=40%]
 
 
 
