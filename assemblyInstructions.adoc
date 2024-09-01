@@ -4,8 +4,8 @@ Alexandria Little
 :revdate: 9/1/2024
 :sectnums:
 :toc:
-:docinfo: shared-head //ANL
-:docinfodir: dist/
+:docinfo: private-head //ANL
+// :docinfodir: dist/
 
 // github specific things
 ifdef::env-github[]
