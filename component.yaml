@@ -4720,7 +4720,7 @@ components:
           - 2_5mm-allen-wrench
           - 3mm-allen-wrench
         details: >
-          . Using the *1.5mm Allen Wrench*, loosen the screw on the *GT2 20
+          . Using the *1.5mm Allen Wrench*, loosen the screw(s) on the *GT2 20
           Tooth Pulley* and then slide the *GT2 20 Tooth Pulley* onto the shaft
           of the *Nema 17 Stepper Motor* with the thicker end of the *GT2 20
           Tooth Pulley* going on first.
@@ -5447,8 +5447,8 @@ components:
               - 2_5mm-allen-wrench
               - 3mm-allen-wrench
             details: >
-              . Using the *1.5mm Allen Wrench*, loosen the screw on the *GT2 20
-              Tooth Pulley* and then slide the *GT2 20 Tooth Pulley* onto the
+              . Using the *1.5mm Allen Wrench*, loosen the screw(s) on the *GT2
+              20 Tooth Pulley* and then slide the *GT2 20 Tooth Pulley* onto the
               shaft of the *Nema 17 Stepper Motor* with the thicker end of the
               *GT2 20 Tooth Pulley* going on first.
 
@@ -6553,8 +6553,8 @@ components:
               - 2_5mm-allen-wrench
               - 3mm-allen-wrench
             details: >
-              . Using the *1.5mm Allen Wrench*, loosen the screw on the *GT2 20
-              Tooth Pulley* and then slide the *GT2 20 Tooth Pulley* onto the
+              . Using the *1.5mm Allen Wrench*, loosen the screw(s) on the *GT2
+              20 Tooth Pulley* and then slide the *GT2 20 Tooth Pulley* onto the
               shaft of the *Nema 17 Stepper Motor* with the thicker end of the
               *GT2 20 Tooth Pulley* going on first.
 
@@ -7659,8 +7659,8 @@ components:
               - 2_5mm-allen-wrench
               - 3mm-allen-wrench
             details: >
-              . Using the *1.5mm Allen Wrench*, loosen the screw on the *GT2 20
-              Tooth Pulley* and then slide the *GT2 20 Tooth Pulley* onto the
+              . Using the *1.5mm Allen Wrench*, loosen the screw(s) on the *GT2
+              20 Tooth Pulley* and then slide the *GT2 20 Tooth Pulley* onto the
               shaft of the *Nema 17 Stepper Motor* with the thicker end of the
               *GT2 20 Tooth Pulley* going on first.
 
@@ -8765,8 +8765,8 @@ components:
               - 2_5mm-allen-wrench
               - 3mm-allen-wrench
             details: >
-              . Using the *1.5mm Allen Wrench*, loosen the screw on the *GT2 20
-              Tooth Pulley* and then slide the *GT2 20 Tooth Pulley* onto the
+              . Using the *1.5mm Allen Wrench*, loosen the screw(s) on the *GT2
+              20 Tooth Pulley* and then slide the *GT2 20 Tooth Pulley* onto the
               shaft of the *Nema 17 Stepper Motor* with the thicker end of the
               *GT2 20 Tooth Pulley* going on first.
 
@@ -9079,6 +9079,9 @@ components:
           tape to both *Linear Bearing* part(s) and then rotating the part(s) on
           the *8mm Smooth Rod* until enough *Painters Tape* is applied.
 
+          * Cut off any excess *Painters Tape* from the ends of the *Linear
+          Bearing* part(s) using *Scissors*.
+
           . Remove the *Linear Bearing* part(s) from the *8mm Smooth Rod*.
 
           . Remove some *Painters Tape* from the *Linear Bearing* part(s) using
@@ -9128,15 +9131,15 @@ components:
         details: >
           . Orient the *Universal Axis Motor Side* such that the section of the
           stepper motor that hangs off of the *Universal Axis Motor Side* is
-          pointing left.
+          pointing _left_.
 
           . Insert two *8mm Smooth Rod* part(s) into the right side of the
           *Universal Axis Motor Side* until the part(s) are flush with the left
           face of the plastic part.
 
-          . Tighten down all six *M6 x 10mm Grub Screw* part(s) on the
-          *Universal Axis Motor Side*. This should fix the *8mm Smooth Rod*
-          part(s) in place.
+          . Using the *3mm Allen Wrench*, tighten down all six *M6 x 10mm Grub
+          Screw* part(s) on the *Universal Axis Motor Side*. This should fix the
+          *8mm Smooth Rod* part(s) in place.
 
           . Slide the *Universal Axis Z Carriage Side* onto the *8mm Smooth Rod*
           part(s) with the *Carriage Closure* facing the *Universal Axis Motor
@@ -9162,13 +9165,14 @@ components:
           *Universal Axis Idler Side*.
 
           . Thread the end of the *GT2 Belt* through the *Universal Axis Motor
-          Side*, around the pulley, and back through the *module*.
+          Side*, around the pulley, and back through the module.
 
           . Thread the end of the *GT2 Belt* through the open slot in the
           *Universal Axis Z Carriage Side*.
 
           . Thread the end of the *GT2 Belt* through the *Universal Axis Idler
-          Side*, around the bearings, and back through the *module*.
+          Side*, around the bearings, and back through the
+          *{parts.universal-axis-idler-side-assembly.quantityUnits}}.
 
           . Thread the end of the *GT2 Belt* back through the first slot of the
           *Universal Axis Z Carriage Side*. Make sure that the *GT2 Belt* goes
@@ -9179,8 +9183,8 @@ components:
           will be coming out of the first slot of the *Universal Axis Z Carriage
           Side*.
 
-          . Take a *Belt Pinch* part and, while pulling the *GT2 Belt* tight by
-          hand, slide the part over both sections of *GT2 Belt*.
+          . Take a *Belt Pinch* part and, while gently pulling the *GT2 Belt*
+          tight by hand, slide the part over both sections of *GT2 Belt*.
 
           . Place a *M6 Nut* in the nut catcher of the *Belt Pinch*.
 
@@ -9188,8 +9192,8 @@ components:
           The part(s) may need to be wiggled while being pushed in.
 
           . Gently tighten down the *M6 x 20mm Screw* through the *M6 Nut* with
-          a *5mm Allen Wrench*. The final belt tension will be adjusted in a
-          later step.
+          a *5mm Allen Wrench*. Leave the *M6 x 20mm Screw* a little loose; the
+          final belt tension will be adjusted in a later step.
 
           . The *Universal Z Axis Module* is complete.
   universal-axis-z-carriage:

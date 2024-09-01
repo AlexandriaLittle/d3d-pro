@@ -1594,7 +1594,7 @@ endif::[]
 
 *Instructions*
 
-. Using the *1.5mm Allen Wrench*, loosen the screw on the *GT2 20 Tooth Pulley* and then slide the *GT2 20 Tooth Pulley* onto the shaft of the *Nema 17 Stepper Motor* with the thicker end of the *GT2 20 Tooth Pulley* going on first.
+. Using the *1.5mm Allen Wrench*, loosen the screw(s) on the *GT2 20 Tooth Pulley* and then slide the *GT2 20 Tooth Pulley* onto the shaft of the *Nema 17 Stepper Motor* with the thicker end of the *GT2 20 Tooth Pulley* going on first.
 . Gently tighten down the screw on the *GT2 20 Tooth Pulley* so it stays in place on the *Nema 17 Stepper Motor* shaft.
 . Insert the shaft of the *Nema 17 Stepper Motor* into the center hole of the *Universal Axis Motor Side* until the face of the *Nema 17 Stepper Motor* is flush with the face of the *Universal Axis Motor Side*.
 . Look through the slot on the side of the *Universal Axis Motor Side* to see if the teeth of the *GT2 20 Tooth Pulley* align with the slot. Repeat the above steps to make adjustments to the position of the *GT2 20 Tooth Pulley* until it is properly aligned with the slot.
@@ -3089,6 +3089,7 @@ endif::[]
 
 . Slide two *Linear Bearing* part(s) onto the *8mm Smooth Rod*.
 . Use the *Painters Tape* to evenly cover the *Linear Bearing* part(s) with around five layers of *Painters Tape*. Do this by applying the tape to both *Linear Bearing* part(s) and then rotating the part(s) on the *8mm Smooth Rod* until enough *Painters Tape* is applied.
+* Cut off any excess *Painters Tape* from the ends of the *Linear Bearing* part(s) using *Scissors*.
 . Remove the *Linear Bearing* part(s) from the *8mm Smooth Rod*.
 . Remove some *Painters Tape* from the *Linear Bearing* part(s) using *Scissors* until the part(s) can fit into the holes of the *Universal Axis Z Carriage Side*.
 . Test the fit of the *Linear Bearing* part(s) by covering the open end of the *Universal Axis Z Carriage Side* with the *Carriage Closure* and then shaking the part. If the *Linear Bearing* part(s) move around inside of the *Carriage Closure* then the fit is too loose and more *Painters Tape* must be added to the *Linear Bearing* part(s).
@@ -3145,24 +3146,24 @@ endif::[]
 
 *Instructions*
 
-. Orient the *Universal Axis Motor Side* such that the section of the stepper motor that hangs off of the *Universal Axis Motor Side* is pointing left.
+. Orient the *Universal Axis Motor Side* such that the section of the stepper motor that hangs off of the *Universal Axis Motor Side* is pointing _left_.
 . Insert two *8mm Smooth Rod* part(s) into the right side of the *Universal Axis Motor Side* until the part(s) are flush with the left face of the plastic part.
-. Tighten down all six *M6 x 10mm Grub Screw* part(s) on the *Universal Axis Motor Side*. This should fix the *8mm Smooth Rod* part(s) in place.
+. Using the *3mm Allen Wrench*, tighten down all six *M6 x 10mm Grub Screw* part(s) on the *Universal Axis Motor Side*. This should fix the *8mm Smooth Rod* part(s) in place.
 . Slide the *Universal Axis Z Carriage Side* onto the *8mm Smooth Rod* part(s) with the *Carriage Closure* facing the *Universal Axis Motor Side*.
 . Slide the *Universal Axis Idler Side* onto the *8mm Smooth Rod* part(s) such that the larger opening on the *Universal Axis Idler Side* faces the *Universal Axis Z Carriage Side*.
 . Gently tighten down the *M6 x 10mm Grub Screw* part(s) on the *Universal Axis Idler Side* to hold the *Universal Axis Idler Side* in place. The final position of the *Universal Axis Idler Side* will be adjusted in a later step.
 . Take the *GT2 Belt* and make a loop on one end with the teeth of the belt locking into one another.
 . Insert the loop into the side of the *Belt Peg* and use a *3mm Allen Wrench* to screw a *M6 x 10mm Grub Screw* part(s) into the loop.
 . Thread the other end of the *GT2 Belt* through one of the openings on the *Universal Axis Z Carriage Side* that is closer to the *Universal Axis Idler Side*.
-. Thread the end of the *GT2 Belt* through the *Universal Axis Motor Side*, around the pulley, and back through the *module*.
+. Thread the end of the *GT2 Belt* through the *Universal Axis Motor Side*, around the pulley, and back through the module.
 . Thread the end of the *GT2 Belt* through the open slot in the *Universal Axis Z Carriage Side*.
-. Thread the end of the *GT2 Belt* through the *Universal Axis Idler Side*, around the bearings, and back through the *module*.
+. Thread the end of the *GT2 Belt* through the *Universal Axis Idler Side*, around the bearings, and back through the *{parts.universal-axis-idler-side-assembly.quantityUnits}}.
 . Thread the end of the *GT2 Belt* back through the first slot of the *Universal Axis Z Carriage Side*. Make sure that the *GT2 Belt* goes around the *Belt Peg* part in such a way that the part is positioned on the inside of the *GT2 Belt*.
 . Find the section of *GT2 Belt* that overlaps itself. This section will be coming out of the first slot of the *Universal Axis Z Carriage Side*.
-. Take a *Belt Pinch* part and, while pulling the *GT2 Belt* tight by hand, slide the part over both sections of *GT2 Belt*.
+. Take a *Belt Pinch* part and, while gently pulling the *GT2 Belt* tight by hand, slide the part over both sections of *GT2 Belt*.
 . Place a *M6 Nut* in the nut catcher of the *Belt Pinch*.
 . Push a *M6 x 20mm Screw* through the other side of the *Belt Pinch*. The part(s) may need to be wiggled while being pushed in.
-. Gently tighten down the *M6 x 20mm Screw* through the *M6 Nut* with a *5mm Allen Wrench*. The final belt tension will be adjusted in a later step.
+. Gently tighten down the *M6 x 20mm Screw* through the *M6 Nut* with a *5mm Allen Wrench*. Leave the *M6 x 20mm Screw* a little loose; the final belt tension will be adjusted in a later step.
 . The *Universal Z Axis Module* is complete.
 
 
