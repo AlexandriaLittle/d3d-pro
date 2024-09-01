@@ -22,6 +22,7 @@
   - 5mm-allen-wrench
 
   details: |
+    . Gather all parts for the {{description}}.
     +
     image:IMG_3619.jpg[,300,300,pdfwidth=40%]
     . Take the two *{{parts.flanged-bearing.description}}* {{parts.flanged-bearing.quantityUnits}} and orient them so that they are touching with the flanges on opposite sides.

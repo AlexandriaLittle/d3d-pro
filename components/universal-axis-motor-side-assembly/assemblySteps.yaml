@@ -23,6 +23,7 @@
   - 3mm-allen-wrench
 
   details: |
+    . Gather all parts for the {{description}}.
     +
     image:IMG_3593.jpg[,300,300,pdfwidth=40%]
     . Using the *{{tools.1_5mm-allen-wrench.description}}*, loosen the screw(s) on the *{{parts.pulley.description}}* and then slide the *{{parts.pulley.description}}* onto the shaft of the *{{parts.stepper-motor.description}}* with the thicker end of the *{{parts.pulley.description}}* going on first.
