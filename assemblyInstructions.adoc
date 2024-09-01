@@ -1,10 +1,11 @@
 = D3D Pro 3D Printer Assembly Instructions
-:docinfo: shared //ANL
 Alexandria Little
 :revnumber: v23.12
 :revdate: 9/1/2024
 :sectnums:
 :toc:
+:docinfo: shared //ANL
+:docinfodir: dist/
 
 // github specific things
 ifdef::env-github[]
