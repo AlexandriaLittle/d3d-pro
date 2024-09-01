@@ -31,5 +31,5 @@ echo "generating dist/assemblyInstructions.html..."
 podman run --rm --volume $PWD:/src -w "/src" docker.io/asciidoctor/docker-asciidoctor asciidoctor dist/assemblyInstructions.adoc -o dist/index.html
 
 # generate dist/assemblyInstructions.pdf
-echo "generating dist/assemblyInstructions.pdf..."
-podman run --rm --volume $PWD:/src -w "/src" docker.io/asciidoctor/docker-asciidoctor asciidoctor dist/assemblyInstructions.adoc -o dist/assemblyInstructions.pdf -r asciidoctor-pdf -b pdf -a pdf-theme=theme.yml
+#echo "generating dist/assemblyInstructions.pdf..."
+#podman run --rm --volume $PWD:/src -w "/src" docker.io/asciidoctor/docker-asciidoctor asciidoctor dist/assemblyInstructions.adoc -o dist/assemblyInstructions.pdf -r asciidoctor-pdf -b pdf -a pdf-theme=theme.yml
