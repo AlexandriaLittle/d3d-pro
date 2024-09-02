@@ -23,6 +23,479 @@ ifndef::env-github[]
 endif::[]
 
 
+== Assemble Universal Controller Assembly
+
+// tools
+
+=== Tools
+|===
+|Name |Description |Notes
+
+
+
+|3mm Flat Head Screwdriver
+|3mm Flat Head Screwdriver
+|
+
+
+
+|Phillips Head #2 Screwdriver
+|#2 Phillips Head Screwdriver
+|
+
+
+
+|Hobby Knife
+|Hobby Knife
+|
+
+
+
+|Scissors
+|Scissors
+|
+
+
+
+|Helping Hands
+|Helping Hands Clamp Stand
+|
+
+
+
+|Soldering Iron
+|Soldering Iron
+|
+
+
+
+|Ferrule Crimper
+|Wire Ferrule Crimper
+|
+
+
+
+|MicroSD to SD Card Adapter
+|MicroSD Card to SD Card Adapter
+|
+
+
+
+|PC
+|Personal Computer (PC)
+|
+
+|===
+
+
+// materials
+
+=== Materials
+|===
+|Quantity |ID |Name |Description |Notes
+
+
+
+|1 part
+|ramps-board
+|RAMPS 1.4 Board
+|RAMPS 1.4 Board v1.0.0
+|
+
+
+
+|1 as needed
+|electrical-tape
+|Electrical Tape
+|Electrical Tape v1.0.0
+|
+
+
+
+|1 part
+|16gb-microsd-card
+|16GB MicroSD Card
+|16GB MicroSD Card v1.0.0
+|
+
+
+
+|1 part
+|24v-power-supply
+|24v Power Supply Module
+|24V Industrial Power Supply Module v1.0.0
+|
+
+
+
+|1 part
+|arduino-mega-2560
+|Arduino Mega 2560
+|Arduino Mega 2560 v1.0.0
+|
+
+
+
+|1 part
+|electrical-cord
+|Three Prong Electrical Cord
+|Electrical Cord (NEMA 5-15P) v1.0.0
+|
+
+
+
+|1 part
+|electrical-plug
+|Two Prong Electrical Plug
+|Electrical Plug (NEMA 1-15) v1.0.0
+|
+
+
+
+|1 applications
+|electrical-solder
+|Electrical Solder
+|Rosin Core Lead Free Electrical Solder v1.0.0
+|
+
+
+
+|20 part
+|ferrule
+|Ferrule
+|Wire Ferrule v1.0.0
+|
+
+
+
+|1 part
+|gfci
+|GFCI
+|Ground Fault Connection Interrupter (GFCI) v1.0.0
+|
+
+
+
+|1 part
+|heat-shrink-tubing
+|Heat Shrink Tubing
+|Heat Shrink Tubing v1.0.0
+|
+
+
+
+|1 part
+|lever-wire-nut
+|Lever Wire Nut
+|2 Connection Lever Wire Nut v1.0.0
+|
+
+
+
+|1 part
+|microsd-to-sd-card-adapter
+|MicroSD to SD Card Adapter
+|MicroSD Card to SD Card Adapter v1.0.0
+|
+
+
+
+|1 part
+|raspberry-pi
+|Raspberry Pi Computer
+|Raspberry Pi Model 4B v1.0.0
+|
+
+
+
+|1 part
+|reprap-controller
+|RepRap Discount Full Graphic Smart Controller
+|RepRap Discount Full Graphic Smart Controller v1.0.0
+|
+
+
+
+|1 part
+|solid-state-relay
+|Solid State Relay (SSR)
+|40A Solid State Relay (SSR-40DA) v1.0.0
+|
+
+
+
+|1 part
+|split-wire-loom
+|Split Wire Loom
+|1/2 Inch Flame Retardant Split Wire Loom v1.0.0
+|
+
+
+
+|1 part
+|case
+|Universal Controller Case
+|Universal Controller Case v1.0.0
+|
+
+
+
+|20 part(s)
+|zip-tie-large
+|Large Zip Tie
+|8 Inch Zip Tie v1.0.0
+|
+
+
+
+|20 part(s)
+|zip-tie-small
+|Small Zip Tie
+|4 Inch Zip Tie v1.0.0
+|
+
+
+
+|5 part(s)
+|a4988-stepper-motor-driver
+|A4988 Stepper Motor Driver
+|A4988 Stepper Motor Driver v1.0.0
+|
+
+
+
+|15 part(s)
+|jumper
+|Jumper Cap
+|2.54mm Jumper Cap v1.0.0
+|
+
+
+
+|2 part(s)
+|10-pin-idc-connector
+|10 Pin IDC Conector
+|10 Pin IDC Connector Cable v1.0.0
+|
+
+
+
+|1 part
+|ramps-1_4-smart-adapter
+|RAMPS 1.4 Smart Adapter
+|RAMPS 1.4 Smart Adapter v1.0.0
+|
+
+
+
+|1 image
+|marlin-firmware
+|Marlin Firmware
+|Marlin Firmware v1.0.0
+|
+
+
+
+|1 image
+|octoprint-raspberry-pi-software-image
+|Octoprint Raspberry Pi Software Image
+|Octoprint Raspberry Pi Software Image v1.0.0
+|
+
+|===
+
+
+// Precautions
+
+=== Precautions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* *Soldering Iron:* A Soldering Iron gets very very hot and can burn you! Follow all of the manufacturer recommended safety precautions when using a Soldering Iron!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* *Electrical Solder:* Rosin Core Lead Free Electrical Solder can contain toxic chemicals! Always work in a well ventialted area and use personal protection equipment!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Procedure
+=== Procedure
+
+// summary
+
+==== Clean 3D Printed Parts
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* Hobby Knife
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* 
+//
+//
+
+// details
+
+*Instructions*
+
+. Use the *Hobby Knife* to clean any extra plastic off of the 3D printed components.
+
+
+
+
+
+
 == Assemble 12.7mm x 450mm Rebar Stake
 
 // tools
@@ -4418,479 +4891,6 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 
 
 
-== Assemble Universal Controller Assembly
-
-// tools
-
-=== Tools
-|===
-|Name |Description |Notes
-
-
-
-|3mm Flat Head Screwdriver
-|3mm Flat Head Screwdriver
-|
-
-
-
-|Phillips Head #2 Screwdriver
-|#2 Phillips Head Screwdriver
-|
-
-
-
-|Hobby Knife
-|Hobby Knife
-|
-
-
-
-|Scissors
-|Scissors
-|
-
-
-
-|Helping Hands
-|Helping Hands Clamp Stand
-|
-
-
-
-|Soldering Iron
-|Soldering Iron
-|
-
-
-
-|Ferrule Crimper
-|Wire Ferrule Crimper
-|
-
-
-
-|MicroSD to SD Card Adapter
-|MicroSD Card to SD Card Adapter
-|
-
-
-
-|PC
-|Personal Computer (PC)
-|
-
-|===
-
-
-// materials
-
-=== Materials
-|===
-|Quantity |ID |Name |Description |Notes
-
-
-
-|1 part
-|ramps-board
-|RAMPS 1.4 Board
-|RAMPS 1.4 Board v1.0.0
-|
-
-
-
-|1 as needed
-|electrical-tape
-|Electrical Tape
-|Electrical Tape v1.0.0
-|
-
-
-
-|1 part
-|16gb-microsd-card
-|16GB MicroSD Card
-|16GB MicroSD Card v1.0.0
-|
-
-
-
-|1 part
-|24v-power-supply
-|24v Power Supply Module
-|24V Industrial Power Supply Module v1.0.0
-|
-
-
-
-|1 part
-|arduino-mega-2560
-|Arduino Mega 2560
-|Arduino Mega 2560 v1.0.0
-|
-
-
-
-|1 part
-|electrical-cord
-|Three Prong Electrical Cord
-|Electrical Cord (NEMA 5-15P) v1.0.0
-|
-
-
-
-|1 part
-|electrical-plug
-|Two Prong Electrical Plug
-|Electrical Plug (NEMA 1-15) v1.0.0
-|
-
-
-
-|1 applications
-|electrical-solder
-|Electrical Solder
-|Rosin Core Lead Free Electrical Solder v1.0.0
-|
-
-
-
-|20 part
-|ferrule
-|Ferrule
-|Wire Ferrule v1.0.0
-|
-
-
-
-|1 part
-|gfci
-|GFCI
-|Ground Fault Connection Interrupter (GFCI) v1.0.0
-|
-
-
-
-|1 part
-|heat-shrink-tubing
-|Heat Shrink Tubing
-|Heat Shrink Tubing v1.0.0
-|
-
-
-
-|1 part
-|lever-wire-nut
-|Lever Wire Nut
-|2 Connection Lever Wire Nut v1.0.0
-|
-
-
-
-|1 part
-|microsd-to-sd-card-adapter
-|MicroSD to SD Card Adapter
-|MicroSD Card to SD Card Adapter v1.0.0
-|
-
-
-
-|1 part
-|raspberry-pi
-|Raspberry Pi Computer
-|Raspberry Pi Model 4B v1.0.0
-|
-
-
-
-|1 part
-|reprap-controller
-|RepRap Discount Full Graphic Smart Controller
-|RepRap Discount Full Graphic Smart Controller v1.0.0
-|
-
-
-
-|1 part
-|solid-state-relay
-|Solid State Relay (SSR)
-|40A Solid State Relay (SSR-40DA) v1.0.0
-|
-
-
-
-|1 part
-|split-wire-loom
-|Split Wire Loom
-|1/2 Inch Flame Retardant Split Wire Loom v1.0.0
-|
-
-
-
-|1 part
-|case
-|Universal Controller Case
-|Universal Controller Case v1.0.0
-|
-
-
-
-|20 part(s)
-|zip-tie-large
-|Large Zip Tie
-|8 Inch Zip Tie v1.0.0
-|
-
-
-
-|20 part(s)
-|zip-tie-small
-|Small Zip Tie
-|4 Inch Zip Tie v1.0.0
-|
-
-
-
-|5 part(s)
-|a4988-stepper-motor-driver
-|A4988 Stepper Motor Driver
-|A4988 Stepper Motor Driver v1.0.0
-|
-
-
-
-|15 part(s)
-|jumper
-|Jumper Cap
-|2.54mm Jumper Cap v1.0.0
-|
-
-
-
-|2 part(s)
-|10-pin-idc-connector
-|10 Pin IDC Conector
-|10 Pin IDC Connector Cable v1.0.0
-|
-
-
-
-|1 part
-|ramps-1_4-smart-adapter
-|RAMPS 1.4 Smart Adapter
-|RAMPS 1.4 Smart Adapter v1.0.0
-|
-
-
-
-|1 image
-|marlin-firmware
-|Marlin Firmware
-|Marlin Firmware v1.0.0
-|
-
-
-
-|1 image
-|octoprint-raspberry-pi-software-image
-|Octoprint Raspberry Pi Software Image
-|Octoprint Raspberry Pi Software Image v1.0.0
-|
-
-|===
-
-
-// Precautions
-
-=== Precautions
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* *Soldering Iron:* A Soldering Iron gets very very hot and can burn you! Follow all of the manufacturer recommended safety precautions when using a Soldering Iron!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* *Electrical Solder:* Rosin Core Lead Free Electrical Solder can contain toxic chemicals! Always work in a well ventialted area and use personal protection equipment!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Procedure
-=== Procedure
-
-// summary
-
-==== Clean 3D Printed Parts
-
-
-// requiredTools
-//
-//*Required Tools*
-//
-//* Hobby Knife
-//
-//
-
-// requiredParts
-//
-//*Required Parts*
-//
-//* 
-//
-//
-
-// details
-
-*Instructions*
-
-. Use the *Hobby Knife* to clean any extra plastic off of the 3D printed components.
-
-
-
-
-
-
 == Assemble D3D Pro 3D Printer
 
 // tools
@@ -4901,14 +4901,6 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 === Materials
 |===
 |Quantity |ID |Name |Description |Notes
-
-
-
-|1 module
-|universal-controller
-|Universal Controller
-|Universal Controller Assembly v1.0.0
-|
 
 
 
@@ -4964,6 +4956,14 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 |universal-frame
 |Universal Frame
 |Universal Frame Module v1.0.0
+|
+
+
+
+|1 module
+|universal-controller
+|Universal Controller
+|Universal Controller Assembly v1.0.0
 |
 
 |===
