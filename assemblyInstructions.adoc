@@ -3149,7 +3149,7 @@ image:IMG_3630.jpeg[,300,300,pdfwidth=30%]
 
 *Instructions*
 
-Gather all parts for the Universal Z Axis Module.
+. Gather all parts for the Universal Z Axis Module.
 +
 image:IMG_3631.jpeg[,300,300,pdfwidth=30%]
 . Slide two *Linear Bearing* part(s) onto the *8mm Smooth Rod*.
