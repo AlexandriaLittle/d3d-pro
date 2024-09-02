@@ -1,7 +1,7 @@
 = D3D Pro 3D Printer Assembly Instructions
 Alexandria Little
 :revnumber: v23.12
-:revdate: 9/1/2024
+:revdate: 9/2/2024
 :sectnums:
 :toc:
 :docinfo: shared
@@ -1596,59 +1596,59 @@ endif::[]
 
 . Gather all parts for the Universal Axis Motor Side Module.
 +
-image:IMG_3593.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3593.jpeg[,300,300,pdfwidth=30%]
 . Using the *1.5mm Allen Wrench*, loosen the screw(s) on the *GT2 20 Tooth Pulley* and then slide the *GT2 20 Tooth Pulley* onto the shaft of the *Nema 17 Stepper Motor* with the thicker end of the *GT2 20 Tooth Pulley* going on first.
 +
-image:IMG_3594.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3594.jpeg[,300,300,pdfwidth=30%]
 . Gently tighten down the screw on the *GT2 20 Tooth Pulley* so it stays in place on the *Nema 17 Stepper Motor* shaft.
 +
-image:IMG_3595.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3596.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3595.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3596.jpeg[,300,300,pdfwidth=30%]
 . Insert the shaft of the *Nema 17 Stepper Motor* into the center hole of the *Universal Axis Motor Side* until the face of the *Nema 17 Stepper Motor* is flush with the face of the *Universal Axis Motor Side*.
 +
-image:IMG_3598.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3599.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3598.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3599.jpeg[,300,300,pdfwidth=30%]
 . Look through the slot on the side of the *Universal Axis Motor Side* to see if the teeth of the *GT2 20 Tooth Pulley* align with the slot. Repeat the above steps to make adjustments to the position of the *GT2 20 Tooth Pulley* until it is properly aligned with the slot.
 +
-image:IMG_3600.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3601.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3602.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3600.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3601.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3602.jpeg[,300,300,pdfwidth=30%]
 . Once the *GT2 20 Tooth Pulley* is aligned with the slot, remove the *Nema 17 Stepper Motor* from the *Universal Axis Motor Side*.
 . Firmly tighten down the screw on the *GT2 20 Tooth Pulley* using a *1.5mm Allen Wrench.
 +
-image:IMG_3597.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3597.jpeg[,300,300,pdfwidth=30%]
 . Insert two *M6 Nut* part(s) into the nut catchers on the face of the *Universal Axis Motor Side*.
 +
-image:IMG_3603.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3603.jpeg[,300,300,pdfwidth=30%]
 . Insert the shaft of the *Nema 17 Stepper Motor* into the center hole of the *Universal Axis Motor Side* and over the top of the *M6 Nut* part(s).
 +
-image:IMG_3604.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3604.jpeg[,300,300,pdfwidth=30%]
 . Turn the *Nema 17 Stepper Motor* in the hole of the *Universal Axis Motor Side* until the mounting holes in the face of the *Nema 17 Stepper Motor* align with the holes in the *Universal Axis Motor Side*.
 +
-image:IMG_3605.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3606.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3605.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3606.jpeg[,300,300,pdfwidth=30%]
 . While holding the current *Universal Axis Motor Side Module* in one hand, turn the *Universal Axis Motor Side Module* over so that the other side of the *Universal Axis Motor Side* part is accessible.
 +
-image:IMG_3607.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3607.jpeg[,300,300,pdfwidth=30%]
 . Insert three *M3 x 25mm Screw* part(s) into the holes that are aligned with the mounting holes on the *Nema 17 Stepper Motor*. 
 +
-image:IMG_3608.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3608.jpeg[,300,300,pdfwidth=30%]
 . Tighten down the *M3 x 25mm Screw* part(s) using a *2.5mm Allen Wrench*. The *M6 Nut* part(s) should now be secure between the *Nema 17 Stepper Motor* and *Universal Axis Motor Side*.
 +
-image:IMG_3609.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3610.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3611.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3609.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3610.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3611.jpeg[,300,300,pdfwidth=30%]
 . Flip the *Universal Axis Motor Side Module* back over so that the *Nema 17 Stepper Motor* is on top.
 +
-image:IMG_3612.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3612.jpeg[,300,300,pdfwidth=30%]
 . Gently screw six *M6 x 10mm Grub Screw* part(s) into the holes on the *Universal Axis Motor Side* that run along the sides of the *Nema 17 Stepper Motor*. Only screw the *M6 x 10mm Grub Screw* part(s) in enough to hold them in place as other parts will be inserted into the holes below in a future step.
 +
-image:IMG_3613.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3614.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3615.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3616.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3617.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3618.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3613.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3614.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3615.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3616.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3617.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3618.jpeg[,300,300,pdfwidth=30%]
 . The *Universal Axis Motor Side Module* is now complete.
 
 
@@ -1850,32 +1850,32 @@ image:IMG_3618.jpeg[,300,300,pdfwidth=40%]
 
 . Gather all parts for the Universal Axis Idler Side Module.
 +
-image:IMG_3619.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3619.jpeg[,300,300,pdfwidth=30%]
 . Take the two *Flanged Bearing* part(s) and orient them so that they are touching with the flanges on opposite sides.
 +
-image:IMG_3620.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3620.jpeg[,300,300,pdfwidth=30%]
 . Insert the *Flanged Bearing* part(s) into the slot of the *Universal Axis Idler Side* until they align with the hole in the center of the *Universal Axis Idler Side*.
 +
-image:IMG_3621.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3622.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3623.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3621.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3622.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3623.jpeg[,300,300,pdfwidth=30%]
 . Insert the *M6 Nut* into the nut holder above the hole that is aligned with the *Flanged Bearing* part(s).
 +
-image:IMG_3624.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3624.jpeg[,300,300,pdfwidth=30%]
 . Insert the *M6 x 20mm Screw* through the other side of the hole that aligns with the *Flanged Bearing* part(s).
 +
-image:IMG_3625.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3626.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3625.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3626.jpeg[,300,300,pdfwidth=30%]
 . Use the *5mm Allen Wrench* to gently tighten the *M6 x 20mm Screw*.
 +
-image:IMG_3627.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3627.jpeg[,300,300,pdfwidth=30%]
 . Using the *3mm Allen Wrench*, screw two *M6 x 10mm Grub Screw* into the holes on the face of the *Universal Axis Idler Side*. Only screw the *M6 x 10mm Grub Screw* part(s) in enough to hold them in place as other parts will be inserted into the holes below in a future step.
 +
-image:IMG_3628.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3629.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3628.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3629.jpeg[,300,300,pdfwidth=30%]
 . The *Universal Axis Idler Side Module* is now complete.
 +
-image:IMG_3630.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3630.jpeg[,300,300,pdfwidth=30%]
 
 
 
@@ -3151,41 +3151,41 @@ image:IMG_3630.jpeg[,300,300,pdfwidth=40%]
 
 Gather all parts for the Universal Z Axis Module.
 +
-image:IMG_3631.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3631.jpeg[,300,300,pdfwidth=30%]
 . Slide two *Linear Bearing* part(s) onto the *8mm Smooth Rod*.
 +
-image:IMG_3633.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3633.jpeg[,300,300,pdfwidth=30%]
 . Use the *Painters Tape* to evenly cover the *Linear Bearing* part(s) with around five layers of *Painters Tape*. Do this by applying the tape to both *Linear Bearing* part(s) and then rotating the part(s) on the *8mm Smooth Rod* until enough *Painters Tape* is applied.
 +
-image:IMG_3634.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3635.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3634.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3635.jpeg[,300,300,pdfwidth=30%]
 . Remove the *Linear Bearing* part(s) from the *8mm Smooth Rod*.
 . Cut off any excess *Painters Tape* from the ends of the *Linear Bearing* part(s) using *Scissors*.
 +
-image:IMG_3636.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3637.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3636.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3637.jpeg[,300,300,pdfwidth=30%]
 . Remove some *Painters Tape* from the *Linear Bearing* part(s) using *Scissors* until the part(s) can fit into the holes of the *Universal Axis Z Carriage Side*.
 +
-image:IMG_3639.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3638.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3639.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3638.jpeg[,300,300,pdfwidth=30%]
 . Test the fit of the *Linear Bearing* part(s) by covering the open end of the *Universal Axis Z Carriage Side* with the *Carriage Closure* and then shaking the part. If the *Linear Bearing* part(s) move around inside of the *Carriage Closure* then the fit is too loose and more *Painters Tape* must be added to the *Linear Bearing* part(s).
 +
-image:IMG_3643.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3643.jpeg[,300,300,pdfwidth=30%]
 . Repeat the above step until the *Linear Bearing* part(s) fit into the *Universal Axis Z Carriage Side* without moving during the shake test.
 +
-image:IMG_3641.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3641.jpeg[,300,300,pdfwidth=30%]
 . Repeat all of the above steps for the other two *Linear Bearing* part(s).
 +
-image:IMG_3642.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3642.jpeg[,300,300,pdfwidth=30%]
 . Orient the *Carriage Closure* over the opening of the *Universal Axis Z Carriage Side* so that the three mounting holes on the *Carriage Closure* line up with the mounting holes on the *Universal Axis Z Carriage Side*. The flat side of the *Carriage Closure* should be facing away from the *Universal Axis Z Carriage Side* and the side with the indents for the *Linear Bearing* part(s) should be facing toward the opening of the *Universal Axis Z Carriage Side*.
 +
-image:IMG_3644.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3645.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3646.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3644.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3645.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3646.jpeg[,300,300,pdfwidth=30%]
 . Fix the *Carriage Closure* in place by using a *5mm Allen Wrench* to screw a *M6 x 20mm Screw* into the center hole of the *Carriage Closure*.
 +
-image:IMG_3648.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3649.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3648.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3649.jpeg[,300,300,pdfwidth=30%]
 
 
 
@@ -3238,73 +3238,73 @@ image:IMG_3649.jpeg[,300,300,pdfwidth=40%]
 
 . Orient the *Universal Axis Motor Side* such that the section of the stepper motor that hangs off of the *Universal Axis Motor Side* is pointing _left_.
 +
-image:IMG_3669.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3669.jpeg[,300,300,pdfwidth=30%]
 . Insert two *8mm Smooth Rod* part(s) into the right side of the *Universal Axis Motor Side* until the part(s) are flush with the left face of the plastic part.
 +
-image:IMG_3670.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3670.jpeg[,300,300,pdfwidth=30%]
 . Using the *3mm Allen Wrench*, tighten down all six *M6 x 10mm Grub Screw* part(s) on the *Universal Axis Motor Side*. This should fix the *8mm Smooth Rod* part(s) in place.
 +
-image:IMG_3671.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3671.jpeg[,300,300,pdfwidth=30%]
 . Slide the *Universal Axis Z Carriage Side* onto the *8mm Smooth Rod* part(s) with the *Carriage Closure* facing the *Universal Axis Motor Side*.
 +
-image:IMG_3672.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3672.jpeg[,300,300,pdfwidth=30%]
 . Slide the *Universal Axis Idler Side* onto the *8mm Smooth Rod* part(s) such that the larger opening on the *Universal Axis Idler Side* faces the *Universal Axis Z Carriage Side*.
 +
-image:IMG_3657.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3658.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3657.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3658.jpeg[,300,300,pdfwidth=30%]
 . Gently tighten down the *M6 x 10mm Grub Screw* part(s) on the *Universal Axis Idler Side* to hold the *Universal Axis Idler Side* in place. The final position of the *Universal Axis Idler Side* will be adjusted in a later step.
 +
-image:IMG_3659.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3660.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3659.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3660.jpeg[,300,300,pdfwidth=30%]
 . Take the *GT2 Belt* and make a loop on one end with the teeth of the belt locking into one another.
 +
-image:IMG_3661.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3661.jpeg[,300,300,pdfwidth=30%]
 . Insert the loop into the side of the *Belt Peg* and use a *3mm Allen Wrench* to screw a *M6 x 10mm Grub Screw* part(s) into the loop.
 +
-image:IMG_3662.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3663.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3664.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3665.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3662.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3663.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3664.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3665.jpeg[,300,300,pdfwidth=30%]
 . Thread the other end of the *GT2 Belt* through one of the openings on the *Universal Axis Z Carriage Side* that is closer to the *Universal Axis Idler Side*.
 +
-image:IMG_3666.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3667.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3668.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3666.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3667.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3668.jpeg[,300,300,pdfwidth=30%]
 . Thread the end of the *GT2 Belt* through the *Universal Axis Motor Side*, around the pulley, and back through the module.
 +
-image:IMG_3673.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3674.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3675.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3673.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3674.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3675.jpeg[,300,300,pdfwidth=30%]
 . Thread the end of the *GT2 Belt* through the open slot in the *Universal Axis Z Carriage Side*.
 +
-image:IMG_3676.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3677.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3676.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3677.jpeg[,300,300,pdfwidth=30%]
 . Thread the end of the *GT2 Belt* through the *Universal Axis Idler Side*, around the bearings, and back through the *{parts.universal-axis-idler-side-assembly.quantityUnits}}.
 +
-image:IMG_3678.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3679.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3680.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3681.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3678.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3679.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3680.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3681.jpeg[,300,300,pdfwidth=30%]
 . Thread the end of the *GT2 Belt* back through the first slot of the *Universal Axis Z Carriage Side*. Make sure that the *GT2 Belt* goes around the *Belt Peg* part in such a way that the part is positioned on the inside of the *GT2 Belt*.
 +
-image:IMG_3682.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3683.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3682.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3683.jpeg[,300,300,pdfwidth=30%]
 . Find the section of *GT2 Belt* that overlaps itself. This section will be coming out of the first slot of the *Universal Axis Z Carriage Side*.
 . Take a *Belt Pinch* part and, while gently pulling the *GT2 Belt* tight by hand, slide the part over both sections of *GT2 Belt*.
 +
-image:IMG_3684.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3685.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3686.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3684.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3685.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3686.jpeg[,300,300,pdfwidth=30%]
 . Place a *M6 Nut* in the nut catcher of the *Belt Pinch*.
 +
-image:IMG_3687.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3687.jpeg[,300,300,pdfwidth=30%]
 . Push a *M6 x 20mm Screw* through the other side of the *Belt Pinch*. The part(s) may need to be wiggled while being pushed in.
 +
-image:IMG_3688.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3688.jpeg[,300,300,pdfwidth=30%]
 . Gently tighten down the *M6 x 20mm Screw* through the *M6 Nut* with a *5mm Allen Wrench*. Leave the *M6 x 20mm Screw* a little loose; the final belt tension will be adjusted in a later step.
 +
-image:IMG_3689.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3690.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3689.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 . The *Universal Z Axis Module* is complete.
 
 
@@ -3596,37 +3596,37 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=40%]
 
 . Unpack required parts from bag.
 + 
-image:IMG_3425.jpg[,300,300,pdfwidth=40%]
+image:IMG_3425.jpg[,300,300,pdfwidth=30%]
 . Using the *2mm Allen Wrench*, lightly screw the *M3 x 10mm Cap Screw* parts into the two threaded holes on the side of the *Volcano Style Heater Block*.
 + 
-image:IMG_3428.jpg[,300,300,pdfwidth=40%]
-image:IMG_3429.jpg[,300,300,pdfwidth=40%]
+image:IMG_3428.jpg[,300,300,pdfwidth=30%]
+image:IMG_3429.jpg[,300,300,pdfwidth=30%]
 . Using the *1.5mm Allen Wrench*, lightly screw the *M3 x 4mm Grub Screw* into the single threaded hole on the side of the *Volcano Style Heater Block*. Be sure to leave enough room for the *Thermistor Cartridge* to be inserted later.
 +
-image:IMG_3430.jpg[,300,300,pdfwidth=40%]
-image:IMG_3431.jpg[,300,300,pdfwidth=40%]
+image:IMG_3430.jpg[,300,300,pdfwidth=30%]
+image:IMG_3431.jpg[,300,300,pdfwidth=30%]
 . Insert the *Heater Cartridge* into the non-threaded hole in the *Volcano Style Heater Block* with the wires coming out of the end with an indent. Make sure the *Heater Cartridge* does not extend past the bottom of the *Volcano Style Heater Block*.
 +
-image:IMG_3432.jpg[,300,300,pdfwidth=40%]
-image:IMG_3433.jpg[,300,300,pdfwidth=40%]
+image:IMG_3432.jpg[,300,300,pdfwidth=30%]
+image:IMG_3433.jpg[,300,300,pdfwidth=30%]
 . Insert the *Thermistor Cartridge* into the smaller hole on the *Volcano Style Heater Block* with the wires coming out of the same side as the previous step. Make sure the *Thermistor Cartridge* does not extend past the bottom of the *Volcano Style Heater Block*.
 +
-image:IMG_3434.jpg[,300,300,pdfwidth=40%]
-image:IMG_3435.jpg[,300,300,pdfwidth=40%]
-image:IMG_3436.jpg[,300,300,pdfwidth=40%]
+image:IMG_3434.jpg[,300,300,pdfwidth=30%]
+image:IMG_3435.jpg[,300,300,pdfwidth=30%]
+image:IMG_3436.jpg[,300,300,pdfwidth=30%]
 . Screw down the *M3 x 4mm Grub Screw* part lightly using a *1.5mm Allen Wrench* to fasten the *Thermistor Cartridge*, but very lightly as the part can go right through the *Thermistor Cartridge*.
 +
-image:IMG_3438.jpg[,300,300,pdfwidth=40%]
+image:IMG_3438.jpg[,300,300,pdfwidth=30%]
 . Screw down the *M3 x 10mm Cap Screw* parts using a *2mm Allen Wrench*, so that the *Volcano Style Heater Block* is secured. Do this evenly by screwing down one *M3 x 10mm Cap Screw* then the other and alternating four times.
 +
-image:IMG_3439.jpg[,300,300,pdfwidth=40%]
+image:IMG_3439.jpg[,300,300,pdfwidth=30%]
 . Using a *7mm Socket Wrench*, screw the *Volcano Nozzle* into the end of the *Volcano Style Heater Block* that does not have wires, until there is 1/2 of a thread (approximately 1mm) exposed. 
 +
-image:IMG_3440.jpg[,300,300,pdfwidth=40%]
+image:IMG_3440.jpg[,300,300,pdfwidth=30%]
 . Screw the short end of the *Heat Break* into the other side of the *Volcano Style Heater Block* until it bottoms out against the *Volcano Nozzle*.
 +
-image:IMG_3441.jpg[,300,300,pdfwidth=40%]
-image:IMG_3442.jpg[,300,300,pdfwidth=40%]
+image:IMG_3441.jpg[,300,300,pdfwidth=30%]
+image:IMG_3442.jpg[,300,300,pdfwidth=30%]
 
 
 
@@ -3670,22 +3670,22 @@ image:IMG_3442.jpg[,300,300,pdfwidth=40%]
 
 . Gently secure the *Volcano Style Heater Block* in the *Metal Jaw Vise*, leaving enough clearance to tighten down the *Volcano Nozzle*.
 +
-image:IMG_3444.jpg[,300,300,pdfwidth=40%]
+image:IMG_3444.jpg[,300,300,pdfwidth=30%]
 . Attach the *Heater Cartridge* wires onto the output of the *24v Power Supply* and power on the *24v Power Supply*.
 +
-image:IMG_3445.jpg[,300,300,pdfwidth=40%]
-image:IMG_3446.jpg[,300,300,pdfwidth=40%]
-image:IMG_3447.jpg[,300,300,pdfwidth=40%]
-image:IMG_3448.jpg[,300,300,pdfwidth=40%]
-image:IMG_3449.jpg[,300,300,pdfwidth=40%]
-image:IMG_3450.jpg[,300,300,pdfwidth=40%]
-image:IMG_3452.jpg[,300,300,pdfwidth=40%]
+image:IMG_3445.jpg[,300,300,pdfwidth=30%]
+image:IMG_3446.jpg[,300,300,pdfwidth=30%]
+image:IMG_3447.jpg[,300,300,pdfwidth=30%]
+image:IMG_3448.jpg[,300,300,pdfwidth=30%]
+image:IMG_3449.jpg[,300,300,pdfwidth=30%]
+image:IMG_3450.jpg[,300,300,pdfwidth=30%]
+image:IMG_3452.jpg[,300,300,pdfwidth=30%]
 . Wait two minutes for the *Volcano Style Heater Block* to get hot.
 . Using *Needle Nose Pliers*, hold the *Heat Break* in place while tightening down the *Volcano Nozzle* using the *7mm Socket Wrench*. Make sure that the *Volcano Nozzle* bottoms out against the *Heat Break*, not against the *Volcano Style Heater Block* - the goal is to close the filament flow gap between the *Volcano Nozzle* and *Heat Break*.
 +
-image:IMG_3453.jpg[,300,300,pdfwidth=40%]
-image:IMG_3454.jpg[,300,300,pdfwidth=40%]
-image:IMG_3455.jpg[,300,300,pdfwidth=40%]
+image:IMG_3453.jpg[,300,300,pdfwidth=30%]
+image:IMG_3454.jpg[,300,300,pdfwidth=30%]
+image:IMG_3455.jpg[,300,300,pdfwidth=30%]
 . Once tightened, turn off the *24v Power Supply*.
 . Disconnect the *Heater Cartridge* from the *24v Power Supply*.
 
@@ -3728,32 +3728,32 @@ image:IMG_3455.jpg[,300,300,pdfwidth=40%]
 . Wait at least five minutes for the *Volcano Style Heater Block* to cool down to a temperature that is safe to touch. 
 . Reposition the *Volcano Style Heater Block* in the *Metal Jaw Vise* so that the long end of the *Heat Break* is accessible to tools.
 +
-image:IMG_3457.jpg[,300,300,pdfwidth=40%]    
+image:IMG_3457.jpg[,300,300,pdfwidth=30%]    
 . Screw the *M6 Thin Nut* onto the *Heat Break* until the *M6 Thin Nut* is near the gap on the *Heat Break*.
 +
-image:IMG_3458.jpg[,300,300,pdfwidth=40%]
-image:IMG_3459.jpg[,300,300,pdfwidth=40%]
+image:IMG_3458.jpg[,300,300,pdfwidth=30%]
+image:IMG_3459.jpg[,300,300,pdfwidth=30%]
 . Apply one drop(s) of *Thermal Paste* to the threads of the *Heat Break* and spread the *Thermal Paste* evenly across the threads.
 +
-image:IMG_3460.jpg[,300,300,pdfwidth=40%]
+image:IMG_3460.jpg[,300,300,pdfwidth=30%]
 . Bend the *Heater Cartridge* wires out of the way so you can screw on the heat sink. Hold the bottom of the *Heater Cartridge* wire with *Needle Nose Pliers* so that when the wires are bent down they won't break from the *Heater Cartridge*.
 +
-image:IMG_3461.jpg[,300,300,pdfwidth=40%]
+image:IMG_3461.jpg[,300,300,pdfwidth=30%]
 . Screw the *Heatsink Block* onto the *Heat Break* so that the *Heat Break* sticks out 2mm above the *Heatsink Block*.
 +
-image:IMG_3462.jpg[,300,300,pdfwidth=40%]
+image:IMG_3462.jpg[,300,300,pdfwidth=30%]
 . Line up the wider sides of the *Heatsink Block* and the *Volcano Style Heater Block*.
 +
-image:IMG_3463.jpg[,300,300,pdfwidth=40%]
+image:IMG_3463.jpg[,300,300,pdfwidth=30%]
 . Tighten the *M6 Thin Nut* against the *Heatsink Block* using *Slip Joint Pliers*.
 +
-image:IMG_3464.jpg[,300,300,pdfwidth=40%]
+image:IMG_3464.jpg[,300,300,pdfwidth=30%]
 . Remove the *Hot End Assembly* from the *Metal Jaw Vise*.
 +
-image:IMG_3465.jpg[,300,300,pdfwidth=40%]
+image:IMG_3465.jpg[,300,300,pdfwidth=30%]
 . Place the *Volcano Style Heater Block Silicone Sock* onto the *Volcano Style Heater Block*.
 +
-image:IMG_3466.jpg[,300,300,pdfwidth=40%]
+image:IMG_3466.jpg[,300,300,pdfwidth=30%]
 . The *Hot End Assembly* is complete.
 
 
@@ -4036,16 +4036,16 @@ image:IMG_3466.jpg[,300,300,pdfwidth=40%]
 . Clean off any extra plastic on the *Motor Mount* using a *Hobby Knife*.
 . Insert the *M6 Nut* into the slot in the middle of the *Motor Mount*.
 +
-image:IMG_3503.jpg[,300,300,pdfwidth=40%] 
+image:IMG_3503.jpg[,300,300,pdfwidth=30%] 
 . Insert the *Nema 17 Stepper Motor* into the *Motor Mount* with the mounting holes on both parts lined up.
 +
-image:IMG_3504.jpg[,300,300,pdfwidth=40%] 
-image:IMG_3505.jpg[,300,300,pdfwidth=40%] 
+image:IMG_3504.jpg[,300,300,pdfwidth=30%] 
+image:IMG_3505.jpg[,300,300,pdfwidth=30%] 
 . In the top right corner, use the *2.5mm Allen Wrench* to screw an *M3 x 8mm Screw* through the  *Motor Mount* and into the mounting hole on the *Nema 17 Stepper Motor*.
 +
-image:IMG_3506.jpg[,300,300,pdfwidth=40%] 
-image:IMG_3507.jpg[,300,300,pdfwidth=40%] 
-image:IMG_3508.jpg[,300,300,pdfwidth=40%] 
+image:IMG_3506.jpg[,300,300,pdfwidth=30%] 
+image:IMG_3507.jpg[,300,300,pdfwidth=30%] 
+image:IMG_3508.jpg[,300,300,pdfwidth=30%] 
 
 
 
@@ -4086,25 +4086,25 @@ image:IMG_3508.jpg[,300,300,pdfwidth=40%]
 . Clean off any extra plastic on the *Secondary Extruder Part* using a *Hobby Knife*.
 . Line up the *Secondary Extruder Part* with the mounting holes on the left side of the *Motor Mount*.
 +
-image:IMG_3509.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3509.jpeg[,300,300,pdfwidth=30%]
 . Using the *2.5mm Allen Wrench*, screw an *M3 x 8mm Screw* into the furthest back mounting hole.
 +
-image:IMG_3510.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3511.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3510.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3511.jpeg[,300,300,pdfwidth=30%]
 . Insert the open end of the *Blower Fan* into the fan duct on the *Secondary Extruder Part*.
 +
-image:IMG_3512.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3512.jpeg[,300,300,pdfwidth=30%]
 . Using the *2.5mm Allen Wrench*, screw two *M3 x 20mm Screw* part(s) into the mounting holes of the *Blower Fan* to mount it to the *Secondary Extruder Part*.
 +
-image:IMG_3513.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3514.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3515.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3513.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3514.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3515.jpeg[,300,300,pdfwidth=30%]
 . Use the *2.5mm Allen Wrench* to screw *M3 x 8mm Screw* part(s) into the remaing open mounting holes in the *Secondary Extruder Part*.
 + 
-image:IMG_3516.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3517.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3518.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3519.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3516.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3517.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3518.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3519.jpeg[,300,300,pdfwidth=30%]
 
 
 
@@ -4144,25 +4144,25 @@ image:IMG_3519.jpeg[,300,300,pdfwidth=40%]
 
 . Apply one drop(s) of *Thermal Paste* to the flat area between the mounting holes on the *40mm Heatsink Fins*.
 +
-image:IMG_3520.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3521.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3522.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3520.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3521.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3522.jpeg[,300,300,pdfwidth=30%]
 . Place two *M3 x 30mm Screw* part(s) into the mounting holes of the *40mm Heatsink Fins* with the threads of the *M3 x 30mm Screw* part(s) sticking out of the flat side of the *40mm Heatsink Fins*.
 +
-image:IMG_3523.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3523.jpeg[,300,300,pdfwidth=30%]
 . Orient the *Hot End Assembly* with the longer side on the right.
 +
-image:IMG_3524.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3524.jpeg[,300,300,pdfwidth=30%]
 . Insert the *M3 x 30mm Screw* part(s) through the mounting holes of the *Hot End Assembly*. This should squish the *Thermal Paste* between the *Hot End Assembly* and the *40mm Heatsink Fins*.
 +
-image:IMG_3525.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3525.jpeg[,300,300,pdfwidth=30%]
 . Position the *Hot End Assembly* mounting holes against the bottom mounting holes of the *Nema 17 Stepper Motor* in the *Motor Mount*.
 +
-image:IMG_3526.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3526.jpeg[,300,300,pdfwidth=30%]
 . Lightly screw down the *M3 x 30mm Screw* part(s) using the *2.5mm Allen Wrench* to hold the *Hot End Assembly* against the *Nema 17 Stepper Motor* in the *Motor Mount*, but not too hard as the position of the *Hot End Assembly* will be adjusted later.
 + 
-image:IMG_3527.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3528.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3527.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3528.jpeg[,300,300,pdfwidth=30%]
 
 
 
@@ -4202,17 +4202,17 @@ image:IMG_3528.jpeg[,300,300,pdfwidth=40%]
 
 . Put the *Filament Drive Gear* on the shaft of the *Nema 17 Stepper Motor* in the *Motor Mount*. Do not tighten it down yet.
 +
-image:IMG_3529.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3529.jpeg[,300,300,pdfwidth=30%]
 . Insert the *1.75mm Filament* into the top of the *Hot End Assembly* and align the *Filament Drive Gear* teeth with the *1.75mm Filament*.
 +
-image:IMG_3530.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3530.jpeg[,300,300,pdfwidth=30%]
 . Tighten down the screw on the *Filament Drive Gear* using the *2mm Allen Wrench*.
 +
-image:IMG_3531.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3531.jpeg[,300,300,pdfwidth=30%]
 . Using the *1.75mm Filament* as a guide, tighten down the *M3 x 30mm Screw* part(s) on the *Hot End Assembly* using a *2.5mm Allen Wrench*. Make sure that the *1.75mm Filament* is coming _straight_ out of the top of the *Hot End Assembly* before tightening.
 +
-image:IMG_3532.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3533.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3532.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3533.jpeg[,300,300,pdfwidth=30%]
 
 
 
@@ -4255,18 +4255,18 @@ image:IMG_3533.jpeg[,300,300,pdfwidth=40%]
 . Clean off any extra plastic on the *Spring Tensioner Arm* using a *Hobby Knife*.
 . Press the *608 ZZ Bearing* onto the peg on the *Spring Tensioner Arm*.
 +
-image:IMG_3535.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3536.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3535.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3536.jpeg[,300,300,pdfwidth=30%]
 . With the arm of the *Spring Tensioner Arm* pointing right, screw the *Spring Tensioner Arm* onto the top left mounting hole on the front of the *Motor Mount* using a *M3 x 20mm Screw* and a *2.5mm Allen Wrench*.
 +
-image:IMG_3537.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3538.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3537.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3538.jpeg[,300,300,pdfwidth=30%]
 . Insert the *Extruder Spring* between the arm of the *Spring Tensioner Arm* and the mounting slot on the *Motor Mount*.
 +
-image:IMG_3539.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3540.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3541.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3542.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3539.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3540.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3541.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3542.jpeg[,300,300,pdfwidth=30%]
 
 
 
@@ -4302,17 +4302,17 @@ image:IMG_3542.jpeg[,300,300,pdfwidth=40%]
 
 . Using the *5mm Allen Wrench*, screw the *M6 x 25mm Screw* into the hole at the back of the slot on the left side of the *Secondary Extruder Part*.
 +
-image:IMG_3543.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3543.jpeg[,300,300,pdfwidth=30%]
 . Insert the *Height Sensor* into the slot.
 +
-image:IMG_3544.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3544.jpeg[,300,300,pdfwidth=30%]
 . Adjust the height of the *Height Sensor* so the bottom is 2mm above the bottom of the *Secondary Extruder Part*. When viewed from the side, the bottom of the *Height Sensor* should be _above_ the nozzle.
 +
-image:IMG_3545.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3547.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3545.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3547.jpeg[,300,300,pdfwidth=30%]
 . Tighten the *M6 x 25mm Screw* only enough to hold the *Secondary Extruder Part* in place and not damage it.
 +
-image:IMG_3546.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3546.jpeg[,300,300,pdfwidth=30%]
 
 
 
@@ -4348,13 +4348,13 @@ image:IMG_3546.jpeg[,300,300,pdfwidth=40%]
 
 . Orient the *40mm Fan* over the *40mm Heatsink Fins* so that the fan will blow air toward the *40mm Heatsink Fins*.
 +
-image:IMG_3548.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3548.jpeg[,300,300,pdfwidth=30%]
 . Place the *40mm Fan* directly over the front of the *40mm Heatsink Fins* and screw it into place using two *M3 x 16mm Screw* part(s) and the *2.5mm Allen Wrench* in the bottom mounting holes of the *40mm Fan*. The screws will be held in the *40mm Heatsink Fins*.
 +
-image:IMG_3551.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3552.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3553.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3554.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3551.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3552.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3553.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3554.jpeg[,300,300,pdfwidth=30%]
 
 
 
@@ -4390,28 +4390,28 @@ image:IMG_3554.jpeg[,300,300,pdfwidth=40%]
 
 . Connect the *2 Meter Stepper Motor Cable* to the *Nema 17 Stepper Motor* in the *Motor Mount*. There should only be one cable orientation that fits in the *Nema 17 Stepper Motor*.
 +
-image:IMG_3555.jpeg[,300,300,pdfwidth=40%]
-image:IMG_3556.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3555.jpeg[,300,300,pdfwidth=30%]
+image:IMG_3556.jpeg[,300,300,pdfwidth=30%]
 . Bundle the *Universal Gearless Extruder Module* wires such that when looking at the front of the Universal Gearless Extruder Module, the wires are sent to the right hand side.
 +
-image:IMG_3557.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3557.jpeg[,300,300,pdfwidth=30%]
 . Use a *Small Zip Tie* to hold the wires together. Snip the extra *Small Zip Tie* with *Scissors*.
 +
-image:IMG_3558.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3558.jpeg[,300,300,pdfwidth=30%]
 . Take all 15 *Universal Gearless Extruder Module* wires and pull them through the *2 Meter Split Wire Loom*.
 +
-image:IMG_3561.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3561.jpeg[,300,300,pdfwidth=30%]
 . Using *Scissors* cut the *2 Meter Split Wire Loom* to 100mm shorter than the shortest cable.
 . Take any cables that are too long and double them back into the *2 Meter Split Wire Loom*.
 +
-image:IMG_3562.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3562.jpeg[,300,300,pdfwidth=30%]
 . Use a *Small Zip Tie* to secure the loose end of the *2 Meter Split Wire Loom*.
 +
-image:IMG_3563.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3563.jpeg[,300,300,pdfwidth=30%]
 . Using *Scissors* cut the extra length off of the *Small Zip Tie* part.
 . The *Universal Gearless Extruder Module* is complete.
 +
-image:IMG_3564.jpeg[,300,300,pdfwidth=40%]
+image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 
 
 
