@@ -26,7 +26,7 @@
   - 5mm-allen-wrench
 
   details: |
-    Gather all parts for the {{description}}.
+    . Gather all parts for the {{description}}.
     +
     image:IMG_3631.jpeg[,300,300,pdfwidth=30%]
     . Slide two *{{parts.linear-bearing.description}}* {{parts.linear-bearing.quantityUnits}} onto the *{{tools.8mm-rod.description}}*.
