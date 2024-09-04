@@ -39,7 +39,7 @@ conduit:
   id: conduit
   notes: ''
   options:
-    - 0_5inch-trade-size-metal-conduit
+    - metal-conduit
   quantity: 4
   quantityUnits: part(s)
   selectedOption: 0

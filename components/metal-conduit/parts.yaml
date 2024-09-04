@@ -3,7 +3,7 @@ conduit-stock-length:
   id: conduit-stock-length
   notes: ''
   options:
-    - 0_5inch-trade-size-metal-conduit-stock-length
+    - metal-conduit-stock-length
   quantity: 1
   quantityUnits: part
   selectedOption: 0
