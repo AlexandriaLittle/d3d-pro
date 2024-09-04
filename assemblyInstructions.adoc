@@ -1,7 +1,7 @@
 = D3D Pro 3D Printer Assembly Instructions
 Alexandria Little
 :revnumber: v23.12
-:revdate: 9/3/2024
+:revdate: 9/4/2024
 :sectnums:
 :toc:
 :docinfo: shared
@@ -496,7 +496,7 @@ endif::[]
 
 
 
-== Assemble 12.7mm x 450mm Rebar Stake
+== Assemble Rebar Stake
 
 // tools
 
@@ -597,7 +597,7 @@ endif::[]
 
 // summary
 
-==== Cut 12.7mm x 450mm Rebar Stake to Length
+==== Cut Rebar Stake to Length
 
 
 // requiredTools
@@ -632,7 +632,7 @@ endif::[]
 . Affix the *Rebar Stake Stock Length* into the *Vise*, leaving enough *Rebar Stake Stock Length* sticking out to make the cut.
 . Mark the 250mm length on the *Rebar Stake Stock Length* using the *Measuring Tape* and *Permanent Marker*. Make sure that there is enough space marked for the width of the *Cutoff Wheel*!
 . Using the *Circular Saw*, make the cut on the *Rebar Stake Stock Length* where previously marked.
-. Repeat the above steps for all of the needed lengths of *12.7mm x 450mm Rebar Stake*.
+. Repeat the above steps for all of the needed lengths of *Rebar Stake*.
 
 
 
@@ -673,7 +673,7 @@ endif::[]
 |4 part(s)
 |rebar-stake
 |Rebar Stake
-|12.7mm x 450mm Rebar Stake v1.0.0
+|Rebar Stake v1.0.0
 |
 
 
@@ -867,7 +867,7 @@ endif::[]
 |4 part(s)
 |rebar-stake
 |Rebar Stake
-|12.7mm x 450mm Rebar Stake v1.0.0
+|Rebar Stake v1.0.0
 |
 
 
@@ -1041,7 +1041,7 @@ endif::[]
 |4 part(s)
 |rebar-stake
 |Rebar Stake
-|12.7mm x 450mm Rebar Stake v1.0.0
+|Rebar Stake v1.0.0
 |
 
 
@@ -1108,6 +1108,553 @@ endif::[]
 . Firmly press the *Universal Frame Top* down onto the *Universal Frame Base* so that the *Rebar Stake* part(s) are properly seated.
 . Tighten down all of the remaining fasteners on the *Universal Frame Base* to secure the *Rebar Stake* part(s) in place. If the plastic of the *Universal Frame Base* begins to strain or crack, unscrew the fastener slightly to reduce the pressure.
 . The *Universal Frame Module* is complete.
+
+
+
+
+
+
+== Assemble Carbon Fiber Blanket Sleeve
+
+// tools
+
+=== Tools
+|===
+|Name |Description |Notes
+
+
+
+|Sewing Machine
+|Sewing Machine
+|Optionally, use a needle and thread to hand sew components.
+
+
+
+|Scissors
+|Scissors
+|
+
+|===
+
+
+// materials
+
+=== Materials
+|===
+|Quantity |ID |Name |Description |Notes
+
+
+
+|1 part(s)
+|carbon-fiber-blanket-stock
+|Carbon Fiber Blanket
+|Carbon Fiber Blanket (Stock Size) v1.0.0
+|
+
+
+
+|1 part(s)
+|sewing-thread
+|Sewing Thread
+|Sewing Thread v1.0.0
+|
+
+|===
+
+
+// Precautions
+
+
+
+// Procedure
+=== Procedure
+
+// summary
+
+==== Assemble Carbon Fiber Blanket Sleeve Parts
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* Sewing Machine
+//
+//* Scissors
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Carbon Fiber Blanket
+//
+//* Sewing Thread
+//
+//
+
+// details
+
+*Instructions*
+
+. Using the *Scissors*, cut four rectangles of *Carbon Fiber Blanket* to size (80mm x 300mm).
+. Set up the *Sewing Machine* and *Sewing Thread* by following the manufacturer's instructions for the *Sewing Machine*.
+. Overlap/fold one rectangle of *Carbon Fiber Blanket* so that it forms a 40mm x 300mm rectangle.
+. Using the *Sewing Machine*, sew the 300mm long edges of the rectangle together. It should form a 300mm long sleeve.
+. Repeat the previous two steps for all of the remaining *Carbon Fiber Blanket* rectangles.
+. Take one of the *Carbon Fiber Blanket Sleeve* parts and use *Scissors* to cut "X" shapes near the ends of the sleeve. The center of the "X" cuts should be approx. 20mm from each edge.
+. Repeat the above step for all of the remaining *Carbon Fiber Blanket Sleeve* parts.
+. The *Carbon Fiber Blanket Sleeve* parts are complete.
+
+
+
+
+
+
+== Assemble Halogen Lightbulb Assembly
+
+// tools
+
+=== Tools
+|===
+|Name |Description |Notes
+
+
+
+|Soldering Iron
+|Soldering Iron
+|
+
+
+
+|Helping Hands
+|Helping Hands Clamp Stand
+|
+
+
+
+|Paper Towels
+|Paper Towels
+|
+
+|===
+
+
+// materials
+
+=== Materials
+|===
+|Quantity |ID |Name |Description |Notes
+
+
+
+|3 part(s)
+|halogen-lightbulb
+|Halogen Lightbulb
+|R7S 118mm Halogen Lightbulb v1.0.0
+|
+
+
+
+|3 part(s)
+|halogen-lightbulb-holder
+|Halogen Lightbulb Holder
+|R7S 118mm Halogen Lightbulb Holder v1.0.0
+|
+
+
+
+|2 application(s)
+|electrical-solder
+|Electrical Solder
+|Rosin Core Lead Free Electrical Solder v1.0.0
+|
+
+|===
+
+
+// Precautions
+
+=== Precautions
+
+* *Halogen Lightbulb Assembly:* Make sure to not touch the Halogen Lightbulb in the assembly with bare hands or they will be damaged!
+
+
+
+
+
+
+* *Soldering Iron:* A Soldering Iron gets very very hot and can burn you! Follow all of the manufacturer recommended safety precautions when using a Soldering Iron!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* *Halogen Lightbulb:* If oils or other debris do get on the R7S 118mm Halogen Lightbulb it can be cleaned with rubbing alcohol and a clean paper towel.
+
+* *Halogen Lightbulb:* R7S 118mm Halogen Lightbulb  requires special handling. The oils on human skin can shorten the lifetime of a R7S 118mm Halogen Lightbulb if they get on the glass of the bulb. Always use something other than your hands to handle a R7S 118mm Halogen Lightbulb.
+
+
+
+
+
+
+
+
+
+* *Electrical Solder:* Rosin Core Lead Free Electrical Solder can contain toxic chemicals! Always work in a well ventialted area and use personal protection equipment!
+
+
+
+
+
+
+// Procedure
+=== Procedure
+
+// summary
+
+==== Assemble Halogen Lightbulb Assembly
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* Soldering Iron
+//
+//* Paper Towels
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Halogen Lightbulb
+//
+//* Halogen Lightbulb Holder
+//
+//* Electrical Solder
+//
+//
+
+// details
+
+*Instructions*
+
+. Preheat the *Soldering Iron* to the operating temperature recommended by the *Electrical Solder* packaging.
+. Position the wires of two *Halogen Lightbulb Holder* part(s) in the *Helping Hands* so that the exposed ends of the wires are touching.
+. Hold the hot end of the *Soldering Iron* against the exposed wires in the *Helping Hands* for a few seconds to heat the wires.
+. Apply *Electrical Solder* to the contact point between the hot end of the *Soldering Iron* and the exposed wires until enough has been added to fuse the wires and make a good electrical connection.
+. Remove the hot end of the *Soldering Iron* from the wires.
+. Wait for the wires to cool and then remove them from the *Helping Hands*. 
+. Take the other wire of one of the previously soldered *Halogen Lightbulb Holder* part(s) and position it in the *Helping Hands*.
+. Position one of the wires of the remaining *Halogen Lightbulb Holder* part(s) in the unused side of the *Helping Hands*.
+. Hold the hot end of the *Soldering Iron* against the exposed wires in the *Helping Hands* for a few seconds to heat the wires.
+. Apply *Electrical Solder* to the contact point between the hot end of the *Soldering Iron* and the exposed wires until enough has been added to fuse the wires and make a good electrical connection.
+. Remove the hot end of the *Soldering Iron* from the wires.
+. Wait for the wires to cool and then remove them from the *Helping Hands*.
+. Using *Paper Towels*, remove a *Halogen Lightbulb* part(s) from its packaging material and insert it into one of the *Halogen Lightbulb Holder* part(s). Be careful to not touch the *Halogen Lightbulb* with your hands (see precautions).
+. Repeat the above step for each of the other *Halogen Lightbulb Holder* part(s)*.
+. The *Halogen Lightbulb Assembly* is now complete.
+
+
+
+
+
+
+== Assemble Metal Conduit
+
+// tools
+
+=== Tools
+|===
+|Name |Description |Notes
+
+
+
+|Circular Saw
+|Circular Saw
+|
+
+
+
+|Cutoff Wheel
+|Metal Cutoff Wheel
+|Make sure that the cutoff wheel that you purchase is compatible with your cutting tool!
+
+
+
+|Vise
+|Metal Jaw Vise
+|
+
+
+
+|Measuring Tape
+|Measuring Tape
+|
+
+
+
+|Permanent Marker
+|Permanent Marker
+|
+
+|===
+
+
+// materials
+
+=== Materials
+|===
+|Quantity |ID |Name |Description |Notes
+
+
+
+|1 part
+|conduit-stock-length
+|Stock Length Metal Conduit
+|Stock Length Metal Conduit v1.0.0
+|
+
+|===
+
+
+// Precautions
+
+=== Precautions
+
+
+
+
+
+
+* *Circular Saw:* A Circular Saw can cause permenent injury or death! Follow all manufacturer recommended safety precautions!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Procedure
+=== Procedure
+
+// summary
+
+==== Cut Metal Conduit to Length
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* Circular Saw
+//
+//* Cutoff Wheel
+//
+//* Vise
+//
+//* Measuring Tape
+//
+//* Permanent Marker
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Stock Length Metal Conduit
+//
+//
+
+// details
+
+*Instructions*
+
+. While following the *Circular Saw* manufacturer's instructions, install the *Cutoff Wheel* into the *Circular Saw*.
+. Affix the *Stock Length Metal Conduit* into the *Vise*, leaving enough *Stock Length Metal Conduit* sticking out to make the cut.
+. Mark the 250mm length on the *Stock Length Metal Conduit* using the *Measuring Tape* and *Permanent Marker*. Make sure that there is enough space marked for the width of the cutting blade!
+. Using the *Circular Saw*, make the cut on the *Stock Length Metal Conduit* where previously marked.
+. Repeat the above steps for all of the needed lengths of *Metal Conduit*.
+
+
+
+
+
+
+== Assemble Fast Heated Bed Bottom Plate
+
+// tools
+
+=== Tools
+|===
+|Name |Description |Notes
+
+
+
+|Plate Jig
+|Fast Heated Bed Plate Jig
+|
+
+
+
+|Permanent Marker
+|Permanent Marker
+|
+
+
+
+|Drill Press
+|Drill Press
+|
+
+
+
+|7mm Drill Bit
+|7mm Sheet Metal Drill Bit
+|
+
+
+
+|Metal File
+|Metal File
+|
+
+|===
+
+
+// materials
+
+=== Materials
+|===
+|Quantity |ID |Name |Description |Notes
+
+
+
+|1 part
+|steel-sheet
+|Steel Sheet
+|16 Gauge 300mm x 300mm Steel Sheet v1.0.0
+|
+
+|===
+
+
+// Precautions
+
+=== Precautions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* *Drill Press:* Drill presses can cause permanent injury or possibly death! Do not wear loose fitting clothing, put your hair up, and wear proper PPE including (but not limited to) safety glasses when operating the machine.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Procedure
+=== Procedure
+
+// summary
+
+==== Drill the Fast Heated Bed Bottom Plate
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* Plate Jig
+//
+//* Permanent Marker
+//
+//* Drill Press
+//
+//* 7mm Drill Bit
+//
+//* Metal File
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Steel Sheet
+//
+//
+
+// details
+
+*Instructions*
+
+. Align the *Plate Jig* to one of the corners of the *Steel Sheet*.
+. In each of the holes on the *Plate Jig*, mark a circle the size of the hole using the *Permanent Marker*.
+. Insert the *7mm Drill Bit* into the chuck of the *Drill Press* and secure it tightly per the manufacturer's instructions.
+. Turn on the drill press and drill holes through each of the marks made on the *Steel Sheet* in the earlier steps.
+. Using the *Metal File*, file down any metal burrs created by the *Drill Press* on the *Steel Sheet*.
 
 
 
@@ -1302,7 +1849,7 @@ endif::[]
 
 
 
-== Assemble Carbon Fiber Blanket Sleeve
+== Assemble Fast Heated Bed Module
 
 // tools
 
@@ -1312,14 +1859,20 @@ endif::[]
 
 
 
-|Sewing Machine
-|Sewing Machine
-|Optionally, use a needle and thread to hand sew components.
+|Slip Joint Pliers
+|Slip Joint Pliers
+|
 
 
 
-|Scissors
-|Scissors
+|5mm Allen Wrench
+|5mm Allen Wrench
+|
+
+
+
+|Universal COntroller
+|Universal Controller Assembly
 |
 
 |===
@@ -1333,432 +1886,106 @@ endif::[]
 
 
 
-|1 part(s)
-|carbon-fiber-blanket-stock
-|Carbon Fiber Blanket
-|Carbon Fiber Blanket (Stock Size) v1.0.0
+|2 part(s)
+|8mm-rod
+|8mm Rod
+|8mm x 600mm Smooth Rod v1.0.0
 |
 
 
 
-|1 part(s)
-|sewing-thread
-|Sewing Thread
-|Sewing Thread v1.0.0
+|2 part(s)
+|autoparallel
+|Autoparallel
+|Autoparallel Part v1.0.0
 |
-
-|===
-
-
-// Precautions
-
-
-
-// Procedure
-=== Procedure
-
-// summary
-
-==== Assemble Carbon Fiber Blanket Sleeve Parts
-
-
-// requiredTools
-//
-//*Required Tools*
-//
-//* Sewing Machine
-//
-//* Scissors
-//
-//
-
-// requiredParts
-//
-//*Required Parts*
-//
-//* Carbon Fiber Blanket
-//
-//* Sewing Thread
-//
-//
-
-// details
-
-*Instructions*
-
-. Using the *Scissors*, cut four rectangles of *Carbon Fiber Blanket* to size (80mm x 300mm).
-. Set up the *Sewing Machine* and *Sewing Thread* by following the manufacturer's instructions for the *Sewing Machine*.
-. Overlap/fold one rectangle of *Carbon Fiber Blanket* so that it forms a 40mm x 300mm rectangle.
-. Using the *Sewing Machine*, sew the 300mm long edges of the rectangle together. It should form a 300mm long sleeve.
-. Repeat the previous two steps for all of the remaining *Carbon Fiber Blanket* rectangles.
-. Take one of the *Carbon Fiber Blanket Sleeve* parts and use *Scissors* to cut "X" shapes near the ends of the sleeve. The center of the "X" cuts should be approx. 20mm from each edge.
-. Repeat the above step for all of the remaining *Carbon Fiber Blanket Sleeve* parts.
-. The *Carbon Fiber Blanket Sleeve* parts are complete.
-
-
-
-
-
-
-== Assemble Fast Heated Bed Halogen Lightbulb Assembly
-
-// tools
-
-=== Tools
-|===
-|Name |Description |Notes
-
-
-
-|Soldering Iron
-|Soldering Iron
-|
-
-
-
-|Helping Hands
-|Helping Hands Clamp Stand
-|
-
-
-
-|Paper Towels
-|Paper Towels
-|
-
-|===
-
-
-// materials
-
-=== Materials
-|===
-|Quantity |ID |Name |Description |Notes
-
-
-
-|3 part(s)
-|halogen-lightbulb
-|Halogen Lightbulb
-|R7S 118mm Halogen Lightbulb v1.0.0
-|
-
-
-
-|3 part(s)
-|halogen-lightbulb-holder
-|Halogen Lightbulb Holder
-|R7S 118mm Halogen Lightbulb Holder v1.0.0
-|
-
-
-
-|2 application(s)
-|electrical-solder
-|Electrical Solder
-|Rosin Core Lead Free Electrical Solder v1.0.0
-|
-
-|===
-
-
-// Precautions
-
-=== Precautions
-
-* *Fast Heated Bed Halogen Lightbulb Assembly:* Make sure to not touch the Halogen Lightbulb in the assembly with bare hands or they will be damaged!
-
-
-
-
-
-
-* *Soldering Iron:* A Soldering Iron gets very very hot and can burn you! Follow all of the manufacturer recommended safety precautions when using a Soldering Iron!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* *Halogen Lightbulb:* If oils or other debris do get on the R7S 118mm Halogen Lightbulb it can be cleaned with rubbing alcohol and a clean paper towel.
-
-* *Halogen Lightbulb:* R7S 118mm Halogen Lightbulb  requires special handling. The oils on human skin can shorten the lifetime of a R7S 118mm Halogen Lightbulb if they get on the glass of the bulb. Always use something other than your hands to handle a R7S 118mm Halogen Lightbulb.
-
-
-
-
-
-
-
-
-
-* *Electrical Solder:* Rosin Core Lead Free Electrical Solder can contain toxic chemicals! Always work in a well ventialted area and use personal protection equipment!
-
-
-
-
-
-
-// Procedure
-=== Procedure
-
-// summary
-
-==== Assemble Fast Heated Bed Halogen Lightbulb Assembly
-
-
-// requiredTools
-//
-//*Required Tools*
-//
-//* Soldering Iron
-//
-//* Paper Towels
-//
-//
-
-// requiredParts
-//
-//*Required Parts*
-//
-//* Halogen Lightbulb
-//
-//* Halogen Lightbulb Holder
-//
-//* Electrical Solder
-//
-//
-
-// details
-
-*Instructions*
-
-. Preheat the *Soldering Iron* to the operating temperature recommended by the *Electrical Solder* packaging.
-. Position the wires of two *Halogen Lightbulb Holder* part(s) in the *Helping Hands* so that the exposed ends of the wires are touching.
-. Hold the hot end of the *Soldering Iron* against the exposed wires in the *Helping Hands* for a few seconds to heat the wires.
-. Apply *Electrical Solder* to the contact point between the hot end of the *Soldering Iron* and the exposed wires until enough has been added to fuse the wires and make a good electrical connection.
-. Remove the hot end of the *Soldering Iron* from the wires.
-. Wait for the wires to cool and then remove them from the *Helping Hands*. 
-. Take the other wire of one of the previously soldered *Halogen Lightbulb Holder* part(s) and position it in the *Helping Hands*.
-. Position one of the wires of the remaining *Halogen Lightbulb Holder* part(s) in the unused side of the *Helping Hands*.
-. Hold the hot end of the *Soldering Iron* against the exposed wires in the *Helping Hands* for a few seconds to heat the wires.
-. Apply *Electrical Solder* to the contact point between the hot end of the *Soldering Iron* and the exposed wires until enough has been added to fuse the wires and make a good electrical connection.
-. Remove the hot end of the *Soldering Iron* from the wires.
-. Wait for the wires to cool and then remove them from the *Helping Hands*.
-. Using *Paper Towels*, remove a *Halogen Lightbulb* part(s) from its packaging material and insert it into one of the *Halogen Lightbulb Holder* part(s). Be careful to not touch the *Halogen Lightbulb* with your hands (see precautions).
-. Repeat the above step for each of the other *Halogen Lightbulb Holder* part(s)*.
-. The *Fast Heated Bed Halogen Lightbulb Assembly* is now complete.
-
-
-
-
-
-
-== Assemble 0.5 Inch Trade Size 250mm Long Metal Conduit
-
-// tools
-
-=== Tools
-|===
-|Name |Description |Notes
-
-
-
-|Circular Saw
-|Circular Saw
-|
-
-
-
-|Cutoff Wheel
-|Metal Cutoff Wheel
-|Make sure that the cutoff wheel that you purchase is compatible with your cutting tool!
-
-
-
-|Vise
-|Metal Jaw Vise
-|
-
-
-
-|Measuring Tape
-|Measuring Tape
-|
-
-
-
-|Permanent Marker
-|Permanent Marker
-|
-
-|===
-
-
-// materials
-
-=== Materials
-|===
-|Quantity |ID |Name |Description |Notes
 
 
 
 |1 part
-|conduit-stock-length
-|Stock Length Metal Conduit
-|0.5 Inch Trade Size Stock Length Metal Conduit v1.0.0
+|top-plate
+|Fast Heated Bed Top Plate
+|Fast Heated Bed Top Plate v1.0.0
 |
-
-|===
-
-
-// Precautions
-
-=== Precautions
-
-
-
-
-
-
-* *Circular Saw:* A Circular Saw can cause permenent injury or death! Follow all manufacturer recommended safety precautions!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Procedure
-=== Procedure
-
-// summary
-
-==== Cut 0.5 Inch Trade Size 250mm Long Metal Conduit to Length
-
-
-// requiredTools
-//
-//*Required Tools*
-//
-//* Circular Saw
-//
-//* Cutoff Wheel
-//
-//* Vise
-//
-//* Measuring Tape
-//
-//* Permanent Marker
-//
-//
-
-// requiredParts
-//
-//*Required Parts*
-//
-//* Stock Length Metal Conduit
-//
-//
-
-// details
-
-*Instructions*
-
-. While following the *Circular Saw* manufacturer's instructions, install the *Cutoff Wheel* into the *Circular Saw*.
-. Affix the *Stock Length Metal Conduit* into the *Vise*, leaving enough *Stock Length Metal Conduit* sticking out to make the cut.
-. Mark the 250mm length on the *Stock Length Metal Conduit* using the *Measuring Tape* and *Permanent Marker*. Make sure that there is enough space marked for the width of the cutting blade!
-. Using the *Circular Saw*, make the cut on the *Stock Length Metal Conduit* where previously marked.
-. Repeat the above steps for all of the needed lengths of *0.5 Inch Trade Size 250mm Long Metal Conduit*.
-
-
-
-
-
-
-== Assemble Fast Heated Bed Bottom Plate
-
-// tools
-
-=== Tools
-|===
-|Name |Description |Notes
-
-
-
-|Plate Jig
-|Fast Heated Bed Plate Jig
-|
-
-
-
-|Permanent Marker
-|Permanent Marker
-|
-
-
-
-|Drill Press
-|Drill Press
-|
-
-
-
-|7mm Drill Bit
-|7mm Sheet Metal Drill Bit
-|
-
-
-
-|Metal File
-|Metal File
-|
-
-|===
-
-
-// materials
-
-=== Materials
-|===
-|Quantity |ID |Name |Description |Notes
 
 
 
 |1 part
-|steel-sheet
-|Steel Sheet
-|16 Gauge 300mm x 300mm Steel Sheet v1.0.0
+|bottom-plate
+|Fast Heated Bed Bottom Plate
+|Fast Heated Bed Bottom Plate v1.0.0
+|
+
+
+
+|2 part(s)
+|clamp
+|Fast Heated Bed Clamp
+|Fast Heated Bed Clamp v1.0.0
+|
+
+
+
+|4 part(s)
+|conduit
+|Metal Conduit
+|Metal Conduit v1.0.0
+|
+
+
+
+|2 part(s)
+|corner-brace
+|Corner Brace
+|2 inch x 5/8 Inch Corner Brace (Four Holes) v1.0.0
+|
+
+
+
+|1 part
+|lightbulb-assembly
+|Halogen Lightbulb Assembly
+|Halogen Lightbulb Assembly v1.0.0
+|
+
+
+
+|4 part(s)
+|m6-20mm-screw
+|M6 x 20mm Screw
+|M6 x 20mm Socket Head Cap Screw v1.0.0
+|
+
+
+
+|8 part(s)
+|m6-nut
+|M6 Nut
+|M6 Nut v1.0.0
+|
+
+
+
+|1 part
+|pei-sheet
+|PEI Sheet
+|300mm x 300mm PEI Sheet v1.0.0
+|
+
+
+
+|4 part(s)
+|sleeve
+|Carbon Fiber Blanket Sleeve
+|Carbon Fiber Blanket Sleeve v1.0.0
+|
+
+
+
+|1 part
+|thermistor
+|Thermistor
+|NTC 100K ohm B3950 Thermistor Cartridge v1.0.0
 |
 
 |===
@@ -1781,7 +2008,47 @@ endif::[]
 
 
 
-* *Drill Press:* Drill presses can cause permanent injury or possibly death! Do not wear loose fitting clothing, put your hair up, and wear proper PPE including (but not limited to) safety glasses when operating the machine.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* *Halogen Lightbulb Assembly:* Make sure to not touch the Halogen Lightbulb in the assembly with bare hands or they will be damaged!
+
+
+
+
+
+
 
 
 
@@ -1807,42 +2074,34 @@ endif::[]
 
 // summary
 
-==== Drill the Fast Heated Bed Bottom Plate
+==== Assemble Fast Heated Bed Module
 
 
 // requiredTools
 //
-//*Required Tools*
-//
-//* Plate Jig
-//
-//* Permanent Marker
-//
-//* Drill Press
-//
-//* 7mm Drill Bit
-//
-//* Metal File
-//
-//
 
 // requiredParts
-//
-//*Required Parts*
-//
-//* Steel Sheet
-//
 //
 
 // details
 
 *Instructions*
 
-. Align the *Plate Jig* to one of the corners of the *Steel Sheet*.
-. In each of the holes on the *Plate Jig*, mark a circle the size of the hole using the *Permanent Marker*.
-. Insert the *7mm Drill Bit* into the chuck of the *Drill Press* and secure it tightly per the manufacturer's instructions.
-. Turn on the drill press and drill holes through each of the marks made on the *Steel Sheet* in the earlier steps.
-. Using the *Metal File*, file down any metal burrs created by the *Drill Press* on the *Steel Sheet*.
+. Slide one *Carbon Fiber Blanket Sleeve* part(s) over one *Metal Conduit* so that the *Metal Conduit* is in the middle of the *Carbon Fiber Blanket Sleeve*.
+. Repeat the above step for the three other pairs of *Carbon Fiber Blanket Sleeve* part(s) and *Metal Conduit* part(s).
+. Orient the *Fast Heated Bed Top Plate* so that the screws are on top.
+. Take one of the *Metal Conduit* / *Carbon Fiber Blanket Sleeve* part(s) and align the "X" cuts on the ends of the *Carbon Fiber Blanket Sleeve* with two bolts on the side of the *Fast Heated Bed Top Plate*. 
+. Repeat the above step for all four sides of the *Fast Heated Bed Top Plate*.
+. Without touching the bulbs, place the *Halogen Lightbulb Assembly* onto the center of the *Fast Heated Bed Top Plate*.
+. Pull the wires of the *Halogen Lightbulb Assembly* out past one side of the *Fast Heated Bed Top Plate* so that the wires can be reached in a later step.
+. Take four *M6 Nut* part(s) and screw one onto every screw on the *Fast Heated Bed Top Plate*.
+. Position the *Fast Heated Bed Bottom Plate* onto the screws of the *Fast Heated Bed Top Plate. The *Fast Heated Bed Bottom Plate* should rest on top of the *M6 Nut* part(s) from the previous step.
+. Take four *M6 Nut* part(s) and screw one onto every screw on the *Fast Heated Bed Top Plate* above the *Fast Heated Bed Bottom Plate*. Tighten them down by hand; the final adjustment will take place later.
+. Gently flip the *Fast Heated Bed Module* over so that the *Fast Heated Bed Top Plate* is on top.
+. Take the *PEI Sheet* and peel away the corner of the covering of the adhesive side of the part
+. Align the exposed adhesive corner of the *PEI Sheet* with the machine cut side of the *Fast Heated Bed Top Plate*.
+. Apply even and gentle pressure to the *PEI Sheet* to begin to stick it to the surface of the *Fast Heated Bed Top Plate*.
+. While keeping the edges aligned, peel back more of the adhesive covering and apply more even pressure across the surface of the *PEI Sheet* until the *part* is fully adheared.
 
 
 

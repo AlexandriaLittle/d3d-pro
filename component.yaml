@@ -8,193 +8,6 @@ repository:
   url: 'https://github.com/AlexandriaLittle/d3d-pro'
 dependencies: {}
 components:
-  0_5inch-trade-size-metal-conduit:
-    name: 0_5inch-trade-size-metal-conduit
-    version: 1.0.0
-    description: 0.5 Inch Trade Size 250mm Long Metal Conduit
-    license: CC-BY-SA-4.0
-    author: Alexandria Little
-    dependencies: {}
-    components:
-      0_5inch-trade-size-metal-conduit-stock-length:
-        name: 0_5inch-trade-size-metal-conduit-stock-length
-        version: 1.0.0
-        description: 0.5 Inch Trade Size Stock Length Metal Conduit
-        license: CC-BY-SA-4.0
-        author: Alexandria Little
-        dependencies: {}
-        components: {}
-        parts: {}
-        tools: {}
-        precautions: []
-      circular-saw:
-        name: circular-saw
-        version: 1.0.0
-        description: Circular Saw
-        license: CC-BY-SA-4.0
-        author: Alexandria Little
-        dependencies: {}
-        components: {}
-        parts: {}
-        tools: {}
-        precautions:
-          - >-
-            A Circular Saw can cause permenent injury or death! Follow all
-            manufacturer recommended safety precautions!
-      measuring-tape:
-        name: measuring-tape
-        version: 1.0.0
-        description: Measuring Tape
-        license: CC-BY-SA-4.0
-        author: Alexandria Little
-        dependencies: {}
-        components: {}
-        parts: {}
-        tools: {}
-        precautions: []
-      metal-cutoff-wheel:
-        name: metal-cutoff-wheel
-        version: 1.0.0
-        description: Metal Cutoff Wheel
-        license: CC-BY-SA-4.0
-        author: Alexandria Little
-        dependencies: {}
-        components: {}
-        parts: {}
-        tools: {}
-        precautions: []
-      metal-jaw-vise:
-        name: metal-jaw-vise
-        version: 1.0.0
-        description: Metal Jaw Vise
-        license: CC-BY-SA-4.0
-        author: Alexandria Little
-        dependencies: {}
-        components: {}
-        parts: {}
-        tools: {}
-        precautions: []
-      permanent-marker:
-        name: permanent-marker
-        version: 1.0.0
-        description: Permanent Marker
-        license: CC-BY-SA-4.0
-        author: Alexandria Little
-        dependencies: {}
-        components: {}
-        parts: {}
-        tools: {}
-        precautions: []
-    parts:
-      conduit-stock-length:
-        description: Stock Length Metal Conduit
-        id: conduit-stock-length
-        notes: ''
-        options:
-          - 0_5inch-trade-size-metal-conduit-stock-length
-        quantity: 1
-        quantityUnits: part
-        selectedOption: 0
-        descriptionLong: 'conduit-stock-length: Stock Length Metal Conduit'
-        descriptionSelected: >-
-          conduit-stock-length: Stock Length Metal Conduit (0.5 Inch Trade Size
-          Stock Length Metal Conduit v1.0.0)
-    tools:
-      circular-saw:
-        description: Circular Saw
-        id: circular-saw
-        notes: ''
-        options:
-          - circular-saw
-        quantity: 1
-        quantityUnits: part
-        selectedOption: 0
-        descriptionLong: 'circular-saw: Circular Saw'
-        descriptionSelected: 'circular-saw: Circular Saw (Circular Saw v1.0.0)'
-      cutoff-wheel:
-        description: Cutoff Wheel
-        id: cutoff-wheel
-        notes: >-
-          Make sure that the cutoff wheel that you purchase is compatible with
-          your cutting tool!
-        options:
-          - metal-cutoff-wheel
-        quantity: 1
-        quantityUnits: part
-        selectedOption: 0
-        descriptionLong: 'cutoff-wheel: Cutoff Wheel'
-        descriptionSelected: 'cutoff-wheel: Cutoff Wheel (Metal Cutoff Wheel v1.0.0)'
-      vise:
-        description: Vise
-        id: vise
-        notes: ''
-        options:
-          - metal-jaw-vise
-        quantity: 1
-        quantityUnits: part
-        selectedOption: 0
-        descriptionLong: 'vise: Vise'
-        descriptionSelected: 'vise: Vise (Metal Jaw Vise v1.0.0)'
-      measuring-tape:
-        description: Measuring Tape
-        id: measuring-tape
-        notes: ''
-        options:
-          - measuring-tape
-        quantity: 1
-        quantityUnits: part
-        selectedOption: 0
-        descriptionLong: 'measuring-tape: Measuring Tape'
-        descriptionSelected: 'measuring-tape: Measuring Tape (Measuring Tape v1.0.0)'
-      marker:
-        description: Permanent Marker
-        id: marker
-        notes: ''
-        options:
-          - permanent-marker
-        quantity: 1
-        quantityUnits: part
-        selectedOption: 0
-        descriptionLong: 'marker: Permanent Marker'
-        descriptionSelected: 'marker: Permanent Marker (Permanent Marker v1.0.0)'
-    precautions: []
-    assemblySteps:
-      - summary: Cut 0.5 Inch Trade Size 250mm Long Metal Conduit to Length
-        requiredParts:
-          - conduit-stock-length
-        requiredTools:
-          - circular-saw
-          - cutoff-wheel
-          - vise
-          - measuring-tape
-          - marker
-        details: >
-          . While following the *Circular Saw* manufacturer's instructions,
-          install the *Cutoff Wheel* into the *Circular Saw*.
-
-          . Affix the *Stock Length Metal Conduit* into the *Vise*, leaving
-          enough *Stock Length Metal Conduit* sticking out to make the cut.
-
-          . Mark the 250mm length on the *Stock Length Metal Conduit* using the
-          *Measuring Tape* and *Permanent Marker*. Make sure that there is
-          enough space marked for the width of the cutting blade!
-
-          . Using the *Circular Saw*, make the cut on the *Stock Length Metal
-          Conduit* where previously marked.
-
-          . Repeat the above steps for all of the needed lengths of *0.5 Inch
-          Trade Size 250mm Long Metal Conduit*.
-  0_5inch-trade-size-metal-conduit-stock-length:
-    name: 0_5inch-trade-size-metal-conduit-stock-length
-    version: 1.0.0
-    description: 0.5 Inch Trade Size Stock Length Metal Conduit
-    license: CC-BY-SA-4.0
-    author: Alexandria Little
-    dependencies: {}
-    components: {}
-    parts: {}
-    tools: {}
-    precautions: []
   10-pin-idc-connector:
     name: 10-pin-idc-connector
     version: 1.0.0
@@ -746,182 +559,6 @@ components:
     author: Alexandria Little
     dependencies: {}
     components:
-      0_5inch-trade-size-metal-conduit:
-        name: 0_5inch-trade-size-metal-conduit
-        version: 1.0.0
-        description: 0.5 Inch Trade Size 250mm Long Metal Conduit
-        license: CC-BY-SA-4.0
-        author: Alexandria Little
-        dependencies: {}
-        components:
-          0_5inch-trade-size-metal-conduit-stock-length:
-            name: 0_5inch-trade-size-metal-conduit-stock-length
-            version: 1.0.0
-            description: 0.5 Inch Trade Size Stock Length Metal Conduit
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          circular-saw:
-            name: circular-saw
-            version: 1.0.0
-            description: Circular Saw
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions:
-              - >-
-                A Circular Saw can cause permenent injury or death! Follow all
-                manufacturer recommended safety precautions!
-          measuring-tape:
-            name: measuring-tape
-            version: 1.0.0
-            description: Measuring Tape
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          metal-cutoff-wheel:
-            name: metal-cutoff-wheel
-            version: 1.0.0
-            description: Metal Cutoff Wheel
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          metal-jaw-vise:
-            name: metal-jaw-vise
-            version: 1.0.0
-            description: Metal Jaw Vise
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          permanent-marker:
-            name: permanent-marker
-            version: 1.0.0
-            description: Permanent Marker
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-        parts:
-          conduit-stock-length:
-            description: Stock Length Metal Conduit
-            id: conduit-stock-length
-            notes: ''
-            options:
-              - 0_5inch-trade-size-metal-conduit-stock-length
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'conduit-stock-length: Stock Length Metal Conduit'
-            descriptionSelected: >-
-              conduit-stock-length: Stock Length Metal Conduit (0.5 Inch Trade
-              Size Stock Length Metal Conduit v1.0.0)
-        tools:
-          circular-saw:
-            description: Circular Saw
-            id: circular-saw
-            notes: ''
-            options:
-              - circular-saw
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'circular-saw: Circular Saw'
-            descriptionSelected: 'circular-saw: Circular Saw (Circular Saw v1.0.0)'
-          cutoff-wheel:
-            description: Cutoff Wheel
-            id: cutoff-wheel
-            notes: >-
-              Make sure that the cutoff wheel that you purchase is compatible
-              with your cutting tool!
-            options:
-              - metal-cutoff-wheel
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'cutoff-wheel: Cutoff Wheel'
-            descriptionSelected: 'cutoff-wheel: Cutoff Wheel (Metal Cutoff Wheel v1.0.0)'
-          vise:
-            description: Vise
-            id: vise
-            notes: ''
-            options:
-              - metal-jaw-vise
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'vise: Vise'
-            descriptionSelected: 'vise: Vise (Metal Jaw Vise v1.0.0)'
-          measuring-tape:
-            description: Measuring Tape
-            id: measuring-tape
-            notes: ''
-            options:
-              - measuring-tape
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'measuring-tape: Measuring Tape'
-            descriptionSelected: 'measuring-tape: Measuring Tape (Measuring Tape v1.0.0)'
-          marker:
-            description: Permanent Marker
-            id: marker
-            notes: ''
-            options:
-              - permanent-marker
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'marker: Permanent Marker'
-            descriptionSelected: 'marker: Permanent Marker (Permanent Marker v1.0.0)'
-        precautions: []
-        assemblySteps:
-          - summary: Cut 0.5 Inch Trade Size 250mm Long Metal Conduit to Length
-            requiredParts:
-              - conduit-stock-length
-            requiredTools:
-              - circular-saw
-              - cutoff-wheel
-              - vise
-              - measuring-tape
-              - marker
-            details: >
-              . While following the *Circular Saw* manufacturer's instructions,
-              install the *Cutoff Wheel* into the *Circular Saw*.
-
-              . Affix the *Stock Length Metal Conduit* into the *Vise*, leaving
-              enough *Stock Length Metal Conduit* sticking out to make the cut.
-
-              . Mark the 250mm length on the *Stock Length Metal Conduit* using
-              the *Measuring Tape* and *Permanent Marker*. Make sure that there
-              is enough space marked for the width of the cutting blade!
-
-              . Using the *Circular Saw*, make the cut on the *Stock Length
-              Metal Conduit* where previously marked.
-
-              . Repeat the above steps for all of the needed lengths of *0.5
-              Inch Trade Size 250mm Long Metal Conduit*.
       5mm-allen-wrench:
         name: 5mm-allen-wrench
         version: 1.0.0
@@ -1288,7 +925,7 @@ components:
       fast-heated-bed-lightbulb-assembly:
         name: fast-heated-bed-lightbulb-assembly
         version: 1.0.0
-        description: Fast Heated Bed Halogen Lightbulb Assembly
+        description: Halogen Lightbulb Assembly
         license: CC-BY-SA-4.0
         author: Alexandria Little
         dependencies: {}
@@ -1456,7 +1093,7 @@ components:
             Make sure to not touch the Halogen Lightbulb in the assembly with
             bare hands or they will be damaged!
         assemblySteps:
-          - summary: Assemble Fast Heated Bed Halogen Lightbulb Assembly
+          - summary: Assemble Halogen Lightbulb Assembly
             requiredParts:
               - halogen-lightbulb
               - halogen-lightbulb-holder
@@ -1512,8 +1149,7 @@ components:
               . Repeat the above step for each of the other *Halogen Lightbulb
               Holder* part(s)*.
 
-              . The *Fast Heated Bed Halogen Lightbulb Assembly* is now
-              complete.
+              . The *Halogen Lightbulb Assembly* is now complete.
       fast-heated-bed-top-plate:
         name: fast-heated-bed-top-plate
         version: 1.0.0
@@ -1750,6 +1386,182 @@ components:
         parts: {}
         tools: {}
         precautions: []
+      metal-conduit:
+        name: metal-conduit
+        version: 1.0.0
+        description: Metal Conduit
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components:
+          circular-saw:
+            name: circular-saw
+            version: 1.0.0
+            description: Circular Saw
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions:
+              - >-
+                A Circular Saw can cause permenent injury or death! Follow all
+                manufacturer recommended safety precautions!
+          measuring-tape:
+            name: measuring-tape
+            version: 1.0.0
+            description: Measuring Tape
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          metal-conduit-stock-length:
+            name: metal-conduit-stock-length
+            version: 1.0.0
+            description: Stock Length Metal Conduit
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          metal-cutoff-wheel:
+            name: metal-cutoff-wheel
+            version: 1.0.0
+            description: Metal Cutoff Wheel
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          metal-jaw-vise:
+            name: metal-jaw-vise
+            version: 1.0.0
+            description: Metal Jaw Vise
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          permanent-marker:
+            name: permanent-marker
+            version: 1.0.0
+            description: Permanent Marker
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+        parts:
+          conduit-stock-length:
+            description: Stock Length Metal Conduit
+            id: conduit-stock-length
+            notes: ''
+            options:
+              - metal-conduit-stock-length
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'conduit-stock-length: Stock Length Metal Conduit'
+            descriptionSelected: >-
+              conduit-stock-length: Stock Length Metal Conduit (Stock Length
+              Metal Conduit v1.0.0)
+        tools:
+          circular-saw:
+            description: Circular Saw
+            id: circular-saw
+            notes: ''
+            options:
+              - circular-saw
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'circular-saw: Circular Saw'
+            descriptionSelected: 'circular-saw: Circular Saw (Circular Saw v1.0.0)'
+          cutoff-wheel:
+            description: Cutoff Wheel
+            id: cutoff-wheel
+            notes: >-
+              Make sure that the cutoff wheel that you purchase is compatible
+              with your cutting tool!
+            options:
+              - metal-cutoff-wheel
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'cutoff-wheel: Cutoff Wheel'
+            descriptionSelected: 'cutoff-wheel: Cutoff Wheel (Metal Cutoff Wheel v1.0.0)'
+          vise:
+            description: Vise
+            id: vise
+            notes: ''
+            options:
+              - metal-jaw-vise
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'vise: Vise'
+            descriptionSelected: 'vise: Vise (Metal Jaw Vise v1.0.0)'
+          measuring-tape:
+            description: Measuring Tape
+            id: measuring-tape
+            notes: ''
+            options:
+              - measuring-tape
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'measuring-tape: Measuring Tape'
+            descriptionSelected: 'measuring-tape: Measuring Tape (Measuring Tape v1.0.0)'
+          marker:
+            description: Permanent Marker
+            id: marker
+            notes: ''
+            options:
+              - permanent-marker
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'marker: Permanent Marker'
+            descriptionSelected: 'marker: Permanent Marker (Permanent Marker v1.0.0)'
+        precautions: []
+        assemblySteps:
+          - summary: Cut Metal Conduit to Length
+            requiredParts:
+              - conduit-stock-length
+            requiredTools:
+              - circular-saw
+              - cutoff-wheel
+              - vise
+              - measuring-tape
+              - marker
+            details: >
+              . While following the *Circular Saw* manufacturer's instructions,
+              install the *Cutoff Wheel* into the *Circular Saw*.
+
+              . Affix the *Stock Length Metal Conduit* into the *Vise*, leaving
+              enough *Stock Length Metal Conduit* sticking out to make the cut.
+
+              . Mark the 250mm length on the *Stock Length Metal Conduit* using
+              the *Measuring Tape* and *Permanent Marker*. Make sure that there
+              is enough space marked for the width of the cutting blade!
+
+              . Using the *Circular Saw*, make the cut on the *Stock Length
+              Metal Conduit* where previously marked.
+
+              . Repeat the above steps for all of the needed lengths of *Metal
+              Conduit*.
       ntc-100k-ohm-b3950-thermistor-cartridge:
         name: ntc-100k-ohm-b3950-thermistor-cartridge
         version: 1.0.0
@@ -1783,6 +1595,827 @@ components:
         parts: {}
         tools: {}
         precautions: []
+      universal-controller:
+        name: universal-controller
+        version: 1.0.0
+        description: Universal Controller Assembly
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components:
+          10-pin-idc-connector:
+            name: 10-pin-idc-connector
+            version: 1.0.0
+            description: 10 Pin IDC Connector Cable
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          16gb-microsd-card:
+            name: 16gb-microsd-card
+            version: 1.0.0
+            description: 16GB MicroSD Card
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          24v-power-supply:
+            name: 24v-power-supply
+            version: 1.0.0
+            description: 24V Industrial Power Supply Module
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          2_54mm-jumper-cap:
+            name: 2_54mm-jumper-cap
+            version: 1.0.0
+            description: 2.54mm Jumper Cap
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          3mm-flat-screwdriver:
+            name: 3mm-flat-screwdriver
+            version: 1.0.0
+            description: 3mm Flat Head Screwdriver
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          a4988-stepper-motor-driver:
+            name: a4988-stepper-motor-driver
+            version: 1.0.0
+            description: A4988 Stepper Motor Driver
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          arduino-mega-2560:
+            name: arduino-mega-2560
+            version: 1.0.0
+            description: Arduino Mega 2560
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          electrical-cord-nema-5-15p:
+            name: electrical-cord-nema-5-15p
+            version: 1.0.0
+            description: Electrical Cord (NEMA 5-15P)
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          electrical-plug-nema-1-15:
+            name: electrical-plug-nema-1-15
+            version: 1.0.0
+            description: Electrical Plug (NEMA 1-15)
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          electrical-solder:
+            name: electrical-solder
+            version: 1.0.0
+            description: Rosin Core Lead Free Electrical Solder
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions:
+              - >-
+                Rosin Core Lead Free Electrical Solder can contain toxic
+                chemicals! Always work in a well ventialted area and use
+                personal protection equipment!
+          electrical-tape:
+            name: electrical-tape
+            version: 1.0.0
+            description: Electrical Tape
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          ferrule:
+            name: ferrule
+            version: 1.0.0
+            description: Wire Ferrule
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          ferrule-crimper:
+            name: ferrule-crimper
+            version: 1.0.0
+            description: Wire Ferrule Crimper
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          ground-fault-connection-interrupter:
+            name: ground-fault-connection-interrupter
+            version: 1.0.0
+            description: Ground Fault Connection Interrupter (GFCI)
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          heat-shrink-tubing:
+            name: heat-shrink-tubing
+            version: 1.0.0
+            description: Heat Shrink Tubing
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          helping-hands:
+            name: helping-hands
+            version: 1.0.0
+            description: Helping Hands Clamp Stand
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          hobby-knife:
+            name: hobby-knife
+            version: 1.0.0
+            description: Hobby Knife
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          lever-wire-nut:
+            name: lever-wire-nut
+            version: 1.0.0
+            description: 2 Connection Lever Wire Nut
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          marlin-firmware:
+            name: marlin-firmware
+            version: 1.0.0
+            description: Marlin Firmware
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          microsd-to-sd-card-adapter:
+            name: microsd-to-sd-card-adapter
+            version: 1.0.0
+            description: MicroSD Card to SD Card Adapter
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          octoprint-raspberry-pi-software-image:
+            name: octoprint-raspberry-pi-software-image
+            version: 1.0.0
+            description: Octoprint Raspberry Pi Software Image
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          personal-computer:
+            name: personal-computer
+            version: 1.0.0
+            description: Personal Computer (PC)
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          phillips-2-screwdriver:
+            name: phillips-2-screwdriver
+            version: 1.0.0
+            description: '#2 Phillips Head Screwdriver'
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          ramps-1_4-board:
+            name: ramps-1_4-board
+            version: 1.0.0
+            description: RAMPS 1.4 Board
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          ramps-1_4-smart-adapter:
+            name: ramps-1_4-smart-adapter
+            version: 1.0.0
+            description: RAMPS 1.4 Smart Adapter
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          raspberry-pi-4b:
+            name: raspberry-pi-4b
+            version: 1.0.0
+            description: Raspberry Pi Model 4B
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          reprap-discount-full-graphic-smart-controller:
+            name: reprap-discount-full-graphic-smart-controller
+            version: 1.0.0
+            description: RepRap Discount Full Graphic Smart Controller
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          scissors:
+            name: scissors
+            version: 1.0.0
+            description: Scissors
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          soldering-iron:
+            name: soldering-iron
+            version: 1.0.0
+            description: Soldering Iron
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions:
+              - >-
+                A Soldering Iron gets very very hot and can burn you! Follow all
+                of the manufacturer recommended safety precautions when using a
+                Soldering Iron!
+          solid-state-relay:
+            name: solid-state-relay
+            version: 1.0.0
+            description: 40A Solid State Relay (SSR-40DA)
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          split-wire-loom:
+            name: split-wire-loom
+            version: 1.0.0
+            description: 1/2 Inch Flame Retardant Split Wire Loom
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          universal-controller-case:
+            name: universal-controller-case
+            version: 1.0.0
+            description: Universal Controller Case
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          zip-tie-large:
+            name: zip-tie-large
+            version: 1.0.0
+            description: 8 Inch Zip Tie
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          zip-tie-small:
+            name: zip-tie-small
+            version: 1.0.0
+            description: 4 Inch Zip Tie
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+        parts:
+          ramps-board:
+            description: RAMPS 1.4 Board
+            id: ramps-board
+            notes: ''
+            options:
+              - ramps-1_4-board
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'ramps-board: RAMPS 1.4 Board'
+            descriptionSelected: 'ramps-board: RAMPS 1.4 Board (RAMPS 1.4 Board v1.0.0)'
+          electrical-tape:
+            description: Electrical Tape
+            id: electrical-tape
+            notes: ''
+            options:
+              - electrical-tape
+            quantity: 1
+            quantityUnits: as needed
+            selectedOption: 0
+            descriptionLong: 'electrical-tape: Electrical Tape'
+            descriptionSelected: 'electrical-tape: Electrical Tape (Electrical Tape v1.0.0)'
+          16gb-microsd-card:
+            description: 16GB MicroSD Card
+            id: 16gb-microsd-card
+            notes: ''
+            options:
+              - 16gb-microsd-card
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: '16gb-microsd-card: 16GB MicroSD Card'
+            descriptionSelected: '16gb-microsd-card: 16GB MicroSD Card (16GB MicroSD Card v1.0.0)'
+          24v-power-supply:
+            description: 24v Power Supply Module
+            id: 24v-power-supply
+            notes: ''
+            options:
+              - 24v-power-supply
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: '24v-power-supply: 24v Power Supply Module'
+            descriptionSelected: >-
+              24v-power-supply: 24v Power Supply Module (24V Industrial Power
+              Supply Module v1.0.0)
+          arduino-mega-2560:
+            description: Arduino Mega 2560
+            id: arduino-mega-2560
+            notes: ''
+            options:
+              - arduino-mega-2560
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'arduino-mega-2560: Arduino Mega 2560'
+            descriptionSelected: 'arduino-mega-2560: Arduino Mega 2560 (Arduino Mega 2560 v1.0.0)'
+          electrical-cord:
+            description: Three Prong Electrical Cord
+            id: electrical-cord
+            notes: ''
+            options:
+              - electrical-cord-nema-5-15p
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'electrical-cord: Three Prong Electrical Cord'
+            descriptionSelected: >-
+              electrical-cord: Three Prong Electrical Cord (Electrical Cord
+              (NEMA 5-15P) v1.0.0)
+          electrical-plug:
+            description: Two Prong Electrical Plug
+            id: electrical-plug
+            notes: ''
+            options:
+              - electrical-plug-nema-1-15
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'electrical-plug: Two Prong Electrical Plug'
+            descriptionSelected: >-
+              electrical-plug: Two Prong Electrical Plug (Electrical Plug (NEMA
+              1-15) v1.0.0)
+          electrical-solder:
+            description: Electrical Solder
+            id: electrical-solder
+            notes: ''
+            options:
+              - electrical-solder
+            quantity: 1
+            quantityUnits: applications
+            selectedOption: 0
+            descriptionLong: 'electrical-solder: Electrical Solder'
+            descriptionSelected: >-
+              electrical-solder: Electrical Solder (Rosin Core Lead Free
+              Electrical Solder v1.0.0)
+          ferrule:
+            description: Ferrule
+            id: ferrule
+            notes: ''
+            options:
+              - ferrule
+            quantity: 20
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'ferrule: Ferrule'
+            descriptionSelected: 'ferrule: Ferrule (Wire Ferrule v1.0.0)'
+          gfci:
+            description: GFCI
+            id: gfci
+            notes: ''
+            options:
+              - ground-fault-connection-interrupter
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'gfci: GFCI'
+            descriptionSelected: 'gfci: GFCI (Ground Fault Connection Interrupter (GFCI) v1.0.0)'
+          heat-shrink-tubing:
+            description: Heat Shrink Tubing
+            id: heat-shrink-tubing
+            notes: ''
+            options:
+              - heat-shrink-tubing
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'heat-shrink-tubing: Heat Shrink Tubing'
+            descriptionSelected: 'heat-shrink-tubing: Heat Shrink Tubing (Heat Shrink Tubing v1.0.0)'
+          lever-wire-nut:
+            description: Lever Wire Nut
+            id: lever-wire-nut
+            notes: ''
+            options:
+              - lever-wire-nut
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'lever-wire-nut: Lever Wire Nut'
+            descriptionSelected: >-
+              lever-wire-nut: Lever Wire Nut (2 Connection Lever Wire Nut
+              v1.0.0)
+          microsd-to-sd-card-adapter:
+            description: MicroSD to SD Card Adapter
+            id: microsd-to-sd-card-adapter
+            notes: ''
+            options:
+              - microsd-to-sd-card-adapter
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'microsd-to-sd-card-adapter: MicroSD to SD Card Adapter'
+            descriptionSelected: >-
+              microsd-to-sd-card-adapter: MicroSD to SD Card Adapter (MicroSD
+              Card to SD Card Adapter v1.0.0)
+          raspberry-pi:
+            description: Raspberry Pi Computer
+            id: raspberry-pi
+            notes: ''
+            options:
+              - raspberry-pi-4b
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'raspberry-pi: Raspberry Pi Computer'
+            descriptionSelected: 'raspberry-pi: Raspberry Pi Computer (Raspberry Pi Model 4B v1.0.0)'
+          reprap-controller:
+            description: RepRap Discount Full Graphic Smart Controller
+            id: reprap-controller
+            notes: ''
+            options:
+              - reprap-discount-full-graphic-smart-controller
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'reprap-controller: RepRap Discount Full Graphic Smart Controller'
+            descriptionSelected: >-
+              reprap-controller: RepRap Discount Full Graphic Smart Controller
+              (RepRap Discount Full Graphic Smart Controller v1.0.0)
+          solid-state-relay:
+            description: Solid State Relay (SSR)
+            id: solid-state-relay
+            notes: ''
+            options:
+              - solid-state-relay
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'solid-state-relay: Solid State Relay (SSR)'
+            descriptionSelected: >-
+              solid-state-relay: Solid State Relay (SSR) (40A Solid State Relay
+              (SSR-40DA) v1.0.0)
+          split-wire-loom:
+            description: Split Wire Loom
+            id: split-wire-loom
+            notes: ''
+            options:
+              - split-wire-loom
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'split-wire-loom: Split Wire Loom'
+            descriptionSelected: >-
+              split-wire-loom: Split Wire Loom (1/2 Inch Flame Retardant Split
+              Wire Loom v1.0.0)
+          case:
+            description: Universal Controller Case
+            id: case
+            notes: ''
+            options:
+              - universal-controller-case
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'case: Universal Controller Case'
+            descriptionSelected: 'case: Universal Controller Case (Universal Controller Case v1.0.0)'
+          zip-tie-large:
+            description: Large Zip Tie
+            id: zip-tie-large
+            notes: ''
+            options:
+              - zip-tie-large
+            quantity: 20
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: 'zip-tie-large: Large Zip Tie'
+            descriptionSelected: 'zip-tie-large: Large Zip Tie (8 Inch Zip Tie v1.0.0)'
+          zip-tie-small:
+            description: Small Zip Tie
+            id: zip-tie-small
+            notes: ''
+            options:
+              - zip-tie-small
+            quantity: 20
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: 'zip-tie-small: Small Zip Tie'
+            descriptionSelected: 'zip-tie-small: Small Zip Tie (4 Inch Zip Tie v1.0.0)'
+          a4988-stepper-motor-driver:
+            description: A4988 Stepper Motor Driver
+            id: a4988-stepper-motor-driver
+            notes: ''
+            options:
+              - a4988-stepper-motor-driver
+            quantity: 5
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: 'a4988-stepper-motor-driver: A4988 Stepper Motor Driver'
+            descriptionSelected: >-
+              a4988-stepper-motor-driver: A4988 Stepper Motor Driver (A4988
+              Stepper Motor Driver v1.0.0)
+          jumper:
+            description: Jumper Cap
+            id: jumper
+            notes: ''
+            options:
+              - 2_54mm-jumper-cap
+            quantity: 15
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: 'jumper: Jumper Cap'
+            descriptionSelected: 'jumper: Jumper Cap (2.54mm Jumper Cap v1.0.0)'
+          10-pin-idc-connector:
+            description: 10 Pin IDC Conector
+            id: 10-pin-idc-connector
+            notes: ''
+            options:
+              - 10-pin-idc-connector
+            quantity: 2
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: '10-pin-idc-connector: 10 Pin IDC Conector'
+            descriptionSelected: >-
+              10-pin-idc-connector: 10 Pin IDC Conector (10 Pin IDC Connector
+              Cable v1.0.0)
+          ramps-1_4-smart-adapter:
+            description: RAMPS 1.4 Smart Adapter
+            id: ramps-1_4-smart-adapter
+            notes: ''
+            options:
+              - ramps-1_4-smart-adapter
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'ramps-1_4-smart-adapter: RAMPS 1.4 Smart Adapter'
+            descriptionSelected: >-
+              ramps-1_4-smart-adapter: RAMPS 1.4 Smart Adapter (RAMPS 1.4 Smart
+              Adapter v1.0.0)
+          marlin-firmware:
+            description: Marlin Firmware
+            id: marlin-firmware
+            notes: ''
+            options:
+              - marlin-firmware
+            quantity: 1
+            quantityUnits: image
+            selectedOption: 0
+            descriptionLong: 'marlin-firmware: Marlin Firmware'
+            descriptionSelected: 'marlin-firmware: Marlin Firmware (Marlin Firmware v1.0.0)'
+          octoprint-raspberry-pi-software-image:
+            description: Octoprint Raspberry Pi Software Image
+            id: octoprint-raspberry-pi-software-image
+            notes: ''
+            options:
+              - octoprint-raspberry-pi-software-image
+            quantity: 1
+            quantityUnits: image
+            selectedOption: 0
+            descriptionLong: >-
+              octoprint-raspberry-pi-software-image: Octoprint Raspberry Pi
+              Software Image
+            descriptionSelected: >-
+              octoprint-raspberry-pi-software-image: Octoprint Raspberry Pi
+              Software Image (Octoprint Raspberry Pi Software Image v1.0.0)
+        tools:
+          3mm-flat-screwdriver:
+            description: 3mm Flat Head Screwdriver
+            id: 3mm-flat-screwdriver
+            notes: ''
+            options:
+              - 3mm-flat-screwdriver
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: '3mm-flat-screwdriver: 3mm Flat Head Screwdriver'
+            descriptionSelected: >-
+              3mm-flat-screwdriver: 3mm Flat Head Screwdriver (3mm Flat Head
+              Screwdriver v1.0.0)
+          phillips-2-screwdriver:
+            description: 'Phillips Head #2 Screwdriver'
+            id: phillips-2-screwdriver
+            notes: ''
+            options:
+              - phillips-2-screwdriver
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'phillips-2-screwdriver: Phillips Head #2 Screwdriver'
+            descriptionSelected: >-
+              phillips-2-screwdriver: Phillips Head #2 Screwdriver (#2 Phillips
+              Head Screwdriver v1.0.0)
+          hobby-knife:
+            description: Hobby Knife
+            id: hobby-knife
+            notes: ''
+            options:
+              - hobby-knife
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'hobby-knife: Hobby Knife'
+            descriptionSelected: 'hobby-knife: Hobby Knife (Hobby Knife v1.0.0)'
+          scissors:
+            description: Scissors
+            id: scissors
+            notes: ''
+            options:
+              - scissors
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'scissors: Scissors'
+            descriptionSelected: 'scissors: Scissors (Scissors v1.0.0)'
+          helping-hands:
+            description: Helping Hands
+            id: helping-hands
+            notes: ''
+            options:
+              - helping-hands
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'helping-hands: Helping Hands'
+            descriptionSelected: 'helping-hands: Helping Hands (Helping Hands Clamp Stand v1.0.0)'
+          soldering-iron:
+            description: Soldering Iron
+            id: soldering-iron
+            notes: ''
+            options:
+              - soldering-iron
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'soldering-iron: Soldering Iron'
+            descriptionSelected: 'soldering-iron: Soldering Iron (Soldering Iron v1.0.0)'
+          ferrule-crimper:
+            description: Ferrule Crimper
+            id: ferrule-crimper
+            notes: ''
+            options:
+              - ferrule-crimper
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'ferrule-crimper: Ferrule Crimper'
+            descriptionSelected: 'ferrule-crimper: Ferrule Crimper (Wire Ferrule Crimper v1.0.0)'
+          microsd-to-sd-card-adapter:
+            description: MicroSD to SD Card Adapter
+            id: microsd-to-sd-card-adapter
+            notes: ''
+            options:
+              - microsd-to-sd-card-adapter
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'microsd-to-sd-card-adapter: MicroSD to SD Card Adapter'
+            descriptionSelected: >-
+              microsd-to-sd-card-adapter: MicroSD to SD Card Adapter (MicroSD
+              Card to SD Card Adapter v1.0.0)
+          pc:
+            description: PC
+            id: pc
+            notes: ''
+            options:
+              - personal-computer
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'pc: PC'
+            descriptionSelected: 'pc: PC (Personal Computer (PC) v1.0.0)'
+        precautions: []
+        assemblySteps:
+          - summary: Clean 3D Printed Parts
+            requiredParts:
+              - null
+            requiredTools:
+              - hobby-knife
+            details: >
+              . Use the *Hobby Knife* to clean any extra plastic off of the 3D
+              printed components.
     parts:
       8mm-rod:
         description: 8mm Rod
@@ -1806,6 +2439,19 @@ components:
         selectedOption: 0
         descriptionLong: 'autoparallel: Autoparallel'
         descriptionSelected: 'autoparallel: Autoparallel (Autoparallel Part v1.0.0)'
+      top-plate:
+        description: Fast Heated Bed Top Plate
+        id: top-plate
+        notes: ''
+        options:
+          - fast-heated-bed-top-plate
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'top-plate: Fast Heated Bed Top Plate'
+        descriptionSelected: >-
+          top-plate: Fast Heated Bed Top Plate (Fast Heated Bed Top Plate
+          v1.0.0)
       bottom-plate:
         description: Fast Heated Bed Bottom Plate
         id: bottom-plate
@@ -1835,14 +2481,12 @@ components:
         id: conduit
         notes: ''
         options:
-          - 0_5inch-trade-size-metal-conduit
+          - metal-conduit
         quantity: 4
         quantityUnits: part(s)
         selectedOption: 0
         descriptionLong: 'conduit: Metal Conduit'
-        descriptionSelected: >-
-          conduit: Metal Conduit (0.5 Inch Trade Size 250mm Long Metal Conduit
-          v1.0.0)
+        descriptionSelected: 'conduit: Metal Conduit (Metal Conduit v1.0.0)'
       corner-brace:
         description: Corner Brace
         id: corner-brace
@@ -1867,8 +2511,8 @@ components:
         selectedOption: 0
         descriptionLong: 'lightbulb-assembly: Halogen Lightbulb Assembly'
         descriptionSelected: >-
-          lightbulb-assembly: Halogen Lightbulb Assembly (Fast Heated Bed
-          Halogen Lightbulb Assembly v1.0.0)
+          lightbulb-assembly: Halogen Lightbulb Assembly (Halogen Lightbulb
+          Assembly v1.0.0)
       m6-20mm-screw:
         description: M6 x 20mm Screw
         id: m6-20mm-screw
@@ -1930,19 +2574,6 @@ components:
         descriptionSelected: >-
           thermistor: Thermistor (NTC 100K ohm B3950 Thermistor Cartridge
           v1.0.0)
-      top-plate:
-        description: Fast Heated Bed Top Plate
-        id: top-plate
-        notes: ''
-        options:
-          - fast-heated-bed-top-plate
-        quantity: 1
-        quantityUnits: part
-        selectedOption: 0
-        descriptionLong: 'top-plate: Fast Heated Bed Top Plate'
-        descriptionSelected: >-
-          top-plate: Fast Heated Bed Top Plate (Fast Heated Bed Top Plate
-          v1.0.0)
     tools:
       pliers:
         description: Slip Joint Pliers
@@ -1976,7 +2607,66 @@ components:
         quantityUnits: part
         selectedOption: 0
         descriptionLong: 'universal-controller: Universal COntroller'
+        descriptionSelected: >-
+          universal-controller: Universal COntroller (Universal Controller
+          Assembly v1.0.0)
     precautions: []
+    assemblySteps:
+      - summary: Assemble Fast Heated Bed Module
+        requiredParts: []
+        requiredTools: []
+        details: >
+          . Slide one *Carbon Fiber Blanket Sleeve* part(s) over one *Metal
+          Conduit* so that the *Metal Conduit* is in the middle of the *Carbon
+          Fiber Blanket Sleeve*.
+
+          . Repeat the above step for the three other pairs of *Carbon Fiber
+          Blanket Sleeve* part(s) and *Metal Conduit* part(s).
+
+          . Orient the *Fast Heated Bed Top Plate* so that the screws are on
+          top.
+
+          . Take one of the *Metal Conduit* / *Carbon Fiber Blanket Sleeve*
+          part(s) and align the "X" cuts on the ends of the *Carbon Fiber
+          Blanket Sleeve* with two bolts on the side of the *Fast Heated Bed Top
+          Plate*. 
+
+          . Repeat the above step for all four sides of the *Fast Heated Bed Top
+          Plate*.
+
+          . Without touching the bulbs, place the *Halogen Lightbulb Assembly*
+          onto the center of the *Fast Heated Bed Top Plate*.
+
+          . Pull the wires of the *Halogen Lightbulb Assembly* out past one side
+          of the *Fast Heated Bed Top Plate* so that the wires can be reached in
+          a later step.
+
+          . Take four *M6 Nut* part(s) and screw one onto every screw on the
+          *Fast Heated Bed Top Plate*.
+
+          . Position the *Fast Heated Bed Bottom Plate* onto the screws of the
+          *Fast Heated Bed Top Plate. The *Fast Heated Bed Bottom Plate* should
+          rest on top of the *M6 Nut* part(s) from the previous step.
+
+          . Take four *M6 Nut* part(s) and screw one onto every screw on the
+          *Fast Heated Bed Top Plate* above the *Fast Heated Bed Bottom Plate*.
+          Tighten them down by hand; the final adjustment will take place later.
+
+          . Gently flip the *Fast Heated Bed Module* over so that the *Fast
+          Heated Bed Top Plate* is on top.
+
+          . Take the *PEI Sheet* and peel away the corner of the covering of the
+          adhesive side of the part
+
+          . Align the exposed adhesive corner of the *PEI Sheet* with the
+          machine cut side of the *Fast Heated Bed Top Plate*.
+
+          . Apply even and gentle pressure to the *PEI Sheet* to begin to stick
+          it to the surface of the *Fast Heated Bed Top Plate*.
+
+          . While keeping the edges aligned, peel back more of the adhesive
+          covering and apply more even pressure across the surface of the *PEI
+          Sheet* until the *part* is fully adheared.
   fast-heated-bed-bottom-plate:
     name: fast-heated-bed-bottom-plate
     version: 1.0.0
@@ -2163,7 +2853,7 @@ components:
   fast-heated-bed-lightbulb-assembly:
     name: fast-heated-bed-lightbulb-assembly
     version: 1.0.0
-    description: Fast Heated Bed Halogen Lightbulb Assembly
+    description: Halogen Lightbulb Assembly
     license: CC-BY-SA-4.0
     author: Alexandria Little
     dependencies: {}
@@ -2329,7 +3019,7 @@ components:
         Make sure to not touch the Halogen Lightbulb in the assembly with bare
         hands or they will be damaged!
     assemblySteps:
-      - summary: Assemble Fast Heated Bed Halogen Lightbulb Assembly
+      - summary: Assemble Halogen Lightbulb Assembly
         requiredParts:
           - halogen-lightbulb
           - halogen-lightbulb-holder
@@ -2382,7 +3072,7 @@ components:
           . Repeat the above step for each of the other *Halogen Lightbulb
           Holder* part(s)*.
 
-          . The *Fast Heated Bed Halogen Lightbulb Assembly* is now complete.
+          . The *Halogen Lightbulb Assembly* is now complete.
   fast-heated-bed-plate-jig:
     name: fast-heated-bed-plate-jig
     version: 1.0.0
@@ -3584,6 +4274,193 @@ components:
     parts: {}
     tools: {}
     precautions: []
+  metal-conduit:
+    name: metal-conduit
+    version: 1.0.0
+    description: Metal Conduit
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components:
+      circular-saw:
+        name: circular-saw
+        version: 1.0.0
+        description: Circular Saw
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions:
+          - >-
+            A Circular Saw can cause permenent injury or death! Follow all
+            manufacturer recommended safety precautions!
+      measuring-tape:
+        name: measuring-tape
+        version: 1.0.0
+        description: Measuring Tape
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      metal-conduit-stock-length:
+        name: metal-conduit-stock-length
+        version: 1.0.0
+        description: Stock Length Metal Conduit
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      metal-cutoff-wheel:
+        name: metal-cutoff-wheel
+        version: 1.0.0
+        description: Metal Cutoff Wheel
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      metal-jaw-vise:
+        name: metal-jaw-vise
+        version: 1.0.0
+        description: Metal Jaw Vise
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      permanent-marker:
+        name: permanent-marker
+        version: 1.0.0
+        description: Permanent Marker
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+    parts:
+      conduit-stock-length:
+        description: Stock Length Metal Conduit
+        id: conduit-stock-length
+        notes: ''
+        options:
+          - metal-conduit-stock-length
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'conduit-stock-length: Stock Length Metal Conduit'
+        descriptionSelected: >-
+          conduit-stock-length: Stock Length Metal Conduit (Stock Length Metal
+          Conduit v1.0.0)
+    tools:
+      circular-saw:
+        description: Circular Saw
+        id: circular-saw
+        notes: ''
+        options:
+          - circular-saw
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'circular-saw: Circular Saw'
+        descriptionSelected: 'circular-saw: Circular Saw (Circular Saw v1.0.0)'
+      cutoff-wheel:
+        description: Cutoff Wheel
+        id: cutoff-wheel
+        notes: >-
+          Make sure that the cutoff wheel that you purchase is compatible with
+          your cutting tool!
+        options:
+          - metal-cutoff-wheel
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'cutoff-wheel: Cutoff Wheel'
+        descriptionSelected: 'cutoff-wheel: Cutoff Wheel (Metal Cutoff Wheel v1.0.0)'
+      vise:
+        description: Vise
+        id: vise
+        notes: ''
+        options:
+          - metal-jaw-vise
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'vise: Vise'
+        descriptionSelected: 'vise: Vise (Metal Jaw Vise v1.0.0)'
+      measuring-tape:
+        description: Measuring Tape
+        id: measuring-tape
+        notes: ''
+        options:
+          - measuring-tape
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'measuring-tape: Measuring Tape'
+        descriptionSelected: 'measuring-tape: Measuring Tape (Measuring Tape v1.0.0)'
+      marker:
+        description: Permanent Marker
+        id: marker
+        notes: ''
+        options:
+          - permanent-marker
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'marker: Permanent Marker'
+        descriptionSelected: 'marker: Permanent Marker (Permanent Marker v1.0.0)'
+    precautions: []
+    assemblySteps:
+      - summary: Cut Metal Conduit to Length
+        requiredParts:
+          - conduit-stock-length
+        requiredTools:
+          - circular-saw
+          - cutoff-wheel
+          - vise
+          - measuring-tape
+          - marker
+        details: >
+          . While following the *Circular Saw* manufacturer's instructions,
+          install the *Cutoff Wheel* into the *Circular Saw*.
+
+          . Affix the *Stock Length Metal Conduit* into the *Vise*, leaving
+          enough *Stock Length Metal Conduit* sticking out to make the cut.
+
+          . Mark the 250mm length on the *Stock Length Metal Conduit* using the
+          *Measuring Tape* and *Permanent Marker*. Make sure that there is
+          enough space marked for the width of the cutting blade!
+
+          . Using the *Circular Saw*, make the cut on the *Stock Length Metal
+          Conduit* where previously marked.
+
+          . Repeat the above steps for all of the needed lengths of *Metal
+          Conduit*.
+  metal-conduit-stock-length:
+    name: metal-conduit-stock-length
+    version: 1.0.0
+    description: Stock Length Metal Conduit
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
   metal-cutoff-wheel:
     name: metal-cutoff-wheel
     version: 1.0.0
@@ -3848,7 +4725,7 @@ components:
   rebar-stake:
     name: rebar-stake
     version: 1.0.0
-    description: 12.7mm x 450mm Rebar Stake
+    description: Rebar Stake
     license: CC-BY-SA-4.0
     author: Alexandria Little
     dependencies: {}
@@ -3996,7 +4873,7 @@ components:
         descriptionSelected: 'marker: Permanent Marker (Permanent Marker v1.0.0)'
     precautions: []
     assemblySteps:
-      - summary: Cut 12.7mm x 450mm Rebar Stake to Length
+      - summary: Cut Rebar Stake to Length
         requiredParts:
           - rebar-stake-stock-length
         requiredTools:
@@ -4019,8 +4896,8 @@ components:
           . Using the *Circular Saw*, make the cut on the *Rebar Stake Stock
           Length* where previously marked.
 
-          . Repeat the above steps for all of the needed lengths of *12.7mm x
-          450mm Rebar Stake*.
+          . Repeat the above steps for all of the needed lengths of *Rebar
+          Stake*.
   rebar-stake-stock-length:
     name: rebar-stake-stock-length
     version: 1.0.0
@@ -10877,7 +11754,7 @@ components:
       rebar-stake:
         name: rebar-stake
         version: 1.0.0
-        description: 12.7mm x 450mm Rebar Stake
+        description: Rebar Stake
         license: CC-BY-SA-4.0
         author: Alexandria Little
         dependencies: {}
@@ -11025,7 +11902,7 @@ components:
             descriptionSelected: 'marker: Permanent Marker (Permanent Marker v1.0.0)'
         precautions: []
         assemblySteps:
-          - summary: Cut 12.7mm x 450mm Rebar Stake to Length
+          - summary: Cut Rebar Stake to Length
             requiredParts:
               - rebar-stake-stock-length
             requiredTools:
@@ -11048,8 +11925,8 @@ components:
               . Using the *Circular Saw*, make the cut on the *Rebar Stake Stock
               Length* where previously marked.
 
-              . Repeat the above steps for all of the needed lengths of *12.7mm
-              x 450mm Rebar Stake*.
+              . Repeat the above steps for all of the needed lengths of *Rebar
+              Stake*.
       universal-frame-base:
         name: universal-frame-base
         version: 1.0.0
@@ -11105,7 +11982,7 @@ components:
           rebar-stake:
             name: rebar-stake
             version: 1.0.0
-            description: 12.7mm x 450mm Rebar Stake
+            description: Rebar Stake
             license: CC-BY-SA-4.0
             author: Alexandria Little
             dependencies: {}
@@ -11253,7 +12130,7 @@ components:
                 descriptionSelected: 'marker: Permanent Marker (Permanent Marker v1.0.0)'
             precautions: []
             assemblySteps:
-              - summary: Cut 12.7mm x 450mm Rebar Stake to Length
+              - summary: Cut Rebar Stake to Length
                 requiredParts:
                   - rebar-stake-stock-length
                 requiredTools:
@@ -11280,7 +12157,7 @@ components:
                   Stock Length* where previously marked.
 
                   . Repeat the above steps for all of the needed lengths of
-                  *12.7mm x 450mm Rebar Stake*.
+                  *Rebar Stake*.
           universal-frame-corner-connector:
             name: universal-frame-corner-connector
             version: 1.0.0
@@ -11303,7 +12180,7 @@ components:
             quantityUnits: part(s)
             selectedOption: 0
             descriptionLong: 'rebar-stake: Rebar Stake'
-            descriptionSelected: 'rebar-stake: Rebar Stake (12.7mm x 450mm Rebar Stake v1.0.0)'
+            descriptionSelected: 'rebar-stake: Rebar Stake (Rebar Stake v1.0.0)'
           m6-20mm-screw:
             description: M6 x 20mm Screw
             id: m6-20mm-screw
@@ -11522,7 +12399,7 @@ components:
           rebar-stake:
             name: rebar-stake
             version: 1.0.0
-            description: 12.7mm x 450mm Rebar Stake
+            description: Rebar Stake
             license: CC-BY-SA-4.0
             author: Alexandria Little
             dependencies: {}
@@ -11670,7 +12547,7 @@ components:
                 descriptionSelected: 'marker: Permanent Marker (Permanent Marker v1.0.0)'
             precautions: []
             assemblySteps:
-              - summary: Cut 12.7mm x 450mm Rebar Stake to Length
+              - summary: Cut Rebar Stake to Length
                 requiredParts:
                   - rebar-stake-stock-length
                 requiredTools:
@@ -11697,7 +12574,7 @@ components:
                   Stock Length* where previously marked.
 
                   . Repeat the above steps for all of the needed lengths of
-                  *12.7mm x 450mm Rebar Stake*.
+                  *Rebar Stake*.
           universal-frame-corner-connector-left:
             name: universal-frame-corner-connector-left
             version: 1.0.0
@@ -11731,7 +12608,7 @@ components:
             quantityUnits: part(s)
             selectedOption: 0
             descriptionLong: 'rebar-stake: Rebar Stake'
-            descriptionSelected: 'rebar-stake: Rebar Stake (12.7mm x 450mm Rebar Stake v1.0.0)'
+            descriptionSelected: 'rebar-stake: Rebar Stake (Rebar Stake v1.0.0)'
           m6-20mm-screw:
             description: M6 x 20mm Screw
             id: m6-20mm-screw
@@ -11895,7 +12772,7 @@ components:
         quantityUnits: part(s)
         selectedOption: 0
         descriptionLong: 'rebar-stake: Rebar Stake'
-        descriptionSelected: 'rebar-stake: Rebar Stake (12.7mm x 450mm Rebar Stake v1.0.0)'
+        descriptionSelected: 'rebar-stake: Rebar Stake (Rebar Stake v1.0.0)'
       universal-frame-base:
         description: Universal Frame Base
         id: universal-frame-base
@@ -12027,7 +12904,7 @@ components:
       rebar-stake:
         name: rebar-stake
         version: 1.0.0
-        description: 12.7mm x 450mm Rebar Stake
+        description: Rebar Stake
         license: CC-BY-SA-4.0
         author: Alexandria Little
         dependencies: {}
@@ -12175,7 +13052,7 @@ components:
             descriptionSelected: 'marker: Permanent Marker (Permanent Marker v1.0.0)'
         precautions: []
         assemblySteps:
-          - summary: Cut 12.7mm x 450mm Rebar Stake to Length
+          - summary: Cut Rebar Stake to Length
             requiredParts:
               - rebar-stake-stock-length
             requiredTools:
@@ -12198,8 +13075,8 @@ components:
               . Using the *Circular Saw*, make the cut on the *Rebar Stake Stock
               Length* where previously marked.
 
-              . Repeat the above steps for all of the needed lengths of *12.7mm
-              x 450mm Rebar Stake*.
+              . Repeat the above steps for all of the needed lengths of *Rebar
+              Stake*.
       universal-frame-corner-connector:
         name: universal-frame-corner-connector
         version: 1.0.0
@@ -12222,7 +13099,7 @@ components:
         quantityUnits: part(s)
         selectedOption: 0
         descriptionLong: 'rebar-stake: Rebar Stake'
-        descriptionSelected: 'rebar-stake: Rebar Stake (12.7mm x 450mm Rebar Stake v1.0.0)'
+        descriptionSelected: 'rebar-stake: Rebar Stake (Rebar Stake v1.0.0)'
       m6-20mm-screw:
         description: M6 x 20mm Screw
         id: m6-20mm-screw
@@ -12440,7 +13317,7 @@ components:
       rebar-stake:
         name: rebar-stake
         version: 1.0.0
-        description: 12.7mm x 450mm Rebar Stake
+        description: Rebar Stake
         license: CC-BY-SA-4.0
         author: Alexandria Little
         dependencies: {}
@@ -12588,7 +13465,7 @@ components:
             descriptionSelected: 'marker: Permanent Marker (Permanent Marker v1.0.0)'
         precautions: []
         assemblySteps:
-          - summary: Cut 12.7mm x 450mm Rebar Stake to Length
+          - summary: Cut Rebar Stake to Length
             requiredParts:
               - rebar-stake-stock-length
             requiredTools:
@@ -12611,8 +13488,8 @@ components:
               . Using the *Circular Saw*, make the cut on the *Rebar Stake Stock
               Length* where previously marked.
 
-              . Repeat the above steps for all of the needed lengths of *12.7mm
-              x 450mm Rebar Stake*.
+              . Repeat the above steps for all of the needed lengths of *Rebar
+              Stake*.
       universal-frame-corner-connector-left:
         name: universal-frame-corner-connector-left
         version: 1.0.0
@@ -12646,7 +13523,7 @@ components:
         quantityUnits: part(s)
         selectedOption: 0
         descriptionLong: 'rebar-stake: Rebar Stake'
-        descriptionSelected: 'rebar-stake: Rebar Stake (12.7mm x 450mm Rebar Stake v1.0.0)'
+        descriptionSelected: 'rebar-stake: Rebar Stake (Rebar Stake v1.0.0)'
       m6-20mm-screw:
         description: M6 x 20mm Screw
         id: m6-20mm-screw
