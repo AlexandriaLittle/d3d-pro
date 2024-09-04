@@ -17,7 +17,7 @@ pliers:
   quantityUnits: part
   selectedOption: 0
 universal-controller:
-  description: Universal COntroller
+  description: Universal Controller
   id: universal-controller
   notes: ''
   options:
