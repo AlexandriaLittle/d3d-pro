@@ -16,6 +16,15 @@ autoparallel:
   quantity: 2
   quantityUnits: part(s)
   selectedOption: 0
+top-plate:
+  description: Fast Heated Bed Top Plate
+  id: top-plate
+  notes: ''
+  options:
+    - fast-heated-bed-top-plate
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
 bottom-plate:
   description: Fast Heated Bed Bottom Plate
   id: bottom-plate
@@ -103,15 +112,6 @@ thermistor:
   notes: ''
   options:
     - ntc-100k-ohm-b3950-thermistor-cartridge
-  quantity: 1
-  quantityUnits: part
-  selectedOption: 0
-top-plate:
-  description: Fast Heated Bed Top Plate
-  id: top-plate
-  notes: ''
-  options:
-    - fast-heated-bed-top-plate
   quantity: 1
   quantityUnits: part
   selectedOption: 0
