@@ -34,9 +34,9 @@ electrical-tape:
   quantity: 1
   quantityUnits: part
   selectedOption: 0
-arduino-mega-2560:
+arduino:
   description: Arduino Mega 2560
-  id: arduino-mega-2560
+  id: arduino
   notes: ''
   options:
     - arduino-mega-2560
@@ -223,9 +223,9 @@ marlin-firmware:
   quantity: 1
   quantityUnits: image
   selectedOption: 0
-octoprint-raspberry-pi-software-image:
+raspberry-pi-image:
   description: Octoprint Raspberry Pi Software Image
-  id: octoprint-raspberry-pi-software-image
+  id: raspberry-pi-image
   notes: ''
   options:
     - octoprint-raspberry-pi-software-image
