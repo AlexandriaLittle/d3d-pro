@@ -129,7 +129,7 @@ endif::[]
 
 
 |1 part
-|arduino-mega-2560
+|arduino
 |Arduino Mega 2560
 |Arduino Mega 2560 v1.0.0
 |
@@ -297,7 +297,7 @@ endif::[]
 
 
 |1 image
-|octoprint-raspberry-pi-software-image
+|raspberry-pi-image
 |Octoprint Raspberry Pi Software Image
 |Octoprint Raspberry Pi Software Image v1.0.0
 |
@@ -490,6 +490,286 @@ endif::[]
 *Instructions*
 
 . Use the *Hobby Knife* to clean any extra plastic off of the 3D printed components.
+
+
+
+
+// summary
+
+==== Assemble custom wires
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. 
+
+
+
+
+// summary
+
+==== Assemble the RAMPS 1.4 Board
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. 
+
+
+
+
+// summary
+
+==== Flash firmware on the Arduino Mega 2560
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. 
+
+
+
+
+// summary
+
+==== Flash the Octoprint Raspberry Pi Software Image onto the 16GB MicroSD Card
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. 
+
+
+
+
+// summary
+
+==== Set up WIFI on the Raspberry Pi Computer
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. 
+
+
+
+
+// summary
+
+==== Configure Octoprint Raspberry Pi Software Image for use
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. 
+
+
+
+
+// summary
+
+==== Attach components to the Universal Controller Case
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. 
+
+
+
+
+// summary
+
+==== Wire the GFCI
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. 
+
+
+
+
+// summary
+
+==== Wire the Two Prong Electrical Plug
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. 
+
+
+
+
+// summary
+
+==== Wire the 24v Power Supply Module
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. 
+
+
+
+
+// summary
+
+==== Wire the Solid State Relay (SSR)
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. 
+
+
+
+
+// summary
+
+==== Wire the Raspberry Pi Computer
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. 
+
+
+
+
+// summary
+
+==== Wire the RAMPS 1.4 Board
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. 
+
+
+
+
+// summary
+
+==== Test the Universal Controller Assembly
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. 
 
 
 

@@ -2032,17 +2032,17 @@ components:
             descriptionSelected: >-
               24v-power-supply: 24v Power Supply Module (24V Industrial Power
               Supply Module v1.0.0)
-          arduino-mega-2560:
+          arduino:
             description: Arduino Mega 2560
-            id: arduino-mega-2560
+            id: arduino
             notes: ''
             options:
               - arduino-mega-2560
             quantity: 1
             quantityUnits: part
             selectedOption: 0
-            descriptionLong: 'arduino-mega-2560: Arduino Mega 2560'
-            descriptionSelected: 'arduino-mega-2560: Arduino Mega 2560 (Arduino Mega 2560 v1.0.0)'
+            descriptionLong: 'arduino: Arduino Mega 2560'
+            descriptionSelected: 'arduino: Arduino Mega 2560 (Arduino Mega 2560 v1.0.0)'
           electrical-cord:
             description: Three Prong Electrical Cord
             id: electrical-cord
@@ -2285,21 +2285,19 @@ components:
             selectedOption: 0
             descriptionLong: 'marlin-firmware: Marlin Firmware'
             descriptionSelected: 'marlin-firmware: Marlin Firmware (Marlin Firmware v1.0.0)'
-          octoprint-raspberry-pi-software-image:
+          raspberry-pi-image:
             description: Octoprint Raspberry Pi Software Image
-            id: octoprint-raspberry-pi-software-image
+            id: raspberry-pi-image
             notes: ''
             options:
               - octoprint-raspberry-pi-software-image
             quantity: 1
             quantityUnits: image
             selectedOption: 0
-            descriptionLong: >-
-              octoprint-raspberry-pi-software-image: Octoprint Raspberry Pi
-              Software Image
+            descriptionLong: 'raspberry-pi-image: Octoprint Raspberry Pi Software Image'
             descriptionSelected: >-
-              octoprint-raspberry-pi-software-image: Octoprint Raspberry Pi
-              Software Image (Octoprint Raspberry Pi Software Image v1.0.0)
+              raspberry-pi-image: Octoprint Raspberry Pi Software Image
+              (Octoprint Raspberry Pi Software Image v1.0.0)
         tools:
           3mm-flat-screwdriver:
             description: 3mm Flat Head Screwdriver
@@ -2416,6 +2414,78 @@ components:
             details: >
               . Use the *Hobby Knife* to clean any extra plastic off of the 3D
               printed components.
+          - summary: Assemble custom wires
+            requiredParts: []
+            requiredTools: []
+            details: |
+              . 
+          - summary: Assemble the RAMPS 1.4 Board
+            requiredParts: []
+            requiredTools: []
+            details: |
+              . 
+          - summary: Flash firmware on the Arduino Mega 2560
+            requiredParts: []
+            requiredTools: []
+            details: |
+              . 
+          - summary: >-
+              Flash the Octoprint Raspberry Pi Software Image onto the 16GB
+              MicroSD Card
+            requiredParts: []
+            requiredTools: []
+            details: |
+              . 
+          - summary: Set up WIFI on the Raspberry Pi Computer
+            requiredParts: []
+            requiredTools: []
+            details: |
+              . 
+          - summary: Configure Octoprint Raspberry Pi Software Image for use
+            requiredParts: []
+            requiredTools: []
+            details: |
+              . 
+          - summary: Attach components to the Universal Controller Case
+            requiredParts: []
+            requiredTools: []
+            details: |
+              . 
+          - summary: Wire the GFCI
+            requiredParts: []
+            requiredTools: []
+            details: |
+              . 
+          - summary: Wire the Two Prong Electrical Plug
+            requiredParts: []
+            requiredTools: []
+            details: |
+              . 
+          - summary: Wire the 24v Power Supply Module
+            requiredParts: []
+            requiredTools: []
+            details: |
+              . 
+          - summary: Wire the Solid State Relay (SSR)
+            requiredParts: []
+            requiredTools: []
+            details: |
+              . 
+          - summary: Wire the Raspberry Pi Computer
+            requiredParts: []
+            requiredTools: []
+            details: |
+              . 
+          - summary: Wire the RAMPS 1.4 Board
+            requiredParts: []
+            requiredTools: []
+            details: |
+              . 
+          - summary: Test the Universal Controller Assembly
+            requiredParts: []
+            requiredTools: []
+            details: |
+              . 
     parts:
       8mm-rod:
         description: 8mm Rod
@@ -11306,17 +11376,17 @@ components:
         descriptionSelected: >-
           24v-power-supply: 24v Power Supply Module (24V Industrial Power Supply
           Module v1.0.0)
-      arduino-mega-2560:
+      arduino:
         description: Arduino Mega 2560
-        id: arduino-mega-2560
+        id: arduino
         notes: ''
         options:
           - arduino-mega-2560
         quantity: 1
         quantityUnits: part
         selectedOption: 0
-        descriptionLong: 'arduino-mega-2560: Arduino Mega 2560'
-        descriptionSelected: 'arduino-mega-2560: Arduino Mega 2560 (Arduino Mega 2560 v1.0.0)'
+        descriptionLong: 'arduino: Arduino Mega 2560'
+        descriptionSelected: 'arduino: Arduino Mega 2560 (Arduino Mega 2560 v1.0.0)'
       electrical-cord:
         description: Three Prong Electrical Cord
         id: electrical-cord
@@ -11557,21 +11627,19 @@ components:
         selectedOption: 0
         descriptionLong: 'marlin-firmware: Marlin Firmware'
         descriptionSelected: 'marlin-firmware: Marlin Firmware (Marlin Firmware v1.0.0)'
-      octoprint-raspberry-pi-software-image:
+      raspberry-pi-image:
         description: Octoprint Raspberry Pi Software Image
-        id: octoprint-raspberry-pi-software-image
+        id: raspberry-pi-image
         notes: ''
         options:
           - octoprint-raspberry-pi-software-image
         quantity: 1
         quantityUnits: image
         selectedOption: 0
-        descriptionLong: >-
-          octoprint-raspberry-pi-software-image: Octoprint Raspberry Pi Software
-          Image
+        descriptionLong: 'raspberry-pi-image: Octoprint Raspberry Pi Software Image'
         descriptionSelected: >-
-          octoprint-raspberry-pi-software-image: Octoprint Raspberry Pi Software
-          Image (Octoprint Raspberry Pi Software Image v1.0.0)
+          raspberry-pi-image: Octoprint Raspberry Pi Software Image (Octoprint
+          Raspberry Pi Software Image v1.0.0)
     tools:
       3mm-flat-screwdriver:
         description: 3mm Flat Head Screwdriver
@@ -11688,6 +11756,78 @@ components:
         details: >
           . Use the *Hobby Knife* to clean any extra plastic off of the 3D
           printed components.
+      - summary: Assemble custom wires
+        requiredParts: []
+        requiredTools: []
+        details: |
+          . 
+      - summary: Assemble the RAMPS 1.4 Board
+        requiredParts: []
+        requiredTools: []
+        details: |
+          . 
+      - summary: Flash firmware on the Arduino Mega 2560
+        requiredParts: []
+        requiredTools: []
+        details: |
+          . 
+      - summary: >-
+          Flash the Octoprint Raspberry Pi Software Image onto the 16GB MicroSD
+          Card
+        requiredParts: []
+        requiredTools: []
+        details: |
+          . 
+      - summary: Set up WIFI on the Raspberry Pi Computer
+        requiredParts: []
+        requiredTools: []
+        details: |
+          . 
+      - summary: Configure Octoprint Raspberry Pi Software Image for use
+        requiredParts: []
+        requiredTools: []
+        details: |
+          . 
+      - summary: Attach components to the Universal Controller Case
+        requiredParts: []
+        requiredTools: []
+        details: |
+          . 
+      - summary: Wire the GFCI
+        requiredParts: []
+        requiredTools: []
+        details: |
+          . 
+      - summary: Wire the Two Prong Electrical Plug
+        requiredParts: []
+        requiredTools: []
+        details: |
+          . 
+      - summary: Wire the 24v Power Supply Module
+        requiredParts: []
+        requiredTools: []
+        details: |
+          . 
+      - summary: Wire the Solid State Relay (SSR)
+        requiredParts: []
+        requiredTools: []
+        details: |
+          . 
+      - summary: Wire the Raspberry Pi Computer
+        requiredParts: []
+        requiredTools: []
+        details: |
+          . 
+      - summary: Wire the RAMPS 1.4 Board
+        requiredParts: []
+        requiredTools: []
+        details: |
+          . 
+      - summary: Test the Universal Controller Assembly
+        requiredParts: []
+        requiredTools: []
+        details: |
+          . 
   universal-controller-case:
     name: universal-controller-case
     version: 1.0.0
