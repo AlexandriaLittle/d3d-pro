@@ -1,7 +1,7 @@
 = D3D Pro 3D Printer Assembly Instructions
 Alexandria Little
 :revnumber: v23.12
-:revdate: 9/4/2024
+:revdate: 9/5/2024
 :sectnums:
 :toc:
 :docinfo: shared
@@ -1871,7 +1871,7 @@ endif::[]
 
 
 
-|Universal COntroller
+|Universal Controller
 |Universal Controller Assembly
 |
 

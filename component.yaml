@@ -2598,7 +2598,7 @@ components:
         descriptionLong: '5mm-allen-wrench: 5mm Allen Wrench'
         descriptionSelected: '5mm-allen-wrench: 5mm Allen Wrench (5mm Allen Wrench v1.0.0)'
       universal-controller:
-        description: Universal COntroller
+        description: Universal Controller
         id: universal-controller
         notes: ''
         options:
@@ -2606,9 +2606,9 @@ components:
         quantity: 1
         quantityUnits: part
         selectedOption: 0
-        descriptionLong: 'universal-controller: Universal COntroller'
+        descriptionLong: 'universal-controller: Universal Controller'
         descriptionSelected: >-
-          universal-controller: Universal COntroller (Universal Controller
+          universal-controller: Universal Controller (Universal Controller
           Assembly v1.0.0)
     precautions: []
     assemblySteps:
