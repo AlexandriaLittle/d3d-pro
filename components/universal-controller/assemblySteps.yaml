@@ -14,7 +14,7 @@
   requiredTools: []
 
   details: |
-    . 
+    . Hello World!
 
 - summary: Assemble the {{parts.ramps-board.description}}
   requiredParts: []
@@ -22,7 +22,7 @@
   requiredTools: []
 
   details: |
-    . 
+    . Hello World!
 
 - summary: Flash firmware on the {{parts.arduino.description}}
   requiredParts: []
@@ -30,7 +30,7 @@
   requiredTools: []
 
   details: |
-    . 
+    . Hello World!
 
 - summary: Flash the {{parts.raspberry-pi-image.description}} onto the {{parts.16gb-microsd-card.description}}
   requiredParts: []
@@ -38,7 +38,7 @@
   requiredTools: []
 
   details: |
-    . 
+    . Hello World!
 
 - summary: Set up WIFI on the {{parts.raspberry-pi.description}}
   requiredParts: []
@@ -46,7 +46,7 @@
   requiredTools: []
 
   details: |
-    . 
+    . Hello World!
 
 - summary: Configure {{parts.raspberry-pi-image.description}} for use
   requiredParts: []
@@ -54,7 +54,7 @@
   requiredTools: []
 
   details: |
-    . 
+    . Hello World!
 
 - summary: Attach components to the {{parts.case.description}}
   requiredParts: []
@@ -62,7 +62,7 @@
   requiredTools: []
 
   details: |
-    . 
+    . Hello World!
 
 - summary: Wire the {{parts.gfci.description}}
   requiredParts: []
@@ -70,7 +70,7 @@
   requiredTools: []
 
   details: |
-    . 
+    . Hello World!
 
 - summary: Wire the {{parts.electrical-plug.description}}
   requiredParts: []
@@ -78,14 +78,15 @@
   requiredTools: []
 
   details: |
-    . 
+    . Hello World!
+
 - summary: Wire the {{parts.24v-power-supply.description}}
   requiredParts: []
 
   requiredTools: []
 
   details: |
-    . 
+    . Hello World!
 
 - summary: Wire the {{parts.solid-state-relay.description}}
   requiredParts: []
@@ -93,7 +94,7 @@
   requiredTools: []
 
   details: |
-    . 
+    . Hello World!
 
 - summary: Wire the {{parts.raspberry-pi.description}}
   requiredParts: []
@@ -101,7 +102,7 @@
   requiredTools: []
 
   details: |
-    . 
+    . Hello World!
 
 - summary: Wire the {{parts.ramps-board.description}}
   requiredParts: []
@@ -109,7 +110,7 @@
   requiredTools: []
 
   details: |
-    . 
+    . Hello World!
 
 - summary: Test the {{description}}
   requiredParts: []
@@ -117,4 +118,4 @@
   requiredTools: []
 
   details: |
-    . 
+    . Hello World!
