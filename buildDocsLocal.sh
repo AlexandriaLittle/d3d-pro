@@ -22,6 +22,10 @@ cp -r source/images dist/images
 echo "copy docinfo.html file to dist/..."
 cp -r docinfo.html dist/
 
+# generate flattened BOM files
+echo "GenErAtINg thE bOm"
+node dof-helpers/generateFlattenedBOM.js
+
 # generate dist/assemblyInstructions.adoc
 echo "generating dist/assemblyInstructions.adoc..."
 node dof-helpers/generateAssemblyInstructions.js
