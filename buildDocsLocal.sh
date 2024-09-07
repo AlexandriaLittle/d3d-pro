@@ -23,7 +23,7 @@ echo "copy docinfo.html file to dist/..."
 cp -r docinfo.html dist/
 
 # generate flattened BOM files
-echo "GenErAtINg thE bOm"
+echo "generating bill of materials files"
 node dof-helpers/generateFlattenedBOM.js
 
 # generate dist/assemblyInstructions.adoc

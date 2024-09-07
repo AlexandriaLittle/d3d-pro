@@ -22,6 +22,10 @@ cp -r source/images dist/images
 echo "copy docinfo.html file to dist/..."
 cp -r docinfo.html dist/
 
+# generate flattened BOM files
+echo "generating bill of materials files"
+node dof-helpers/generateFlattenedBOM.js
+
 # generate dist/assemblyInstructions.adoc
 echo "generating dist/assemblyInstructions.adoc..."
 podman run --rm -v $PWD:/src -w /src docker.io/node node dof-helpers/generateAssemblyInstructions.js
