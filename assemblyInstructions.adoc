@@ -22,6 +22,9 @@ ifndef::env-github[]
 :imagesdir: ./images
 endif::[]
 
+include::flatPartsBOM.adoc[]
+include::flatToolsBOM.adoc[]
+
 
 == Assemble Universal Controller Assembly
 

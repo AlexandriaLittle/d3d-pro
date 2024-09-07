@@ -1,0 +1,251 @@
+== Bill of Materials - Tools
+[cols="1,1,2,5"]
+|===
+|Quantity |Quantity Unit |Name |Description
+
+
+
+|100
+|mm
+|1_75mm-3d-printer-filament
+|1.75mm 3D Printer Filament
+
+
+
+|1
+|part
+|2mm-allen-wrench
+|2mm Allen Wrench
+
+
+
+|1
+|part
+|2_5mm-allen-wrench
+|2.5mm Allen Wrench
+
+
+
+|1
+|part
+|5mm-allen-wrench
+|5mm Allen Wrench
+
+
+
+|1
+|part
+|hobby-knife
+|Hobby Knife
+
+
+
+|1
+|part
+|scissors
+|Scissors
+
+
+
+|1
+|part
+|1_5mm-allen-wrench
+|1.5mm Allen Wrench
+
+
+
+|1
+|part
+|24v-power-supply
+|24V Industrial Power Supply Module
+
+
+
+|1
+|part
+|7mm-socket-wrench
+|7mm Socket Wrench
+
+
+
+|1
+|part
+|needle-nose-pliers
+|Needle Nose Pliers
+
+
+
+|1
+|part
+|slip-joint-pliers
+|Slip Joint Pliers
+
+
+
+|1
+|part
+|metal-jaw-vise
+|Metal Jaw Vise
+
+
+
+|1
+|part
+|vise-grip-pliers
+|Vise Grip Pliers
+
+
+
+|1
+|part
+|3mm-allen-wrench
+|3mm Allen Wrench
+
+
+
+|1
+|part
+|8mm-600mm-smooth-rod
+|8mm x 600mm Smooth Rod
+
+
+
+|1
+|part
+|universal-controller
+|Universal Controller Assembly
+
+
+
+|1
+|part
+|3mm-flat-screwdriver
+|3mm Flat Head Screwdriver
+
+
+
+|1
+|part
+|phillips-2-screwdriver
+|#2 Phillips Head Screwdriver
+
+
+
+|1
+|part
+|helping-hands
+|Helping Hands Clamp Stand
+
+
+
+|1
+|part
+|soldering-iron
+|Soldering Iron
+
+
+
+|1
+|part
+|ferrule-crimper
+|Wire Ferrule Crimper
+
+
+
+|1
+|part
+|microsd-to-sd-card-adapter
+|MicroSD Card to SD Card Adapter
+
+
+
+|1
+|part
+|personal-computer
+|Personal Computer (PC)
+
+
+
+|1
+|part
+|fast-heated-bed-plate-jig
+|Fast Heated Bed Plate Jig
+
+
+
+|1
+|part
+|permanent-marker
+|Permanent Marker
+
+
+
+|1
+|part
+|welder
+|Welder
+
+
+
+|1
+|part
+|wire-welding-brush
+|Wire Welding Brush
+
+
+
+|1
+|part
+|drill-press
+|Drill Press
+
+
+
+|1
+|part
+|7mm-sheet-metal-drill-bit
+|7mm Sheet Metal Drill Bit
+
+
+
+|1
+|part
+|metal-file
+|Metal File
+
+
+
+|1
+|part
+|circular-saw
+|Circular Saw
+
+
+
+|1
+|part
+|metal-cutoff-wheel
+|Metal Cutoff Wheel
+
+
+
+|1
+|part
+|measuring-tape
+|Measuring Tape
+
+
+
+|1
+|section
+|paper-towels
+|Paper Towels
+
+
+
+|1
+|part(s)
+|sewing-machine
+|Sewing Machine
+
+|===

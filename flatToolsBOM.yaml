@@ -1,0 +1,176 @@
+components:
+  1_75mm-3d-printer-filament:
+    quantity: 100
+    name: 1_75mm-3d-printer-filament
+    description: 1.75mm 3D Printer Filament
+    quantityUnits: mm
+  2mm-allen-wrench:
+    quantity: 1
+    name: 2mm-allen-wrench
+    description: 2mm Allen Wrench
+    quantityUnits: part
+  2_5mm-allen-wrench:
+    quantity: 1
+    name: 2_5mm-allen-wrench
+    description: 2.5mm Allen Wrench
+    quantityUnits: part
+  5mm-allen-wrench:
+    quantity: 1
+    name: 5mm-allen-wrench
+    description: 5mm Allen Wrench
+    quantityUnits: part
+  hobby-knife:
+    quantity: 1
+    name: hobby-knife
+    description: Hobby Knife
+    quantityUnits: part
+  scissors:
+    quantity: 1
+    name: scissors
+    description: Scissors
+    quantityUnits: part
+  1_5mm-allen-wrench:
+    quantity: 1
+    name: 1_5mm-allen-wrench
+    description: 1.5mm Allen Wrench
+    quantityUnits: part
+  24v-power-supply:
+    quantity: 1
+    name: 24v-power-supply
+    description: 24V Industrial Power Supply Module
+    quantityUnits: part
+  7mm-socket-wrench:
+    quantity: 1
+    name: 7mm-socket-wrench
+    description: 7mm Socket Wrench
+    quantityUnits: part
+  needle-nose-pliers:
+    quantity: 1
+    name: needle-nose-pliers
+    description: Needle Nose Pliers
+    quantityUnits: part
+  slip-joint-pliers:
+    quantity: 1
+    name: slip-joint-pliers
+    description: Slip Joint Pliers
+    quantityUnits: part
+  metal-jaw-vise:
+    quantity: 1
+    name: metal-jaw-vise
+    description: Metal Jaw Vise
+    quantityUnits: part
+  vise-grip-pliers:
+    quantity: 1
+    name: vise-grip-pliers
+    description: Vise Grip Pliers
+    quantityUnits: part
+  3mm-allen-wrench:
+    quantity: 1
+    name: 3mm-allen-wrench
+    description: 3mm Allen Wrench
+    quantityUnits: part
+  8mm-600mm-smooth-rod:
+    quantity: 1
+    name: 8mm-600mm-smooth-rod
+    description: 8mm x 600mm Smooth Rod
+    quantityUnits: part
+  universal-controller:
+    quantity: 1
+    name: universal-controller
+    description: Universal Controller Assembly
+    quantityUnits: part
+  3mm-flat-screwdriver:
+    quantity: 1
+    name: 3mm-flat-screwdriver
+    description: 3mm Flat Head Screwdriver
+    quantityUnits: part
+  phillips-2-screwdriver:
+    quantity: 1
+    name: phillips-2-screwdriver
+    description: '#2 Phillips Head Screwdriver'
+    quantityUnits: part
+  helping-hands:
+    quantity: 1
+    name: helping-hands
+    description: Helping Hands Clamp Stand
+    quantityUnits: part
+  soldering-iron:
+    quantity: 1
+    name: soldering-iron
+    description: Soldering Iron
+    quantityUnits: part
+  ferrule-crimper:
+    quantity: 1
+    name: ferrule-crimper
+    description: Wire Ferrule Crimper
+    quantityUnits: part
+  microsd-to-sd-card-adapter:
+    quantity: 1
+    name: microsd-to-sd-card-adapter
+    description: MicroSD Card to SD Card Adapter
+    quantityUnits: part
+  personal-computer:
+    quantity: 1
+    name: personal-computer
+    description: Personal Computer (PC)
+    quantityUnits: part
+  fast-heated-bed-plate-jig:
+    quantity: 1
+    name: fast-heated-bed-plate-jig
+    description: Fast Heated Bed Plate Jig
+    quantityUnits: part
+  permanent-marker:
+    quantity: 1
+    name: permanent-marker
+    description: Permanent Marker
+    quantityUnits: part
+  welder:
+    quantity: 1
+    name: welder
+    description: Welder
+    quantityUnits: part
+  wire-welding-brush:
+    quantity: 1
+    name: wire-welding-brush
+    description: Wire Welding Brush
+    quantityUnits: part
+  drill-press:
+    quantity: 1
+    name: drill-press
+    description: Drill Press
+    quantityUnits: part
+  7mm-sheet-metal-drill-bit:
+    quantity: 1
+    name: 7mm-sheet-metal-drill-bit
+    description: 7mm Sheet Metal Drill Bit
+    quantityUnits: part
+  metal-file:
+    quantity: 1
+    name: metal-file
+    description: Metal File
+    quantityUnits: part
+  circular-saw:
+    quantity: 1
+    name: circular-saw
+    description: Circular Saw
+    quantityUnits: part
+  metal-cutoff-wheel:
+    quantity: 1
+    name: metal-cutoff-wheel
+    description: Metal Cutoff Wheel
+    quantityUnits: part
+  measuring-tape:
+    quantity: 1
+    name: measuring-tape
+    description: Measuring Tape
+    quantityUnits: part
+  paper-towels:
+    quantity: 1
+    name: paper-towels
+    description: Paper Towels
+    quantityUnits: section
+  sewing-machine:
+    quantity: 1
+    name: sewing-machine
+    description: Sewing Machine
+    quantityUnits: part(s)

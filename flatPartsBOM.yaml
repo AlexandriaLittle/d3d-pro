@@ -1,0 +1,436 @@
+components:
+  24v-40mm-fan:
+    quantity: 1
+    name: 24v-40mm-fan
+    description: 24v 40mm x 40mm x 10mm Fan
+    quantityUnits: part
+  mk7-mk8-40mm-heatsink:
+    quantity: 1
+    name: mk7-mk8-40mm-heatsink
+    description: Mk7/Mk8 40mm Heatsink
+    quantityUnits: part
+  608-bearing:
+    quantity: 1
+    name: 608-bearing
+    description: 608 ZZ Bearing
+    quantityUnits: part
+  universal-gearless-extruder-active-cooling-height-sensor-plotter:
+    quantity: 1
+    name: universal-gearless-extruder-active-cooling-height-sensor-plotter
+    description: Universal Gearless Extruder Active Cooling Height Sensor Plotter Part
+    quantityUnits: part
+  24v-5015-blower-fan:
+    quantity: 1
+    name: 24v-5015-blower-fan
+    description: 24V 5015 Blower Fan
+    quantityUnits: part
+  mk7-extruder-drive-gear:
+    quantity: 1
+    name: mk7-extruder-drive-gear
+    description: Mk7 Extruder Drive Gear
+    quantityUnits: part
+  10mm-od-35mm-spring:
+    quantity: 1
+    name: 10mm-od-35mm-spring
+    description: 10mm Outer Diameter 35mm Long 1.2mm Thick Compression Spring
+    quantityUnits: part
+  height-sensor:
+    quantity: 1
+    name: height-sensor
+    description: LJ18A3-8-Z-BY-5V Proximity Switch
+    quantityUnits: part
+  1_75mm-heat-break:
+    quantity: 1
+    name: 1_75mm-heat-break
+    description: 1.75mm Heat Break
+    quantityUnits: part
+  24v-70w-heater-cartridge:
+    quantity: 1
+    name: 24v-70w-heater-cartridge
+    description: 24V 70W 6mm Diameter Ceramic Heater Cartridge
+    quantityUnits: part
+  universal-gearless-extruder-heatsink-block:
+    quantity: 1
+    name: universal-gearless-extruder-heatsink-block
+    description: Universal Gearless Extruder Heatsink Block
+    quantityUnits: part
+  m3-10mm-cap-screw:
+    quantity: 2
+    name: m3-10mm-cap-screw
+    description: M3 x 10mm Cap Screw
+    quantityUnits: parts
+  m3-4mm-grub-screw:
+    quantity: 1
+    name: m3-4mm-grub-screw
+    description: M3 x 4mm Grub Screw
+    quantityUnits: part
+  m6-thin-nut:
+    quantity: 25
+    name: m6-thin-nut
+    description: M6 Thin Nut
+    quantityUnits: part(s)
+  1_75mm-volcano-style-0_4mm-nozzle:
+    quantity: 1
+    name: 1_75mm-volcano-style-0_4mm-nozzle
+    description: 1.75mm Volcano Style Filament Extrusion Nozzle (0.4mm)
+    quantityUnits: part
+  thermal-paste:
+    quantity: 4
+    name: thermal-paste
+    description: Thermal Paste
+    quantityUnits: drop(s)
+  ntc-100k-ohm-b3950-thermistor-cartridge:
+    quantity: 2
+    name: ntc-100k-ohm-b3950-thermistor-cartridge
+    description: NTC 100K ohm B3950 Thermistor Cartridge
+    quantityUnits: part
+  volcano-heater-block:
+    quantity: 1
+    name: volcano-heater-block
+    description: Volcano Style Heater Block
+    quantityUnits: part
+  volcano-heater-block-sock:
+    quantity: 1
+    name: volcano-heater-block-sock
+    description: Volcano Style Heater Block Sock
+    quantityUnits: part
+  m3-20mm-socket-head-cap-screw:
+    quantity: 4
+    name: m3-20mm-socket-head-cap-screw
+    description: M3 x 20mm Socket Head Cap Screw
+    quantityUnits: part(s)
+  m3-30mm-socket-head-cap-screw:
+    quantity: 2
+    name: m3-30mm-socket-head-cap-screw
+    description: M3 x 30mm Socket Head Cap Screw
+    quantityUnits: part(s)
+  m3-8mm-socket-head-cap-screw:
+    quantity: 4
+    name: m3-8mm-socket-head-cap-screw
+    description: M3 x 8mm Socket Head Cap Screw
+    quantityUnits: part(s)
+  m3-16mm-socket-head-cap-screw:
+    quantity: 2
+    name: m3-16mm-socket-head-cap-screw
+    description: M3 x 16mm Socket Head Cap Screw
+    quantityUnits: part(s)
+  m6-25mm-socket-head-cap-screw:
+    quantity: 5
+    name: m6-25mm-socket-head-cap-screw
+    description: M6 x 25mm Socket Head Cap Screw
+    quantityUnits: part(s)
+  m6-nut:
+    quantity: 25
+    name: m6-nut
+    description: M6 Nut
+    quantityUnits: part(s)
+  universal-gearless-extruder-motor-mount:
+    quantity: 1
+    name: universal-gearless-extruder-motor-mount
+    description: Universal Gearless Extruder Motor Mount Part
+    quantityUnits: part
+  split-wire-loom:
+    quantity: 2
+    name: split-wire-loom
+    description: 1/2 Inch Flame Retardant Split Wire Loom
+    quantityUnits: part
+  universal-gearless-extruder-spring-tensioner-arm:
+    quantity: 1
+    name: universal-gearless-extruder-spring-tensioner-arm
+    description: Universal Gearless Extruder Spring Tensioner Arm
+    quantityUnits: part
+  nema-17-0_5nm-stepper-motor:
+    quantity: 5
+    name: nema-17-0_5nm-stepper-motor
+    description: Nema 17 0.5Nm Stepper Motor
+    quantityUnits: part
+  stepper-motor-cable:
+    quantity: 1
+    name: stepper-motor-cable
+    description: Stepper Motor Wire 4 Pin Dupont to 6 Pin XH2.54
+    quantityUnits: part
+  zip-tie-small:
+    quantity: 21
+    name: zip-tie-small
+    description: 4 Inch Zip Tie
+    quantityUnits: part(s)
+  universal-axis-idler-side:
+    quantity: 4
+    name: universal-axis-idler-side
+    description: Universal Axis Idler Side Part
+    quantityUnits: part
+  m6-10mm-grub-screw:
+    quantity: 36
+    name: m6-10mm-grub-screw
+    description: M6 x 10mm Grub Screw
+    quantityUnits: part(s)
+  m6-12mm-4mm-flanged-bearing:
+    quantity: 8
+    name: m6-12mm-4mm-flanged-bearing
+    description: M6 x 12mm x 4mm Flanged Bearing
+    quantityUnits: part(s)
+  m6-20mm-socket-head-cap-screw:
+    quantity: 40
+    name: m6-20mm-socket-head-cap-screw
+    description: M6 x 20mm Socket Head Cap Screw
+    quantityUnits: part(s)
+  universal-axis-motor-side:
+    quantity: 4
+    name: universal-axis-motor-side
+    description: Universal Axis Motor Side Part
+    quantityUnits: part
+  gt2-6mm-5mm-20-tooth-pulley:
+    quantity: 4
+    name: gt2-6mm-5mm-20-tooth-pulley
+    description: GT2 6mm Wide x 5mm Bore 20 Tooth Pulley
+    quantityUnits: part
+  m3-25mm-socket-head-cap-screw:
+    quantity: 12
+    name: m3-25mm-socket-head-cap-screw
+    description: M3 x 25mm Socket Head Cap Screw
+    quantityUnits: part(s)
+  universal-axis-z-carriage:
+    quantity: 1
+    name: universal-axis-z-carriage
+    description: Universal Axis Z Carriage
+    quantityUnits: part
+  universal-axis-carriage-closure:
+    quantity: 4
+    name: universal-axis-carriage-closure
+    description: Universal Axis Carriage Closure
+    quantityUnits: part
+  universal-axis-belt-peg:
+    quantity: 4
+    name: universal-axis-belt-peg
+    description: Universal Axis Belt Peg
+    quantityUnits: part
+  universal-axis-belt-pinch:
+    quantity: 4
+    name: universal-axis-belt-pinch
+    description: Universal Axis Belt Pinch
+    quantityUnits: part
+  gt2-6mm-1500mm-belt:
+    quantity: 4
+    name: gt2-6mm-1500mm-belt
+    description: GT2 6mm Wide x 1500mm Long Belt
+    quantityUnits: part(s)
+  lm8uu-linear-bearing:
+    quantity: 16
+    name: lm8uu-linear-bearing
+    description: LM8UU Linear Bearing
+    quantityUnits: part(s)
+  painters-tape:
+    quantity: 4
+    name: painters-tape
+    description: Painters Tape
+    quantityUnits: as needed
+  8mm-600mm-smooth-rod:
+    quantity: 10
+    name: 8mm-600mm-smooth-rod
+    description: 8mm x 600mm Smooth Rod
+    quantityUnits: part(s)
+  universal-axis-y2-carriage:
+    quantity: 1
+    name: universal-axis-y2-carriage
+    description: Universal Axis Y2 Carriage
+    quantityUnits: part
+  universal-axis-y1-carriage:
+    quantity: 1
+    name: universal-axis-y1-carriage
+    description: Universal Axis Y1 Carriage
+    quantityUnits: part
+  universal-axis-x-carriage:
+    quantity: 1
+    name: universal-axis-x-carriage
+    description: Universal Axis X Carriage
+    quantityUnits: part
+  autoparallel:
+    quantity: 2
+    name: autoparallel
+    description: Autoparallel Part
+    quantityUnits: part(s)
+  16ga-steel-sheet:
+    quantity: 2
+    name: 16ga-steel-sheet
+    description: 16 Gauge 300mm x 300mm Steel Sheet
+    quantityUnits: part
+  fast-heated-bed-clamp:
+    quantity: 2
+    name: fast-heated-bed-clamp
+    description: Fast Heated Bed Clamp
+    quantityUnits: part(s)
+  metal-conduit-stock-length:
+    quantity: 1
+    name: metal-conduit-stock-length
+    description: Stock Length Metal Conduit
+    quantityUnits: part
+  corner-brace:
+    quantity: 2
+    name: corner-brace
+    description: 2 inch x 5/8 Inch Corner Brace (Four Holes)
+    quantityUnits: part(s)
+  r7s-118mm-halogen-lightbulb:
+    quantity: 3
+    name: r7s-118mm-halogen-lightbulb
+    description: R7S 118mm Halogen Lightbulb
+    quantityUnits: part(s)
+  r7s-118mm-halogen-lightbulb-holder:
+    quantity: 3
+    name: r7s-118mm-halogen-lightbulb-holder
+    description: R7S 118mm Halogen Lightbulb Holder
+    quantityUnits: part(s)
+  electrical-solder:
+    quantity: 3
+    name: electrical-solder
+    description: Rosin Core Lead Free Electrical Solder
+    quantityUnits: applications
+  pei-sheet:
+    quantity: 1
+    name: pei-sheet
+    description: 300mm x 300mm PEI Sheet
+    quantityUnits: part
+  carbon-fiber-blanket-stock:
+    quantity: 1
+    name: carbon-fiber-blanket-stock
+    description: Carbon Fiber Blanket (Stock Size)
+    quantityUnits: part(s)
+  sewing-thread:
+    quantity: 1
+    name: sewing-thread
+    description: Sewing Thread
+    quantityUnits: part(s)
+  rebar-stake-stock-length:
+    quantity: 3
+    name: rebar-stake-stock-length
+    description: 12.7mm Rebar Stake Stock Length
+    quantityUnits: part
+  universal-frame-corner-connector:
+    quantity: 4
+    name: universal-frame-corner-connector
+    description: Universal Frame Corner Connector
+    quantityUnits: part(s)
+  universal-frame-corner-connector-left:
+    quantity: 2
+    name: universal-frame-corner-connector-left
+    description: Universal Frame Corner Connector Left
+    quantityUnits: part(s)
+  universal-frame-corner-connector-right:
+    quantity: 2
+    name: universal-frame-corner-connector-right
+    description: Universal Frame Corner Connector Right
+    quantityUnits: part(s)
+  ramps-1_4-board:
+    quantity: 1
+    name: ramps-1_4-board
+    description: RAMPS 1.4 Board
+    quantityUnits: part
+  electrical-tape:
+    quantity: 1
+    name: electrical-tape
+    description: Electrical Tape
+    quantityUnits: as needed
+  16gb-microsd-card:
+    quantity: 1
+    name: 16gb-microsd-card
+    description: 16GB MicroSD Card
+    quantityUnits: part
+  24v-power-supply:
+    quantity: 1
+    name: 24v-power-supply
+    description: 24V Industrial Power Supply Module
+    quantityUnits: part
+  arduino-mega-2560:
+    quantity: 1
+    name: arduino-mega-2560
+    description: Arduino Mega 2560
+    quantityUnits: part
+  electrical-cord-nema-5-15p:
+    quantity: 1
+    name: electrical-cord-nema-5-15p
+    description: Electrical Cord (NEMA 5-15P)
+    quantityUnits: part
+  electrical-plug-nema-1-15:
+    quantity: 1
+    name: electrical-plug-nema-1-15
+    description: Electrical Plug (NEMA 1-15)
+    quantityUnits: part
+  ferrule:
+    quantity: 20
+    name: ferrule
+    description: Wire Ferrule
+    quantityUnits: part
+  ground-fault-connection-interrupter:
+    quantity: 1
+    name: ground-fault-connection-interrupter
+    description: Ground Fault Connection Interrupter (GFCI)
+    quantityUnits: part
+  heat-shrink-tubing:
+    quantity: 1
+    name: heat-shrink-tubing
+    description: Heat Shrink Tubing
+    quantityUnits: part
+  lever-wire-nut:
+    quantity: 1
+    name: lever-wire-nut
+    description: 2 Connection Lever Wire Nut
+    quantityUnits: part
+  microsd-to-sd-card-adapter:
+    quantity: 1
+    name: microsd-to-sd-card-adapter
+    description: MicroSD Card to SD Card Adapter
+    quantityUnits: part
+  raspberry-pi-4b:
+    quantity: 1
+    name: raspberry-pi-4b
+    description: Raspberry Pi Model 4B
+    quantityUnits: part
+  reprap-discount-full-graphic-smart-controller:
+    quantity: 1
+    name: reprap-discount-full-graphic-smart-controller
+    description: RepRap Discount Full Graphic Smart Controller
+    quantityUnits: part
+  solid-state-relay:
+    quantity: 1
+    name: solid-state-relay
+    description: 40A Solid State Relay (SSR-40DA)
+    quantityUnits: part
+  universal-controller-case:
+    quantity: 1
+    name: universal-controller-case
+    description: Universal Controller Case
+    quantityUnits: part
+  zip-tie-large:
+    quantity: 20
+    name: zip-tie-large
+    description: 8 Inch Zip Tie
+    quantityUnits: part(s)
+  a4988-stepper-motor-driver:
+    quantity: 5
+    name: a4988-stepper-motor-driver
+    description: A4988 Stepper Motor Driver
+    quantityUnits: part(s)
+  2_54mm-jumper-cap:
+    quantity: 15
+    name: 2_54mm-jumper-cap
+    description: 2.54mm Jumper Cap
+    quantityUnits: part(s)
+  10-pin-idc-connector:
+    quantity: 2
+    name: 10-pin-idc-connector
+    description: 10 Pin IDC Connector Cable
+    quantityUnits: part(s)
+  ramps-1_4-smart-adapter:
+    quantity: 1
+    name: ramps-1_4-smart-adapter
+    description: RAMPS 1.4 Smart Adapter
+    quantityUnits: part
+  marlin-firmware:
+    quantity: 1
+    name: marlin-firmware
+    description: Marlin Firmware
+    quantityUnits: image
+  octoprint-raspberry-pi-software-image:
+    quantity: 1
+    name: octoprint-raspberry-pi-software-image
+    description: Octoprint Raspberry Pi Software Image
+    quantityUnits: image

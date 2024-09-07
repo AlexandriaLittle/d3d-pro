@@ -1,0 +1,615 @@
+== Bill of Materials - Parts
+[cols="1,1,2,5"]
+|===
+|Quantity |Quantity Unit |Name |Description
+
+
+
+|1
+|part
+|24v-40mm-fan
+|24v 40mm x 40mm x 10mm Fan
+
+
+
+|1
+|part
+|mk7-mk8-40mm-heatsink
+|Mk7/Mk8 40mm Heatsink
+
+
+
+|1
+|part
+|608-bearing
+|608 ZZ Bearing
+
+
+
+|1
+|part
+|universal-gearless-extruder-active-cooling-height-sensor-plotter
+|Universal Gearless Extruder Active Cooling Height Sensor Plotter Part
+
+
+
+|1
+|part
+|24v-5015-blower-fan
+|24V 5015 Blower Fan
+
+
+
+|1
+|part
+|mk7-extruder-drive-gear
+|Mk7 Extruder Drive Gear
+
+
+
+|1
+|part
+|10mm-od-35mm-spring
+|10mm Outer Diameter 35mm Long 1.2mm Thick Compression Spring
+
+
+
+|1
+|part
+|height-sensor
+|LJ18A3-8-Z-BY-5V Proximity Switch
+
+
+
+|1
+|part
+|1_75mm-heat-break
+|1.75mm Heat Break
+
+
+
+|1
+|part
+|24v-70w-heater-cartridge
+|24V 70W 6mm Diameter Ceramic Heater Cartridge
+
+
+
+|1
+|part
+|universal-gearless-extruder-heatsink-block
+|Universal Gearless Extruder Heatsink Block
+
+
+
+|2
+|parts
+|m3-10mm-cap-screw
+|M3 x 10mm Cap Screw
+
+
+
+|1
+|part
+|m3-4mm-grub-screw
+|M3 x 4mm Grub Screw
+
+
+
+|25
+|part(s)
+|m6-thin-nut
+|M6 Thin Nut
+
+
+
+|1
+|part
+|1_75mm-volcano-style-0_4mm-nozzle
+|1.75mm Volcano Style Filament Extrusion Nozzle (0.4mm)
+
+
+
+|4
+|drop(s)
+|thermal-paste
+|Thermal Paste
+
+
+
+|2
+|part
+|ntc-100k-ohm-b3950-thermistor-cartridge
+|NTC 100K ohm B3950 Thermistor Cartridge
+
+
+
+|1
+|part
+|volcano-heater-block
+|Volcano Style Heater Block
+
+
+
+|1
+|part
+|volcano-heater-block-sock
+|Volcano Style Heater Block Sock
+
+
+
+|4
+|part(s)
+|m3-20mm-socket-head-cap-screw
+|M3 x 20mm Socket Head Cap Screw
+
+
+
+|2
+|part(s)
+|m3-30mm-socket-head-cap-screw
+|M3 x 30mm Socket Head Cap Screw
+
+
+
+|4
+|part(s)
+|m3-8mm-socket-head-cap-screw
+|M3 x 8mm Socket Head Cap Screw
+
+
+
+|2
+|part(s)
+|m3-16mm-socket-head-cap-screw
+|M3 x 16mm Socket Head Cap Screw
+
+
+
+|5
+|part(s)
+|m6-25mm-socket-head-cap-screw
+|M6 x 25mm Socket Head Cap Screw
+
+
+
+|25
+|part(s)
+|m6-nut
+|M6 Nut
+
+
+
+|1
+|part
+|universal-gearless-extruder-motor-mount
+|Universal Gearless Extruder Motor Mount Part
+
+
+
+|2
+|part
+|split-wire-loom
+|1/2 Inch Flame Retardant Split Wire Loom
+
+
+
+|1
+|part
+|universal-gearless-extruder-spring-tensioner-arm
+|Universal Gearless Extruder Spring Tensioner Arm
+
+
+
+|5
+|part
+|nema-17-0_5nm-stepper-motor
+|Nema 17 0.5Nm Stepper Motor
+
+
+
+|1
+|part
+|stepper-motor-cable
+|Stepper Motor Wire 4 Pin Dupont to 6 Pin XH2.54
+
+
+
+|21
+|part(s)
+|zip-tie-small
+|4 Inch Zip Tie
+
+
+
+|4
+|part
+|universal-axis-idler-side
+|Universal Axis Idler Side Part
+
+
+
+|36
+|part(s)
+|m6-10mm-grub-screw
+|M6 x 10mm Grub Screw
+
+
+
+|8
+|part(s)
+|m6-12mm-4mm-flanged-bearing
+|M6 x 12mm x 4mm Flanged Bearing
+
+
+
+|40
+|part(s)
+|m6-20mm-socket-head-cap-screw
+|M6 x 20mm Socket Head Cap Screw
+
+
+
+|4
+|part
+|universal-axis-motor-side
+|Universal Axis Motor Side Part
+
+
+
+|4
+|part
+|gt2-6mm-5mm-20-tooth-pulley
+|GT2 6mm Wide x 5mm Bore 20 Tooth Pulley
+
+
+
+|12
+|part(s)
+|m3-25mm-socket-head-cap-screw
+|M3 x 25mm Socket Head Cap Screw
+
+
+
+|1
+|part
+|universal-axis-z-carriage
+|Universal Axis Z Carriage
+
+
+
+|4
+|part
+|universal-axis-carriage-closure
+|Universal Axis Carriage Closure
+
+
+
+|4
+|part
+|universal-axis-belt-peg
+|Universal Axis Belt Peg
+
+
+
+|4
+|part
+|universal-axis-belt-pinch
+|Universal Axis Belt Pinch
+
+
+
+|4
+|part(s)
+|gt2-6mm-1500mm-belt
+|GT2 6mm Wide x 1500mm Long Belt
+
+
+
+|16
+|part(s)
+|lm8uu-linear-bearing
+|LM8UU Linear Bearing
+
+
+
+|4
+|as needed
+|painters-tape
+|Painters Tape
+
+
+
+|10
+|part(s)
+|8mm-600mm-smooth-rod
+|8mm x 600mm Smooth Rod
+
+
+
+|1
+|part
+|universal-axis-y2-carriage
+|Universal Axis Y2 Carriage
+
+
+
+|1
+|part
+|universal-axis-y1-carriage
+|Universal Axis Y1 Carriage
+
+
+
+|1
+|part
+|universal-axis-x-carriage
+|Universal Axis X Carriage
+
+
+
+|2
+|part(s)
+|autoparallel
+|Autoparallel Part
+
+
+
+|2
+|part
+|16ga-steel-sheet
+|16 Gauge 300mm x 300mm Steel Sheet
+
+
+
+|2
+|part(s)
+|fast-heated-bed-clamp
+|Fast Heated Bed Clamp
+
+
+
+|1
+|part
+|metal-conduit-stock-length
+|Stock Length Metal Conduit
+
+
+
+|2
+|part(s)
+|corner-brace
+|2 inch x 5/8 Inch Corner Brace (Four Holes)
+
+
+
+|3
+|part(s)
+|r7s-118mm-halogen-lightbulb
+|R7S 118mm Halogen Lightbulb
+
+
+
+|3
+|part(s)
+|r7s-118mm-halogen-lightbulb-holder
+|R7S 118mm Halogen Lightbulb Holder
+
+
+
+|3
+|applications
+|electrical-solder
+|Rosin Core Lead Free Electrical Solder
+
+
+
+|1
+|part
+|pei-sheet
+|300mm x 300mm PEI Sheet
+
+
+
+|1
+|part(s)
+|carbon-fiber-blanket-stock
+|Carbon Fiber Blanket (Stock Size)
+
+
+
+|1
+|part(s)
+|sewing-thread
+|Sewing Thread
+
+
+
+|3
+|part
+|rebar-stake-stock-length
+|12.7mm Rebar Stake Stock Length
+
+
+
+|4
+|part(s)
+|universal-frame-corner-connector
+|Universal Frame Corner Connector
+
+
+
+|2
+|part(s)
+|universal-frame-corner-connector-left
+|Universal Frame Corner Connector Left
+
+
+
+|2
+|part(s)
+|universal-frame-corner-connector-right
+|Universal Frame Corner Connector Right
+
+
+
+|1
+|part
+|ramps-1_4-board
+|RAMPS 1.4 Board
+
+
+
+|1
+|as needed
+|electrical-tape
+|Electrical Tape
+
+
+
+|1
+|part
+|16gb-microsd-card
+|16GB MicroSD Card
+
+
+
+|1
+|part
+|24v-power-supply
+|24V Industrial Power Supply Module
+
+
+
+|1
+|part
+|arduino-mega-2560
+|Arduino Mega 2560
+
+
+
+|1
+|part
+|electrical-cord-nema-5-15p
+|Electrical Cord (NEMA 5-15P)
+
+
+
+|1
+|part
+|electrical-plug-nema-1-15
+|Electrical Plug (NEMA 1-15)
+
+
+
+|20
+|part
+|ferrule
+|Wire Ferrule
+
+
+
+|1
+|part
+|ground-fault-connection-interrupter
+|Ground Fault Connection Interrupter (GFCI)
+
+
+
+|1
+|part
+|heat-shrink-tubing
+|Heat Shrink Tubing
+
+
+
+|1
+|part
+|lever-wire-nut
+|2 Connection Lever Wire Nut
+
+
+
+|1
+|part
+|microsd-to-sd-card-adapter
+|MicroSD Card to SD Card Adapter
+
+
+
+|1
+|part
+|raspberry-pi-4b
+|Raspberry Pi Model 4B
+
+
+
+|1
+|part
+|reprap-discount-full-graphic-smart-controller
+|RepRap Discount Full Graphic Smart Controller
+
+
+
+|1
+|part
+|solid-state-relay
+|40A Solid State Relay (SSR-40DA)
+
+
+
+|1
+|part
+|universal-controller-case
+|Universal Controller Case
+
+
+
+|20
+|part(s)
+|zip-tie-large
+|8 Inch Zip Tie
+
+
+
+|5
+|part(s)
+|a4988-stepper-motor-driver
+|A4988 Stepper Motor Driver
+
+
+
+|15
+|part(s)
+|2_54mm-jumper-cap
+|2.54mm Jumper Cap
+
+
+
+|2
+|part(s)
+|10-pin-idc-connector
+|10 Pin IDC Connector Cable
+
+
+
+|1
+|part
+|ramps-1_4-smart-adapter
+|RAMPS 1.4 Smart Adapter
+
+
+
+|1
+|image
+|marlin-firmware
+|Marlin Firmware
+
+
+
+|1
+|image
+|octoprint-raspberry-pi-software-image
+|Octoprint Raspberry Pi Software Image
+
+|===
