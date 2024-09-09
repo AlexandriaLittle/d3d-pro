@@ -120,7 +120,7 @@ components:
     description: M6 x 25mm Socket Head Cap Screw
     quantityUnits: part(s)
   m6-nut:
-    quantity: 25
+    quantity: 29
     name: m6-nut
     description: M6 Nut
     quantityUnits: part(s)
@@ -140,7 +140,7 @@ components:
     description: Universal Gearless Extruder Spring Tensioner Arm
     quantityUnits: part
   nema-17-0_5nm-stepper-motor:
-    quantity: 5
+    quantity: 6
     name: nema-17-0_5nm-stepper-motor
     description: Nema 17 0.5Nm Stepper Motor
     quantityUnits: part
@@ -155,77 +155,77 @@ components:
     description: 4 Inch Zip Tie
     quantityUnits: part(s)
   universal-axis-idler-side:
-    quantity: 4
+    quantity: 5
     name: universal-axis-idler-side
     description: Universal Axis Idler Side Part
     quantityUnits: part
   m6-10mm-grub-screw:
-    quantity: 36
+    quantity: 45
     name: m6-10mm-grub-screw
     description: M6 x 10mm Grub Screw
     quantityUnits: part(s)
   m6-12mm-4mm-flanged-bearing:
-    quantity: 8
+    quantity: 10
     name: m6-12mm-4mm-flanged-bearing
     description: M6 x 12mm x 4mm Flanged Bearing
     quantityUnits: part(s)
   m6-20mm-socket-head-cap-screw:
-    quantity: 40
+    quantity: 43
     name: m6-20mm-socket-head-cap-screw
     description: M6 x 20mm Socket Head Cap Screw
     quantityUnits: part(s)
   universal-axis-motor-side:
-    quantity: 4
+    quantity: 5
     name: universal-axis-motor-side
     description: Universal Axis Motor Side Part
     quantityUnits: part
   gt2-6mm-5mm-20-tooth-pulley:
-    quantity: 4
+    quantity: 5
     name: gt2-6mm-5mm-20-tooth-pulley
     description: GT2 6mm Wide x 5mm Bore 20 Tooth Pulley
     quantityUnits: part
   m3-25mm-socket-head-cap-screw:
-    quantity: 12
+    quantity: 15
     name: m3-25mm-socket-head-cap-screw
     description: M3 x 25mm Socket Head Cap Screw
     quantityUnits: part(s)
   universal-axis-z-carriage:
-    quantity: 1
+    quantity: 2
     name: universal-axis-z-carriage
     description: Universal Axis Z Carriage
     quantityUnits: part
   universal-axis-carriage-closure:
-    quantity: 4
+    quantity: 5
     name: universal-axis-carriage-closure
     description: Universal Axis Carriage Closure
     quantityUnits: part
   universal-axis-belt-peg:
-    quantity: 4
+    quantity: 5
     name: universal-axis-belt-peg
     description: Universal Axis Belt Peg
     quantityUnits: part
   universal-axis-belt-pinch:
-    quantity: 4
+    quantity: 5
     name: universal-axis-belt-pinch
     description: Universal Axis Belt Pinch
     quantityUnits: part
   gt2-6mm-1500mm-belt:
-    quantity: 4
+    quantity: 5
     name: gt2-6mm-1500mm-belt
     description: GT2 6mm Wide x 1500mm Long Belt
     quantityUnits: part(s)
   lm8uu-linear-bearing:
-    quantity: 16
+    quantity: 20
     name: lm8uu-linear-bearing
     description: LM8UU Linear Bearing
     quantityUnits: part(s)
   painters-tape:
-    quantity: 4
+    quantity: 5
     name: painters-tape
     description: Painters Tape
     quantityUnits: as needed
   8mm-600mm-smooth-rod:
-    quantity: 10
+    quantity: 12
     name: 8mm-600mm-smooth-rod
     description: 8mm x 600mm Smooth Rod
     quantityUnits: part(s)
@@ -260,7 +260,7 @@ components:
     description: Fast Heated Bed Clamp
     quantityUnits: part(s)
   metal-conduit-stock-length:
-    quantity: 1
+    quantity: 4
     name: metal-conduit-stock-length
     description: Stock Length Metal Conduit
     quantityUnits: part
@@ -290,17 +290,17 @@ components:
     description: 300mm x 300mm PEI Sheet
     quantityUnits: part
   carbon-fiber-blanket-stock:
-    quantity: 1
+    quantity: 4
     name: carbon-fiber-blanket-stock
     description: Carbon Fiber Blanket (Stock Size)
     quantityUnits: part(s)
   sewing-thread:
-    quantity: 1
+    quantity: 4
     name: sewing-thread
     description: Sewing Thread
     quantityUnits: part(s)
   rebar-stake-stock-length:
-    quantity: 3
+    quantity: 12
     name: rebar-stake-stock-length
     description: 12.7mm Rebar Stake Stock Length
     quantityUnits: part

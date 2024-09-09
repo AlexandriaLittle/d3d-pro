@@ -173,7 +173,7 @@
 
 
 
-|25
+|29
 |part(s)
 |m6-nut
 |M6 Nut
@@ -201,7 +201,7 @@
 
 
 
-|5
+|6
 |part
 |nema-17-0_5nm-stepper-motor
 |Nema 17 0.5Nm Stepper Motor
@@ -222,105 +222,105 @@
 
 
 
-|4
+|5
 |part
 |universal-axis-idler-side
 |Universal Axis Idler Side Part
 
 
 
-|36
+|45
 |part(s)
 |m6-10mm-grub-screw
 |M6 x 10mm Grub Screw
 
 
 
-|8
+|10
 |part(s)
 |m6-12mm-4mm-flanged-bearing
 |M6 x 12mm x 4mm Flanged Bearing
 
 
 
-|40
+|43
 |part(s)
 |m6-20mm-socket-head-cap-screw
 |M6 x 20mm Socket Head Cap Screw
 
 
 
-|4
+|5
 |part
 |universal-axis-motor-side
 |Universal Axis Motor Side Part
 
 
 
-|4
+|5
 |part
 |gt2-6mm-5mm-20-tooth-pulley
 |GT2 6mm Wide x 5mm Bore 20 Tooth Pulley
 
 
 
-|12
+|15
 |part(s)
 |m3-25mm-socket-head-cap-screw
 |M3 x 25mm Socket Head Cap Screw
 
 
 
-|1
+|2
 |part
 |universal-axis-z-carriage
 |Universal Axis Z Carriage
 
 
 
-|4
+|5
 |part
 |universal-axis-carriage-closure
 |Universal Axis Carriage Closure
 
 
 
-|4
+|5
 |part
 |universal-axis-belt-peg
 |Universal Axis Belt Peg
 
 
 
-|4
+|5
 |part
 |universal-axis-belt-pinch
 |Universal Axis Belt Pinch
 
 
 
-|4
+|5
 |part(s)
 |gt2-6mm-1500mm-belt
 |GT2 6mm Wide x 1500mm Long Belt
 
 
 
-|16
+|20
 |part(s)
 |lm8uu-linear-bearing
 |LM8UU Linear Bearing
 
 
 
-|4
+|5
 |as needed
 |painters-tape
 |Painters Tape
 
 
 
-|10
+|12
 |part(s)
 |8mm-600mm-smooth-rod
 |8mm x 600mm Smooth Rod
@@ -369,7 +369,7 @@
 
 
 
-|1
+|4
 |part
 |metal-conduit-stock-length
 |Stock Length Metal Conduit
@@ -411,21 +411,21 @@
 
 
 
-|1
+|4
 |part(s)
 |carbon-fiber-blanket-stock
 |Carbon Fiber Blanket (Stock Size)
 
 
 
-|1
+|4
 |part(s)
 |sewing-thread
 |Sewing Thread
 
 
 
-|3
+|12
 |part
 |rebar-stake-stock-length
 |12.7mm Rebar Stake Stock Length
