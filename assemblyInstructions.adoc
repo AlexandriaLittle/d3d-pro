@@ -1,7 +1,7 @@
 = D3D Pro 3D Printer Assembly Instructions
 Alexandria Little
 :revnumber: v23.12
-:revdate: 9/9/2024
+:revdate: 9/10/2024
 :sectnums:
 :toc:
 :docinfo: shared
