@@ -1,9 +1,0 @@
-universal-axis-motor-side:
-  id: universal-axis-motor-side
-  description: Universal Axis Motor Side
-  quantity: 1
-  quantityUnits: part
-  options:
-  - universal-axis-motor-side
-  selectedOption: 0
-  notes: ''
