@@ -1,0 +1,12 @@
+== Thank you for reading this documentation! 
+It would mean the world to all of us who poured our time, love, and efforts into this project if you would study, share, replicate, sell, remix, manufacture, mod, or otherwise interact with the D3D Pro 3D Printer. This work is released under the Creative Commons Attribution Share-Alike 4.0 International license. Feel free to use all of the freedoms that you are granted under that (pretty damn permissive) license. Remember to credit the contributors and share your remixes and upgrades under the same license!
+
+== Contributors
+ - Alexandria Little
+ - Marcin Jakubowski, Ph.D.
+ - Sean Marquez
+ - J. Simmons, Ph.D.
+ - Eric Lotze (One of the original 3D printer devs)
+ - Irvin Inzurriaga (Wiring Video)
+ - Jean-Baptiste Vervaeck (Graphic design of original documentation template)
+

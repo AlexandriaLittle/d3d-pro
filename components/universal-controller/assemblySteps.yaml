@@ -40,22 +40,6 @@
   details: |
     . Hello World!
 
-- summary: Assemble custom wires
-  requiredParts: []
-
-  requiredTools: []
-
-  details: |
-    . Hello World!
-
-- summary: Assemble custom wires
-  requiredParts: []
-
-  requiredTools: []
-
-  details: |
-    . Hello World!
-
 - summary: Assemble the {{parts.ramps-board.description}}
   requiredParts: []
 

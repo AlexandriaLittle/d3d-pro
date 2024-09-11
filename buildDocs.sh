@@ -22,6 +22,10 @@ cp -r source/images dist/images
 echo "copy docinfo.html file to dist/..."
 cp -r docinfo.html dist/
 
+# copy preamble.adoc file to dist/
+echo "copy preamble.adoc file to dist/..."
+cp -r preamble.adoc dist/
+
 # generate flattened BOM files
 echo "generating bill of materials files"
 node dof-helpers/generateFlattenedBOM.js

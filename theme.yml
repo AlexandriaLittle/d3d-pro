@@ -27,7 +27,7 @@ footer:
   columns: =100%
   recto:
     center:
-      content: '{page-number}'
+      content: '{page-number} - CC-BY-SA-4.0'
   verso:
     center:
-      content: '{page-number}'
+      content: '{page-number} - CC-BY-SA-4.0'
