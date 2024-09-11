@@ -91,7 +91,7 @@ gt2-belt:
 linear-bearing:
   id: linear-bearing
   description: Linear Bearing
-  quantity: 4
+  quantity: 6
   quantityUnits: part(s)
   options:
   - lm8uu-linear-bearing
@@ -112,6 +112,15 @@ painters-tape:
   notes: ''
   options:
     - 8mm-600mm-smooth-rod
+  quantity: 2
+  quantityUnits: part(s)
+  selectedOption: 0
+zip-tie-small:
+  description: Small Zip Tie
+  id: zip-tie-small
+  notes: ''
+  options:
+    - zip-tie-small
   quantity: 2
   quantityUnits: part(s)
   selectedOption: 0

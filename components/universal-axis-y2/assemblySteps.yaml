@@ -52,6 +52,7 @@
   requiredTools: 
   - 3mm-allen-wrench
   - 5mm-allen-wrench
+  - scissors
 
   details: |
     . Orient the *{{parts.universal-axis-motor-side-assembly.description}}* such that the section of the stepper motor that hangs off of the *{{parts.universal-axis-motor-side-assembly.description}}* is pointing left.
@@ -72,4 +73,7 @@
     . Place a *{{parts.m6-nut.description}}* in the nut catcher of the *{{parts.belt-pinch.description}}*.
     . Push a *{{parts.m6-20mm-screw.description}}* through the other side of the *{{parts.belt-pinch.description}}*. The {{parts.m6-20mm-screw.quantityUnits}} may need to be wiggled while being pushed in.
     . Gently tighten down the *{{parts.m6-20mm-screw.description}}* through the *{{parts.m6-nut.description}}* with a *{{tools.5mm-allen-wrench.description}}*. The final belt tension will be adjusted in a later step.
+    . Take two *{{parts.linear-bearing.description}}* {{parts.linear-bearing.quantityUnits}} and place them into the bearing holders on the *{{parts.universal-axis-y2-carriage.description}}*.
+    . Loop one *{{parts.zip-tie-small.description}}* over each *{{parts.linear-bearing.description}}* {{parts.linear-bearing.quantityUnits}} and through the gap beneath the bearing holders to secure both *{{parts.linear-bearing.description}}* {{parts.linear-bearing.quantityUnits}} in place.
+    . Pull each *{{parts.zip-tie-small.description}}* {{parts.zip-tie-small.quantityUnits}} tight and cut off the excess *{{parts.zip-tie-small.description}}* material using *{{tools.scissors.description}}*.    
     . The *{{description}}* is complete.
