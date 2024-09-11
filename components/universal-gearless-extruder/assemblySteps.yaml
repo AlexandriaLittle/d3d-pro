@@ -149,6 +149,14 @@
     image:IMG_3541.jpeg[,300,300,pdfwidth=30%]
     image:IMG_3542.jpeg[,300,300,pdfwidth=30%]
 
+- summary: Assemble the {{parts.height-sensor.description}} 5v custom wire extension
+  requiredParts: []
+
+  requiredTools: []
+
+  details: |
+    . Hello World!
+
 - summary: Install {{parts.height-sensor.description}}
   requiredParts:
   - active-cooling-height-sensor-plotter
@@ -173,6 +181,14 @@
     . Tighten the *{{parts.m6-25mm-screw.description}}* only enough to hold the *{{parts.active-cooling-height-sensor-plotter.description}}* in place and not damage it.
     +
     image:IMG_3546.jpeg[,300,300,pdfwidth=30%]
+
+- summary: Assemble the {{parts.40mm-fan.description}} 24v power custom wire extension
+  requiredParts: []
+
+  requiredTools: []
+
+  details: |
+    . Hello World!
 
 - summary: Install {{parts.40mm-fan.description}}
   requiredParts: 
