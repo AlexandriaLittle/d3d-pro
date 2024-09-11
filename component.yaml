@@ -2503,16 +2503,6 @@ components:
             requiredTools: []
             details: |
               . Hello World!
-          - summary: Assemble custom wires
-            requiredParts: []
-            requiredTools: []
-            details: |
-              . Hello World!
-          - summary: Assemble custom wires
-            requiredParts: []
-            requiredTools: []
-            details: |
-              . Hello World!
           - summary: Assemble the RAMPS 1.4 Board
             requiredParts: []
             requiredTools: []
@@ -11953,16 +11943,6 @@ components:
         details: |
           . Hello World!
       - summary: Assemble the Solid State Relay (SSR) 120v power custom wires
-        requiredParts: []
-        requiredTools: []
-        details: |
-          . Hello World!
-      - summary: Assemble custom wires
-        requiredParts: []
-        requiredTools: []
-        details: |
-          . Hello World!
-      - summary: Assemble custom wires
         requiredParts: []
         requiredTools: []
         details: |

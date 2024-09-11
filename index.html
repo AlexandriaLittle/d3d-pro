@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.23">
-<meta name="author" content="Alexandria Little">
+<meta name="author" content="Alexandria Little - CC-BY-SA-4.0">
 <title>D3D Pro 3D Printer Assembly Instructions</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -449,164 +449,289 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1>D3D Pro 3D Printer Assembly Instructions</h1>
 <div class="details">
-<span id="author" class="author">Alexandria Little</span><br>
+<span id="author" class="author">Alexandria Little - CC-BY-SA-4.0</span><br>
 <span id="revnumber">version v23.12,</span>
 <span id="revdate">9/11/2024</span>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_bill_of_materials_parts">1. Bill of Materials - Parts</a></li>
-<li><a href="#_bill_of_materials_tools">2. Bill of Materials - Tools</a></li>
-<li><a href="#_assemble_universal_controller_assembly">3. Assemble Universal Controller Assembly</a>
+<li><a href="#_thank_you_for_reading_this_documentation">1. Thank you for reading this documentation!</a></li>
+<li><a href="#_contributors">2. Contributors</a></li>
+<li><a href="#_bill_of_materials_parts">3. Bill of Materials - Parts</a></li>
+<li><a href="#_bill_of_materials_tools">4. Bill of Materials - Tools</a></li>
+<li><a href="#_assemble_universal_controller_assembly">5. Assemble Universal Controller Assembly</a>
 <ul class="sectlevel2">
-<li><a href="#_tools">3.1. Tools</a></li>
-<li><a href="#_materials">3.2. Materials</a></li>
-<li><a href="#_precautions">3.3. Precautions</a></li>
-<li><a href="#_procedure">3.4. Procedure</a></li>
+<li><a href="#_tools">5.1. Tools</a></li>
+<li><a href="#_materials">5.2. Materials</a></li>
+<li><a href="#_precautions">5.3. Precautions</a></li>
+<li><a href="#_procedure">5.4. Procedure</a>
+<ul class="sectlevel3">
+<li><a href="#_clean_3d_printed_parts">5.4.1. Clean 3D Printed Parts</a></li>
+<li><a href="#_assemble_the_ramps_1_4_board_to_ramps_1_4_board_24v_power_custom_wire">5.4.2. Assemble the RAMPS 1.4 Board to RAMPS 1.4 Board 24v power custom wire</a></li>
+<li><a href="#_assemble_the_ramps_1_4_board_to_solid_state_relay_ssr_24v_signal_custom_wires">5.4.3. Assemble the RAMPS 1.4 Board to Solid State Relay (SSR) 24v signal custom wires</a></li>
+<li><a href="#_assemble_the_gfci_to_24v_power_supply_module_120v_power_custom_wires">5.4.4. Assemble the GFCI to 24v Power Supply Module 120v power custom wires</a></li>
+<li><a href="#_assemble_the_solid_state_relay_ssr_120v_power_custom_wires">5.4.5. Assemble the Solid State Relay (SSR) 120v power custom wires</a></li>
+<li><a href="#_assemble_the_ramps_1_4_board">5.4.6. Assemble the RAMPS 1.4 Board</a></li>
+<li><a href="#_flash_firmware_on_the_arduino_mega_2560">5.4.7. Flash firmware on the Arduino Mega 2560</a></li>
+<li><a href="#_flash_the_octoprint_raspberry_pi_software_image_onto_the_16gb_microsd_card">5.4.8. Flash the Octoprint Raspberry Pi Software Image onto the 16GB MicroSD Card</a></li>
+<li><a href="#_set_up_wifi_on_the_raspberry_pi_computer">5.4.9. Set up WIFI on the Raspberry Pi Computer</a></li>
+<li><a href="#_configure_octoprint_raspberry_pi_software_image_for_use">5.4.10. Configure Octoprint Raspberry Pi Software Image for use</a></li>
+<li><a href="#_attach_components_to_the_universal_controller_case">5.4.11. Attach components to the Universal Controller Case</a></li>
+<li><a href="#_wire_the_gfci">5.4.12. Wire the GFCI</a></li>
+<li><a href="#_wire_the_two_prong_electrical_plug">5.4.13. Wire the Two Prong Electrical Plug</a></li>
+<li><a href="#_wire_the_24v_power_supply_module">5.4.14. Wire the 24v Power Supply Module</a></li>
+<li><a href="#_wire_the_solid_state_relay_ssr">5.4.15. Wire the Solid State Relay (SSR)</a></li>
+<li><a href="#_wire_the_raspberry_pi_computer">5.4.16. Wire the Raspberry Pi Computer</a></li>
+<li><a href="#_wire_the_ramps_1_4_board">5.4.17. Wire the RAMPS 1.4 Board</a></li>
+<li><a href="#_test_the_universal_controller_assembly">5.4.18. Test the Universal Controller Assembly</a></li>
 </ul>
 </li>
-<li><a href="#_assemble_rebar_stake">4. Assemble Rebar Stake</a>
-<ul class="sectlevel2">
-<li><a href="#_tools_2">4.1. Tools</a></li>
-<li><a href="#_materials_2">4.2. Materials</a></li>
-<li><a href="#_precautions_2">4.3. Precautions</a></li>
-<li><a href="#_procedure_2">4.4. Procedure</a></li>
 </ul>
 </li>
-<li><a href="#_assemble_universal_frame_top">5. Assemble Universal Frame Top</a>
+<li><a href="#_assemble_rebar_stake">6. Assemble Rebar Stake</a>
 <ul class="sectlevel2">
-<li><a href="#_tools_3">5.1. Tools</a></li>
-<li><a href="#_materials_3">5.2. Materials</a></li>
-<li><a href="#_procedure_3">5.3. Procedure</a></li>
+<li><a href="#_tools_2">6.1. Tools</a></li>
+<li><a href="#_materials_2">6.2. Materials</a></li>
+<li><a href="#_precautions_2">6.3. Precautions</a></li>
+<li><a href="#_procedure_2">6.4. Procedure</a>
+<ul class="sectlevel3">
+<li><a href="#_cut_rebar_stake_to_length">6.4.1. Cut Rebar Stake to Length</a></li>
 </ul>
 </li>
-<li><a href="#_assemble_universal_frame_base">6. Assemble Universal Frame Base</a>
-<ul class="sectlevel2">
-<li><a href="#_tools_4">6.1. Tools</a></li>
-<li><a href="#_materials_4">6.2. Materials</a></li>
-<li><a href="#_procedure_4">6.3. Procedure</a></li>
 </ul>
 </li>
-<li><a href="#_assemble_universal_frame_module">7. Assemble Universal Frame Module</a>
+<li><a href="#_assemble_universal_frame_top">7. Assemble Universal Frame Top</a>
 <ul class="sectlevel2">
-<li><a href="#_tools_5">7.1. Tools</a></li>
-<li><a href="#_materials_5">7.2. Materials</a></li>
-<li><a href="#_procedure_5">7.3. Procedure</a></li>
+<li><a href="#_tools_3">7.1. Tools</a></li>
+<li><a href="#_materials_3">7.2. Materials</a></li>
+<li><a href="#_procedure_3">7.3. Procedure</a>
+<ul class="sectlevel3">
+<li><a href="#_clean_3d_printed_parts_2">7.3.1. Clean 3D Printed Parts</a></li>
+<li><a href="#_prepare_left_corner_connector_parts_and_right_corner_connector_parts_for_rebar_stake_parts">7.3.2. Prepare Left Corner Connector part(s) and Right Corner Connector part(s) for Rebar Stake part(s)</a></li>
+<li><a href="#_assemble_universal_frame_top_2">7.3.3. Assemble Universal Frame Top</a></li>
 </ul>
 </li>
-<li><a href="#_assemble_carbon_fiber_blanket_sleeve">8. Assemble Carbon Fiber Blanket Sleeve</a>
-<ul class="sectlevel2">
-<li><a href="#_tools_6">8.1. Tools</a></li>
-<li><a href="#_materials_6">8.2. Materials</a></li>
-<li><a href="#_procedure_6">8.3. Procedure</a></li>
 </ul>
 </li>
-<li><a href="#_assemble_halogen_lightbulb_assembly">9. Assemble Halogen Lightbulb Assembly</a>
+<li><a href="#_assemble_universal_frame_base">8. Assemble Universal Frame Base</a>
 <ul class="sectlevel2">
-<li><a href="#_tools_7">9.1. Tools</a></li>
-<li><a href="#_materials_7">9.2. Materials</a></li>
-<li><a href="#_precautions_3">9.3. Precautions</a></li>
-<li><a href="#_procedure_7">9.4. Procedure</a></li>
+<li><a href="#_tools_4">8.1. Tools</a></li>
+<li><a href="#_materials_4">8.2. Materials</a></li>
+<li><a href="#_procedure_4">8.3. Procedure</a>
+<ul class="sectlevel3">
+<li><a href="#_clean_3d_printed_parts_3">8.3.1. Clean 3D Printed Parts</a></li>
+<li><a href="#_prepare_corner_connector_parts_for_rebar_stake_parts">8.3.2. Prepare Corner Connector part(s) for Rebar Stake part(s)</a></li>
+<li><a href="#_assemble_universal_frame_base_2">8.3.3. Assemble Universal Frame Base</a></li>
 </ul>
 </li>
-<li><a href="#_assemble_metal_conduit">10. Assemble Metal Conduit</a>
-<ul class="sectlevel2">
-<li><a href="#_tools_8">10.1. Tools</a></li>
-<li><a href="#_materials_8">10.2. Materials</a></li>
-<li><a href="#_precautions_4">10.3. Precautions</a></li>
-<li><a href="#_procedure_8">10.4. Procedure</a></li>
 </ul>
 </li>
-<li><a href="#_assemble_fast_heated_bed_bottom_plate">11. Assemble Fast Heated Bed Bottom Plate</a>
+<li><a href="#_assemble_universal_frame_module">9. Assemble Universal Frame Module</a>
 <ul class="sectlevel2">
-<li><a href="#_tools_9">11.1. Tools</a></li>
-<li><a href="#_materials_9">11.2. Materials</a></li>
-<li><a href="#_precautions_5">11.3. Precautions</a></li>
-<li><a href="#_procedure_9">11.4. Procedure</a></li>
+<li><a href="#_tools_5">9.1. Tools</a></li>
+<li><a href="#_materials_5">9.2. Materials</a></li>
+<li><a href="#_procedure_5">9.3. Procedure</a>
+<ul class="sectlevel3">
+<li><a href="#_assemble_universal_frame_module_2">9.3.1. Assemble Universal Frame Module</a></li>
 </ul>
 </li>
-<li><a href="#_assemble_fast_heated_bed_top_plate">12. Assemble Fast Heated Bed Top Plate</a>
-<ul class="sectlevel2">
-<li><a href="#_tools_10">12.1. Tools</a></li>
-<li><a href="#_materials_10">12.2. Materials</a></li>
-<li><a href="#_precautions_6">12.3. Precautions</a></li>
-<li><a href="#_procedure_10">12.4. Procedure</a></li>
 </ul>
 </li>
-<li><a href="#_assemble_fast_heated_bed_module">13. Assemble Fast Heated Bed Module</a>
+<li><a href="#_assemble_carbon_fiber_blanket_sleeve">10. Assemble Carbon Fiber Blanket Sleeve</a>
 <ul class="sectlevel2">
-<li><a href="#_tools_11">13.1. Tools</a></li>
-<li><a href="#_materials_11">13.2. Materials</a></li>
-<li><a href="#_precautions_7">13.3. Precautions</a></li>
-<li><a href="#_procedure_11">13.4. Procedure</a></li>
+<li><a href="#_tools_6">10.1. Tools</a></li>
+<li><a href="#_materials_6">10.2. Materials</a></li>
+<li><a href="#_procedure_6">10.3. Procedure</a>
+<ul class="sectlevel3">
+<li><a href="#_assemble_carbon_fiber_blanket_sleeve_parts">10.3.1. Assemble Carbon Fiber Blanket Sleeve Parts</a></li>
 </ul>
 </li>
-<li><a href="#_assemble_universal_axis_motor_side_module">14. Assemble Universal Axis Motor Side Module</a>
-<ul class="sectlevel2">
-<li><a href="#_tools_12">14.1. Tools</a></li>
-<li><a href="#_materials_12">14.2. Materials</a></li>
-<li><a href="#_precautions_8">14.3. Precautions</a></li>
-<li><a href="#_procedure_12">14.4. Procedure</a></li>
 </ul>
 </li>
-<li><a href="#_assemble_universal_axis_idler_side_module">15. Assemble Universal Axis Idler Side Module</a>
+<li><a href="#_assemble_halogen_lightbulb_assembly">11. Assemble Halogen Lightbulb Assembly</a>
 <ul class="sectlevel2">
-<li><a href="#_tools_13">15.1. Tools</a></li>
-<li><a href="#_materials_13">15.2. Materials</a></li>
-<li><a href="#_precautions_9">15.3. Precautions</a></li>
-<li><a href="#_procedure_13">15.4. Procedure</a></li>
+<li><a href="#_tools_7">11.1. Tools</a></li>
+<li><a href="#_materials_7">11.2. Materials</a></li>
+<li><a href="#_precautions_3">11.3. Precautions</a></li>
+<li><a href="#_procedure_7">11.4. Procedure</a>
+<ul class="sectlevel3">
+<li><a href="#_assemble_halogen_lightbulb_assembly_2">11.4.1. Assemble Halogen Lightbulb Assembly</a></li>
 </ul>
 </li>
-<li><a href="#_assemble_universal_x_axis_module">16. Assemble Universal X Axis Module</a>
-<ul class="sectlevel2">
-<li><a href="#_tools_14">16.1. Tools</a></li>
-<li><a href="#_materials_14">16.2. Materials</a></li>
-<li><a href="#_procedure_14">16.3. Procedure</a></li>
 </ul>
 </li>
-<li><a href="#_assemble_universal_y1_axis_module">17. Assemble Universal Y1 Axis Module</a>
+<li><a href="#_assemble_metal_conduit">12. Assemble Metal Conduit</a>
 <ul class="sectlevel2">
-<li><a href="#_tools_15">17.1. Tools</a></li>
-<li><a href="#_materials_15">17.2. Materials</a></li>
-<li><a href="#_procedure_15">17.3. Procedure</a></li>
+<li><a href="#_tools_8">12.1. Tools</a></li>
+<li><a href="#_materials_8">12.2. Materials</a></li>
+<li><a href="#_precautions_4">12.3. Precautions</a></li>
+<li><a href="#_procedure_8">12.4. Procedure</a>
+<ul class="sectlevel3">
+<li><a href="#_cut_metal_conduit_to_length">12.4.1. Cut Metal Conduit to Length</a></li>
 </ul>
 </li>
-<li><a href="#_assemble_universal_y2_axis_module">18. Assemble Universal Y2 Axis Module</a>
-<ul class="sectlevel2">
-<li><a href="#_tools_16">18.1. Tools</a></li>
-<li><a href="#_materials_16">18.2. Materials</a></li>
-<li><a href="#_procedure_16">18.3. Procedure</a></li>
 </ul>
 </li>
-<li><a href="#_assemble_universal_z_axis_module">19. Assemble Universal Z Axis Module</a>
+<li><a href="#_assemble_fast_heated_bed_bottom_plate">13. Assemble Fast Heated Bed Bottom Plate</a>
 <ul class="sectlevel2">
-<li><a href="#_tools_17">19.1. Tools</a></li>
-<li><a href="#_materials_17">19.2. Materials</a></li>
-<li><a href="#_precautions_10">19.3. Precautions</a></li>
-<li><a href="#_procedure_17">19.4. Procedure</a></li>
+<li><a href="#_tools_9">13.1. Tools</a></li>
+<li><a href="#_materials_9">13.2. Materials</a></li>
+<li><a href="#_precautions_5">13.3. Precautions</a></li>
+<li><a href="#_procedure_9">13.4. Procedure</a>
+<ul class="sectlevel3">
+<li><a href="#_drill_the_fast_heated_bed_bottom_plate">13.4.1. Drill the Fast Heated Bed Bottom Plate</a></li>
 </ul>
 </li>
-<li><a href="#_assemble_hot_end_assembly">20. Assemble Hot End Assembly</a>
-<ul class="sectlevel2">
-<li><a href="#_tools_18">20.1. Tools</a></li>
-<li><a href="#_materials_18">20.2. Materials</a></li>
-<li><a href="#_precautions_11">20.3. Precautions</a></li>
-<li><a href="#_procedure_18">20.4. Procedure</a></li>
 </ul>
 </li>
-<li><a href="#_assemble_universal_gearless_extruder_module">21. Assemble Universal Gearless Extruder Module</a>
+<li><a href="#_assemble_fast_heated_bed_top_plate">14. Assemble Fast Heated Bed Top Plate</a>
 <ul class="sectlevel2">
-<li><a href="#_tools_19">21.1. Tools</a></li>
-<li><a href="#_materials_19">21.2. Materials</a></li>
-<li><a href="#_procedure_19">21.3. Procedure</a></li>
+<li><a href="#_tools_10">14.1. Tools</a></li>
+<li><a href="#_materials_10">14.2. Materials</a></li>
+<li><a href="#_precautions_6">14.3. Precautions</a></li>
+<li><a href="#_procedure_10">14.4. Procedure</a>
+<ul class="sectlevel3">
+<li><a href="#_prepare_the_steel_sheet_for_welding">14.4.1. Prepare the Steel Sheet for Welding</a></li>
+<li><a href="#_weld_the_m6_x_25mm_screw_parts_to_the_steel_sheet">14.4.2. Weld the M6 x 25mm Screw part(s) to the Steel Sheet</a></li>
 </ul>
 </li>
-<li><a href="#_assemble_d3d_pro_3d_printer">22. Assemble D3D Pro 3D Printer</a>
+</ul>
+</li>
+<li><a href="#_assemble_fast_heated_bed_module">15. Assemble Fast Heated Bed Module</a>
 <ul class="sectlevel2">
-<li><a href="#_materials_20">22.1. Materials</a></li>
-<li><a href="#_precautions_12">22.2. Precautions</a></li>
-<li><a href="#_procedure_20">22.3. Procedure</a></li>
+<li><a href="#_tools_11">15.1. Tools</a></li>
+<li><a href="#_materials_11">15.2. Materials</a></li>
+<li><a href="#_precautions_7">15.3. Precautions</a></li>
+<li><a href="#_procedure_11">15.4. Procedure</a>
+<ul class="sectlevel3">
+<li><a href="#_assemble_fast_heated_bed_module_2">15.4.1. Assemble Fast Heated Bed Module</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#_assemble_universal_axis_motor_side_module">16. Assemble Universal Axis Motor Side Module</a>
+<ul class="sectlevel2">
+<li><a href="#_tools_12">16.1. Tools</a></li>
+<li><a href="#_materials_12">16.2. Materials</a></li>
+<li><a href="#_precautions_8">16.3. Precautions</a></li>
+<li><a href="#_procedure_12">16.4. Procedure</a>
+<ul class="sectlevel3">
+<li><a href="#_clean_3d_printed_parts_4">16.4.1. Clean 3D Printed Parts</a></li>
+<li><a href="#_assemble_the_universal_axis_motor_side_module">16.4.2. Assemble the Universal Axis Motor Side Module</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#_assemble_universal_axis_idler_side_module">17. Assemble Universal Axis Idler Side Module</a>
+<ul class="sectlevel2">
+<li><a href="#_tools_13">17.1. Tools</a></li>
+<li><a href="#_materials_13">17.2. Materials</a></li>
+<li><a href="#_precautions_9">17.3. Precautions</a></li>
+<li><a href="#_procedure_13">17.4. Procedure</a>
+<ul class="sectlevel3">
+<li><a href="#_clean_3d_printed_parts_5">17.4.1. Clean 3D Printed Parts</a></li>
+<li><a href="#_assemble_universal_axis_idler_side_module_2">17.4.2. Assemble Universal Axis Idler Side Module</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#_assemble_universal_x_axis_module">18. Assemble Universal X Axis Module</a>
+<ul class="sectlevel2">
+<li><a href="#_tools_14">18.1. Tools</a></li>
+<li><a href="#_materials_14">18.2. Materials</a></li>
+<li><a href="#_procedure_14">18.3. Procedure</a>
+<ul class="sectlevel3">
+<li><a href="#_clean_3d_printed_parts_6">18.3.1. Clean 3D Printed Parts</a></li>
+<li><a href="#_assemble_universal_axis_x_carriage_side">18.3.2. Assemble Universal Axis X Carriage Side</a></li>
+<li><a href="#_assemble_universal_x_axis_module_2">18.3.3. Assemble Universal X Axis Module</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#_assemble_universal_y1_axis_module">19. Assemble Universal Y1 Axis Module</a>
+<ul class="sectlevel2">
+<li><a href="#_tools_15">19.1. Tools</a></li>
+<li><a href="#_materials_15">19.2. Materials</a></li>
+<li><a href="#_procedure_15">19.3. Procedure</a>
+<ul class="sectlevel3">
+<li><a href="#_clean_3d_printed_parts_7">19.3.1. Clean 3D Printed Parts</a></li>
+<li><a href="#_assemble_universal_axis_y1_carriage_side">19.3.2. Assemble Universal Axis Y1 Carriage Side</a></li>
+<li><a href="#_assemble_universal_y1_axis_module_2">19.3.3. Assemble Universal Y1 Axis Module</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#_assemble_universal_y2_axis_module">20. Assemble Universal Y2 Axis Module</a>
+<ul class="sectlevel2">
+<li><a href="#_tools_16">20.1. Tools</a></li>
+<li><a href="#_materials_16">20.2. Materials</a></li>
+<li><a href="#_procedure_16">20.3. Procedure</a>
+<ul class="sectlevel3">
+<li><a href="#_clean_3d_printed_parts_8">20.3.1. Clean 3D Printed Parts</a></li>
+<li><a href="#_assemble_universal_axis_y2_carriage_side">20.3.2. Assemble Universal Axis Y2 Carriage Side</a></li>
+<li><a href="#_assemble_universal_y2_axis_module_2">20.3.3. Assemble Universal Y2 Axis Module</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#_assemble_universal_z_axis_module">21. Assemble Universal Z Axis Module</a>
+<ul class="sectlevel2">
+<li><a href="#_tools_17">21.1. Tools</a></li>
+<li><a href="#_materials_17">21.2. Materials</a></li>
+<li><a href="#_precautions_10">21.3. Precautions</a></li>
+<li><a href="#_procedure_17">21.4. Procedure</a>
+<ul class="sectlevel3">
+<li><a href="#_clean_3d_printed_parts_9">21.4.1. Clean 3D Printed Parts</a></li>
+<li><a href="#_assemble_universal_axis_z_carriage_side">21.4.2. Assemble Universal Axis Z Carriage Side</a></li>
+<li><a href="#_assemble_universal_z_axis_module_2">21.4.3. Assemble Universal Z Axis Module</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#_assemble_hot_end_assembly">22. Assemble Hot End Assembly</a>
+<ul class="sectlevel2">
+<li><a href="#_tools_18">22.1. Tools</a></li>
+<li><a href="#_materials_18">22.2. Materials</a></li>
+<li><a href="#_precautions_11">22.3. Precautions</a></li>
+<li><a href="#_procedure_18">22.4. Procedure</a>
+<ul class="sectlevel3">
+<li><a href="#_assemble_the_volcano_style_heater_block">22.4.1. Assemble the Volcano Style Heater Block</a></li>
+<li><a href="#_hot_tighten_the_volcano_nozzle_and_heat_break">22.4.2. Hot Tighten the Volcano Nozzle and Heat Break</a></li>
+<li><a href="#_attach_the_heatsink_block">22.4.3. Attach the Heatsink Block</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#_assemble_universal_gearless_extruder_module">23. Assemble Universal Gearless Extruder Module</a>
+<ul class="sectlevel2">
+<li><a href="#_tools_19">23.1. Tools</a></li>
+<li><a href="#_materials_19">23.2. Materials</a></li>
+<li><a href="#_procedure_19">23.3. Procedure</a>
+<ul class="sectlevel3">
+<li><a href="#_assemble_the_motor_mount">23.3.1. Assemble the Motor Mount</a></li>
+<li><a href="#_add_the_secondary_extruder_part">23.3.2. Add the Secondary Extruder Part</a></li>
+<li><a href="#_install_hot_end_assembly">23.3.3. Install Hot End Assembly</a></li>
+<li><a href="#_install_and_adjust_filament_drive_gear_adjust_hot_end_assembly">23.3.4. Install and adjust Filament Drive Gear / Adjust Hot End Assembly</a></li>
+<li><a href="#_install_spring_tensioner_arm">23.3.5. Install Spring Tensioner Arm</a></li>
+<li><a href="#_assemble_the_height_sensor_5v_custom_wire_extension">23.3.6. Assemble the Height Sensor 5v custom wire extension</a></li>
+<li><a href="#_install_height_sensor">23.3.7. Install Height Sensor</a></li>
+<li><a href="#_assemble_the_40mm_fan_24v_power_custom_wire_extension">23.3.8. Assemble the 40mm Fan 24v power custom wire extension</a></li>
+<li><a href="#_install_40mm_fan">23.3.9. Install 40mm Fan</a></li>
+<li><a href="#_cables_management">23.3.10. Cables Management</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#_assemble_d3d_pro_3d_printer">24. Assemble D3D Pro 3D Printer</a>
+<ul class="sectlevel2">
+<li><a href="#_materials_20">24.1. Materials</a></li>
+<li><a href="#_precautions_12">24.2. Precautions</a></li>
+<li><a href="#_procedure_20">24.3. Procedure</a>
+<ul class="sectlevel3">
+<li><a href="#_throw_universal_gearless_extruder_out_the_window">24.3.1. Throw Universal Gearless Extruder out the window</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -614,7 +739,45 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="_bill_of_materials_parts">1. Bill of Materials - Parts</h2>
+<h2 id="_thank_you_for_reading_this_documentation">1. Thank you for reading this documentation!</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>It would mean the world to all of us who poured our time, love, and efforts into this project if you would study, share, replicate, sell, remix, manufacture, mod, or otherwise interact with the D3D Pro 3D Printer. This work is released under the Creative Commons Attribution Share-Alike 4.0 International license. Feel free to use all of the freedoms that you are granted under that (pretty damn permissive) license. Remember to credit the contributors and share your remixes and upgrades under the same license!</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_contributors">2. Contributors</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Alexandria Little</p>
+</li>
+<li>
+<p>Marcin Jakubowski, Ph.D.</p>
+</li>
+<li>
+<p>Sean Marquez</p>
+</li>
+<li>
+<p>J. Simmons, Ph.D.</p>
+</li>
+<li>
+<p>Eric Lotze (One of the original 3D printer devs)</p>
+</li>
+<li>
+<p>Irvin Inzurriaga (Wiring Video)</p>
+</li>
+<li>
+<p>Jean-Baptiste Vervaeck (Graphic design of original documentation template)</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_bill_of_materials_parts">3. Bill of Materials - Parts</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -1171,7 +1334,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_bill_of_materials_tools">2. Bill of Materials - Tools</h2>
+<h2 id="_bill_of_materials_tools">4. Bill of Materials - Tools</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -1404,10 +1567,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_assemble_universal_controller_assembly">3. Assemble Universal Controller Assembly</h2>
+<h2 id="_assemble_universal_controller_assembly">5. Assemble Universal Controller Assembly</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_tools">3.1. Tools</h3>
+<h3 id="_tools">5.1. Tools</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -1471,7 +1634,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_materials">3.2. Materials</h3>
+<h3 id="_materials">5.2. Materials</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -1690,7 +1853,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_precautions">3.3. Precautions</h3>
+<h3 id="_precautions">5.3. Precautions</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -1706,9 +1869,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect2">
-<h3 id="_procedure">3.4. Procedure</h3>
+<h3 id="_procedure">5.4. Procedure</h3>
 <div class="sect3">
-<h4 id="_clean_3d_printed_parts">3.4.1. Clean 3D Printed Parts</h4>
+<h4 id="_clean_3d_printed_parts">5.4.1. Clean 3D Printed Parts</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -1721,7 +1884,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_assemble_the_ramps_1_4_board_to_ramps_1_4_board_24v_power_custom_wire">3.4.2. Assemble the RAMPS 1.4 Board to RAMPS 1.4 Board 24v power custom wire</h4>
+<h4 id="_assemble_the_ramps_1_4_board_to_ramps_1_4_board_24v_power_custom_wire">5.4.2. Assemble the RAMPS 1.4 Board to RAMPS 1.4 Board 24v power custom wire</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -1734,7 +1897,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_assemble_the_ramps_1_4_board_to_solid_state_relay_ssr_24v_signal_custom_wires">3.4.3. Assemble the RAMPS 1.4 Board to Solid State Relay (SSR) 24v signal custom wires</h4>
+<h4 id="_assemble_the_ramps_1_4_board_to_solid_state_relay_ssr_24v_signal_custom_wires">5.4.3. Assemble the RAMPS 1.4 Board to Solid State Relay (SSR) 24v signal custom wires</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -1747,7 +1910,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_assemble_the_gfci_to_24v_power_supply_module_120v_power_custom_wires">3.4.4. Assemble the GFCI to 24v Power Supply Module 120v power custom wires</h4>
+<h4 id="_assemble_the_gfci_to_24v_power_supply_module_120v_power_custom_wires">5.4.4. Assemble the GFCI to 24v Power Supply Module 120v power custom wires</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -1760,7 +1923,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_assemble_the_solid_state_relay_ssr_120v_power_custom_wires">3.4.5. Assemble the Solid State Relay (SSR) 120v power custom wires</h4>
+<h4 id="_assemble_the_solid_state_relay_ssr_120v_power_custom_wires">5.4.5. Assemble the Solid State Relay (SSR) 120v power custom wires</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -1773,7 +1936,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_assemble_custom_wires">3.4.6. Assemble custom wires</h4>
+<h4 id="_assemble_the_ramps_1_4_board">5.4.6. Assemble the RAMPS 1.4 Board</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -1786,7 +1949,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_assemble_custom_wires_2">3.4.7. Assemble custom wires</h4>
+<h4 id="_flash_firmware_on_the_arduino_mega_2560">5.4.7. Flash firmware on the Arduino Mega 2560</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -1799,7 +1962,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_assemble_the_ramps_1_4_board">3.4.8. Assemble the RAMPS 1.4 Board</h4>
+<h4 id="_flash_the_octoprint_raspberry_pi_software_image_onto_the_16gb_microsd_card">5.4.8. Flash the Octoprint Raspberry Pi Software Image onto the 16GB MicroSD Card</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -1812,7 +1975,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_flash_firmware_on_the_arduino_mega_2560">3.4.9. Flash firmware on the Arduino Mega 2560</h4>
+<h4 id="_set_up_wifi_on_the_raspberry_pi_computer">5.4.9. Set up WIFI on the Raspberry Pi Computer</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -1825,7 +1988,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_flash_the_octoprint_raspberry_pi_software_image_onto_the_16gb_microsd_card">3.4.10. Flash the Octoprint Raspberry Pi Software Image onto the 16GB MicroSD Card</h4>
+<h4 id="_configure_octoprint_raspberry_pi_software_image_for_use">5.4.10. Configure Octoprint Raspberry Pi Software Image for use</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -1838,7 +2001,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_set_up_wifi_on_the_raspberry_pi_computer">3.4.11. Set up WIFI on the Raspberry Pi Computer</h4>
+<h4 id="_attach_components_to_the_universal_controller_case">5.4.11. Attach components to the Universal Controller Case</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -1851,7 +2014,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_configure_octoprint_raspberry_pi_software_image_for_use">3.4.12. Configure Octoprint Raspberry Pi Software Image for use</h4>
+<h4 id="_wire_the_gfci">5.4.12. Wire the GFCI</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -1864,7 +2027,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_attach_components_to_the_universal_controller_case">3.4.13. Attach components to the Universal Controller Case</h4>
+<h4 id="_wire_the_two_prong_electrical_plug">5.4.13. Wire the Two Prong Electrical Plug</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -1877,7 +2040,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_wire_the_gfci">3.4.14. Wire the GFCI</h4>
+<h4 id="_wire_the_24v_power_supply_module">5.4.14. Wire the 24v Power Supply Module</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -1890,7 +2053,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_wire_the_two_prong_electrical_plug">3.4.15. Wire the Two Prong Electrical Plug</h4>
+<h4 id="_wire_the_solid_state_relay_ssr">5.4.15. Wire the Solid State Relay (SSR)</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -1903,7 +2066,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_wire_the_24v_power_supply_module">3.4.16. Wire the 24v Power Supply Module</h4>
+<h4 id="_wire_the_raspberry_pi_computer">5.4.16. Wire the Raspberry Pi Computer</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -1916,7 +2079,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_wire_the_solid_state_relay_ssr">3.4.17. Wire the Solid State Relay (SSR)</h4>
+<h4 id="_wire_the_ramps_1_4_board">5.4.17. Wire the RAMPS 1.4 Board</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -1929,33 +2092,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_wire_the_raspberry_pi_computer">3.4.18. Wire the Raspberry Pi Computer</h4>
-<div class="paragraph">
-<p><strong>Instructions</strong></p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Hello World!</p>
-</li>
-</ol>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_wire_the_ramps_1_4_board">3.4.19. Wire the RAMPS 1.4 Board</h4>
-<div class="paragraph">
-<p><strong>Instructions</strong></p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Hello World!</p>
-</li>
-</ol>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_test_the_universal_controller_assembly">3.4.20. Test the Universal Controller Assembly</h4>
+<h4 id="_test_the_universal_controller_assembly">5.4.18. Test the Universal Controller Assembly</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -1971,10 +2108,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_assemble_rebar_stake">4. Assemble Rebar Stake</h2>
+<h2 id="_assemble_rebar_stake">6. Assemble Rebar Stake</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_tools_2">4.1. Tools</h3>
+<h3 id="_tools_2">6.1. Tools</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -2018,7 +2155,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_materials_2">4.2. Materials</h3>
+<h3 id="_materials_2">6.2. Materials</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -2048,7 +2185,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_precautions_2">4.3. Precautions</h3>
+<h3 id="_precautions_2">6.3. Precautions</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -2058,9 +2195,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect2">
-<h3 id="_procedure_2">4.4. Procedure</h3>
+<h3 id="_procedure_2">6.4. Procedure</h3>
 <div class="sect3">
-<h4 id="_cut_rebar_stake_to_length">4.4.1. Cut Rebar Stake to Length</h4>
+<h4 id="_cut_rebar_stake_to_length">6.4.1. Cut Rebar Stake to Length</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -2088,10 +2225,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_assemble_universal_frame_top">5. Assemble Universal Frame Top</h2>
+<h2 id="_assemble_universal_frame_top">7. Assemble Universal Frame Top</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_tools_3">5.1. Tools</h3>
+<h3 id="_tools_3">7.1. Tools</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -2120,7 +2257,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_materials_3">5.2. Materials</h3>
+<h3 id="_materials_3">7.2. Materials</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -2178,9 +2315,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_procedure_3">5.3. Procedure</h3>
+<h3 id="_procedure_3">7.3. Procedure</h3>
 <div class="sect3">
-<h4 id="_clean_3d_printed_parts_2">5.3.1. Clean 3D Printed Parts</h4>
+<h4 id="_clean_3d_printed_parts_2">7.3.1. Clean 3D Printed Parts</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -2193,7 +2330,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_prepare_left_corner_connector_parts_and_right_corner_connector_parts_for_rebar_stake_parts">5.3.2. Prepare Left Corner Connector part(s) and Right Corner Connector part(s) for Rebar Stake part(s)</h4>
+<h4 id="_prepare_left_corner_connector_parts_and_right_corner_connector_parts_for_rebar_stake_parts">7.3.2. Prepare Left Corner Connector part(s) and Right Corner Connector part(s) for Rebar Stake part(s)</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -2218,7 +2355,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_assemble_universal_frame_top_2">5.3.3. Assemble Universal Frame Top</h4>
+<h4 id="_assemble_universal_frame_top_2">7.3.3. Assemble Universal Frame Top</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -2255,10 +2392,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_assemble_universal_frame_base">6. Assemble Universal Frame Base</h2>
+<h2 id="_assemble_universal_frame_base">8. Assemble Universal Frame Base</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_tools_4">6.1. Tools</h3>
+<h3 id="_tools_4">8.1. Tools</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -2287,7 +2424,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_materials_4">6.2. Materials</h3>
+<h3 id="_materials_4">8.2. Materials</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -2338,9 +2475,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_procedure_4">6.3. Procedure</h3>
+<h3 id="_procedure_4">8.3. Procedure</h3>
 <div class="sect3">
-<h4 id="_clean_3d_printed_parts_3">6.3.1. Clean 3D Printed Parts</h4>
+<h4 id="_clean_3d_printed_parts_3">8.3.1. Clean 3D Printed Parts</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -2353,7 +2490,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_prepare_corner_connector_parts_for_rebar_stake_parts">6.3.2. Prepare Corner Connector part(s) for Rebar Stake part(s)</h4>
+<h4 id="_prepare_corner_connector_parts_for_rebar_stake_parts">8.3.2. Prepare Corner Connector part(s) for Rebar Stake part(s)</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -2378,7 +2515,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_assemble_universal_frame_base_2">6.3.3. Assemble Universal Frame Base</h4>
+<h4 id="_assemble_universal_frame_base_2">8.3.3. Assemble Universal Frame Base</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -2415,10 +2552,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_assemble_universal_frame_module">7. Assemble Universal Frame Module</h2>
+<h2 id="_assemble_universal_frame_module">9. Assemble Universal Frame Module</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_tools_5">7.1. Tools</h3>
+<h3 id="_tools_5">9.1. Tools</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -2442,7 +2579,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_materials_5">7.2. Materials</h3>
+<h3 id="_materials_5">9.2. Materials</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -2486,9 +2623,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_procedure_5">7.3. Procedure</h3>
+<h3 id="_procedure_5">9.3. Procedure</h3>
 <div class="sect3">
-<h4 id="_assemble_universal_frame_module_2">7.3.1. Assemble Universal Frame Module</h4>
+<h4 id="_assemble_universal_frame_module_2">9.3.1. Assemble Universal Frame Module</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -2528,10 +2665,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_assemble_carbon_fiber_blanket_sleeve">8. Assemble Carbon Fiber Blanket Sleeve</h2>
+<h2 id="_assemble_carbon_fiber_blanket_sleeve">10. Assemble Carbon Fiber Blanket Sleeve</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_tools_6">8.1. Tools</h3>
+<h3 id="_tools_6">10.1. Tools</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -2560,7 +2697,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_materials_6">8.2. Materials</h3>
+<h3 id="_materials_6">10.2. Materials</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -2597,9 +2734,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_procedure_6">8.3. Procedure</h3>
+<h3 id="_procedure_6">10.3. Procedure</h3>
 <div class="sect3">
-<h4 id="_assemble_carbon_fiber_blanket_sleeve_parts">8.3.1. Assemble Carbon Fiber Blanket Sleeve Parts</h4>
+<h4 id="_assemble_carbon_fiber_blanket_sleeve_parts">10.3.1. Assemble Carbon Fiber Blanket Sleeve Parts</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -2636,10 +2773,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_assemble_halogen_lightbulb_assembly">9. Assemble Halogen Lightbulb Assembly</h2>
+<h2 id="_assemble_halogen_lightbulb_assembly">11. Assemble Halogen Lightbulb Assembly</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_tools_7">9.1. Tools</h3>
+<h3 id="_tools_7">11.1. Tools</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -2673,7 +2810,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_materials_7">9.2. Materials</h3>
+<h3 id="_materials_7">11.2. Materials</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -2717,7 +2854,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_precautions_3">9.3. Precautions</h3>
+<h3 id="_precautions_3">11.3. Precautions</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -2739,9 +2876,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect2">
-<h3 id="_procedure_7">9.4. Procedure</h3>
+<h3 id="_procedure_7">11.4. Procedure</h3>
 <div class="sect3">
-<h4 id="_assemble_halogen_lightbulb_assembly_2">9.4.1. Assemble Halogen Lightbulb Assembly</h4>
+<h4 id="_assemble_halogen_lightbulb_assembly_2">11.4.1. Assemble Halogen Lightbulb Assembly</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -2799,10 +2936,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_assemble_metal_conduit">10. Assemble Metal Conduit</h2>
+<h2 id="_assemble_metal_conduit">12. Assemble Metal Conduit</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_tools_8">10.1. Tools</h3>
+<h3 id="_tools_8">12.1. Tools</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -2846,7 +2983,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_materials_8">10.2. Materials</h3>
+<h3 id="_materials_8">12.2. Materials</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -2876,7 +3013,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_precautions_4">10.3. Precautions</h3>
+<h3 id="_precautions_4">12.3. Precautions</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -2886,9 +3023,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect2">
-<h3 id="_procedure_8">10.4. Procedure</h3>
+<h3 id="_procedure_8">12.4. Procedure</h3>
 <div class="sect3">
-<h4 id="_cut_metal_conduit_to_length">10.4.1. Cut Metal Conduit to Length</h4>
+<h4 id="_cut_metal_conduit_to_length">12.4.1. Cut Metal Conduit to Length</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -2916,10 +3053,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_assemble_fast_heated_bed_bottom_plate">11. Assemble Fast Heated Bed Bottom Plate</h2>
+<h2 id="_assemble_fast_heated_bed_bottom_plate">13. Assemble Fast Heated Bed Bottom Plate</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_tools_9">11.1. Tools</h3>
+<h3 id="_tools_9">13.1. Tools</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -2963,7 +3100,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_materials_9">11.2. Materials</h3>
+<h3 id="_materials_9">13.2. Materials</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -2993,7 +3130,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_precautions_5">11.3. Precautions</h3>
+<h3 id="_precautions_5">13.3. Precautions</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -3003,9 +3140,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect2">
-<h3 id="_procedure_9">11.4. Procedure</h3>
+<h3 id="_procedure_9">13.4. Procedure</h3>
 <div class="sect3">
-<h4 id="_drill_the_fast_heated_bed_bottom_plate">11.4.1. Drill the Fast Heated Bed Bottom Plate</h4>
+<h4 id="_drill_the_fast_heated_bed_bottom_plate">13.4.1. Drill the Fast Heated Bed Bottom Plate</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -3033,10 +3170,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_assemble_fast_heated_bed_top_plate">12. Assemble Fast Heated Bed Top Plate</h2>
+<h2 id="_assemble_fast_heated_bed_top_plate">14. Assemble Fast Heated Bed Top Plate</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_tools_10">12.1. Tools</h3>
+<h3 id="_tools_10">14.1. Tools</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -3080,7 +3217,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_materials_10">12.2. Materials</h3>
+<h3 id="_materials_10">14.2. Materials</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -3117,7 +3254,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_precautions_6">12.3. Precautions</h3>
+<h3 id="_precautions_6">14.3. Precautions</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -3130,9 +3267,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect2">
-<h3 id="_procedure_10">12.4. Procedure</h3>
+<h3 id="_procedure_10">14.4. Procedure</h3>
 <div class="sect3">
-<h4 id="_prepare_the_steel_sheet_for_welding">12.4.1. Prepare the Steel Sheet for Welding</h4>
+<h4 id="_prepare_the_steel_sheet_for_welding">14.4.1. Prepare the Steel Sheet for Welding</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -3151,7 +3288,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_weld_the_m6_x_25mm_screw_parts_to_the_steel_sheet">12.4.2. Weld the M6 x 25mm Screw part(s) to the Steel Sheet</h4>
+<h4 id="_weld_the_m6_x_25mm_screw_parts_to_the_steel_sheet">14.4.2. Weld the M6 x 25mm Screw part(s) to the Steel Sheet</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -3176,10 +3313,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_assemble_fast_heated_bed_module">13. Assemble Fast Heated Bed Module</h2>
+<h2 id="_assemble_fast_heated_bed_module">15. Assemble Fast Heated Bed Module</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_tools_11">13.1. Tools</h3>
+<h3 id="_tools_11">15.1. Tools</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -3213,7 +3350,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_materials_11">13.2. Materials</h3>
+<h3 id="_materials_11">15.2. Materials</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -3327,7 +3464,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_precautions_7">13.3. Precautions</h3>
+<h3 id="_precautions_7">15.3. Precautions</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -3340,9 +3477,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect2">
-<h3 id="_procedure_11">13.4. Procedure</h3>
+<h3 id="_procedure_11">15.4. Procedure</h3>
 <div class="sect3">
-<h4 id="_assemble_fast_heated_bed_module_2">13.4.1. Assemble Fast Heated Bed Module</h4>
+<h4 id="_assemble_fast_heated_bed_module_2">15.4.1. Assemble Fast Heated Bed Module</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -3400,10 +3537,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_assemble_universal_axis_motor_side_module">14. Assemble Universal Axis Motor Side Module</h2>
+<h2 id="_assemble_universal_axis_motor_side_module">16. Assemble Universal Axis Motor Side Module</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_tools_12">14.1. Tools</h3>
+<h3 id="_tools_12">16.1. Tools</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -3442,7 +3579,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_materials_12">14.2. Materials</h3>
+<h3 id="_materials_12">16.2. Materials</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -3507,7 +3644,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_precautions_8">14.3. Precautions</h3>
+<h3 id="_precautions_8">16.3. Precautions</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -3517,9 +3654,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect2">
-<h3 id="_procedure_12">14.4. Procedure</h3>
+<h3 id="_procedure_12">16.4. Procedure</h3>
 <div class="sect3">
-<h4 id="_clean_3d_printed_parts_4">14.4.1. Clean 3D Printed Parts</h4>
+<h4 id="_clean_3d_printed_parts_4">16.4.1. Clean 3D Printed Parts</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -3532,7 +3669,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_assemble_the_universal_axis_motor_side_module">14.4.2. Assemble the Universal Axis Motor Side Module</h4>
+<h4 id="_assemble_the_universal_axis_motor_side_module">16.4.2. Assemble the Universal Axis Motor Side Module</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -3647,10 +3784,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_assemble_universal_axis_idler_side_module">15. Assemble Universal Axis Idler Side Module</h2>
+<h2 id="_assemble_universal_axis_idler_side_module">17. Assemble Universal Axis Idler Side Module</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_tools_13">15.1. Tools</h3>
+<h3 id="_tools_13">17.1. Tools</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -3684,7 +3821,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_materials_13">15.2. Materials</h3>
+<h3 id="_materials_13">17.2. Materials</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -3742,7 +3879,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_precautions_9">15.3. Precautions</h3>
+<h3 id="_precautions_9">17.3. Precautions</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -3752,9 +3889,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect2">
-<h3 id="_procedure_13">15.4. Procedure</h3>
+<h3 id="_procedure_13">17.4. Procedure</h3>
 <div class="sect3">
-<h4 id="_clean_3d_printed_parts_5">15.4.1. Clean 3D Printed Parts</h4>
+<h4 id="_clean_3d_printed_parts_5">17.4.1. Clean 3D Printed Parts</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -3767,7 +3904,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_assemble_universal_axis_idler_side_module_2">15.4.2. Assemble Universal Axis Idler Side Module</h4>
+<h4 id="_assemble_universal_axis_idler_side_module_2">17.4.2. Assemble Universal Axis Idler Side Module</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -3832,10 +3969,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_assemble_universal_x_axis_module">16. Assemble Universal X Axis Module</h2>
+<h2 id="_assemble_universal_x_axis_module">18. Assemble Universal X Axis Module</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_tools_14">16.1. Tools</h3>
+<h3 id="_tools_14">18.1. Tools</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -3879,7 +4016,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_materials_14">16.2. Materials</h3>
+<h3 id="_materials_14">18.2. Materials</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -3993,9 +4130,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_procedure_14">16.3. Procedure</h3>
+<h3 id="_procedure_14">18.3. Procedure</h3>
 <div class="sect3">
-<h4 id="_clean_3d_printed_parts_6">16.3.1. Clean 3D Printed Parts</h4>
+<h4 id="_clean_3d_printed_parts_6">18.3.1. Clean 3D Printed Parts</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -4008,7 +4145,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_assemble_universal_axis_x_carriage_side">16.3.2. Assemble Universal Axis X Carriage Side</h4>
+<h4 id="_assemble_universal_axis_x_carriage_side">18.3.2. Assemble Universal Axis X Carriage Side</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -4045,7 +4182,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_assemble_universal_x_axis_module_2">16.3.3. Assemble Universal X Axis Module</h4>
+<h4 id="_assemble_universal_x_axis_module_2">18.3.3. Assemble Universal X Axis Module</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -4115,10 +4252,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_assemble_universal_y1_axis_module">17. Assemble Universal Y1 Axis Module</h2>
+<h2 id="_assemble_universal_y1_axis_module">19. Assemble Universal Y1 Axis Module</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_tools_15">17.1. Tools</h3>
+<h3 id="_tools_15">19.1. Tools</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -4162,7 +4299,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_materials_15">17.2. Materials</h3>
+<h3 id="_materials_15">19.2. Materials</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -4276,9 +4413,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_procedure_15">17.3. Procedure</h3>
+<h3 id="_procedure_15">19.3. Procedure</h3>
 <div class="sect3">
-<h4 id="_clean_3d_printed_parts_7">17.3.1. Clean 3D Printed Parts</h4>
+<h4 id="_clean_3d_printed_parts_7">19.3.1. Clean 3D Printed Parts</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -4291,7 +4428,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_assemble_universal_axis_y1_carriage_side">17.3.2. Assemble Universal Axis Y1 Carriage Side</h4>
+<h4 id="_assemble_universal_axis_y1_carriage_side">19.3.2. Assemble Universal Axis Y1 Carriage Side</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -4328,7 +4465,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_assemble_universal_y1_axis_module_2">17.3.3. Assemble Universal Y1 Axis Module</h4>
+<h4 id="_assemble_universal_y1_axis_module_2">19.3.3. Assemble Universal Y1 Axis Module</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -4398,10 +4535,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_assemble_universal_y2_axis_module">18. Assemble Universal Y2 Axis Module</h2>
+<h2 id="_assemble_universal_y2_axis_module">20. Assemble Universal Y2 Axis Module</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_tools_16">18.1. Tools</h3>
+<h3 id="_tools_16">20.1. Tools</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -4445,7 +4582,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_materials_16">18.2. Materials</h3>
+<h3 id="_materials_16">20.2. Materials</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -4566,9 +4703,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_procedure_16">18.3. Procedure</h3>
+<h3 id="_procedure_16">20.3. Procedure</h3>
 <div class="sect3">
-<h4 id="_clean_3d_printed_parts_8">18.3.1. Clean 3D Printed Parts</h4>
+<h4 id="_clean_3d_printed_parts_8">20.3.1. Clean 3D Printed Parts</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -4581,7 +4718,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_assemble_universal_axis_y2_carriage_side">18.3.2. Assemble Universal Axis Y2 Carriage Side</h4>
+<h4 id="_assemble_universal_axis_y2_carriage_side">20.3.2. Assemble Universal Axis Y2 Carriage Side</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -4618,7 +4755,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_assemble_universal_y2_axis_module_2">18.3.3. Assemble Universal Y2 Axis Module</h4>
+<h4 id="_assemble_universal_y2_axis_module_2">20.3.3. Assemble Universal Y2 Axis Module</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -4697,10 +4834,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_assemble_universal_z_axis_module">19. Assemble Universal Z Axis Module</h2>
+<h2 id="_assemble_universal_z_axis_module">21. Assemble Universal Z Axis Module</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_tools_17">19.1. Tools</h3>
+<h3 id="_tools_17">21.1. Tools</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -4744,7 +4881,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_materials_17">19.2. Materials</h3>
+<h3 id="_materials_17">21.2. Materials</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -4858,7 +4995,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_precautions_10">19.3. Precautions</h3>
+<h3 id="_precautions_10">21.3. Precautions</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -4868,9 +5005,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect2">
-<h3 id="_procedure_17">19.4. Procedure</h3>
+<h3 id="_procedure_17">21.4. Procedure</h3>
 <div class="sect3">
-<h4 id="_clean_3d_printed_parts_9">19.4.1. Clean 3D Printed Parts</h4>
+<h4 id="_clean_3d_printed_parts_9">21.4.1. Clean 3D Printed Parts</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -4883,7 +5020,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_assemble_universal_axis_z_carriage_side">19.4.2. Assemble Universal Axis Z Carriage Side</h4>
+<h4 id="_assemble_universal_axis_z_carriage_side">21.4.2. Assemble Universal Axis Z Carriage Side</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -4962,7 +5099,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_assemble_universal_z_axis_module_2">19.4.3. Assemble Universal Z Axis Module</h4>
+<h4 id="_assemble_universal_z_axis_module_2">21.4.3. Assemble Universal Z Axis Module</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -5100,10 +5237,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_assemble_hot_end_assembly">20. Assemble Hot End Assembly</h2>
+<h2 id="_assemble_hot_end_assembly">22. Assemble Hot End Assembly</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_tools_18">20.1. Tools</h3>
+<h3 id="_tools_18">22.1. Tools</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -5162,7 +5299,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_materials_18">20.2. Materials</h3>
+<h3 id="_materials_18">22.2. Materials</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -5262,7 +5399,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_precautions_11">20.3. Precautions</h3>
+<h3 id="_precautions_11">22.3. Precautions</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -5272,9 +5409,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect2">
-<h3 id="_procedure_18">20.4. Procedure</h3>
+<h3 id="_procedure_18">22.4. Procedure</h3>
 <div class="sect3">
-<h4 id="_assemble_the_volcano_style_heater_block">20.4.1. Assemble the Volcano Style Heater Block</h4>
+<h4 id="_assemble_the_volcano_style_heater_block">22.4.1. Assemble the Volcano Style Heater Block</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -5344,7 +5481,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_hot_tighten_the_volcano_nozzle_and_heat_break">20.4.2. Hot Tighten the Volcano Nozzle and Heat Break</h4>
+<h4 id="_hot_tighten_the_volcano_nozzle_and_heat_break">22.4.2. Hot Tighten the Volcano Nozzle and Heat Break</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -5389,7 +5526,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_attach_the_heatsink_block">20.4.3. Attach the Heatsink Block</h4>
+<h4 id="_attach_the_heatsink_block">22.4.3. Attach the Heatsink Block</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -5463,10 +5600,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_assemble_universal_gearless_extruder_module">21. Assemble Universal Gearless Extruder Module</h2>
+<h2 id="_assemble_universal_gearless_extruder_module">23. Assemble Universal Gearless Extruder Module</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_tools_19">21.1. Tools</h3>
+<h3 id="_tools_19">23.1. Tools</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -5515,7 +5652,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_materials_19">21.2. Materials</h3>
+<h3 id="_materials_19">23.2. Materials</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -5706,9 +5843,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_procedure_19">21.3. Procedure</h3>
+<h3 id="_procedure_19">23.3. Procedure</h3>
 <div class="sect3">
-<h4 id="_assemble_the_motor_mount">21.3.1. Assemble the Motor Mount</h4>
+<h4 id="_assemble_the_motor_mount">23.3.1. Assemble the Motor Mount</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -5742,7 +5879,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_add_the_secondary_extruder_part">21.3.2. Add the Secondary Extruder Part</h4>
+<h4 id="_add_the_secondary_extruder_part">23.3.2. Add the Secondary Extruder Part</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -5791,7 +5928,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_install_hot_end_assembly">21.3.3. Install Hot End Assembly</h4>
+<h4 id="_install_hot_end_assembly">23.3.3. Install Hot End Assembly</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -5840,7 +5977,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_install_and_adjust_filament_drive_gear_adjust_hot_end_assembly">21.3.4. Install and adjust Filament Drive Gear / Adjust Hot End Assembly</h4>
+<h4 id="_install_and_adjust_filament_drive_gear_adjust_hot_end_assembly">23.3.4. Install and adjust Filament Drive Gear / Adjust Hot End Assembly</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -5875,7 +6012,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_install_spring_tensioner_arm">21.3.5. Install Spring Tensioner Arm</h4>
+<h4 id="_install_spring_tensioner_arm">23.3.5. Install Spring Tensioner Arm</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -5911,7 +6048,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_assemble_the_height_sensor_5v_custom_wire_extension">21.3.6. Assemble the Height Sensor 5v custom wire extension</h4>
+<h4 id="_assemble_the_height_sensor_5v_custom_wire_extension">23.3.6. Assemble the Height Sensor 5v custom wire extension</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -5924,7 +6061,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_install_height_sensor">21.3.7. Install Height Sensor</h4>
+<h4 id="_install_height_sensor">23.3.7. Install Height Sensor</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -5959,7 +6096,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_assemble_the_40mm_fan_24v_power_custom_wire_extension">21.3.8. Assemble the 40mm Fan 24v power custom wire extension</h4>
+<h4 id="_assemble_the_40mm_fan_24v_power_custom_wire_extension">23.3.8. Assemble the 40mm Fan 24v power custom wire extension</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -5972,7 +6109,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_install_40mm_fan">21.3.9. Install 40mm Fan</h4>
+<h4 id="_install_40mm_fan">23.3.9. Install 40mm Fan</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -5997,7 +6134,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_cables_management">21.3.10. Cables Management</h4>
+<h4 id="_cables_management">23.3.10. Cables Management</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -6059,10 +6196,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_assemble_d3d_pro_3d_printer">22. Assemble D3D Pro 3D Printer</h2>
+<h2 id="_assemble_d3d_pro_3d_printer">24. Assemble D3D Pro 3D Printer</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_materials_20">22.1. Materials</h3>
+<h3 id="_materials_20">24.1. Materials</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -6141,7 +6278,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </div>
 <div class="sect2">
-<h3 id="_precautions_12">22.2. Precautions</h3>
+<h3 id="_precautions_12">24.2. Precautions</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -6151,9 +6288,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect2">
-<h3 id="_procedure_20">22.3. Procedure</h3>
+<h3 id="_procedure_20">24.3. Procedure</h3>
 <div class="sect3">
-<h4 id="_throw_universal_gearless_extruder_out_the_window">22.3.1. Throw Universal Gearless Extruder out the window</h4>
+<h4 id="_throw_universal_gearless_extruder_out_the_window">24.3.1. Throw Universal Gearless Extruder out the window</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -6172,7 +6309,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="footer">
 <div id="footer-text">
 Version v23.12<br>
-Last updated 2024-09-11 22:48:10 UTC
+Last updated 2024-09-11 23:28:50 UTC
 </div>
 </div>
 </body>

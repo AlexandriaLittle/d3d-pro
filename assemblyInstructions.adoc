@@ -1,11 +1,14 @@
 = D3D Pro 3D Printer Assembly Instructions
-Alexandria Little
+Alexandria Little - CC-BY-SA-4.0
 :revnumber: v23.12
 :revdate: 9/11/2024
 :sectnums:
 :toc:
+:toclevels: 3
 :docinfo: shared
 // :docinfodir: dist/
+
+include::preamble.adoc[]
 
 // github specific things
 ifdef::env-github[]
@@ -586,46 +589,6 @@ include::flatToolsBOM.adoc[]
 // summary
 
 ==== Assemble the Solid State Relay (SSR) 120v power custom wires
-
-
-// requiredTools
-//
-
-// requiredParts
-//
-
-// details
-
-*Instructions*
-
-. Hello World!
-
-
-
-
-// summary
-
-==== Assemble custom wires
-
-
-// requiredTools
-//
-
-// requiredParts
-//
-
-// details
-
-*Instructions*
-
-. Hello World!
-
-
-
-
-// summary
-
-==== Assemble custom wires
 
 
 // requiredTools
