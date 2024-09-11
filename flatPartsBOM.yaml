@@ -9,6 +9,11 @@ components:
     name: 10mm-od-35mm-spring
     quantity: 1
     quantityUnits: part
+  14awg-wire:
+    description: 14 AWG Braided Copper Wire
+    name: 14awg-wire
+    quantity: 2000
+    quantityUnits: mm
   16ga-steel-sheet:
     description: 16 Gauge 300mm x 300mm Steel Sheet
     name: 16ga-steel-sheet
@@ -29,6 +34,11 @@ components:
     name: 1_75mm-volcano-style-0_4mm-nozzle
     quantity: 1
     quantityUnits: part
+  22awg-wire:
+    description: 22AWG Braided Copper Wire
+    name: 22awg-wire
+    quantity: 4000
+    quantityUnits: mm
   24v-40mm-fan:
     description: 24v 40mm x 40mm x 10mm Fan
     name: 24v-40mm-fan
@@ -117,7 +127,7 @@ components:
   ferrule:
     description: Wire Ferrule
     name: ferrule
-    quantity: 20
+    quantity: 22
     quantityUnits: part
   ground-fault-connection-interrupter:
     description: Ground Fault Connection Interrupter (GFCI)
@@ -152,7 +162,7 @@ components:
   lm8uu-linear-bearing:
     description: LM8UU Linear Bearing
     name: lm8uu-linear-bearing
-    quantity: 20
+    quantity: 22
     quantityUnits: part(s)
   m3-10mm-cap-screw:
     description: M3 x 10mm Cap Screw
@@ -432,5 +442,5 @@ components:
   zip-tie-small:
     description: 4 Inch Zip Tie
     name: zip-tie-small
-    quantity: 21
+    quantity: 23
     quantityUnits: part(s)

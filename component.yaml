@@ -30,6 +30,17 @@ components:
     parts: {}
     tools: {}
     precautions: []
+  14awg-wire:
+    name: 14awg-wire
+    version: 1.0.0
+    description: 14 AWG Braided Copper Wire
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
   16ga-steel-sheet:
     name: 16ga-steel-sheet
     version: 1.0.0
@@ -96,10 +107,10 @@ components:
     parts: {}
     tools: {}
     precautions: []
-  22awg-2m-wire:
-    name: 22awg-2m-wire
+  22awg-wire:
+    name: 22awg-wire
     version: 1.0.0
-    description: 22AWG 2 Meter Wire
+    description: 22AWG Braided Copper Wire
     license: CC-BY-SA-4.0
     author: Alexandria Little
     dependencies: {}
@@ -1614,10 +1625,32 @@ components:
             parts: {}
             tools: {}
             precautions: []
+          14awg-wire:
+            name: 14awg-wire
+            version: 1.0.0
+            description: 14 AWG Braided Copper Wire
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
           16gb-microsd-card:
             name: 16gb-microsd-card
             version: 1.0.0
             description: 16GB MicroSD Card
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          22awg-wire:
+            name: 22awg-wire
+            version: 1.0.0
+            description: 22AWG Braided Copper Wire
             license: CC-BY-SA-4.0
             author: Alexandria Little
             dependencies: {}
@@ -2298,6 +2331,28 @@ components:
             descriptionSelected: >-
               raspberry-pi-image: Octoprint Raspberry Pi Software Image
               (Octoprint Raspberry Pi Software Image v1.0.0)
+          14awg-wire:
+            description: 14AWG Wire
+            id: 14awg-wire
+            notes: ''
+            options:
+              - 14awg-wire
+            quantity: 2000
+            quantityUnits: mm
+            selectedOption: 0
+            descriptionLong: '14awg-wire: 14AWG Wire'
+            descriptionSelected: '14awg-wire: 14AWG Wire (14 AWG Braided Copper Wire v1.0.0)'
+          22awg-wire:
+            description: 22AWG Wire
+            id: 22awg-wire
+            notes: ''
+            options:
+              - 22awg-wire
+            quantity: 2000
+            quantityUnits: mm
+            selectedOption: 0
+            descriptionLong: '22awg-wire: 22AWG Wire'
+            descriptionSelected: '22awg-wire: 22AWG Wire (22AWG Braided Copper Wire v1.0.0)'
         tools:
           3mm-flat-screwdriver:
             description: 3mm Flat Head Screwdriver
@@ -2404,7 +2459,418 @@ components:
             selectedOption: 0
             descriptionLong: 'pc: PC'
             descriptionSelected: 'pc: PC (Personal Computer (PC) v1.0.0)'
-        precautions: []
+        precautions:
+          - .
+          - ' '
+          - T
+          - h
+          - e
+          - ' '
+          - '{'
+          - '{'
+          - d
+          - e
+          - s
+          - c
+          - r
+          - i
+          - p
+          - t
+          - i
+          - o
+          - 'n'
+          - '}'
+          - '}'
+          - ' '
+          - r
+          - u
+          - 'n'
+          - s
+          - ' '
+          - o
+          - 'n'
+          - ' '
+          - '1'
+          - '2'
+          - '0'
+          - v
+          - ' '
+          - A
+          - C
+          - ' '
+          - e
+          - l
+          - e
+          - c
+          - t
+          - r
+          - i
+          - c
+          - i
+          - t
+          - 'y'
+          - ','
+          - ' '
+          - w
+          - h
+          - i
+          - c
+          - h
+          - ' '
+          - c
+          - a
+          - 'n'
+          - ' '
+          - k
+          - i
+          - l
+          - l
+          - ' '
+          - 'y'
+          - o
+          - u
+          - ' '
+          - i
+          - f
+          - ' '
+          - w
+          - i
+          - r
+          - i
+          - 'n'
+          - g
+          - ' '
+          - i
+          - s
+          - ' '
+          - d
+          - o
+          - 'n'
+          - e
+          - ' '
+          - i
+          - m
+          - p
+          - r
+          - o
+          - p
+          - e
+          - r
+          - l
+          - 'y'
+          - '!'
+          - '!'
+          - '!'
+          - ' '
+          - F
+          - o
+          - l
+          - l
+          - o
+          - w
+          - ' '
+          - a
+          - l
+          - l
+          - ' '
+          - d
+          - i
+          - r
+          - e
+          - c
+          - t
+          - i
+          - o
+          - 'n'
+          - s
+          - ' '
+          - e
+          - x
+          - a
+          - c
+          - t
+          - l
+          - 'y'
+          - ','
+          - ' '
+          - u
+          - s
+          - e
+          - ' '
+          - c
+          - o
+          - m
+          - m
+          - o
+          - 'n'
+          - ' '
+          - s
+          - e
+          - 'n'
+          - s
+          - e
+          - ','
+          - ' '
+          - 'n'
+          - e
+          - v
+          - e
+          - r
+          - ' '
+          - t
+          - o
+          - u
+          - c
+          - h
+          - ' '
+          - t
+          - h
+          - e
+          - ' '
+          - '{'
+          - '{'
+          - d
+          - e
+          - s
+          - c
+          - r
+          - i
+          - p
+          - t
+          - i
+          - o
+          - 'n'
+          - '}'
+          - '}'
+          - ' '
+          - c
+          - o
+          - m
+          - p
+          - o
+          - 'n'
+          - e
+          - 'n'
+          - t
+          - s
+          - ' '
+          - w
+          - h
+          - e
+          - 'n'
+          - ' '
+          - p
+          - o
+          - w
+          - e
+          - r
+          - e
+          - d
+          - ' '
+          - o
+          - 'n'
+          - ','
+          - ' '
+          - a
+          - 'n'
+          - d
+          - ' '
+          - w
+          - h
+          - e
+          - 'n'
+          - ' '
+          - i
+          - 'n'
+          - ' '
+          - d
+          - o
+          - u
+          - b
+          - t
+          - ' '
+          - u
+          - s
+          - e
+          - ' '
+          - m
+          - o
+          - r
+          - e
+          - ' '
+          - e
+          - l
+          - e
+          - c
+          - t
+          - r
+          - i
+          - c
+          - a
+          - l
+          - ' '
+          - t
+          - a
+          - p
+          - e
+          - .
+          - ' '
+          - T
+          - h
+          - i
+          - s
+          - ' '
+          - i
+          - s
+          - ' '
+          - 'y'
+          - o
+          - u
+          - r
+          - ' '
+          - r
+          - e
+          - m
+          - i
+          - 'n'
+          - d
+          - e
+          - r
+          - ' '
+          - t
+          - h
+          - a
+          - t
+          - ' '
+          - t
+          - h
+          - e
+          - s
+          - e
+          - ' '
+          - i
+          - 'n'
+          - s
+          - t
+          - r
+          - u
+          - c
+          - t
+          - i
+          - o
+          - 'n'
+          - s
+          - ' '
+          - a
+          - r
+          - e
+          - ' '
+          - f
+          - o
+          - r
+          - ' '
+          - E
+          - D
+          - U
+          - C
+          - A
+          - T
+          - I
+          - O
+          - 'N'
+          - A
+          - L
+          - ' '
+          - P
+          - U
+          - R
+          - P
+          - O
+          - S
+          - E
+          - S
+          - ' '
+          - O
+          - 'N'
+          - L
+          - 'Y'
+          - ' '
+          - a
+          - 'n'
+          - d
+          - ' '
+          - t
+          - h
+          - a
+          - t
+          - ' '
+          - 'y'
+          - o
+          - u
+          - ' '
+          - a
+          - s
+          - s
+          - u
+          - m
+          - e
+          - ' '
+          - a
+          - 'n'
+          - 'y'
+          - ' '
+          - a
+          - 'n'
+          - d
+          - ' '
+          - a
+          - l
+          - l
+          - ' '
+          - l
+          - i
+          - a
+          - b
+          - i
+          - l
+          - i
+          - t
+          - 'y'
+          - ' '
+          - f
+          - o
+          - r
+          - ' '
+          - t
+          - h
+          - e
+          - ' '
+          - u
+          - s
+          - e
+          - ' '
+          - o
+          - f
+          - ' '
+          - t
+          - h
+          - e
+          - s
+          - e
+          - ' '
+          - i
+          - 'n'
+          - s
+          - t
+          - r
+          - u
+          - c
+          - t
+          - i
+          - o
+          - 'n'
+          - s
+          - .
         assemblySteps:
           - summary: Clean 3D Printed Parts
             requiredParts:
@@ -2414,6 +2880,37 @@ components:
             details: >
               . Use the *Hobby Knife* to clean any extra plastic off of the 3D
               printed components.
+          - summary: >-
+              Assemble the RAMPS 1.4 Board to RAMPS 1.4 Board 24v power custom
+              wire
+            requiredParts: []
+            requiredTools: []
+            details: |
+              . Hello World!
+          - summary: >-
+              Assemble the RAMPS 1.4 Board to Solid State Relay (SSR) 24v signal
+              custom wires
+            requiredParts: []
+            requiredTools: []
+            details: |
+              . Hello World!
+          - summary: >-
+              Assemble the GFCI to 24v Power Supply Module 120v power custom
+              wires
+            requiredParts: []
+            requiredTools: []
+            details: |
+              . Hello World!
+          - summary: Assemble the Solid State Relay (SSR) 120v power custom wires
+            requiredParts: []
+            requiredTools: []
+            details: |
+              . Hello World!
+          - summary: Assemble custom wires
+            requiredParts: []
+            requiredTools: []
+            details: |
+              . Hello World!
           - summary: Assemble custom wires
             requiredParts: []
             requiredTools: []
@@ -7015,8 +7512,8 @@ components:
           part(s) in place.
 
           . Slide the *Universal Axis X Carriage Side* onto the *8mm Smooth Rod*
-          part(s) with the *Carriage Closure* facing the *Universal Axis Motor
-          Side*.
+          part(s) with the *Carriage Closure* facing _toward_ the *Universal
+          Axis Motor Side*.
 
           . Slide the *Universal Axis Idler Side* onto the *8mm Smooth Rod*
           part(s) such that the larger opening on the *Universal Axis Idler
@@ -9175,6 +9672,17 @@ components:
         parts: {}
         tools: {}
         precautions: []
+      zip-tie-small:
+        name: zip-tie-small
+        version: 1.0.0
+        description: 4 Inch Zip Tie
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
     parts:
       universal-axis-idler-side-assembly:
         id: universal-axis-idler-side-assembly
@@ -9299,7 +9807,7 @@ components:
       linear-bearing:
         id: linear-bearing
         description: Linear Bearing
-        quantity: 4
+        quantity: 6
         quantityUnits: part(s)
         options:
           - lm8uu-linear-bearing
@@ -9329,6 +9837,17 @@ components:
         selectedOption: 0
         descriptionLong: '8mm-rod: 8mm Smooth Rod'
         descriptionSelected: '8mm-rod: 8mm Smooth Rod (8mm x 600mm Smooth Rod v1.0.0)'
+      zip-tie-small:
+        description: Small Zip Tie
+        id: zip-tie-small
+        notes: ''
+        options:
+          - zip-tie-small
+        quantity: 2
+        quantityUnits: part(s)
+        selectedOption: 0
+        descriptionLong: 'zip-tie-small: Small Zip Tie'
+        descriptionSelected: 'zip-tie-small: Small Zip Tie (4 Inch Zip Tie v1.0.0)'
     tools:
       3mm-allen-wrench:
         description: 3mm Allen Wrench
@@ -9463,6 +9982,7 @@ components:
         requiredTools:
           - 3mm-allen-wrench
           - 5mm-allen-wrench
+          - scissors
         details: >
           . Orient the *Universal Axis Motor Side* such that the section of the
           stepper motor that hangs off of the *Universal Axis Motor Side* is
@@ -9528,6 +10048,16 @@ components:
           . Gently tighten down the *M6 x 20mm Screw* through the *M6 Nut* with
           a *5mm Allen Wrench*. The final belt tension will be adjusted in a
           later step.
+
+          . Take two *Linear Bearing* part(s) and place them into the bearing
+          holders on the **.
+
+          . Loop one *Small Zip Tie* over each *Linear Bearing* part(s) and
+          through the gap beneath the bearing holders to secure both *Linear
+          Bearing* part(s) in place.
+
+          . Pull each *Small Zip Tie* part(s) tight and cut off the excess
+          *Small Zip Tie* material using *Scissors*.    
 
           . The *Universal Y2 Axis Module* is complete.
   universal-axis-y2-carriage:
@@ -10958,10 +11488,32 @@ components:
         parts: {}
         tools: {}
         precautions: []
+      14awg-wire:
+        name: 14awg-wire
+        version: 1.0.0
+        description: 14 AWG Braided Copper Wire
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
       16gb-microsd-card:
         name: 16gb-microsd-card
         version: 1.0.0
         description: 16GB MicroSD Card
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      22awg-wire:
+        name: 22awg-wire
+        version: 1.0.0
+        description: 22AWG Braided Copper Wire
         license: CC-BY-SA-4.0
         author: Alexandria Little
         dependencies: {}
@@ -11640,6 +12192,28 @@ components:
         descriptionSelected: >-
           raspberry-pi-image: Octoprint Raspberry Pi Software Image (Octoprint
           Raspberry Pi Software Image v1.0.0)
+      14awg-wire:
+        description: 14AWG Wire
+        id: 14awg-wire
+        notes: ''
+        options:
+          - 14awg-wire
+        quantity: 2000
+        quantityUnits: mm
+        selectedOption: 0
+        descriptionLong: '14awg-wire: 14AWG Wire'
+        descriptionSelected: '14awg-wire: 14AWG Wire (14 AWG Braided Copper Wire v1.0.0)'
+      22awg-wire:
+        description: 22AWG Wire
+        id: 22awg-wire
+        notes: ''
+        options:
+          - 22awg-wire
+        quantity: 2000
+        quantityUnits: mm
+        selectedOption: 0
+        descriptionLong: '22awg-wire: 22AWG Wire'
+        descriptionSelected: '22awg-wire: 22AWG Wire (22AWG Braided Copper Wire v1.0.0)'
     tools:
       3mm-flat-screwdriver:
         description: 3mm Flat Head Screwdriver
@@ -11746,7 +12320,418 @@ components:
         selectedOption: 0
         descriptionLong: 'pc: PC'
         descriptionSelected: 'pc: PC (Personal Computer (PC) v1.0.0)'
-    precautions: []
+    precautions:
+      - .
+      - ' '
+      - T
+      - h
+      - e
+      - ' '
+      - '{'
+      - '{'
+      - d
+      - e
+      - s
+      - c
+      - r
+      - i
+      - p
+      - t
+      - i
+      - o
+      - 'n'
+      - '}'
+      - '}'
+      - ' '
+      - r
+      - u
+      - 'n'
+      - s
+      - ' '
+      - o
+      - 'n'
+      - ' '
+      - '1'
+      - '2'
+      - '0'
+      - v
+      - ' '
+      - A
+      - C
+      - ' '
+      - e
+      - l
+      - e
+      - c
+      - t
+      - r
+      - i
+      - c
+      - i
+      - t
+      - 'y'
+      - ','
+      - ' '
+      - w
+      - h
+      - i
+      - c
+      - h
+      - ' '
+      - c
+      - a
+      - 'n'
+      - ' '
+      - k
+      - i
+      - l
+      - l
+      - ' '
+      - 'y'
+      - o
+      - u
+      - ' '
+      - i
+      - f
+      - ' '
+      - w
+      - i
+      - r
+      - i
+      - 'n'
+      - g
+      - ' '
+      - i
+      - s
+      - ' '
+      - d
+      - o
+      - 'n'
+      - e
+      - ' '
+      - i
+      - m
+      - p
+      - r
+      - o
+      - p
+      - e
+      - r
+      - l
+      - 'y'
+      - '!'
+      - '!'
+      - '!'
+      - ' '
+      - F
+      - o
+      - l
+      - l
+      - o
+      - w
+      - ' '
+      - a
+      - l
+      - l
+      - ' '
+      - d
+      - i
+      - r
+      - e
+      - c
+      - t
+      - i
+      - o
+      - 'n'
+      - s
+      - ' '
+      - e
+      - x
+      - a
+      - c
+      - t
+      - l
+      - 'y'
+      - ','
+      - ' '
+      - u
+      - s
+      - e
+      - ' '
+      - c
+      - o
+      - m
+      - m
+      - o
+      - 'n'
+      - ' '
+      - s
+      - e
+      - 'n'
+      - s
+      - e
+      - ','
+      - ' '
+      - 'n'
+      - e
+      - v
+      - e
+      - r
+      - ' '
+      - t
+      - o
+      - u
+      - c
+      - h
+      - ' '
+      - t
+      - h
+      - e
+      - ' '
+      - '{'
+      - '{'
+      - d
+      - e
+      - s
+      - c
+      - r
+      - i
+      - p
+      - t
+      - i
+      - o
+      - 'n'
+      - '}'
+      - '}'
+      - ' '
+      - c
+      - o
+      - m
+      - p
+      - o
+      - 'n'
+      - e
+      - 'n'
+      - t
+      - s
+      - ' '
+      - w
+      - h
+      - e
+      - 'n'
+      - ' '
+      - p
+      - o
+      - w
+      - e
+      - r
+      - e
+      - d
+      - ' '
+      - o
+      - 'n'
+      - ','
+      - ' '
+      - a
+      - 'n'
+      - d
+      - ' '
+      - w
+      - h
+      - e
+      - 'n'
+      - ' '
+      - i
+      - 'n'
+      - ' '
+      - d
+      - o
+      - u
+      - b
+      - t
+      - ' '
+      - u
+      - s
+      - e
+      - ' '
+      - m
+      - o
+      - r
+      - e
+      - ' '
+      - e
+      - l
+      - e
+      - c
+      - t
+      - r
+      - i
+      - c
+      - a
+      - l
+      - ' '
+      - t
+      - a
+      - p
+      - e
+      - .
+      - ' '
+      - T
+      - h
+      - i
+      - s
+      - ' '
+      - i
+      - s
+      - ' '
+      - 'y'
+      - o
+      - u
+      - r
+      - ' '
+      - r
+      - e
+      - m
+      - i
+      - 'n'
+      - d
+      - e
+      - r
+      - ' '
+      - t
+      - h
+      - a
+      - t
+      - ' '
+      - t
+      - h
+      - e
+      - s
+      - e
+      - ' '
+      - i
+      - 'n'
+      - s
+      - t
+      - r
+      - u
+      - c
+      - t
+      - i
+      - o
+      - 'n'
+      - s
+      - ' '
+      - a
+      - r
+      - e
+      - ' '
+      - f
+      - o
+      - r
+      - ' '
+      - E
+      - D
+      - U
+      - C
+      - A
+      - T
+      - I
+      - O
+      - 'N'
+      - A
+      - L
+      - ' '
+      - P
+      - U
+      - R
+      - P
+      - O
+      - S
+      - E
+      - S
+      - ' '
+      - O
+      - 'N'
+      - L
+      - 'Y'
+      - ' '
+      - a
+      - 'n'
+      - d
+      - ' '
+      - t
+      - h
+      - a
+      - t
+      - ' '
+      - 'y'
+      - o
+      - u
+      - ' '
+      - a
+      - s
+      - s
+      - u
+      - m
+      - e
+      - ' '
+      - a
+      - 'n'
+      - 'y'
+      - ' '
+      - a
+      - 'n'
+      - d
+      - ' '
+      - a
+      - l
+      - l
+      - ' '
+      - l
+      - i
+      - a
+      - b
+      - i
+      - l
+      - i
+      - t
+      - 'y'
+      - ' '
+      - f
+      - o
+      - r
+      - ' '
+      - t
+      - h
+      - e
+      - ' '
+      - u
+      - s
+      - e
+      - ' '
+      - o
+      - f
+      - ' '
+      - t
+      - h
+      - e
+      - s
+      - e
+      - ' '
+      - i
+      - 'n'
+      - s
+      - t
+      - r
+      - u
+      - c
+      - t
+      - i
+      - o
+      - 'n'
+      - s
+      - .
     assemblySteps:
       - summary: Clean 3D Printed Parts
         requiredParts:
@@ -11756,6 +12741,33 @@ components:
         details: >
           . Use the *Hobby Knife* to clean any extra plastic off of the 3D
           printed components.
+      - summary: Assemble the RAMPS 1.4 Board to RAMPS 1.4 Board 24v power custom wire
+        requiredParts: []
+        requiredTools: []
+        details: |
+          . Hello World!
+      - summary: >-
+          Assemble the RAMPS 1.4 Board to Solid State Relay (SSR) 24v signal
+          custom wires
+        requiredParts: []
+        requiredTools: []
+        details: |
+          . Hello World!
+      - summary: Assemble the GFCI to 24v Power Supply Module 120v power custom wires
+        requiredParts: []
+        requiredTools: []
+        details: |
+          . Hello World!
+      - summary: Assemble the Solid State Relay (SSR) 120v power custom wires
+        requiredParts: []
+        requiredTools: []
+        details: |
+          . Hello World!
+      - summary: Assemble custom wires
+        requiredParts: []
+        requiredTools: []
+        details: |
+          . Hello World!
       - summary: Assemble custom wires
         requiredParts: []
         requiredTools: []
@@ -13844,6 +14856,17 @@ components:
         parts: {}
         tools: {}
         precautions: []
+      22awg-wire:
+        name: 22awg-wire
+        version: 1.0.0
+        description: 22AWG Braided Copper Wire
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
       24v-40mm-fan:
         name: 24v-40mm-fan
         version: 1.0.0
@@ -13903,6 +14926,17 @@ components:
         name: 608-bearing
         version: 1.0.0
         description: 608 ZZ Bearing
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      ferrule:
+        name: ferrule
+        version: 1.0.0
+        description: Wire Ferrule
         license: CC-BY-SA-4.0
         author: Alexandria Little
         dependencies: {}
@@ -15078,6 +16112,28 @@ components:
         selectedOption: 0
         descriptionLong: 'zip-tie-small: Small Zip Tie'
         descriptionSelected: 'zip-tie-small: Small Zip Tie (4 Inch Zip Tie v1.0.0)'
+      22awg-wire:
+        description: 22AWG Wire
+        id: 22awg-wire
+        notes: ''
+        options:
+          - 22awg-wire
+        quantity: 2000
+        quantityUnits: mm
+        selectedOption: 0
+        descriptionLong: '22awg-wire: 22AWG Wire'
+        descriptionSelected: '22awg-wire: 22AWG Wire (22AWG Braided Copper Wire v1.0.0)'
+      ferrule:
+        description: Ferrule
+        id: ferrule
+        notes: ''
+        options:
+          - ferrule
+        quantity: 2
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'ferrule: Ferrule'
+        descriptionSelected: 'ferrule: Ferrule (Wire Ferrule v1.0.0)'
     tools:
       1_75mm-filament:
         description: 1.75mm Filament
@@ -15394,6 +16450,11 @@ components:
           image:IMG_3541.jpeg[,300,300,pdfwidth=30%]
 
           image:IMG_3542.jpeg[,300,300,pdfwidth=30%]
+      - summary: Assemble the Height Sensor 5v custom wire extension
+        requiredParts: []
+        requiredTools: []
+        details: |
+          . Hello World!
       - summary: Install Height Sensor
         requiredParts:
           - active-cooling-height-sensor-plotter
@@ -15432,6 +16493,11 @@ components:
           +
 
           image:IMG_3546.jpeg[,300,300,pdfwidth=30%]
+      - summary: Assemble the 40mm Fan 24v power custom wire extension
+        requiredParts: []
+        requiredTools: []
+        details: |
+          . Hello World!
       - summary: Install 40mm Fan
         requiredParts:
           - 40mm-heatsink

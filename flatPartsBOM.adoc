@@ -19,6 +19,13 @@
 
 
 
+|2000
+|mm
+|14awg-wire
+|14 AWG Braided Copper Wire
+
+
+
 |2
 |part
 |16ga-steel-sheet
@@ -44,6 +51,13 @@
 |part
 |1_75mm-volcano-style-0_4mm-nozzle
 |1.75mm Volcano Style Filament Extrusion Nozzle (0.4mm)
+
+
+
+|4000
+|mm
+|22awg-wire
+|22AWG Braided Copper Wire
 
 
 
@@ -166,7 +180,7 @@
 
 
 
-|20
+|22
 |part
 |ferrule
 |Wire Ferrule
@@ -215,7 +229,7 @@
 
 
 
-|20
+|22
 |part(s)
 |lm8uu-linear-bearing
 |LM8UU Linear Bearing
@@ -607,7 +621,7 @@
 
 
 
-|21
+|23
 |part(s)
 |zip-tie-small
 |4 Inch Zip Tie
