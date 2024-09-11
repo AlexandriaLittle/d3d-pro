@@ -1,7 +1,7 @@
 {
-  "name": "22awg-2m-wire",
+  "name": "14awg-wire",
   "version": "1.0.0",
-  "description": "22AWG 2 Meter Wire",
+  "description": "14 AWG Braided Copper Wire",
   "license": "CC-BY-SA-4.0",
   "author": "Alexandria Little",
   "dependencies": {

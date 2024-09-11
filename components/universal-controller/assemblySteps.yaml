@@ -8,6 +8,46 @@
   details: |
     . Use the *{{tools.hobby-knife.description}}* to clean any extra plastic off of the 3D printed components.
 
+- summary: Assemble the {{parts.ramps-board.description}} to {{parts.ramps-board.description}} 24v power custom wire
+  requiredParts: []
+
+  requiredTools: []
+
+  details: |
+    . Hello World!
+
+- summary: Assemble the {{parts.ramps-board.description}} to {{parts.solid-state-relay.description}} 24v signal custom wires
+  requiredParts: []
+
+  requiredTools: []
+
+  details: |
+    . Hello World!
+
+- summary: Assemble the {{parts.gfci.description}} to {{parts.24v-power-supply.description}} 120v power custom wires
+  requiredParts: []
+
+  requiredTools: []
+
+  details: |
+    . Hello World!
+
+- summary: Assemble the {{parts.solid-state-relay.description}} 120v power custom wires
+  requiredParts: []
+
+  requiredTools: []
+
+  details: |
+    . Hello World!
+
+- summary: Assemble custom wires
+  requiredParts: []
+
+  requiredTools: []
+
+  details: |
+    . Hello World!
+
 - summary: Assemble custom wires
   requiredParts: []
 

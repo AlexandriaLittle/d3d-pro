@@ -232,3 +232,21 @@ raspberry-pi-image:
   quantity: 1
   quantityUnits: image
   selectedOption: 0
+14awg-wire:
+  description: 14AWG Wire
+  id: 14awg-wire
+  notes: ''
+  options:
+    - 14awg-wire
+  quantity: 2000
+  quantityUnits: mm
+  selectedOption: 0
+22awg-wire:
+  description: 22AWG Wire
+  id: 22awg-wire
+  notes: ''
+  options:
+    - 22awg-wire
+  quantity: 2000
+  quantityUnits: mm
+  selectedOption: 0
