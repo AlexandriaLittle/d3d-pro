@@ -384,6 +384,14 @@ include::flatToolsBOM.adoc[]
 |Dupont Female Pin Connector v1.0.0
 |
 
+
+
+|1 part(s)
+|usb-a-to-usb-b-cable
+|USB A to USB B Cable
+|USB A to USB B Cable v1.0.0
+|
+
 |===
 
 
@@ -585,6 +593,10 @@ include::flatToolsBOM.adoc[]
 
 
 
+
+
+
+
 // Procedure
 === Procedure
 
@@ -620,7 +632,7 @@ include::flatToolsBOM.adoc[]
 
 // summary
 
-==== Assemble the RAMPS 1.4 Board to RAMPS 1.4 Board 24v power custom wires
+==== Assemble the RAMPS 1.4 Board to RAMPS 1.4 Board 24v Power Custom Wires
 
 
 // requiredTools
@@ -661,14 +673,14 @@ include::flatToolsBOM.adoc[]
 . Repeat the above steps to crimp another *Ferrule* of a different color to the end of the other *22AWG Wire*.
 . Using the *Dupont Crimper*, crimp *Dupont Female Pin Connector* part(s) onto the exposed ends of the *22AWG Wire*.
 . Insert the both of the *Dupont Female Pin Connector* ends of the *22AWG Wire* into a *2 Pin Female Dupont Connector*.
-. The *RAMPS 1.4 Board to RAMPS 1.4 Board 24v power custom wires* are complete.
+. The *RAMPS 1.4 Board to RAMPS 1.4 Board 24v Power Custom Wires* are complete.
 
 
 
 
 // summary
 
-==== Assemble the RAMPS 1.4 Board to Solid State Relay (SSR) 24v signal custom wires
+==== Assemble the RAMPS 1.4 Board to Solid State Relay (SSR) 24v Signal Custom Wires
 
 
 // requiredTools
@@ -704,15 +716,15 @@ include::flatToolsBOM.adoc[]
 . Place an appropriately sized *Ferrule* onto one end of each of the stripped *22AWG Wire* lengths.
 . Using the *Ferrule Crimper*, crimp the *Ferrule* part onto the wire.
 . Use the *Wire Strippers/Cutters* to cut off any excess *22AWG Wire* that is poking through the ends of the *Ferrule* part.
-. Use the *Dupont Crimper* to crimp on an appropriately sized **  to the exposed ends of each *22AWG Wire*.
-. The *RAMPS 1.4 Board to Solid State Relay (SSR) 24v signal custom wires* are complete.
+. Use the *Dupont Crimper* to crimp on an appropriately sized *Fork Terminal* part(s) to the exposed ends of each *22AWG Wire*.
+. The *RAMPS 1.4 Board to Solid State Relay (SSR) 24v Signal Custom Wires* are complete.
 
 
 
 
 // summary
 
-==== Assemble the GFCI to 24v Power Supply Module 120v power custom wires
+==== Assemble the Two Prong Electrical Plug to 24v Power Supply Module 120v Power Custom Wires
 
 
 // requiredTools
@@ -725,14 +737,14 @@ include::flatToolsBOM.adoc[]
 
 *Instructions*
 
-. Hello World!
+. Hello World! forked terminal to ferrule/bare
 
 
 
 
 // summary
 
-==== Assemble the Solid State Relay (SSR) 120v power custom wires
+==== Assemble the Solid State Relay (SSR) 120v Power Custom Wires
 
 
 // requiredTools
@@ -745,14 +757,14 @@ include::flatToolsBOM.adoc[]
 
 *Instructions*
 
-. Hello World!
+. Hello World! forked terminal -> forked terminal (short), forked terminal -> bare, forked terminal -> bare
 
 
 
 
 // summary
 
-==== Assemble the RAMPS 1.4 Board
+==== Assemble the RAMPS 1.4 Board and Arduino Mega 2560
 
 
 // requiredTools
@@ -765,7 +777,11 @@ include::flatToolsBOM.adoc[]
 
 *Instructions*
 
-. Hello World!
+. Put the heatsinks on the drivers.
+. Put the (CORRECTLY ORIENTED) drivers into the RAMPS.
+. Align the RAMPS and Mega and press together.
+. Insert the smart adapter into the RAMPS.
+. Done
 
 
 
@@ -785,7 +801,13 @@ include::flatToolsBOM.adoc[]
 
 *Instructions*
 
-. Hello World!
+. Plug the arduino into the PC with a USB cable.
+. Download the most recent firmware from the D3D Pro firmware repo.
+. Download and install Arduino IDE
+. Load the firmware into the Arduino IDE
+. Select your board from the boards menu at the top.
+. Click upload and wait for it to upload.
+. When it says 'Done Uploading' you're done.
 
 
 

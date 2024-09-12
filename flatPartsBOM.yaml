@@ -454,6 +454,11 @@ components:
     name: universal-gearless-extruder-spring-tensioner-arm
     quantity: 1
     quantityUnits: part
+  usb-a-to-usb-b-cable:
+    description: USB A to USB B Cable
+    name: usb-a-to-usb-b-cable
+    quantity: 1
+    quantityUnits: part(s)
   volcano-heater-block:
     description: Volcano Style Heater Block
     name: volcano-heater-block

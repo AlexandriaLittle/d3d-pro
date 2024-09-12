@@ -643,6 +643,13 @@
 
 
 |1
+|part(s)
+|usb-a-to-usb-b-cable
+|USB A to USB B Cable
+
+
+
+|1
 |part
 |volcano-heater-block
 |Volcano Style Heater Block

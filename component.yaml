@@ -2139,6 +2139,17 @@ components:
             parts: {}
             tools: {}
             precautions: []
+          usb-a-to-usb-b-cable:
+            name: usb-a-to-usb-b-cable
+            version: 1.0.0
+            description: USB A to USB B Cable
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
           wire-stripper-cutter:
             name: wire-stripper-cutter
             version: 1.0.0
@@ -2583,6 +2594,19 @@ components:
             descriptionSelected: >-
               dupont-female-pin-connector: Dupont Female Pin Connector (Dupont
               Female Pin Connector v1.0.0)
+          usb-a-to-usb-b-cable:
+            description: USB A to USB B Cable
+            id: usb-a-to-usb-b-cable
+            notes: ''
+            options:
+              - usb-a-to-usb-b-cable
+            quantity: 1
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: 'usb-a-to-usb-b-cable: USB A to USB B Cable'
+            descriptionSelected: >-
+              usb-a-to-usb-b-cable: USB A to USB B Cable (USB A to USB B Cable
+              v1.0.0)
         tools:
           3mm-flat-screwdriver:
             description: 3mm Flat Head Screwdriver
@@ -2732,8 +2756,8 @@ components:
               . Use the *Hobby Knife* to clean any extra plastic off of the 3D
               printed components.
           - summary: >-
-              Assemble the RAMPS 1.4 Board to RAMPS 1.4 Board 24v power custom
-              wires
+              Assemble the RAMPS 1.4 Board to RAMPS 1.4 Board 24v Power Custom
+              Wires
             requiredParts:
               - ferrule
               - 22awg-wire
@@ -2767,11 +2791,11 @@ components:
               . Insert the both of the *Dupont Female Pin Connector* ends of the
               *22AWG Wire* into a *2 Pin Female Dupont Connector*.
 
-              . The *RAMPS 1.4 Board to RAMPS 1.4 Board 24v power custom wires*
+              . The *RAMPS 1.4 Board to RAMPS 1.4 Board 24v Power Custom Wires*
               are complete.
           - summary: >-
-              Assemble the RAMPS 1.4 Board to Solid State Relay (SSR) 24v signal
-              custom wires
+              Assemble the RAMPS 1.4 Board to Solid State Relay (SSR) 24v Signal
+              Custom Wires
             requiredParts:
               - ferrule
               - 22awg-wire
@@ -2796,33 +2820,51 @@ components:
               . Use the *Wire Strippers/Cutters* to cut off any excess *22AWG
               Wire* that is poking through the ends of the *Ferrule* part.
 
-              . Use the *Dupont Crimper* to crimp on an appropriately sized ** 
-              to the exposed ends of each *22AWG Wire*.
+              . Use the *Dupont Crimper* to crimp on an appropriately sized
+              *Fork Terminal* part(s) to the exposed ends of each *22AWG Wire*.
 
-              . The *RAMPS 1.4 Board to Solid State Relay (SSR) 24v signal
-              custom wires* are complete.
+              . The *RAMPS 1.4 Board to Solid State Relay (SSR) 24v Signal
+              Custom Wires* are complete.
           - summary: >-
-              Assemble the GFCI to 24v Power Supply Module 120v power custom
-              wires
+              Assemble the Two Prong Electrical Plug to 24v Power Supply Module
+              120v Power Custom Wires
             requiredParts: []
             requiredTools: []
             details: |
-              . Hello World!
-          - summary: Assemble the Solid State Relay (SSR) 120v power custom wires
+              . Hello World! forked terminal to ferrule/bare
+          - summary: Assemble the Solid State Relay (SSR) 120v Power Custom Wires
+            requiredParts: []
+            requiredTools: []
+            details: >
+              . Hello World! forked terminal -> forked terminal (short), forked
+              terminal -> bare, forked terminal -> bare
+          - summary: Assemble the RAMPS 1.4 Board and Arduino Mega 2560
             requiredParts: []
             requiredTools: []
             details: |
-              . Hello World!
-          - summary: Assemble the RAMPS 1.4 Board
-            requiredParts: []
-            requiredTools: []
-            details: |
-              . Hello World!
+              . Put the heatsinks on the drivers.
+              . Put the (CORRECTLY ORIENTED) drivers into the RAMPS.
+              . Align the RAMPS and Mega and press together.
+              . Insert the smart adapter into the RAMPS.
+              . Done
           - summary: Flash firmware on the Arduino Mega 2560
             requiredParts: []
             requiredTools: []
-            details: |
-              . Hello World!
+            details: >
+              . Plug the arduino into the PC with a USB cable.
+
+              . Download the most recent firmware from the D3D Pro firmware
+              repo.
+
+              . Download and install Arduino IDE
+
+              . Load the firmware into the Arduino IDE
+
+              . Select your board from the boards menu at the top.
+
+              . Click upload and wait for it to upload.
+
+              . When it says 'Done Uploading' you're done.
           - summary: >-
               Flash the Octoprint Raspberry Pi Software Image onto the 16GB
               MicroSD Card
@@ -11844,6 +11886,17 @@ components:
         parts: {}
         tools: {}
         precautions: []
+      usb-a-to-usb-b-cable:
+        name: usb-a-to-usb-b-cable
+        version: 1.0.0
+        description: USB A to USB B Cable
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
       wire-stripper-cutter:
         name: wire-stripper-cutter
         version: 1.0.0
@@ -12286,6 +12339,19 @@ components:
         descriptionSelected: >-
           dupont-female-pin-connector: Dupont Female Pin Connector (Dupont
           Female Pin Connector v1.0.0)
+      usb-a-to-usb-b-cable:
+        description: USB A to USB B Cable
+        id: usb-a-to-usb-b-cable
+        notes: ''
+        options:
+          - usb-a-to-usb-b-cable
+        quantity: 1
+        quantityUnits: part(s)
+        selectedOption: 0
+        descriptionLong: 'usb-a-to-usb-b-cable: USB A to USB B Cable'
+        descriptionSelected: >-
+          usb-a-to-usb-b-cable: USB A to USB B Cable (USB A to USB B Cable
+          v1.0.0)
     tools:
       3mm-flat-screwdriver:
         description: 3mm Flat Head Screwdriver
@@ -12434,7 +12500,7 @@ components:
         details: >
           . Use the *Hobby Knife* to clean any extra plastic off of the 3D
           printed components.
-      - summary: Assemble the RAMPS 1.4 Board to RAMPS 1.4 Board 24v power custom wires
+      - summary: Assemble the RAMPS 1.4 Board to RAMPS 1.4 Board 24v Power Custom Wires
         requiredParts:
           - ferrule
           - 22awg-wire
@@ -12468,11 +12534,11 @@ components:
           . Insert the both of the *Dupont Female Pin Connector* ends of the
           *22AWG Wire* into a *2 Pin Female Dupont Connector*.
 
-          . The *RAMPS 1.4 Board to RAMPS 1.4 Board 24v power custom wires* are
+          . The *RAMPS 1.4 Board to RAMPS 1.4 Board 24v Power Custom Wires* are
           complete.
       - summary: >-
-          Assemble the RAMPS 1.4 Board to Solid State Relay (SSR) 24v signal
-          custom wires
+          Assemble the RAMPS 1.4 Board to Solid State Relay (SSR) 24v Signal
+          Custom Wires
         requiredParts:
           - ferrule
           - 22awg-wire
@@ -12496,31 +12562,44 @@ components:
           . Use the *Wire Strippers/Cutters* to cut off any excess *22AWG Wire*
           that is poking through the ends of the *Ferrule* part.
 
-          . Use the *Dupont Crimper* to crimp on an appropriately sized **  to
-          the exposed ends of each *22AWG Wire*.
+          . Use the *Dupont Crimper* to crimp on an appropriately sized *Fork
+          Terminal* part(s) to the exposed ends of each *22AWG Wire*.
 
-          . The *RAMPS 1.4 Board to Solid State Relay (SSR) 24v signal custom
-          wires* are complete.
-      - summary: Assemble the GFCI to 24v Power Supply Module 120v power custom wires
+          . The *RAMPS 1.4 Board to Solid State Relay (SSR) 24v Signal Custom
+          Wires* are complete.
+      - summary: >-
+          Assemble the Two Prong Electrical Plug to 24v Power Supply Module 120v
+          Power Custom Wires
         requiredParts: []
         requiredTools: []
         details: |
-          . Hello World!
-      - summary: Assemble the Solid State Relay (SSR) 120v power custom wires
+          . Hello World! forked terminal to ferrule/bare
+      - summary: Assemble the Solid State Relay (SSR) 120v Power Custom Wires
+        requiredParts: []
+        requiredTools: []
+        details: >
+          . Hello World! forked terminal -> forked terminal (short), forked
+          terminal -> bare, forked terminal -> bare
+      - summary: Assemble the RAMPS 1.4 Board and Arduino Mega 2560
         requiredParts: []
         requiredTools: []
         details: |
-          . Hello World!
-      - summary: Assemble the RAMPS 1.4 Board
-        requiredParts: []
-        requiredTools: []
-        details: |
-          . Hello World!
+          . Put the heatsinks on the drivers.
+          . Put the (CORRECTLY ORIENTED) drivers into the RAMPS.
+          . Align the RAMPS and Mega and press together.
+          . Insert the smart adapter into the RAMPS.
+          . Done
       - summary: Flash firmware on the Arduino Mega 2560
         requiredParts: []
         requiredTools: []
         details: |
-          . Hello World!
+          . Plug the arduino into the PC with a USB cable.
+          . Download the most recent firmware from the D3D Pro firmware repo.
+          . Download and install Arduino IDE
+          . Load the firmware into the Arduino IDE
+          . Select your board from the boards menu at the top.
+          . Click upload and wait for it to upload.
+          . When it says 'Done Uploading' you're done.
       - summary: >-
           Flash the Octoprint Raspberry Pi Software Image onto the 16GB MicroSD
           Card
@@ -16367,6 +16446,17 @@ components:
     name: universal-gearless-extruder-spring-tensioner-arm
     version: 1.0.0
     description: Universal Gearless Extruder Spring Tensioner Arm
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
+  usb-a-to-usb-b-cable:
+    name: usb-a-to-usb-b-cable
+    version: 1.0.0
+    description: USB A to USB B Cable
     license: CC-BY-SA-4.0
     author: Alexandria Little
     dependencies: {}
