@@ -268,5 +268,40 @@ stepper-motor-driver-heatsink:
   quantity: 5
   quantityUnits: part(s)
   selectedOption: 0
-
+2-pin-dupont-connector:
+  description: 2 Pin Female Dupont Connector
+  id: 2-pin-dupont-connector
+  notes: ''
+  options:
+    - 2-pin-dupont-connector
+  quantity: 1
+  quantityUnits: part(s)
+  selectedOption: 0
+3-pin-dupont-connector:
+  description: 3 Pin Female Dupont Connector
+  id: 3-pin-dupont-connector
+  notes: ''
+  options:
+    - 3-pin-dupont-connector
+  quantity: 1
+  quantityUnits: part(s)
+  selectedOption: 0
+4-pin-dupont-connector:
+  description: 4 Pin Female Dupont Connector
+  id: 4-pin-dupont-connector
+  notes: ''
+  options:
+    - 4-pin-dupont-connector
+  quantity: 1
+  quantityUnits: part(s)
+  selectedOption: 0
+dupont-female-pin-connector:
+  description: Dupont Female Pin Connector
+  id: dupont-female-pin-connector
+  notes: ''
+  options:
+    - dupont-female-pin-connector
+  quantity: 1
+  quantityUnits: part(s)
+  selectedOption: 0
 

@@ -25,7 +25,7 @@
     . Use the *{{tools.wire-stripper-cutter.description}}* to cut off any excess *{{parts.22awg-wire.description}}* that is poking through the end of the *{{parts.ferrule.description}}*.
     . Repeat the above steps to crimp another *{{parts.ferrule.description}}* of the same color to the other end of the stripped *{{parts.22awg-wire.description}}*.
     . Repeat all of the above steps using different colored *{{parts.22awg-wire.description}}* and different colored *{{parts.ferrule.description}}* {{parts.ferrule.quantityUnits}} so that there are two wires of identical length but distinct appearance.
-    . The {{parts.ramps-board.description}} to {{parts.ramps-board.description}} 24v power custom wires are complete.
+    . The *{{parts.ramps-board.description}}* to *{{parts.ramps-board.description}}* 24v power custom wires are complete.
 
 - summary: Assemble the {{parts.ramps-board.description}} to {{parts.solid-state-relay.description}} 24v signal custom wires
   requiredParts: []

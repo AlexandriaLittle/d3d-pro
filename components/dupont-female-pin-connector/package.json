@@ -1,0 +1,9 @@
+{
+  "name": "dupont-female-pin-connector",
+  "version": "1.0.0",
+  "description": "Dupont Female Pin Connector",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

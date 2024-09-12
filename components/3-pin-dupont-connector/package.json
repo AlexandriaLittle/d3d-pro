@@ -1,0 +1,9 @@
+{
+  "name": "3-pin-dupont-connector",
+  "version": "1.0.0",
+  "description": "3 Pin Dupont Connector Housing",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}
