@@ -255,7 +255,7 @@ fork-terminal:
   id: fork-terminal
   notes: ''
   options:
-    - fork-terminal
+    - electrical-fork-terminal
   quantity: 4
   quantityUnits: part(s)
   selectedOption: 0
