@@ -43,10 +43,10 @@
   - wire-stripper-cutter
 
   details: |
-    . Using the *{{tools.wire-stripper-cutter.description}}, cut two (2) 200mm long pieces of *{{parts.22awg-wire.description}}*.
+    . Using the *{{tools.wire-stripper-cutter.description}}*, cut two (2) 200mm long pieces of *{{parts.22awg-wire.description}}*.
     . Using the *{{tools.wire-stripper-cutter.description}}*, strip approximately 1cm of insulation off of both ends of each of the *{{parts.22awg-wire.description}}* lengths.
     . Place an appropriately sized *{{parts.ferrule.description}}* onto one end of each of the stripped *{{parts.22awg-wire.description}}* lengths.
-    . Using the *{{tools.ferrule-crimper.description}}*, crimp the *{{parts.ferrule.description}}* {{parts.ferrule.quantityUnits}} onto the wire.
+    . Using the *{{tools.ferrule-crimper.description}}*, crimp the *{{parts.ferrule.description}}* {{parts.ferrule.quantityUnits}} onto each *{{parts.22awg-wire.description}}*.
     . Use the *{{tools.wire-stripper-cutter.description}}* to cut off any excess *{{parts.22awg-wire.description}}* that is poking through the ends of the *{{parts.ferrule.description}}* {{parts.ferrule.quantityUnits}}.
     . Use the *{{tools.dupont-crimper.description}}* to crimp on an appropriately sized *{{parts.fork-terminal.description}}* {{parts.fork-terminal.quantityUnits}} to the exposed ends of each *{{parts.22awg-wire.description}}*.
     . The *{{parts.ramps-board.description}} to {{parts.solid-state-relay.description}} 24v Signal Custom Wires* are complete.

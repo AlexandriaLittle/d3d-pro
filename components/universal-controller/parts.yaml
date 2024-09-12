@@ -77,7 +77,7 @@ ferrule:
   options:
     - ferrule
   quantity: 20
-  quantityUnits: part
+  quantityUnits: part(s)
   selectedOption: 0
 gfci:
   description: GFCI
