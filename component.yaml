@@ -514,6 +514,17 @@ components:
     parts: {}
     tools: {}
     precautions: []
+  electrical-fork-terminal:
+    name: electrical-fork-terminal
+    version: 1.0.0
+    description: Electrical Fork Terminal
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
   electrical-plug-nema-1-15:
     name: electrical-plug-nema-1-15
     version: 1.0.0
@@ -1724,6 +1735,17 @@ components:
             parts: {}
             tools: {}
             precautions: []
+          electrical-fork-terminal:
+            name: electrical-fork-terminal
+            version: 1.0.0
+            description: Electrical Fork Terminal
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
           electrical-plug-nema-1-15:
             name: electrical-plug-nema-1-15
             version: 1.0.0
@@ -1989,6 +2011,17 @@ components:
             name: universal-controller-case
             version: 1.0.0
             description: Universal Controller Case
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          wire-stripper-cutter:
+            name: wire-stripper-cutter
+            version: 1.0.0
+            description: Wire Stripper/Cutter
             license: CC-BY-SA-4.0
             author: Alexandria Little
             dependencies: {}
@@ -2353,6 +2386,17 @@ components:
             selectedOption: 0
             descriptionLong: '22awg-wire: 22AWG Wire'
             descriptionSelected: '22awg-wire: 22AWG Wire (22AWG Braided Copper Wire v1.0.0)'
+          fork-terminal:
+            description: Fork Terminal
+            id: fork-terminal
+            notes: ''
+            options:
+              - electrical-fork-terminal
+            quantity: 4
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: 'fork-terminal: Fork Terminal'
+            descriptionSelected: 'fork-terminal: Fork Terminal (Electrical Fork Terminal v1.0.0)'
         tools:
           3mm-flat-screwdriver:
             description: 3mm Flat Head Screwdriver
@@ -2449,7 +2493,7 @@ components:
               microsd-to-sd-card-adapter: MicroSD to SD Card Adapter (MicroSD
               Card to SD Card Adapter v1.0.0)
           pc:
-            description: PC
+            description: Personal Computer
             id: pc
             notes: ''
             options:
@@ -2457,8 +2501,21 @@ components:
             quantity: 1
             quantityUnits: part
             selectedOption: 0
-            descriptionLong: 'pc: PC'
-            descriptionSelected: 'pc: PC (Personal Computer (PC) v1.0.0)'
+            descriptionLong: 'pc: Personal Computer'
+            descriptionSelected: 'pc: Personal Computer (Personal Computer (PC) v1.0.0)'
+          wire-stripper-cutter:
+            description: Wire Strippers/Cutters
+            id: wire-stripper-cutter
+            notes: ''
+            options:
+              - wire-stripper-cutter
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'wire-stripper-cutter: Wire Strippers/Cutters'
+            descriptionSelected: >-
+              wire-stripper-cutter: Wire Strippers/Cutters (Wire Stripper/Cutter
+              v1.0.0)
         precautions:
           - >-
             The Universal Controller Assembly runs on 120v AC electricity, which
@@ -2471,7 +2528,7 @@ components:
         assemblySteps:
           - summary: Clean 3D Printed Parts
             requiredParts:
-              - null
+              - universal-controller-case
             requiredTools:
               - hobby-knife
             details: >
@@ -2479,11 +2536,37 @@ components:
               printed components.
           - summary: >-
               Assemble the RAMPS 1.4 Board to RAMPS 1.4 Board 24v power custom
-              wire
-            requiredParts: []
-            requiredTools: []
-            details: |
-              . Hello World!
+              wires
+            requiredParts:
+              - ferrule
+              - 22awg-wire
+            requiredTools:
+              - wire-stripper-cutter
+              - ferrule-crimper
+            details: >
+              . Using the *Wire Strippers/Cutters*, cut a 100mm long piece of
+              *22AWG Wire*.
+
+              . Using the *Wire Strippers/Cutters*, strip approximately 1cm of
+              insulation off of both ends of the *22AWG Wire*.
+
+              . Place an appropriately sized *Ferrule* onto the end of the
+              stripped *22AWG Wire*.
+
+              . Using the *Ferrule Crimper*, crimp the *Ferrule* onto the wire.
+
+              . Use the *Wire Strippers/Cutters* to cut off any excess *22AWG
+              Wire* that is poking through the end of the *Ferrule*.
+
+              . Repeat the above steps to crimp another *Ferrule* of the same
+              color to the other end of the stripped *22AWG Wire*.
+
+              . Repeat all of the above steps using different colored *22AWG
+              Wire* and different colored *Ferrule* part so that there are two
+              wires of identical length but distinct appearance.
+
+              . The RAMPS 1.4 Board to RAMPS 1.4 Board 24v power custom wires
+              are complete.
           - summary: >-
               Assemble the RAMPS 1.4 Board to Solid State Relay (SSR) 24v signal
               custom wires
@@ -11174,6 +11257,17 @@ components:
         parts: {}
         tools: {}
         precautions: []
+      electrical-fork-terminal:
+        name: electrical-fork-terminal
+        version: 1.0.0
+        description: Electrical Fork Terminal
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
       electrical-plug-nema-1-15:
         name: electrical-plug-nema-1-15
         version: 1.0.0
@@ -11439,6 +11533,17 @@ components:
         name: universal-controller-case
         version: 1.0.0
         description: Universal Controller Case
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      wire-stripper-cutter:
+        name: wire-stripper-cutter
+        version: 1.0.0
+        description: Wire Stripper/Cutter
         license: CC-BY-SA-4.0
         author: Alexandria Little
         dependencies: {}
@@ -11801,6 +11906,17 @@ components:
         selectedOption: 0
         descriptionLong: '22awg-wire: 22AWG Wire'
         descriptionSelected: '22awg-wire: 22AWG Wire (22AWG Braided Copper Wire v1.0.0)'
+      fork-terminal:
+        description: Fork Terminal
+        id: fork-terminal
+        notes: ''
+        options:
+          - electrical-fork-terminal
+        quantity: 4
+        quantityUnits: part(s)
+        selectedOption: 0
+        descriptionLong: 'fork-terminal: Fork Terminal'
+        descriptionSelected: 'fork-terminal: Fork Terminal (Electrical Fork Terminal v1.0.0)'
     tools:
       3mm-flat-screwdriver:
         description: 3mm Flat Head Screwdriver
@@ -11897,7 +12013,7 @@ components:
           microsd-to-sd-card-adapter: MicroSD to SD Card Adapter (MicroSD Card
           to SD Card Adapter v1.0.0)
       pc:
-        description: PC
+        description: Personal Computer
         id: pc
         notes: ''
         options:
@@ -11905,8 +12021,21 @@ components:
         quantity: 1
         quantityUnits: part
         selectedOption: 0
-        descriptionLong: 'pc: PC'
-        descriptionSelected: 'pc: PC (Personal Computer (PC) v1.0.0)'
+        descriptionLong: 'pc: Personal Computer'
+        descriptionSelected: 'pc: Personal Computer (Personal Computer (PC) v1.0.0)'
+      wire-stripper-cutter:
+        description: Wire Strippers/Cutters
+        id: wire-stripper-cutter
+        notes: ''
+        options:
+          - wire-stripper-cutter
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'wire-stripper-cutter: Wire Strippers/Cutters'
+        descriptionSelected: >-
+          wire-stripper-cutter: Wire Strippers/Cutters (Wire Stripper/Cutter
+          v1.0.0)
     precautions:
       - >-
         The Universal Controller Assembly runs on 120v AC electricity, which can
@@ -11919,17 +12048,43 @@ components:
     assemblySteps:
       - summary: Clean 3D Printed Parts
         requiredParts:
-          - null
+          - universal-controller-case
         requiredTools:
           - hobby-knife
         details: >
           . Use the *Hobby Knife* to clean any extra plastic off of the 3D
           printed components.
-      - summary: Assemble the RAMPS 1.4 Board to RAMPS 1.4 Board 24v power custom wire
-        requiredParts: []
-        requiredTools: []
-        details: |
-          . Hello World!
+      - summary: Assemble the RAMPS 1.4 Board to RAMPS 1.4 Board 24v power custom wires
+        requiredParts:
+          - ferrule
+          - 22awg-wire
+        requiredTools:
+          - wire-stripper-cutter
+          - ferrule-crimper
+        details: >
+          . Using the *Wire Strippers/Cutters*, cut a 100mm long piece of *22AWG
+          Wire*.
+
+          . Using the *Wire Strippers/Cutters*, strip approximately 1cm of
+          insulation off of both ends of the *22AWG Wire*.
+
+          . Place an appropriately sized *Ferrule* onto the end of the stripped
+          *22AWG Wire*.
+
+          . Using the *Ferrule Crimper*, crimp the *Ferrule* onto the wire.
+
+          . Use the *Wire Strippers/Cutters* to cut off any excess *22AWG Wire*
+          that is poking through the end of the *Ferrule*.
+
+          . Repeat the above steps to crimp another *Ferrule* of the same color
+          to the other end of the stripped *22AWG Wire*.
+
+          . Repeat all of the above steps using different colored *22AWG Wire*
+          and different colored *Ferrule* part so that there are two wires of
+          identical length but distinct appearance.
+
+          . The RAMPS 1.4 Board to RAMPS 1.4 Board 24v power custom wires are
+          complete.
       - summary: >-
           Assemble the RAMPS 1.4 Board to Solid State Relay (SSR) 24v signal
           custom wires
@@ -15862,6 +16017,17 @@ components:
         Welding is an operation that can be harmful or FATAL if done improperly.
         Follow all instructions and precautions included with the Welder and use
         common sense!
+  wire-stripper-cutter:
+    name: wire-stripper-cutter
+    version: 1.0.0
+    description: Wire Stripper/Cutter
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
   wire-welding-brush:
     name: wire-welding-brush
     version: 1.0.0

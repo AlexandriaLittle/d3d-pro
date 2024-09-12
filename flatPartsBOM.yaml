@@ -104,6 +104,11 @@ components:
     name: electrical-cord-nema-5-15p
     quantity: 1
     quantityUnits: part
+  electrical-fork-terminal:
+    description: Electrical Fork Terminal
+    name: electrical-fork-terminal
+    quantity: 4
+    quantityUnits: part(s)
   electrical-plug-nema-1-15:
     description: Electrical Plug (NEMA 1-15)
     name: electrical-plug-nema-1-15

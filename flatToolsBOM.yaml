@@ -169,6 +169,11 @@ components:
     name: welder
     quantity: 1
     quantityUnits: part
+  wire-stripper-cutter:
+    description: Wire Stripper/Cutter
+    name: wire-stripper-cutter
+    quantity: 1
+    quantityUnits: part
   wire-welding-brush:
     description: Wire Welding Brush
     name: wire-welding-brush

@@ -152,6 +152,13 @@
 
 
 
+|4
+|part(s)
+|electrical-fork-terminal
+|Electrical Fork Terminal
+
+
+
 |1
 |part
 |electrical-plug-nema-1-15

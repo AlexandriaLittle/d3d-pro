@@ -245,6 +245,13 @@
 
 |1
 |part
+|wire-stripper-cutter
+|Wire Stripper/Cutter
+
+
+
+|1
+|part
 |wire-welding-brush
 |Wire Welding Brush
 

@@ -1,7 +1,7 @@
 = D3D Pro 3D Printer Assembly Instructions
 Alexandria Little - CC-BY-SA-4.0
 :revnumber: v23.12
-:revdate: 9/11/2024
+:revdate: 9/12/2024
 :sectnums:
 :toc:
 :toclevels: 3
@@ -87,8 +87,14 @@ include::flatToolsBOM.adoc[]
 
 
 
-|PC
+|Personal Computer
 |Personal Computer (PC)
+|
+
+
+
+|Wire Strippers/Cutters
+|Wire Stripper/Cutter
 |
 
 |===
@@ -324,6 +330,14 @@ include::flatToolsBOM.adoc[]
 |22AWG Braided Copper Wire v1.0.0
 |
 
+
+
+|4 part(s)
+|fork-terminal
+|Fork Terminal
+|Electrical Fork Terminal v1.0.0
+|
+
 |===
 
 
@@ -359,6 +373,10 @@ include::flatToolsBOM.adoc[]
 
 
 * *Soldering Iron:* A Soldering Iron gets very very hot and can burn you! Follow all of the manufacturer recommended safety precautions when using a Soldering Iron!
+
+
+
+
 
 
 
@@ -493,6 +511,10 @@ include::flatToolsBOM.adoc[]
 
 
 
+
+
+
+
 // Procedure
 === Procedure
 
@@ -528,20 +550,41 @@ include::flatToolsBOM.adoc[]
 
 // summary
 
-==== Assemble the RAMPS 1.4 Board to RAMPS 1.4 Board 24v power custom wire
+==== Assemble the RAMPS 1.4 Board to RAMPS 1.4 Board 24v power custom wires
 
 
 // requiredTools
 //
+//*Required Tools*
+//
+//* Wire Strippers/Cutters
+//
+//* Ferrule Crimper
+//
+//
 
 // requiredParts
+//
+//*Required Parts*
+//
+//* Ferrule
+//
+//* 22AWG Wire
+//
 //
 
 // details
 
 *Instructions*
 
-. Hello World!
+. Using the *Wire Strippers/Cutters*, cut a 100mm long piece of *22AWG Wire*.
+. Using the *Wire Strippers/Cutters*, strip approximately 1cm of insulation off of both ends of the *22AWG Wire*.
+. Place an appropriately sized *Ferrule* onto the end of the stripped *22AWG Wire*.
+. Using the *Ferrule Crimper*, crimp the *Ferrule* onto the wire.
+. Use the *Wire Strippers/Cutters* to cut off any excess *22AWG Wire* that is poking through the end of the *Ferrule*.
+. Repeat the above steps to crimp another *Ferrule* of the same color to the other end of the stripped *22AWG Wire*.
+. Repeat all of the above steps using different colored *22AWG Wire* and different colored *Ferrule* part so that there are two wires of identical length but distinct appearance.
+. The RAMPS 1.4 Board to RAMPS 1.4 Board 24v power custom wires are complete.
 
 
 
