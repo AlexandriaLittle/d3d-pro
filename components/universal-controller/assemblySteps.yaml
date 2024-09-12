@@ -8,7 +8,7 @@
   details: |
     . Use the *{{tools.hobby-knife.description}}* to clean any extra plastic off of the 3D printed components.
 
-- summary: Assemble the {{parts.ramps-board.description}} to {{parts.ramps-board.description}} 24v power custom wires
+- summary: Assemble the {{parts.ramps-board.description}} to {{parts.ramps-board.description}} 24v Power Custom Wires
   requiredParts: 
   - ferrule
   - 22awg-wire
@@ -29,9 +29,9 @@
     . Repeat the above steps to crimp another *{{parts.ferrule.description}}* of a different color to the end of the other *{{parts.22awg-wire.description}}*.
     . Using the *{{tools.dupont-crimper.description}}*, crimp *{{parts.dupont-female-pin-connector.description}}* {{parts.dupont-female-pin-connector.quantityUnits}} onto the exposed ends of the *{{parts.22awg-wire.description}}*.
     . Insert the both of the *{{parts.dupont-female-pin-connector.description}}* ends of the *{{parts.22awg-wire.description}}* into a *{{parts.2-pin-dupont-connector.description}}*.
-    . The *{{parts.ramps-board.description}} to {{parts.ramps-board.description}} 24v power custom wires* are complete.
+    . The *{{parts.ramps-board.description}} to {{parts.ramps-board.description}} 24v Power Custom Wires* are complete.
 
-- summary: Assemble the {{parts.ramps-board.description}} to {{parts.solid-state-relay.description}} 24v signal custom wires
+- summary: Assemble the {{parts.ramps-board.description}} to {{parts.solid-state-relay.description}} 24v Signal Custom Wires
   requiredParts:
   - ferrule
   - 22awg-wire
@@ -49,31 +49,35 @@
     . Using the *{{tools.ferrule-crimper.description}}*, crimp the *{{parts.ferrule.description}}* {{parts.ferrule.quantityUnits}} onto the wire.
     . Use the *{{tools.wire-stripper-cutter.description}}* to cut off any excess *{{parts.22awg-wire.description}}* that is poking through the ends of the *{{parts.ferrule.description}}* {{parts.ferrule.quantityUnits}}.
     . Use the *{{tools.dupont-crimper.description}}* to crimp on an appropriately sized *{{parts.fork-terminal.description}}* {{parts.fork-terminal.quantityUnits}} to the exposed ends of each *{{parts.22awg-wire.description}}*.
-    . The *{{parts.ramps-board.description}} to {{parts.solid-state-relay.description}} 24v signal custom wires* are complete.
+    . The *{{parts.ramps-board.description}} to {{parts.solid-state-relay.description}} 24v Signal Custom Wires* are complete.
 
-- summary: Assemble the {{parts.gfci.description}} to {{parts.24v-power-supply.description}} 120v power custom wires
+- summary: Assemble the {{parts.electrical-plug.description}} to {{parts.24v-power-supply.description}} 120v Power Custom Wires
   requiredParts: []
 
   requiredTools: []
 
   details: |
-    . Hello World!
+    . Hello World! forked terminal to ferrule/bare
 
-- summary: Assemble the {{parts.solid-state-relay.description}} 120v power custom wires
+- summary: Assemble the {{parts.solid-state-relay.description}} 120v Power Custom Wires
   requiredParts: []
 
   requiredTools: []
 
   details: |
-    . Hello World!
+    . Hello World! forked terminal -> forked terminal (short), forked terminal -> bare, forked terminal -> bare
 
-- summary: Assemble the {{parts.ramps-board.description}}
+- summary: Assemble the {{parts.ramps-board.description}} and {{parts.arduino.description}}
   requiredParts: []
 
   requiredTools: []
 
   details: |
-    . Hello World!
+    . Put the heatsinks on the drivers.
+    . Put the (CORRECTLY ORIENTED) drivers into the RAMPS.
+    . Align the RAMPS and Mega and press together.
+    . Insert the smart adapter into the RAMPS.
+    . Done
 
 - summary: Flash firmware on the {{parts.arduino.description}}
   requiredParts: []
@@ -81,7 +85,13 @@
   requiredTools: []
 
   details: |
-    . Hello World!
+    . Plug the arduino into the PC with a USB cable.
+    . Download the most recent firmware from the D3D Pro firmware repo.
+    . Download and install Arduino IDE
+    . Load the firmware into the Arduino IDE
+    . Select your board from the boards menu at the top.
+    . Click upload and wait for it to upload.
+    . When it says 'Done Uploading' you're done.
 
 - summary: Flash the {{parts.raspberry-pi-image.description}} onto the {{parts.16gb-microsd-card.description}}
   requiredParts: []

@@ -1,0 +1,9 @@
+{
+  "name": "usb-a-to-usb-b-cable",
+  "version": "1.0.0",
+  "description": "USB A to USB B Cable",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

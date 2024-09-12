@@ -304,4 +304,12 @@ dupont-female-pin-connector:
   quantity: 1
   quantityUnits: part(s)
   selectedOption: 0
-
+usb-a-to-usb-b-cable:
+  description: USB A to USB B Cable
+  id: usb-a-to-usb-b-cable
+  notes: ''
+  options:
+    - usb-a-to-usb-b-cable
+  quantity: 1
+  quantityUnits: part(s)
+  selectedOption: 0
