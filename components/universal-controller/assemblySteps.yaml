@@ -10,13 +10,10 @@
 
 - summary: Assemble the {{parts.ramps-board.description}} to {{parts.ramps-board.description}} 24v power custom wires
   requiredParts: 
-  - solder
+  - ferrule
   - 22awg-wire
-  - heat-shrink-tubing
 
   requiredTools: 
-  - soldering-iron
-  - helping-hands
   - wire-stripper-cutter
   - ferrule-crimper
 
