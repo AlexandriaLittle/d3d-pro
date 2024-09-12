@@ -2007,6 +2007,17 @@ components:
             parts: {}
             tools: {}
             precautions: []
+          stepper-motor-driver-heatsink:
+            name: stepper-motor-driver-heatsink
+            version: 1.0.0
+            description: Stepper Motor Driver Heatsink
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
           universal-controller-case:
             name: universal-controller-case
             version: 1.0.0
@@ -2397,6 +2408,19 @@ components:
             selectedOption: 0
             descriptionLong: 'fork-terminal: Fork Terminal'
             descriptionSelected: 'fork-terminal: Fork Terminal (Electrical Fork Terminal v1.0.0)'
+          stepper-motor-driver-heatsink:
+            description: Stepper Motor Driver Heatsink
+            id: stepper-motor-driver-heatsink
+            notes: ''
+            options:
+              - stepper-motor-driver-heatsink
+            quantity: 5
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: 'stepper-motor-driver-heatsink: Stepper Motor Driver Heatsink'
+            descriptionSelected: >-
+              stepper-motor-driver-heatsink: Stepper Motor Driver Heatsink
+              (Stepper Motor Driver Heatsink v1.0.0)
         tools:
           3mm-flat-screwdriver:
             description: 3mm Flat Head Screwdriver
@@ -5252,6 +5276,17 @@ components:
     name: stepper-motor-cable
     version: 1.0.0
     description: Stepper Motor Wire 4 Pin Dupont to 6 Pin XH2.54
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
+  stepper-motor-driver-heatsink:
+    name: stepper-motor-driver-heatsink
+    version: 1.0.0
+    description: Stepper Motor Driver Heatsink
     license: CC-BY-SA-4.0
     author: Alexandria Little
     dependencies: {}
@@ -11529,6 +11564,17 @@ components:
         parts: {}
         tools: {}
         precautions: []
+      stepper-motor-driver-heatsink:
+        name: stepper-motor-driver-heatsink
+        version: 1.0.0
+        description: Stepper Motor Driver Heatsink
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
       universal-controller-case:
         name: universal-controller-case
         version: 1.0.0
@@ -11917,6 +11963,19 @@ components:
         selectedOption: 0
         descriptionLong: 'fork-terminal: Fork Terminal'
         descriptionSelected: 'fork-terminal: Fork Terminal (Electrical Fork Terminal v1.0.0)'
+      stepper-motor-driver-heatsink:
+        description: Stepper Motor Driver Heatsink
+        id: stepper-motor-driver-heatsink
+        notes: ''
+        options:
+          - stepper-motor-driver-heatsink
+        quantity: 5
+        quantityUnits: part(s)
+        selectedOption: 0
+        descriptionLong: 'stepper-motor-driver-heatsink: Stepper Motor Driver Heatsink'
+        descriptionSelected: >-
+          stepper-motor-driver-heatsink: Stepper Motor Driver Heatsink (Stepper
+          Motor Driver Heatsink v1.0.0)
     tools:
       3mm-flat-screwdriver:
         description: 3mm Flat Head Screwdriver

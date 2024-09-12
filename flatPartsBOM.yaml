@@ -339,6 +339,11 @@ components:
     name: stepper-motor-cable
     quantity: 1
     quantityUnits: part
+  stepper-motor-driver-heatsink:
+    description: Stepper Motor Driver Heatsink
+    name: stepper-motor-driver-heatsink
+    quantity: 5
+    quantityUnits: part(s)
   thermal-paste:
     description: Thermal Paste
     name: thermal-paste

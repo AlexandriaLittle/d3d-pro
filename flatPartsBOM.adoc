@@ -481,6 +481,13 @@
 
 
 
+|5
+|part(s)
+|stepper-motor-driver-heatsink
+|Stepper Motor Driver Heatsink
+
+
+
 |4
 |drop(s)
 |thermal-paste
