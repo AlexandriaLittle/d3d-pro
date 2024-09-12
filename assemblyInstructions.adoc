@@ -661,7 +661,7 @@ include::flatToolsBOM.adoc[]
 . Repeat the above steps to crimp another *Ferrule* of a different color to the end of the other *22AWG Wire*.
 . Using the *Dupont Crimper*, crimp *Dupont Female Pin Connector* part(s) onto the exposed ends of the *22AWG Wire*.
 . Insert the both of the *Dupont Female Pin Connector* ends of the *22AWG Wire* into a *2 Pin Female Dupont Connector*.
-. The *RAMPS 1.4 Board* to *RAMPS 1.4 Board* 24v power custom wires are complete.
+. The *RAMPS 1.4 Board to RAMPS 1.4 Board 24v power custom wires* are complete.
 
 
 
@@ -673,15 +673,39 @@ include::flatToolsBOM.adoc[]
 
 // requiredTools
 //
+//*Required Tools*
+//
+//* Dupont Crimper
+//
+//* Ferrule Crimper
+//
+//* Wire Strippers/Cutters
+//
+//
 
 // requiredParts
+//
+//*Required Parts*
+//
+//* Ferrule
+//
+//* 22AWG Wire
+//
+//* Fork Terminal
+//
 //
 
 // details
 
 *Instructions*
 
-. Hello World!
+. Using the *Wire Strippers/Cutters, cut two (2) 200mm long pieces of *22AWG Wire*.
+. Using the *Wire Strippers/Cutters*, strip approximately 1cm of insulation off of both ends of each of the *22AWG Wire* lengths.
+. Place an appropriately sized *Ferrule* onto one end of each of the stripped *22AWG Wire* lengths.
+. Using the *Ferrule Crimper*, crimp the *Ferrule* part onto the wire.
+. Use the *Wire Strippers/Cutters* to cut off any excess *22AWG Wire* that is poking through the ends of the *Ferrule* part.
+. Use the *Dupont Crimper* to crimp on an appropriately sized **  to the exposed ends of each *22AWG Wire*.
+. The *RAMPS 1.4 Board to Solid State Relay (SSR) 24v signal custom wires* are complete.
 
 
 
