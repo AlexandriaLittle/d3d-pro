@@ -659,7 +659,7 @@ include::flatToolsBOM.adoc[]
 . Using the *Ferrule Crimper*, crimp the *Ferrule* onto the wire.
 . Use the *Wire Strippers/Cutters* to cut off any excess *22AWG Wire* that is poking through the end of the *Ferrule*.
 . Repeat the above steps to crimp another *Ferrule* of a different color to the end of the other *22AWG Wire*.
-. Using the **, crimp *Dupont Female Pin Connector* part(s) onto the exposed ends of the *22AWG Wire*.
+. Using the *Dupont Crimper*, crimp *Dupont Female Pin Connector* part(s) onto the exposed ends of the *22AWG Wire*.
 . Insert the both of the *Dupont Female Pin Connector* ends of the *22AWG Wire* into a *2 Pin Female Dupont Connector*.
 . The *RAMPS 1.4 Board* to *RAMPS 1.4 Board* 24v power custom wires are complete.
 
