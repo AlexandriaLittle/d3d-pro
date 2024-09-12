@@ -48,7 +48,7 @@
     . Place an appropriately sized *{{parts.ferrule.description}}* onto one end of each of the stripped *{{parts.22awg-wire.description}}* lengths.
     . Using the *{{tools.ferrule-crimper.description}}*, crimp the *{{parts.ferrule.description}}* {{parts.ferrule.quantityUnits}} onto the wire.
     . Use the *{{tools.wire-stripper-cutter.description}}* to cut off any excess *{{parts.22awg-wire.description}}* that is poking through the ends of the *{{parts.ferrule.description}}* {{parts.ferrule.quantityUnits}}.
-    . Use the *{{tools.dupont-crimper.description}}* to crimp on an appropriately sized *{{parts.forked-terminal.description}}* {{parts.forked-terminal.quantityUnits}} to the exposed ends of each *{{parts.22awg-wire.description}}*.
+    . Use the *{{tools.dupont-crimper.description}}* to crimp on an appropriately sized *{{parts.fork-terminal.description}}* {{parts.fork-terminal.quantityUnits}} to the exposed ends of each *{{parts.22awg-wire.description}}*.
     . The *{{parts.ramps-board.description}} to {{parts.solid-state-relay.description}} 24v signal custom wires* are complete.
 
 - summary: Assemble the {{parts.gfci.description}} to {{parts.24v-power-supply.description}} 120v power custom wires
