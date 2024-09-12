@@ -1,0 +1,9 @@
+{
+  "name": "wire-stripper-cutter",
+  "version": "1.0.0",
+  "description": "Wire Stripper/Cutter",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

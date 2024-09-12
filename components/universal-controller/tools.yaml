@@ -71,11 +71,20 @@ microsd-to-sd-card-adapter:
   quantityUnits: part
   selectedOption: 0
 pc:
-  description: PC
+  description: Personal Computer
   id: pc
   notes: ''
   options:
     - personal-computer
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+wire-stripper-cutter:
+  description: Wire Strippers/Cutters
+  id: wire-stripper-cutter
+  notes: ''
+  options:
+    - wire-stripper-cutter
   quantity: 1
   quantityUnits: part
   selectedOption: 0
