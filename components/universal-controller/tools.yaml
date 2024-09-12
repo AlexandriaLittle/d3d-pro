@@ -88,3 +88,12 @@ wire-stripper-cutter:
   quantity: 1
   quantityUnits: part
   selectedOption: 0
+dupont-crimper:
+  description: Dupont Crimper
+  id: dupont-crimper
+  notes: ''
+  options:
+    - dupont-crimper
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0

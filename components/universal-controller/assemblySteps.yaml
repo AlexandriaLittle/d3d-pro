@@ -12,19 +12,23 @@
   requiredParts: 
   - ferrule
   - 22awg-wire
+  - dupont-female-pin-connector
+  - 2-pin-dupont-connector
 
   requiredTools: 
   - wire-stripper-cutter
   - ferrule-crimper
+  - dupont-crimper
 
   details: |
-    . Using the *{{tools.wire-stripper-cutter.description}}*, cut a 100mm long piece of *{{parts.22awg-wire.description}}*.
+    . Using the *{{tools.wire-stripper-cutter.description}}*, cut two (2) 100mm long pieces of *{{parts.22awg-wire.description}}*.
     . Using the *{{tools.wire-stripper-cutter.description}}*, strip approximately 1cm of insulation off of both ends of the *{{parts.22awg-wire.description}}*.
     . Place an appropriately sized *{{parts.ferrule.description}}* onto the end of the stripped *{{parts.22awg-wire.description}}*.
     . Using the *{{tools.ferrule-crimper.description}}*, crimp the *{{parts.ferrule.description}}* onto the wire.
     . Use the *{{tools.wire-stripper-cutter.description}}* to cut off any excess *{{parts.22awg-wire.description}}* that is poking through the end of the *{{parts.ferrule.description}}*.
-    . Repeat the above steps to crimp another *{{parts.ferrule.description}}* of the same color to the other end of the stripped *{{parts.22awg-wire.description}}*.
-    . Repeat all of the above steps using different colored *{{parts.22awg-wire.description}}* and different colored *{{parts.ferrule.description}}* {{parts.ferrule.quantityUnits}} so that there are two wires of identical length but distinct appearance.
+    . Repeat the above steps to crimp another *{{parts.ferrule.description}}* of a different color to the end of the other *{{parts.22awg-wire.description}}*.
+    . Using the *{{tool.dupont-crimper.description}}*, crimp *{{parts.dupont-female-pin-connector.description}}* {{parts.dupont-female-pin-connector.quantityUnits}} onto the exposed ends of the *{{parts.22awg-wire.description}}*.
+    . Insert the both of the *{{parts.dupont-female-pin-connector.description}}* ends of the *{{parts.22awg-wire.description}}* into a *{{parts.2-pin-dupont-connector.description}}*.
     . The *{{parts.ramps-board.description}}* to *{{parts.ramps-board.description}}* 24v power custom wires are complete.
 
 - summary: Assemble the {{parts.ramps-board.description}} to {{parts.solid-state-relay.description}} 24v signal custom wires

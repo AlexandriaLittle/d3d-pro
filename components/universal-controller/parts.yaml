@@ -238,7 +238,7 @@ raspberry-pi-image:
   notes: ''
   options:
     - 14awg-wire
-  quantity: 2000
+  quantity: 1
   quantityUnits: mm
   selectedOption: 0
 22awg-wire:
@@ -247,7 +247,7 @@ raspberry-pi-image:
   notes: ''
   options:
     - 22awg-wire
-  quantity: 2000
+  quantity: 200
   quantityUnits: mm
   selectedOption: 0
 fork-terminal:
