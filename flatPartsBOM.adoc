@@ -19,7 +19,7 @@
 
 
 
-|2000
+|1
 |mm
 |14awg-wire
 |14 AWG Braided Copper Wire
@@ -54,7 +54,14 @@
 
 
 
-|4000
+|1
+|part(s)
+|2-pin-dupont-connector
+|2 Pin Dupont Connector Housing
+
+
+
+|2200
 |mm
 |22awg-wire
 |22AWG Braided Copper Wire
@@ -93,6 +100,20 @@
 |part(s)
 |2_54mm-jumper-cap
 |2.54mm Jumper Cap
+
+
+
+|1
+|part(s)
+|3-pin-dupont-connector
+|3 Pin Dupont Connector Housing
+
+
+
+|1
+|part(s)
+|4-pin-dupont-connector
+|4 Pin Dupont Connector Housing
 
 
 
@@ -142,6 +163,13 @@
 |part(s)
 |corner-brace
 |2 inch x 5/8 Inch Corner Brace (Four Holes)
+
+
+
+|1
+|part(s)
+|dupont-female-pin-connector
+|Dupont Female Pin Connector
 
 
 

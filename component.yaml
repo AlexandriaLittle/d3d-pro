@@ -107,6 +107,17 @@ components:
     parts: {}
     tools: {}
     precautions: []
+  2-pin-dupont-connector:
+    name: 2-pin-dupont-connector
+    version: 1.0.0
+    description: 2 Pin Dupont Connector Housing
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
   22awg-wire:
     name: 22awg-wire
     version: 1.0.0
@@ -198,6 +209,17 @@ components:
     parts: {}
     tools: {}
     precautions: []
+  3-pin-dupont-connector:
+    name: 3-pin-dupont-connector
+    version: 1.0.0
+    description: 3 Pin Dupont Connector Housing
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
   3mm-allen-wrench:
     name: 3mm-allen-wrench
     version: 1.0.0
@@ -213,6 +235,17 @@ components:
     name: 3mm-flat-screwdriver
     version: 1.0.0
     description: 3mm Flat Head Screwdriver
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
+  4-pin-dupont-connector:
+    name: 4-pin-dupont-connector
+    version: 1.0.0
+    description: 4 Pin Dupont Connector Housing
     license: CC-BY-SA-4.0
     author: Alexandria Little
     dependencies: {}
@@ -503,6 +536,28 @@ components:
         Drill presses can cause permanent injury or possibly death! Do not wear
         loose fitting clothing, put your hair up, and wear proper PPE including
         (but not limited to) safety glasses when operating the machine.
+  dupont-crimper:
+    name: dupont-crimper
+    version: 1.0.0
+    description: Dupont Wire Crimper
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
+  dupont-female-pin-connector:
+    name: dupont-female-pin-connector
+    version: 1.0.0
+    description: Dupont Female Pin Connector
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
   electrical-cord-nema-5-15p:
     name: electrical-cord-nema-5-15p
     version: 1.0.0
@@ -1658,6 +1713,17 @@ components:
             parts: {}
             tools: {}
             precautions: []
+          2-pin-dupont-connector:
+            name: 2-pin-dupont-connector
+            version: 1.0.0
+            description: 2 Pin Dupont Connector Housing
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
           22awg-wire:
             name: 22awg-wire
             version: 1.0.0
@@ -1691,10 +1757,32 @@ components:
             parts: {}
             tools: {}
             precautions: []
+          3-pin-dupont-connector:
+            name: 3-pin-dupont-connector
+            version: 1.0.0
+            description: 3 Pin Dupont Connector Housing
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
           3mm-flat-screwdriver:
             name: 3mm-flat-screwdriver
             version: 1.0.0
             description: 3mm Flat Head Screwdriver
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          4-pin-dupont-connector:
+            name: 4-pin-dupont-connector
+            version: 1.0.0
+            description: 4 Pin Dupont Connector Housing
             license: CC-BY-SA-4.0
             author: Alexandria Little
             dependencies: {}
@@ -1717,6 +1805,28 @@ components:
             name: arduino-mega-2560
             version: 1.0.0
             description: Arduino Mega 2560
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          dupont-crimper:
+            name: dupont-crimper
+            version: 1.0.0
+            description: Dupont Wire Crimper
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          dupont-female-pin-connector:
+            name: dupont-female-pin-connector
+            version: 1.0.0
+            description: Dupont Female Pin Connector
             license: CC-BY-SA-4.0
             author: Alexandria Little
             dependencies: {}
@@ -2381,7 +2491,7 @@ components:
             notes: ''
             options:
               - 14awg-wire
-            quantity: 2000
+            quantity: 1
             quantityUnits: mm
             selectedOption: 0
             descriptionLong: '14awg-wire: 14AWG Wire'
@@ -2392,7 +2502,7 @@ components:
             notes: ''
             options:
               - 22awg-wire
-            quantity: 2000
+            quantity: 200
             quantityUnits: mm
             selectedOption: 0
             descriptionLong: '22awg-wire: 22AWG Wire'
@@ -2421,6 +2531,58 @@ components:
             descriptionSelected: >-
               stepper-motor-driver-heatsink: Stepper Motor Driver Heatsink
               (Stepper Motor Driver Heatsink v1.0.0)
+          2-pin-dupont-connector:
+            description: 2 Pin Female Dupont Connector
+            id: 2-pin-dupont-connector
+            notes: ''
+            options:
+              - 2-pin-dupont-connector
+            quantity: 1
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: '2-pin-dupont-connector: 2 Pin Female Dupont Connector'
+            descriptionSelected: >-
+              2-pin-dupont-connector: 2 Pin Female Dupont Connector (2 Pin
+              Dupont Connector Housing v1.0.0)
+          3-pin-dupont-connector:
+            description: 3 Pin Female Dupont Connector
+            id: 3-pin-dupont-connector
+            notes: ''
+            options:
+              - 3-pin-dupont-connector
+            quantity: 1
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: '3-pin-dupont-connector: 3 Pin Female Dupont Connector'
+            descriptionSelected: >-
+              3-pin-dupont-connector: 3 Pin Female Dupont Connector (3 Pin
+              Dupont Connector Housing v1.0.0)
+          4-pin-dupont-connector:
+            description: 4 Pin Female Dupont Connector
+            id: 4-pin-dupont-connector
+            notes: ''
+            options:
+              - 4-pin-dupont-connector
+            quantity: 1
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: '4-pin-dupont-connector: 4 Pin Female Dupont Connector'
+            descriptionSelected: >-
+              4-pin-dupont-connector: 4 Pin Female Dupont Connector (4 Pin
+              Dupont Connector Housing v1.0.0)
+          dupont-female-pin-connector:
+            description: Dupont Female Pin Connector
+            id: dupont-female-pin-connector
+            notes: ''
+            options:
+              - dupont-female-pin-connector
+            quantity: 1
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: 'dupont-female-pin-connector: Dupont Female Pin Connector'
+            descriptionSelected: >-
+              dupont-female-pin-connector: Dupont Female Pin Connector (Dupont
+              Female Pin Connector v1.0.0)
         tools:
           3mm-flat-screwdriver:
             description: 3mm Flat Head Screwdriver
@@ -2540,6 +2702,17 @@ components:
             descriptionSelected: >-
               wire-stripper-cutter: Wire Strippers/Cutters (Wire Stripper/Cutter
               v1.0.0)
+          dupont-crimper:
+            description: Dupont Crimper
+            id: dupont-crimper
+            notes: ''
+            options:
+              - dupont-crimper
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'dupont-crimper: Dupont Crimper'
+            descriptionSelected: 'dupont-crimper: Dupont Crimper (Dupont Wire Crimper v1.0.0)'
         precautions:
           - >-
             The Universal Controller Assembly runs on 120v AC electricity, which
@@ -2564,12 +2737,15 @@ components:
             requiredParts:
               - ferrule
               - 22awg-wire
+              - dupont-female-pin-connector
+              - 2-pin-dupont-connector
             requiredTools:
               - wire-stripper-cutter
               - ferrule-crimper
+              - dupont-crimper
             details: >
-              . Using the *Wire Strippers/Cutters*, cut a 100mm long piece of
-              *22AWG Wire*.
+              . Using the *Wire Strippers/Cutters*, cut two (2) 100mm long
+              pieces of *22AWG Wire*.
 
               . Using the *Wire Strippers/Cutters*, strip approximately 1cm of
               insulation off of both ends of the *22AWG Wire*.
@@ -2582,15 +2758,17 @@ components:
               . Use the *Wire Strippers/Cutters* to cut off any excess *22AWG
               Wire* that is poking through the end of the *Ferrule*.
 
-              . Repeat the above steps to crimp another *Ferrule* of the same
-              color to the other end of the stripped *22AWG Wire*.
+              . Repeat the above steps to crimp another *Ferrule* of a different
+              color to the end of the other *22AWG Wire*.
 
-              . Repeat all of the above steps using different colored *22AWG
-              Wire* and different colored *Ferrule* part so that there are two
-              wires of identical length but distinct appearance.
+              . Using the **, crimp *Dupont Female Pin Connector* part(s) onto
+              the exposed ends of the *22AWG Wire*.
 
-              . The RAMPS 1.4 Board to RAMPS 1.4 Board 24v power custom wires
-              are complete.
+              . Insert the both of the *Dupont Female Pin Connector* ends of the
+              *22AWG Wire* into a *2 Pin Female Dupont Connector*.
+
+              . The *RAMPS 1.4 Board* to *RAMPS 1.4 Board* 24v power custom
+              wires are complete.
           - summary: >-
               Assemble the RAMPS 1.4 Board to Solid State Relay (SSR) 24v signal
               custom wires
@@ -11215,6 +11393,17 @@ components:
         parts: {}
         tools: {}
         precautions: []
+      2-pin-dupont-connector:
+        name: 2-pin-dupont-connector
+        version: 1.0.0
+        description: 2 Pin Dupont Connector Housing
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
       22awg-wire:
         name: 22awg-wire
         version: 1.0.0
@@ -11248,10 +11437,32 @@ components:
         parts: {}
         tools: {}
         precautions: []
+      3-pin-dupont-connector:
+        name: 3-pin-dupont-connector
+        version: 1.0.0
+        description: 3 Pin Dupont Connector Housing
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
       3mm-flat-screwdriver:
         name: 3mm-flat-screwdriver
         version: 1.0.0
         description: 3mm Flat Head Screwdriver
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      4-pin-dupont-connector:
+        name: 4-pin-dupont-connector
+        version: 1.0.0
+        description: 4 Pin Dupont Connector Housing
         license: CC-BY-SA-4.0
         author: Alexandria Little
         dependencies: {}
@@ -11274,6 +11485,28 @@ components:
         name: arduino-mega-2560
         version: 1.0.0
         description: Arduino Mega 2560
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      dupont-crimper:
+        name: dupont-crimper
+        version: 1.0.0
+        description: Dupont Wire Crimper
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      dupont-female-pin-connector:
+        name: dupont-female-pin-connector
+        version: 1.0.0
+        description: Dupont Female Pin Connector
         license: CC-BY-SA-4.0
         author: Alexandria Little
         dependencies: {}
@@ -11936,7 +12169,7 @@ components:
         notes: ''
         options:
           - 14awg-wire
-        quantity: 2000
+        quantity: 1
         quantityUnits: mm
         selectedOption: 0
         descriptionLong: '14awg-wire: 14AWG Wire'
@@ -11947,7 +12180,7 @@ components:
         notes: ''
         options:
           - 22awg-wire
-        quantity: 2000
+        quantity: 200
         quantityUnits: mm
         selectedOption: 0
         descriptionLong: '22awg-wire: 22AWG Wire'
@@ -11976,6 +12209,58 @@ components:
         descriptionSelected: >-
           stepper-motor-driver-heatsink: Stepper Motor Driver Heatsink (Stepper
           Motor Driver Heatsink v1.0.0)
+      2-pin-dupont-connector:
+        description: 2 Pin Female Dupont Connector
+        id: 2-pin-dupont-connector
+        notes: ''
+        options:
+          - 2-pin-dupont-connector
+        quantity: 1
+        quantityUnits: part(s)
+        selectedOption: 0
+        descriptionLong: '2-pin-dupont-connector: 2 Pin Female Dupont Connector'
+        descriptionSelected: >-
+          2-pin-dupont-connector: 2 Pin Female Dupont Connector (2 Pin Dupont
+          Connector Housing v1.0.0)
+      3-pin-dupont-connector:
+        description: 3 Pin Female Dupont Connector
+        id: 3-pin-dupont-connector
+        notes: ''
+        options:
+          - 3-pin-dupont-connector
+        quantity: 1
+        quantityUnits: part(s)
+        selectedOption: 0
+        descriptionLong: '3-pin-dupont-connector: 3 Pin Female Dupont Connector'
+        descriptionSelected: >-
+          3-pin-dupont-connector: 3 Pin Female Dupont Connector (3 Pin Dupont
+          Connector Housing v1.0.0)
+      4-pin-dupont-connector:
+        description: 4 Pin Female Dupont Connector
+        id: 4-pin-dupont-connector
+        notes: ''
+        options:
+          - 4-pin-dupont-connector
+        quantity: 1
+        quantityUnits: part(s)
+        selectedOption: 0
+        descriptionLong: '4-pin-dupont-connector: 4 Pin Female Dupont Connector'
+        descriptionSelected: >-
+          4-pin-dupont-connector: 4 Pin Female Dupont Connector (4 Pin Dupont
+          Connector Housing v1.0.0)
+      dupont-female-pin-connector:
+        description: Dupont Female Pin Connector
+        id: dupont-female-pin-connector
+        notes: ''
+        options:
+          - dupont-female-pin-connector
+        quantity: 1
+        quantityUnits: part(s)
+        selectedOption: 0
+        descriptionLong: 'dupont-female-pin-connector: Dupont Female Pin Connector'
+        descriptionSelected: >-
+          dupont-female-pin-connector: Dupont Female Pin Connector (Dupont
+          Female Pin Connector v1.0.0)
     tools:
       3mm-flat-screwdriver:
         description: 3mm Flat Head Screwdriver
@@ -12095,6 +12380,17 @@ components:
         descriptionSelected: >-
           wire-stripper-cutter: Wire Strippers/Cutters (Wire Stripper/Cutter
           v1.0.0)
+      dupont-crimper:
+        description: Dupont Crimper
+        id: dupont-crimper
+        notes: ''
+        options:
+          - dupont-crimper
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'dupont-crimper: Dupont Crimper'
+        descriptionSelected: 'dupont-crimper: Dupont Crimper (Dupont Wire Crimper v1.0.0)'
     precautions:
       - >-
         The Universal Controller Assembly runs on 120v AC electricity, which can
@@ -12117,12 +12413,15 @@ components:
         requiredParts:
           - ferrule
           - 22awg-wire
+          - dupont-female-pin-connector
+          - 2-pin-dupont-connector
         requiredTools:
           - wire-stripper-cutter
           - ferrule-crimper
+          - dupont-crimper
         details: >
-          . Using the *Wire Strippers/Cutters*, cut a 100mm long piece of *22AWG
-          Wire*.
+          . Using the *Wire Strippers/Cutters*, cut two (2) 100mm long pieces of
+          *22AWG Wire*.
 
           . Using the *Wire Strippers/Cutters*, strip approximately 1cm of
           insulation off of both ends of the *22AWG Wire*.
@@ -12135,15 +12434,17 @@ components:
           . Use the *Wire Strippers/Cutters* to cut off any excess *22AWG Wire*
           that is poking through the end of the *Ferrule*.
 
-          . Repeat the above steps to crimp another *Ferrule* of the same color
-          to the other end of the stripped *22AWG Wire*.
+          . Repeat the above steps to crimp another *Ferrule* of a different
+          color to the end of the other *22AWG Wire*.
 
-          . Repeat all of the above steps using different colored *22AWG Wire*
-          and different colored *Ferrule* part so that there are two wires of
-          identical length but distinct appearance.
+          . Using the **, crimp *Dupont Female Pin Connector* part(s) onto the
+          exposed ends of the *22AWG Wire*.
 
-          . The RAMPS 1.4 Board to RAMPS 1.4 Board 24v power custom wires are
-          complete.
+          . Insert the both of the *Dupont Female Pin Connector* ends of the
+          *22AWG Wire* into a *2 Pin Female Dupont Connector*.
+
+          . The *RAMPS 1.4 Board* to *RAMPS 1.4 Board* 24v power custom wires
+          are complete.
       - summary: >-
           Assemble the RAMPS 1.4 Board to Solid State Relay (SSR) 24v signal
           custom wires

@@ -97,6 +97,12 @@ include::flatToolsBOM.adoc[]
 |Wire Stripper/Cutter
 |
 
+
+
+|Dupont Crimper
+|Dupont Wire Crimper
+|
+
 |===
 
 
@@ -316,7 +322,7 @@ include::flatToolsBOM.adoc[]
 
 
 
-|2000 mm
+|1 mm
 |14awg-wire
 |14AWG Wire
 |14 AWG Braided Copper Wire v1.0.0
@@ -324,7 +330,7 @@ include::flatToolsBOM.adoc[]
 
 
 
-|2000 mm
+|200 mm
 |22awg-wire
 |22AWG Wire
 |22AWG Braided Copper Wire v1.0.0
@@ -344,6 +350,38 @@ include::flatToolsBOM.adoc[]
 |stepper-motor-driver-heatsink
 |Stepper Motor Driver Heatsink
 |Stepper Motor Driver Heatsink v1.0.0
+|
+
+
+
+|1 part(s)
+|2-pin-dupont-connector
+|2 Pin Female Dupont Connector
+|2 Pin Dupont Connector Housing v1.0.0
+|
+
+
+
+|1 part(s)
+|3-pin-dupont-connector
+|3 Pin Female Dupont Connector
+|3 Pin Dupont Connector Housing v1.0.0
+|
+
+
+
+|1 part(s)
+|4-pin-dupont-connector
+|4 Pin Female Dupont Connector
+|4 Pin Dupont Connector Housing v1.0.0
+|
+
+
+
+|1 part(s)
+|dupont-female-pin-connector
+|Dupont Female Pin Connector
+|Dupont Female Pin Connector v1.0.0
 |
 
 |===
@@ -381,6 +419,10 @@ include::flatToolsBOM.adoc[]
 
 
 * *Soldering Iron:* A Soldering Iron gets very very hot and can burn you! Follow all of the manufacturer recommended safety precautions when using a Soldering Iron!
+
+
+
+
 
 
 
@@ -527,6 +569,22 @@ include::flatToolsBOM.adoc[]
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Procedure
 === Procedure
 
@@ -573,6 +631,8 @@ include::flatToolsBOM.adoc[]
 //
 //* Ferrule Crimper
 //
+//* Dupont Crimper
+//
 //
 
 // requiredParts
@@ -583,20 +643,25 @@ include::flatToolsBOM.adoc[]
 //
 //* 22AWG Wire
 //
+//* Dupont Female Pin Connector
+//
+//* 2 Pin Female Dupont Connector
+//
 //
 
 // details
 
 *Instructions*
 
-. Using the *Wire Strippers/Cutters*, cut a 100mm long piece of *22AWG Wire*.
+. Using the *Wire Strippers/Cutters*, cut two (2) 100mm long pieces of *22AWG Wire*.
 . Using the *Wire Strippers/Cutters*, strip approximately 1cm of insulation off of both ends of the *22AWG Wire*.
 . Place an appropriately sized *Ferrule* onto the end of the stripped *22AWG Wire*.
 . Using the *Ferrule Crimper*, crimp the *Ferrule* onto the wire.
 . Use the *Wire Strippers/Cutters* to cut off any excess *22AWG Wire* that is poking through the end of the *Ferrule*.
-. Repeat the above steps to crimp another *Ferrule* of the same color to the other end of the stripped *22AWG Wire*.
-. Repeat all of the above steps using different colored *22AWG Wire* and different colored *Ferrule* part so that there are two wires of identical length but distinct appearance.
-. The RAMPS 1.4 Board to RAMPS 1.4 Board 24v power custom wires are complete.
+. Repeat the above steps to crimp another *Ferrule* of a different color to the end of the other *22AWG Wire*.
+. Using the **, crimp *Dupont Female Pin Connector* part(s) onto the exposed ends of the *22AWG Wire*.
+. Insert the both of the *Dupont Female Pin Connector* ends of the *22AWG Wire* into a *2 Pin Female Dupont Connector*.
+. The *RAMPS 1.4 Board* to *RAMPS 1.4 Board* 24v power custom wires are complete.
 
 
 

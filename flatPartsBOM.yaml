@@ -12,7 +12,7 @@ components:
   14awg-wire:
     description: 14 AWG Braided Copper Wire
     name: 14awg-wire
-    quantity: 2000
+    quantity: 1
     quantityUnits: mm
   16ga-steel-sheet:
     description: 16 Gauge 300mm x 300mm Steel Sheet
@@ -34,10 +34,15 @@ components:
     name: 1_75mm-volcano-style-0_4mm-nozzle
     quantity: 1
     quantityUnits: part
+  2-pin-dupont-connector:
+    description: 2 Pin Dupont Connector Housing
+    name: 2-pin-dupont-connector
+    quantity: 1
+    quantityUnits: part(s)
   22awg-wire:
     description: 22AWG Braided Copper Wire
     name: 22awg-wire
-    quantity: 4000
+    quantity: 2200
     quantityUnits: mm
   24v-40mm-fan:
     description: 24v 40mm x 40mm x 10mm Fan
@@ -63,6 +68,16 @@ components:
     description: 2.54mm Jumper Cap
     name: 2_54mm-jumper-cap
     quantity: 15
+    quantityUnits: part(s)
+  3-pin-dupont-connector:
+    description: 3 Pin Dupont Connector Housing
+    name: 3-pin-dupont-connector
+    quantity: 1
+    quantityUnits: part(s)
+  4-pin-dupont-connector:
+    description: 4 Pin Dupont Connector Housing
+    name: 4-pin-dupont-connector
+    quantity: 1
     quantityUnits: part(s)
   608-bearing:
     description: 608 ZZ Bearing
@@ -98,6 +113,11 @@ components:
     description: 2 inch x 5/8 Inch Corner Brace (Four Holes)
     name: corner-brace
     quantity: 2
+    quantityUnits: part(s)
+  dupont-female-pin-connector:
+    description: Dupont Female Pin Connector
+    name: dupont-female-pin-connector
+    quantity: 1
     quantityUnits: part(s)
   electrical-cord-nema-5-15p:
     description: Electrical Cord (NEMA 5-15P)

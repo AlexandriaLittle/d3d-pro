@@ -64,6 +64,11 @@ components:
     name: drill-press
     quantity: 1
     quantityUnits: part
+  dupont-crimper:
+    description: Dupont Wire Crimper
+    name: dupont-crimper
+    quantity: 1
+    quantityUnits: part
   fast-heated-bed-plate-jig:
     description: Fast Heated Bed Plate Jig
     name: fast-heated-bed-plate-jig
