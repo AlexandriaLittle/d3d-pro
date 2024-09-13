@@ -216,7 +216,7 @@
 
 
 |22
-|part
+|part(s)
 |ferrule
 |Wire Ferrule
 

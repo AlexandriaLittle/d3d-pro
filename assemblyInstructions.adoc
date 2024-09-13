@@ -1,7 +1,7 @@
 = D3D Pro 3D Printer Assembly Instructions
 Alexandria Little - CC-BY-SA-4.0
 :revnumber: v23.12
-:revdate: 9/12/2024
+:revdate: 9/13/2024
 :sectnums:
 :toc:
 :toclevels: 3
@@ -178,7 +178,7 @@ include::flatToolsBOM.adoc[]
 
 
 
-|20 part
+|20 part(s)
 |ferrule
 |Ferrule
 |Wire Ferrule v1.0.0
@@ -711,11 +711,11 @@ include::flatToolsBOM.adoc[]
 
 *Instructions*
 
-. Using the *Wire Strippers/Cutters, cut two (2) 200mm long pieces of *22AWG Wire*.
+. Using the *Wire Strippers/Cutters*, cut two (2) 200mm long pieces of *22AWG Wire*.
 . Using the *Wire Strippers/Cutters*, strip approximately 1cm of insulation off of both ends of each of the *22AWG Wire* lengths.
 . Place an appropriately sized *Ferrule* onto one end of each of the stripped *22AWG Wire* lengths.
-. Using the *Ferrule Crimper*, crimp the *Ferrule* part onto the wire.
-. Use the *Wire Strippers/Cutters* to cut off any excess *22AWG Wire* that is poking through the ends of the *Ferrule* part.
+. Using the *Ferrule Crimper*, crimp the *Ferrule* part(s) onto each *22AWG Wire*.
+. Use the *Wire Strippers/Cutters* to cut off any excess *22AWG Wire* that is poking through the ends of the *Ferrule* part(s).
 . Use the *Dupont Crimper* to crimp on an appropriately sized *Fork Terminal* part(s) to the exposed ends of each *22AWG Wire*.
 . The *RAMPS 1.4 Board to Solid State Relay (SSR) 24v Signal Custom Wires* are complete.
 
@@ -814,7 +814,7 @@ include::flatToolsBOM.adoc[]
 
 // summary
 
-==== Flash the Octoprint Raspberry Pi Software Image onto the 16GB MicroSD Card
+==== Flash the Octoprint Raspberry Pi Software Image onto the 16GB MicroSD Card and set up WIFI
 
 
 // requiredTools
@@ -827,7 +827,13 @@ include::flatToolsBOM.adoc[]
 
 *Instructions*
 
-. Hello World!
+. Download the raspberry pi imager.
+. Navigate to OctoPi
+. Insert the MicroSD card into the adapter.
+. Insert the adapter into your personal computer.
+. If using Wifi and not an ethernet connection, go into more details
+. Select the wireless networking option and put in your wifi credentials.
+. use the imager to download and flash the octopi image to the MicroSD card.
 
 
 
@@ -887,7 +893,12 @@ include::flatToolsBOM.adoc[]
 
 *Instructions*
 
-. Hello World!
+. Zip tie the Mega/RAMPS
+. Zip tie power supply module
+. Zip tie the raspberry pie
+. Zip tie the SSR
+. Zip tie the GFCI
+. Insert the toggle switch into the side of the case
 
 
 
@@ -2635,7 +2646,7 @@ include::flatToolsBOM.adoc[]
 . Without touching the bulbs, place the *Halogen Lightbulb Assembly* onto the center of the *Fast Heated Bed Top Plate*.
 . Pull the wires of the *Halogen Lightbulb Assembly* out past one side of the *Fast Heated Bed Top Plate* so that the wires can be reached in a later step.
 . Take four *M6 Nut* part(s) and screw one onto every screw on the *Fast Heated Bed Top Plate*.
-. Position the *Fast Heated Bed Bottom Plate* onto the screws of the *Fast Heated Bed Top Plate. The *Fast Heated Bed Bottom Plate* should rest on top of the *M6 Nut* part(s) from the previous step.
+. Position the *Fast Heated Bed Bottom Plate* onto the screws of the *Fast Heated Bed Top Plate*. The *Fast Heated Bed Bottom Plate* should rest on top of the *M6 Nut* part(s) from the previous step.
 . Take four *M6 Nut* part(s) and screw one onto every screw on the *Fast Heated Bed Top Plate* above the *Fast Heated Bed Bottom Plate*. Tighten them down by hand; the final adjustment will take place later.
 . Gently flip the *Fast Heated Bed Module* over so that the *Fast Heated Bed Top Plate* is on top.
 . Take the *PEI Sheet* and peel away the corner of the covering of the adhesive side of the part
@@ -2886,7 +2897,7 @@ image:IMG_3600.jpeg[,300,300,pdfwidth=30%]
 image:IMG_3601.jpeg[,300,300,pdfwidth=30%]
 image:IMG_3602.jpeg[,300,300,pdfwidth=30%]
 . Once the *GT2 20 Tooth Pulley* is aligned with the slot, remove the *Nema 17 Stepper Motor* from the *Universal Axis Motor Side*.
-. Firmly tighten down the screw on the *GT2 20 Tooth Pulley* using a *1.5mm Allen Wrench.
+. Firmly tighten down the screw on the *GT2 20 Tooth Pulley* using a *1.5mm Allen Wrench*.
 +
 image:IMG_3597.jpeg[,300,300,pdfwidth=30%]
 . Insert two *M6 Nut* part(s) into the nut catchers on the face of the *Universal Axis Motor Side*.
