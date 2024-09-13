@@ -43,7 +43,7 @@
     image:IMG_3601.jpeg[,300,300,pdfwidth=30%]
     image:IMG_3602.jpeg[,300,300,pdfwidth=30%]
     . Once the *{{parts.pulley.description}}* is aligned with the slot, remove the *{{parts.stepper-motor.description}}* from the *{{parts.universal-axis-motor-side.description}}*.
-    . Firmly tighten down the screw on the *{{parts.pulley.description}}* using a *{{tools.1_5mm-allen-wrench.description}}.
+    . Firmly tighten down the screw on the *{{parts.pulley.description}}* using a *{{tools.1_5mm-allen-wrench.description}}*.
     +
     image:IMG_3597.jpeg[,300,300,pdfwidth=30%]
     . Insert two *{{parts.m6-nut.description}}* {{parts.m6-nut.quantityUnits}} into the nut catchers on the face of the *{{parts.universal-axis-motor-side.description}}*.
