@@ -2906,37 +2906,149 @@ components:
               . Zip tie the raspberry pie
               . Zip tie the SSR
               . Zip tie the GFCI
-              . Insert the toggle switch into the side of the case
+              . Insert the rocker switch into the side of the case
           - summary: Wire the GFCI
             requiredParts: []
             requiredTools: []
-            details: |
-              . Hello World!
+            details: >
+              . Take the power supply cable and strip back 4-6cm of sheathing.
+
+              . Extend one of the power wires (not ground) with 200mm of wire.
+
+              . Bring the extended power wire into the case through the bottom
+              right hole.
+
+              . Solder the inline fuse onto the extended power wire (still not
+              ground).
+
+              . Solder the inline fuse to one of the tongs of the rocker switch.
+
+              . Solder a 200mm extension wire onto the other tong of the rocker
+              switch.
+
+              . Route the second extension wire back out of the case.
+
+              . Use the Dupont crimper to crimp a fork terminal onto the end of
+              the extension wire.
+
+              . Connect the extension wire to one of the terminals on the GFCI.
+
+              . Use the Dupont crimper to crimp a fork terminal onto the other
+              end of the power supply cable power wire.
+
+              . Connect the second wire onto the other power terminal on the
+              GFCI.
+
+              . Use the Dupont crimper to crimp a fork terminal onto the end of
+              the green ground wire
+
+              . Connect the ground wire onto the ground of the GFCI.
+
+              . Loop all of the exposed terminals in multiple layers of
+              electrical tape.
+
+              . Done with GFCI.
           - summary: Wire the Two Prong Electrical Plug
             requiredParts: []
             requiredTools: []
-            details: |
-              . Hello World!
+            details: >
+              . Gather one long SSR power wire, one short SSR power wire, and
+              both of the 24V power supply wires.
+
+              . Connect the short SSR wire and one of the 24v power supply wires
+              to the left terminal inside of the plug.
+
+              . Connect the long ssr wire and the other 24V power supply wire to
+              the right terminal inside of the plug.
+
+              . Close the plug.
+
+              . If the wire prevents the plug from closing, use a hobby knife to
+              cut away at the offending plastic inside of the plug.
+
+              . Once the plug closes properly, screw the plug together snugly.
+
+              . Wrap the plug neatly in electrical tape.
+
+              . Done with the electical plug.
           - summary: Wire the 24v Power Supply Module
             requiredParts: []
             requiredTools: []
-            details: |
-              . Hello World!
+            details: >
+              . Take one of the bare ends of wire from the electrical plug 24v
+              power supply wires and twist it to straighten and bind together
+              the wire strands.
+
+              . Repeat the above step for the other bare end wire.
+
+              . Depress the power module 120V power terminal levers and insert
+              one of the bare wire ends into each of the terminal slots. Make
+              sure that there are NO loose strands sticking out of the
+              terminals.
+
+              . Loosen the screws in the 24v outlet terminals.
+
+              . Next, insert the ferruled ends of the 22AWG wire into the 24V
+              outlet terminals. 
+
+              . Screw down the screws in the 24V outlet terminals.
+
+              . The 24v power supply is done. 
           - summary: Wire the Solid State Relay (SSR)
             requiredParts: []
             requiredTools: []
-            details: |
-              . Hello World!
+            details: >
+              . Wire the forked terminal end of the SSR short wire in the
+              electrical plug into the right side of the 120V side of the SSR.
+
+              . Wire the colored 24v signal wires (22awg) into their respective
+              positive and negative position on the solid state relay.
+
+              . Insert the forked end of the long SSR wire into the left side
+              terminal of the 120v side of the SSR.
+
+              . Tighten down all of the terminal screws.
+
+              . The SSR is done.
           - summary: Wire the Raspberry Pi Computer
             requiredParts: []
             requiredTools: []
-            details: |
-              . Hello World!
+            details: >
+              . Plug the power supply into the GFCI.
+
+              . Plug the USB C end of the power supply into the USB C port on
+              the Raspberry Pi
+
+              . Plug the USB A end of the USB A/USB B cable into the Raspberry
+              Pi
+
+              . Plug the USB camera into one of the available USB A ports on the
+              Raspberry pi.
+
+              . The Raspberry Pi is now wired.
           - summary: Wire the RAMPS 1.4 Board
             requiredParts: []
             requiredTools: []
-            details: |
-              . Hello World!
+            details: >
+              . Plug the USB B end of the USB A/USB B cable (connected to the
+              raspberry pi) into the USB B port.
+
+              . Connect the ferrule ends of the RAMPS 1.4 Board to RAMPS 1.4
+              Board 24v Power Custom Wires to the bottom left terminals, paying
+              close attention to the polarity.
+
+              . Plug the 2-pin-dupont-connector end of the RAMPS 1.4 Board to
+              RAMPS 1.4 Board 24v Power Custom Wires into the bottom left ports
+              of the Aux 1 pins on the RAMPS board, with positive on the left
+              and negative on the right.
+
+              . Plug in the 24v power supply cables into their port, paying
+              attention to the polarity.
+
+              . Plug in the SSR signal wires into the heated bed port, paying
+              attention to the polarity.
+
+              . To be continued
           - summary: Test the Universal Controller Assembly
             requiredParts: []
             requiredTools: []
@@ -12661,37 +12773,146 @@ components:
           . Zip tie the raspberry pie
           . Zip tie the SSR
           . Zip tie the GFCI
-          . Insert the toggle switch into the side of the case
+          . Insert the rocker switch into the side of the case
       - summary: Wire the GFCI
         requiredParts: []
         requiredTools: []
-        details: |
-          . Hello World!
+        details: >
+          . Take the power supply cable and strip back 4-6cm of sheathing.
+
+          . Extend one of the power wires (not ground) with 200mm of wire.
+
+          . Bring the extended power wire into the case through the bottom right
+          hole.
+
+          . Solder the inline fuse onto the extended power wire (still not
+          ground).
+
+          . Solder the inline fuse to one of the tongs of the rocker switch.
+
+          . Solder a 200mm extension wire onto the other tong of the rocker
+          switch.
+
+          . Route the second extension wire back out of the case.
+
+          . Use the Dupont crimper to crimp a fork terminal onto the end of the
+          extension wire.
+
+          . Connect the extension wire to one of the terminals on the GFCI.
+
+          . Use the Dupont crimper to crimp a fork terminal onto the other end
+          of the power supply cable power wire.
+
+          . Connect the second wire onto the other power terminal on the GFCI.
+
+          . Use the Dupont crimper to crimp a fork terminal onto the end of the
+          green ground wire
+
+          . Connect the ground wire onto the ground of the GFCI.
+
+          . Loop all of the exposed terminals in multiple layers of electrical
+          tape.
+
+          . Done with GFCI.
       - summary: Wire the Two Prong Electrical Plug
         requiredParts: []
         requiredTools: []
-        details: |
-          . Hello World!
+        details: >
+          . Gather one long SSR power wire, one short SSR power wire, and both
+          of the 24V power supply wires.
+
+          . Connect the short SSR wire and one of the 24v power supply wires to
+          the left terminal inside of the plug.
+
+          . Connect the long ssr wire and the other 24V power supply wire to the
+          right terminal inside of the plug.
+
+          . Close the plug.
+
+          . If the wire prevents the plug from closing, use a hobby knife to cut
+          away at the offending plastic inside of the plug.
+
+          . Once the plug closes properly, screw the plug together snugly.
+
+          . Wrap the plug neatly in electrical tape.
+
+          . Done with the electical plug.
       - summary: Wire the 24v Power Supply Module
         requiredParts: []
         requiredTools: []
-        details: |
-          . Hello World!
+        details: >
+          . Take one of the bare ends of wire from the electrical plug 24v power
+          supply wires and twist it to straighten and bind together the wire
+          strands.
+
+          . Repeat the above step for the other bare end wire.
+
+          . Depress the power module 120V power terminal levers and insert one
+          of the bare wire ends into each of the terminal slots. Make sure that
+          there are NO loose strands sticking out of the terminals.
+
+          . Loosen the screws in the 24v outlet terminals.
+
+          . Next, insert the ferruled ends of the 22AWG wire into the 24V outlet
+          terminals. 
+
+          . Screw down the screws in the 24V outlet terminals.
+
+          . The 24v power supply is done. 
       - summary: Wire the Solid State Relay (SSR)
         requiredParts: []
         requiredTools: []
-        details: |
-          . Hello World!
+        details: >
+          . Wire the forked terminal end of the SSR short wire in the electrical
+          plug into the right side of the 120V side of the SSR.
+
+          . Wire the colored 24v signal wires (22awg) into their respective
+          positive and negative position on the solid state relay.
+
+          . Insert the forked end of the long SSR wire into the left side
+          terminal of the 120v side of the SSR.
+
+          . Tighten down all of the terminal screws.
+
+          . The SSR is done.
       - summary: Wire the Raspberry Pi Computer
         requiredParts: []
         requiredTools: []
-        details: |
-          . Hello World!
+        details: >
+          . Plug the power supply into the GFCI.
+
+          . Plug the USB C end of the power supply into the USB C port on the
+          Raspberry Pi
+
+          . Plug the USB A end of the USB A/USB B cable into the Raspberry Pi
+
+          . Plug the USB camera into one of the available USB A ports on the
+          Raspberry pi.
+
+          . The Raspberry Pi is now wired.
       - summary: Wire the RAMPS 1.4 Board
         requiredParts: []
         requiredTools: []
-        details: |
-          . Hello World!
+        details: >
+          . Plug the USB B end of the USB A/USB B cable (connected to the
+          raspberry pi) into the USB B port.
+
+          . Connect the ferrule ends of the RAMPS 1.4 Board to RAMPS 1.4 Board
+          24v Power Custom Wires to the bottom left terminals, paying close
+          attention to the polarity.
+
+          . Plug the 2-pin-dupont-connector end of the RAMPS 1.4 Board to RAMPS
+          1.4 Board 24v Power Custom Wires into the bottom left ports of the Aux
+          1 pins on the RAMPS board, with positive on the left and negative on
+          the right.
+
+          . Plug in the 24v power supply cables into their port, paying
+          attention to the polarity.
+
+          . Plug in the SSR signal wires into the heated bed port, paying
+          attention to the polarity.
+
+          . To be continued
       - summary: Test the Universal Controller Assembly
         requiredParts: []
         requiredTools: []
