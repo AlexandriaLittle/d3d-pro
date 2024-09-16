@@ -29,6 +29,624 @@ include::flatPartsBOM.adoc[]
 include::flatToolsBOM.adoc[]
 
 
+== Assemble Rebar Stake
+
+// tools
+
+=== Tools
+|===
+|Name |Description |Notes
+
+
+
+|Circular Saw
+|Circular Saw
+|
+
+
+
+|Cutoff Wheel
+|Metal Cutoff Wheel
+|Make sure that the cutoff wheel that you purchase is compatible with your cutting tool!
+
+
+
+|Vise
+|Metal Jaw Vise
+|
+
+
+
+|Measuring Tape
+|Measuring Tape
+|
+
+
+
+|Permanent Marker
+|Permanent Marker
+|
+
+|===
+
+
+// materials
+
+=== Materials
+|===
+|Quantity |ID |Name |Description |Notes
+
+
+
+|1 part
+|rebar-stake-stock-length
+|Rebar Stake Stock Length
+|12.7mm Rebar Stake Stock Length v1.0.0
+|
+
+|===
+
+
+// Precautions
+
+=== Precautions
+
+
+
+
+
+
+* *Circular Saw:* A Circular Saw can cause permenent injury or death! Follow all manufacturer recommended safety precautions!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Procedure
+=== Procedure
+
+// summary
+
+==== Cut Rebar Stake to Length
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* Circular Saw
+//
+//* Cutoff Wheel
+//
+//* Vise
+//
+//* Measuring Tape
+//
+//* Permanent Marker
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Rebar Stake Stock Length
+//
+//
+
+// details
+
+*Instructions*
+
+. While following the *Circular Saw* manufacturer's instructions, install the *Cutoff Wheel* into the *Circular Saw*.
+. Affix the *Rebar Stake Stock Length* into the *Vise*, leaving enough *Rebar Stake Stock Length* sticking out to make the cut.
+. Mark the 250mm length on the *Rebar Stake Stock Length* using the *Measuring Tape* and *Permanent Marker*. Make sure that there is enough space marked for the width of the *Cutoff Wheel*!
+. Using the *Circular Saw*, make the cut on the *Rebar Stake Stock Length* where previously marked.
+. Repeat the above steps for all of the needed lengths of *Rebar Stake*.
+
+
+
+
+
+
+== Assemble Universal Frame Top
+
+// tools
+
+=== Tools
+|===
+|Name |Description |Notes
+
+
+
+|5mm Allen Wrench
+|5mm Allen Wrench
+|
+
+
+
+|Hobby Knife
+|Hobby Knife
+|
+
+|===
+
+
+// materials
+
+=== Materials
+|===
+|Quantity |ID |Name |Description |Notes
+
+
+
+|4 part(s)
+|rebar-stake
+|Rebar Stake
+|Rebar Stake v1.0.0
+|
+
+
+
+|12 part(s)
+|m6-20mm-screw
+|M6 x 20mm Screw
+|M6 x 20mm Socket Head Cap Screw v1.0.0
+|
+
+
+
+|12 part(s)
+|m6-thin-nut
+|M6 Thin Nut
+|M6 Thin Nut v1.0.0
+|
+
+
+
+|2 part(s)
+|corner-connector-left
+|Left Corner Connector
+|Universal Frame Corner Connector Left v1.0.0
+|
+
+
+
+|2 part(s)
+|corner-connector-right
+|Right Corner Connector
+|Universal Frame Corner Connector Right v1.0.0
+|
+
+|===
+
+
+// Precautions
+
+
+
+// Procedure
+=== Procedure
+
+// summary
+
+==== Clean 3D Printed Parts
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* Hobby Knife
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Left Corner Connector
+//
+//* Right Corner Connector
+//
+//
+
+// details
+
+*Instructions*
+
+. Use the *Hobby Knife* to clean any extra plastic off of the *Left Corner Connector* part(s) and *Right Corner Connector* part(s).
+
+
+
+
+// summary
+
+==== Prepare Left Corner Connector part(s) and Right Corner Connector part(s) for Rebar Stake part(s)
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* 5mm Allen Wrench
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Left Corner Connector
+//
+//* Right Corner Connector
+//
+//* M6 x 20mm Screw
+//
+//* M6 Thin Nut
+//
+//
+
+// details
+
+*Instructions*
+
+. Insert an *M6 Thin Nut* into the slot of the *Left Corner Connector* so that the hole of the *M6 Thin Nut* aligns with the hole in the *Left Corner Connector*.
+. While holding the *M6 Thin Nut* in place with a finger, insert an *M6 x 20mm Screw* into the hole of the *Left Corner Connector*.
+. Using the *5mm Allen Wrench*, screw in the *M6 x 20mm Screw* enough to hold the *M6 x 20mm Screw* and *M6 Thin Nut* in place. Leave room for the *Rebar Stake* to be inserted later.
+. Repeat the above steps for each of the three slots on the *Left Corner Connector*.
+. Repeat each of the above steps for the *Left Corner Connector* part(s), and *Right Corner Connector* part(s).
+
+
+
+
+// summary
+
+==== Assemble Universal Frame Top
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* 5mm Allen Wrench
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Left Corner Connector
+//
+//* Right Corner Connector
+//
+//* Rebar Stake
+//
+//
+
+// details
+
+*Instructions*
+
+. Insert one *Rebar Stake* into a slot on a *Left Corner Connector*.
+. Press the *Rebar Stake* down hard into the slot so that the part(s) are flush with the bottom of the slot. This step is important to ensure squareness in the frame.
+. Using the *5mm Allen Wrench*, screw down the *M6 x 20mm Screw* in against the *Rebar Stake* until it is tight. If the plastic of the *Left Corner Connector* begins to strain or crack, unscrew the *M6 x 20mm Screw* slightly to reduce the pressure.
+. Insert the other end of the *Rebar Stake* into a *Right Corner Connector* and repeat the above steps to press and tighten down the *Right Corner Connector*.
+. Repeat the above steps so that there are two completed *Rebar Stake* part(s) with *Left Corner Connector* part(s) and *Right Corner Connector* part(s) on the ends.
+. Insert two *Rebar Stake* part(s) into the completed *Rebar Stake* part(s) from the previous step so that a square is formed.
+. Press the square together hard to seat the *Left Corner Connector* part(s) and *Right Corner Connector* part(s) onto the *Rebar Stake* part(s).
+. Tighten the four loose *M6 x 20mm Screw* part(s) down onto the *Rebar Stake* part(s) to complete the *Universal Frame Top Top*. As above, if the plastic of the *Left Corner Connector* part(s) or *Right Corner Connector* part(s) begins to strain or crack, unscrew the *M6 x 20mm Screw* slightly to reduce the pressure.
+
+
+
+
+
+
+== Assemble Universal Frame Base
+
+// tools
+
+=== Tools
+|===
+|Name |Description |Notes
+
+
+
+|5mm Allen Wrench
+|5mm Allen Wrench
+|
+
+
+
+|Hobby Knife
+|Hobby Knife
+|
+
+|===
+
+
+// materials
+
+=== Materials
+|===
+|Quantity |ID |Name |Description |Notes
+
+
+
+|4 part(s)
+|rebar-stake
+|Rebar Stake
+|Rebar Stake v1.0.0
+|
+
+
+
+|12 part(s)
+|m6-20mm-screw
+|M6 x 20mm Screw
+|M6 x 20mm Socket Head Cap Screw v1.0.0
+|
+
+
+
+|12 part(s)
+|m6-thin-nut
+|M6 Thin Nut
+|M6 Thin Nut v1.0.0
+|
+
+
+
+|4 part(s)
+|corner-connector
+|Corner Connector
+|Universal Frame Corner Connector v1.0.0
+|
+
+|===
+
+
+// Precautions
+
+
+
+// Procedure
+=== Procedure
+
+// summary
+
+==== Clean 3D Printed Parts
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* Hobby Knife
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Corner Connector
+//
+//
+
+// details
+
+*Instructions*
+
+. Use the *Hobby Knife* to clean any extra plastic off of the *Corner Connector* part(s).
+
+
+
+
+// summary
+
+==== Prepare Corner Connector part(s) for Rebar Stake part(s)
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* 5mm Allen Wrench
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Corner Connector
+//
+//* M6 x 20mm Screw
+//
+//* M6 Thin Nut
+//
+//
+
+// details
+
+*Instructions*
+
+. Insert an *M6 Thin Nut* into the slot of the *Corner Connector* so that the hole of the *M6 Thin Nut* aligns with the hole in the *Corner Connector*.
+. While holding the *M6 Thin Nut* in place with a finger, insert an *M6 x 20mm Screw* into the hole of the *Corner Connector*.
+. Using the *5mm Allen Wrench*, screw in the *M6 x 20mm Screw* enough to hold the *M6 x 20mm Screw* and *M6 Thin Nut* in place. Leave room for the *Rebar Stake* to be inserted later.
+. Repeat the above steps for each of the three slots on the *Corner Connector*.
+. Repeat each of the above steps for the *Corner Connector* part(s).
+
+
+
+
+// summary
+
+==== Assemble Universal Frame Base
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* 5mm Allen Wrench
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Corner Connector
+//
+//* Rebar Stake
+//
+//
+
+// details
+
+*Instructions*
+
+. Insert one *Rebar Stake* into a slot on the *Corner Connector*.
+. Press the *Rebar Stake* down hard into the slot so that the part(s) are flush with the bottom of the slot. This step is important to ensure squareness in the frame.
+. Using the *5mm Allen Wrench*, screw down the *M6 x 20mm Screw* in against the *Rebar Stake* until it is tight. If the plastic of the *Corner Connector* begins to strain or crack, unscrew the *M6 x 20mm Screw* slightly to reduce the pressure.
+. Insert the other end of the *Rebar Stake* into another *Corner Connector* and repeat the above steps to press and tighten down the *Corner Connector*.
+. Repeat the above steps so that there are two completed *Rebar Stake* part(s) with *Corner Connector* part(s) on the ends.
+. Insert two *Rebar Stake* part(s) into the completed *Rebar Stake* part(s) from the previous step so that a square is formed.
+. Press the square together hard to seat the *Corner Connector* part(s) onto the *Rebar Stake* part(s).
+. Tighten the four loose *M6 x 20mm Screw* part(s) down onto the *Rebar Stake* part(s) to complete the *Universal Frame Base Base*. As above, if the plastic of the *Corner Connector* part(s) begins to strain or crack, unscrew the *M6 x 20mm Screw* slightly to reduce the pressure.
+
+
+
+
+
+
+== Assemble Universal Frame Module
+
+// tools
+
+=== Tools
+|===
+|Name |Description |Notes
+
+
+
+|5mm Allen Wrench
+|5mm Allen Wrench
+|
+
+|===
+
+
+// materials
+
+=== Materials
+|===
+|Quantity |ID |Name |Description |Notes
+
+
+
+|4 part(s)
+|rebar-stake
+|Rebar Stake
+|Rebar Stake v1.0.0
+|
+
+
+
+|1 module
+|universal-frame-base
+|Universal Frame Base
+|Universal Frame Base v1.0.0
+|
+
+
+
+|1 module
+|universal-frame-top
+|Universal Frame Top
+|Universal Frame Top v1.0.0
+|
+
+|===
+
+
+// Precautions
+
+
+
+// Procedure
+=== Procedure
+
+// summary
+
+==== Assemble Universal Frame Module
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* 5mm Allen Wrench
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Rebar Stake
+//
+//* Universal Frame Top
+//
+//* Universal Frame Base
+//
+//
+
+// details
+
+*Instructions*
+
+. Orient the *Universal Frame Top* so that the open slots point upward.
+. Insert the four *Rebar Stake* part(s) into the slots of the *Universal Frame Top*.
+. Firmly press each *Rebar Stake* part(s) into the *Universal Frame Top* so that they are flush with the bottom of the slots in the *Universal Frame Top*.
+. Tighten down all of the remaining fasteners on the *Universal Frame Top* to secure the *Rebar Stake* part(s) in place. If the plastic of the *Universal Frame Top* begins to strain or crack, unscrew the fastener slightly to reduce the pressure.
+. Orient the *Universal Frame Base* so that the open slots point upward.
+. Insert the four *Rebar Stake* part(s) that are connected to the *Universal Frame Top* into the slots of the *Universal Frame Base*.
+. Firmly press the *Universal Frame Top* down onto the *Universal Frame Base* so that the *Rebar Stake* part(s) are properly seated.
+. Tighten down all of the remaining fasteners on the *Universal Frame Base* to secure the *Rebar Stake* part(s) in place. If the plastic of the *Universal Frame Base* begins to strain or crack, unscrew the fastener slightly to reduce the pressure.
+. The *Universal Frame Module* is complete.
+
+
+
+
+
+
 == Assemble Universal Controller Assembly
 
 // tools
@@ -1079,624 +1697,6 @@ include::flatToolsBOM.adoc[]
 *Instructions*
 
 . Hello World!
-
-
-
-
-
-
-== Assemble Rebar Stake
-
-// tools
-
-=== Tools
-|===
-|Name |Description |Notes
-
-
-
-|Circular Saw
-|Circular Saw
-|
-
-
-
-|Cutoff Wheel
-|Metal Cutoff Wheel
-|Make sure that the cutoff wheel that you purchase is compatible with your cutting tool!
-
-
-
-|Vise
-|Metal Jaw Vise
-|
-
-
-
-|Measuring Tape
-|Measuring Tape
-|
-
-
-
-|Permanent Marker
-|Permanent Marker
-|
-
-|===
-
-
-// materials
-
-=== Materials
-|===
-|Quantity |ID |Name |Description |Notes
-
-
-
-|1 part
-|rebar-stake-stock-length
-|Rebar Stake Stock Length
-|12.7mm Rebar Stake Stock Length v1.0.0
-|
-
-|===
-
-
-// Precautions
-
-=== Precautions
-
-
-
-
-
-
-* *Circular Saw:* A Circular Saw can cause permenent injury or death! Follow all manufacturer recommended safety precautions!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Procedure
-=== Procedure
-
-// summary
-
-==== Cut Rebar Stake to Length
-
-
-// requiredTools
-//
-//*Required Tools*
-//
-//* Circular Saw
-//
-//* Cutoff Wheel
-//
-//* Vise
-//
-//* Measuring Tape
-//
-//* Permanent Marker
-//
-//
-
-// requiredParts
-//
-//*Required Parts*
-//
-//* Rebar Stake Stock Length
-//
-//
-
-// details
-
-*Instructions*
-
-. While following the *Circular Saw* manufacturer's instructions, install the *Cutoff Wheel* into the *Circular Saw*.
-. Affix the *Rebar Stake Stock Length* into the *Vise*, leaving enough *Rebar Stake Stock Length* sticking out to make the cut.
-. Mark the 250mm length on the *Rebar Stake Stock Length* using the *Measuring Tape* and *Permanent Marker*. Make sure that there is enough space marked for the width of the *Cutoff Wheel*!
-. Using the *Circular Saw*, make the cut on the *Rebar Stake Stock Length* where previously marked.
-. Repeat the above steps for all of the needed lengths of *Rebar Stake*.
-
-
-
-
-
-
-== Assemble Universal Frame Top
-
-// tools
-
-=== Tools
-|===
-|Name |Description |Notes
-
-
-
-|5mm Allen Wrench
-|5mm Allen Wrench
-|
-
-
-
-|Hobby Knife
-|Hobby Knife
-|
-
-|===
-
-
-// materials
-
-=== Materials
-|===
-|Quantity |ID |Name |Description |Notes
-
-
-
-|4 part(s)
-|rebar-stake
-|Rebar Stake
-|Rebar Stake v1.0.0
-|
-
-
-
-|12 part(s)
-|m6-20mm-screw
-|M6 x 20mm Screw
-|M6 x 20mm Socket Head Cap Screw v1.0.0
-|
-
-
-
-|12 part(s)
-|m6-thin-nut
-|M6 Thin Nut
-|M6 Thin Nut v1.0.0
-|
-
-
-
-|2 part(s)
-|corner-connector-left
-|Left Corner Connector
-|Universal Frame Corner Connector Left v1.0.0
-|
-
-
-
-|2 part(s)
-|corner-connector-right
-|Right Corner Connector
-|Universal Frame Corner Connector Right v1.0.0
-|
-
-|===
-
-
-// Precautions
-
-
-
-// Procedure
-=== Procedure
-
-// summary
-
-==== Clean 3D Printed Parts
-
-
-// requiredTools
-//
-//*Required Tools*
-//
-//* Hobby Knife
-//
-//
-
-// requiredParts
-//
-//*Required Parts*
-//
-//* Left Corner Connector
-//
-//* Right Corner Connector
-//
-//
-
-// details
-
-*Instructions*
-
-. Use the *Hobby Knife* to clean any extra plastic off of the *Left Corner Connector* part(s) and *Right Corner Connector* part(s).
-
-
-
-
-// summary
-
-==== Prepare Left Corner Connector part(s) and Right Corner Connector part(s) for Rebar Stake part(s)
-
-
-// requiredTools
-//
-//*Required Tools*
-//
-//* 5mm Allen Wrench
-//
-//
-
-// requiredParts
-//
-//*Required Parts*
-//
-//* Left Corner Connector
-//
-//* Right Corner Connector
-//
-//* M6 x 20mm Screw
-//
-//* M6 Thin Nut
-//
-//
-
-// details
-
-*Instructions*
-
-. Insert an *M6 Thin Nut* into the slot of the *Left Corner Connector* so that the hole of the *M6 Thin Nut* aligns with the hole in the *Left Corner Connector*.
-. While holding the *M6 Thin Nut* in place with a finger, insert an *M6 x 20mm Screw* into the hole of the *Left Corner Connector*.
-. Using the *5mm Allen Wrench*, screw in the *M6 x 20mm Screw* enough to hold the *M6 x 20mm Screw* and *M6 Thin Nut* in place. Leave room for the *Rebar Stake* to be inserted later.
-. Repeat the above steps for each of the three slots on the *Left Corner Connector*.
-. Repeat each of the above steps for the *Left Corner Connector* part(s), and *Right Corner Connector* part(s).
-
-
-
-
-// summary
-
-==== Assemble Universal Frame Top
-
-
-// requiredTools
-//
-//*Required Tools*
-//
-//* 5mm Allen Wrench
-//
-//
-
-// requiredParts
-//
-//*Required Parts*
-//
-//* Left Corner Connector
-//
-//* Right Corner Connector
-//
-//* Rebar Stake
-//
-//
-
-// details
-
-*Instructions*
-
-. Insert one *Rebar Stake* into a slot on a *Left Corner Connector*.
-. Press the *Rebar Stake* down hard into the slot so that the part(s) are flush with the bottom of the slot. This step is important to ensure squareness in the frame.
-. Using the *5mm Allen Wrench*, screw down the *M6 x 20mm Screw* in against the *Rebar Stake* until it is tight. If the plastic of the *Left Corner Connector* begins to strain or crack, unscrew the *M6 x 20mm Screw* slightly to reduce the pressure.
-. Insert the other end of the *Rebar Stake* into a *Right Corner Connector* and repeat the above steps to press and tighten down the *Right Corner Connector*.
-. Repeat the above steps so that there are two completed *Rebar Stake* part(s) with *Left Corner Connector* part(s) and *Right Corner Connector* part(s) on the ends.
-. Insert two *Rebar Stake* part(s) into the completed *Rebar Stake* part(s) from the previous step so that a square is formed.
-. Press the square together hard to seat the *Left Corner Connector* part(s) and *Right Corner Connector* part(s) onto the *Rebar Stake* part(s).
-. Tighten the four loose *M6 x 20mm Screw* part(s) down onto the *Rebar Stake* part(s) to complete the *Universal Frame Top Top*. As above, if the plastic of the *Left Corner Connector* part(s) or *Right Corner Connector* part(s) begins to strain or crack, unscrew the *M6 x 20mm Screw* slightly to reduce the pressure.
-
-
-
-
-
-
-== Assemble Universal Frame Base
-
-// tools
-
-=== Tools
-|===
-|Name |Description |Notes
-
-
-
-|5mm Allen Wrench
-|5mm Allen Wrench
-|
-
-
-
-|Hobby Knife
-|Hobby Knife
-|
-
-|===
-
-
-// materials
-
-=== Materials
-|===
-|Quantity |ID |Name |Description |Notes
-
-
-
-|4 part(s)
-|rebar-stake
-|Rebar Stake
-|Rebar Stake v1.0.0
-|
-
-
-
-|12 part(s)
-|m6-20mm-screw
-|M6 x 20mm Screw
-|M6 x 20mm Socket Head Cap Screw v1.0.0
-|
-
-
-
-|12 part(s)
-|m6-thin-nut
-|M6 Thin Nut
-|M6 Thin Nut v1.0.0
-|
-
-
-
-|4 part(s)
-|corner-connector
-|Corner Connector
-|Universal Frame Corner Connector v1.0.0
-|
-
-|===
-
-
-// Precautions
-
-
-
-// Procedure
-=== Procedure
-
-// summary
-
-==== Clean 3D Printed Parts
-
-
-// requiredTools
-//
-//*Required Tools*
-//
-//* Hobby Knife
-//
-//
-
-// requiredParts
-//
-//*Required Parts*
-//
-//* Corner Connector
-//
-//
-
-// details
-
-*Instructions*
-
-. Use the *Hobby Knife* to clean any extra plastic off of the *Corner Connector* part(s).
-
-
-
-
-// summary
-
-==== Prepare Corner Connector part(s) for Rebar Stake part(s)
-
-
-// requiredTools
-//
-//*Required Tools*
-//
-//* 5mm Allen Wrench
-//
-//
-
-// requiredParts
-//
-//*Required Parts*
-//
-//* Corner Connector
-//
-//* M6 x 20mm Screw
-//
-//* M6 Thin Nut
-//
-//
-
-// details
-
-*Instructions*
-
-. Insert an *M6 Thin Nut* into the slot of the *Corner Connector* so that the hole of the *M6 Thin Nut* aligns with the hole in the *Corner Connector*.
-. While holding the *M6 Thin Nut* in place with a finger, insert an *M6 x 20mm Screw* into the hole of the *Corner Connector*.
-. Using the *5mm Allen Wrench*, screw in the *M6 x 20mm Screw* enough to hold the *M6 x 20mm Screw* and *M6 Thin Nut* in place. Leave room for the *Rebar Stake* to be inserted later.
-. Repeat the above steps for each of the three slots on the *Corner Connector*.
-. Repeat each of the above steps for the *Corner Connector* part(s).
-
-
-
-
-// summary
-
-==== Assemble Universal Frame Base
-
-
-// requiredTools
-//
-//*Required Tools*
-//
-//* 5mm Allen Wrench
-//
-//
-
-// requiredParts
-//
-//*Required Parts*
-//
-//* Corner Connector
-//
-//* Rebar Stake
-//
-//
-
-// details
-
-*Instructions*
-
-. Insert one *Rebar Stake* into a slot on the *Corner Connector*.
-. Press the *Rebar Stake* down hard into the slot so that the part(s) are flush with the bottom of the slot. This step is important to ensure squareness in the frame.
-. Using the *5mm Allen Wrench*, screw down the *M6 x 20mm Screw* in against the *Rebar Stake* until it is tight. If the plastic of the *Corner Connector* begins to strain or crack, unscrew the *M6 x 20mm Screw* slightly to reduce the pressure.
-. Insert the other end of the *Rebar Stake* into another *Corner Connector* and repeat the above steps to press and tighten down the *Corner Connector*.
-. Repeat the above steps so that there are two completed *Rebar Stake* part(s) with *Corner Connector* part(s) on the ends.
-. Insert two *Rebar Stake* part(s) into the completed *Rebar Stake* part(s) from the previous step so that a square is formed.
-. Press the square together hard to seat the *Corner Connector* part(s) onto the *Rebar Stake* part(s).
-. Tighten the four loose *M6 x 20mm Screw* part(s) down onto the *Rebar Stake* part(s) to complete the *Universal Frame Base Base*. As above, if the plastic of the *Corner Connector* part(s) begins to strain or crack, unscrew the *M6 x 20mm Screw* slightly to reduce the pressure.
-
-
-
-
-
-
-== Assemble Universal Frame Module
-
-// tools
-
-=== Tools
-|===
-|Name |Description |Notes
-
-
-
-|5mm Allen Wrench
-|5mm Allen Wrench
-|
-
-|===
-
-
-// materials
-
-=== Materials
-|===
-|Quantity |ID |Name |Description |Notes
-
-
-
-|4 part(s)
-|rebar-stake
-|Rebar Stake
-|Rebar Stake v1.0.0
-|
-
-
-
-|1 module
-|universal-frame-base
-|Universal Frame Base
-|Universal Frame Base v1.0.0
-|
-
-
-
-|1 module
-|universal-frame-top
-|Universal Frame Top
-|Universal Frame Top v1.0.0
-|
-
-|===
-
-
-// Precautions
-
-
-
-// Procedure
-=== Procedure
-
-// summary
-
-==== Assemble Universal Frame Module
-
-
-// requiredTools
-//
-//*Required Tools*
-//
-//* 5mm Allen Wrench
-//
-//
-
-// requiredParts
-//
-//*Required Parts*
-//
-//* Rebar Stake
-//
-//* Universal Frame Top
-//
-//* Universal Frame Base
-//
-//
-
-// details
-
-*Instructions*
-
-. Orient the *Universal Frame Top* so that the open slots point upward.
-. Insert the four *Rebar Stake* part(s) into the slots of the *Universal Frame Top*.
-. Firmly press each *Rebar Stake* part(s) into the *Universal Frame Top* so that they are flush with the bottom of the slots in the *Universal Frame Top*.
-. Tighten down all of the remaining fasteners on the *Universal Frame Top* to secure the *Rebar Stake* part(s) in place. If the plastic of the *Universal Frame Top* begins to strain or crack, unscrew the fastener slightly to reduce the pressure.
-. Orient the *Universal Frame Base* so that the open slots point upward.
-. Insert the four *Rebar Stake* part(s) that are connected to the *Universal Frame Top* into the slots of the *Universal Frame Base*.
-. Firmly press the *Universal Frame Top* down onto the *Universal Frame Base* so that the *Rebar Stake* part(s) are properly seated.
-. Tighten down all of the remaining fasteners on the *Universal Frame Base* to secure the *Rebar Stake* part(s) in place. If the plastic of the *Universal Frame Base* begins to strain or crack, unscrew the fastener slightly to reduce the pressure.
-. The *Universal Frame Module* is complete.
 
 
 
@@ -5824,6 +5824,14 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 
 
 |1 module
+|universal-controller
+|Universal Controller
+|Universal Controller Assembly v1.0.0
+|
+
+
+
+|1 module
 |universal-gearless-extruder
 |Universal Gearless Extruder
 |Universal Gearless Extruder Module v1.0.0
@@ -5877,14 +5885,6 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 |Universal Frame Module v1.0.0
 |
 
-
-
-|1 module
-|universal-controller
-|Universal Controller
-|Universal Controller Assembly v1.0.0
-|
-
 |===
 
 
@@ -5899,35 +5899,35 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * *Universal Controller:* The Universal Controller Assembly runs on 120v AC electricity, which can kill you if wiring is done improperly!!! Follow all directions exactly, use common sense, never touch the Universal Controller Assembly components when powered on, and when in doubt use more electrical tape. This is your reminder that these instructions are for EDUCATIONAL PURPOSES ONLY and that you assume any and all liability for the use of these instructions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -16822,6 +16822,19 @@ components:
     tools: {}
     precautions: []
 parts:
+  universal-controller:
+    id: universal-controller
+    description: Universal Controller
+    quantity: 1
+    quantityUnits: module
+    options:
+      - universal-controller
+    selectedOption: 0
+    notes: ''
+    descriptionLong: 'universal-controller: Universal Controller'
+    descriptionSelected: >-
+      universal-controller: Universal Controller (Universal Controller Assembly
+      v1.0.0)
   universal-gearless-extruder:
     id: universal-gearless-extruder
     description: Universal Gearless Extruder
@@ -16901,19 +16914,6 @@ parts:
     notes: ''
     descriptionLong: 'universal-frame: Universal Frame'
     descriptionSelected: 'universal-frame: Universal Frame (Universal Frame Module v1.0.0)'
-  universal-controller:
-    id: universal-controller
-    description: Universal Controller
-    quantity: 1
-    quantityUnits: module
-    options:
-      - universal-controller
-    selectedOption: 0
-    notes: ''
-    descriptionLong: 'universal-controller: Universal Controller'
-    descriptionSelected: >-
-      universal-controller: Universal Controller (Universal Controller Assembly
-      v1.0.0)
 tools: {}
 precautions: []
 assemblySteps:

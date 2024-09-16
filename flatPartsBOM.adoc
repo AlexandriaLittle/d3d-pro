@@ -195,7 +195,7 @@
 
 
 |3
-|applications
+|application(s)
 |electrical-solder
 |Rosin Core Lead Free Electrical Solder
 
@@ -216,7 +216,7 @@
 
 
 |22
-|part(s)
+|part
 |ferrule
 |Wire Ferrule
 
