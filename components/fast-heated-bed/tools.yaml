@@ -16,12 +16,3 @@ pliers:
   quantity: 1
   quantityUnits: part
   selectedOption: 0
-universal-controller:
-  description: Universal Controller
-  id: universal-controller
-  notes: ''
-  options:
-    - universal-controller
-  quantity: 1
-  quantityUnits: part
-  selectedOption: 0
