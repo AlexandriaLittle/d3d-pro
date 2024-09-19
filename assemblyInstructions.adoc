@@ -1,7 +1,7 @@
 = D3D Pro 3D Printer Assembly Instructions
 Alexandria Little - CC-BY-SA-4.0
 :revnumber: v23.12
-:revdate: 9/16/2024
+:revdate: 9/19/2024
 :sectnums:
 :toc:
 :toclevels: 3
@@ -641,1062 +641,6 @@ include::flatToolsBOM.adoc[]
 . Firmly press the *Universal Frame Top* down onto the *Universal Frame Base* so that the *Rebar Stake* part(s) are properly seated.
 . Tighten down all of the remaining fasteners on the *Universal Frame Base* to secure the *Rebar Stake* part(s) in place. If the plastic of the *Universal Frame Base* begins to strain or crack, unscrew the fastener slightly to reduce the pressure.
 . The *Universal Frame Module* is complete.
-
-
-
-
-
-
-== Assemble Universal Controller Assembly
-
-// tools
-
-=== Tools
-|===
-|Name |Description |Notes
-
-
-
-|3mm Flat Head Screwdriver
-|3mm Flat Head Screwdriver
-|
-
-
-
-|Phillips Head #2 Screwdriver
-|#2 Phillips Head Screwdriver
-|
-
-
-
-|Hobby Knife
-|Hobby Knife
-|
-
-
-
-|Scissors
-|Scissors
-|
-
-
-
-|Helping Hands
-|Helping Hands Clamp Stand
-|
-
-
-
-|Soldering Iron
-|Soldering Iron
-|
-
-
-
-|Ferrule Crimper
-|Wire Ferrule Crimper
-|
-
-
-
-|MicroSD to SD Card Adapter
-|MicroSD Card to SD Card Adapter
-|
-
-
-
-|Personal Computer
-|Personal Computer (PC)
-|
-
-
-
-|Wire Strippers/Cutters
-|Wire Stripper/Cutter
-|
-
-
-
-|Dupont Crimper
-|Dupont Wire Crimper
-|
-
-|===
-
-
-// materials
-
-=== Materials
-|===
-|Quantity |ID |Name |Description |Notes
-
-
-
-|1 part
-|ramps-board
-|RAMPS 1.4 Board
-|RAMPS 1.4 Board v1.0.0
-|
-
-
-
-|1 as needed
-|electrical-tape
-|Electrical Tape
-|Electrical Tape v1.0.0
-|
-
-
-
-|1 part
-|16gb-microsd-card
-|16GB MicroSD Card
-|16GB MicroSD Card v1.0.0
-|
-
-
-
-|1 part
-|24v-power-supply
-|24v Power Supply Module
-|24V Industrial Power Supply Module v1.0.0
-|
-
-
-
-|1 part
-|arduino
-|Arduino Mega 2560
-|Arduino Mega 2560 v1.0.0
-|
-
-
-
-|1 part
-|electrical-cord
-|Three Prong Electrical Cord
-|Electrical Cord (NEMA 5-15P) v1.0.0
-|
-
-
-
-|1 part
-|electrical-plug
-|Two Prong Electrical Plug
-|Electrical Plug (NEMA 1-15) v1.0.0
-|
-
-
-
-|1 applications
-|electrical-solder
-|Electrical Solder
-|Rosin Core Lead Free Electrical Solder v1.0.0
-|
-
-
-
-|20 part(s)
-|ferrule
-|Ferrule
-|Wire Ferrule v1.0.0
-|
-
-
-
-|1 part
-|gfci
-|GFCI
-|Ground Fault Connection Interrupter (GFCI) v1.0.0
-|
-
-
-
-|1 part
-|heat-shrink-tubing
-|Heat Shrink Tubing
-|Heat Shrink Tubing v1.0.0
-|
-
-
-
-|1 part
-|lever-wire-nut
-|Lever Wire Nut
-|2 Connection Lever Wire Nut v1.0.0
-|
-
-
-
-|1 part
-|microsd-to-sd-card-adapter
-|MicroSD to SD Card Adapter
-|MicroSD Card to SD Card Adapter v1.0.0
-|
-
-
-
-|1 part
-|raspberry-pi
-|Raspberry Pi Computer
-|Raspberry Pi Model 4B v1.0.0
-|
-
-
-
-|1 part
-|reprap-controller
-|RepRap Discount Full Graphic Smart Controller
-|RepRap Discount Full Graphic Smart Controller v1.0.0
-|
-
-
-
-|1 part
-|solid-state-relay
-|Solid State Relay (SSR)
-|40A Solid State Relay (SSR-40DA) v1.0.0
-|
-
-
-
-|1 part
-|split-wire-loom
-|Split Wire Loom
-|1/2 Inch Flame Retardant Split Wire Loom v1.0.0
-|
-
-
-
-|1 part
-|case
-|Universal Controller Case
-|Universal Controller Case v1.0.0
-|
-
-
-
-|20 part(s)
-|zip-tie-large
-|Large Zip Tie
-|8 Inch Zip Tie v1.0.0
-|
-
-
-
-|20 part(s)
-|zip-tie-small
-|Small Zip Tie
-|4 Inch Zip Tie v1.0.0
-|
-
-
-
-|5 part(s)
-|a4988-stepper-motor-driver
-|A4988 Stepper Motor Driver
-|A4988 Stepper Motor Driver v1.0.0
-|
-
-
-
-|15 part(s)
-|jumper
-|Jumper Cap
-|2.54mm Jumper Cap v1.0.0
-|
-
-
-
-|2 part(s)
-|10-pin-idc-connector
-|10 Pin IDC Conector
-|10 Pin IDC Connector Cable v1.0.0
-|
-
-
-
-|1 part
-|ramps-1_4-smart-adapter
-|RAMPS 1.4 Smart Adapter
-|RAMPS 1.4 Smart Adapter v1.0.0
-|
-
-
-
-|1 image
-|marlin-firmware
-|Marlin Firmware
-|Marlin Firmware v1.0.0
-|
-
-
-
-|1 image
-|raspberry-pi-image
-|Octoprint Raspberry Pi Software Image
-|Octoprint Raspberry Pi Software Image v1.0.0
-|
-
-
-
-|1 mm
-|14awg-wire
-|14AWG Wire
-|14 AWG Braided Copper Wire v1.0.0
-|
-
-
-
-|200 mm
-|22awg-wire
-|22AWG Wire
-|22AWG Braided Copper Wire v1.0.0
-|
-
-
-
-|4 part(s)
-|fork-terminal
-|Fork Terminal
-|Electrical Fork Terminal v1.0.0
-|
-
-
-
-|5 part(s)
-|stepper-motor-driver-heatsink
-|Stepper Motor Driver Heatsink
-|Stepper Motor Driver Heatsink v1.0.0
-|
-
-
-
-|1 part(s)
-|2-pin-dupont-connector
-|2 Pin Female Dupont Connector
-|2 Pin Dupont Connector Housing v1.0.0
-|
-
-
-
-|1 part(s)
-|3-pin-dupont-connector
-|3 Pin Female Dupont Connector
-|3 Pin Dupont Connector Housing v1.0.0
-|
-
-
-
-|1 part(s)
-|4-pin-dupont-connector
-|4 Pin Female Dupont Connector
-|4 Pin Dupont Connector Housing v1.0.0
-|
-
-
-
-|1 part(s)
-|dupont-female-pin-connector
-|Dupont Female Pin Connector
-|Dupont Female Pin Connector v1.0.0
-|
-
-
-
-|1 part(s)
-|usb-a-to-usb-b-cable
-|USB A to USB B Cable
-|USB A to USB B Cable v1.0.0
-|
-
-|===
-
-
-// Precautions
-
-=== Precautions
-
-* *Universal Controller Assembly:* The Universal Controller Assembly runs on 120v AC electricity, which can kill you if wiring is done improperly!!! Follow all directions exactly, use common sense, never touch the Universal Controller Assembly components when powered on, and when in doubt use more electrical tape. This is your reminder that these instructions are for EDUCATIONAL PURPOSES ONLY and that you assume any and all liability for the use of these instructions.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* *Soldering Iron:* A Soldering Iron gets very very hot and can burn you! Follow all of the manufacturer recommended safety precautions when using a Soldering Iron!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* *Electrical Solder:* Rosin Core Lead Free Electrical Solder can contain toxic chemicals! Always work in a well ventialted area and use personal protection equipment!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Procedure
-=== Procedure
-
-// summary
-
-==== Clean 3D Printed Parts
-
-
-// requiredTools
-//
-//*Required Tools*
-//
-//* Hobby Knife
-//
-//
-
-// requiredParts
-//
-//*Required Parts*
-//
-//* 
-//
-//
-
-// details
-
-*Instructions*
-
-. Use the *Hobby Knife* to clean any extra plastic off of the 3D printed components.
-
-
-
-
-// summary
-
-==== Assemble the RAMPS 1.4 Board to RAMPS 1.4 Board 24v Power Custom Wires
-
-
-// requiredTools
-//
-//*Required Tools*
-//
-//* Wire Strippers/Cutters
-//
-//* Ferrule Crimper
-//
-//* Dupont Crimper
-//
-//
-
-// requiredParts
-//
-//*Required Parts*
-//
-//* Ferrule
-//
-//* 22AWG Wire
-//
-//* Dupont Female Pin Connector
-//
-//* 2 Pin Female Dupont Connector
-//
-//
-
-// details
-
-*Instructions*
-
-. Using the *Wire Strippers/Cutters*, cut two (2) 100mm long pieces of *22AWG Wire*.
-. Using the *Wire Strippers/Cutters*, strip approximately 1cm of insulation off of both ends of the *22AWG Wire*.
-. Place an appropriately sized *Ferrule* onto the end of the stripped *22AWG Wire*.
-. Using the *Ferrule Crimper*, crimp the *Ferrule* onto the wire.
-. Use the *Wire Strippers/Cutters* to cut off any excess *22AWG Wire* that is poking through the end of the *Ferrule*.
-. Repeat the above steps to crimp another *Ferrule* of a different color to the end of the other *22AWG Wire*.
-. Using the *Dupont Crimper*, crimp *Dupont Female Pin Connector* part(s) onto the exposed ends of the *22AWG Wire*.
-. Insert the both of the *Dupont Female Pin Connector* ends of the *22AWG Wire* into a *2 Pin Female Dupont Connector*.
-. The *RAMPS 1.4 Board to RAMPS 1.4 Board 24v Power Custom Wires* are complete.
-
-
-
-
-// summary
-
-==== Assemble the RAMPS 1.4 Board to Solid State Relay (SSR) 24v Signal Custom Wires
-
-
-// requiredTools
-//
-//*Required Tools*
-//
-//* Dupont Crimper
-//
-//* Ferrule Crimper
-//
-//* Wire Strippers/Cutters
-//
-//
-
-// requiredParts
-//
-//*Required Parts*
-//
-//* Ferrule
-//
-//* 22AWG Wire
-//
-//* Fork Terminal
-//
-//
-
-// details
-
-*Instructions*
-
-. Using the *Wire Strippers/Cutters*, cut two (2) 200mm long pieces of *22AWG Wire*.
-. Using the *Wire Strippers/Cutters*, strip approximately 1cm of insulation off of both ends of each of the *22AWG Wire* lengths.
-. Place an appropriately sized *Ferrule* onto one end of each of the stripped *22AWG Wire* lengths.
-. Using the *Ferrule Crimper*, crimp the *Ferrule* part(s) onto each *22AWG Wire*.
-. Use the *Wire Strippers/Cutters* to cut off any excess *22AWG Wire* that is poking through the ends of the *Ferrule* part(s).
-. Use the *Dupont Crimper* to crimp on an appropriately sized *Fork Terminal* part(s) to the exposed ends of each *22AWG Wire*.
-. The *RAMPS 1.4 Board to Solid State Relay (SSR) 24v Signal Custom Wires* are complete.
-
-
-
-
-// summary
-
-==== Assemble the Two Prong Electrical Plug to 24v Power Supply Module 120v Power Custom Wires
-
-
-// requiredTools
-//
-
-// requiredParts
-//
-
-// details
-
-*Instructions*
-
-. Hello World! forked terminal to ferrule/bare
-
-
-
-
-// summary
-
-==== Assemble the Solid State Relay (SSR) 120v Power Custom Wires
-
-
-// requiredTools
-//
-
-// requiredParts
-//
-
-// details
-
-*Instructions*
-
-. Hello World! forked terminal -> forked terminal (short), forked terminal -> bare, forked terminal -> bare
-
-
-
-
-// summary
-
-==== Assemble the RAMPS 1.4 Board and Arduino Mega 2560
-
-
-// requiredTools
-//
-
-// requiredParts
-//
-
-// details
-
-*Instructions*
-
-. Put the heatsinks on the drivers.
-. Put the (CORRECTLY ORIENTED) drivers into the RAMPS.
-. Align the RAMPS and Mega and press together.
-. Insert the smart adapter into the RAMPS.
-. Done
-
-
-
-
-// summary
-
-==== Flash firmware on the Arduino Mega 2560
-
-
-// requiredTools
-//
-
-// requiredParts
-//
-
-// details
-
-*Instructions*
-
-. Plug the arduino into the PC with a USB cable.
-. Download the most recent firmware from the D3D Pro firmware repo.
-. Download and install Arduino IDE
-. Load the firmware into the Arduino IDE
-. Select your board from the boards menu at the top.
-. Click upload and wait for it to upload.
-. When it says 'Done Uploading' you're done.
-
-
-
-
-// summary
-
-==== Flash the Octoprint Raspberry Pi Software Image onto the 16GB MicroSD Card and set up WIFI
-
-
-// requiredTools
-//
-
-// requiredParts
-//
-
-// details
-
-*Instructions*
-
-. Download the raspberry pi imager.
-. Navigate to OctoPi
-. Insert the MicroSD card into the adapter.
-. Insert the adapter into your personal computer.
-. If using Wifi and not an ethernet connection, go into more details
-. Select the wireless networking option and put in your wifi credentials.
-. use the imager to download and flash the octopi image to the MicroSD card.
-
-
-
-
-// summary
-
-==== Set up WIFI on the Raspberry Pi Computer
-
-
-// requiredTools
-//
-
-// requiredParts
-//
-
-// details
-
-*Instructions*
-
-. Hello World!
-
-
-
-
-// summary
-
-==== Configure Octoprint Raspberry Pi Software Image for use
-
-
-// requiredTools
-//
-
-// requiredParts
-//
-
-// details
-
-*Instructions*
-
-. Hello World!
-
-
-
-
-// summary
-
-==== Attach components to the Universal Controller Case
-
-
-// requiredTools
-//
-
-// requiredParts
-//
-
-// details
-
-*Instructions*
-
-. Zip tie the Mega/RAMPS
-. Zip tie power supply module
-. Zip tie the raspberry pie
-. Zip tie the SSR
-. Zip tie the GFCI
-. Insert the rocker switch into the side of the case
-
-
-
-
-// summary
-
-==== Wire the GFCI
-
-
-// requiredTools
-//
-
-// requiredParts
-//
-
-// details
-
-*Instructions*
-
-. Take the power supply cable and strip back 4-6cm of sheathing.
-. Extend one of the power wires (not ground) with 200mm of wire.
-. Bring the extended power wire into the case through the bottom right hole.
-. Solder the inline fuse onto the extended power wire (still not ground).
-. Solder the inline fuse to one of the tongs of the rocker switch.
-. Solder a 200mm extension wire onto the other tong of the rocker switch.
-. Route the second extension wire back out of the case.
-. Use the Dupont crimper to crimp a fork terminal onto the end of the extension wire.
-. Connect the extension wire to one of the terminals on the GFCI.
-. Use the Dupont crimper to crimp a fork terminal onto the other end of the power supply cable power wire.
-. Connect the second wire onto the other power terminal on the GFCI.
-. Use the Dupont crimper to crimp a fork terminal onto the end of the green ground wire
-. Connect the ground wire onto the ground of the GFCI.
-. Loop all of the exposed terminals in multiple layers of electrical tape.
-. Done with GFCI.
-
-
-
-
-// summary
-
-==== Wire the Two Prong Electrical Plug
-
-
-// requiredTools
-//
-
-// requiredParts
-//
-
-// details
-
-*Instructions*
-
-. Gather one long SSR power wire, one short SSR power wire, and both of the 24V power supply wires.
-. Connect the short SSR wire and one of the 24v power supply wires to the left terminal inside of the plug.
-. Connect the long ssr wire and the other 24V power supply wire to the right terminal inside of the plug.
-. Close the plug.
-. If the wire prevents the plug from closing, use a hobby knife to cut away at the offending plastic inside of the plug.
-. Once the plug closes properly, screw the plug together snugly.
-. Wrap the plug neatly in electrical tape.
-. Done with the electical plug.
-
-
-
-
-// summary
-
-==== Wire the 24v Power Supply Module
-
-
-// requiredTools
-//
-
-// requiredParts
-//
-
-// details
-
-*Instructions*
-
-. Take one of the bare ends of wire from the electrical plug 24v power supply wires and twist it to straighten and bind together the wire strands.
-. Repeat the above step for the other bare end wire.
-. Depress the power module 120V power terminal levers and insert one of the bare wire ends into each of the terminal slots. Make sure that there are NO loose strands sticking out of the terminals.
-. Loosen the screws in the 24v outlet terminals.
-. Next, insert the ferruled ends of the 22AWG wire into the 24V outlet terminals. 
-. Screw down the screws in the 24V outlet terminals.
-. The 24v power supply is done. 
-
-
-
-
-// summary
-
-==== Wire the Solid State Relay (SSR)
-
-
-// requiredTools
-//
-
-// requiredParts
-//
-
-// details
-
-*Instructions*
-
-. Wire the forked terminal end of the SSR short wire in the electrical plug into the right side of the 120V side of the SSR.
-. Wire the colored 24v signal wires (22awg) into their respective positive and negative position on the solid state relay.
-. Insert the forked end of the long SSR wire into the left side terminal of the 120v side of the SSR.
-. Tighten down all of the terminal screws.
-. The SSR is done.
-
-
-
-
-// summary
-
-==== Wire the Raspberry Pi Computer
-
-
-// requiredTools
-//
-
-// requiredParts
-//
-
-// details
-
-*Instructions*
-
-. Plug the power supply into the GFCI.
-. Plug the USB C end of the power supply into the USB C port on the Raspberry Pi
-. Plug the USB A end of the USB A/USB B cable into the Raspberry Pi
-. Plug the USB camera into one of the available USB A ports on the Raspberry pi.
-. The Raspberry Pi is now wired.
-
-
-
-
-// summary
-
-==== Wire the RAMPS 1.4 Board
-
-
-// requiredTools
-//
-
-// requiredParts
-//
-
-// details
-
-*Instructions*
-
-. Plug the USB B end of the USB A/USB B cable (connected to the raspberry pi) into the USB B port.
-. Connect the ferrule ends of the RAMPS 1.4 Board to RAMPS 1.4 Board 24v Power Custom Wires to the bottom left terminals, paying close attention to the polarity.
-. Plug the 2-pin-dupont-connector end of the RAMPS 1.4 Board to RAMPS 1.4 Board 24v Power Custom Wires into the bottom left ports of the Aux 1 pins on the RAMPS board, with positive on the left and negative on the right.
-. Plug in the 24v power supply cables into their port, paying attention to the polarity.
-. Plug in the SSR signal wires into the heated bed port, paying attention to the polarity.
-. To be continued
-
-
-
-
-// summary
-
-==== Test the Universal Controller Assembly
-
-
-// requiredTools
-//
-
-// requiredParts
-//
-
-// details
-
-*Instructions*
-
-. Hello World!
 
 
 
@@ -2458,12 +1402,6 @@ include::flatToolsBOM.adoc[]
 |5mm Allen Wrench
 |
 
-
-
-|Universal Controller
-|Universal Controller Assembly
-|
-
 |===
 
 
@@ -2592,12 +1530,6 @@ include::flatToolsBOM.adoc[]
 
 
 
-
-
-
-
-
-* *Universal Controller:* The Universal Controller Assembly runs on 120v AC electricity, which can kill you if wiring is done improperly!!! Follow all directions exactly, use common sense, never touch the Universal Controller Assembly components when powered on, and when in doubt use more electrical tape. This is your reminder that these instructions are for EDUCATIONAL PURPOSES ONLY and that you assume any and all liability for the use of these instructions.
 
 
 
@@ -5804,6 +4736,1062 @@ image:IMG_3563.jpeg[,300,300,pdfwidth=30%]
 . The *Universal Gearless Extruder Module* is complete.
 +
 image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
+
+
+
+
+
+
+== Assemble Universal Controller Assembly
+
+// tools
+
+=== Tools
+|===
+|Name |Description |Notes
+
+
+
+|3mm Flat Head Screwdriver
+|3mm Flat Head Screwdriver
+|
+
+
+
+|Phillips Head #2 Screwdriver
+|#2 Phillips Head Screwdriver
+|
+
+
+
+|Hobby Knife
+|Hobby Knife
+|
+
+
+
+|Scissors
+|Scissors
+|
+
+
+
+|Helping Hands
+|Helping Hands Clamp Stand
+|
+
+
+
+|Soldering Iron
+|Soldering Iron
+|
+
+
+
+|Ferrule Crimper
+|Wire Ferrule Crimper
+|
+
+
+
+|MicroSD to SD Card Adapter
+|MicroSD Card to SD Card Adapter
+|
+
+
+
+|Personal Computer
+|Personal Computer (PC)
+|
+
+
+
+|Wire Strippers/Cutters
+|Wire Stripper/Cutter
+|
+
+
+
+|Dupont Crimper
+|Dupont Wire Crimper
+|
+
+|===
+
+
+// materials
+
+=== Materials
+|===
+|Quantity |ID |Name |Description |Notes
+
+
+
+|1 part
+|ramps-board
+|RAMPS 1.4 Board
+|RAMPS 1.4 Board v1.0.0
+|
+
+
+
+|1 as needed
+|electrical-tape
+|Electrical Tape
+|Electrical Tape v1.0.0
+|
+
+
+
+|1 part
+|16gb-microsd-card
+|16GB MicroSD Card
+|16GB MicroSD Card v1.0.0
+|
+
+
+
+|1 part
+|24v-power-supply
+|24v Power Supply Module
+|24V Industrial Power Supply Module v1.0.0
+|
+
+
+
+|1 part
+|arduino
+|Arduino Mega 2560
+|Arduino Mega 2560 v1.0.0
+|
+
+
+
+|1 part
+|electrical-cord
+|Three Prong Electrical Cord
+|Electrical Cord (NEMA 5-15P) v1.0.0
+|
+
+
+
+|1 part
+|electrical-plug
+|Two Prong Electrical Plug
+|Electrical Plug (NEMA 1-15) v1.0.0
+|
+
+
+
+|1 applications
+|electrical-solder
+|Electrical Solder
+|Rosin Core Lead Free Electrical Solder v1.0.0
+|
+
+
+
+|20 part(s)
+|ferrule
+|Ferrule
+|Wire Ferrule v1.0.0
+|
+
+
+
+|1 part
+|gfci
+|GFCI
+|Ground Fault Connection Interrupter (GFCI) v1.0.0
+|
+
+
+
+|1 part
+|heat-shrink-tubing
+|Heat Shrink Tubing
+|Heat Shrink Tubing v1.0.0
+|
+
+
+
+|1 part
+|lever-wire-nut
+|Lever Wire Nut
+|2 Connection Lever Wire Nut v1.0.0
+|
+
+
+
+|1 part
+|microsd-to-sd-card-adapter
+|MicroSD to SD Card Adapter
+|MicroSD Card to SD Card Adapter v1.0.0
+|
+
+
+
+|1 part
+|raspberry-pi
+|Raspberry Pi Computer
+|Raspberry Pi Model 4B v1.0.0
+|
+
+
+
+|1 part
+|reprap-controller
+|RepRap Discount Full Graphic Smart Controller
+|RepRap Discount Full Graphic Smart Controller v1.0.0
+|
+
+
+
+|1 part
+|solid-state-relay
+|Solid State Relay (SSR)
+|40A Solid State Relay (SSR-40DA) v1.0.0
+|
+
+
+
+|1 part
+|split-wire-loom
+|Split Wire Loom
+|1/2 Inch Flame Retardant Split Wire Loom v1.0.0
+|
+
+
+
+|1 part
+|case
+|Universal Controller Case
+|Universal Controller Case v1.0.0
+|
+
+
+
+|20 part(s)
+|zip-tie-large
+|Large Zip Tie
+|8 Inch Zip Tie v1.0.0
+|
+
+
+
+|20 part(s)
+|zip-tie-small
+|Small Zip Tie
+|4 Inch Zip Tie v1.0.0
+|
+
+
+
+|5 part(s)
+|a4988-stepper-motor-driver
+|A4988 Stepper Motor Driver
+|A4988 Stepper Motor Driver v1.0.0
+|
+
+
+
+|15 part(s)
+|jumper
+|Jumper Cap
+|2.54mm Jumper Cap v1.0.0
+|
+
+
+
+|2 part(s)
+|10-pin-idc-connector
+|10 Pin IDC Conector
+|10 Pin IDC Connector Cable v1.0.0
+|
+
+
+
+|1 part
+|ramps-1_4-smart-adapter
+|RAMPS 1.4 Smart Adapter
+|RAMPS 1.4 Smart Adapter v1.0.0
+|
+
+
+
+|1 image
+|marlin-firmware
+|Marlin Firmware
+|Marlin Firmware v1.0.0
+|
+
+
+
+|1 image
+|raspberry-pi-image
+|Octoprint Raspberry Pi Software Image
+|Octoprint Raspberry Pi Software Image v1.0.0
+|
+
+
+
+|1 mm
+|14awg-wire
+|14AWG Wire
+|14 AWG Braided Copper Wire v1.0.0
+|
+
+
+
+|200 mm
+|22awg-wire
+|22AWG Wire
+|22AWG Braided Copper Wire v1.0.0
+|
+
+
+
+|4 part(s)
+|fork-terminal
+|Fork Terminal
+|Electrical Fork Terminal v1.0.0
+|
+
+
+
+|5 part(s)
+|stepper-motor-driver-heatsink
+|Stepper Motor Driver Heatsink
+|Stepper Motor Driver Heatsink v1.0.0
+|
+
+
+
+|1 part(s)
+|2-pin-dupont-connector
+|2 Pin Female Dupont Connector
+|2 Pin Dupont Connector Housing v1.0.0
+|
+
+
+
+|1 part(s)
+|3-pin-dupont-connector
+|3 Pin Female Dupont Connector
+|3 Pin Dupont Connector Housing v1.0.0
+|
+
+
+
+|1 part(s)
+|4-pin-dupont-connector
+|4 Pin Female Dupont Connector
+|4 Pin Dupont Connector Housing v1.0.0
+|
+
+
+
+|1 part(s)
+|dupont-female-pin-connector
+|Dupont Female Pin Connector
+|Dupont Female Pin Connector v1.0.0
+|
+
+
+
+|1 part(s)
+|usb-a-to-usb-b-cable
+|USB A to USB B Cable
+|USB A to USB B Cable v1.0.0
+|
+
+|===
+
+
+// Precautions
+
+=== Precautions
+
+* *Universal Controller Assembly:* The Universal Controller Assembly runs on 120v AC electricity, which can kill you if wiring is done improperly!!! Follow all directions exactly, use common sense, never touch the Universal Controller Assembly components when powered on, and when in doubt use more electrical tape. This is your reminder that these instructions are for EDUCATIONAL PURPOSES ONLY and that you assume any and all liability for the use of these instructions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* *Soldering Iron:* A Soldering Iron gets very very hot and can burn you! Follow all of the manufacturer recommended safety precautions when using a Soldering Iron!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* *Electrical Solder:* Rosin Core Lead Free Electrical Solder can contain toxic chemicals! Always work in a well ventialted area and use personal protection equipment!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Procedure
+=== Procedure
+
+// summary
+
+==== Clean 3D Printed Parts
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* Hobby Knife
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* 
+//
+//
+
+// details
+
+*Instructions*
+
+. Use the *Hobby Knife* to clean any extra plastic off of the 3D printed components.
+
+
+
+
+// summary
+
+==== Assemble the RAMPS 1.4 Board to RAMPS 1.4 Board 24v Power Custom Wires
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* Wire Strippers/Cutters
+//
+//* Ferrule Crimper
+//
+//* Dupont Crimper
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Ferrule
+//
+//* 22AWG Wire
+//
+//* Dupont Female Pin Connector
+//
+//* 2 Pin Female Dupont Connector
+//
+//
+
+// details
+
+*Instructions*
+
+. Using the *Wire Strippers/Cutters*, cut two (2) 100mm long pieces of *22AWG Wire*.
+. Using the *Wire Strippers/Cutters*, strip approximately 1cm of insulation off of both ends of the *22AWG Wire*.
+. Place an appropriately sized *Ferrule* onto the end of the stripped *22AWG Wire*.
+. Using the *Ferrule Crimper*, crimp the *Ferrule* onto the wire.
+. Use the *Wire Strippers/Cutters* to cut off any excess *22AWG Wire* that is poking through the end of the *Ferrule*.
+. Repeat the above steps to crimp another *Ferrule* of a different color to the end of the other *22AWG Wire*.
+. Using the *Dupont Crimper*, crimp *Dupont Female Pin Connector* part(s) onto the exposed ends of the *22AWG Wire*.
+. Insert the both of the *Dupont Female Pin Connector* ends of the *22AWG Wire* into a *2 Pin Female Dupont Connector*.
+. The *RAMPS 1.4 Board to RAMPS 1.4 Board 24v Power Custom Wires* are complete.
+
+
+
+
+// summary
+
+==== Assemble the RAMPS 1.4 Board to Solid State Relay (SSR) 24v Signal Custom Wires
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* Dupont Crimper
+//
+//* Ferrule Crimper
+//
+//* Wire Strippers/Cutters
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Ferrule
+//
+//* 22AWG Wire
+//
+//* Fork Terminal
+//
+//
+
+// details
+
+*Instructions*
+
+. Using the *Wire Strippers/Cutters*, cut two (2) 200mm long pieces of *22AWG Wire*.
+. Using the *Wire Strippers/Cutters*, strip approximately 1cm of insulation off of both ends of each of the *22AWG Wire* lengths.
+. Place an appropriately sized *Ferrule* onto one end of each of the stripped *22AWG Wire* lengths.
+. Using the *Ferrule Crimper*, crimp the *Ferrule* part(s) onto each *22AWG Wire*.
+. Use the *Wire Strippers/Cutters* to cut off any excess *22AWG Wire* that is poking through the ends of the *Ferrule* part(s).
+. Use the *Dupont Crimper* to crimp on an appropriately sized *Fork Terminal* part(s) to the exposed ends of each *22AWG Wire*.
+. The *RAMPS 1.4 Board to Solid State Relay (SSR) 24v Signal Custom Wires* are complete.
+
+
+
+
+// summary
+
+==== Assemble the Two Prong Electrical Plug to 24v Power Supply Module 120v Power Custom Wires
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. Hello World! forked terminal to ferrule/bare
+
+
+
+
+// summary
+
+==== Assemble the Solid State Relay (SSR) 120v Power Custom Wires
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. Hello World! forked terminal -> forked terminal (short), forked terminal -> bare, forked terminal -> bare
+
+
+
+
+// summary
+
+==== Assemble the RAMPS 1.4 Board and Arduino Mega 2560
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. Put the heatsinks on the drivers.
+. Put the (CORRECTLY ORIENTED) drivers into the RAMPS.
+. Align the RAMPS and Mega and press together.
+. Insert the smart adapter into the RAMPS.
+. Done
+
+
+
+
+// summary
+
+==== Flash firmware on the Arduino Mega 2560
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. Plug the arduino into the PC with a USB cable.
+. Download the most recent firmware from the D3D Pro firmware repo.
+. Download and install Arduino IDE
+. Load the firmware into the Arduino IDE
+. Select your board from the boards menu at the top.
+. Click upload and wait for it to upload.
+. When it says 'Done Uploading' you're done.
+
+
+
+
+// summary
+
+==== Flash the Octoprint Raspberry Pi Software Image onto the 16GB MicroSD Card and set up WIFI
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. Download the raspberry pi imager.
+. Navigate to OctoPi
+. Insert the MicroSD card into the adapter.
+. Insert the adapter into your personal computer.
+. If using Wifi and not an ethernet connection, go into more details
+. Select the wireless networking option and put in your wifi credentials.
+. use the imager to download and flash the octopi image to the MicroSD card.
+
+
+
+
+// summary
+
+==== Set up WIFI on the Raspberry Pi Computer
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. Hello World!
+
+
+
+
+// summary
+
+==== Configure Octoprint Raspberry Pi Software Image for use
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. Hello World!
+
+
+
+
+// summary
+
+==== Attach components to the Universal Controller Case
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. Zip tie the Mega/RAMPS
+. Zip tie power supply module
+. Zip tie the raspberry pie
+. Zip tie the SSR
+. Zip tie the GFCI
+. Insert the rocker switch into the side of the case
+
+
+
+
+// summary
+
+==== Wire the GFCI
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. Take the power supply cable and strip back 4-6cm of sheathing.
+. Extend one of the power wires (not ground) with 200mm of wire.
+. Bring the extended power wire into the case through the bottom right hole.
+. Solder the inline fuse onto the extended power wire (still not ground).
+. Solder the inline fuse to one of the tongs of the rocker switch.
+. Solder a 200mm extension wire onto the other tong of the rocker switch.
+. Route the second extension wire back out of the case.
+. Use the Dupont crimper to crimp a fork terminal onto the end of the extension wire.
+. Connect the extension wire to one of the terminals on the GFCI.
+. Use the Dupont crimper to crimp a fork terminal onto the other end of the power supply cable power wire.
+. Connect the second wire onto the other power terminal on the GFCI.
+. Use the Dupont crimper to crimp a fork terminal onto the end of the green ground wire
+. Connect the ground wire onto the ground of the GFCI.
+. Loop all of the exposed terminals in multiple layers of electrical tape.
+. Done with GFCI.
+
+
+
+
+// summary
+
+==== Wire the Two Prong Electrical Plug
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. Gather one long SSR power wire, one short SSR power wire, and both of the 24V power supply wires.
+. Connect the short SSR wire and one of the 24v power supply wires to the left terminal inside of the plug.
+. Connect the long ssr wire and the other 24V power supply wire to the right terminal inside of the plug.
+. Close the plug.
+. If the wire prevents the plug from closing, use a hobby knife to cut away at the offending plastic inside of the plug.
+. Once the plug closes properly, screw the plug together snugly.
+. Wrap the plug neatly in electrical tape.
+. Done with the electical plug.
+
+
+
+
+// summary
+
+==== Wire the 24v Power Supply Module
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. Take one of the bare ends of wire from the electrical plug 24v power supply wires and twist it to straighten and bind together the wire strands.
+. Repeat the above step for the other bare end wire.
+. Depress the power module 120V power terminal levers and insert one of the bare wire ends into each of the terminal slots. Make sure that there are NO loose strands sticking out of the terminals.
+. Loosen the screws in the 24v outlet terminals.
+. Next, insert the ferruled ends of the 22AWG wire into the 24V outlet terminals. 
+. Screw down the screws in the 24V outlet terminals.
+. The 24v power supply is done. 
+
+
+
+
+// summary
+
+==== Wire the Solid State Relay (SSR)
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. Wire the forked terminal end of the SSR short wire in the electrical plug into the right side of the 120V side of the SSR.
+. Wire the colored 24v signal wires (22awg) into their respective positive and negative position on the solid state relay.
+. Insert the forked end of the long SSR wire into the left side terminal of the 120v side of the SSR.
+. Tighten down all of the terminal screws.
+. The SSR is done.
+
+
+
+
+// summary
+
+==== Wire the Raspberry Pi Computer
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. Plug the power supply into the GFCI.
+. Plug the USB C end of the power supply into the USB C port on the Raspberry Pi
+. Plug the USB A end of the USB A/USB B cable into the Raspberry Pi
+. Plug the USB camera into one of the available USB A ports on the Raspberry pi.
+. The Raspberry Pi is now wired.
+
+
+
+
+// summary
+
+==== Wire the RAMPS 1.4 Board
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. Plug the USB B end of the USB A/USB B cable (connected to the raspberry pi) into the USB B port.
+. Connect the ferrule ends of the RAMPS 1.4 Board to RAMPS 1.4 Board 24v Power Custom Wires to the bottom left terminals, paying close attention to the polarity.
+. Plug the 2-pin-dupont-connector end of the RAMPS 1.4 Board to RAMPS 1.4 Board 24v Power Custom Wires into the bottom left ports of the Aux 1 pins on the RAMPS board, with positive on the left and negative on the right.
+. Plug in the 24v power supply cables into their port, paying attention to the polarity.
+. Plug in the SSR signal wires into the heated bed port, paying attention to the polarity.
+. To be continued
+
+
+
+
+// summary
+
+==== Test the Universal Controller Assembly
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. Hello World!
 
 
 

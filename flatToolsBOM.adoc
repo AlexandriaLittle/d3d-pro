@@ -231,13 +231,6 @@
 
 |1
 |part
-|universal-controller
-|Universal Controller Assembly
-
-
-
-|1
-|part
 |vise-grip-pliers
 |Vise Grip Pliers
 

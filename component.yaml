@@ -3235,19 +3235,6 @@ components:
         selectedOption: 0
         descriptionLong: '5mm-allen-wrench: 5mm Allen Wrench'
         descriptionSelected: '5mm-allen-wrench: 5mm Allen Wrench (5mm Allen Wrench v1.0.0)'
-      universal-controller:
-        description: Universal Controller
-        id: universal-controller
-        notes: ''
-        options:
-          - universal-controller
-        quantity: 1
-        quantityUnits: part
-        selectedOption: 0
-        descriptionLong: 'universal-controller: Universal Controller'
-        descriptionSelected: >-
-          universal-controller: Universal Controller (Universal Controller
-          Assembly v1.0.0)
     precautions: []
     assemblySteps:
       - summary: Assemble Fast Heated Bed Module
