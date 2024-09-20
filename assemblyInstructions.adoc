@@ -163,7 +163,7 @@ include::flatToolsBOM.adoc[]
 
 . While following the *Circular Saw* manufacturer's instructions, install the *Cutoff Wheel* into the *Circular Saw*.
 . Affix the *Rebar Stake Stock Length* into the *Vise*, leaving enough *Rebar Stake Stock Length* sticking out to make the cut.
-. Mark the 250mm length on the *Rebar Stake Stock Length* using the *Measuring Tape* and *Permanent Marker*. Make sure that there is enough space marked for the width of the *Cutoff Wheel*!
+. Mark the 450mm length on the *Rebar Stake Stock Length* using the *Measuring Tape* and *Permanent Marker*. Make sure that there is enough space marked for the width of the *Cutoff Wheel*!
 . Using the *Circular Saw*, make the cut on the *Rebar Stake Stock Length* where previously marked.
 . Repeat the above steps for all of the needed lengths of *Rebar Stake*.
 
