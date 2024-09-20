@@ -1136,6 +1136,17 @@ components:
                 A Soldering Iron gets very very hot and can burn you! Follow all
                 of the manufacturer recommended safety precautions when using a
                 Soldering Iron!
+          wire-stripper-cutter:
+            name: wire-stripper-cutter
+            version: 1.0.0
+            description: Wire Stripper/Cutter
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
         parts:
           halogen-lightbulb:
             description: Halogen Lightbulb
@@ -1267,6 +1278,19 @@ components:
             selectedOption: 0
             descriptionLong: 'scissors: Scissors'
             descriptionSelected: 'scissors: Scissors (Scissors v1.0.0)'
+          wire-stripper-cutter:
+            description: Wire Strippers/Cutters
+            id: wire-stripper-cutter
+            notes: ''
+            options:
+              - wire-stripper-cutter
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'wire-stripper-cutter: Wire Strippers/Cutters'
+            descriptionSelected: >-
+              wire-stripper-cutter: Wire Strippers/Cutters (Wire Stripper/Cutter
+              v1.0.0)
         precautions:
           - >-
             If oils from skin contact or other debris get on the Halogen
@@ -1284,7 +1308,11 @@ components:
               - electrical-solder
             requiredTools:
               - soldering-iron
+              - wire-stripper-cutter
             details: >
+              . If necessary, use the *Wire Strippers/Cutters* to strip the ends
+              of all of the *Halogen Lightbulb Holder* wires.
+
               . Preheat the *Soldering Iron* to the operating temperature
               recommended by the *Electrical Solder* packaging.
 
@@ -1349,12 +1377,26 @@ components:
               - carbon-fiber-blanket-stock
             requiredTools:
               - scissors
+              - wire-stripper-cutter
             details: >
               . Cut two pieces of the *Carbon Fiber Blanket* to size (75mm x
               75mm) using
               *{"description":"Scissors","id":"scissors","notes":"","options":["scissors"],"quantity":1,"quantityUnits":"part","selectedOption":0,"descriptionLong":"scissors:
               Scissors","descriptionSelected":"scissors: Scissors (Scissors
               v1.0.0)"}*.
+
+              . Wrap one piece of the *Carbon Fiber Blanket* over one of the
+              *Heat Shrink Tubing* part(s).
+
+              . Use two *Metal Zip Tie* part(s) to secure each end of the
+              *Carbon Fiber Blanket* part(s). This should fully cover the *Heat
+              Shrink Tubing*.
+
+              . Perform the above steps again over the remaining *Heat Shrink
+              Tubing* part(s)*.
+
+              . Optionally, cut the excess *Metal Zip Tie* off using *Wire
+              Strippers/Cutters*.
           - summary: Add Halogen Lightbulb part(s)
             requiredParts:
               - halogen-lightbulb
@@ -2374,6 +2416,17 @@ components:
             A Soldering Iron gets very very hot and can burn you! Follow all of
             the manufacturer recommended safety precautions when using a
             Soldering Iron!
+      wire-stripper-cutter:
+        name: wire-stripper-cutter
+        version: 1.0.0
+        description: Wire Stripper/Cutter
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
     parts:
       halogen-lightbulb:
         description: Halogen Lightbulb
@@ -2505,6 +2558,19 @@ components:
         selectedOption: 0
         descriptionLong: 'scissors: Scissors'
         descriptionSelected: 'scissors: Scissors (Scissors v1.0.0)'
+      wire-stripper-cutter:
+        description: Wire Strippers/Cutters
+        id: wire-stripper-cutter
+        notes: ''
+        options:
+          - wire-stripper-cutter
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'wire-stripper-cutter: Wire Strippers/Cutters'
+        descriptionSelected: >-
+          wire-stripper-cutter: Wire Strippers/Cutters (Wire Stripper/Cutter
+          v1.0.0)
     precautions:
       - >-
         If oils from skin contact or other debris get on the Halogen Lightbulb
@@ -2522,7 +2588,11 @@ components:
           - electrical-solder
         requiredTools:
           - soldering-iron
+          - wire-stripper-cutter
         details: >
+          . If necessary, use the *Wire Strippers/Cutters* to strip the ends of
+          all of the *Halogen Lightbulb Holder* wires.
+
           . Preheat the *Soldering Iron* to the operating temperature
           recommended by the *Electrical Solder* packaging.
 
@@ -2583,12 +2653,26 @@ components:
           - carbon-fiber-blanket-stock
         requiredTools:
           - scissors
+          - wire-stripper-cutter
         details: >
           . Cut two pieces of the *Carbon Fiber Blanket* to size (75mm x 75mm)
           using
           *{"description":"Scissors","id":"scissors","notes":"","options":["scissors"],"quantity":1,"quantityUnits":"part","selectedOption":0,"descriptionLong":"scissors:
           Scissors","descriptionSelected":"scissors: Scissors (Scissors
           v1.0.0)"}*.
+
+          . Wrap one piece of the *Carbon Fiber Blanket* over one of the *Heat
+          Shrink Tubing* part(s).
+
+          . Use two *Metal Zip Tie* part(s) to secure each end of the *Carbon
+          Fiber Blanket* part(s). This should fully cover the *Heat Shrink
+          Tubing*.
+
+          . Perform the above steps again over the remaining *Heat Shrink
+          Tubing* part(s)*.
+
+          . Optionally, cut the excess *Metal Zip Tie* off using *Wire
+          Strippers/Cutters*.
       - summary: Add Halogen Lightbulb part(s)
         requiredParts:
           - halogen-lightbulb
@@ -11191,6 +11275,17 @@ components:
                     A Soldering Iron gets very very hot and can burn you! Follow
                     all of the manufacturer recommended safety precautions when
                     using a Soldering Iron!
+              wire-stripper-cutter:
+                name: wire-stripper-cutter
+                version: 1.0.0
+                description: Wire Stripper/Cutter
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
             parts:
               halogen-lightbulb:
                 description: Halogen Lightbulb
@@ -11326,6 +11421,19 @@ components:
                 selectedOption: 0
                 descriptionLong: 'scissors: Scissors'
                 descriptionSelected: 'scissors: Scissors (Scissors v1.0.0)'
+              wire-stripper-cutter:
+                description: Wire Strippers/Cutters
+                id: wire-stripper-cutter
+                notes: ''
+                options:
+                  - wire-stripper-cutter
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'wire-stripper-cutter: Wire Strippers/Cutters'
+                descriptionSelected: >-
+                  wire-stripper-cutter: Wire Strippers/Cutters (Wire
+                  Stripper/Cutter v1.0.0)
             precautions:
               - >-
                 If oils from skin contact or other debris get on the Halogen
@@ -11344,7 +11452,11 @@ components:
                   - electrical-solder
                 requiredTools:
                   - soldering-iron
+                  - wire-stripper-cutter
                 details: >
+                  . If necessary, use the *Wire Strippers/Cutters* to strip the
+                  ends of all of the *Halogen Lightbulb Holder* wires.
+
                   . Preheat the *Soldering Iron* to the operating temperature
                   recommended by the *Electrical Solder* packaging.
 
@@ -11414,12 +11526,26 @@ components:
                   - carbon-fiber-blanket-stock
                 requiredTools:
                   - scissors
+                  - wire-stripper-cutter
                 details: >
                   . Cut two pieces of the *Carbon Fiber Blanket* to size (75mm x
                   75mm) using
                   *{"description":"Scissors","id":"scissors","notes":"","options":["scissors"],"quantity":1,"quantityUnits":"part","selectedOption":0,"descriptionLong":"scissors:
                   Scissors","descriptionSelected":"scissors: Scissors (Scissors
                   v1.0.0)"}*.
+
+                  . Wrap one piece of the *Carbon Fiber Blanket* over one of the
+                  *Heat Shrink Tubing* part(s).
+
+                  . Use two *Metal Zip Tie* part(s) to secure each end of the
+                  *Carbon Fiber Blanket* part(s). This should fully cover the
+                  *Heat Shrink Tubing*.
+
+                  . Perform the above steps again over the remaining *Heat
+                  Shrink Tubing* part(s)*.
+
+                  . Optionally, cut the excess *Metal Zip Tie* off using *Wire
+                  Strippers/Cutters*.
               - summary: Add Halogen Lightbulb part(s)
                 requiredParts:
                   - halogen-lightbulb

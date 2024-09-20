@@ -596,6 +596,12 @@ include::flatToolsBOM.adoc[]
 |Scissors
 |
 
+
+
+|Wire Strippers/Cutters
+|Wire Stripper/Cutter
+|
+
 |===
 
 
@@ -701,6 +707,10 @@ include::flatToolsBOM.adoc[]
 
 
 
+
+
+
+
 * *Electrical Solder:* Rosin Core Lead Free Electrical Solder can contain toxic chemicals! Always work in a well ventialted area and use personal protection equipment!
 
 
@@ -734,6 +744,8 @@ include::flatToolsBOM.adoc[]
 //
 //* Soldering Iron
 //
+//* Wire Strippers/Cutters
+//
 //
 
 // requiredParts
@@ -750,6 +762,7 @@ include::flatToolsBOM.adoc[]
 
 *Instructions*
 
+. If necessary, use the *Wire Strippers/Cutters* to strip the ends of all of the *Halogen Lightbulb Holder* wires.
 . Preheat the *Soldering Iron* to the operating temperature recommended by the *Electrical Solder* packaging.
 . Slide a *Heat Shrink Tubing* part(s) over one of the wires of a *Halogen Lightbulb Holder*.
 . Position one wire of one of the *Halogen Lightbulb Holder* part(s) and the wire with *Heat Shrink Tubing* from the previous step in the *Helping Hands* so that the exposed ends of the wires are touching. Make sure that the *Heat Shrink Tubing* is out of the way of the exposed wire.
@@ -781,6 +794,8 @@ include::flatToolsBOM.adoc[]
 //
 //* Scissors
 //
+//* Wire Strippers/Cutters
+//
 //
 
 // requiredParts
@@ -800,6 +815,10 @@ include::flatToolsBOM.adoc[]
 *Instructions*
 
 . Cut two pieces of the *Carbon Fiber Blanket* to size (75mm x 75mm) using *{"description":"Scissors","id":"scissors","notes":"","options":["scissors"],"quantity":1,"quantityUnits":"part","selectedOption":0,"descriptionLong":"scissors: Scissors","descriptionSelected":"scissors: Scissors (Scissors v1.0.0)"}*.
+. Wrap one piece of the *Carbon Fiber Blanket* over one of the *Heat Shrink Tubing* part(s).
+. Use two *Metal Zip Tie* part(s) to secure each end of the *Carbon Fiber Blanket* part(s). This should fully cover the *Heat Shrink Tubing*.
+. Perform the above steps again over the remaining *Heat Shrink Tubing* part(s)*.
+. Optionally, cut the excess *Metal Zip Tie* off using *Wire Strippers/Cutters*.
 
 
 
