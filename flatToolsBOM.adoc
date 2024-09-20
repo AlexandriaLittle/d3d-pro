@@ -202,14 +202,14 @@
 
 
 |1
-|part(s)
+|part
 |scissors
 |Scissors
 
 
 
 |1
-|part(s)
+|part
 |sewing-machine
 |Sewing Machine
 

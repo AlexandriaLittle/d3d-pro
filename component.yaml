@@ -437,7 +437,7 @@ components:
         options:
           - sewing-machine
         quantity: 1
-        quantityUnits: part(s)
+        quantityUnits: part
         selectedOption: 0
         descriptionLong: 'sewing-machine: Sewing Machine'
         descriptionSelected: 'sewing-machine: Sewing Machine (Sewing Machine v1.0.0)'
@@ -448,7 +448,7 @@ components:
         options:
           - scissors
         quantity: 1
-        quantityUnits: part(s)
+        quantityUnits: part
         selectedOption: 0
         descriptionLong: 'scissors: Scissors'
         descriptionSelected: 'scissors: Scissors (Scissors v1.0.0)'
@@ -754,7 +754,7 @@ components:
             options:
               - sewing-machine
             quantity: 1
-            quantityUnits: part(s)
+            quantityUnits: part
             selectedOption: 0
             descriptionLong: 'sewing-machine: Sewing Machine'
             descriptionSelected: 'sewing-machine: Sewing Machine (Sewing Machine v1.0.0)'
@@ -765,7 +765,7 @@ components:
             options:
               - scissors
             quantity: 1
-            quantityUnits: part(s)
+            quantityUnits: part
             selectedOption: 0
             descriptionLong: 'scissors: Scissors'
             descriptionSelected: 'scissors: Scissors (Scissors v1.0.0)'
@@ -10503,7 +10503,7 @@ components:
                 options:
                   - sewing-machine
                 quantity: 1
-                quantityUnits: part(s)
+                quantityUnits: part
                 selectedOption: 0
                 descriptionLong: 'sewing-machine: Sewing Machine'
                 descriptionSelected: 'sewing-machine: Sewing Machine (Sewing Machine v1.0.0)'
@@ -10514,7 +10514,7 @@ components:
                 options:
                   - scissors
                 quantity: 1
-                quantityUnits: part(s)
+                quantityUnits: part
                 selectedOption: 0
                 descriptionLong: 'scissors: Scissors'
                 descriptionSelected: 'scissors: Scissors (Scissors v1.0.0)'
@@ -15793,7 +15793,7 @@ components:
         options:
           - scissors
         quantity: 1
-        quantityUnits: part(s)
+        quantityUnits: part
         selectedOption: 0
         descriptionLong: 'scissors: Scissors'
         descriptionSelected: 'scissors: Scissors (Scissors v1.0.0)'

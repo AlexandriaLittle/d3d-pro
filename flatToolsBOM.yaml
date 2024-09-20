@@ -143,12 +143,12 @@ components:
     description: Scissors
     name: scissors
     quantity: 1
-    quantityUnits: part(s)
+    quantityUnits: part
   sewing-machine:
     description: Sewing Machine
     name: sewing-machine
     quantity: 1
-    quantityUnits: part(s)
+    quantityUnits: part
   slip-joint-pliers:
     description: Slip Joint Pliers
     name: slip-joint-pliers
