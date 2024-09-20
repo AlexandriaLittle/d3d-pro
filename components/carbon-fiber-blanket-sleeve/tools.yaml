@@ -5,7 +5,7 @@ sewing-machine:
   options:
     - sewing-machine
   quantity: 1
-  quantityUnits: part(s)
+  quantityUnits: part
   selectedOption: 0
 scissors:
   description: Scissors
@@ -14,5 +14,5 @@ scissors:
   options:
     - scissors
   quantity: 1
-  quantityUnits: part(s)
+  quantityUnits: part
   selectedOption: 0

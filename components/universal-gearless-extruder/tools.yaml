@@ -50,5 +50,5 @@ scissors:
   options:
     - scissors
   quantity: 1
-  quantityUnits: part(s)
+  quantityUnits: part
   selectedOption: 0
