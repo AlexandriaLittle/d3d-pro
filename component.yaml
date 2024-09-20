@@ -13332,59 +13332,7 @@ components:
         parts: {}
         tools: {}
         precautions: []
-        assemblySteps:
-          - summary: 'Prepare   for  '
-            requiredParts:
-              - corner-connector
-              - m6-20mm-screw
-              - m6-thin-nut
-            requiredTools:
-              - 5mm-allen-wrench
-            details: >
-              . Insert an ** into the slot of the ** so that the hole of the **
-              aligns with the hole in the **.
-
-              . While holding the ** in place with a finger, insert an ** into
-              the hole of the **.
-
-              . Using the **, screw in the ** enough to hold the ** and ** in
-              place. Leave room for the ** to be inserted later.
-
-              . Repeat the above steps for each of the three slots on the **.
-
-              . Repeat each of the above steps for the ** .
-          - summary: Assemble Universal Frame Base
-            requiredParts:
-              - corner-connector
-              - rebar-stake
-            requiredTools:
-              - 5mm-allen-wrench
-            details: >
-              . Insert one ** into a slot on the **.
-
-              . Press the ** down hard into the slot so that the  are flush with
-              the bottom of the slot. This step is important to ensure
-              squareness in the frame.
-
-              . Using the **, screw down the ** in against the ** until it is
-              tight. If the plastic of the ** begins to strain or crack, unscrew
-              the ** slightly to reduce the pressure.
-
-              . Insert the other end of the ** into another ** and repeat the
-              above steps to press and tighten down the **.
-
-              . Repeat the above steps so that there are two completed **  with
-              **  on the ends.
-
-              . Insert two **  into the completed **  from the previous step so
-              that a square is formed.
-
-              . Press the square together hard to seat the **  onto the ** .
-
-              . Tighten the four loose **  down onto the **  to complete the
-              *Universal Frame Base Base*. As above, if the plastic of the ** 
-              begins to strain or crack, unscrew the ** slightly to reduce the
-              pressure.
+        assemblySteps: []
       universal-frame-corner-connector:
         name: universal-frame-corner-connector
         version: 1.0.0
@@ -13674,70 +13622,7 @@ components:
         parts: {}
         tools: {}
         precautions: []
-        assemblySteps:
-          - summary: Clean 3D Printed Parts
-            requiredParts:
-              - corner-connector-left
-              - corner-connector-right
-            requiredTools:
-              - hobby-knife
-            details: |
-              . Use the ** to clean any extra plastic off of the **  and ** .
-          - summary: 'Prepare   and   for  '
-            requiredParts:
-              - corner-connector-left
-              - corner-connector-right
-              - m6-20mm-screw
-              - m6-thin-nut
-            requiredTools:
-              - 5mm-allen-wrench
-            details: >
-              . Insert an ** into the slot of the ** so that the hole of the **
-              aligns with the hole in the **.
-
-              . While holding the ** in place with a finger, insert an ** into
-              the hole of the **.
-
-              . Using the **, screw in the ** enough to hold the ** and ** in
-              place. Leave room for the ** to be inserted later.
-
-              . Repeat the above steps for each of the three slots on the **.
-
-              . Repeat each of the above steps for the ** , and ** .
-          - summary: Assemble Universal Frame Top
-            requiredParts:
-              - corner-connector-left
-              - corner-connector-right
-              - rebar-stake
-            requiredTools:
-              - 5mm-allen-wrench
-            details: >
-              . Insert one ** into a slot on a **.
-
-              . Press the ** down hard into the slot so that the  are flush with
-              the bottom of the slot. This step is important to ensure
-              squareness in the frame.
-
-              . Using the **, screw down the ** in against the ** until it is
-              tight. If the plastic of the ** begins to strain or crack, unscrew
-              the ** slightly to reduce the pressure.
-
-              . Insert the other end of the ** into a ** and repeat the above
-              steps to press and tighten down the **.
-
-              . Repeat the above steps so that there are two completed **  with
-              **  and **  on the ends.
-
-              . Insert two **  into the completed **  from the previous step so
-              that a square is formed.
-
-              . Press the square together hard to seat the **  and **  onto the
-              ** .
-
-              . Tighten the four loose **  down onto the **  to complete the
-              *Universal Frame Top Top*. As above, if the plastic of the **  or
-              **  begins to strain or crack, unscrew the ** slightly to reduce
-              the pressure.
+        assemblySteps: []
     parts:
       rebar-stake:
         description: Rebar Stake
@@ -14233,59 +14118,7 @@ components:
     parts: {}
     tools: {}
     precautions: []
-    assemblySteps:
-      - summary: 'Prepare   for  '
-        requiredParts:
-          - corner-connector
-          - m6-20mm-screw
-          - m6-thin-nut
-        requiredTools:
-          - 5mm-allen-wrench
-        details: >
-          . Insert an ** into the slot of the ** so that the hole of the **
-          aligns with the hole in the **.
-
-          . While holding the ** in place with a finger, insert an ** into the
-          hole of the **.
-
-          . Using the **, screw in the ** enough to hold the ** and ** in place.
-          Leave room for the ** to be inserted later.
-
-          . Repeat the above steps for each of the three slots on the **.
-
-          . Repeat each of the above steps for the ** .
-      - summary: Assemble Universal Frame Base
-        requiredParts:
-          - corner-connector
-          - rebar-stake
-        requiredTools:
-          - 5mm-allen-wrench
-        details: >
-          . Insert one ** into a slot on the **.
-
-          . Press the ** down hard into the slot so that the  are flush with the
-          bottom of the slot. This step is important to ensure squareness in the
-          frame.
-
-          . Using the **, screw down the ** in against the ** until it is tight.
-          If the plastic of the ** begins to strain or crack, unscrew the **
-          slightly to reduce the pressure.
-
-          . Insert the other end of the ** into another ** and repeat the above
-          steps to press and tighten down the **.
-
-          . Repeat the above steps so that there are two completed **  with ** 
-          on the ends.
-
-          . Insert two **  into the completed **  from the previous step so that
-          a square is formed.
-
-          . Press the square together hard to seat the **  onto the ** .
-
-          . Tighten the four loose **  down onto the **  to complete the
-          *Universal Frame Base Base*. As above, if the plastic of the ** 
-          begins to strain or crack, unscrew the ** slightly to reduce the
-          pressure.
+    assemblySteps: []
   universal-frame-corner-connector:
     name: universal-frame-corner-connector
     version: 1.0.0
@@ -14572,69 +14405,7 @@ components:
     parts: {}
     tools: {}
     precautions: []
-    assemblySteps:
-      - summary: Clean 3D Printed Parts
-        requiredParts:
-          - corner-connector-left
-          - corner-connector-right
-        requiredTools:
-          - hobby-knife
-        details: |
-          . Use the ** to clean any extra plastic off of the **  and ** .
-      - summary: 'Prepare   and   for  '
-        requiredParts:
-          - corner-connector-left
-          - corner-connector-right
-          - m6-20mm-screw
-          - m6-thin-nut
-        requiredTools:
-          - 5mm-allen-wrench
-        details: >
-          . Insert an ** into the slot of the ** so that the hole of the **
-          aligns with the hole in the **.
-
-          . While holding the ** in place with a finger, insert an ** into the
-          hole of the **.
-
-          . Using the **, screw in the ** enough to hold the ** and ** in place.
-          Leave room for the ** to be inserted later.
-
-          . Repeat the above steps for each of the three slots on the **.
-
-          . Repeat each of the above steps for the ** , and ** .
-      - summary: Assemble Universal Frame Top
-        requiredParts:
-          - corner-connector-left
-          - corner-connector-right
-          - rebar-stake
-        requiredTools:
-          - 5mm-allen-wrench
-        details: >
-          . Insert one ** into a slot on a **.
-
-          . Press the ** down hard into the slot so that the  are flush with the
-          bottom of the slot. This step is important to ensure squareness in the
-          frame.
-
-          . Using the **, screw down the ** in against the ** until it is tight.
-          If the plastic of the ** begins to strain or crack, unscrew the **
-          slightly to reduce the pressure.
-
-          . Insert the other end of the ** into a ** and repeat the above steps
-          to press and tighten down the **.
-
-          . Repeat the above steps so that there are two completed **  with ** 
-          and **  on the ends.
-
-          . Insert two **  into the completed **  from the previous step so that
-          a square is formed.
-
-          . Press the square together hard to seat the **  and **  onto the ** .
-
-          . Tighten the four loose **  down onto the **  to complete the
-          *Universal Frame Top Top*. As above, if the plastic of the **  or ** 
-          begins to strain or crack, unscrew the ** slightly to reduce the
-          pressure.
+    assemblySteps: []
   universal-gearless-extruder:
     name: universal-gearless-extruder
     version: 1.0.0
