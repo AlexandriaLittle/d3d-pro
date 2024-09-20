@@ -765,7 +765,8 @@ include::flatToolsBOM.adoc[]
 . If necessary, use the *Wire Strippers/Cutters* to strip the ends of all of the *Halogen Lightbulb Holder* wires.
 . Preheat the *Soldering Iron* to the operating temperature recommended by the *Electrical Solder* packaging.
 . Slide a *Heat Shrink Tubing* part(s) over one of the wires of a *Halogen Lightbulb Holder*.
-. Position one wire of one of the *Halogen Lightbulb Holder* part(s) and the wire with *Heat Shrink Tubing* from the previous step in the *Helping Hands* so that the exposed ends of the wires are touching. Make sure that the *Heat Shrink Tubing* is out of the way of the exposed wire.
+. Position one wire of one of the *Halogen Lightbulb Holder* part(s) and the wire with *Heat Shrink Tubing* from the previous step in the *Helping Hands* so that the exposed ends of the wires are touching. It may help to twist the wires together so that they stay in place during soldering.
+. Make sure that the *Heat Shrink Tubing* is out of the way of the exposed wire.
 . Hold the hot end of the *Soldering Iron* against the exposed wires in the *Helping Hands* for a few seconds to heat the wires.
 . Apply *Electrical Solder* to the contact point between the hot end of the *Soldering Iron* and the exposed wires until enough has been added to fuse the wires and make a good electrical connection.
 . Once the *Electrical Solder* has been applied, set the *Electrical Solder* aside and continue to hold the soldering iron to the soldered wires for a few seconds to allow the solder to flow up the wires.
