@@ -2507,17 +2507,6 @@ components:
             selectedOption: 0
             descriptionLong: '14awg-wire: 14AWG Wire'
             descriptionSelected: '14awg-wire: 14AWG Wire (14 AWG Braided Copper Wire v1.0.0)'
-          22awg-wire:
-            description: 22AWG Wire
-            id: 22awg-wire
-            notes: ''
-            options:
-              - 22awg-wire
-            quantity: 200
-            quantityUnits: mm
-            selectedOption: 0
-            descriptionLong: '22awg-wire: 22AWG Wire'
-            descriptionSelected: '22awg-wire: 22AWG Wire (22AWG Braided Copper Wire v1.0.0)'
           fork-terminal:
             description: Fork Terminal
             id: fork-terminal
@@ -2606,6 +2595,43 @@ components:
             descriptionLong: 'usb-a-to-usb-b-cable: USB A to USB B Cable'
             descriptionSelected: >-
               usb-a-to-usb-b-cable: USB A to USB B Cable (USB A to USB B Cable
+              v1.0.0)
+          22awg-wire-black:
+            description: Black 22AWG Wire
+            id: 22awg-wire-black
+            notes: ''
+            options:
+              - 22awg-wire
+            quantity: 200
+            quantityUnits: mm
+            selectedOption: 0
+            descriptionLong: '22awg-wire-black: Black 22AWG Wire'
+            descriptionSelected: >-
+              22awg-wire-black: Black 22AWG Wire (22AWG Braided Copper Wire
+              v1.0.0)
+          22awg-wire-red:
+            description: Red 22AWG Wire
+            id: 22awg-wire-red
+            notes: ''
+            options:
+              - 22awg-wire
+            quantity: 200
+            quantityUnits: mm
+            selectedOption: 0
+            descriptionLong: '22awg-wire-red: Red 22AWG Wire'
+            descriptionSelected: '22awg-wire-red: Red 22AWG Wire (22AWG Braided Copper Wire v1.0.0)'
+          22awg-wire-green:
+            description: Green 22AWG Wire
+            id: 22awg-wire-green
+            notes: ''
+            options:
+              - 22awg-wire
+            quantity: 200
+            quantityUnits: mm
+            selectedOption: 0
+            descriptionLong: '22awg-wire-green: Green 22AWG Wire'
+            descriptionSelected: >-
+              22awg-wire-green: Green 22AWG Wire (22AWG Braided Copper Wire
               v1.0.0)
         tools:
           3mm-flat-screwdriver:
@@ -2768,28 +2794,31 @@ components:
               - ferrule-crimper
               - dupont-crimper
             details: >
-              . Using the *Wire Strippers/Cutters*, cut two (2) 100mm long
-              pieces of *22AWG Wire*.
+              . Using the *Wire Strippers/Cutters*, cut one 100mm long piece of
+              *Red 22AWG Wire* and one 100mm long piece of *Black 22AWG Wire*.
 
               . Using the *Wire Strippers/Cutters*, strip approximately 1cm of
-              insulation off of both ends of the *22AWG Wire*.
+              insulation off of both ends of the *Red 22AWG Wire* and *Black
+              22AWG Wire*.
 
               . Place an appropriately sized *Ferrule* onto the end of the
-              stripped *22AWG Wire*.
+              stripped *Red 22AWG Wire*.
 
               . Using the *Ferrule Crimper*, crimp the *Ferrule* onto the wire.
 
-              . Use the *Wire Strippers/Cutters* to cut off any excess *22AWG
-              Wire* that is poking through the end of the *Ferrule*.
+              . Use the *Wire Strippers/Cutters* to cut off any excess *Red
+              22AWG Wire* that is poking through the end of the *Ferrule*.
 
-              . Repeat the above steps to crimp another *Ferrule* of a different
-              color to the end of the other *22AWG Wire*.
+              . Repeat the above steps to crimp another *Ferrule* to the end of
+              the *Black 22AWG Wire*.
 
               . Using the *Dupont Crimper*, crimp *Dupont Female Pin Connector*
-              part(s) onto the exposed ends of the *22AWG Wire*.
+              part(s) onto the exposed ends of the *Red 22AWG Wire* and *Black
+              22AWG Wire*.
 
               . Insert the both of the *Dupont Female Pin Connector* ends of the
-              *22AWG Wire* into a *2 Pin Female Dupont Connector*.
+              *Red 22AWG Wire* and *Black 22AWG Wire* into a *2 Pin Female
+              Dupont Connector*.
 
               . The *RAMPS 1.4 Board to RAMPS 1.4 Board 24v Power Custom Wires*
               are complete.
@@ -2805,29 +2834,32 @@ components:
               - ferrule-crimper
               - wire-stripper-cutter
             details: >
-              . Using the *Wire Strippers/Cutters*, cut two (2) 200mm long
-              pieces of *22AWG Wire*.
+              . Using the *Wire Strippers/Cutters*, cut one 200mm long piece of
+              *Red 22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
 
               . Using the *Wire Strippers/Cutters*, strip approximately 1cm of
-              insulation off of both ends of each of the *22AWG Wire* lengths.
+              insulation off of both ends of each of the *Red 22AWG Wire* and
+              *Black 22AWG Wire* lengths.
 
               . Place an appropriately sized *Ferrule* onto one end of each of
-              the stripped *22AWG Wire* lengths.
+              the stripped *Red 22AWG Wire* and *Black 22AWG Wire* lengths.
 
               . Using the *Ferrule Crimper*, crimp the *Ferrule* part(s) onto
-              each *22AWG Wire*.
+              the *Red 22AWG Wire* and *Black 22AWG Wire*.
 
-              . Use the *Wire Strippers/Cutters* to cut off any excess *22AWG
-              Wire* that is poking through the ends of the *Ferrule* part(s).
+              . Use the *Wire Strippers/Cutters* to cut off any excess *Red
+              22AWG Wire* or *Black 22AWG Wire* that is poking through the ends
+              of the *Ferrule* part(s).
 
-              . Use the *Dupont Crimper* to crimp on an appropriately sized
-              *Fork Terminal* part(s) to the exposed ends of each *22AWG Wire*.
+              . Use the *Dupont Crimper* to crimp on appropriately sized *Fork
+              Terminal* part(s) to the exposed ends of each *Red 22AWG Wire* and
+              *Black 22AWG Wire*.
 
               . The *RAMPS 1.4 Board to Solid State Relay (SSR) 24v Signal
               Custom Wires* are complete.
           - summary: >-
-              Assemble the Two Prong Electrical Plug to 24v Power Supply Module
-              120v Power Custom Wires
+              Assemble the Two Prong Electrical Plug to 24v Power Supply
+              Module/Fast Heated Bed 120v Power Custom Wires
             requiredParts: []
             requiredTools: []
             details: |
@@ -12371,17 +12403,6 @@ components:
         selectedOption: 0
         descriptionLong: '14awg-wire: 14AWG Wire'
         descriptionSelected: '14awg-wire: 14AWG Wire (14 AWG Braided Copper Wire v1.0.0)'
-      22awg-wire:
-        description: 22AWG Wire
-        id: 22awg-wire
-        notes: ''
-        options:
-          - 22awg-wire
-        quantity: 200
-        quantityUnits: mm
-        selectedOption: 0
-        descriptionLong: '22awg-wire: 22AWG Wire'
-        descriptionSelected: '22awg-wire: 22AWG Wire (22AWG Braided Copper Wire v1.0.0)'
       fork-terminal:
         description: Fork Terminal
         id: fork-terminal
@@ -12471,6 +12492,39 @@ components:
         descriptionSelected: >-
           usb-a-to-usb-b-cable: USB A to USB B Cable (USB A to USB B Cable
           v1.0.0)
+      22awg-wire-black:
+        description: Black 22AWG Wire
+        id: 22awg-wire-black
+        notes: ''
+        options:
+          - 22awg-wire
+        quantity: 200
+        quantityUnits: mm
+        selectedOption: 0
+        descriptionLong: '22awg-wire-black: Black 22AWG Wire'
+        descriptionSelected: '22awg-wire-black: Black 22AWG Wire (22AWG Braided Copper Wire v1.0.0)'
+      22awg-wire-red:
+        description: Red 22AWG Wire
+        id: 22awg-wire-red
+        notes: ''
+        options:
+          - 22awg-wire
+        quantity: 200
+        quantityUnits: mm
+        selectedOption: 0
+        descriptionLong: '22awg-wire-red: Red 22AWG Wire'
+        descriptionSelected: '22awg-wire-red: Red 22AWG Wire (22AWG Braided Copper Wire v1.0.0)'
+      22awg-wire-green:
+        description: Green 22AWG Wire
+        id: 22awg-wire-green
+        notes: ''
+        options:
+          - 22awg-wire
+        quantity: 200
+        quantityUnits: mm
+        selectedOption: 0
+        descriptionLong: '22awg-wire-green: Green 22AWG Wire'
+        descriptionSelected: '22awg-wire-green: Green 22AWG Wire (22AWG Braided Copper Wire v1.0.0)'
     tools:
       3mm-flat-screwdriver:
         description: 3mm Flat Head Screwdriver
@@ -12630,28 +12684,31 @@ components:
           - ferrule-crimper
           - dupont-crimper
         details: >
-          . Using the *Wire Strippers/Cutters*, cut two (2) 100mm long pieces of
-          *22AWG Wire*.
+          . Using the *Wire Strippers/Cutters*, cut one 100mm long piece of *Red
+          22AWG Wire* and one 100mm long piece of *Black 22AWG Wire*.
 
           . Using the *Wire Strippers/Cutters*, strip approximately 1cm of
-          insulation off of both ends of the *22AWG Wire*.
+          insulation off of both ends of the *Red 22AWG Wire* and *Black 22AWG
+          Wire*.
 
           . Place an appropriately sized *Ferrule* onto the end of the stripped
-          *22AWG Wire*.
+          *Red 22AWG Wire*.
 
           . Using the *Ferrule Crimper*, crimp the *Ferrule* onto the wire.
 
-          . Use the *Wire Strippers/Cutters* to cut off any excess *22AWG Wire*
-          that is poking through the end of the *Ferrule*.
+          . Use the *Wire Strippers/Cutters* to cut off any excess *Red 22AWG
+          Wire* that is poking through the end of the *Ferrule*.
 
-          . Repeat the above steps to crimp another *Ferrule* of a different
-          color to the end of the other *22AWG Wire*.
+          . Repeat the above steps to crimp another *Ferrule* to the end of the
+          *Black 22AWG Wire*.
 
           . Using the *Dupont Crimper*, crimp *Dupont Female Pin Connector*
-          part(s) onto the exposed ends of the *22AWG Wire*.
+          part(s) onto the exposed ends of the *Red 22AWG Wire* and *Black 22AWG
+          Wire*.
 
           . Insert the both of the *Dupont Female Pin Connector* ends of the
-          *22AWG Wire* into a *2 Pin Female Dupont Connector*.
+          *Red 22AWG Wire* and *Black 22AWG Wire* into a *2 Pin Female Dupont
+          Connector*.
 
           . The *RAMPS 1.4 Board to RAMPS 1.4 Board 24v Power Custom Wires* are
           complete.
@@ -12667,29 +12724,32 @@ components:
           - ferrule-crimper
           - wire-stripper-cutter
         details: >
-          . Using the *Wire Strippers/Cutters*, cut two (2) 200mm long pieces of
-          *22AWG Wire*.
+          . Using the *Wire Strippers/Cutters*, cut one 200mm long piece of *Red
+          22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
 
           . Using the *Wire Strippers/Cutters*, strip approximately 1cm of
-          insulation off of both ends of each of the *22AWG Wire* lengths.
+          insulation off of both ends of each of the *Red 22AWG Wire* and *Black
+          22AWG Wire* lengths.
 
           . Place an appropriately sized *Ferrule* onto one end of each of the
-          stripped *22AWG Wire* lengths.
+          stripped *Red 22AWG Wire* and *Black 22AWG Wire* lengths.
 
-          . Using the *Ferrule Crimper*, crimp the *Ferrule* part(s) onto each
-          *22AWG Wire*.
+          . Using the *Ferrule Crimper*, crimp the *Ferrule* part(s) onto the
+          *Red 22AWG Wire* and *Black 22AWG Wire*.
 
-          . Use the *Wire Strippers/Cutters* to cut off any excess *22AWG Wire*
-          that is poking through the ends of the *Ferrule* part(s).
+          . Use the *Wire Strippers/Cutters* to cut off any excess *Red 22AWG
+          Wire* or *Black 22AWG Wire* that is poking through the ends of the
+          *Ferrule* part(s).
 
-          . Use the *Dupont Crimper* to crimp on an appropriately sized *Fork
-          Terminal* part(s) to the exposed ends of each *22AWG Wire*.
+          . Use the *Dupont Crimper* to crimp on appropriately sized *Fork
+          Terminal* part(s) to the exposed ends of each *Red 22AWG Wire* and
+          *Black 22AWG Wire*.
 
           . The *RAMPS 1.4 Board to Solid State Relay (SSR) 24v Signal Custom
           Wires* are complete.
       - summary: >-
-          Assemble the Two Prong Electrical Plug to 24v Power Supply Module 120v
-          Power Custom Wires
+          Assemble the Two Prong Electrical Plug to 24v Power Supply Module/Fast
+          Heated Bed 120v Power Custom Wires
         requiredParts: []
         requiredTools: []
         details: |

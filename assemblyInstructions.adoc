@@ -1,7 +1,7 @@
 = D3D Pro 3D Printer Assembly Instructions
 Alexandria Little - CC-BY-SA-4.0
 :revnumber: v23.12
-:revdate: 9/19/2024
+:revdate: 9/20/2024
 :sectnums:
 :toc:
 :toclevels: 3
@@ -5043,14 +5043,6 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 
 
 
-|200 mm
-|22awg-wire
-|22AWG Wire
-|22AWG Braided Copper Wire v1.0.0
-|
-
-
-
 |4 part(s)
 |fork-terminal
 |Fork Terminal
@@ -5103,6 +5095,30 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 |usb-a-to-usb-b-cable
 |USB A to USB B Cable
 |USB A to USB B Cable v1.0.0
+|
+
+
+
+|200 mm
+|22awg-wire-black
+|Black 22AWG Wire
+|22AWG Braided Copper Wire v1.0.0
+|
+
+
+
+|200 mm
+|22awg-wire-red
+|Red 22AWG Wire
+|22AWG Braided Copper Wire v1.0.0
+|
+
+
+
+|200 mm
+|22awg-wire-green
+|Green 22AWG Wire
+|22AWG Braided Copper Wire v1.0.0
 |
 
 |===
@@ -5310,6 +5326,14 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 
 
 
+
+
+
+
+
+
+
+
 // Procedure
 === Procedure
 
@@ -5366,7 +5390,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 //
 //* Ferrule
 //
-//* 22AWG Wire
+//* 
 //
 //* Dupont Female Pin Connector
 //
@@ -5378,14 +5402,14 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 
 *Instructions*
 
-. Using the *Wire Strippers/Cutters*, cut two (2) 100mm long pieces of *22AWG Wire*.
-. Using the *Wire Strippers/Cutters*, strip approximately 1cm of insulation off of both ends of the *22AWG Wire*.
-. Place an appropriately sized *Ferrule* onto the end of the stripped *22AWG Wire*.
+. Using the *Wire Strippers/Cutters*, cut one 100mm long piece of *Red 22AWG Wire* and one 100mm long piece of *Black 22AWG Wire*.
+. Using the *Wire Strippers/Cutters*, strip approximately 1cm of insulation off of both ends of the *Red 22AWG Wire* and *Black 22AWG Wire*.
+. Place an appropriately sized *Ferrule* onto the end of the stripped *Red 22AWG Wire*.
 . Using the *Ferrule Crimper*, crimp the *Ferrule* onto the wire.
-. Use the *Wire Strippers/Cutters* to cut off any excess *22AWG Wire* that is poking through the end of the *Ferrule*.
-. Repeat the above steps to crimp another *Ferrule* of a different color to the end of the other *22AWG Wire*.
-. Using the *Dupont Crimper*, crimp *Dupont Female Pin Connector* part(s) onto the exposed ends of the *22AWG Wire*.
-. Insert the both of the *Dupont Female Pin Connector* ends of the *22AWG Wire* into a *2 Pin Female Dupont Connector*.
+. Use the *Wire Strippers/Cutters* to cut off any excess *Red 22AWG Wire* that is poking through the end of the *Ferrule*.
+. Repeat the above steps to crimp another *Ferrule* to the end of the *Black 22AWG Wire*.
+. Using the *Dupont Crimper*, crimp *Dupont Female Pin Connector* part(s) onto the exposed ends of the *Red 22AWG Wire* and *Black 22AWG Wire*.
+. Insert the both of the *Dupont Female Pin Connector* ends of the *Red 22AWG Wire* and *Black 22AWG Wire* into a *2 Pin Female Dupont Connector*.
 . The *RAMPS 1.4 Board to RAMPS 1.4 Board 24v Power Custom Wires* are complete.
 
 
@@ -5414,7 +5438,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 //
 //* Ferrule
 //
-//* 22AWG Wire
+//* 
 //
 //* Fork Terminal
 //
@@ -5424,12 +5448,12 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 
 *Instructions*
 
-. Using the *Wire Strippers/Cutters*, cut two (2) 200mm long pieces of *22AWG Wire*.
-. Using the *Wire Strippers/Cutters*, strip approximately 1cm of insulation off of both ends of each of the *22AWG Wire* lengths.
-. Place an appropriately sized *Ferrule* onto one end of each of the stripped *22AWG Wire* lengths.
-. Using the *Ferrule Crimper*, crimp the *Ferrule* part(s) onto each *22AWG Wire*.
-. Use the *Wire Strippers/Cutters* to cut off any excess *22AWG Wire* that is poking through the ends of the *Ferrule* part(s).
-. Use the *Dupont Crimper* to crimp on an appropriately sized *Fork Terminal* part(s) to the exposed ends of each *22AWG Wire*.
+. Using the *Wire Strippers/Cutters*, cut one 200mm long piece of *Red 22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
+. Using the *Wire Strippers/Cutters*, strip approximately 1cm of insulation off of both ends of each of the *Red 22AWG Wire* and *Black 22AWG Wire* lengths.
+. Place an appropriately sized *Ferrule* onto one end of each of the stripped *Red 22AWG Wire* and *Black 22AWG Wire* lengths.
+. Using the *Ferrule Crimper*, crimp the *Ferrule* part(s) onto the *Red 22AWG Wire* and *Black 22AWG Wire*.
+. Use the *Wire Strippers/Cutters* to cut off any excess *Red 22AWG Wire* or *Black 22AWG Wire* that is poking through the ends of the *Ferrule* part(s).
+. Use the *Dupont Crimper* to crimp on appropriately sized *Fork Terminal* part(s) to the exposed ends of each *Red 22AWG Wire* and *Black 22AWG Wire*.
 . The *RAMPS 1.4 Board to Solid State Relay (SSR) 24v Signal Custom Wires* are complete.
 
 
@@ -5437,7 +5461,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 
 // summary
 
-==== Assemble the Two Prong Electrical Plug to 24v Power Supply Module 120v Power Custom Wires
+==== Assemble the Two Prong Electrical Plug to 24v Power Supply Module/Fast Heated Bed 120v Power Custom Wires
 
 
 // requiredTools
