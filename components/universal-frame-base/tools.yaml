@@ -1,18 +1,1 @@
-5mm-allen-wrench:
-  description: 5mm Allen Wrench
-  id: 5mm-allen-wrench
-  notes: ''
-  options:
-    - 5mm-allen-wrench
-  quantity: 1
-  quantityUnits: part
-  selectedOption: 0
-hobby-knife:
-  description: Hobby Knife
-  id: hobby-knife
-  notes: ''
-  options:
-    - hobby-knife
-  quantity: 1
-  quantityUnits: part
-  selectedOption: 0
+{}

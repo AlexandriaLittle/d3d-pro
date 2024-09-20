@@ -1,3 +1,71 @@
+- summary: Clean 3D Printed Parts
+  requiredParts:
+  - corner-connector-left
+  - corner-connector-right
+  - corner-connector
+
+  requiredTools: 
+  - hobby-knife
+
+  details: |
+    . Use the *{{tools.hobby-knife.description}}* to clean any extra plastic off of the 3D printed parts.
+
+- summary: Prepare {{parts.corner-connector.description}} {{parts.corner-connector.quantityUnits}}, {{parts.corner-connector-left.description}} {{parts.corner-connector-left.quantityUnits}}, and {{parts.corner-connector-right.description}} {{parts.corner-connector-right.quantityUnits}} for {{parts.rebar-stake.description}} {{parts.rebar-stake.quantityUnits}}
+  requiredParts:
+  - corner-connector
+  - m6-20mm-screw
+  - m6-thin-nut
+
+  requiredTools:
+  - 5mm-allen-wrench
+
+  details: |
+    . Insert an *{{parts.m6-thin-nut.description}}* into the slot of the *{{parts.corner-connector.description}}* so that the hole of the *{{parts.m6-thin-nut.description}}* aligns with the hole in the *{{parts.corner-connector.description}}*.
+    . While holding the *{{parts.m6-thin-nut.description}}* in place with a finger, insert an *{{parts.m6-20mm-screw.description}}* into the hole of the *{{parts.corner-connector.description}}*.
+    . Using the *{{tools.5mm-allen-wrench.description}}*, screw in the *{{parts.m6-20mm-screw.description}}* enough to hold the *{{parts.m6-20mm-screw.description}}* and *{{parts.m6-thin-nut.description}}* in place. Leave room for the *{{parts.rebar-stake.description}}* to be inserted later.
+    . Repeat the above steps for each of the three slots on the *{{parts.corner-connector.description}}*.
+    . Repeat each of the above steps for the *{{parts.corner-connector.description}}* {{parts.corner-connector.quantityUnits}}, *{{parts.corner-connector-left.description}}* {{parts.corner-connector-left.quantityUnits}}, and *{{parts.corner-connector-right.description}}* {{parts.corner-connector-right.quantityUnits}}
+
+- summary: Assemble {{components.universal-frame-base.description}}
+  requiredParts:
+  - corner-connector
+  - rebar-stake
+
+  requiredTools:
+  - 5mm-allen-wrench
+
+  details: |
+    . Insert one *{{parts.rebar-stake.description}}* into a slot on the *{{parts.corner-connector.description}}*.
+    . Press the *{{parts.rebar-stake.description}}* down hard into the slot so that the {{parts.rebar-stake.quantityUnits}} are flush with the bottom of the slot. This step is important to ensure squareness in the frame.
+    . Using the *{{tools.5mm-allen-wrench.description}}*, screw down the *{{parts.m6-20mm-screw.description}}* in against the *{{parts.rebar-stake.description}}* until it is tight. If the plastic of the *{{parts.corner-connector.description}}* begins to strain or crack, unscrew the *{{parts.m6-20mm-screw.description}}* slightly to reduce the pressure.
+    . Insert the other end of the *{{parts.rebar-stake.description}}* into another *{{parts.corner-connector.description}}* and repeat the above steps to press and tighten down the *{{parts.corner-connector.description}}*.
+    . Repeat the above steps so that there are two completed *{{parts.rebar-stake.description}}* {{parts.rebar-stake.quantityUnits}} with *{{parts.corner-connector.description}}* {{parts.corner-connector.quantityUnits}} on the ends.
+    . Insert two *{{parts.rebar-stake.description}}* {{parts.rebar-stake.quantityUnits}} into the completed *{{parts.rebar-stake.description}}* {{parts.rebar-stake.quantityUnits}} from the previous step so that a square is formed.
+    . Press the square together hard to seat the *{{parts.corner-connector.description}}* {{parts.corner-connector.quantityUnits}} onto the *{{parts.rebar-stake.description}}* {{parts.rebar-stake.quantityUnits}}.
+    . Tighten the four loose *{{parts.m6-20mm-screw.description}}* {{parts.m6-20mm-screw.quantityUnits}} down onto the *{{parts.rebar-stake.description}}* {{parts.rebar-stake.quantityUnits}} to complete the *{{description}} Base*. As above, if the plastic of the *{{parts.corner-connector.description}}* {{parts.corner-connector.quantityUnits}} begins to strain or crack, unscrew the *{{parts.m6-20mm-screw.description}}* slightly to reduce the pressure.
+    . The {{components.universal-frame-base.description}} is complete.
+
+
+- summary: Assemble {{components.universal-frame-top.description}}
+  requiredParts:
+  - corner-connector-left
+  - corner-connector-right
+  - rebar-stake
+
+  requiredTools:
+  - 5mm-allen-wrench
+
+  details: |
+    . Insert one *{{parts.rebar-stake.description}}* into a slot on a *{{parts.corner-connector-left.description}}*.
+    . Press the *{{parts.rebar-stake.description}}* down hard into the slot so that the {{parts.rebar-stake.quantityUnits}} are flush with the bottom of the slot. This step is important to ensure squareness in the frame.
+    . Using the *{{tools.5mm-allen-wrench.description}}*, screw down the *{{parts.m6-20mm-screw.description}}* in against the *{{parts.rebar-stake.description}}* until it is tight. If the plastic of the *{{parts.corner-connector-left.description}}* begins to strain or crack, unscrew the *{{parts.m6-20mm-screw.description}}* slightly to reduce the pressure.
+    . Insert the other end of the *{{parts.rebar-stake.description}}* into a *{{parts.corner-connector-right.description}}* and repeat the above steps to press and tighten down the *{{parts.corner-connector-right.description}}*.
+    . Repeat the above steps so that there are two completed *{{parts.rebar-stake.description}}* {{parts.rebar-stake.quantityUnits}} with *{{parts.corner-connector-left.description}}* {{parts.corner-connector-left.quantityUnits}} and *{{parts.corner-connector-right.description}}* {{parts.corner-connector-right.quantityUnits}} on the ends.
+    . Insert two *{{parts.rebar-stake.description}}* {{parts.rebar-stake.quantityUnits}} into the completed *{{parts.rebar-stake.description}}* {{parts.rebar-stake.quantityUnits}} from the previous step so that a square is formed.
+    . Press the square together hard to seat the *{{parts.corner-connector-left.description}}* {{parts.corner-connector-left.quantityUnits}} and *{{parts.corner-connector-right.description}}* {{parts.corner-connector-right.quantityUnits}} onto the *{{parts.rebar-stake.description}}* {{parts.rebar-stake.quantityUnits}}.
+    . Tighten the four loose *{{parts.m6-20mm-screw.description}}* {{parts.m6-20mm-screw.quantityUnits}} down onto the *{{parts.rebar-stake.description}}* {{parts.rebar-stake.quantityUnits}} to complete the *{{description}} Top*. As above, if the plastic of the *{{parts.corner-connector-left.description}}* {{parts.corner-connector-left.quantityUnits}} or *{{parts.corner-connector-right.description}}* {{parts.corner-connector-right.quantityUnits}} begins to strain or crack, unscrew the *{{parts.m6-20mm-screw.description}}* slightly to reduce the pressure.
+    . The {{components.universal-frame-top.description}} is complete.
+
 - summary: Assemble {{description}}
   requiredParts:
   - rebar-stake
@@ -8,12 +76,12 @@
   - 5mm-allen-wrench
 
   details: |
-    . Orient the *{{parts.universal-frame-top.description}}* so that the open slots point upward.
-    . Insert the four *{{parts.rebar-stake.description}}* {{parts.rebar-stake.quantityUnits}} into the slots of the *{{parts.universal-frame-top.description}}*.
-    . Firmly press each *{{parts.rebar-stake.description}}* {{parts.rebar-stake.quantityUnits}} into the *{{parts.universal-frame-top.description}}* so that they are flush with the bottom of the slots in the *{{parts.universal-frame-top.description}}*.
-    . Tighten down all of the remaining fasteners on the *{{parts.universal-frame-top.description}}* to secure the *{{parts.rebar-stake.description}}* {{parts.rebar-stake.quantityUnits}} in place. If the plastic of the *{{parts.universal-frame-top.description}}* begins to strain or crack, unscrew the fastener slightly to reduce the pressure.
-    . Orient the *{{parts.universal-frame-base.description}}* so that the open slots point upward.
-    . Insert the four *{{parts.rebar-stake.description}}* {{parts.rebar-stake.quantityUnits}} that are connected to the *{{parts.universal-frame-top.description}}* into the slots of the *{{parts.universal-frame-base.description}}*.
-    . Firmly press the *{{parts.universal-frame-top.description}}* down onto the *{{parts.universal-frame-base.description}}* so that the *{{parts.rebar-stake.description}}* {{parts.rebar-stake.quantityUnits}} are properly seated.
-    . Tighten down all of the remaining fasteners on the *{{parts.universal-frame-base.description}}* to secure the *{{parts.rebar-stake.description}}* {{parts.rebar-stake.quantityUnits}} in place. If the plastic of the *{{parts.universal-frame-base.description}}* begins to strain or crack, unscrew the fastener slightly to reduce the pressure.
+    . Orient the *{{components.universal-frame-top.description}}* so that the open slots point upward.
+    . Insert the four *{{parts.rebar-stake.description}}* {{parts.rebar-stake.quantityUnits}} into the slots of the *{{components.universal-frame-top.description}}*.
+    . Firmly press each *{{parts.rebar-stake.description}}* {{parts.rebar-stake.quantityUnits}} into the *{{components.universal-frame-top.description}}* so that they are flush with the bottom of the slots in the *{{components.universal-frame-top.description}}*.
+    . Tighten down all of the remaining fasteners on the *{{components.universal-frame-top.description}}* to secure the *{{parts.rebar-stake.description}}* {{parts.rebar-stake.quantityUnits}} in place. If the plastic of the *{{components.universal-frame-top.description}}* begins to strain or crack, unscrew the fastener slightly to reduce the pressure.
+    . Orient the *{{components.universal-frame-base.description}}* so that the open slots point upward.
+    . Insert the four *{{parts.rebar-stake.description}}* {{parts.rebar-stake.quantityUnits}} that are connected to the *{{components.universal-frame-top.description}}* into the slots of the *{{components.universal-frame-base.description}}*.
+    . Firmly press the *{{components.universal-frame-top.description}}* down onto the *{{components.universal-frame-base.description}}* so that the *{{parts.rebar-stake.description}}* {{parts.rebar-stake.quantityUnits}} are properly seated.
+    . Tighten down all of the remaining fasteners on the *{{components.universal-frame-base.description}}* to secure the *{{parts.rebar-stake.description}}* {{parts.rebar-stake.quantityUnits}} in place. If the plastic of the *{{components.universal-frame-base.description}}* begins to strain or crack, unscrew the fastener slightly to reduce the pressure.
     . The *{{description}}* is complete.

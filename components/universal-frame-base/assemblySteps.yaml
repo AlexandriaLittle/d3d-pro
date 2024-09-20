@@ -1,13 +1,3 @@
-- summary: Clean 3D Printed Parts
-  requiredParts:
-  - corner-connector
-
-  requiredTools: 
-  - hobby-knife
-
-  details: |
-    . Use the *{{tools.hobby-knife.description}}* to clean any extra plastic off of the *{{parts.corner-connector.description}}* {{parts.corner-connector.quantityUnits}}.
-
 - summary: Prepare {{parts.corner-connector.description}} {{parts.corner-connector.quantityUnits}} for {{parts.rebar-stake.description}} {{parts.rebar-stake.quantityUnits}}
   requiredParts:
   - corner-connector

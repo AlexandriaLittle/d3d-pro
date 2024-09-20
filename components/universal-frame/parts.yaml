@@ -7,21 +7,48 @@ rebar-stake:
   quantity: 4
   quantityUnits: part(s)
   selectedOption: 0
-universal-frame-base:
-  description: Universal Frame Base
-  id: universal-frame-base
+m6-20mm-screw:
+  description: M6 x 20mm Screw
+  id: m6-20mm-screw
   notes: ''
   options:
-    - universal-frame-base
-  quantity: 1
-  quantityUnits: module
+    - m6-20mm-socket-head-cap-screw
+  quantity: 12
+  quantityUnits: part(s)
   selectedOption: 0
-universal-frame-top:
-  description: Universal Frame Top
-  id: universal-frame-top
+m6-thin-nut:
+  description: M6 Thin Nut
+  id: m6-thin-nut
   notes: ''
   options:
-    - universal-frame-top
-  quantity: 1
-  quantityUnits: module
+    - m6-thin-nut
+  quantity: 12
+  quantityUnits: part(s)
+  selectedOption: 0
+corner-connector:
+  description: Corner Connector
+  id: corner-connector
+  notes: ''
+  options:
+    - universal-frame-corner-connector
+  quantity: 4
+  quantityUnits: part(s)
+  selectedOption: 0
+corner-connector-left:
+  description: Left Corner Connector
+  id: corner-connector-left
+  notes: ''
+  options:
+    - universal-frame-corner-connector-left
+  quantity: 2
+  quantityUnits: part(s)
+  selectedOption: 0
+corner-connector-right:
+  description: Right Corner Connector
+  id: corner-connector-right
+  notes: ''
+  options:
+    - universal-frame-corner-connector-right
+  quantity: 2
+  quantityUnits: part(s)
   selectedOption: 0
