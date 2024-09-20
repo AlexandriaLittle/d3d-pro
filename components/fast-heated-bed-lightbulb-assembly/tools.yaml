@@ -25,3 +25,21 @@ paper-towels:
   quantity: 1
   quantityUnits: section
   selectedOption: 0
+heat-source:
+  description: Heat Source
+  id: heat-source
+  notes: 'A heat gun, a lighter, etc.'
+  options:
+    - lighter
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+scissors:
+  description: Scissors
+  id: scissors
+  notes: ''
+  options:
+    - scissors
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0

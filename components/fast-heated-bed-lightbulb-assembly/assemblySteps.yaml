@@ -1,26 +1,53 @@
-- summary: Assemble {{description}}
+- summary: Solder the {{parts.halogen-lightbulb-holder.description}} {{parts.halogen-lightbulb-holder.quantityUnits}}
   requiredParts: 
-  - halogen-lightbulb
   - halogen-lightbulb-holder
   - electrical-solder
 
   requiredTools: 
   - soldering-iron
-  - paper-towels
 
   details: |
     . Preheat the *{{tools.soldering-iron.description}}* to the operating temperature recommended by the *{{parts.electrical-solder.description}}* packaging.
-    . Position the wires of two *{{parts.halogen-lightbulb-holder.description}}* {{parts.halogen-lightbulb-holder.quantityUnits}} in the *{{tools.helping-hands.description}}* so that the exposed ends of the wires are touching.
+    . Slide a *{{parts.heat-shrink-tubing.description}}* {{parts.heat-shrink-tubing.quantityUnits}} over one of the wires of a *{{parts.halogen-lightbulb-holder.description}}*.
+    . Position one wire of one of the *{{parts.halogen-lightbulb-holder.description}}* {{parts.halogen-lightbulb-holder.quantityUnits}} and the wire with *{{parts.heat-shrink-tubing.description}}* from the previous step in the *{{tools.helping-hands.description}}* so that the exposed ends of the wires are touching. Make sure that the *{{parts.heat-shrink-tubing.description}}* is out of the way of the exposed wire.
     . Hold the hot end of the *{{tools.soldering-iron.description}}* against the exposed wires in the *{{tools.helping-hands.description}}* for a few seconds to heat the wires.
     . Apply *{{parts.electrical-solder.description}}* to the contact point between the hot end of the *{{tools.soldering-iron.description}}* and the exposed wires until enough has been added to fuse the wires and make a good electrical connection.
+    . Once the *{{parts.electrical-solder.description}}* has been applied, set the *{{parts.electrical-solder.description}}* aside and continue to hold the soldering iron to the soldered wires for a few seconds to allow the solder to flow up the wires.
     . Remove the hot end of the *{{tools.soldering-iron.description}}* from the wires.
     . Wait for the wires to cool and then remove them from the *{{tools.helping-hands.description}}*. 
-    . Take the other wire of one of the previously soldered *{{parts.halogen-lightbulb-holder.description}}* {{parts.halogen-lightbulb-holder.quantityUnits}} and position it in the *{{tools.helping-hands.description}}*.
+    . Slide the *{{parts.heat-shrink-tubing.description}}* across the soldered area and use a *{{tools.heat-source.description}}* to shrink the *{{parts.heat-shrink-tubing.description}}* over the wires.
+    . Take the other wire of one of the previously soldered *{{parts.halogen-lightbulb-holder.description}}* {{parts.halogen-lightbulb-holder.quantityUnits}}, slide a *{{parts.heat-shrink-tubing.description}}* {{parts.heat-shrink-tubing.quantityUnits}} onto the wire, and position it in the *{{tools.helping-hands.description}}*.
     . Position one of the wires of the remaining *{{parts.halogen-lightbulb-holder.description}}* {{parts.halogen-lightbulb-holder.quantityUnits}} in the unused side of the *{{tools.helping-hands.description}}*.
     . Hold the hot end of the *{{tools.soldering-iron.description}}* against the exposed wires in the *{{tools.helping-hands.description}}* for a few seconds to heat the wires.
     . Apply *{{parts.electrical-solder.description}}* to the contact point between the hot end of the *{{tools.soldering-iron.description}}* and the exposed wires until enough has been added to fuse the wires and make a good electrical connection.
+    . Once the *{{parts.electrical-solder.description}}* has been applied, set the *{{parts.electrical-solder.description}}* aside and continue to hold the soldering iron to the soldered wires for a few seconds to allow the solder to flow up the wires.
     . Remove the hot end of the *{{tools.soldering-iron.description}}* from the wires.
     . Wait for the wires to cool and then remove them from the *{{tools.helping-hands.description}}*.
+
+
+- summary: Insulate the soldered connections
+  requiredParts: 
+  - halogen-lightbulb-holder
+  - metal-zip-tie
+  - carbon-fiber-blanket-stock
+
+  requiredTools: 
+  - scissors
+
+  details: |
+    . Cut two pieces of the *{{parts.carbon-fiber-blanket-stock.description}}* to size (75mm x 75mm) using *{{tools.scissors}}*.
+
+
+
+- summary: Add {{parts.halogen-lightbulb.description}} {{parts.halogen-lightbulb.quantityUnits}}
+  requiredParts: 
+  - halogen-lightbulb
+  - halogen-lightbulb-holder
+
+  requiredTools: 
+  - paper-towels
+
+  details: |
     . Using *{{tools.paper-towels.description}}*, remove a *{{parts.halogen-lightbulb.description}}* {{parts.halogen-lightbulb.quantityUnits}} from its packaging material and insert it into one of the *{{parts.halogen-lightbulb-holder.description}}* {{parts.halogen-lightbulb-holder.quantityUnits}}. Be careful to not touch the *{{parts.halogen-lightbulb.description}}* with your hands (see precautions).
     . Repeat the above step for each of the other *{{parts.halogen-lightbulb-holder.description}}* {{parts.halogen-lightbulb-holder.quantityUnits}}*.
     . The *{{description}}* is now complete.

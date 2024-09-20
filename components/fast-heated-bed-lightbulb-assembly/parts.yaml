@@ -25,3 +25,30 @@ electrical-solder:
   quantity: 2
   quantityUnits: application(s)
   selectedOption: 0
+heat-shrink-tubing:
+  description: Heat Shrink Tubing
+  id: heat-shrink-tubing
+  notes: ''
+  options:
+    - heat-shrink-tubing
+  quantity: 2
+  quantityUnits: part(s)
+  selectedOption: 0
+metal-zip-tie:
+  description: Metal Zip Tie
+  id: metal-zip-tie
+  notes: ''
+  options:
+    - metal-zip-tie
+  quantity: 4
+  quantityUnits: part(s)
+  selectedOption: 0
+carbon-fiber-blanket-stock:
+  description: Carbon Fiber Blanket
+  id: carbon-fiber-blanket-stock
+  notes: ''
+  options:
+    - carbon-fiber-blanket-stock
+  quantity: 1
+  quantityUnits: part(s)
+  selectedOption: 0
