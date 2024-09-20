@@ -43,3 +43,12 @@ scissors:
   quantity: 1
   quantityUnits: part
   selectedOption: 0
+wire-stripper-cutter:
+  description: Wire Strippers/Cutters
+  id: wire-stripper-cutter
+  notes: ''
+  options:
+    - wire-stripper-cutter
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0

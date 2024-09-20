@@ -5,8 +5,10 @@
 
   requiredTools: 
   - soldering-iron
+  - wire-stripper-cutter
 
   details: |
+    . If necessary, use the *{{tools.wire-stripper-cutter.description}}* to strip the ends of all of the *{{parts.halogen-lightbulb-holder.description}}* wires.
     . Preheat the *{{tools.soldering-iron.description}}* to the operating temperature recommended by the *{{parts.electrical-solder.description}}* packaging.
     . Slide a *{{parts.heat-shrink-tubing.description}}* {{parts.heat-shrink-tubing.quantityUnits}} over one of the wires of a *{{parts.halogen-lightbulb-holder.description}}*.
     . Position one wire of one of the *{{parts.halogen-lightbulb-holder.description}}* {{parts.halogen-lightbulb-holder.quantityUnits}} and the wire with *{{parts.heat-shrink-tubing.description}}* from the previous step in the *{{tools.helping-hands.description}}* so that the exposed ends of the wires are touching. Make sure that the *{{parts.heat-shrink-tubing.description}}* is out of the way of the exposed wire.
@@ -33,10 +35,14 @@
 
   requiredTools: 
   - scissors
+  - wire-stripper-cutter
 
   details: |
     . Cut two pieces of the *{{parts.carbon-fiber-blanket-stock.description}}* to size (75mm x 75mm) using *{{tools.scissors}}*.
-
+    . Wrap one piece of the *{{parts.carbon-fiber-blanket-stock.description}}* over one of the *{{parts.heat-shrink-tubing.description}}* {{parts.heat-shrink-tubing.quantityUnits}}.
+    . Use two *{{parts.metal-zip-tie.description}}* {{parts.metal-zip-tie.quantityUnits}} to secure each end of the *{{parts.carbon-fiber-blanket-stock.description}}* {{parts.carbon-fiber-blanket-stock.quantityUnits}}. This should fully cover the *{{parts.heat-shrink-tubing.description}}*.
+    . Perform the above steps again over the remaining *{{parts.heat-shrink-tubing.description}}* {{parts.heat-shrink-tubing.quantityUnits}}*.
+    . Optionally, cut the excess *{{parts.metal-zip-tie.description}}* off using *{{tools.wire-stripper-cutter.description}}*.
 
 
 - summary: Add {{parts.halogen-lightbulb.description}} {{parts.halogen-lightbulb.quantityUnits}}
