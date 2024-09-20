@@ -241,15 +241,6 @@ raspberry-pi-image:
   quantity: 1
   quantityUnits: mm
   selectedOption: 0
-22awg-wire:
-  description: 22AWG Wire
-  id: 22awg-wire
-  notes: ''
-  options:
-    - 22awg-wire
-  quantity: 200
-  quantityUnits: mm
-  selectedOption: 0
 fork-terminal:
   description: Fork Terminal
   id: fork-terminal
@@ -312,4 +303,31 @@ usb-a-to-usb-b-cable:
     - usb-a-to-usb-b-cable
   quantity: 1
   quantityUnits: part(s)
+  selectedOption: 0
+22awg-wire-black:
+  description: Black 22AWG Wire
+  id: 22awg-wire-black
+  notes: ''
+  options:
+    - 22awg-wire
+  quantity: 200
+  quantityUnits: mm
+  selectedOption: 0
+22awg-wire-red:
+  description: Red 22AWG Wire
+  id: 22awg-wire-red
+  notes: ''
+  options:
+    - 22awg-wire
+  quantity: 200
+  quantityUnits: mm
+  selectedOption: 0
+22awg-wire-green:
+  description: Green 22AWG Wire
+  id: 22awg-wire-green
+  notes: ''
+  options:
+    - 22awg-wire
+  quantity: 200
+  quantityUnits: mm
   selectedOption: 0
