@@ -1672,1420 +1672,6 @@ components:
         parts: {}
         tools: {}
         precautions: []
-      universal-controller:
-        name: universal-controller
-        version: 1.0.0
-        description: Universal Controller Assembly
-        license: CC-BY-SA-4.0
-        author: Alexandria Little
-        dependencies: {}
-        components:
-          10-pin-idc-connector:
-            name: 10-pin-idc-connector
-            version: 1.0.0
-            description: 10 Pin IDC Connector Cable
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          14awg-wire:
-            name: 14awg-wire
-            version: 1.0.0
-            description: 14 AWG Braided Copper Wire
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          16gb-microsd-card:
-            name: 16gb-microsd-card
-            version: 1.0.0
-            description: 16GB MicroSD Card
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          2-pin-dupont-connector:
-            name: 2-pin-dupont-connector
-            version: 1.0.0
-            description: 2 Pin Dupont Connector Housing
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          22awg-wire:
-            name: 22awg-wire
-            version: 1.0.0
-            description: 22AWG Braided Copper Wire
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          24v-power-supply:
-            name: 24v-power-supply
-            version: 1.0.0
-            description: 24V Industrial Power Supply Module
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          2_54mm-jumper-cap:
-            name: 2_54mm-jumper-cap
-            version: 1.0.0
-            description: 2.54mm Jumper Cap
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          3-pin-dupont-connector:
-            name: 3-pin-dupont-connector
-            version: 1.0.0
-            description: 3 Pin Dupont Connector Housing
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          3mm-flat-screwdriver:
-            name: 3mm-flat-screwdriver
-            version: 1.0.0
-            description: 3mm Flat Head Screwdriver
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          4-pin-dupont-connector:
-            name: 4-pin-dupont-connector
-            version: 1.0.0
-            description: 4 Pin Dupont Connector Housing
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          a4988-stepper-motor-driver:
-            name: a4988-stepper-motor-driver
-            version: 1.0.0
-            description: A4988 Stepper Motor Driver
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          arduino-mega-2560:
-            name: arduino-mega-2560
-            version: 1.0.0
-            description: Arduino Mega 2560
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          dupont-crimper:
-            name: dupont-crimper
-            version: 1.0.0
-            description: Dupont Wire Crimper
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          dupont-female-pin-connector:
-            name: dupont-female-pin-connector
-            version: 1.0.0
-            description: Dupont Female Pin Connector
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          electrical-cord-nema-5-15p:
-            name: electrical-cord-nema-5-15p
-            version: 1.0.0
-            description: Electrical Cord (NEMA 5-15P)
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          electrical-fork-terminal:
-            name: electrical-fork-terminal
-            version: 1.0.0
-            description: Electrical Fork Terminal
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          electrical-plug-nema-1-15:
-            name: electrical-plug-nema-1-15
-            version: 1.0.0
-            description: Electrical Plug (NEMA 1-15)
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          electrical-solder:
-            name: electrical-solder
-            version: 1.0.0
-            description: Rosin Core Lead Free Electrical Solder
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions:
-              - >-
-                Rosin Core Lead Free Electrical Solder can contain toxic
-                chemicals! Always work in a well ventialted area and use
-                personal protection equipment!
-          electrical-tape:
-            name: electrical-tape
-            version: 1.0.0
-            description: Electrical Tape
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          ferrule:
-            name: ferrule
-            version: 1.0.0
-            description: Wire Ferrule
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          ferrule-crimper:
-            name: ferrule-crimper
-            version: 1.0.0
-            description: Wire Ferrule Crimper
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          ground-fault-connection-interrupter:
-            name: ground-fault-connection-interrupter
-            version: 1.0.0
-            description: Ground Fault Connection Interrupter (GFCI)
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          heat-shrink-tubing:
-            name: heat-shrink-tubing
-            version: 1.0.0
-            description: Heat Shrink Tubing
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          helping-hands:
-            name: helping-hands
-            version: 1.0.0
-            description: Helping Hands Clamp Stand
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          hobby-knife:
-            name: hobby-knife
-            version: 1.0.0
-            description: Hobby Knife
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          lever-wire-nut:
-            name: lever-wire-nut
-            version: 1.0.0
-            description: 2 Connection Lever Wire Nut
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          marlin-firmware:
-            name: marlin-firmware
-            version: 1.0.0
-            description: Marlin Firmware
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          microsd-to-sd-card-adapter:
-            name: microsd-to-sd-card-adapter
-            version: 1.0.0
-            description: MicroSD Card to SD Card Adapter
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          octoprint-raspberry-pi-software-image:
-            name: octoprint-raspberry-pi-software-image
-            version: 1.0.0
-            description: Octoprint Raspberry Pi Software Image
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          personal-computer:
-            name: personal-computer
-            version: 1.0.0
-            description: Personal Computer (PC)
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          phillips-2-screwdriver:
-            name: phillips-2-screwdriver
-            version: 1.0.0
-            description: '#2 Phillips Head Screwdriver'
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          ramps-1_4-board:
-            name: ramps-1_4-board
-            version: 1.0.0
-            description: RAMPS 1.4 Board
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          ramps-1_4-smart-adapter:
-            name: ramps-1_4-smart-adapter
-            version: 1.0.0
-            description: RAMPS 1.4 Smart Adapter
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          raspberry-pi-4b:
-            name: raspberry-pi-4b
-            version: 1.0.0
-            description: Raspberry Pi Model 4B
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          reprap-discount-full-graphic-smart-controller:
-            name: reprap-discount-full-graphic-smart-controller
-            version: 1.0.0
-            description: RepRap Discount Full Graphic Smart Controller
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          scissors:
-            name: scissors
-            version: 1.0.0
-            description: Scissors
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          soldering-iron:
-            name: soldering-iron
-            version: 1.0.0
-            description: Soldering Iron
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions:
-              - >-
-                A Soldering Iron gets very very hot and can burn you! Follow all
-                of the manufacturer recommended safety precautions when using a
-                Soldering Iron!
-          solid-state-relay:
-            name: solid-state-relay
-            version: 1.0.0
-            description: 40A Solid State Relay (SSR-40DA)
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          split-wire-loom:
-            name: split-wire-loom
-            version: 1.0.0
-            description: 1/2 Inch Flame Retardant Split Wire Loom
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          stepper-motor-driver-heatsink:
-            name: stepper-motor-driver-heatsink
-            version: 1.0.0
-            description: Stepper Motor Driver Heatsink
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          universal-controller-case:
-            name: universal-controller-case
-            version: 1.0.0
-            description: Universal Controller Case
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          usb-a-to-usb-b-cable:
-            name: usb-a-to-usb-b-cable
-            version: 1.0.0
-            description: USB A to USB B Cable
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          wire-stripper-cutter:
-            name: wire-stripper-cutter
-            version: 1.0.0
-            description: Wire Stripper/Cutter
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          zip-tie-large:
-            name: zip-tie-large
-            version: 1.0.0
-            description: 8 Inch Zip Tie
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-          zip-tie-small:
-            name: zip-tie-small
-            version: 1.0.0
-            description: 4 Inch Zip Tie
-            license: CC-BY-SA-4.0
-            author: Alexandria Little
-            dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
-            precautions: []
-        parts:
-          ramps-board:
-            description: RAMPS 1.4 Board
-            id: ramps-board
-            notes: ''
-            options:
-              - ramps-1_4-board
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'ramps-board: RAMPS 1.4 Board'
-            descriptionSelected: 'ramps-board: RAMPS 1.4 Board (RAMPS 1.4 Board v1.0.0)'
-          electrical-tape:
-            description: Electrical Tape
-            id: electrical-tape
-            notes: ''
-            options:
-              - electrical-tape
-            quantity: 1
-            quantityUnits: as needed
-            selectedOption: 0
-            descriptionLong: 'electrical-tape: Electrical Tape'
-            descriptionSelected: 'electrical-tape: Electrical Tape (Electrical Tape v1.0.0)'
-          16gb-microsd-card:
-            description: 16GB MicroSD Card
-            id: 16gb-microsd-card
-            notes: ''
-            options:
-              - 16gb-microsd-card
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: '16gb-microsd-card: 16GB MicroSD Card'
-            descriptionSelected: '16gb-microsd-card: 16GB MicroSD Card (16GB MicroSD Card v1.0.0)'
-          24v-power-supply:
-            description: 24v Power Supply Module
-            id: 24v-power-supply
-            notes: ''
-            options:
-              - 24v-power-supply
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: '24v-power-supply: 24v Power Supply Module'
-            descriptionSelected: >-
-              24v-power-supply: 24v Power Supply Module (24V Industrial Power
-              Supply Module v1.0.0)
-          arduino:
-            description: Arduino Mega 2560
-            id: arduino
-            notes: ''
-            options:
-              - arduino-mega-2560
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'arduino: Arduino Mega 2560'
-            descriptionSelected: 'arduino: Arduino Mega 2560 (Arduino Mega 2560 v1.0.0)'
-          electrical-cord:
-            description: Three Prong Electrical Cord
-            id: electrical-cord
-            notes: ''
-            options:
-              - electrical-cord-nema-5-15p
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'electrical-cord: Three Prong Electrical Cord'
-            descriptionSelected: >-
-              electrical-cord: Three Prong Electrical Cord (Electrical Cord
-              (NEMA 5-15P) v1.0.0)
-          electrical-plug:
-            description: Two Prong Electrical Plug
-            id: electrical-plug
-            notes: ''
-            options:
-              - electrical-plug-nema-1-15
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'electrical-plug: Two Prong Electrical Plug'
-            descriptionSelected: >-
-              electrical-plug: Two Prong Electrical Plug (Electrical Plug (NEMA
-              1-15) v1.0.0)
-          electrical-solder:
-            description: Electrical Solder
-            id: electrical-solder
-            notes: ''
-            options:
-              - electrical-solder
-            quantity: 1
-            quantityUnits: applications
-            selectedOption: 0
-            descriptionLong: 'electrical-solder: Electrical Solder'
-            descriptionSelected: >-
-              electrical-solder: Electrical Solder (Rosin Core Lead Free
-              Electrical Solder v1.0.0)
-          ferrule:
-            description: Ferrule
-            id: ferrule
-            notes: ''
-            options:
-              - ferrule
-            quantity: 20
-            quantityUnits: part(s)
-            selectedOption: 0
-            descriptionLong: 'ferrule: Ferrule'
-            descriptionSelected: 'ferrule: Ferrule (Wire Ferrule v1.0.0)'
-          gfci:
-            description: GFCI
-            id: gfci
-            notes: ''
-            options:
-              - ground-fault-connection-interrupter
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'gfci: GFCI'
-            descriptionSelected: 'gfci: GFCI (Ground Fault Connection Interrupter (GFCI) v1.0.0)'
-          heat-shrink-tubing:
-            description: Heat Shrink Tubing
-            id: heat-shrink-tubing
-            notes: ''
-            options:
-              - heat-shrink-tubing
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'heat-shrink-tubing: Heat Shrink Tubing'
-            descriptionSelected: 'heat-shrink-tubing: Heat Shrink Tubing (Heat Shrink Tubing v1.0.0)'
-          lever-wire-nut:
-            description: Lever Wire Nut
-            id: lever-wire-nut
-            notes: ''
-            options:
-              - lever-wire-nut
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'lever-wire-nut: Lever Wire Nut'
-            descriptionSelected: >-
-              lever-wire-nut: Lever Wire Nut (2 Connection Lever Wire Nut
-              v1.0.0)
-          microsd-to-sd-card-adapter:
-            description: MicroSD to SD Card Adapter
-            id: microsd-to-sd-card-adapter
-            notes: ''
-            options:
-              - microsd-to-sd-card-adapter
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'microsd-to-sd-card-adapter: MicroSD to SD Card Adapter'
-            descriptionSelected: >-
-              microsd-to-sd-card-adapter: MicroSD to SD Card Adapter (MicroSD
-              Card to SD Card Adapter v1.0.0)
-          raspberry-pi:
-            description: Raspberry Pi Computer
-            id: raspberry-pi
-            notes: ''
-            options:
-              - raspberry-pi-4b
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'raspberry-pi: Raspberry Pi Computer'
-            descriptionSelected: 'raspberry-pi: Raspberry Pi Computer (Raspberry Pi Model 4B v1.0.0)'
-          reprap-controller:
-            description: RepRap Discount Full Graphic Smart Controller
-            id: reprap-controller
-            notes: ''
-            options:
-              - reprap-discount-full-graphic-smart-controller
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'reprap-controller: RepRap Discount Full Graphic Smart Controller'
-            descriptionSelected: >-
-              reprap-controller: RepRap Discount Full Graphic Smart Controller
-              (RepRap Discount Full Graphic Smart Controller v1.0.0)
-          solid-state-relay:
-            description: Solid State Relay (SSR)
-            id: solid-state-relay
-            notes: ''
-            options:
-              - solid-state-relay
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'solid-state-relay: Solid State Relay (SSR)'
-            descriptionSelected: >-
-              solid-state-relay: Solid State Relay (SSR) (40A Solid State Relay
-              (SSR-40DA) v1.0.0)
-          split-wire-loom:
-            description: Split Wire Loom
-            id: split-wire-loom
-            notes: ''
-            options:
-              - split-wire-loom
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'split-wire-loom: Split Wire Loom'
-            descriptionSelected: >-
-              split-wire-loom: Split Wire Loom (1/2 Inch Flame Retardant Split
-              Wire Loom v1.0.0)
-          case:
-            description: Universal Controller Case
-            id: case
-            notes: ''
-            options:
-              - universal-controller-case
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'case: Universal Controller Case'
-            descriptionSelected: 'case: Universal Controller Case (Universal Controller Case v1.0.0)'
-          zip-tie-large:
-            description: Large Zip Tie
-            id: zip-tie-large
-            notes: ''
-            options:
-              - zip-tie-large
-            quantity: 20
-            quantityUnits: part(s)
-            selectedOption: 0
-            descriptionLong: 'zip-tie-large: Large Zip Tie'
-            descriptionSelected: 'zip-tie-large: Large Zip Tie (8 Inch Zip Tie v1.0.0)'
-          zip-tie-small:
-            description: Small Zip Tie
-            id: zip-tie-small
-            notes: ''
-            options:
-              - zip-tie-small
-            quantity: 20
-            quantityUnits: part(s)
-            selectedOption: 0
-            descriptionLong: 'zip-tie-small: Small Zip Tie'
-            descriptionSelected: 'zip-tie-small: Small Zip Tie (4 Inch Zip Tie v1.0.0)'
-          a4988-stepper-motor-driver:
-            description: A4988 Stepper Motor Driver
-            id: a4988-stepper-motor-driver
-            notes: ''
-            options:
-              - a4988-stepper-motor-driver
-            quantity: 5
-            quantityUnits: part(s)
-            selectedOption: 0
-            descriptionLong: 'a4988-stepper-motor-driver: A4988 Stepper Motor Driver'
-            descriptionSelected: >-
-              a4988-stepper-motor-driver: A4988 Stepper Motor Driver (A4988
-              Stepper Motor Driver v1.0.0)
-          jumper:
-            description: Jumper Cap
-            id: jumper
-            notes: ''
-            options:
-              - 2_54mm-jumper-cap
-            quantity: 15
-            quantityUnits: part(s)
-            selectedOption: 0
-            descriptionLong: 'jumper: Jumper Cap'
-            descriptionSelected: 'jumper: Jumper Cap (2.54mm Jumper Cap v1.0.0)'
-          10-pin-idc-connector:
-            description: 10 Pin IDC Conector
-            id: 10-pin-idc-connector
-            notes: ''
-            options:
-              - 10-pin-idc-connector
-            quantity: 2
-            quantityUnits: part(s)
-            selectedOption: 0
-            descriptionLong: '10-pin-idc-connector: 10 Pin IDC Conector'
-            descriptionSelected: >-
-              10-pin-idc-connector: 10 Pin IDC Conector (10 Pin IDC Connector
-              Cable v1.0.0)
-          ramps-1_4-smart-adapter:
-            description: RAMPS 1.4 Smart Adapter
-            id: ramps-1_4-smart-adapter
-            notes: ''
-            options:
-              - ramps-1_4-smart-adapter
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'ramps-1_4-smart-adapter: RAMPS 1.4 Smart Adapter'
-            descriptionSelected: >-
-              ramps-1_4-smart-adapter: RAMPS 1.4 Smart Adapter (RAMPS 1.4 Smart
-              Adapter v1.0.0)
-          marlin-firmware:
-            description: Marlin Firmware
-            id: marlin-firmware
-            notes: ''
-            options:
-              - marlin-firmware
-            quantity: 1
-            quantityUnits: image
-            selectedOption: 0
-            descriptionLong: 'marlin-firmware: Marlin Firmware'
-            descriptionSelected: 'marlin-firmware: Marlin Firmware (Marlin Firmware v1.0.0)'
-          raspberry-pi-image:
-            description: Octoprint Raspberry Pi Software Image
-            id: raspberry-pi-image
-            notes: ''
-            options:
-              - octoprint-raspberry-pi-software-image
-            quantity: 1
-            quantityUnits: image
-            selectedOption: 0
-            descriptionLong: 'raspberry-pi-image: Octoprint Raspberry Pi Software Image'
-            descriptionSelected: >-
-              raspberry-pi-image: Octoprint Raspberry Pi Software Image
-              (Octoprint Raspberry Pi Software Image v1.0.0)
-          14awg-wire:
-            description: 14AWG Wire
-            id: 14awg-wire
-            notes: ''
-            options:
-              - 14awg-wire
-            quantity: 1
-            quantityUnits: mm
-            selectedOption: 0
-            descriptionLong: '14awg-wire: 14AWG Wire'
-            descriptionSelected: '14awg-wire: 14AWG Wire (14 AWG Braided Copper Wire v1.0.0)'
-          fork-terminal:
-            description: Fork Terminal
-            id: fork-terminal
-            notes: ''
-            options:
-              - electrical-fork-terminal
-            quantity: 4
-            quantityUnits: part(s)
-            selectedOption: 0
-            descriptionLong: 'fork-terminal: Fork Terminal'
-            descriptionSelected: 'fork-terminal: Fork Terminal (Electrical Fork Terminal v1.0.0)'
-          stepper-motor-driver-heatsink:
-            description: Stepper Motor Driver Heatsink
-            id: stepper-motor-driver-heatsink
-            notes: ''
-            options:
-              - stepper-motor-driver-heatsink
-            quantity: 5
-            quantityUnits: part(s)
-            selectedOption: 0
-            descriptionLong: 'stepper-motor-driver-heatsink: Stepper Motor Driver Heatsink'
-            descriptionSelected: >-
-              stepper-motor-driver-heatsink: Stepper Motor Driver Heatsink
-              (Stepper Motor Driver Heatsink v1.0.0)
-          2-pin-dupont-connector:
-            description: 2 Pin Female Dupont Connector
-            id: 2-pin-dupont-connector
-            notes: ''
-            options:
-              - 2-pin-dupont-connector
-            quantity: 1
-            quantityUnits: part(s)
-            selectedOption: 0
-            descriptionLong: '2-pin-dupont-connector: 2 Pin Female Dupont Connector'
-            descriptionSelected: >-
-              2-pin-dupont-connector: 2 Pin Female Dupont Connector (2 Pin
-              Dupont Connector Housing v1.0.0)
-          3-pin-dupont-connector:
-            description: 3 Pin Female Dupont Connector
-            id: 3-pin-dupont-connector
-            notes: ''
-            options:
-              - 3-pin-dupont-connector
-            quantity: 1
-            quantityUnits: part(s)
-            selectedOption: 0
-            descriptionLong: '3-pin-dupont-connector: 3 Pin Female Dupont Connector'
-            descriptionSelected: >-
-              3-pin-dupont-connector: 3 Pin Female Dupont Connector (3 Pin
-              Dupont Connector Housing v1.0.0)
-          4-pin-dupont-connector:
-            description: 4 Pin Female Dupont Connector
-            id: 4-pin-dupont-connector
-            notes: ''
-            options:
-              - 4-pin-dupont-connector
-            quantity: 1
-            quantityUnits: part(s)
-            selectedOption: 0
-            descriptionLong: '4-pin-dupont-connector: 4 Pin Female Dupont Connector'
-            descriptionSelected: >-
-              4-pin-dupont-connector: 4 Pin Female Dupont Connector (4 Pin
-              Dupont Connector Housing v1.0.0)
-          dupont-female-pin-connector:
-            description: Dupont Female Pin Connector
-            id: dupont-female-pin-connector
-            notes: ''
-            options:
-              - dupont-female-pin-connector
-            quantity: 1
-            quantityUnits: part(s)
-            selectedOption: 0
-            descriptionLong: 'dupont-female-pin-connector: Dupont Female Pin Connector'
-            descriptionSelected: >-
-              dupont-female-pin-connector: Dupont Female Pin Connector (Dupont
-              Female Pin Connector v1.0.0)
-          usb-a-to-usb-b-cable:
-            description: USB A to USB B Cable
-            id: usb-a-to-usb-b-cable
-            notes: ''
-            options:
-              - usb-a-to-usb-b-cable
-            quantity: 1
-            quantityUnits: part(s)
-            selectedOption: 0
-            descriptionLong: 'usb-a-to-usb-b-cable: USB A to USB B Cable'
-            descriptionSelected: >-
-              usb-a-to-usb-b-cable: USB A to USB B Cable (USB A to USB B Cable
-              v1.0.0)
-          22awg-wire-black:
-            description: Black 22AWG Wire
-            id: 22awg-wire-black
-            notes: ''
-            options:
-              - 22awg-wire
-            quantity: 200
-            quantityUnits: mm
-            selectedOption: 0
-            descriptionLong: '22awg-wire-black: Black 22AWG Wire'
-            descriptionSelected: >-
-              22awg-wire-black: Black 22AWG Wire (22AWG Braided Copper Wire
-              v1.0.0)
-          22awg-wire-red:
-            description: Red 22AWG Wire
-            id: 22awg-wire-red
-            notes: ''
-            options:
-              - 22awg-wire
-            quantity: 200
-            quantityUnits: mm
-            selectedOption: 0
-            descriptionLong: '22awg-wire-red: Red 22AWG Wire'
-            descriptionSelected: '22awg-wire-red: Red 22AWG Wire (22AWG Braided Copper Wire v1.0.0)'
-          22awg-wire-green:
-            description: Green 22AWG Wire
-            id: 22awg-wire-green
-            notes: ''
-            options:
-              - 22awg-wire
-            quantity: 200
-            quantityUnits: mm
-            selectedOption: 0
-            descriptionLong: '22awg-wire-green: Green 22AWG Wire'
-            descriptionSelected: >-
-              22awg-wire-green: Green 22AWG Wire (22AWG Braided Copper Wire
-              v1.0.0)
-        tools:
-          3mm-flat-screwdriver:
-            description: 3mm Flat Head Screwdriver
-            id: 3mm-flat-screwdriver
-            notes: ''
-            options:
-              - 3mm-flat-screwdriver
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: '3mm-flat-screwdriver: 3mm Flat Head Screwdriver'
-            descriptionSelected: >-
-              3mm-flat-screwdriver: 3mm Flat Head Screwdriver (3mm Flat Head
-              Screwdriver v1.0.0)
-          phillips-2-screwdriver:
-            description: 'Phillips Head #2 Screwdriver'
-            id: phillips-2-screwdriver
-            notes: ''
-            options:
-              - phillips-2-screwdriver
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'phillips-2-screwdriver: Phillips Head #2 Screwdriver'
-            descriptionSelected: >-
-              phillips-2-screwdriver: Phillips Head #2 Screwdriver (#2 Phillips
-              Head Screwdriver v1.0.0)
-          hobby-knife:
-            description: Hobby Knife
-            id: hobby-knife
-            notes: ''
-            options:
-              - hobby-knife
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'hobby-knife: Hobby Knife'
-            descriptionSelected: 'hobby-knife: Hobby Knife (Hobby Knife v1.0.0)'
-          scissors:
-            description: Scissors
-            id: scissors
-            notes: ''
-            options:
-              - scissors
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'scissors: Scissors'
-            descriptionSelected: 'scissors: Scissors (Scissors v1.0.0)'
-          helping-hands:
-            description: Helping Hands
-            id: helping-hands
-            notes: ''
-            options:
-              - helping-hands
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'helping-hands: Helping Hands'
-            descriptionSelected: 'helping-hands: Helping Hands (Helping Hands Clamp Stand v1.0.0)'
-          soldering-iron:
-            description: Soldering Iron
-            id: soldering-iron
-            notes: ''
-            options:
-              - soldering-iron
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'soldering-iron: Soldering Iron'
-            descriptionSelected: 'soldering-iron: Soldering Iron (Soldering Iron v1.0.0)'
-          ferrule-crimper:
-            description: Ferrule Crimper
-            id: ferrule-crimper
-            notes: ''
-            options:
-              - ferrule-crimper
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'ferrule-crimper: Ferrule Crimper'
-            descriptionSelected: 'ferrule-crimper: Ferrule Crimper (Wire Ferrule Crimper v1.0.0)'
-          microsd-to-sd-card-adapter:
-            description: MicroSD to SD Card Adapter
-            id: microsd-to-sd-card-adapter
-            notes: ''
-            options:
-              - microsd-to-sd-card-adapter
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'microsd-to-sd-card-adapter: MicroSD to SD Card Adapter'
-            descriptionSelected: >-
-              microsd-to-sd-card-adapter: MicroSD to SD Card Adapter (MicroSD
-              Card to SD Card Adapter v1.0.0)
-          pc:
-            description: Personal Computer
-            id: pc
-            notes: ''
-            options:
-              - personal-computer
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'pc: Personal Computer'
-            descriptionSelected: 'pc: Personal Computer (Personal Computer (PC) v1.0.0)'
-          wire-stripper-cutter:
-            description: Wire Strippers/Cutters
-            id: wire-stripper-cutter
-            notes: ''
-            options:
-              - wire-stripper-cutter
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'wire-stripper-cutter: Wire Strippers/Cutters'
-            descriptionSelected: >-
-              wire-stripper-cutter: Wire Strippers/Cutters (Wire Stripper/Cutter
-              v1.0.0)
-          dupont-crimper:
-            description: Dupont Crimper
-            id: dupont-crimper
-            notes: ''
-            options:
-              - dupont-crimper
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'dupont-crimper: Dupont Crimper'
-            descriptionSelected: 'dupont-crimper: Dupont Crimper (Dupont Wire Crimper v1.0.0)'
-        precautions:
-          - >-
-            The Universal Controller Assembly runs on 120v AC electricity, which
-            can kill you if wiring is done improperly!!! Follow all directions
-            exactly, use common sense, never touch the Universal Controller
-            Assembly components when powered on, and when in doubt use more
-            electrical tape. This is your reminder that these instructions are
-            for EDUCATIONAL PURPOSES ONLY and that you assume any and all
-            liability for the use of these instructions.
-        assemblySteps:
-          - summary: Clean 3D Printed Parts
-            requiredParts:
-              - universal-controller-case
-            requiredTools:
-              - hobby-knife
-            details: >
-              . Use the *Hobby Knife* to clean any extra plastic off of the 3D
-              printed components.
-          - summary: >-
-              Assemble the RAMPS 1.4 Board to RAMPS 1.4 Board 24v Power Custom
-              Wires
-            requiredParts:
-              - ferrule
-              - 22awg-wire
-              - dupont-female-pin-connector
-              - 2-pin-dupont-connector
-            requiredTools:
-              - wire-stripper-cutter
-              - ferrule-crimper
-              - dupont-crimper
-            details: >
-              . Using the *Wire Strippers/Cutters*, cut one 100mm long piece of
-              *Red 22AWG Wire* and one 100mm long piece of *Black 22AWG Wire*.
-
-              . Using the *Wire Strippers/Cutters*, strip approximately 1cm of
-              insulation off of both ends of the *Red 22AWG Wire* and *Black
-              22AWG Wire*.
-
-              . Place an appropriately sized *Ferrule* onto the end of the
-              stripped *Red 22AWG Wire*.
-
-              . Using the *Ferrule Crimper*, crimp the *Ferrule* onto the wire.
-
-              . Use the *Wire Strippers/Cutters* to cut off any excess *Red
-              22AWG Wire* that is poking through the end of the *Ferrule*.
-
-              . Repeat the above steps to crimp another *Ferrule* to the end of
-              the *Black 22AWG Wire*.
-
-              . Using the *Dupont Crimper*, crimp *Dupont Female Pin Connector*
-              part(s) onto the exposed ends of the *Red 22AWG Wire* and *Black
-              22AWG Wire*.
-
-              . Insert the both of the *Dupont Female Pin Connector* ends of the
-              *Red 22AWG Wire* and *Black 22AWG Wire* into a *2 Pin Female
-              Dupont Connector*.
-
-              . The *RAMPS 1.4 Board to RAMPS 1.4 Board 24v Power Custom Wires*
-              are complete.
-          - summary: >-
-              Assemble the RAMPS 1.4 Board to Solid State Relay (SSR) 24v Signal
-              Custom Wires
-            requiredParts:
-              - ferrule
-              - 22awg-wire
-              - fork-terminal
-            requiredTools:
-              - dupont-crimper
-              - ferrule-crimper
-              - wire-stripper-cutter
-            details: >
-              . Using the *Wire Strippers/Cutters*, cut one 200mm long piece of
-              *Red 22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
-
-              . Using the *Wire Strippers/Cutters*, strip approximately 1cm of
-              insulation off of both ends of each of the *Red 22AWG Wire* and
-              *Black 22AWG Wire* lengths.
-
-              . Place an appropriately sized *Ferrule* onto one end of each of
-              the stripped *Red 22AWG Wire* and *Black 22AWG Wire* lengths.
-
-              . Using the *Ferrule Crimper*, crimp the *Ferrule* part(s) onto
-              the *Red 22AWG Wire* and *Black 22AWG Wire*.
-
-              . Use the *Wire Strippers/Cutters* to cut off any excess *Red
-              22AWG Wire* or *Black 22AWG Wire* that is poking through the ends
-              of the *Ferrule* part(s).
-
-              . Use the *Dupont Crimper* to crimp on appropriately sized *Fork
-              Terminal* part(s) to the exposed ends of each *Red 22AWG Wire* and
-              *Black 22AWG Wire*.
-
-              . The *RAMPS 1.4 Board to Solid State Relay (SSR) 24v Signal
-              Custom Wires* are complete.
-          - summary: >-
-              Assemble the Two Prong Electrical Plug to 24v Power Supply
-              Module/Fast Heated Bed 120v Power Custom Wires
-            requiredParts: []
-            requiredTools: []
-            details: |
-              . Hello World! forked terminal to ferrule/bare
-          - summary: Assemble the Solid State Relay (SSR) 120v Power Custom Wires
-            requiredParts: []
-            requiredTools: []
-            details: >
-              . Hello World! forked terminal -> forked terminal (short), forked
-              terminal -> bare, forked terminal -> bare
-          - summary: Assemble the RAMPS 1.4 Board and Arduino Mega 2560
-            requiredParts: []
-            requiredTools: []
-            details: |
-              . Put the heatsinks on the drivers.
-              . Put the (CORRECTLY ORIENTED) drivers into the RAMPS.
-              . Align the RAMPS and Mega and press together.
-              . Insert the smart adapter into the RAMPS.
-              . Done
-          - summary: Flash firmware on the Arduino Mega 2560
-            requiredParts: []
-            requiredTools: []
-            details: >
-              . Plug the arduino into the PC with a USB cable.
-
-              . Download the most recent firmware from the D3D Pro firmware
-              repo.
-
-              . Download and install Arduino IDE
-
-              . Load the firmware into the Arduino IDE
-
-              . Select your board from the boards menu at the top.
-
-              . Click upload and wait for it to upload.
-
-              . When it says 'Done Uploading' you're done.
-          - summary: >-
-              Flash the Octoprint Raspberry Pi Software Image onto the 16GB
-              MicroSD Card and set up WIFI
-            requiredParts: []
-            requiredTools: []
-            details: >
-              . Download the raspberry pi imager.
-
-              . Navigate to OctoPi
-
-              . Insert the MicroSD card into the adapter.
-
-              . Insert the adapter into your personal computer.
-
-              . If using Wifi and not an ethernet connection, go into more
-              details
-
-              . Select the wireless networking option and put in your wifi
-              credentials.
-
-              . use the imager to download and flash the octopi image to the
-              MicroSD card.
-          - summary: Set up WIFI on the Raspberry Pi Computer
-            requiredParts: []
-            requiredTools: []
-            details: |
-              . Hello World!
-          - summary: Configure Octoprint Raspberry Pi Software Image for use
-            requiredParts: []
-            requiredTools: []
-            details: |
-              . Hello World!
-          - summary: Attach components to the Universal Controller Case
-            requiredParts: []
-            requiredTools: []
-            details: |
-              . Zip tie the Mega/RAMPS
-              . Zip tie power supply module
-              . Zip tie the raspberry pie
-              . Zip tie the SSR
-              . Zip tie the GFCI
-              . Insert the rocker switch into the side of the case
-          - summary: Wire the GFCI
-            requiredParts: []
-            requiredTools: []
-            details: >
-              . Take the power supply cable and strip back 4-6cm of sheathing.
-
-              . Extend one of the power wires (not ground) with 200mm of wire.
-
-              . Bring the extended power wire into the case through the bottom
-              right hole.
-
-              . Solder the inline fuse onto the extended power wire (still not
-              ground).
-
-              . Solder the inline fuse to one of the tongs of the rocker switch.
-
-              . Solder a 200mm extension wire onto the other tong of the rocker
-              switch.
-
-              . Route the second extension wire back out of the case.
-
-              . Use the Dupont crimper to crimp a fork terminal onto the end of
-              the extension wire.
-
-              . Connect the extension wire to one of the terminals on the GFCI.
-
-              . Use the Dupont crimper to crimp a fork terminal onto the other
-              end of the power supply cable power wire.
-
-              . Connect the second wire onto the other power terminal on the
-              GFCI.
-
-              . Use the Dupont crimper to crimp a fork terminal onto the end of
-              the green ground wire
-
-              . Connect the ground wire onto the ground of the GFCI.
-
-              . Loop all of the exposed terminals in multiple layers of
-              electrical tape.
-
-              . Done with GFCI.
-          - summary: Wire the Two Prong Electrical Plug
-            requiredParts: []
-            requiredTools: []
-            details: >
-              . Gather one long SSR power wire, one short SSR power wire, and
-              both of the 24V power supply wires.
-
-              . Connect the short SSR wire and one of the 24v power supply wires
-              to the left terminal inside of the plug.
-
-              . Connect the long ssr wire and the other 24V power supply wire to
-              the right terminal inside of the plug.
-
-              . Close the plug.
-
-              . If the wire prevents the plug from closing, use a hobby knife to
-              cut away at the offending plastic inside of the plug.
-
-              . Once the plug closes properly, screw the plug together snugly.
-
-              . Wrap the plug neatly in electrical tape.
-
-              . Done with the electical plug.
-          - summary: Wire the 24v Power Supply Module
-            requiredParts: []
-            requiredTools: []
-            details: >
-              . Take one of the bare ends of wire from the electrical plug 24v
-              power supply wires and twist it to straighten and bind together
-              the wire strands.
-
-              . Repeat the above step for the other bare end wire.
-
-              . Depress the power module 120V power terminal levers and insert
-              one of the bare wire ends into each of the terminal slots. Make
-              sure that there are NO loose strands sticking out of the
-              terminals.
-
-              . Loosen the screws in the 24v outlet terminals.
-
-              . Next, insert the ferruled ends of the 22AWG wire into the 24V
-              outlet terminals. 
-
-              . Screw down the screws in the 24V outlet terminals.
-
-              . The 24v power supply is done. 
-          - summary: Wire the Solid State Relay (SSR)
-            requiredParts: []
-            requiredTools: []
-            details: >
-              . Wire the forked terminal end of the SSR short wire in the
-              electrical plug into the right side of the 120V side of the SSR.
-
-              . Wire the colored 24v signal wires (22awg) into their respective
-              positive and negative position on the solid state relay.
-
-              . Insert the forked end of the long SSR wire into the left side
-              terminal of the 120v side of the SSR.
-
-              . Tighten down all of the terminal screws.
-
-              . The SSR is done.
-          - summary: Wire the Raspberry Pi Computer
-            requiredParts: []
-            requiredTools: []
-            details: >
-              . Plug the power supply into the GFCI.
-
-              . Plug the USB C end of the power supply into the USB C port on
-              the Raspberry Pi
-
-              . Plug the USB A end of the USB A/USB B cable into the Raspberry
-              Pi
-
-              . Plug the USB camera into one of the available USB A ports on the
-              Raspberry pi.
-
-              . The Raspberry Pi is now wired.
-          - summary: Wire the RAMPS 1.4 Board
-            requiredParts: []
-            requiredTools: []
-            details: >
-              . Plug the USB B end of the USB A/USB B cable (connected to the
-              raspberry pi) into the USB B port.
-
-              . Connect the ferrule ends of the RAMPS 1.4 Board to RAMPS 1.4
-              Board 24v Power Custom Wires to the bottom left terminals, paying
-              close attention to the polarity.
-
-              . Plug the 2-pin-dupont-connector end of the RAMPS 1.4 Board to
-              RAMPS 1.4 Board 24v Power Custom Wires into the bottom left ports
-              of the Aux 1 pins on the RAMPS board, with positive on the left
-              and negative on the right.
-
-              . Plug in the 24v power supply cables into their port, paying
-              attention to the polarity.
-
-              . Plug in the SSR signal wires into the heated bed port, paying
-              attention to the polarity.
-
-              . To be continued
-          - summary: Test the Universal Controller Assembly
-            requiredParts: []
-            requiredTools: []
-            details: |
-              . Hello World!
     parts:
       8mm-rod:
         description: 8mm Rod
@@ -11791,6 +10377,1303 @@ components:
         parts: {}
         tools: {}
         precautions: []
+      fast-heated-bed:
+        name: fast-heated-bed
+        version: 1.0.0
+        description: Fast Heated Bed Module
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components:
+          5mm-allen-wrench:
+            name: 5mm-allen-wrench
+            version: 1.0.0
+            description: 5mm Allen Wrench
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          8mm-600mm-smooth-rod:
+            name: 8mm-600mm-smooth-rod
+            version: 1.0.0
+            description: 8mm x 600mm Smooth Rod
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          autoparallel:
+            name: autoparallel
+            version: 1.0.0
+            description: Autoparallel Part
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          carbon-fiber-blanket-sleeve:
+            name: carbon-fiber-blanket-sleeve
+            version: 1.0.0
+            description: Carbon Fiber Blanket Sleeve
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components:
+              carbon-fiber-blanket-stock:
+                name: carbon-fiber-blanket-stock
+                version: 1.0.0
+                description: Carbon Fiber Blanket (Stock Size)
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              scissors:
+                name: scissors
+                version: 1.0.0
+                description: Scissors
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              sewing-machine:
+                name: sewing-machine
+                version: 1.0.0
+                description: Sewing Machine
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              sewing-thread:
+                name: sewing-thread
+                version: 1.0.0
+                description: Sewing Thread
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+            parts:
+              carbon-fiber-blanket-stock:
+                description: Carbon Fiber Blanket
+                id: carbon-fiber-blanket-stock
+                notes: ''
+                options:
+                  - carbon-fiber-blanket-stock
+                quantity: 1
+                quantityUnits: part(s)
+                selectedOption: 0
+                descriptionLong: 'carbon-fiber-blanket-stock: Carbon Fiber Blanket'
+                descriptionSelected: >-
+                  carbon-fiber-blanket-stock: Carbon Fiber Blanket (Carbon Fiber
+                  Blanket (Stock Size) v1.0.0)
+              sewing-thread:
+                description: Sewing Thread
+                id: sewing-thread
+                notes: ''
+                options:
+                  - sewing-thread
+                quantity: 1
+                quantityUnits: part(s)
+                selectedOption: 0
+                descriptionLong: 'sewing-thread: Sewing Thread'
+                descriptionSelected: 'sewing-thread: Sewing Thread (Sewing Thread v1.0.0)'
+            tools:
+              sewing-machine:
+                description: Sewing Machine
+                id: sewing-machine
+                notes: 'Optionally, use a needle and thread to hand sew components.'
+                options:
+                  - sewing-machine
+                quantity: 1
+                quantityUnits: part(s)
+                selectedOption: 0
+                descriptionLong: 'sewing-machine: Sewing Machine'
+                descriptionSelected: 'sewing-machine: Sewing Machine (Sewing Machine v1.0.0)'
+              scissors:
+                description: Scissors
+                id: scissors
+                notes: ''
+                options:
+                  - scissors
+                quantity: 1
+                quantityUnits: part(s)
+                selectedOption: 0
+                descriptionLong: 'scissors: Scissors'
+                descriptionSelected: 'scissors: Scissors (Scissors v1.0.0)'
+            precautions: []
+            assemblySteps:
+              - summary: Assemble Carbon Fiber Blanket Sleeve Parts
+                requiredParts:
+                  - carbon-fiber-blanket-stock
+                  - sewing-thread
+                requiredTools:
+                  - sewing-machine
+                  - scissors
+                details: >
+                  . Using the *Scissors*, cut four rectangles of *Carbon Fiber
+                  Blanket* to size (80mm x 300mm).
+
+                  . Set up the *Sewing Machine* and *Sewing Thread* by following
+                  the manufacturer's instructions for the *Sewing Machine*.
+
+                  . Overlap/fold one rectangle of *Carbon Fiber Blanket* so that
+                  it forms a 40mm x 300mm rectangle.
+
+                  . Using the *Sewing Machine*, sew the 300mm long edges of the
+                  rectangle together. It should form a 300mm long sleeve.
+
+                  . Repeat the previous two steps for all of the remaining
+                  *Carbon Fiber Blanket* rectangles.
+
+                  . Take one of the *Carbon Fiber Blanket Sleeve* parts and use
+                  *Scissors* to cut "X" shapes near the ends of the sleeve. The
+                  center of the "X" cuts should be approx. 20mm from each edge.
+
+                  . Repeat the above step for all of the remaining *Carbon Fiber
+                  Blanket Sleeve* parts.
+
+                  . The *Carbon Fiber Blanket Sleeve* parts are complete.
+          corner-brace:
+            name: corner-brace
+            version: 1.0.0
+            description: 2 inch x 5/8 Inch Corner Brace (Four Holes)
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          fast-heated-bed-bottom-plate:
+            name: fast-heated-bed-bottom-plate
+            version: 1.0.0
+            description: Fast Heated Bed Bottom Plate
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components:
+              16ga-steel-sheet:
+                name: 16ga-steel-sheet
+                version: 1.0.0
+                description: 16 Gauge 300mm x 300mm Steel Sheet
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              7mm-sheet-metal-drill-bit:
+                name: 7mm-sheet-metal-drill-bit
+                version: 1.0.0
+                description: 7mm Sheet Metal Drill Bit
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              drill-press:
+                name: drill-press
+                version: 1.0.0
+                description: Drill Press
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions:
+                  - >-
+                    Drill presses can cause permanent injury or possibly death!
+                    Do not wear loose fitting clothing, put your hair up, and
+                    wear proper PPE including (but not limited to) safety
+                    glasses when operating the machine.
+              fast-heated-bed-plate-jig:
+                name: fast-heated-bed-plate-jig
+                version: 1.0.0
+                description: Fast Heated Bed Plate Jig
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              metal-file:
+                name: metal-file
+                version: 1.0.0
+                description: Metal File
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              permanent-marker:
+                name: permanent-marker
+                version: 1.0.0
+                description: Permanent Marker
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+            parts:
+              steel-sheet:
+                description: Steel Sheet
+                id: steel-sheet
+                notes: ''
+                options:
+                  - 16ga-steel-sheet
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'steel-sheet: Steel Sheet'
+                descriptionSelected: >-
+                  steel-sheet: Steel Sheet (16 Gauge 300mm x 300mm Steel Sheet
+                  v1.0.0)
+            tools:
+              plate-jig:
+                description: Plate Jig
+                id: plate-jig
+                notes: ''
+                options:
+                  - fast-heated-bed-plate-jig
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'plate-jig: Plate Jig'
+                descriptionSelected: 'plate-jig: Plate Jig (Fast Heated Bed Plate Jig v1.0.0)'
+              marker:
+                description: Permanent Marker
+                id: marker
+                notes: ''
+                options:
+                  - permanent-marker
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'marker: Permanent Marker'
+                descriptionSelected: 'marker: Permanent Marker (Permanent Marker v1.0.0)'
+              drill-press:
+                description: Drill Press
+                id: drill-press
+                notes: ''
+                options:
+                  - drill-press
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'drill-press: Drill Press'
+                descriptionSelected: 'drill-press: Drill Press (Drill Press v1.0.0)'
+              7mm-drill-bit:
+                description: 7mm Drill Bit
+                id: 7mm-drill-bit
+                notes: ''
+                options:
+                  - 7mm-sheet-metal-drill-bit
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: '7mm-drill-bit: 7mm Drill Bit'
+                descriptionSelected: >-
+                  7mm-drill-bit: 7mm Drill Bit (7mm Sheet Metal Drill Bit
+                  v1.0.0)
+              metal-file:
+                description: Metal File
+                id: metal-file
+                notes: ''
+                options:
+                  - metal-file
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'metal-file: Metal File'
+                descriptionSelected: 'metal-file: Metal File (Metal File v1.0.0)'
+            precautions: []
+            assemblySteps:
+              - summary: Drill the Fast Heated Bed Bottom Plate
+                requiredParts:
+                  - steel-sheet
+                requiredTools:
+                  - plate-jig
+                  - marker
+                  - drill-press
+                  - 7mm-drill-bit
+                  - metal-file
+                details: >
+                  . Align the *Plate Jig* to one of the corners of the *Steel
+                  Sheet*.
+
+                  . In each of the holes on the *Plate Jig*, mark a circle the
+                  size of the hole using the *Permanent Marker*.
+
+                  . Insert the *7mm Drill Bit* into the chuck of the *Drill
+                  Press* and secure it tightly per the manufacturer's
+                  instructions.
+
+                  . Turn on the drill press and drill holes through each of the
+                  marks made on the *Steel Sheet* in the earlier steps.
+
+                  . Using the *Metal File*, file down any metal burrs created by
+                  the *Drill Press* on the *Steel Sheet*.
+          fast-heated-bed-clamp:
+            name: fast-heated-bed-clamp
+            version: 1.0.0
+            description: Fast Heated Bed Clamp
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          fast-heated-bed-lightbulb-assembly:
+            name: fast-heated-bed-lightbulb-assembly
+            version: 1.0.0
+            description: Halogen Lightbulb Assembly
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components:
+              electrical-solder:
+                name: electrical-solder
+                version: 1.0.0
+                description: Rosin Core Lead Free Electrical Solder
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions:
+                  - >-
+                    Rosin Core Lead Free Electrical Solder can contain toxic
+                    chemicals! Always work in a well ventialted area and use
+                    personal protection equipment!
+              helping-hands:
+                name: helping-hands
+                version: 1.0.0
+                description: Helping Hands Clamp Stand
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              paper-towels:
+                name: paper-towels
+                version: 1.0.0
+                description: Paper Towels
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              r7s-118mm-halogen-lightbulb:
+                name: r7s-118mm-halogen-lightbulb
+                version: 1.0.0
+                description: R7S 118mm Halogen Lightbulb
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions:
+                  - >-
+                    If oils or other debris do get on the R7S 118mm Halogen
+                    Lightbulb it can be cleaned with rubbing alcohol and a clean
+                    paper towel.
+                  - >-
+                    R7S 118mm Halogen Lightbulb  requires special handling. The
+                    oils on human skin can shorten the lifetime of a R7S 118mm
+                    Halogen Lightbulb if they get on the glass of the bulb.
+                    Always use something other than your hands to handle a R7S
+                    118mm Halogen Lightbulb.
+              r7s-118mm-halogen-lightbulb-holder:
+                name: r7s-118mm-halogen-lightbulb-holder
+                version: 1.0.0
+                description: R7S 118mm Halogen Lightbulb Holder
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              soldering-iron:
+                name: soldering-iron
+                version: 1.0.0
+                description: Soldering Iron
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions:
+                  - >-
+                    A Soldering Iron gets very very hot and can burn you! Follow
+                    all of the manufacturer recommended safety precautions when
+                    using a Soldering Iron!
+            parts:
+              halogen-lightbulb:
+                description: Halogen Lightbulb
+                id: halogen-lightbulb
+                notes: ''
+                options:
+                  - r7s-118mm-halogen-lightbulb
+                quantity: 3
+                quantityUnits: part(s)
+                selectedOption: 0
+                descriptionLong: 'halogen-lightbulb: Halogen Lightbulb'
+                descriptionSelected: >-
+                  halogen-lightbulb: Halogen Lightbulb (R7S 118mm Halogen
+                  Lightbulb v1.0.0)
+              halogen-lightbulb-holder:
+                description: Halogen Lightbulb Holder
+                id: halogen-lightbulb-holder
+                notes: ''
+                options:
+                  - r7s-118mm-halogen-lightbulb-holder
+                quantity: 3
+                quantityUnits: part(s)
+                selectedOption: 0
+                descriptionLong: 'halogen-lightbulb-holder: Halogen Lightbulb Holder'
+                descriptionSelected: >-
+                  halogen-lightbulb-holder: Halogen Lightbulb Holder (R7S 118mm
+                  Halogen Lightbulb Holder v1.0.0)
+              electrical-solder:
+                description: Electrical Solder
+                id: electrical-solder
+                notes: ''
+                options:
+                  - electrical-solder
+                quantity: 2
+                quantityUnits: application(s)
+                selectedOption: 0
+                descriptionLong: 'electrical-solder: Electrical Solder'
+                descriptionSelected: >-
+                  electrical-solder: Electrical Solder (Rosin Core Lead Free
+                  Electrical Solder v1.0.0)
+            tools:
+              soldering-iron:
+                description: Soldering Iron
+                id: soldering-iron
+                notes: ''
+                options:
+                  - soldering-iron
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'soldering-iron: Soldering Iron'
+                descriptionSelected: 'soldering-iron: Soldering Iron (Soldering Iron v1.0.0)'
+              helping-hands:
+                description: Helping Hands
+                id: helping-hands
+                notes: ''
+                options:
+                  - helping-hands
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'helping-hands: Helping Hands'
+                descriptionSelected: >-
+                  helping-hands: Helping Hands (Helping Hands Clamp Stand
+                  v1.0.0)
+              paper-towels:
+                description: Paper Towels
+                id: paper-towels
+                notes: ''
+                options:
+                  - paper-towels
+                quantity: 1
+                quantityUnits: section
+                selectedOption: 0
+                descriptionLong: 'paper-towels: Paper Towels'
+                descriptionSelected: 'paper-towels: Paper Towels (Paper Towels v1.0.0)'
+            precautions:
+              - >-
+                Make sure to not touch the Halogen Lightbulb in the assembly
+                with bare hands or they will be damaged!
+            assemblySteps:
+              - summary: Assemble Halogen Lightbulb Assembly
+                requiredParts:
+                  - halogen-lightbulb
+                  - halogen-lightbulb-holder
+                  - electrical-solder
+                requiredTools:
+                  - soldering-iron
+                  - paper-towels
+                details: >
+                  . Preheat the *Soldering Iron* to the operating temperature
+                  recommended by the *Electrical Solder* packaging.
+
+                  . Position the wires of two *Halogen Lightbulb Holder* part(s)
+                  in the *Helping Hands* so that the exposed ends of the wires
+                  are touching.
+
+                  . Hold the hot end of the *Soldering Iron* against the exposed
+                  wires in the *Helping Hands* for a few seconds to heat the
+                  wires.
+
+                  . Apply *Electrical Solder* to the contact point between the
+                  hot end of the *Soldering Iron* and the exposed wires until
+                  enough has been added to fuse the wires and make a good
+                  electrical connection.
+
+                  . Remove the hot end of the *Soldering Iron* from the wires.
+
+                  . Wait for the wires to cool and then remove them from the
+                  *Helping Hands*. 
+
+                  . Take the other wire of one of the previously soldered
+                  *Halogen Lightbulb Holder* part(s) and position it in the
+                  *Helping Hands*.
+
+                  . Position one of the wires of the remaining *Halogen
+                  Lightbulb Holder* part(s) in the unused side of the *Helping
+                  Hands*.
+
+                  . Hold the hot end of the *Soldering Iron* against the exposed
+                  wires in the *Helping Hands* for a few seconds to heat the
+                  wires.
+
+                  . Apply *Electrical Solder* to the contact point between the
+                  hot end of the *Soldering Iron* and the exposed wires until
+                  enough has been added to fuse the wires and make a good
+                  electrical connection.
+
+                  . Remove the hot end of the *Soldering Iron* from the wires.
+
+                  . Wait for the wires to cool and then remove them from the
+                  *Helping Hands*.
+
+                  . Using *Paper Towels*, remove a *Halogen Lightbulb* part(s)
+                  from its packaging material and insert it into one of the
+                  *Halogen Lightbulb Holder* part(s). Be careful to not touch
+                  the *Halogen Lightbulb* with your hands (see precautions).
+
+                  . Repeat the above step for each of the other *Halogen
+                  Lightbulb Holder* part(s)*.
+
+                  . The *Halogen Lightbulb Assembly* is now complete.
+          fast-heated-bed-top-plate:
+            name: fast-heated-bed-top-plate
+            version: 1.0.0
+            description: Fast Heated Bed Top Plate
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components:
+              16ga-steel-sheet:
+                name: 16ga-steel-sheet
+                version: 1.0.0
+                description: 16 Gauge 300mm x 300mm Steel Sheet
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              fast-heated-bed-plate-jig:
+                name: fast-heated-bed-plate-jig
+                version: 1.0.0
+                description: Fast Heated Bed Plate Jig
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              m6-25mm-socket-head-cap-screw:
+                name: m6-25mm-socket-head-cap-screw
+                version: 1.0.0
+                description: M6 x 25mm Socket Head Cap Screw
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              permanent-marker:
+                name: permanent-marker
+                version: 1.0.0
+                description: Permanent Marker
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              vise-grip-pliers:
+                name: vise-grip-pliers
+                version: 1.0.0
+                description: Vise Grip Pliers
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              welder:
+                name: welder
+                version: 1.0.0
+                description: Welder
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions:
+                  - >-
+                    DO NOT ATTEMPT TO WELD WITHOUT PROPER PERSONAL PROTECTIVE
+                    EQUIPMENT AND PROPER TRAINING. If necessary, have this part
+                    fabricated by someone who can safely perform the work.
+                  - >-
+                    Welding is an operation that can be harmful or FATAL if done
+                    improperly. Follow all instructions and precautions included
+                    with the Welder and use common sense!
+              wire-welding-brush:
+                name: wire-welding-brush
+                version: 1.0.0
+                description: Wire Welding Brush
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+            parts:
+              steel-sheet:
+                description: Steel Sheet
+                id: steel-sheet
+                notes: ''
+                options:
+                  - 16ga-steel-sheet
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'steel-sheet: Steel Sheet'
+                descriptionSelected: >-
+                  steel-sheet: Steel Sheet (16 Gauge 300mm x 300mm Steel Sheet
+                  v1.0.0)
+              m6-25mm-screw:
+                description: M6 x 25mm Screw
+                id: m6-25mm-screw
+                notes: ''
+                options:
+                  - m6-25mm-socket-head-cap-screw
+                quantity: 4
+                quantityUnits: part(s)
+                selectedOption: 0
+                descriptionLong: 'm6-25mm-screw: M6 x 25mm Screw'
+                descriptionSelected: >-
+                  m6-25mm-screw: M6 x 25mm Screw (M6 x 25mm Socket Head Cap
+                  Screw v1.0.0)
+            tools:
+              plate-jig:
+                description: Plate Jig
+                id: plate-jig
+                notes: ''
+                options:
+                  - fast-heated-bed-plate-jig
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'plate-jig: Plate Jig'
+                descriptionSelected: 'plate-jig: Plate Jig (Fast Heated Bed Plate Jig v1.0.0)'
+              marker:
+                description: Permanent Marker
+                id: marker
+                notes: ''
+                options:
+                  - permanent-marker
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'marker: Permanent Marker'
+                descriptionSelected: 'marker: Permanent Marker (Permanent Marker v1.0.0)'
+              vise-grip-pliers:
+                description: Vise Grip Pliers
+                id: vise-grip-pliers
+                notes: ''
+                options:
+                  - vise-grip-pliers
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'vise-grip-pliers: Vise Grip Pliers'
+                descriptionSelected: 'vise-grip-pliers: Vise Grip Pliers (Vise Grip Pliers v1.0.0)'
+              welder:
+                description: Welder
+                id: welder
+                notes: ''
+                options:
+                  - welder
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'welder: Welder'
+                descriptionSelected: 'welder: Welder (Welder v1.0.0)'
+              welding-brush:
+                description: Welding Brush
+                id: welding-brush
+                notes: ''
+                options:
+                  - wire-welding-brush
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'welding-brush: Welding Brush'
+                descriptionSelected: 'welding-brush: Welding Brush (Wire Welding Brush v1.0.0)'
+            precautions: []
+            assemblySteps:
+              - summary: Prepare the Steel Sheet for Welding
+                requiredParts:
+                  - steel-sheet
+                requiredTools:
+                  - plate-jig
+                  - welding-brush
+                  - marker
+                details: >
+                  . Use the *Welding Brush* on the *Steel Sheet* to scrape off
+                  any surface impurities near the corners where the welds will
+                  occur.
+
+                  . Align the *Plate Jig* to one of the corners of the *Steel
+                  Sheet*.
+
+                  . In each of the holes on the *Plate Jig*, mark a circle the
+                  size of the hole using the *Permanent Marker*.
+              - summary: Weld the M6 x 25mm Screw part(s) to the Steel Sheet
+                requiredParts:
+                  - steel-sheet
+                  - m6-25mm-screw
+                requiredTools:
+                  - welder
+                  - vise-grip-pliers
+                details: >
+                  . Using *Vise Grip Pliers*, secure a *M6 x 25mm Screw* over
+                  one of the *Plate Jig* circles drawn previously.
+
+                  . While wearing proper safety equipment, spot weld the *M6 x
+                  25mm Screw* to the *Steel Sheet* using the *Welder*.
+
+                  . Repeat the above steps for the remaining *Plate Jig* marks
+                  until there are a total of four *M6 x 25mm Screw* part(s) in
+                  the locations indicated by the *Plate Jig*.
+
+                  . Clean off the welding marks on both sides of the *Steel
+                  Sheet* using the *Welding Brush*.
+          m6-20mm-socket-head-cap-screw:
+            name: m6-20mm-socket-head-cap-screw
+            version: 1.0.0
+            description: M6 x 20mm Socket Head Cap Screw
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          m6-nut:
+            name: m6-nut
+            version: 1.0.0
+            description: M6 Nut
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          metal-conduit:
+            name: metal-conduit
+            version: 1.0.0
+            description: Metal Conduit
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components:
+              circular-saw:
+                name: circular-saw
+                version: 1.0.0
+                description: Circular Saw
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions:
+                  - >-
+                    A Circular Saw can cause permenent injury or death! Follow
+                    all manufacturer recommended safety precautions!
+              measuring-tape:
+                name: measuring-tape
+                version: 1.0.0
+                description: Measuring Tape
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              metal-conduit-stock-length:
+                name: metal-conduit-stock-length
+                version: 1.0.0
+                description: Stock Length Metal Conduit
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              metal-cutoff-wheel:
+                name: metal-cutoff-wheel
+                version: 1.0.0
+                description: Metal Cutoff Wheel
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              metal-jaw-vise:
+                name: metal-jaw-vise
+                version: 1.0.0
+                description: Metal Jaw Vise
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              permanent-marker:
+                name: permanent-marker
+                version: 1.0.0
+                description: Permanent Marker
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+            parts:
+              conduit-stock-length:
+                description: Stock Length Metal Conduit
+                id: conduit-stock-length
+                notes: ''
+                options:
+                  - metal-conduit-stock-length
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'conduit-stock-length: Stock Length Metal Conduit'
+                descriptionSelected: >-
+                  conduit-stock-length: Stock Length Metal Conduit (Stock Length
+                  Metal Conduit v1.0.0)
+            tools:
+              circular-saw:
+                description: Circular Saw
+                id: circular-saw
+                notes: ''
+                options:
+                  - circular-saw
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'circular-saw: Circular Saw'
+                descriptionSelected: 'circular-saw: Circular Saw (Circular Saw v1.0.0)'
+              cutoff-wheel:
+                description: Cutoff Wheel
+                id: cutoff-wheel
+                notes: >-
+                  Make sure that the cutoff wheel that you purchase is
+                  compatible with your cutting tool!
+                options:
+                  - metal-cutoff-wheel
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'cutoff-wheel: Cutoff Wheel'
+                descriptionSelected: 'cutoff-wheel: Cutoff Wheel (Metal Cutoff Wheel v1.0.0)'
+              vise:
+                description: Vise
+                id: vise
+                notes: ''
+                options:
+                  - metal-jaw-vise
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'vise: Vise'
+                descriptionSelected: 'vise: Vise (Metal Jaw Vise v1.0.0)'
+              measuring-tape:
+                description: Measuring Tape
+                id: measuring-tape
+                notes: ''
+                options:
+                  - measuring-tape
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'measuring-tape: Measuring Tape'
+                descriptionSelected: 'measuring-tape: Measuring Tape (Measuring Tape v1.0.0)'
+              marker:
+                description: Permanent Marker
+                id: marker
+                notes: ''
+                options:
+                  - permanent-marker
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'marker: Permanent Marker'
+                descriptionSelected: 'marker: Permanent Marker (Permanent Marker v1.0.0)'
+            precautions: []
+            assemblySteps:
+              - summary: Cut Metal Conduit to Length
+                requiredParts:
+                  - conduit-stock-length
+                requiredTools:
+                  - circular-saw
+                  - cutoff-wheel
+                  - vise
+                  - measuring-tape
+                  - marker
+                details: >
+                  . While following the *Circular Saw* manufacturer's
+                  instructions, install the *Cutoff Wheel* into the *Circular
+                  Saw*.
+
+                  . Affix the *Stock Length Metal Conduit* into the *Vise*,
+                  leaving enough *Stock Length Metal Conduit* sticking out to
+                  make the cut.
+
+                  . Mark the 250mm length on the *Stock Length Metal Conduit*
+                  using the *Measuring Tape* and *Permanent Marker*. Make sure
+                  that there is enough space marked for the width of the cutting
+                  blade!
+
+                  . Using the *Circular Saw*, make the cut on the *Stock Length
+                  Metal Conduit* where previously marked.
+
+                  . Repeat the above steps for all of the needed lengths of
+                  *Metal Conduit*.
+          ntc-100k-ohm-b3950-thermistor-cartridge:
+            name: ntc-100k-ohm-b3950-thermistor-cartridge
+            version: 1.0.0
+            description: NTC 100K ohm B3950 Thermistor Cartridge
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          pei-sheet:
+            name: pei-sheet
+            version: 1.0.0
+            description: 300mm x 300mm PEI Sheet
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          slip-joint-pliers:
+            name: slip-joint-pliers
+            version: 1.0.0
+            description: Slip Joint Pliers
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+        parts:
+          8mm-rod:
+            description: 8mm Rod
+            id: 8mm-rod
+            notes: ''
+            options:
+              - 8mm-600mm-smooth-rod
+            quantity: 2
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: '8mm-rod: 8mm Rod'
+            descriptionSelected: '8mm-rod: 8mm Rod (8mm x 600mm Smooth Rod v1.0.0)'
+          autoparallel:
+            description: Autoparallel
+            id: autoparallel
+            notes: ''
+            options:
+              - autoparallel
+            quantity: 2
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: 'autoparallel: Autoparallel'
+            descriptionSelected: 'autoparallel: Autoparallel (Autoparallel Part v1.0.0)'
+          top-plate:
+            description: Fast Heated Bed Top Plate
+            id: top-plate
+            notes: ''
+            options:
+              - fast-heated-bed-top-plate
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'top-plate: Fast Heated Bed Top Plate'
+            descriptionSelected: >-
+              top-plate: Fast Heated Bed Top Plate (Fast Heated Bed Top Plate
+              v1.0.0)
+          bottom-plate:
+            description: Fast Heated Bed Bottom Plate
+            id: bottom-plate
+            notes: ''
+            options:
+              - fast-heated-bed-bottom-plate
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'bottom-plate: Fast Heated Bed Bottom Plate'
+            descriptionSelected: >-
+              bottom-plate: Fast Heated Bed Bottom Plate (Fast Heated Bed Bottom
+              Plate v1.0.0)
+          clamp:
+            description: Fast Heated Bed Clamp
+            id: clamp
+            notes: ''
+            options:
+              - fast-heated-bed-clamp
+            quantity: 2
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: 'clamp: Fast Heated Bed Clamp'
+            descriptionSelected: 'clamp: Fast Heated Bed Clamp (Fast Heated Bed Clamp v1.0.0)'
+          conduit:
+            description: Metal Conduit
+            id: conduit
+            notes: ''
+            options:
+              - metal-conduit
+            quantity: 4
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: 'conduit: Metal Conduit'
+            descriptionSelected: 'conduit: Metal Conduit (Metal Conduit v1.0.0)'
+          corner-brace:
+            description: Corner Brace
+            id: corner-brace
+            notes: ''
+            options:
+              - corner-brace
+            quantity: 2
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: 'corner-brace: Corner Brace'
+            descriptionSelected: >-
+              corner-brace: Corner Brace (2 inch x 5/8 Inch Corner Brace (Four
+              Holes) v1.0.0)
+          lightbulb-assembly:
+            description: Halogen Lightbulb Assembly
+            id: lightbulb-assembly
+            notes: ''
+            options:
+              - fast-heated-bed-lightbulb-assembly
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'lightbulb-assembly: Halogen Lightbulb Assembly'
+            descriptionSelected: >-
+              lightbulb-assembly: Halogen Lightbulb Assembly (Halogen Lightbulb
+              Assembly v1.0.0)
+          m6-20mm-screw:
+            description: M6 x 20mm Screw
+            id: m6-20mm-screw
+            notes: ''
+            options:
+              - m6-20mm-socket-head-cap-screw
+            quantity: 4
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: 'm6-20mm-screw: M6 x 20mm Screw'
+            descriptionSelected: >-
+              m6-20mm-screw: M6 x 20mm Screw (M6 x 20mm Socket Head Cap Screw
+              v1.0.0)
+          m6-nut:
+            description: M6 Nut
+            id: m6-nut
+            notes: ''
+            options:
+              - m6-nut
+            quantity: 8
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: 'm6-nut: M6 Nut'
+            descriptionSelected: 'm6-nut: M6 Nut (M6 Nut v1.0.0)'
+          pei-sheet:
+            description: PEI Sheet
+            id: pei-sheet
+            notes: ''
+            options:
+              - pei-sheet
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'pei-sheet: PEI Sheet'
+            descriptionSelected: 'pei-sheet: PEI Sheet (300mm x 300mm PEI Sheet v1.0.0)'
+          sleeve:
+            description: Carbon Fiber Blanket Sleeve
+            id: sleeve
+            notes: ''
+            options:
+              - carbon-fiber-blanket-sleeve
+            quantity: 4
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: 'sleeve: Carbon Fiber Blanket Sleeve'
+            descriptionSelected: >-
+              sleeve: Carbon Fiber Blanket Sleeve (Carbon Fiber Blanket Sleeve
+              v1.0.0)
+          thermistor:
+            description: Thermistor
+            id: thermistor
+            notes: ''
+            options:
+              - ntc-100k-ohm-b3950-thermistor-cartridge
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'thermistor: Thermistor'
+            descriptionSelected: >-
+              thermistor: Thermistor (NTC 100K ohm B3950 Thermistor Cartridge
+              v1.0.0)
+        tools:
+          pliers:
+            description: Slip Joint Pliers
+            id: pliers
+            notes: ''
+            options:
+              - slip-joint-pliers
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'pliers: Slip Joint Pliers'
+            descriptionSelected: 'pliers: Slip Joint Pliers (Slip Joint Pliers v1.0.0)'
+          5mm-allen-wrench:
+            description: 5mm Allen Wrench
+            id: 5mm-allen-wrench
+            notes: ''
+            options:
+              - 5mm-allen-wrench
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: '5mm-allen-wrench: 5mm Allen Wrench'
+            descriptionSelected: '5mm-allen-wrench: 5mm Allen Wrench (5mm Allen Wrench v1.0.0)'
+        precautions: []
+        assemblySteps:
+          - summary: Assemble Fast Heated Bed Module
+            requiredParts: []
+            requiredTools: []
+            details: >
+              . Slide one *Carbon Fiber Blanket Sleeve* part(s) over one *Metal
+              Conduit* so that the *Metal Conduit* is in the middle of the
+              *Carbon Fiber Blanket Sleeve*.
+
+              . Repeat the above step for the three other pairs of *Carbon Fiber
+              Blanket Sleeve* part(s) and *Metal Conduit* part(s).
+
+              . Orient the *Fast Heated Bed Top Plate* so that the screws are on
+              top.
+
+              . Take one of the *Metal Conduit* / *Carbon Fiber Blanket Sleeve*
+              part(s) and align the "X" cuts on the ends of the *Carbon Fiber
+              Blanket Sleeve* with two bolts on the side of the *Fast Heated Bed
+              Top Plate*. 
+
+              . Repeat the above step for all four sides of the *Fast Heated Bed
+              Top Plate*.
+
+              . Without touching the bulbs, place the *Halogen Lightbulb
+              Assembly* onto the center of the *Fast Heated Bed Top Plate*.
+
+              . Pull the wires of the *Halogen Lightbulb Assembly* out past one
+              side of the *Fast Heated Bed Top Plate* so that the wires can be
+              reached in a later step.
+
+              . Take four *M6 Nut* part(s) and screw one onto every screw on the
+              *Fast Heated Bed Top Plate*.
+
+              . Position the *Fast Heated Bed Bottom Plate* onto the screws of
+              the *Fast Heated Bed Top Plate*. The *Fast Heated Bed Bottom
+              Plate* should rest on top of the *M6 Nut* part(s) from the
+              previous step.
+
+              . Take four *M6 Nut* part(s) and screw one onto every screw on the
+              *Fast Heated Bed Top Plate* above the *Fast Heated Bed Bottom
+              Plate*. Tighten them down by hand; the final adjustment will take
+              place later.
+
+              . Gently flip the *Fast Heated Bed Module* over so that the *Fast
+              Heated Bed Top Plate* is on top.
+
+              . Take the *PEI Sheet* and peel away the corner of the covering of
+              the adhesive side of the part
+
+              . Align the exposed adhesive corner of the *PEI Sheet* with the
+              machine cut side of the *Fast Heated Bed Top Plate*.
+
+              . Apply even and gentle pressure to the *PEI Sheet* to begin to
+              stick it to the surface of the *Fast Heated Bed Top Plate*.
+
+              . While keeping the edges aligned, peel back more of the adhesive
+              covering and apply more even pressure across the surface of the
+              *PEI Sheet* until the *part* is fully adheared.
       ferrule:
         name: ferrule
         version: 1.0.0
@@ -12749,7 +12632,7 @@ components:
           Wires* are complete.
       - summary: >-
           Assemble the Two Prong Electrical Plug to 24v Power Supply Module/Fast
-          Heated Bed 120v Power Custom Wires
+          Heated Bed Module 120v Power Custom Wires
         requiredParts: []
         requiredTools: []
         details: |

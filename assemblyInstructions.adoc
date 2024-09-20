@@ -5461,7 +5461,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 
 // summary
 
-==== Assemble the Two Prong Electrical Plug to 24v Power Supply Module/Fast Heated Bed 120v Power Custom Wires
+==== Assemble the Two Prong Electrical Plug to 24v Power Supply Module/Fast Heated Bed Module 120v Power Custom Wires
 
 
 // requiredTools
