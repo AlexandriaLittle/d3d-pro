@@ -237,7 +237,7 @@ components:
   m6-20mm-socket-head-cap-screw:
     description: M6 x 20mm Socket Head Cap Screw
     name: m6-20mm-socket-head-cap-screw
-    quantity: 43
+    quantity: 31
     quantityUnits: part(s)
   m6-25mm-socket-head-cap-screw:
     description: M6 x 25mm Socket Head Cap Screw
@@ -252,7 +252,7 @@ components:
   m6-thin-nut:
     description: M6 Thin Nut
     name: m6-thin-nut
-    quantity: 25
+    quantity: 13
     quantityUnits: part(s)
   marlin-firmware:
     description: Marlin Firmware
@@ -332,7 +332,7 @@ components:
   rebar-stake-stock-length:
     description: 12.7mm Rebar Stake Stock Length
     name: rebar-stake-stock-length
-    quantity: 12
+    quantity: 4
     quantityUnits: part
   reprap-discount-full-graphic-smart-controller:
     description: RepRap Discount Full Graphic Smart Controller
