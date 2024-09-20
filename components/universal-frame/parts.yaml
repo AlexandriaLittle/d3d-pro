@@ -4,7 +4,7 @@ rebar-stake:
   notes: ''
   options:
     - rebar-stake
-  quantity: 4
+  quantity: 12
   quantityUnits: part(s)
   selectedOption: 0
 m6-20mm-screw:
@@ -13,7 +13,7 @@ m6-20mm-screw:
   notes: ''
   options:
     - m6-20mm-socket-head-cap-screw
-  quantity: 12
+  quantity: 24
   quantityUnits: part(s)
   selectedOption: 0
 m6-thin-nut:
@@ -22,7 +22,7 @@ m6-thin-nut:
   notes: ''
   options:
     - m6-thin-nut
-  quantity: 12
+  quantity: 24
   quantityUnits: part(s)
   selectedOption: 0
 corner-connector:
