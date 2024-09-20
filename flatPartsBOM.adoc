@@ -152,7 +152,7 @@
 
 
 
-|4
+|5
 |part(s)
 |carbon-fiber-blanket-stock
 |Carbon Fiber Blanket (Stock Size)
@@ -243,8 +243,8 @@
 
 
 
-|1
-|part
+|3
+|part(s)
 |heat-shrink-tubing
 |Heat Shrink Tubing
 
@@ -373,6 +373,13 @@
 |part
 |metal-conduit-stock-length
 |Stock Length Metal Conduit
+
+
+
+|4
+|part(s)
+|metal-zip-tie
+|Metal Zip Tie
 
 
 

@@ -107,7 +107,7 @@ components:
   carbon-fiber-blanket-stock:
     description: Carbon Fiber Blanket (Stock Size)
     name: carbon-fiber-blanket-stock
-    quantity: 4
+    quantity: 5
     quantityUnits: part(s)
   corner-brace:
     description: 2 inch x 5/8 Inch Corner Brace (Four Holes)
@@ -172,8 +172,8 @@ components:
   heat-shrink-tubing:
     description: Heat Shrink Tubing
     name: heat-shrink-tubing
-    quantity: 1
-    quantityUnits: part
+    quantity: 3
+    quantityUnits: part(s)
   height-sensor:
     description: LJ18A3-8-Z-BY-5V Proximity Switch
     name: height-sensor
@@ -264,6 +264,11 @@ components:
     name: metal-conduit-stock-length
     quantity: 4
     quantityUnits: part
+  metal-zip-tie:
+    description: Metal Zip Tie
+    name: metal-zip-tie
+    quantity: 4
+    quantityUnits: part(s)
   microsd-to-sd-card-adapter:
     description: MicroSD Card to SD Card Adapter
     name: microsd-to-sd-card-adapter

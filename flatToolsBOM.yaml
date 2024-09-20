@@ -89,6 +89,11 @@ components:
     name: hobby-knife
     quantity: 1
     quantityUnits: part
+  lighter:
+    description: Lighter
+    name: lighter
+    quantity: 1
+    quantityUnits: part
   measuring-tape:
     description: Measuring Tape
     name: measuring-tape
