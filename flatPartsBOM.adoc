@@ -334,7 +334,7 @@
 
 
 
-|31
+|43
 |part(s)
 |m6-20mm-socket-head-cap-screw
 |M6 x 20mm Socket Head Cap Screw
@@ -355,7 +355,7 @@
 
 
 
-|13
+|25
 |part(s)
 |m6-thin-nut
 |M6 Thin Nut
@@ -467,7 +467,7 @@
 
 
 
-|4
+|12
 |part
 |rebar-stake-stock-length
 |12.7mm Rebar Stake Stock Length

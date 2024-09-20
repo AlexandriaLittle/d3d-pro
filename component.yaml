@@ -13630,7 +13630,7 @@ components:
         notes: ''
         options:
           - rebar-stake
-        quantity: 4
+        quantity: 12
         quantityUnits: part(s)
         selectedOption: 0
         descriptionLong: 'rebar-stake: Rebar Stake'
@@ -13641,7 +13641,7 @@ components:
         notes: ''
         options:
           - m6-20mm-socket-head-cap-screw
-        quantity: 12
+        quantity: 24
         quantityUnits: part(s)
         selectedOption: 0
         descriptionLong: 'm6-20mm-screw: M6 x 20mm Screw'
@@ -13654,7 +13654,7 @@ components:
         notes: ''
         options:
           - m6-thin-nut
-        quantity: 12
+        quantity: 24
         quantityUnits: part(s)
         selectedOption: 0
         descriptionLong: 'm6-thin-nut: M6 Thin Nut'
@@ -13796,7 +13796,7 @@ components:
           strain or crack, unscrew the *M6 x 20mm Screw* slightly to reduce the
           pressure.
 
-          . The Universal Frame Base is complete.
+          . The *Universal Frame Base* is complete.
       - summary: Assemble Universal Frame Top
         requiredParts:
           - corner-connector-left
@@ -13805,20 +13805,35 @@ components:
         requiredTools:
           - 5mm-allen-wrench
         details: >
-          . Insert one *Rebar Stake* into a slot on a *Left Corner Connector*.
+          . Orient the *Left Corner Connector* part(s) and *Right Corner
+          Connector* part(s) so that they are all laying flat against the table.
+          There should only be one orientation where the parts lay flat, and
+          this orientation should be maintained throughout the following steps
+          for the sake of clarity.
 
-          . Press the *Rebar Stake* down hard into the slot so that the part(s)
-          are flush with the bottom of the slot. This step is important to
-          ensure squareness in the frame.
+          . Organize the above parts such that the *Left Corner Connector*
+          part(s) will be on opposite corners of the square that will be formed
+          in later steps.
+
+          . Perform the above step again for the *Right Corner Connector*
+          part(s) to lay out the final orientation of the parts.
+
+          . Insert one *Rebar Stake* into a side slot on a *Left Corner
+          Connector*. Do not insert the *Rebar Stake* part(s) into the slot that
+          is pointing up in this step.
+
+          . Press the *Rebar Stake* hard into the slot so that the part(s) are
+          flush with the bottom of the slot. This step is important to ensure
+          squareness in the frame.
 
           . Using the *5mm Allen Wrench*, screw down the *M6 x 20mm Screw* in
           against the *Rebar Stake* until it is tight. If the plastic of the
           *Left Corner Connector* begins to strain or crack, unscrew the *M6 x
           20mm Screw* slightly to reduce the pressure.
 
-          . Insert the other end of the *Rebar Stake* into a *Right Corner
-          Connector* and repeat the above steps to press and tighten down the
-          *Right Corner Connector*.
+          . Insert the other end of the *Rebar Stake* from the above steps into
+          the corresponding *Right Corner Connector* and repeat the above steps
+          to press and tighten down the *Right Corner Connector*.
 
           . Repeat the above steps so that there are two completed *Rebar Stake*
           part(s) with *Left Corner Connector* part(s) and *Right Corner
@@ -13832,12 +13847,12 @@ components:
           part(s).
 
           . Tighten the four loose *M6 x 20mm Screw* part(s) down onto the
-          *Rebar Stake* part(s) to complete the *Universal Frame Module Top*. As
-          above, if the plastic of the *Left Corner Connector* part(s) or *Right
-          Corner Connector* part(s) begins to strain or crack, unscrew the *M6 x
-          20mm Screw* slightly to reduce the pressure.
+          *Rebar Stake* part(s). As above, if the plastic of the *Left Corner
+          Connector* part(s) or *Right Corner Connector* part(s) begins to
+          strain or crack, unscrew the *M6 x 20mm Screw* slightly to reduce the
+          pressure.
 
-          . The Universal Frame Top is complete.
+          . The *Universal Frame Top* is complete.
       - summary: Assemble Universal Frame Module
         requiredParts:
           - rebar-stake
@@ -13846,34 +13861,35 @@ components:
         requiredTools:
           - 5mm-allen-wrench
         details: >
-          . Orient the *Universal Frame Top* so that the open slots point
-          upward.
-
-          . Insert the four *Rebar Stake* part(s) into the slots of the
-          *Universal Frame Top*.
-
-          . Firmly press each *Rebar Stake* part(s) into the *Universal Frame
-          Top* so that they are flush with the bottom of the slots in the
-          *Universal Frame Top*.
-
-          . Tighten down all of the remaining fasteners on the *Universal Frame
-          Top* to secure the *Rebar Stake* part(s) in place. If the plastic of
-          the *Universal Frame Top* begins to strain or crack, unscrew the
-          fastener slightly to reduce the pressure.
-
           . Orient the *Universal Frame Base* so that the open slots point
           upward.
 
-          . Insert the four *Rebar Stake* part(s) that are connected to the
-          *Universal Frame Top* into the slots of the *Universal Frame Base*.
+          . Insert the four *Rebar Stake* part(s) into the slots of the
+          *Universal Frame Base*.
 
-          . Firmly press the *Universal Frame Top* down onto the *Universal
-          Frame Base* so that the *Rebar Stake* part(s) are properly seated.
+          . Firmly press each *Rebar Stake* part(s) into the *Universal Frame
+          Base* so that they are flush with the bottom of the slots in the
+          *Universal Frame Base*.
 
           . Tighten down all of the remaining fasteners on the *Universal Frame
           Base* to secure the *Rebar Stake* part(s) in place. If the plastic of
           the *Universal Frame Base* begins to strain or crack, unscrew the
           fastener slightly to reduce the pressure.
+
+          . Orient the *Universal Frame Top* so that the open slots point
+          upward.
+
+          . Align the *Universal Frame Top* over the four *Rebar Stake* part(s)
+          that are connected to the *Universal Frame Base* and press the
+          Universal Frame Top onto the *Rebar Stake* part(s).
+
+          . Firmly press the *Universal Frame Top* down onto the *Universal
+          Frame Base* so that the *Rebar Stake* part(s) are properly seated.
+
+          . Tighten down all of the remaining fasteners on the *Universal Frame
+          Top* to secure the *Universal Frame Top* onto the *Rebar Stake*
+          part(s). If the plastic of the *Universal Frame Base* begins to strain
+          or crack, unscrew the fastener slightly to reduce the pressure.
 
           . The *Universal Frame Module* is complete.
   universal-frame-base:
