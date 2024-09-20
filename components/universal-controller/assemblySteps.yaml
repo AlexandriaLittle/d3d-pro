@@ -51,7 +51,7 @@
     . Use the *{{tools.dupont-crimper.description}}* to crimp on appropriately sized *{{parts.fork-terminal.description}}* {{parts.fork-terminal.quantityUnits}} to the exposed ends of each *{{parts.22awg-wire-red.description}}* and *{{parts.22awg-wire-black.description}}*.
     . The *{{parts.ramps-board.description}} to {{parts.solid-state-relay.description}} 24v Signal Custom Wires* are complete.
 
-- summary: Assemble the {{parts.electrical-plug.description}} to {{parts.24v-power-supply.description}}/Fast Heated Bed 120v Power Custom Wires
+- summary: Assemble the {{parts.electrical-plug.description}} to {{parts.24v-power-supply.description}}/{{components.fast-heated-bed.description}} 120v Power Custom Wires
   requiredParts: []
 
   requiredTools: []
