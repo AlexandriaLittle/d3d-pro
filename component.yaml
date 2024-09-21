@@ -1383,10 +1383,7 @@ components:
               - wire-stripper-cutter
             details: >
               . Cut two pieces of the *Carbon Fiber Blanket* to size (75mm x
-              75mm) using
-              *{"description":"Scissors","id":"scissors","notes":"","options":["scissors"],"quantity":1,"quantityUnits":"part","selectedOption":0,"descriptionLong":"scissors:
-              Scissors","descriptionSelected":"scissors: Scissors (Scissors
-              v1.0.0)"}*.
+              75mm) using *Scissors*.
 
               . Wrap one piece of the *Carbon Fiber Blanket* over one of the
               *Heat Shrink Tubing* part(s).
@@ -1396,7 +1393,7 @@ components:
               Shrink Tubing*.
 
               . Perform the above steps again over the remaining *Heat Shrink
-              Tubing* part(s)*.
+              Tubing* part(s).
 
               . Optionally, cut the excess *Metal Zip Tie* off using *Wire
               Strippers/Cutters*.
@@ -2662,10 +2659,7 @@ components:
           - wire-stripper-cutter
         details: >
           . Cut two pieces of the *Carbon Fiber Blanket* to size (75mm x 75mm)
-          using
-          *{"description":"Scissors","id":"scissors","notes":"","options":["scissors"],"quantity":1,"quantityUnits":"part","selectedOption":0,"descriptionLong":"scissors:
-          Scissors","descriptionSelected":"scissors: Scissors (Scissors
-          v1.0.0)"}*.
+          using *Scissors*.
 
           . Wrap one piece of the *Carbon Fiber Blanket* over one of the *Heat
           Shrink Tubing* part(s).
@@ -2675,7 +2669,7 @@ components:
           Tubing*.
 
           . Perform the above steps again over the remaining *Heat Shrink
-          Tubing* part(s)*.
+          Tubing* part(s).
 
           . Optionally, cut the excess *Metal Zip Tie* off using *Wire
           Strippers/Cutters*.
@@ -11538,10 +11532,7 @@ components:
                   - wire-stripper-cutter
                 details: >
                   . Cut two pieces of the *Carbon Fiber Blanket* to size (75mm x
-                  75mm) using
-                  *{"description":"Scissors","id":"scissors","notes":"","options":["scissors"],"quantity":1,"quantityUnits":"part","selectedOption":0,"descriptionLong":"scissors:
-                  Scissors","descriptionSelected":"scissors: Scissors (Scissors
-                  v1.0.0)"}*.
+                  75mm) using *Scissors*.
 
                   . Wrap one piece of the *Carbon Fiber Blanket* over one of the
                   *Heat Shrink Tubing* part(s).
@@ -11551,7 +11542,7 @@ components:
                   *Heat Shrink Tubing*.
 
                   . Perform the above steps again over the remaining *Heat
-                  Shrink Tubing* part(s)*.
+                  Shrink Tubing* part(s).
 
                   . Optionally, cut the excess *Metal Zip Tie* off using *Wire
                   Strippers/Cutters*.

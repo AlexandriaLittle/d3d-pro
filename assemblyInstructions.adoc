@@ -1,7 +1,7 @@
 = D3D Pro 3D Printer Assembly Instructions
 Alexandria Little - CC-BY-SA-4.0
 :revnumber: v23.12
-:revdate: 9/20/2024
+:revdate: 9/21/2024
 :sectnums:
 :toc:
 :toclevels: 3
@@ -815,10 +815,10 @@ include::flatToolsBOM.adoc[]
 
 *Instructions*
 
-. Cut two pieces of the *Carbon Fiber Blanket* to size (75mm x 75mm) using *{"description":"Scissors","id":"scissors","notes":"","options":["scissors"],"quantity":1,"quantityUnits":"part","selectedOption":0,"descriptionLong":"scissors: Scissors","descriptionSelected":"scissors: Scissors (Scissors v1.0.0)"}*.
+. Cut two pieces of the *Carbon Fiber Blanket* to size (75mm x 75mm) using *Scissors*.
 . Wrap one piece of the *Carbon Fiber Blanket* over one of the *Heat Shrink Tubing* part(s).
 . Use two *Metal Zip Tie* part(s) to secure each end of the *Carbon Fiber Blanket* part(s). This should fully cover the *Heat Shrink Tubing*.
-. Perform the above steps again over the remaining *Heat Shrink Tubing* part(s)*.
+. Perform the above steps again over the remaining *Heat Shrink Tubing* part(s).
 . Optionally, cut the excess *Metal Zip Tie* off using *Wire Strippers/Cutters*.
 
 
