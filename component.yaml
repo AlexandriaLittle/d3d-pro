@@ -41,6 +41,20 @@ components:
     parts: {}
     tools: {}
     precautions: []
+  15a-120v-glass-fuse:
+    name: 15a-120v-glass-fuse
+    version: 1.0.0
+    description: 15A 120V Glass Fuse
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions:
+      - >-
+        Make sure to verify that you are using a correctly rated fuse! Some are
+        only rated to 32V and if used with 120v it will burn out.
   16ga-steel-sheet:
     name: 16ga-steel-sheet
     version: 1.0.0
