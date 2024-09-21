@@ -39,10 +39,10 @@
   - wire-stripper-cutter
 
   details: |
-    . Cut two pieces of the *{{parts.carbon-fiber-blanket-stock.description}}* to size (75mm x 75mm) using *{{tools.scissors}}*.
+    . Cut two pieces of the *{{parts.carbon-fiber-blanket-stock.description}}* to size (75mm x 75mm) using *{{tools.scissors.description}}*.
     . Wrap one piece of the *{{parts.carbon-fiber-blanket-stock.description}}* over one of the *{{parts.heat-shrink-tubing.description}}* {{parts.heat-shrink-tubing.quantityUnits}}.
     . Use two *{{parts.metal-zip-tie.description}}* {{parts.metal-zip-tie.quantityUnits}} to secure each end of the *{{parts.carbon-fiber-blanket-stock.description}}* {{parts.carbon-fiber-blanket-stock.quantityUnits}}. This should fully cover the *{{parts.heat-shrink-tubing.description}}*.
-    . Perform the above steps again over the remaining *{{parts.heat-shrink-tubing.description}}* {{parts.heat-shrink-tubing.quantityUnits}}*.
+    . Perform the above steps again over the remaining *{{parts.heat-shrink-tubing.description}}* {{parts.heat-shrink-tubing.quantityUnits}}.
     . Optionally, cut the excess *{{parts.metal-zip-tie.description}}* off using *{{tools.wire-stripper-cutter.description}}*.
 
 
