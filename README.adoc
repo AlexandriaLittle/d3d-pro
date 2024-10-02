@@ -61,3 +61,4 @@ Modeled in Legacy DOF (Distributed Open Source Hardware Framework)
 - Irvin Inzurriaga (Wiring Video)
 - Jean-Baptiste Vervaeck (Graphic design of original documentation template)
 - Printables User @OK1HRA_5209 - https://www.printables.com/model/716371-parameterizable-rugged-box-in-openscad[Parameterizable rugged box in OpenScad] (CC-BY-SA-4.0)
+- Nathan Heidt
