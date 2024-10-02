@@ -4,6 +4,7 @@ It would mean the world to all of us who poured our time, love, and efforts into
 == Contributors
  - Alexandria Little
  - Marcin Jakubowski, Ph.D.
+ - Open Source Ecology
  - Sean Marquez
  - J. Simmons, Ph.D.
  - Eric Lotze (One of the original 3D printer devs)
