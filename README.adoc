@@ -54,6 +54,7 @@ Modeled in Legacy DOF (Distributed Open Source Hardware Framework)
 == Contributors:
 - Alexandria Little
 - Marcin Jakubowski, Ph.D.
+- Open Source Ecology
 - Sean Marquez
 - J. Simmons, Ph.D.
 - Eric Lotze (One of the original 3D printer devs)
