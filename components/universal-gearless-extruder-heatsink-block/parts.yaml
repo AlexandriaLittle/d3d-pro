@@ -1,1 +1,9 @@
-{}
+aluminum-stock:
+  description: Aluminum Stock
+  id: aluminum-stock
+  notes: ''
+  options:
+    - 1in-0.5in-aluminum-flat-bar-stock
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0

@@ -1,1 +1,46 @@
-{}
+drill-press:
+  description: Drill Press
+  id: drill-press
+  notes: ''
+  options:
+    - drill-press
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+m6-tap:
+  description: M6 tap
+  id: m6-tap
+  notes: ''
+  options:
+    - m6-1mm-tap
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+5mm-drill-bit:
+  description: 5mm Drill Bit
+  id: 5mm-drill-bit
+  notes: ''
+  options:
+    - 5mm-drill-bit
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+tap-handle:
+  description: Tap Handle
+  id: tap-handle
+  notes: ''
+  options:
+    - tap-handle
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+vise:
+  description: Vise
+  id: vise
+  notes: ''
+  options:
+    - metal-jaw-vise
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+

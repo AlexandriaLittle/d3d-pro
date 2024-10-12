@@ -1,1 +1,13 @@
-[]
+- summary: Manufacture the {{description}}
+  requiredParts:
+    - aluminum-stock
+
+  requiredTools: 
+    - vise
+    - tap-handle
+    - 5mm-drill-bit
+    - m6-tap
+    - drill-press
+
+  details: |
+    . Testing

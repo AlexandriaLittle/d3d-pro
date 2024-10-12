@@ -1,0 +1,9 @@
+{
+  "name": "5mm-drill-bit",
+  "version": "1.0.0",
+  "description": "5mm Drill Bit",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

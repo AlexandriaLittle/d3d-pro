@@ -1,0 +1,9 @@
+{
+  "name": "m6-1mm-tap",
+  "version": "1.0.0",
+  "description": "M6 x 1mm Tap",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}
