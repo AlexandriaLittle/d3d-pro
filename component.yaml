@@ -13417,8 +13417,8 @@ components:
           . The *RAMPS 1.4 Board to Solid State Relay (SSR) 24v Signal Custom
           Wires* are complete.
       - summary: >-
-          Assemble the Two Prong Electrical Plug to 24v Power Supply Module/Fast
-          Heated Bed Module 120v Power Custom Wires
+          Assemble the Two Prong Electrical Plug and Solid State Relay (SSR)
+          120v Power Custom Wires
         requiredParts:
           - 22awg-wire
           - fork-terminal
@@ -13429,42 +13429,64 @@ components:
           - soldering-iron
           - helping-hands
         details: >
-          . Hello World! forked terminal to ferrule/bare
-
-          . Using the *Wire Strippers/Cutters*, cut one 200mm long piece of *Red
-          22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
+          . Using the *Wire Strippers/Cutters*, cut two 200mm long pieces of
+          *Red 22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
 
           . Using the *Wire Strippers/Cutters*, cut one 750mm long piece of *Red
           22AWG Wire* and one 750mm long piece of *Black 22AWG Wire*.
 
           . Using the *Wire Strippers/Cutters*, strip 20mm of insulation off of
-          each end of the wires from the above steps.
+          each end of the **  from the above steps.
 
           . Using the *Dupont Crimper*, crimp one *Fork Terminal* onto one end
-          of each of the above wires.
+          of each of the above ** .
+
+          . Using the *Dupont Crimper*, crimp one *Fork Terminal* onto the bare
+          end of one of the 200mm *Red 22AWG Wire* mm. Set this wire aside as it
+          is completed.
 
           . Preheat the *Soldering Iron* to the temperature recommended on the
           ** packaging.
 
           . Use the *Helping Hands* to clamp in place the bare end of one of the
-          above wires.
+          remaining ** .
 
           . Use the tip of the *Soldering Iron* to heat the bare end of the
-          clamped wire for a few seconds.
+          clamped **  for a few seconds.
 
           . Apply enough ** to the contact point of the *Soldering Iron* and the
-          clamped wire to bind together the strands of bare wire.
+          clamped ** to bind together the strands of bare **.
 
-          . Repeat the above steps for each of the four wires.
+          . Remove the ** and the end of the *Soldering Iron* from the wire.
 
-          . The Two Prong Electrical Plug to 24v Power Supply Module/Fast Heated
-          Bed Module 120v Power Custom Wires are complete.
-      - summary: Assemble the Solid State Relay (SSR) 120v Power Custom Wires
-        requiredParts: []
-        requiredTools: []
+          . Repeat the above steps for each of the remaining ** .
+
+          . The Two Prong Electrical Plug and Solid State Relay (SSR) 120v Power
+          Custom Wires are complete.
+      - summary: Assemble the Solid State Relay (SSR) 24v Signal Custom Wires
+        requiredParts:
+          - 22awg-wire
+          - forked-terminal
+          - solder
+        requiredTools:
+          - dupont-crimper
+          - wire-stripper-cutter
+          - soldering-iron
+          - helping-hands
         details: >
           . Hello World! forked terminal -> forked terminal (short), forked
           terminal -> bare, forked terminal -> bare
+
+          . Using the *Wire Strippers/Cutters*, cut one 200mm long piece of *Red
+          22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
+
+          . Use the *Wire Strippers/Cutters* to strip away 20mm of insulation
+          from both ends of the above **.
+
+          . Use the *Dupont Crimper* to crimp a *Fork Terminal* part(s) to one
+          end of each **.
+
+          . 
       - summary: Assemble the RAMPS 1.4 Board and Arduino Mega 2560
         requiredParts: []
         requiredTools: []
