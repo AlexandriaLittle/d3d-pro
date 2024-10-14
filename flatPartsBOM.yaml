@@ -34,6 +34,11 @@ components:
     name: 1_75mm-volcano-style-0_4mm-nozzle
     quantity: 1
     quantityUnits: part
+  1in-0.5in-aluminum-flat-bar-stock:
+    description: 1in x 0.5in Aluminum Flat Bar Stock
+    name: 1in-0.5in-aluminum-flat-bar-stock
+    quantity: 1
+    quantityUnits: part
   2-pin-dupont-connector:
     description: 2 Pin Dupont Connector Housing
     name: 2-pin-dupont-connector
@@ -442,11 +447,6 @@ components:
   universal-gearless-extruder-active-cooling-height-sensor-plotter:
     description: Universal Gearless Extruder Active Cooling Height Sensor Plotter Part
     name: universal-gearless-extruder-active-cooling-height-sensor-plotter
-    quantity: 1
-    quantityUnits: part
-  universal-gearless-extruder-heatsink-block:
-    description: Universal Gearless Extruder Heatsink Block
-    name: universal-gearless-extruder-heatsink-block
     quantity: 1
     quantityUnits: part
   universal-gearless-extruder-motor-mount:

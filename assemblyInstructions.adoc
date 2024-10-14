@@ -1,7 +1,7 @@
 = D3D Pro 3D Printer Assembly Instructions
 Alexandria Little - CC-BY-SA-4.0
 :revnumber: v23.12
-:revdate: 10/2/2024
+:revdate: 10/14/2024
 :sectnums:
 :toc:
 :toclevels: 3
@@ -3534,6 +3534,145 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
+== Assemble Universal Gearless Extruder Heatsink Block
+
+// tools
+
+=== Tools
+|===
+|Name |Description |Notes
+
+
+
+|Drill Press
+|Drill Press
+|
+
+
+
+|M6 tap
+|M6 x 1mm Tap
+|
+
+
+
+|5mm Drill Bit
+|5mm Drill Bit
+|
+
+
+
+|Tap Handle
+|Tap Handle
+|
+
+
+
+|Vise
+|Metal Jaw Vise
+|
+
+|===
+
+
+// materials
+
+=== Materials
+|===
+|Quantity |ID |Name |Description |Notes
+
+
+
+|1 part
+|aluminum-stock
+|Aluminum Stock
+|1in x 0.5in Aluminum Flat Bar Stock v1.0.0
+|
+
+|===
+
+
+// Precautions
+
+=== Precautions
+
+
+
+
+
+
+* *Drill Press:* Drill presses can cause permanent injury or possibly death! Do not wear loose fitting clothing, put your hair up, and wear proper PPE including (but not limited to) safety glasses when operating the machine.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Procedure
+=== Procedure
+
+// summary
+
+==== Manufacture the Universal Gearless Extruder Heatsink Block
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* Vise
+//
+//* Tap Handle
+//
+//* 5mm Drill Bit
+//
+//* M6 tap
+//
+//* Drill Press
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Aluminum Stock
+//
+//
+
+// details
+
+*Instructions*
+
+. Testing
+
+
+
+
+
+
 == Assemble Hot End Assembly
 
 // tools
@@ -5420,8 +5559,28 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 
 // requiredTools
 //
+//*Required Tools*
+//
+//* Dupont Crimper
+//
+//* Wire Strippers/Cutters
+//
+//* Soldering Iron
+//
+//* Helping Hands
+//
+//
 
 // requiredParts
+//
+//*Required Parts*
+//
+//* 
+//
+//* Fork Terminal
+//
+//* 
+//
 //
 
 // details
@@ -5429,6 +5588,16 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 *Instructions*
 
 . Hello World! forked terminal to ferrule/bare
+. Using the *Wire Strippers/Cutters*, cut one 200mm long piece of *Red 22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
+. Using the *Wire Strippers/Cutters*, cut one 750mm long piece of *Red 22AWG Wire* and one 750mm long piece of *Black 22AWG Wire*.
+. Using the *Wire Strippers/Cutters*, strip 20mm of insulation off of each end of the wires from the above steps.
+. Using the *Dupont Crimper*, crimp one *Fork Terminal* onto one end of each of the above wires.
+. Preheat the *Soldering Iron* to the temperature recommended on the ** packaging.
+. Use the *Helping Hands* to clamp in place the bare end of one of the above wires.
+. Use the tip of the *Soldering Iron* to heat the bare end of the clamped wire for a few seconds.
+. Apply enough ** to the contact point of the *Soldering Iron* and the clamped wire to bind together the strands of bare wire.
+. Repeat the above steps for each of the four wires.
+. The Two Prong Electrical Plug to 24v Power Supply Module/Fast Heated Bed Module 120v Power Custom Wires are complete.
 
 
 

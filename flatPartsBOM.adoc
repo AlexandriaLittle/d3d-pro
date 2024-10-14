@@ -55,6 +55,13 @@
 
 
 |1
+|part
+|1in-0.5in-aluminum-flat-bar-stock
+|1in x 0.5in Aluminum Flat Bar Stock
+
+
+
+|1
 |part(s)
 |2-pin-dupont-connector
 |2 Pin Dupont Connector Housing
@@ -625,13 +632,6 @@
 |part
 |universal-gearless-extruder-active-cooling-height-sensor-plotter
 |Universal Gearless Extruder Active Cooling Height Sensor Plotter Part
-
-
-
-|1
-|part
-|universal-gearless-extruder-heatsink-block
-|Universal Gearless Extruder Heatsink Block
 
 
 

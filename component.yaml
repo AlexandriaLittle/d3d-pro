@@ -121,6 +121,17 @@ components:
     parts: {}
     tools: {}
     precautions: []
+  1in-0.5in-aluminum-flat-bar-stock:
+    name: 1in-0.5in-aluminum-flat-bar-stock
+    version: 1.0.0
+    description: 1in x 0.5in Aluminum Flat Bar Stock
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
   2-pin-dupont-connector:
     name: 2-pin-dupont-connector
     version: 1.0.0
@@ -271,6 +282,17 @@ components:
     name: 5mm-allen-wrench
     version: 1.0.0
     description: 5mm Allen Wrench
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
+  5mm-drill-bit:
+    name: 5mm-drill-bit
+    version: 1.0.0
+    description: 5mm Drill Bit
     license: CC-BY-SA-4.0
     author: Alexandria Little
     dependencies: {}
@@ -3218,10 +3240,161 @@ components:
         license: CC-BY-SA-4.0
         author: Alexandria Little
         dependencies: {}
-        components: {}
-        parts: {}
-        tools: {}
+        components:
+          1in-0.5in-aluminum-flat-bar-stock:
+            name: 1in-0.5in-aluminum-flat-bar-stock
+            version: 1.0.0
+            description: 1in x 0.5in Aluminum Flat Bar Stock
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          5mm-drill-bit:
+            name: 5mm-drill-bit
+            version: 1.0.0
+            description: 5mm Drill Bit
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          drill-press:
+            name: drill-press
+            version: 1.0.0
+            description: Drill Press
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions:
+              - >-
+                Drill presses can cause permanent injury or possibly death! Do
+                not wear loose fitting clothing, put your hair up, and wear
+                proper PPE including (but not limited to) safety glasses when
+                operating the machine.
+          m6-1mm-tap:
+            name: m6-1mm-tap
+            version: 1.0.0
+            description: M6 x 1mm Tap
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          metal-jaw-vise:
+            name: metal-jaw-vise
+            version: 1.0.0
+            description: Metal Jaw Vise
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          tap-handle:
+            name: tap-handle
+            version: 1.0.0
+            description: Tap Handle
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+        parts:
+          aluminum-stock:
+            description: Aluminum Stock
+            id: aluminum-stock
+            notes: ''
+            options:
+              - 1in-0.5in-aluminum-flat-bar-stock
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'aluminum-stock: Aluminum Stock'
+            descriptionSelected: >-
+              aluminum-stock: Aluminum Stock (1in x 0.5in Aluminum Flat Bar
+              Stock v1.0.0)
+        tools:
+          drill-press:
+            description: Drill Press
+            id: drill-press
+            notes: ''
+            options:
+              - drill-press
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'drill-press: Drill Press'
+            descriptionSelected: 'drill-press: Drill Press (Drill Press v1.0.0)'
+          m6-tap:
+            description: M6 tap
+            id: m6-tap
+            notes: ''
+            options:
+              - m6-1mm-tap
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'm6-tap: M6 tap'
+            descriptionSelected: 'm6-tap: M6 tap (M6 x 1mm Tap v1.0.0)'
+          5mm-drill-bit:
+            description: 5mm Drill Bit
+            id: 5mm-drill-bit
+            notes: ''
+            options:
+              - 5mm-drill-bit
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: '5mm-drill-bit: 5mm Drill Bit'
+            descriptionSelected: '5mm-drill-bit: 5mm Drill Bit (5mm Drill Bit v1.0.0)'
+          tap-handle:
+            description: Tap Handle
+            id: tap-handle
+            notes: ''
+            options:
+              - tap-handle
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'tap-handle: Tap Handle'
+            descriptionSelected: 'tap-handle: Tap Handle (Tap Handle v1.0.0)'
+          vise:
+            description: Vise
+            id: vise
+            notes: ''
+            options:
+              - metal-jaw-vise
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'vise: Vise'
+            descriptionSelected: 'vise: Vise (Metal Jaw Vise v1.0.0)'
         precautions: []
+        assemblySteps:
+          - summary: Manufacture the Universal Gearless Extruder Heatsink Block
+            requiredParts:
+              - aluminum-stock
+            requiredTools:
+              - vise
+              - tap-handle
+              - 5mm-drill-bit
+              - m6-tap
+              - drill-press
+            details: |
+              . Testing
       vise-grip-pliers:
         name: vise-grip-pliers
         version: 1.0.0
@@ -3842,6 +4015,17 @@ components:
     name: m6-12mm-4mm-flanged-bearing
     version: 1.0.0
     description: M6 x 12mm x 4mm Flanged Bearing
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
+  m6-1mm-tap:
+    name: m6-1mm-tap
+    version: 1.0.0
+    description: M6 x 1mm Tap
     license: CC-BY-SA-4.0
     author: Alexandria Little
     dependencies: {}
@@ -4670,6 +4854,17 @@ components:
     name: stepper-motor-driver-heatsink
     version: 1.0.0
     description: Stepper Motor Driver Heatsink
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
+  tap-handle:
+    name: tap-handle
+    version: 1.0.0
+    description: Tap Handle
     license: CC-BY-SA-4.0
     author: Alexandria Little
     dependencies: {}
@@ -13224,10 +13419,46 @@ components:
       - summary: >-
           Assemble the Two Prong Electrical Plug to 24v Power Supply Module/Fast
           Heated Bed Module 120v Power Custom Wires
-        requiredParts: []
-        requiredTools: []
-        details: |
+        requiredParts:
+          - 22awg-wire
+          - fork-terminal
+          - solder
+        requiredTools:
+          - dupont-crimper
+          - wire-stripper-cutter
+          - soldering-iron
+          - helping-hands
+        details: >
           . Hello World! forked terminal to ferrule/bare
+
+          . Using the *Wire Strippers/Cutters*, cut one 200mm long piece of *Red
+          22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
+
+          . Using the *Wire Strippers/Cutters*, cut one 750mm long piece of *Red
+          22AWG Wire* and one 750mm long piece of *Black 22AWG Wire*.
+
+          . Using the *Wire Strippers/Cutters*, strip 20mm of insulation off of
+          each end of the wires from the above steps.
+
+          . Using the *Dupont Crimper*, crimp one *Fork Terminal* onto one end
+          of each of the above wires.
+
+          . Preheat the *Soldering Iron* to the temperature recommended on the
+          ** packaging.
+
+          . Use the *Helping Hands* to clamp in place the bare end of one of the
+          above wires.
+
+          . Use the tip of the *Soldering Iron* to heat the bare end of the
+          clamped wire for a few seconds.
+
+          . Apply enough ** to the contact point of the *Soldering Iron* and the
+          clamped wire to bind together the strands of bare wire.
+
+          . Repeat the above steps for each of the four wires.
+
+          . The Two Prong Electrical Plug to 24v Power Supply Module/Fast Heated
+          Bed Module 120v Power Custom Wires are complete.
       - summary: Assemble the Solid State Relay (SSR) 120v Power Custom Wires
         requiredParts: []
         requiredTools: []
@@ -15336,10 +15567,161 @@ components:
             license: CC-BY-SA-4.0
             author: Alexandria Little
             dependencies: {}
-            components: {}
-            parts: {}
-            tools: {}
+            components:
+              1in-0.5in-aluminum-flat-bar-stock:
+                name: 1in-0.5in-aluminum-flat-bar-stock
+                version: 1.0.0
+                description: 1in x 0.5in Aluminum Flat Bar Stock
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              5mm-drill-bit:
+                name: 5mm-drill-bit
+                version: 1.0.0
+                description: 5mm Drill Bit
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              drill-press:
+                name: drill-press
+                version: 1.0.0
+                description: Drill Press
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions:
+                  - >-
+                    Drill presses can cause permanent injury or possibly death!
+                    Do not wear loose fitting clothing, put your hair up, and
+                    wear proper PPE including (but not limited to) safety
+                    glasses when operating the machine.
+              m6-1mm-tap:
+                name: m6-1mm-tap
+                version: 1.0.0
+                description: M6 x 1mm Tap
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              metal-jaw-vise:
+                name: metal-jaw-vise
+                version: 1.0.0
+                description: Metal Jaw Vise
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              tap-handle:
+                name: tap-handle
+                version: 1.0.0
+                description: Tap Handle
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+            parts:
+              aluminum-stock:
+                description: Aluminum Stock
+                id: aluminum-stock
+                notes: ''
+                options:
+                  - 1in-0.5in-aluminum-flat-bar-stock
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'aluminum-stock: Aluminum Stock'
+                descriptionSelected: >-
+                  aluminum-stock: Aluminum Stock (1in x 0.5in Aluminum Flat Bar
+                  Stock v1.0.0)
+            tools:
+              drill-press:
+                description: Drill Press
+                id: drill-press
+                notes: ''
+                options:
+                  - drill-press
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'drill-press: Drill Press'
+                descriptionSelected: 'drill-press: Drill Press (Drill Press v1.0.0)'
+              m6-tap:
+                description: M6 tap
+                id: m6-tap
+                notes: ''
+                options:
+                  - m6-1mm-tap
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'm6-tap: M6 tap'
+                descriptionSelected: 'm6-tap: M6 tap (M6 x 1mm Tap v1.0.0)'
+              5mm-drill-bit:
+                description: 5mm Drill Bit
+                id: 5mm-drill-bit
+                notes: ''
+                options:
+                  - 5mm-drill-bit
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: '5mm-drill-bit: 5mm Drill Bit'
+                descriptionSelected: '5mm-drill-bit: 5mm Drill Bit (5mm Drill Bit v1.0.0)'
+              tap-handle:
+                description: Tap Handle
+                id: tap-handle
+                notes: ''
+                options:
+                  - tap-handle
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'tap-handle: Tap Handle'
+                descriptionSelected: 'tap-handle: Tap Handle (Tap Handle v1.0.0)'
+              vise:
+                description: Vise
+                id: vise
+                notes: ''
+                options:
+                  - metal-jaw-vise
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'vise: Vise'
+                descriptionSelected: 'vise: Vise (Metal Jaw Vise v1.0.0)'
             precautions: []
+            assemblySteps:
+              - summary: Manufacture the Universal Gearless Extruder Heatsink Block
+                requiredParts:
+                  - aluminum-stock
+                requiredTools:
+                  - vise
+                  - tap-handle
+                  - 5mm-drill-bit
+                  - m6-tap
+                  - drill-press
+                details: |
+                  . Testing
           vise-grip-pliers:
             name: vise-grip-pliers
             version: 1.0.0
@@ -16797,10 +17179,161 @@ components:
     license: CC-BY-SA-4.0
     author: Alexandria Little
     dependencies: {}
-    components: {}
-    parts: {}
-    tools: {}
+    components:
+      1in-0.5in-aluminum-flat-bar-stock:
+        name: 1in-0.5in-aluminum-flat-bar-stock
+        version: 1.0.0
+        description: 1in x 0.5in Aluminum Flat Bar Stock
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      5mm-drill-bit:
+        name: 5mm-drill-bit
+        version: 1.0.0
+        description: 5mm Drill Bit
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      drill-press:
+        name: drill-press
+        version: 1.0.0
+        description: Drill Press
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions:
+          - >-
+            Drill presses can cause permanent injury or possibly death! Do not
+            wear loose fitting clothing, put your hair up, and wear proper PPE
+            including (but not limited to) safety glasses when operating the
+            machine.
+      m6-1mm-tap:
+        name: m6-1mm-tap
+        version: 1.0.0
+        description: M6 x 1mm Tap
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      metal-jaw-vise:
+        name: metal-jaw-vise
+        version: 1.0.0
+        description: Metal Jaw Vise
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      tap-handle:
+        name: tap-handle
+        version: 1.0.0
+        description: Tap Handle
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+    parts:
+      aluminum-stock:
+        description: Aluminum Stock
+        id: aluminum-stock
+        notes: ''
+        options:
+          - 1in-0.5in-aluminum-flat-bar-stock
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'aluminum-stock: Aluminum Stock'
+        descriptionSelected: >-
+          aluminum-stock: Aluminum Stock (1in x 0.5in Aluminum Flat Bar Stock
+          v1.0.0)
+    tools:
+      drill-press:
+        description: Drill Press
+        id: drill-press
+        notes: ''
+        options:
+          - drill-press
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'drill-press: Drill Press'
+        descriptionSelected: 'drill-press: Drill Press (Drill Press v1.0.0)'
+      m6-tap:
+        description: M6 tap
+        id: m6-tap
+        notes: ''
+        options:
+          - m6-1mm-tap
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'm6-tap: M6 tap'
+        descriptionSelected: 'm6-tap: M6 tap (M6 x 1mm Tap v1.0.0)'
+      5mm-drill-bit:
+        description: 5mm Drill Bit
+        id: 5mm-drill-bit
+        notes: ''
+        options:
+          - 5mm-drill-bit
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: '5mm-drill-bit: 5mm Drill Bit'
+        descriptionSelected: '5mm-drill-bit: 5mm Drill Bit (5mm Drill Bit v1.0.0)'
+      tap-handle:
+        description: Tap Handle
+        id: tap-handle
+        notes: ''
+        options:
+          - tap-handle
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'tap-handle: Tap Handle'
+        descriptionSelected: 'tap-handle: Tap Handle (Tap Handle v1.0.0)'
+      vise:
+        description: Vise
+        id: vise
+        notes: ''
+        options:
+          - metal-jaw-vise
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'vise: Vise'
+        descriptionSelected: 'vise: Vise (Metal Jaw Vise v1.0.0)'
     precautions: []
+    assemblySteps:
+      - summary: Manufacture the Universal Gearless Extruder Heatsink Block
+        requiredParts:
+          - aluminum-stock
+        requiredTools:
+          - vise
+          - tap-handle
+          - 5mm-drill-bit
+          - m6-tap
+          - drill-press
+        details: |
+          . Testing
   universal-gearless-extruder-motor-mount:
     name: universal-gearless-extruder-motor-mount
     version: 1.0.0

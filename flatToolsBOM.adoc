@@ -63,6 +63,13 @@
 
 |1
 |part
+|5mm-drill-bit
+|5mm Drill Bit
+
+
+
+|1
+|part
 |7mm-sheet-metal-drill-bit
 |7mm Sheet Metal Drill Bit
 
@@ -135,6 +142,13 @@
 |part
 |lighter
 |Lighter
+
+
+
+|1
+|part
+|m6-1mm-tap
+|M6 x 1mm Tap
 
 
 
@@ -233,6 +247,13 @@
 |part
 |soldering-iron
 |Soldering Iron
+
+
+
+|1
+|part
+|tap-handle
+|Tap Handle
 
 
 

@@ -39,6 +39,11 @@ components:
     name: 5mm-allen-wrench
     quantity: 1
     quantityUnits: part
+  5mm-drill-bit:
+    description: 5mm Drill Bit
+    name: 5mm-drill-bit
+    quantity: 1
+    quantityUnits: part
   7mm-sheet-metal-drill-bit:
     description: 7mm Sheet Metal Drill Bit
     name: 7mm-sheet-metal-drill-bit
@@ -92,6 +97,11 @@ components:
   lighter:
     description: Lighter
     name: lighter
+    quantity: 1
+    quantityUnits: part
+  m6-1mm-tap:
+    description: M6 x 1mm Tap
+    name: m6-1mm-tap
     quantity: 1
     quantityUnits: part
   measuring-tape:
@@ -162,6 +172,11 @@ components:
   soldering-iron:
     description: Soldering Iron
     name: soldering-iron
+    quantity: 1
+    quantityUnits: part
+  tap-handle:
+    description: Tap Handle
+    name: tap-handle
     quantity: 1
     quantityUnits: part
   vise-grip-pliers:
