@@ -304,6 +304,15 @@ usb-a-to-usb-b-cable:
   quantity: 1
   quantityUnits: part(s)
   selectedOption: 0
+22awg-wire:
+  description: 22AWG Wire
+  id: 22awg-wire
+  notes: ''
+  options:
+    - 22awg-wire
+  quantity: 1
+  quantityUnits: length(s)
+  selectedOption: 0
 22awg-wire-black:
   description: Black 22AWG Wire
   id: 22awg-wire-black
