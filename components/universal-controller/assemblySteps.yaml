@@ -73,7 +73,7 @@
     . Use the *{{tools.helping-hands.description}}* to clamp in place the bare end of one of the remaining *{{parts.22awg-wire.description}}* {{parts.22awg-wire.quantityUnits}}.
     . Use the tip of the *{{tools.soldering-iron.description}}* to heat the bare end of the clamped *{{parts.22awg-wire.description}}* {{parts.22awg-wire.quantityUnits}} for a few seconds.
     . Apply enough *{{parts.solder.description}}* to the contact point of the *{{tools.soldering-iron.description}}* and the clamped *{{parts.22awg-wire.description}}* to bind together the strands of bare *{{parts.22awg-wire.description}}*.
-    . Remove the *{{parts.solder.description}}* and the end of the *{{tools.soldering-iron.description}}* from the wire.
+    . Remove the *{{parts.solder.description}}* and the end of the *{{tools.soldering-iron.description}}* from the *{{parts.22awg-wire.description}}*.
     . Repeat the above steps for each of the remaining *{{parts.22awg-wire.description}}* {{parts.22awg-wire.quantityUnits}}.
     . The {{parts.electrical-plug.description}} and {{parts.solid-state-relay.description}} 120v Power Custom Wires are complete.
     
@@ -95,7 +95,12 @@
     . Using the *{{tools.wire-stripper-cutter.description}}*, cut one 200mm long piece of *{{parts.22awg-wire-red.description}}* and one 200mm long piece of *{{parts.22awg-wire-black.description}}*.
     . Use the *{{tools.wire-stripper-cutter.description}}* to strip away 20mm of insulation from both ends of the above *{{parts.22awg-wire.description}}*.
     . Use the *{{tools.dupont-crimper.description}}* to crimp a *{{parts.fork-terminal.description}}* {{parts.fork-terminal.quantityUnits}} to one end of each *{{parts.22awg-wire.description}}*.
-    . 
+    . Preheat the *{{tools.soldering-iron.description}}* to the temperature recommended on the *{{parts.solder.description}}* packaging.
+    . Use the *{{tools.helping-hands.description}}* to clamp in place the bare end of one of the *{{parts.22awg-wire.description}}* {{parts.22awg-wire.quantityUnits}}.
+    . Use the tip of the *{{tools.soldering-iron.description}}* to heat the bare end of the clamped *{{parts.22awg-wire.description}}* {{parts.22awg-wire.quantityUnits}} for a few seconds.
+    . Apply enough *{{parts.solder.description}}* to the contact point of the *{{tools.soldering-iron.description}}* and the clamped *{{parts.22awg-wire.description}}* to bind together the strands of bare *{{parts.22awg-wire.description}}*.
+    . Remove the *{{parts.solder.description}}* and the end of the *{{tools.soldering-iron.description}}* from the *{{parts.22awg-wire.description}}*.
+    . Repeat the above steps for the remaining *{{parts.22awg-wire.description}}* {{parts.22awg-wire.quantityUnits}}.
 
 
 - summary: Assemble the {{parts.ramps-board.description}} and {{parts.arduino.description}}
