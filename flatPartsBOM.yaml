@@ -47,7 +47,7 @@ components:
   22awg-wire:
     description: 22AWG Braided Copper Wire
     name: 22awg-wire
-    quantity: 2600
+    quantity: 2601
     quantityUnits: mm
   24v-40mm-fan:
     description: 24v 40mm x 40mm x 10mm Fan

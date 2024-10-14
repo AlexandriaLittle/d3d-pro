@@ -68,7 +68,7 @@
 
 
 
-|2600
+|2601
 |mm
 |22awg-wire
 |22AWG Braided Copper Wire

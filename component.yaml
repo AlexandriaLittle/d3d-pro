@@ -13161,6 +13161,17 @@ components:
         descriptionSelected: >-
           usb-a-to-usb-b-cable: USB A to USB B Cable (USB A to USB B Cable
           v1.0.0)
+      22awg-wire:
+        description: 22AWG Wire
+        id: 22awg-wire
+        notes: ''
+        options:
+          - 22awg-wire
+        quantity: 1
+        quantityUnits: length(s)
+        selectedOption: 0
+        descriptionLong: '22awg-wire: 22AWG Wire'
+        descriptionSelected: '22awg-wire: 22AWG Wire (22AWG Braided Copper Wire v1.0.0)'
       22awg-wire-black:
         description: Black 22AWG Wire
         id: 22awg-wire-black
@@ -13436,10 +13447,10 @@ components:
           22AWG Wire* and one 750mm long piece of *Black 22AWG Wire*.
 
           . Using the *Wire Strippers/Cutters*, strip 20mm of insulation off of
-          each end of the **  from the above steps.
+          each end of the *22AWG Wire* length(s) from the above steps.
 
           . Using the *Dupont Crimper*, crimp one *Fork Terminal* onto one end
-          of each of the above ** .
+          of each of the above *22AWG Wire* length(s).
 
           . Using the *Dupont Crimper*, crimp one *Fork Terminal* onto the bare
           end of one of the 200mm *Red 22AWG Wire* mm. Set this wire aside as it
@@ -13449,17 +13460,20 @@ components:
           ** packaging.
 
           . Use the *Helping Hands* to clamp in place the bare end of one of the
-          remaining ** .
+          remaining *22AWG Wire* length(s).
 
           . Use the tip of the *Soldering Iron* to heat the bare end of the
-          clamped **  for a few seconds.
+          clamped *22AWG Wire* length(s) for a few seconds.
 
           . Apply enough ** to the contact point of the *Soldering Iron* and the
-          clamped ** to bind together the strands of bare **.
+          clamped *22AWG Wire* to bind together the strands of bare *22AWG
+          Wire*.
 
-          . Remove the ** and the end of the *Soldering Iron* from the **.
+          . Remove the ** and the end of the *Soldering Iron* from the *22AWG
+          Wire*.
 
-          . Repeat the above steps for each of the remaining ** .
+          . Repeat the above steps for each of the remaining *22AWG Wire*
+          length(s).
 
           . The Two Prong Electrical Plug and Solid State Relay (SSR) 120v Power
           Custom Wires are complete.
@@ -13474,33 +13488,32 @@ components:
           - soldering-iron
           - helping-hands
         details: >
-          . Hello World! forked terminal -> forked terminal (short), forked
-          terminal -> bare, forked terminal -> bare
-
           . Using the *Wire Strippers/Cutters*, cut one 200mm long piece of *Red
           22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
 
           . Use the *Wire Strippers/Cutters* to strip away 20mm of insulation
-          from both ends of the above **.
+          from both ends of the above *22AWG Wire*.
 
           . Use the *Dupont Crimper* to crimp a *Fork Terminal* part(s) to one
-          end of each **.
+          end of each *22AWG Wire*.
 
           . Preheat the *Soldering Iron* to the temperature recommended on the
           ** packaging.
 
           . Use the *Helping Hands* to clamp in place the bare end of one of the
-          ** .
+          *22AWG Wire* length(s).
 
           . Use the tip of the *Soldering Iron* to heat the bare end of the
-          clamped **  for a few seconds.
+          clamped *22AWG Wire* length(s) for a few seconds.
 
           . Apply enough ** to the contact point of the *Soldering Iron* and the
-          clamped ** to bind together the strands of bare **.
+          clamped *22AWG Wire* to bind together the strands of bare *22AWG
+          Wire*.
 
-          . Remove the ** and the end of the *Soldering Iron* from the **.
+          . Remove the ** and the end of the *Soldering Iron* from the *22AWG
+          Wire*.
 
-          . Repeat the above steps for the remaining ** .
+          . Repeat the above steps for the remaining *22AWG Wire* length(s).
       - summary: Assemble the RAMPS 1.4 Board and Arduino Mega 2560
         requiredParts: []
         requiredTools: []
