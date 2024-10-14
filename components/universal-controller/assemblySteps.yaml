@@ -51,7 +51,7 @@
     . Use the *{{tools.dupont-crimper.description}}* to crimp on appropriately sized *{{parts.fork-terminal.description}}* {{parts.fork-terminal.quantityUnits}} to the exposed ends of each *{{parts.22awg-wire-red.description}}* and *{{parts.22awg-wire-black.description}}*.
     . The *{{parts.ramps-board.description}} to {{parts.solid-state-relay.description}} 24v Signal Custom Wires* are complete.
 
-- summary: Assemble the {{parts.electrical-plug.description}} to {{parts.24v-power-supply.description}}/{{components.fast-heated-bed.description}} 120v Power Custom Wires
+- summary: Assemble the {{parts.electrical-plug.description}} and {{parts.solid-state-relay.description}} 120v Power Custom Wires
   requiredParts:
   - 22awg-wire
   - fork-terminal
@@ -64,22 +64,31 @@
   - helping-hands
 
   details: |
-    . Hello World! forked terminal to ferrule/bare
-    . Using the *{{tools.wire-stripper-cutter.description}}*, cut one 200mm long piece of *{{parts.22awg-wire-red.description}}* and one 200mm long piece of *{{parts.22awg-wire-black.description}}*.
+    . Using the *{{tools.wire-stripper-cutter.description}}*, cut two 200mm long pieces of *{{parts.22awg-wire-red.description}}* and one 200mm long piece of *{{parts.22awg-wire-black.description}}*.
     . Using the *{{tools.wire-stripper-cutter.description}}*, cut one 750mm long piece of *{{parts.22awg-wire-red.description}}* and one 750mm long piece of *{{parts.22awg-wire-black.description}}*.
     . Using the *{{tools.wire-stripper-cutter.description}}*, strip 20mm of insulation off of each end of the wires from the above steps.
     . Using the *{{tools.dupont-crimper.description}}*, crimp one *{{parts.fork-terminal.description}}* onto one end of each of the above wires.
+    . Using the *{{tools.dupont-crimper.description}}*, crimp one *{{parts.fork-terminal.description}}* onto the bare end of one of the 200mm *{{parts.22awg-wire-red.description}}* {{parts.22awg-wire-red.quantityUnits}}. Set this wire aside as it is completed.
     . Preheat the *{{tools.soldering-iron.description}}* to the temperature recommended on the *{{parts.solder.description}}* packaging.
-    . Use the *{{tools.helping-hands.description}}* to clamp in place the bare end of one of the above wires.
+    . Use the *{{tools.helping-hands.description}}* to clamp in place the bare end of one of the remaining wires.
     . Use the tip of the *{{tools.soldering-iron.description}}* to heat the bare end of the clamped wire for a few seconds.
     . Apply enough *{{parts.solder.description}}* to the contact point of the *{{tools.soldering-iron.description}}* and the clamped wire to bind together the strands of bare wire.
-    . Repeat the above steps for each of the four wires.
-    . The {{parts.electrical-plug.description}} to {{parts.24v-power-supply.description}}/{{components.fast-heated-bed.description}} 120v Power Custom Wires are complete.
+    . Remove the *{{parts.solder.description}}* and the end of the *{{tools.soldering-iron.description}}* from the wire.
+    . Repeat the above steps for each of the remaining wires.
+    . The {{parts.electrical-plug.description}} and {{parts.solid-state-relay.description}} 120v Power Custom Wires are complete.
+    
 
-- summary: Assemble the {{parts.solid-state-relay.description}} 120v Power Custom Wires
-  requiredParts: []
+- summary: Assemble the {{parts.solid-state-relay.description}} 24v Signal Custom Wires
+  requiredParts: 
+  - 22awg-wire
+  - forked-terminal
+  - solder
 
-  requiredTools: []
+  requiredTools:
+  - dupont-crimper
+  - wire-stripper-cutter
+  - soldering-iron
+  - helping-hands
 
   details: |
     . Hello World! forked terminal -> forked terminal (short), forked terminal -> bare, forked terminal -> bare
