@@ -12834,19 +12834,19 @@ components:
         descriptionSelected: >-
           electrical-plug: Two Prong Electrical Plug (Electrical Plug (NEMA
           1-15) v1.0.0)
-      electrical-solder:
+      solder:
         description: Electrical Solder
-        id: electrical-solder
+        id: solder
         notes: ''
         options:
           - electrical-solder
         quantity: 1
-        quantityUnits: applications
+        quantityUnits: application(s)
         selectedOption: 0
-        descriptionLong: 'electrical-solder: Electrical Solder'
+        descriptionLong: 'solder: Electrical Solder'
         descriptionSelected: >-
-          electrical-solder: Electrical Solder (Rosin Core Lead Free Electrical
-          Solder v1.0.0)
+          solder: Electrical Solder (Rosin Core Lead Free Electrical Solder
+          v1.0.0)
       ferrule:
         description: Ferrule
         id: ferrule
@@ -13457,7 +13457,7 @@ components:
           is completed.
 
           . Preheat the *Soldering Iron* to the temperature recommended on the
-          ** packaging.
+          *Electrical Solder* packaging.
 
           . Use the *Helping Hands* to clamp in place the bare end of one of the
           remaining *22AWG Wire* length(s).
@@ -13465,12 +13465,12 @@ components:
           . Use the tip of the *Soldering Iron* to heat the bare end of the
           clamped *22AWG Wire* length(s) for a few seconds.
 
-          . Apply enough ** to the contact point of the *Soldering Iron* and the
-          clamped *22AWG Wire* to bind together the strands of bare *22AWG
-          Wire*.
+          . Apply enough *Electrical Solder* to the contact point of the
+          *Soldering Iron* and the clamped *22AWG Wire* to bind together the
+          strands of bare *22AWG Wire*.
 
-          . Remove the ** and the end of the *Soldering Iron* from the *22AWG
-          Wire*.
+          . Remove the *Electrical Solder* and the end of the *Soldering Iron*
+          from the *22AWG Wire*.
 
           . Repeat the above steps for each of the remaining *22AWG Wire*
           length(s).
@@ -13498,7 +13498,7 @@ components:
           end of each *22AWG Wire*.
 
           . Preheat the *Soldering Iron* to the temperature recommended on the
-          ** packaging.
+          *Electrical Solder* packaging.
 
           . Use the *Helping Hands* to clamp in place the bare end of one of the
           *22AWG Wire* length(s).
@@ -13506,12 +13506,12 @@ components:
           . Use the tip of the *Soldering Iron* to heat the bare end of the
           clamped *22AWG Wire* length(s) for a few seconds.
 
-          . Apply enough ** to the contact point of the *Soldering Iron* and the
-          clamped *22AWG Wire* to bind together the strands of bare *22AWG
-          Wire*.
+          . Apply enough *Electrical Solder* to the contact point of the
+          *Soldering Iron* and the clamped *22AWG Wire* to bind together the
+          strands of bare *22AWG Wire*.
 
-          . Remove the ** and the end of the *Soldering Iron* from the *22AWG
-          Wire*.
+          . Remove the *Electrical Solder* and the end of the *Soldering Iron*
+          from the *22AWG Wire*.
 
           . Repeat the above steps for the remaining *22AWG Wire* length(s).
       - summary: Assemble the RAMPS 1.4 Board and Arduino Mega 2560
