@@ -13457,7 +13457,7 @@ components:
           . Apply enough ** to the contact point of the *Soldering Iron* and the
           clamped ** to bind together the strands of bare **.
 
-          . Remove the ** and the end of the *Soldering Iron* from the wire.
+          . Remove the ** and the end of the *Soldering Iron* from the **.
 
           . Repeat the above steps for each of the remaining ** .
 
@@ -13486,7 +13486,21 @@ components:
           . Use the *Dupont Crimper* to crimp a *Fork Terminal* part(s) to one
           end of each **.
 
-          . 
+          . Preheat the *Soldering Iron* to the temperature recommended on the
+          ** packaging.
+
+          . Use the *Helping Hands* to clamp in place the bare end of one of the
+          ** .
+
+          . Use the tip of the *Soldering Iron* to heat the bare end of the
+          clamped **  for a few seconds.
+
+          . Apply enough ** to the contact point of the *Soldering Iron* and the
+          clamped ** to bind together the strands of bare **.
+
+          . Remove the ** and the end of the *Soldering Iron* from the **.
+
+          . Repeat the above steps for the remaining ** .
       - summary: Assemble the RAMPS 1.4 Board and Arduino Mega 2560
         requiredParts: []
         requiredTools: []

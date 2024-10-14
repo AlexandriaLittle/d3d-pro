@@ -5596,7 +5596,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 . Use the *Helping Hands* to clamp in place the bare end of one of the remaining ** .
 . Use the tip of the *Soldering Iron* to heat the bare end of the clamped **  for a few seconds.
 . Apply enough ** to the contact point of the *Soldering Iron* and the clamped ** to bind together the strands of bare **.
-. Remove the ** and the end of the *Soldering Iron* from the wire.
+. Remove the ** and the end of the *Soldering Iron* from the **.
 . Repeat the above steps for each of the remaining ** .
 . The Two Prong Electrical Plug and Solid State Relay (SSR) 120v Power Custom Wires are complete.
 
@@ -5642,7 +5642,12 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 . Using the *Wire Strippers/Cutters*, cut one 200mm long piece of *Red 22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
 . Use the *Wire Strippers/Cutters* to strip away 20mm of insulation from both ends of the above **.
 . Use the *Dupont Crimper* to crimp a *Fork Terminal* part(s) to one end of each **.
-. 
+. Preheat the *Soldering Iron* to the temperature recommended on the ** packaging.
+. Use the *Helping Hands* to clamp in place the bare end of one of the ** .
+. Use the tip of the *Soldering Iron* to heat the bare end of the clamped **  for a few seconds.
+. Apply enough ** to the contact point of the *Soldering Iron* and the clamped ** to bind together the strands of bare **.
+. Remove the ** and the end of the *Soldering Iron* from the **.
+. Repeat the above steps for the remaining ** .
 
 
 
