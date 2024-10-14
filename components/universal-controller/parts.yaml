@@ -61,14 +61,14 @@ electrical-plug:
   quantity: 1
   quantityUnits: part
   selectedOption: 0
-electrical-solder:
+solder:
   description: Electrical Solder
-  id: electrical-solder
+  id: solder
   notes: ''
   options:
     - electrical-solder
   quantity: 1
-  quantityUnits: applications
+  quantityUnits: application(s)
   selectedOption: 0
 ferrule:
   description: Ferrule
