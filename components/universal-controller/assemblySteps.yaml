@@ -92,7 +92,7 @@
 
   details: |
     . Using the *{{tools.wire-stripper-cutter.description}}*, cut one 200mm long piece of *{{parts.22awg-wire-red.description}}* and one 200mm long piece of *{{parts.22awg-wire-black.description}}*.
-    . Use the *{{tools.wire-stripper-cutter.description}}* to strip away 20mm of insulation from both ends of the above *{{parts.22awg-wire.description}}*.
+    . Use the *{{tools.wire-stripper-cutter.description}}* to strip away 20mm of insulation from both ends of the above *{{parts.22awg-wire.description}}* {{parts.22awg-wire.quantityUnits}}.
     . Use the *{{tools.dupont-crimper.description}}* to crimp a *{{parts.fork-terminal.description}}* {{parts.fork-terminal.quantityUnits}} to one end of each *{{parts.22awg-wire.description}}*.
     . Preheat the *{{tools.soldering-iron.description}}* to the temperature recommended on the *{{parts.solder.description}}* packaging.
     . Use the *{{tools.helping-hands.description}}* to clamp in place the bare end of one of the *{{parts.22awg-wire.description}}* {{parts.22awg-wire.quantityUnits}}.
