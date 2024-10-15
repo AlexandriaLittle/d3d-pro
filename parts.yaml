@@ -1,12 +1,3 @@
-universal-controller:
-  id: universal-controller
-  description: Universal Controller
-  quantity: 1
-  quantityUnits: module
-  options:
-  - universal-controller
-  selectedOption: 0
-  notes: ''
 universal-gearless-extruder:
   id: universal-gearless-extruder
   description: Universal Gearless Extruder
@@ -14,6 +5,15 @@ universal-gearless-extruder:
   quantityUnits: module
   options:
   - universal-gearless-extruder
+  selectedOption: 0
+  notes: ''
+universal-controller:
+  id: universal-controller
+  description: Universal Controller
+  quantity: 1
+  quantityUnits: module
+  options:
+  - universal-controller
   selectedOption: 0
   notes: ''
 universal-axis-z:
