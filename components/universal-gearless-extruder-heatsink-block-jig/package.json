@@ -1,0 +1,9 @@
+{
+  "name": "universal-gearless-extruder-heatsink-block-jig",
+  "version": "1.0.0",
+  "description": "Universal Gearless Extruder Heatsink Block Jig",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

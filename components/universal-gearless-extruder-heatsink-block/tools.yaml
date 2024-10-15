@@ -19,9 +19,18 @@ cutoff-wheel:
 drill-press:
   description: Drill Press
   id: drill-press
-  notes: ''
+  notes: 'If the drill press does not include any mounting tools then use vise grip pliers, etc.'
   options:
     - drill-press
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+heatsink-jig:
+  description: Heatsink Block Jig
+  id: heatsink-jig
+  notes: ''
+  options:
+    - universal-gearless-extruder-heatsink-block-jig
   quantity: 1
   quantityUnits: part
   selectedOption: 0

@@ -17,4 +17,40 @@
     . Secure the *{{parts.aluminum-stock.description}}* {{parts.aluminum-stock.quantityUnits}} in the *{{tools.vise.description}}* with most of the *{{parts.aluminum-stock.description}}* hanging out of the side of the *{{tools.vise.description}}*. 
     . Use a *{{tools.measuring-tape.description}}* and a *{{tools.permanent-marker.description}}* to mark a 50mm cut from the end of the *{{parts.aluminum-stock.description}}* {{parts.aluminum-stock.quantityUnits}}. Make sure to leave enough room for the width of the *{{tools.cutoff-wheel.description}}* on the *{{tools.circular-saw.description}}*.
     . While taking all appropriate precautions, use the *{{tools.circular-saw.description}}* to make the cut from the previous step.
-    . 
+    . After the {{parts.aluminum-stock.quantityUnits}} cools from the cut, remove the remaining *{{parts.aluminum-stock.description}}* from the *{{tools.vise.description}}* and set it aside.
+    . If necessary, use the *{{tools.metal-file.description}}* to remove burrs from the edges of the 50mm *{{parts.aluminum-stock.description}}* {{parts.aluminum-stock.quantityUnits}}.
+
+- summary: Drill the {{parts.aluminum-stock.description}}
+  requiredParts:
+    - aluminum-stock
+
+  requiredTools: 
+    - drill-press
+    - 5mm-drill-bit
+    - heatsink-jig
+    
+  details: |
+    . Bring the 50mm *{{parts.aluminum-stock.description}}* {{parts.aluminum-stock.quantityUnits}} from the previous step to the location of the *{{tools.drill-press.description}}*.
+    . While following the manufacturer's instructions for the *{{tools.drill-press.description}}*, securely install the *{{tools.5mm-drill-bit.description}}* into the *{{tools.drill-press.description}}*.
+    . Align the *{{tools.heatsink-jig.description}}* over the 50mm *{{parts.aluminum-stock.description}}* {{parts.aluminum-stock.quantityUnits}}.
+    . Use the mounting tools included with the drill press (or a suitable alternative) to secure the 50mm *{{parts.aluminum-stock.description}}* {{parts.aluminum-stock.quantityUnits}} in place for the first hole to be drilled.
+    . While taking every necessary precaution, turn on the drill press and use it to drill the hole through the 50mm *{{parts.aluminum-stock.description}}* {{parts.aluminum-stock.quantityUnits}}.
+    . Repeat the above steps for all three holes that need to be drilled into the {{description}}.
+
+- summary: Tap the M6 threaded hole
+  requiredParts:
+    - aluminum-stock
+
+  requiredTools: 
+    - tap-handle
+    - m6-tap
+    - vise
+    - metal-file
+    
+  details: |
+    . Following the manufacturer's instructions, install the *{{tools.m6-tap.description}}* into the *{{tools.tap-handle.description}}*.
+    . Secure the *{{description}}* in the jaws of the *{{tools.vise.description}}* with the widest side of the *{{description}}* facing up. The smallest hole should be accessible from the top.
+    . Using the *{{tools.tap-handle.description}}* and the *{{tools.m6-tap.description}}*, begin to tap the hole.
+    . For best results, unscrew the *{{tools.m6-tap.description}}* periodically while tapping the *{{description}}*. This allows the metal shavings to fall out of the way.
+    . Once the hole is fully tapped, use the *{{tools.metal-file.description}}* to remove any excess metal from the *{{description}}*.
+    . The {{description}} is now complete.
