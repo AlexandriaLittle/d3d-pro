@@ -193,13 +193,12 @@
     . Solder the inline fuse onto the extended power wire (still not ground).
     . Solder the inline fuse to one of the tongs of the rocker switch.
     . Solder a 200mm extension wire onto the other tong of the rocker switch.
+    . Solder the ends of the remaining exposed hot wires (not ground) to tin them.
     . Route the second extension wire back out of the case.
-    . Use the Dupont crimper to crimp a fork terminal onto the end of the extension wire.
-    . Connect the extension wire to one of the terminals on the GFCI.
-    . Use the Dupont crimper to crimp a fork terminal onto the other end of the power supply cable power wire.
-    . Connect the second wire onto the other power terminal on the GFCI.
+    . Connect the extension wire into one of the screw terminals on the back of the GFCI.
+    . Connect the second wire onto the other screw terminal on the back of the GFCI.
     . Use the Dupont crimper to crimp a fork terminal onto the end of the green ground wire
-    . Connect the ground wire onto the ground of the GFCI.
+    . Connect the ground wire onto the ground connection on the side of the GFCI.
     . Loop all of the exposed terminals in multiple layers of electrical tape.
     . Done with GFCI.
     . TODO
