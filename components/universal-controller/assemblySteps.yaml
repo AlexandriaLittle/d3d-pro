@@ -103,7 +103,11 @@
 
 
 - summary: Assemble the {{parts.ramps-board.description}} and {{parts.arduino.description}}
-  requiredParts: []
+  requiredParts:
+  - ramps-board
+  - arduino
+  - heatsink
+  - ramps-smart-adapter
 
   requiredTools: []
 
@@ -113,6 +117,7 @@
     . Align the RAMPS and Mega and press together.
     . Insert the smart adapter into the RAMPS.
     . Done
+    . TODO
 
 - summary: Flash firmware on the {{parts.arduino.description}}
   requiredParts: []
@@ -127,6 +132,7 @@
     . Select your board from the boards menu at the top.
     . Click upload and wait for it to upload.
     . When it says 'Done Uploading' you're done.
+    . TODO
 
 - summary: Flash the {{parts.raspberry-pi-image.description}} onto the {{parts.16gb-microsd-card.description}} and set up WIFI
   requiredParts: []
@@ -141,6 +147,7 @@
     . If using Wifi and not an ethernet connection, go into more details
     . Select the wireless networking option and put in your wifi credentials.
     . use the imager to download and flash the octopi image to the MicroSD card.
+    . TODO
 
 - summary: Set up WIFI on the {{parts.raspberry-pi.description}}
   requiredParts: []
@@ -149,6 +156,7 @@
 
   details: |
     . Hello World!
+    . TODO
 
 - summary: Configure {{parts.raspberry-pi-image.description}} for use
   requiredParts: []
@@ -157,6 +165,7 @@
 
   details: |
     . Hello World!
+    . TODO
 
 - summary: Attach components to the {{parts.case.description}}
   requiredParts: []
@@ -170,6 +179,7 @@
     . Zip tie the SSR
     . Zip tie the GFCI
     . Insert the rocker switch into the side of the case
+    . TODO
 
 - summary: Wire the {{parts.gfci.description}}
   requiredParts: []
@@ -192,6 +202,7 @@
     . Connect the ground wire onto the ground of the GFCI.
     . Loop all of the exposed terminals in multiple layers of electrical tape.
     . Done with GFCI.
+    . TODO
 
 - summary: Wire the {{parts.electrical-plug.description}}
   requiredParts: []
@@ -207,6 +218,7 @@
     . Once the plug closes properly, screw the plug together snugly.
     . Wrap the plug neatly in electrical tape.
     . Done with the electical plug.
+    . TODO
 
 - summary: Wire the {{parts.24v-power-supply.description}}
   requiredParts: []
@@ -221,6 +233,7 @@
     . Next, insert the ferruled ends of the 22AWG wire into the 24V outlet terminals. 
     . Screw down the screws in the 24V outlet terminals.
     . The 24v power supply is done. 
+    . TODO
 
 
 - summary: Wire the {{parts.solid-state-relay.description}}
@@ -234,6 +247,7 @@
     . Insert the forked end of the long SSR wire into the left side terminal of the 120v side of the SSR.
     . Tighten down all of the terminal screws.
     . The SSR is done.
+    . TODO
 
 - summary: Wire the {{parts.raspberry-pi.description}}
   requiredParts: []
@@ -246,6 +260,7 @@
     . Plug the USB A end of the USB A/USB B cable into the Raspberry Pi
     . Plug the USB camera into one of the available USB A ports on the Raspberry pi.
     . The Raspberry Pi is now wired.
+    . TODO
 
 - summary: Wire the {{parts.ramps-board.description}}
   requiredParts: []
@@ -259,6 +274,7 @@
     . Plug in the 24v power supply cables into their port, paying attention to the polarity.
     . Plug in the SSR signal wires into the heated bed port, paying attention to the polarity.
     . To be continued
+    . TODO
 
 - summary: Test the {{description}}
   requiredParts: []
@@ -267,3 +283,4 @@
 
   details: |
     . Hello World!
+    . TODO

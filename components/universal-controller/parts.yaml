@@ -205,9 +205,9 @@ jumper:
   quantity: 2
   quantityUnits: part(s)
   selectedOption: 0
-ramps-1_4-smart-adapter:
+ramps-smart-adapter:
   description: RAMPS 1.4 Smart Adapter
-  id: ramps-1_4-smart-adapter
+  id: ramps-smart-adapter
   notes: ''
   options:
     - ramps-1_4-smart-adapter
@@ -250,9 +250,9 @@ fork-terminal:
   quantity: 4
   quantityUnits: part(s)
   selectedOption: 0
-stepper-motor-driver-heatsink:
+heatsink:
   description: Stepper Motor Driver Heatsink
-  id: stepper-motor-driver-heatsink
+  id: heatsink
   notes: ''
   options:
     - stepper-motor-driver-heatsink
