@@ -57,7 +57,7 @@ marker:
   id: marker
   notes: ''
   options:
-    - marker
+    - permanent-marker
   quantity: 1
   quantityUnits: part
   selectedOption: 0
