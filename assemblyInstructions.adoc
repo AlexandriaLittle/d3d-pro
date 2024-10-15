@@ -3544,8 +3544,26 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
+|Circular Saw
+|Circular Saw
+|
+
+
+
 |Drill Press
 |Drill Press
+|
+
+
+
+|Measuring Tape
+|Measuring Tape
+|
+
+
+
+|Metal File
+|Metal File
 |
 
 
@@ -3558,6 +3576,12 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 |5mm Drill Bit
 |5mm Drill Bit
+|
+
+
+
+|Permanent Marker
+|Permanent Marker
 |
 
 
@@ -3601,7 +3625,25 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
+* *Circular Saw:* A Circular Saw can cause permenent injury or death! Follow all manufacturer recommended safety precautions!
+
+
+
+
+
 * *Drill Press:* Drill presses can cause permanent injury or possibly death! Do not wear loose fitting clothing, put your hair up, and wear proper PPE including (but not limited to) safety glasses when operating the machine.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3652,6 +3694,12 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 //
 //* Drill Press
 //
+//* Measuring Tape
+//
+//* 
+//
+//* Metal File
+//
 //
 
 // requiredParts
@@ -3666,7 +3714,10 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 *Instructions*
 
-. Testing
+. Secure the *Aluminum Stock* part in the *Vise* with most of the *Aluminum Stock* hanging out of the side of the *Vise*. 
+. Use a *Measuring Tape* and a ** to mark a 50mm cut from the end of the *Aluminum Stock* part. Make sure to leave enough room to make a cut with the *Circular Saw*.
+. While taking all appropriate precautions, use the *Circular Saw* to make the cut from the previous step.
+. 
 
 
 
@@ -5105,7 +5156,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 
 
 |1 part
-|ramps-1_4-smart-adapter
+|ramps-smart-adapter
 |RAMPS 1.4 Smart Adapter
 |RAMPS 1.4 Smart Adapter v1.0.0
 |
@@ -5145,7 +5196,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 
 
 |5 part(s)
-|stepper-motor-driver-heatsink
+|heatsink
 |Stepper Motor Driver Heatsink
 |Stepper Motor Driver Heatsink v1.0.0
 |
@@ -5673,6 +5724,17 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 
 // requiredParts
 //
+//*Required Parts*
+//
+//* RAMPS 1.4 Board
+//
+//* Arduino Mega 2560
+//
+//* Stepper Motor Driver Heatsink
+//
+//* RAMPS 1.4 Smart Adapter
+//
+//
 
 // details
 
@@ -5683,6 +5745,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 . Align the RAMPS and Mega and press together.
 . Insert the smart adapter into the RAMPS.
 . Done
+. TODO
 
 
 
@@ -5709,6 +5772,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 . Select your board from the boards menu at the top.
 . Click upload and wait for it to upload.
 . When it says 'Done Uploading' you're done.
+. TODO
 
 
 
@@ -5735,6 +5799,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 . If using Wifi and not an ethernet connection, go into more details
 . Select the wireless networking option and put in your wifi credentials.
 . use the imager to download and flash the octopi image to the MicroSD card.
+. TODO
 
 
 
@@ -5755,6 +5820,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 *Instructions*
 
 . Hello World!
+. TODO
 
 
 
@@ -5775,6 +5841,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 *Instructions*
 
 . Hello World!
+. TODO
 
 
 
@@ -5800,6 +5867,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 . Zip tie the SSR
 . Zip tie the GFCI
 . Insert the rocker switch into the side of the case
+. TODO
 
 
 
@@ -5834,6 +5902,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 . Connect the ground wire onto the ground of the GFCI.
 . Loop all of the exposed terminals in multiple layers of electrical tape.
 . Done with GFCI.
+. TODO
 
 
 
@@ -5861,6 +5930,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 . Once the plug closes properly, screw the plug together snugly.
 . Wrap the plug neatly in electrical tape.
 . Done with the electical plug.
+. TODO
 
 
 
@@ -5887,6 +5957,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 . Next, insert the ferruled ends of the 22AWG wire into the 24V outlet terminals. 
 . Screw down the screws in the 24V outlet terminals.
 . The 24v power supply is done. 
+. TODO
 
 
 
@@ -5911,6 +5982,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 . Insert the forked end of the long SSR wire into the left side terminal of the 120v side of the SSR.
 . Tighten down all of the terminal screws.
 . The SSR is done.
+. TODO
 
 
 
@@ -5935,6 +6007,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 . Plug the USB A end of the USB A/USB B cable into the Raspberry Pi
 . Plug the USB camera into one of the available USB A ports on the Raspberry pi.
 . The Raspberry Pi is now wired.
+. TODO
 
 
 
@@ -5960,6 +6033,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 . Plug in the 24v power supply cables into their port, paying attention to the polarity.
 . Plug in the SSR signal wires into the heated bed port, paying attention to the polarity.
 . To be continued
+. TODO
 
 
 
@@ -5980,6 +6054,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 *Instructions*
 
 . Hello World!
+. TODO
 
 
 
@@ -6134,6 +6209,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 *Instructions*
 
 . Hello World!
+. TODO
 
 
 

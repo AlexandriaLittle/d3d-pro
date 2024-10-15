@@ -3263,6 +3263,20 @@ components:
             parts: {}
             tools: {}
             precautions: []
+          circular-saw:
+            name: circular-saw
+            version: 1.0.0
+            description: Circular Saw
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions:
+              - >-
+                A Circular Saw can cause permenent injury or death! Follow all
+                manufacturer recommended safety precautions!
           drill-press:
             name: drill-press
             version: 1.0.0
@@ -3290,10 +3304,43 @@ components:
             parts: {}
             tools: {}
             precautions: []
+          measuring-tape:
+            name: measuring-tape
+            version: 1.0.0
+            description: Measuring Tape
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          metal-file:
+            name: metal-file
+            version: 1.0.0
+            description: Metal File
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
           metal-jaw-vise:
             name: metal-jaw-vise
             version: 1.0.0
             description: Metal Jaw Vise
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          permanent-marker:
+            name: permanent-marker
+            version: 1.0.0
+            description: Permanent Marker
             license: CC-BY-SA-4.0
             author: Alexandria Little
             dependencies: {}
@@ -3327,6 +3374,17 @@ components:
               aluminum-stock: Aluminum Stock (1in x 0.5in Aluminum Flat Bar
               Stock v1.0.0)
         tools:
+          circular-saw:
+            description: Circular Saw
+            id: circular-saw
+            notes: ''
+            options:
+              - circular-saw
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'circular-saw: Circular Saw'
+            descriptionSelected: 'circular-saw: Circular Saw (Circular Saw v1.0.0)'
           drill-press:
             description: Drill Press
             id: drill-press
@@ -3338,6 +3396,28 @@ components:
             selectedOption: 0
             descriptionLong: 'drill-press: Drill Press'
             descriptionSelected: 'drill-press: Drill Press (Drill Press v1.0.0)'
+          measuring-tape:
+            description: Measuring Tape
+            id: measuring-tape
+            notes: ''
+            options:
+              - measuring-tape
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'measuring-tape: Measuring Tape'
+            descriptionSelected: 'measuring-tape: Measuring Tape (Measuring Tape v1.0.0)'
+          metal-file:
+            description: Metal File
+            id: metal-file
+            notes: ''
+            options:
+              - metal-file
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'metal-file: Metal File'
+            descriptionSelected: 'metal-file: Metal File (Metal File v1.0.0)'
           m6-tap:
             description: M6 tap
             id: m6-tap
@@ -3360,6 +3440,17 @@ components:
             selectedOption: 0
             descriptionLong: '5mm-drill-bit: 5mm Drill Bit'
             descriptionSelected: '5mm-drill-bit: 5mm Drill Bit (5mm Drill Bit v1.0.0)'
+          marker:
+            description: Permanent Marker
+            id: marker
+            notes: ''
+            options:
+              - permanent-marker
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'marker: Permanent Marker'
+            descriptionSelected: 'marker: Permanent Marker (Permanent Marker v1.0.0)'
           tap-handle:
             description: Tap Handle
             id: tap-handle
@@ -3393,8 +3484,21 @@ components:
               - 5mm-drill-bit
               - m6-tap
               - drill-press
-            details: |
-              . Testing
+              - measuring-tape
+              - permanent-marker
+              - metal-file
+            details: >
+              . Secure the *Aluminum Stock* part in the *Vise* with most of the
+              *Aluminum Stock* hanging out of the side of the *Vise*. 
+
+              . Use a *Measuring Tape* and a ** to mark a 50mm cut from the end
+              of the *Aluminum Stock* part. Make sure to leave enough room to
+              make a cut with the *Circular Saw*.
+
+              . While taking all appropriate precautions, use the *Circular Saw*
+              to make the cut from the previous step.
+
+              . 
       vise-grip-pliers:
         name: vise-grip-pliers
         version: 1.0.0
@@ -13024,19 +13128,19 @@ components:
         descriptionSelected: >-
           10-pin-idc-connector: 10 Pin IDC Conector (10 Pin IDC Connector Cable
           v1.0.0)
-      ramps-1_4-smart-adapter:
+      ramps-smart-adapter:
         description: RAMPS 1.4 Smart Adapter
-        id: ramps-1_4-smart-adapter
+        id: ramps-smart-adapter
         notes: ''
         options:
           - ramps-1_4-smart-adapter
         quantity: 1
         quantityUnits: part
         selectedOption: 0
-        descriptionLong: 'ramps-1_4-smart-adapter: RAMPS 1.4 Smart Adapter'
+        descriptionLong: 'ramps-smart-adapter: RAMPS 1.4 Smart Adapter'
         descriptionSelected: >-
-          ramps-1_4-smart-adapter: RAMPS 1.4 Smart Adapter (RAMPS 1.4 Smart
-          Adapter v1.0.0)
+          ramps-smart-adapter: RAMPS 1.4 Smart Adapter (RAMPS 1.4 Smart Adapter
+          v1.0.0)
       marlin-firmware:
         description: Marlin Firmware
         id: marlin-firmware
@@ -13083,19 +13187,19 @@ components:
         selectedOption: 0
         descriptionLong: 'fork-terminal: Fork Terminal'
         descriptionSelected: 'fork-terminal: Fork Terminal (Electrical Fork Terminal v1.0.0)'
-      stepper-motor-driver-heatsink:
+      heatsink:
         description: Stepper Motor Driver Heatsink
-        id: stepper-motor-driver-heatsink
+        id: heatsink
         notes: ''
         options:
           - stepper-motor-driver-heatsink
         quantity: 5
         quantityUnits: part(s)
         selectedOption: 0
-        descriptionLong: 'stepper-motor-driver-heatsink: Stepper Motor Driver Heatsink'
+        descriptionLong: 'heatsink: Stepper Motor Driver Heatsink'
         descriptionSelected: >-
-          stepper-motor-driver-heatsink: Stepper Motor Driver Heatsink (Stepper
-          Motor Driver Heatsink v1.0.0)
+          heatsink: Stepper Motor Driver Heatsink (Stepper Motor Driver Heatsink
+          v1.0.0)
       2-pin-dupont-connector:
         description: 2 Pin Female Dupont Connector
         id: 2-pin-dupont-connector
@@ -13516,7 +13620,11 @@ components:
           . Repeat the above steps for the soldering the remaining *22AWG Wire*
           length(s).
       - summary: Assemble the RAMPS 1.4 Board and Arduino Mega 2560
-        requiredParts: []
+        requiredParts:
+          - ramps-board
+          - arduino
+          - heatsink
+          - ramps-smart-adapter
         requiredTools: []
         details: |
           . Put the heatsinks on the drivers.
@@ -13524,6 +13632,7 @@ components:
           . Align the RAMPS and Mega and press together.
           . Insert the smart adapter into the RAMPS.
           . Done
+          . TODO
       - summary: Flash firmware on the Arduino Mega 2560
         requiredParts: []
         requiredTools: []
@@ -13535,6 +13644,7 @@ components:
           . Select your board from the boards menu at the top.
           . Click upload and wait for it to upload.
           . When it says 'Done Uploading' you're done.
+          . TODO
       - summary: >-
           Flash the Octoprint Raspberry Pi Software Image onto the 16GB MicroSD
           Card and set up WIFI
@@ -13556,16 +13666,20 @@ components:
 
           . use the imager to download and flash the octopi image to the MicroSD
           card.
+
+          . TODO
       - summary: Set up WIFI on the Raspberry Pi Computer
         requiredParts: []
         requiredTools: []
         details: |
           . Hello World!
+          . TODO
       - summary: Configure Octoprint Raspberry Pi Software Image for use
         requiredParts: []
         requiredTools: []
         details: |
           . Hello World!
+          . TODO
       - summary: Attach components to the Universal Controller Case
         requiredParts: []
         requiredTools: []
@@ -13576,6 +13690,7 @@ components:
           . Zip tie the SSR
           . Zip tie the GFCI
           . Insert the rocker switch into the side of the case
+          . TODO
       - summary: Wire the GFCI
         requiredParts: []
         requiredTools: []
@@ -13616,6 +13731,8 @@ components:
           tape.
 
           . Done with GFCI.
+
+          . TODO
       - summary: Wire the Two Prong Electrical Plug
         requiredParts: []
         requiredTools: []
@@ -13639,6 +13756,8 @@ components:
           . Wrap the plug neatly in electrical tape.
 
           . Done with the electical plug.
+
+          . TODO
       - summary: Wire the 24v Power Supply Module
         requiredParts: []
         requiredTools: []
@@ -13661,6 +13780,8 @@ components:
           . Screw down the screws in the 24V outlet terminals.
 
           . The 24v power supply is done. 
+
+          . TODO
       - summary: Wire the Solid State Relay (SSR)
         requiredParts: []
         requiredTools: []
@@ -13677,6 +13798,8 @@ components:
           . Tighten down all of the terminal screws.
 
           . The SSR is done.
+
+          . TODO
       - summary: Wire the Raspberry Pi Computer
         requiredParts: []
         requiredTools: []
@@ -13692,6 +13815,8 @@ components:
           Raspberry pi.
 
           . The Raspberry Pi is now wired.
+
+          . TODO
       - summary: Wire the RAMPS 1.4 Board
         requiredParts: []
         requiredTools: []
@@ -13715,11 +13840,14 @@ components:
           attention to the polarity.
 
           . To be continued
+
+          . TODO
       - summary: Test the Universal Controller Assembly
         requiredParts: []
         requiredTools: []
         details: |
           . Hello World!
+          . TODO
   universal-controller-case:
     name: universal-controller-case
     version: 1.0.0
@@ -15640,6 +15768,20 @@ components:
                 parts: {}
                 tools: {}
                 precautions: []
+              circular-saw:
+                name: circular-saw
+                version: 1.0.0
+                description: Circular Saw
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions:
+                  - >-
+                    A Circular Saw can cause permenent injury or death! Follow
+                    all manufacturer recommended safety precautions!
               drill-press:
                 name: drill-press
                 version: 1.0.0
@@ -15667,10 +15809,43 @@ components:
                 parts: {}
                 tools: {}
                 precautions: []
+              measuring-tape:
+                name: measuring-tape
+                version: 1.0.0
+                description: Measuring Tape
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              metal-file:
+                name: metal-file
+                version: 1.0.0
+                description: Metal File
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
               metal-jaw-vise:
                 name: metal-jaw-vise
                 version: 1.0.0
                 description: Metal Jaw Vise
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              permanent-marker:
+                name: permanent-marker
+                version: 1.0.0
+                description: Permanent Marker
                 license: CC-BY-SA-4.0
                 author: Alexandria Little
                 dependencies: {}
@@ -15704,6 +15879,17 @@ components:
                   aluminum-stock: Aluminum Stock (1in x 0.5in Aluminum Flat Bar
                   Stock v1.0.0)
             tools:
+              circular-saw:
+                description: Circular Saw
+                id: circular-saw
+                notes: ''
+                options:
+                  - circular-saw
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'circular-saw: Circular Saw'
+                descriptionSelected: 'circular-saw: Circular Saw (Circular Saw v1.0.0)'
               drill-press:
                 description: Drill Press
                 id: drill-press
@@ -15715,6 +15901,28 @@ components:
                 selectedOption: 0
                 descriptionLong: 'drill-press: Drill Press'
                 descriptionSelected: 'drill-press: Drill Press (Drill Press v1.0.0)'
+              measuring-tape:
+                description: Measuring Tape
+                id: measuring-tape
+                notes: ''
+                options:
+                  - measuring-tape
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'measuring-tape: Measuring Tape'
+                descriptionSelected: 'measuring-tape: Measuring Tape (Measuring Tape v1.0.0)'
+              metal-file:
+                description: Metal File
+                id: metal-file
+                notes: ''
+                options:
+                  - metal-file
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'metal-file: Metal File'
+                descriptionSelected: 'metal-file: Metal File (Metal File v1.0.0)'
               m6-tap:
                 description: M6 tap
                 id: m6-tap
@@ -15737,6 +15945,17 @@ components:
                 selectedOption: 0
                 descriptionLong: '5mm-drill-bit: 5mm Drill Bit'
                 descriptionSelected: '5mm-drill-bit: 5mm Drill Bit (5mm Drill Bit v1.0.0)'
+              marker:
+                description: Permanent Marker
+                id: marker
+                notes: ''
+                options:
+                  - permanent-marker
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'marker: Permanent Marker'
+                descriptionSelected: 'marker: Permanent Marker (Permanent Marker v1.0.0)'
               tap-handle:
                 description: Tap Handle
                 id: tap-handle
@@ -15770,8 +15989,21 @@ components:
                   - 5mm-drill-bit
                   - m6-tap
                   - drill-press
-                details: |
-                  . Testing
+                  - measuring-tape
+                  - permanent-marker
+                  - metal-file
+                details: >
+                  . Secure the *Aluminum Stock* part in the *Vise* with most of
+                  the *Aluminum Stock* hanging out of the side of the *Vise*. 
+
+                  . Use a *Measuring Tape* and a ** to mark a 50mm cut from the
+                  end of the *Aluminum Stock* part. Make sure to leave enough
+                  room to make a cut with the *Circular Saw*.
+
+                  . While taking all appropriate precautions, use the *Circular
+                  Saw* to make the cut from the previous step.
+
+                  . 
           vise-grip-pliers:
             name: vise-grip-pliers
             version: 1.0.0
@@ -17252,6 +17484,20 @@ components:
         parts: {}
         tools: {}
         precautions: []
+      circular-saw:
+        name: circular-saw
+        version: 1.0.0
+        description: Circular Saw
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions:
+          - >-
+            A Circular Saw can cause permenent injury or death! Follow all
+            manufacturer recommended safety precautions!
       drill-press:
         name: drill-press
         version: 1.0.0
@@ -17279,10 +17525,43 @@ components:
         parts: {}
         tools: {}
         precautions: []
+      measuring-tape:
+        name: measuring-tape
+        version: 1.0.0
+        description: Measuring Tape
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      metal-file:
+        name: metal-file
+        version: 1.0.0
+        description: Metal File
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
       metal-jaw-vise:
         name: metal-jaw-vise
         version: 1.0.0
         description: Metal Jaw Vise
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      permanent-marker:
+        name: permanent-marker
+        version: 1.0.0
+        description: Permanent Marker
         license: CC-BY-SA-4.0
         author: Alexandria Little
         dependencies: {}
@@ -17316,6 +17595,17 @@ components:
           aluminum-stock: Aluminum Stock (1in x 0.5in Aluminum Flat Bar Stock
           v1.0.0)
     tools:
+      circular-saw:
+        description: Circular Saw
+        id: circular-saw
+        notes: ''
+        options:
+          - circular-saw
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'circular-saw: Circular Saw'
+        descriptionSelected: 'circular-saw: Circular Saw (Circular Saw v1.0.0)'
       drill-press:
         description: Drill Press
         id: drill-press
@@ -17327,6 +17617,28 @@ components:
         selectedOption: 0
         descriptionLong: 'drill-press: Drill Press'
         descriptionSelected: 'drill-press: Drill Press (Drill Press v1.0.0)'
+      measuring-tape:
+        description: Measuring Tape
+        id: measuring-tape
+        notes: ''
+        options:
+          - measuring-tape
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'measuring-tape: Measuring Tape'
+        descriptionSelected: 'measuring-tape: Measuring Tape (Measuring Tape v1.0.0)'
+      metal-file:
+        description: Metal File
+        id: metal-file
+        notes: ''
+        options:
+          - metal-file
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'metal-file: Metal File'
+        descriptionSelected: 'metal-file: Metal File (Metal File v1.0.0)'
       m6-tap:
         description: M6 tap
         id: m6-tap
@@ -17349,6 +17661,17 @@ components:
         selectedOption: 0
         descriptionLong: '5mm-drill-bit: 5mm Drill Bit'
         descriptionSelected: '5mm-drill-bit: 5mm Drill Bit (5mm Drill Bit v1.0.0)'
+      marker:
+        description: Permanent Marker
+        id: marker
+        notes: ''
+        options:
+          - permanent-marker
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'marker: Permanent Marker'
+        descriptionSelected: 'marker: Permanent Marker (Permanent Marker v1.0.0)'
       tap-handle:
         description: Tap Handle
         id: tap-handle
@@ -17382,8 +17705,21 @@ components:
           - 5mm-drill-bit
           - m6-tap
           - drill-press
-        details: |
-          . Testing
+          - measuring-tape
+          - permanent-marker
+          - metal-file
+        details: >
+          . Secure the *Aluminum Stock* part in the *Vise* with most of the
+          *Aluminum Stock* hanging out of the side of the *Vise*. 
+
+          . Use a *Measuring Tape* and a ** to mark a 50mm cut from the end of
+          the *Aluminum Stock* part. Make sure to leave enough room to make a
+          cut with the *Circular Saw*.
+
+          . While taking all appropriate precautions, use the *Circular Saw* to
+          make the cut from the previous step.
+
+          . 
   universal-gearless-extruder-motor-mount:
     name: universal-gearless-extruder-motor-mount
     version: 1.0.0
@@ -17615,3 +17951,4 @@ assemblySteps:
     requiredTools: []
     details: |
       . Hello World!
+      . TODO
