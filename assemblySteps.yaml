@@ -63,7 +63,7 @@
   details: |
     . TODO
 
-- summary: Tighten the axis belts
+- summary: Tighten the Axis Belts
   requiredParts:
     - universal-axis-x
     - universal-axis-y1
@@ -107,7 +107,7 @@
   details: |
     . TODO
 
-- summary: Install and Wire the {{parts.univerasl-gearless-extruder.description}}
+- summary: Install and Wire the {{parts.universal-gearless-extruder.description}}
   requiredParts:
     - universal-gearless-extruder
 
@@ -117,7 +117,7 @@
   details: |
     . TODO
 
-- summary: Test the wireless printer management software ({{component.octoprint-raspberry-pi-software-image.description}})
+- summary: Test the wireless printer management software ({{components.octoprint-raspberry-pi-software-image.description}})
   requiredParts: []
 
   requiredTools: []

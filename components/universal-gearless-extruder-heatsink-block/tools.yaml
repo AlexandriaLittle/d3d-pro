@@ -70,7 +70,7 @@ m6-tap:
   quantity: 1
   quantityUnits: part
   selectedOption: 0
-marker:
+permanent-marker:
   description: Permanent Marker
   id: marker
   notes: ''
