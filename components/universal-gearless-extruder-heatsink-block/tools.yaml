@@ -1,9 +1,36 @@
+circular-saw:
+  description: Circular Saw
+  id: circular-saw
+  notes: ''
+  options:
+    - circular-saw
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
 drill-press:
   description: Drill Press
   id: drill-press
   notes: ''
   options:
     - drill-press
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+measuring-tape:
+  description: Measuring Tape
+  id: measuring-tape
+  notes: ''
+  options:
+    - measuring-tape
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+metal-file:
+  description: Metal File
+  id: metal-file
+  notes: ''
+  options:
+    - metal-file
   quantity: 1
   quantityUnits: part
   selectedOption: 0
@@ -22,6 +49,15 @@ m6-tap:
   notes: ''
   options:
     - 5mm-drill-bit
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+marker:
+  description: Permanent Marker
+  id: marker
+  notes: ''
+  options:
+    - marker
   quantity: 1
   quantityUnits: part
   selectedOption: 0

@@ -8,7 +8,12 @@
     - 5mm-drill-bit
     - m6-tap
     - drill-press
+    - measuring-tape
+    - permanent-marker
+    - metal-file
 
   details: |
-    . Testing
-    . TODO
+    . Secure the *{{parts.aluminum-stock.description}}* {{parts.aluminum-stock.quantityUnits}} in the *{{tools.vise.description}}* with most of the *{{parts.aluminum-stock.description}}* hanging out of the side of the *{{tools.vise.description}}*. 
+    . Use a *{{tools.measuring-tape.description}}* and a *{{tools.permanent-marker.description}}* to mark a 50mm cut from the end of the *{{parts.aluminum-stock.description}}* {{parts.aluminum-stock.quantityUnits}}. Make sure to leave enough room to make a cut with the *{{tools.circular-saw.description}}*.
+    . While taking all appropriate precautions, use the *{{tools.circular-saw.description}}* to make the cut from the previous step.
+    . 
