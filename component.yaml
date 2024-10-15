@@ -13513,7 +13513,8 @@ components:
           . Remove the *Electrical Solder* and the end of the *Soldering Iron*
           from the *22AWG Wire*.
 
-          . Repeat the above steps for the remaining *22AWG Wire* length(s).
+          . Repeat the above steps for the soldering the remaining *22AWG Wire*
+          length(s).
       - summary: Assemble the RAMPS 1.4 Board and Arduino Mega 2560
         requiredParts: []
         requiredTools: []

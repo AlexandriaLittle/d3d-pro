@@ -1,7 +1,7 @@
 = D3D Pro 3D Printer Assembly Instructions
 Alexandria Little - CC-BY-SA-4.0
 :revnumber: v23.12
-:revdate: 10/14/2024
+:revdate: 10/15/2024
 :sectnums:
 :toc:
 :toclevels: 3
@@ -5658,7 +5658,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 . Use the tip of the *Soldering Iron* to heat the bare end of the clamped *22AWG Wire* length(s) for a few seconds.
 . Apply enough *Electrical Solder* to the contact point of the *Soldering Iron* and the clamped *22AWG Wire* to bind together the strands of bare *22AWG Wire*.
 . Remove the *Electrical Solder* and the end of the *Soldering Iron* from the *22AWG Wire*.
-. Repeat the above steps for the remaining *22AWG Wire* length(s).
+. Repeat the above steps for the soldering the remaining *22AWG Wire* length(s).
 
 
 
