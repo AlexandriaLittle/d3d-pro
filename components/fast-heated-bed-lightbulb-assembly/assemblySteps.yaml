@@ -44,6 +44,7 @@
     . Use two *{{parts.metal-zip-tie.description}}* {{parts.metal-zip-tie.quantityUnits}} to secure each end of the *{{parts.carbon-fiber-blanket-stock.description}}* {{parts.carbon-fiber-blanket-stock.quantityUnits}}. This should fully cover the *{{parts.heat-shrink-tubing.description}}*.
     . Perform the above steps again over the remaining *{{parts.heat-shrink-tubing.description}}* {{parts.heat-shrink-tubing.quantityUnits}}.
     . Optionally, cut the excess *{{parts.metal-zip-tie.description}}* off using *{{tools.wire-stripper-cutter.description}}*.
+    . TODO VERIFY INSTRUCTIONS
 
 
 - summary: Add {{parts.halogen-lightbulb.description}} {{parts.halogen-lightbulb.quantityUnits}}
