@@ -158,7 +158,7 @@ components:
     description: Wire Ferrule
     name: ferrule
     quantity: 22
-    quantityUnits: part
+    quantityUnits: part(s)
   ground-fault-connection-interrupter:
     description: Ground Fault Connection Interrupter (GFCI)
     name: ground-fault-connection-interrupter

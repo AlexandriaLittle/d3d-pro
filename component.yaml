@@ -14846,9 +14846,7 @@ components:
         details: >
           . Use the *Hobby Knife* to clean any extra plastic off of the 3D
           printed parts.
-      - summary: >-
-          Prepare Corner Connector part(s), Left Corner Connector part(s), and
-          Right Corner Connector part(s) for Rebar Stake part(s)
+      - summary: Prepare parts for Rebar Stake part(s)
         requiredParts:
           - corner-connector
           - m6-20mm-screw
@@ -18196,19 +18194,6 @@ components:
     tools: {}
     precautions: []
 parts:
-  universal-controller:
-    id: universal-controller
-    description: Universal Controller
-    quantity: 1
-    quantityUnits: module
-    options:
-      - universal-controller
-    selectedOption: 0
-    notes: ''
-    descriptionLong: 'universal-controller: Universal Controller'
-    descriptionSelected: >-
-      universal-controller: Universal Controller (Universal Controller Assembly
-      v1.0.0)
   universal-gearless-extruder:
     id: universal-gearless-extruder
     description: Universal Gearless Extruder
@@ -18222,6 +18207,19 @@ parts:
     descriptionSelected: >-
       universal-gearless-extruder: Universal Gearless Extruder (Universal
       Gearless Extruder Module v1.0.0)
+  universal-controller:
+    id: universal-controller
+    description: Universal Controller
+    quantity: 1
+    quantityUnits: module
+    options:
+      - universal-controller
+    selectedOption: 0
+    notes: ''
+    descriptionLong: 'universal-controller: Universal Controller'
+    descriptionSelected: >-
+      universal-controller: Universal Controller (Universal Controller Assembly
+      v1.0.0)
   universal-axis-z:
     id: universal-axis-z
     description: Universal Z Axis
