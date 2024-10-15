@@ -570,8 +570,9 @@ components:
     precautions:
       - >-
         Drill presses can cause permanent injury or possibly death! Do not wear
-        loose fitting clothing, put your hair up, and wear proper PPE including
-        (but not limited to) safety glasses when operating the machine.
+        loose fitting clothing, be sure to put your hair up, and wear proper PPE
+        including (but not limited to) safety glasses when operating the
+        machine.
   dupont-crimper:
     name: dupont-crimper
     version: 1.0.0
@@ -892,9 +893,9 @@ components:
             precautions:
               - >-
                 Drill presses can cause permanent injury or possibly death! Do
-                not wear loose fitting clothing, put your hair up, and wear
-                proper PPE including (but not limited to) safety glasses when
-                operating the machine.
+                not wear loose fitting clothing, be sure to put your hair up,
+                and wear proper PPE including (but not limited to) safety
+                glasses when operating the machine.
           fast-heated-bed-plate-jig:
             name: fast-heated-bed-plate-jig
             version: 1.0.0
@@ -2175,9 +2176,9 @@ components:
         precautions:
           - >-
             Drill presses can cause permanent injury or possibly death! Do not
-            wear loose fitting clothing, put your hair up, and wear proper PPE
-            including (but not limited to) safety glasses when operating the
-            machine.
+            wear loose fitting clothing, be sure to put your hair up, and wear
+            proper PPE including (but not limited to) safety glasses when
+            operating the machine.
       fast-heated-bed-plate-jig:
         name: fast-heated-bed-plate-jig
         version: 1.0.0
@@ -3290,9 +3291,9 @@ components:
             precautions:
               - >-
                 Drill presses can cause permanent injury or possibly death! Do
-                not wear loose fitting clothing, put your hair up, and wear
-                proper PPE including (but not limited to) safety glasses when
-                operating the machine.
+                not wear loose fitting clothing, be sure to put your hair up,
+                and wear proper PPE including (but not limited to) safety
+                glasses when operating the machine.
           m6-1mm-tap:
             name: m6-1mm-tap
             version: 1.0.0
@@ -3308,6 +3309,17 @@ components:
             name: measuring-tape
             version: 1.0.0
             description: Measuring Tape
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          metal-cutoff-wheel:
+            name: metal-cutoff-wheel
+            version: 1.0.0
+            description: Metal Cutoff Wheel
             license: CC-BY-SA-4.0
             author: Alexandria Little
             dependencies: {}
@@ -3359,6 +3371,17 @@ components:
             parts: {}
             tools: {}
             precautions: []
+          universal-gearless-extruder-heatsink-block-jig:
+            name: universal-gearless-extruder-heatsink-block-jig
+            version: 1.0.0
+            description: Universal Gearless Extruder Heatsink Block Jig
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
         parts:
           aluminum-stock:
             description: Aluminum Stock
@@ -3385,10 +3408,23 @@ components:
             selectedOption: 0
             descriptionLong: 'circular-saw: Circular Saw'
             descriptionSelected: 'circular-saw: Circular Saw (Circular Saw v1.0.0)'
+          cutoff-wheel:
+            description: Metal Cutting Wheel
+            id: cutoff-wheel
+            notes: ''
+            options:
+              - metal-cutoff-wheel
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'cutoff-wheel: Metal Cutting Wheel'
+            descriptionSelected: 'cutoff-wheel: Metal Cutting Wheel (Metal Cutoff Wheel v1.0.0)'
           drill-press:
             description: Drill Press
             id: drill-press
-            notes: ''
+            notes: >-
+              If the drill press does not include any mounting tools then use
+              vise grip pliers, etc.
             options:
               - drill-press
             quantity: 1
@@ -3396,6 +3432,19 @@ components:
             selectedOption: 0
             descriptionLong: 'drill-press: Drill Press'
             descriptionSelected: 'drill-press: Drill Press (Drill Press v1.0.0)'
+          heatsink-jig:
+            description: Heatsink Block Jig
+            id: heatsink-jig
+            notes: ''
+            options:
+              - universal-gearless-extruder-heatsink-block-jig
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'heatsink-jig: Heatsink Block Jig'
+            descriptionSelected: >-
+              heatsink-jig: Heatsink Block Jig (Universal Gearless Extruder
+              Heatsink Block Jig v1.0.0)
           measuring-tape:
             description: Measuring Tape
             id: measuring-tape
@@ -3475,7 +3524,7 @@ components:
             descriptionSelected: 'vise: Vise (Metal Jaw Vise v1.0.0)'
         precautions: []
         assemblySteps:
-          - summary: Manufacture the Universal Gearless Extruder Heatsink Block
+          - summary: Cut the Aluminum Stock
             requiredParts:
               - aluminum-stock
             requiredTools:
@@ -3488,17 +3537,80 @@ components:
               - permanent-marker
               - metal-file
             details: >
+              . Follow the *Circular Saw* manufacturer's instructions to safely
+              attach a *Metal Cutting Wheel* part to the *Circular Saw*.
+
               . Secure the *Aluminum Stock* part in the *Vise* with most of the
               *Aluminum Stock* hanging out of the side of the *Vise*. 
 
               . Use a *Measuring Tape* and a ** to mark a 50mm cut from the end
-              of the *Aluminum Stock* part. Make sure to leave enough room to
-              make a cut with the *Circular Saw*.
+              of the *Aluminum Stock* part. Make sure to leave enough room for
+              the width of the *Metal Cutting Wheel* on the *Circular Saw*.
 
               . While taking all appropriate precautions, use the *Circular Saw*
               to make the cut from the previous step.
 
-              . 
+              . After the part cools from the cut, remove the remaining
+              *Aluminum Stock* from the *Vise* and set it aside.
+
+              . If necessary, use the *Metal File* to remove burrs from the
+              edges of the 50mm *Aluminum Stock* part.
+          - summary: Drill the Aluminum Stock
+            requiredParts:
+              - aluminum-stock
+            requiredTools:
+              - drill-press
+              - 5mm-drill-bit
+              - heatsink-jig
+            details: >
+              . Bring the 50mm *Aluminum Stock* part from the previous step to
+              the location of the *Drill Press*.
+
+              . While following the manufacturer's instructions for the *Drill
+              Press*, securely install the *5mm Drill Bit* into the *Drill
+              Press*.
+
+              . Align the *Heatsink Block Jig* over the 50mm *Aluminum Stock*
+              part.
+
+              . Use the mounting tools included with the drill press (or a
+              suitable alternative) to secure the 50mm *Aluminum Stock* part in
+              place for the first hole to be drilled.
+
+              . While taking every necessary precaution, turn on the drill press
+              and use it to drill the hole through the 50mm *Aluminum Stock*
+              part.
+
+              . Repeat the above steps for all three holes that need to be
+              drilled into the Universal Gearless Extruder Heatsink Block.
+          - summary: Tap the M6 threaded hole
+            requiredParts:
+              - aluminum-stock
+            requiredTools:
+              - tap-handle
+              - m6-tap
+              - vise
+              - metal-file
+            details: >
+              . Following the manufacturer's instructions, install the *M6 tap*
+              into the *Tap Handle*.
+
+              . Secure the *Universal Gearless Extruder Heatsink Block* in the
+              jaws of the *Vise* with the widest side of the *Universal Gearless
+              Extruder Heatsink Block* facing up. The smallest hole should be
+              accessible from the top.
+
+              . Using the *Tap Handle* and the *M6 tap*, begin to tap the hole.
+
+              . For best results, unscrew the *M6 tap* periodically while
+              tapping the *Universal Gearless Extruder Heatsink Block*. This
+              allows the metal shavings to fall out of the way.
+
+              . Once the hole is fully tapped, use the *Metal File* to remove
+              any excess metal from the *Universal Gearless Extruder Heatsink
+              Block*.
+
+              . The Universal Gearless Extruder Heatsink Block is now complete.
       vise-grip-pliers:
         name: vise-grip-pliers
         version: 1.0.0
@@ -11305,9 +11417,9 @@ components:
                 precautions:
                   - >-
                     Drill presses can cause permanent injury or possibly death!
-                    Do not wear loose fitting clothing, put your hair up, and
-                    wear proper PPE including (but not limited to) safety
-                    glasses when operating the machine.
+                    Do not wear loose fitting clothing, be sure to put your hair
+                    up, and wear proper PPE including (but not limited to)
+                    safety glasses when operating the machine.
               fast-heated-bed-plate-jig:
                 name: fast-heated-bed-plate-jig
                 version: 1.0.0
@@ -15795,9 +15907,9 @@ components:
                 precautions:
                   - >-
                     Drill presses can cause permanent injury or possibly death!
-                    Do not wear loose fitting clothing, put your hair up, and
-                    wear proper PPE including (but not limited to) safety
-                    glasses when operating the machine.
+                    Do not wear loose fitting clothing, be sure to put your hair
+                    up, and wear proper PPE including (but not limited to)
+                    safety glasses when operating the machine.
               m6-1mm-tap:
                 name: m6-1mm-tap
                 version: 1.0.0
@@ -15813,6 +15925,17 @@ components:
                 name: measuring-tape
                 version: 1.0.0
                 description: Measuring Tape
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              metal-cutoff-wheel:
+                name: metal-cutoff-wheel
+                version: 1.0.0
+                description: Metal Cutoff Wheel
                 license: CC-BY-SA-4.0
                 author: Alexandria Little
                 dependencies: {}
@@ -15864,6 +15987,17 @@ components:
                 parts: {}
                 tools: {}
                 precautions: []
+              universal-gearless-extruder-heatsink-block-jig:
+                name: universal-gearless-extruder-heatsink-block-jig
+                version: 1.0.0
+                description: Universal Gearless Extruder Heatsink Block Jig
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
             parts:
               aluminum-stock:
                 description: Aluminum Stock
@@ -15890,10 +16024,23 @@ components:
                 selectedOption: 0
                 descriptionLong: 'circular-saw: Circular Saw'
                 descriptionSelected: 'circular-saw: Circular Saw (Circular Saw v1.0.0)'
+              cutoff-wheel:
+                description: Metal Cutting Wheel
+                id: cutoff-wheel
+                notes: ''
+                options:
+                  - metal-cutoff-wheel
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'cutoff-wheel: Metal Cutting Wheel'
+                descriptionSelected: 'cutoff-wheel: Metal Cutting Wheel (Metal Cutoff Wheel v1.0.0)'
               drill-press:
                 description: Drill Press
                 id: drill-press
-                notes: ''
+                notes: >-
+                  If the drill press does not include any mounting tools then
+                  use vise grip pliers, etc.
                 options:
                   - drill-press
                 quantity: 1
@@ -15901,6 +16048,19 @@ components:
                 selectedOption: 0
                 descriptionLong: 'drill-press: Drill Press'
                 descriptionSelected: 'drill-press: Drill Press (Drill Press v1.0.0)'
+              heatsink-jig:
+                description: Heatsink Block Jig
+                id: heatsink-jig
+                notes: ''
+                options:
+                  - universal-gearless-extruder-heatsink-block-jig
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'heatsink-jig: Heatsink Block Jig'
+                descriptionSelected: >-
+                  heatsink-jig: Heatsink Block Jig (Universal Gearless Extruder
+                  Heatsink Block Jig v1.0.0)
               measuring-tape:
                 description: Measuring Tape
                 id: measuring-tape
@@ -15980,7 +16140,7 @@ components:
                 descriptionSelected: 'vise: Vise (Metal Jaw Vise v1.0.0)'
             precautions: []
             assemblySteps:
-              - summary: Manufacture the Universal Gearless Extruder Heatsink Block
+              - summary: Cut the Aluminum Stock
                 requiredParts:
                   - aluminum-stock
                 requiredTools:
@@ -15993,17 +16153,84 @@ components:
                   - permanent-marker
                   - metal-file
                 details: >
+                  . Follow the *Circular Saw* manufacturer's instructions to
+                  safely attach a *Metal Cutting Wheel* part to the *Circular
+                  Saw*.
+
                   . Secure the *Aluminum Stock* part in the *Vise* with most of
                   the *Aluminum Stock* hanging out of the side of the *Vise*. 
 
                   . Use a *Measuring Tape* and a ** to mark a 50mm cut from the
                   end of the *Aluminum Stock* part. Make sure to leave enough
-                  room to make a cut with the *Circular Saw*.
+                  room for the width of the *Metal Cutting Wheel* on the
+                  *Circular Saw*.
 
                   . While taking all appropriate precautions, use the *Circular
                   Saw* to make the cut from the previous step.
 
-                  . 
+                  . After the part cools from the cut, remove the remaining
+                  *Aluminum Stock* from the *Vise* and set it aside.
+
+                  . If necessary, use the *Metal File* to remove burrs from the
+                  edges of the 50mm *Aluminum Stock* part.
+              - summary: Drill the Aluminum Stock
+                requiredParts:
+                  - aluminum-stock
+                requiredTools:
+                  - drill-press
+                  - 5mm-drill-bit
+                  - heatsink-jig
+                details: >
+                  . Bring the 50mm *Aluminum Stock* part from the previous step
+                  to the location of the *Drill Press*.
+
+                  . While following the manufacturer's instructions for the
+                  *Drill Press*, securely install the *5mm Drill Bit* into the
+                  *Drill Press*.
+
+                  . Align the *Heatsink Block Jig* over the 50mm *Aluminum
+                  Stock* part.
+
+                  . Use the mounting tools included with the drill press (or a
+                  suitable alternative) to secure the 50mm *Aluminum Stock* part
+                  in place for the first hole to be drilled.
+
+                  . While taking every necessary precaution, turn on the drill
+                  press and use it to drill the hole through the 50mm *Aluminum
+                  Stock* part.
+
+                  . Repeat the above steps for all three holes that need to be
+                  drilled into the Universal Gearless Extruder Heatsink Block.
+              - summary: Tap the M6 threaded hole
+                requiredParts:
+                  - aluminum-stock
+                requiredTools:
+                  - tap-handle
+                  - m6-tap
+                  - vise
+                  - metal-file
+                details: >
+                  . Following the manufacturer's instructions, install the *M6
+                  tap* into the *Tap Handle*.
+
+                  . Secure the *Universal Gearless Extruder Heatsink Block* in
+                  the jaws of the *Vise* with the widest side of the *Universal
+                  Gearless Extruder Heatsink Block* facing up. The smallest hole
+                  should be accessible from the top.
+
+                  . Using the *Tap Handle* and the *M6 tap*, begin to tap the
+                  hole.
+
+                  . For best results, unscrew the *M6 tap* periodically while
+                  tapping the *Universal Gearless Extruder Heatsink Block*. This
+                  allows the metal shavings to fall out of the way.
+
+                  . Once the hole is fully tapped, use the *Metal File* to
+                  remove any excess metal from the *Universal Gearless Extruder
+                  Heatsink Block*.
+
+                  . The Universal Gearless Extruder Heatsink Block is now
+                  complete.
           vise-grip-pliers:
             name: vise-grip-pliers
             version: 1.0.0
@@ -17511,9 +17738,9 @@ components:
         precautions:
           - >-
             Drill presses can cause permanent injury or possibly death! Do not
-            wear loose fitting clothing, put your hair up, and wear proper PPE
-            including (but not limited to) safety glasses when operating the
-            machine.
+            wear loose fitting clothing, be sure to put your hair up, and wear
+            proper PPE including (but not limited to) safety glasses when
+            operating the machine.
       m6-1mm-tap:
         name: m6-1mm-tap
         version: 1.0.0
@@ -17529,6 +17756,17 @@ components:
         name: measuring-tape
         version: 1.0.0
         description: Measuring Tape
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      metal-cutoff-wheel:
+        name: metal-cutoff-wheel
+        version: 1.0.0
+        description: Metal Cutoff Wheel
         license: CC-BY-SA-4.0
         author: Alexandria Little
         dependencies: {}
@@ -17580,6 +17818,17 @@ components:
         parts: {}
         tools: {}
         precautions: []
+      universal-gearless-extruder-heatsink-block-jig:
+        name: universal-gearless-extruder-heatsink-block-jig
+        version: 1.0.0
+        description: Universal Gearless Extruder Heatsink Block Jig
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
     parts:
       aluminum-stock:
         description: Aluminum Stock
@@ -17606,10 +17855,23 @@ components:
         selectedOption: 0
         descriptionLong: 'circular-saw: Circular Saw'
         descriptionSelected: 'circular-saw: Circular Saw (Circular Saw v1.0.0)'
+      cutoff-wheel:
+        description: Metal Cutting Wheel
+        id: cutoff-wheel
+        notes: ''
+        options:
+          - metal-cutoff-wheel
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'cutoff-wheel: Metal Cutting Wheel'
+        descriptionSelected: 'cutoff-wheel: Metal Cutting Wheel (Metal Cutoff Wheel v1.0.0)'
       drill-press:
         description: Drill Press
         id: drill-press
-        notes: ''
+        notes: >-
+          If the drill press does not include any mounting tools then use vise
+          grip pliers, etc.
         options:
           - drill-press
         quantity: 1
@@ -17617,6 +17879,19 @@ components:
         selectedOption: 0
         descriptionLong: 'drill-press: Drill Press'
         descriptionSelected: 'drill-press: Drill Press (Drill Press v1.0.0)'
+      heatsink-jig:
+        description: Heatsink Block Jig
+        id: heatsink-jig
+        notes: ''
+        options:
+          - universal-gearless-extruder-heatsink-block-jig
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'heatsink-jig: Heatsink Block Jig'
+        descriptionSelected: >-
+          heatsink-jig: Heatsink Block Jig (Universal Gearless Extruder Heatsink
+          Block Jig v1.0.0)
       measuring-tape:
         description: Measuring Tape
         id: measuring-tape
@@ -17696,7 +17971,7 @@ components:
         descriptionSelected: 'vise: Vise (Metal Jaw Vise v1.0.0)'
     precautions: []
     assemblySteps:
-      - summary: Manufacture the Universal Gearless Extruder Heatsink Block
+      - summary: Cut the Aluminum Stock
         requiredParts:
           - aluminum-stock
         requiredTools:
@@ -17709,17 +17984,87 @@ components:
           - permanent-marker
           - metal-file
         details: >
+          . Follow the *Circular Saw* manufacturer's instructions to safely
+          attach a *Metal Cutting Wheel* part to the *Circular Saw*.
+
           . Secure the *Aluminum Stock* part in the *Vise* with most of the
           *Aluminum Stock* hanging out of the side of the *Vise*. 
 
           . Use a *Measuring Tape* and a ** to mark a 50mm cut from the end of
-          the *Aluminum Stock* part. Make sure to leave enough room to make a
-          cut with the *Circular Saw*.
+          the *Aluminum Stock* part. Make sure to leave enough room for the
+          width of the *Metal Cutting Wheel* on the *Circular Saw*.
 
           . While taking all appropriate precautions, use the *Circular Saw* to
           make the cut from the previous step.
 
-          . 
+          . After the part cools from the cut, remove the remaining *Aluminum
+          Stock* from the *Vise* and set it aside.
+
+          . If necessary, use the *Metal File* to remove burrs from the edges of
+          the 50mm *Aluminum Stock* part.
+      - summary: Drill the Aluminum Stock
+        requiredParts:
+          - aluminum-stock
+        requiredTools:
+          - drill-press
+          - 5mm-drill-bit
+          - heatsink-jig
+        details: >
+          . Bring the 50mm *Aluminum Stock* part from the previous step to the
+          location of the *Drill Press*.
+
+          . While following the manufacturer's instructions for the *Drill
+          Press*, securely install the *5mm Drill Bit* into the *Drill Press*.
+
+          . Align the *Heatsink Block Jig* over the 50mm *Aluminum Stock* part.
+
+          . Use the mounting tools included with the drill press (or a suitable
+          alternative) to secure the 50mm *Aluminum Stock* part in place for the
+          first hole to be drilled.
+
+          . While taking every necessary precaution, turn on the drill press and
+          use it to drill the hole through the 50mm *Aluminum Stock* part.
+
+          . Repeat the above steps for all three holes that need to be drilled
+          into the Universal Gearless Extruder Heatsink Block.
+      - summary: Tap the M6 threaded hole
+        requiredParts:
+          - aluminum-stock
+        requiredTools:
+          - tap-handle
+          - m6-tap
+          - vise
+          - metal-file
+        details: >
+          . Following the manufacturer's instructions, install the *M6 tap* into
+          the *Tap Handle*.
+
+          . Secure the *Universal Gearless Extruder Heatsink Block* in the jaws
+          of the *Vise* with the widest side of the *Universal Gearless Extruder
+          Heatsink Block* facing up. The smallest hole should be accessible from
+          the top.
+
+          . Using the *Tap Handle* and the *M6 tap*, begin to tap the hole.
+
+          . For best results, unscrew the *M6 tap* periodically while tapping
+          the *Universal Gearless Extruder Heatsink Block*. This allows the
+          metal shavings to fall out of the way.
+
+          . Once the hole is fully tapped, use the *Metal File* to remove any
+          excess metal from the *Universal Gearless Extruder Heatsink Block*.
+
+          . The Universal Gearless Extruder Heatsink Block is now complete.
+  universal-gearless-extruder-heatsink-block-jig:
+    name: universal-gearless-extruder-heatsink-block-jig
+    version: 1.0.0
+    description: Universal Gearless Extruder Heatsink Block Jig
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
   universal-gearless-extruder-motor-mount:
     name: universal-gearless-extruder-motor-mount
     version: 1.0.0
@@ -17880,7 +18225,7 @@ parts:
     id: universal-axis-z
     description: Universal Z Axis
     quantity: 2
-    quantityUnits: module
+    quantityUnits: module(s)
     options:
       - universal-axis-z
     selectedOption: 0
@@ -17942,13 +18287,190 @@ parts:
     notes: ''
     descriptionLong: 'universal-frame: Universal Frame'
     descriptionSelected: 'universal-frame: Universal Frame (Universal Frame Module v1.0.0)'
-tools: {}
+  endstop:
+    id: endstop
+    description: RAMPS 1.4 Endstop
+    quantity: 3
+    quantityUnits: part(s)
+    options:
+      - ramps-1_4-endstop
+    selectedOption: 0
+    notes: ''
+    descriptionLong: 'endstop: RAMPS 1.4 Endstop'
+    descriptionSelected: >-
+      endstop: RAMPS 1.4 Endstop (RAMPS 1.4 Mechanical Limit Switch/Endstop
+      v1.0.0)
+  m6-25mm-screw:
+    id: m6-25mm-screw
+    description: M6 x 25mm Screw
+    quantity: 1
+    quantityUnits: part
+    options:
+      - m6-25mm-socket-head-cap-screw
+    selectedOption: 0
+    notes: ''
+    descriptionLong: 'm6-25mm-screw: M6 x 25mm Screw'
+    descriptionSelected: 'm6-25mm-screw: M6 x 25mm Screw (M6 x 25mm Socket Head Cap Screw v1.0.0)'
+  rebar-mount:
+    id: rebar-mount
+    description: Rebar Mount
+    quantity: 7
+    quantityUnits: part
+    options:
+      - rebar-mount
+    selectedOption: 0
+    notes: ''
+    descriptionLong: 'rebar-mount: Rebar Mount'
+    descriptionSelected: 'rebar-mount: Rebar Mount (Rebar Mount v1.0.0)'
+  zip-tie-large:
+    description: Large Zip Tie
+    id: zip-tie-large
+    notes: ''
+    options:
+      - zip-tie-large
+    quantity: 20
+    quantityUnits: part(s)
+    selectedOption: 0
+    descriptionLong: 'zip-tie-large: Large Zip Tie'
+    descriptionSelected: 'zip-tie-large: Large Zip Tie (8 Inch Zip Tie v1.0.0)'
+tools:
+  5mm-allen-wrench:
+    id: 5mm-allen-wrench
+    description: 5mm Allen Wrench
+    quantity: 1
+    quantityUnits: part
+    options:
+      - 5mm-allen-wrench
+    selectedOption: 0
+    notes: ''
+    descriptionLong: '5mm-allen-wrench: 5mm Allen Wrench'
+    descriptionSelected: '5mm-allen-wrench: 5mm Allen Wrench (5mm Allen Wrench v1.0.0)'
+  needle-nose-pliers:
+    id: needle-nose-pliers
+    description: Needle Nose Pliers
+    quantity: 1
+    quantityUnits: part
+    options:
+      - needle-nose-pliers
+    selectedOption: 0
+    notes: ''
+    descriptionLong: 'needle-nose-pliers: Needle Nose Pliers'
+    descriptionSelected: 'needle-nose-pliers: Needle Nose Pliers (Needle Nose Pliers v1.0.0)'
 precautions: []
 assemblySteps:
-  - summary: Throw Universal Gearless Extruder out the window
+  - summary: Prepare the Universal Frame
     requiredParts:
-      - universal-gearless-extruder
+      - universal-frame
+      - rebar-mount
     requiredTools: []
     details: |
-      . Hello World!
+      . TODO
+  - summary: Mount the Universal Y1 Axis
+    requiredParts:
+      - universal-axis-y1
+      - m6-25mm-screw
+    requiredTools:
+      - 5mm-allen-wrench
+    details: |
+      . TODO
+  - summary: Mount the Universal Y2 Axis
+    requiredParts:
+      - universal-axis-y2
+      - m6-25mm-screw
+    requiredTools:
+      - 5mm-allen-wrench
+    details: |
+      . TODO
+  - summary: Mount the Universal Z Axis module(s)
+    requiredParts:
+      - universal-axis-y2
+      - m6-25mm-screw
+    requiredTools:
+      - 5mm-allen-wrench
+    details: |
+      . TODO
+  - summary: Mount the Universal X Axis
+    requiredParts:
+      - universal-axis-x
+      - m6-25mm-screw
+    requiredTools:
+      - 5mm-allen-wrench
+    details: |
+      . TODO
+  - summary: Mount the Universal Controller
+    requiredParts:
+      - universal-controller
+      - zip-tie-large
+    requiredTools:
+      - 5mm-allen-wrench
+    details: |
+      . TODO
+  - summary: Tighten the axis belts
+    requiredParts:
+      - universal-axis-x
+      - universal-axis-y1
+      - universal-axis-y2
+      - universal-axis-z
+    requiredTools:
+      - 5mm-allen-wrench
+      - needle-nose-pliers
+    details: |
+      . TODO
+  - summary: Install the RAMPS 1.4 Endstop part(s)
+    requiredParts:
+      - endstop
+    requiredTools:
+      - 5mm-allen-wrench
+    details: |
+      . TODO
+  - summary: Wire the Axes and RAMPS 1.4 Endstop part(s)
+    requiredParts:
+      - endstop
+    requiredTools:
+      - 5mm-allen-wrench
+    details: |
+      . TODO
+  - summary: Install and Wire the Fast Heated Bed
+    requiredParts:
+      - fast-heated-bed
+    requiredTools:
+      - 5mm-allen-wrench
+    details: |
+      . TODO
+  - summary: 'Install and Wire the '
+    requiredParts:
+      - universal-gearless-extruder
+    requiredTools:
+      - 5mm-allen-wrench
+    details: |
+      . TODO
+  - summary: Test the wireless printer management software ()
+    requiredParts: []
+    requiredTools: []
+    details: |
+      . TODO
+  - summary: 'Test the Heaters, Motion System, and Auto-Home'
+    requiredParts: []
+    requiredTools: []
+    details: |
+      . TODO
+  - summary: Run automatic calibration of Fast Heated Bed
+    requiredParts: []
+    requiredTools: []
+    details: |
+      . TODO
+  - summary: Set up slicer software and prepare a test print
+    requiredParts: []
+    requiredTools: []
+    details: |
+      . TODO
+  - summary: Upload and print the test print (SD Card Method)
+    requiredParts: []
+    requiredTools: []
+    details: |
+      . TODO
+  - summary: Upload and print the test print (Wireless Printing Method)
+    requiredParts: []
+    requiredTools: []
+    details: |
       . TODO

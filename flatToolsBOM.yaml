@@ -179,6 +179,11 @@ components:
     name: tap-handle
     quantity: 1
     quantityUnits: part
+  universal-gearless-extruder-heatsink-block-jig:
+    description: Universal Gearless Extruder Heatsink Block Jig
+    name: universal-gearless-extruder-heatsink-block-jig
+    quantity: 1
+    quantityUnits: part
   vise-grip-pliers:
     description: Vise Grip Pliers
     name: vise-grip-pliers

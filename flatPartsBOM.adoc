@@ -348,8 +348,8 @@
 
 
 
-|5
-|part(s)
+|6
+|part
 |m6-25mm-socket-head-cap-screw
 |M6 x 25mm Socket Head Cap Screw
 
@@ -467,6 +467,13 @@
 
 
 
+|3
+|part(s)
+|ramps-1_4-endstop
+|RAMPS 1.4 Mechanical Limit Switch/Endstop
+
+
+
 |1
 |part
 |ramps-1_4-smart-adapter
@@ -478,6 +485,13 @@
 |part
 |raspberry-pi-4b
 |Raspberry Pi Model 4B
+
+
+
+|7
+|part
+|rebar-mount
+|Rebar Mount
 
 
 
@@ -670,7 +684,7 @@
 
 
 
-|20
+|40
 |part(s)
 |zip-tie-large
 |8 Inch Zip Tie

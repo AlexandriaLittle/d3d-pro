@@ -247,8 +247,8 @@ components:
   m6-25mm-socket-head-cap-screw:
     description: M6 x 25mm Socket Head Cap Screw
     name: m6-25mm-socket-head-cap-screw
-    quantity: 5
-    quantityUnits: part(s)
+    quantity: 6
+    quantityUnits: part
   m6-nut:
     description: M6 Nut
     name: m6-nut
@@ -329,6 +329,11 @@ components:
     name: ramps-1_4-board
     quantity: 1
     quantityUnits: part
+  ramps-1_4-endstop:
+    description: RAMPS 1.4 Mechanical Limit Switch/Endstop
+    name: ramps-1_4-endstop
+    quantity: 3
+    quantityUnits: part(s)
   ramps-1_4-smart-adapter:
     description: RAMPS 1.4 Smart Adapter
     name: ramps-1_4-smart-adapter
@@ -338,6 +343,11 @@ components:
     description: Raspberry Pi Model 4B
     name: raspberry-pi-4b
     quantity: 1
+    quantityUnits: part
+  rebar-mount:
+    description: Rebar Mount
+    name: rebar-mount
+    quantity: 7
     quantityUnits: part
   rebar-stake-stock-length:
     description: 12.7mm Rebar Stake Stock Length
@@ -477,7 +487,7 @@ components:
   zip-tie-large:
     description: 8 Inch Zip Tie
     name: zip-tie-large
-    quantity: 20
+    quantity: 40
     quantityUnits: part(s)
   zip-tie-small:
     description: 4 Inch Zip Tie

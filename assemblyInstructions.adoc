@@ -1078,7 +1078,7 @@ include::flatToolsBOM.adoc[]
 
 
 
-* *Drill Press:* Drill presses can cause permanent injury or possibly death! Do not wear loose fitting clothing, put your hair up, and wear proper PPE including (but not limited to) safety glasses when operating the machine.
+* *Drill Press:* Drill presses can cause permanent injury or possibly death! Do not wear loose fitting clothing, be sure to put your hair up, and wear proper PPE including (but not limited to) safety glasses when operating the machine.
 
 
 
@@ -3550,8 +3550,20 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
+|Metal Cutting Wheel
+|Metal Cutoff Wheel
+|
+
+
+
 |Drill Press
 |Drill Press
+|If the drill press does not include any mounting tools then use vise grip pliers, etc.
+
+
+
+|Heatsink Block Jig
+|Universal Gearless Extruder Heatsink Block Jig
 |
 
 
@@ -3631,7 +3643,15 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
-* *Drill Press:* Drill presses can cause permanent injury or possibly death! Do not wear loose fitting clothing, put your hair up, and wear proper PPE including (but not limited to) safety glasses when operating the machine.
+
+
+
+
+* *Drill Press:* Drill presses can cause permanent injury or possibly death! Do not wear loose fitting clothing, be sure to put your hair up, and wear proper PPE including (but not limited to) safety glasses when operating the machine.
+
+
+
+
 
 
 
@@ -3677,7 +3697,7 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 // summary
 
-==== Manufacture the Universal Gearless Extruder Heatsink Block
+==== Cut the Aluminum Stock
 
 
 // requiredTools
@@ -3714,10 +3734,92 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 *Instructions*
 
+. Follow the *Circular Saw* manufacturer's instructions to safely attach a *Metal Cutting Wheel* part to the *Circular Saw*.
 . Secure the *Aluminum Stock* part in the *Vise* with most of the *Aluminum Stock* hanging out of the side of the *Vise*. 
-. Use a *Measuring Tape* and a ** to mark a 50mm cut from the end of the *Aluminum Stock* part. Make sure to leave enough room to make a cut with the *Circular Saw*.
+. Use a *Measuring Tape* and a ** to mark a 50mm cut from the end of the *Aluminum Stock* part. Make sure to leave enough room for the width of the *Metal Cutting Wheel* on the *Circular Saw*.
 . While taking all appropriate precautions, use the *Circular Saw* to make the cut from the previous step.
-. 
+. After the part cools from the cut, remove the remaining *Aluminum Stock* from the *Vise* and set it aside.
+. If necessary, use the *Metal File* to remove burrs from the edges of the 50mm *Aluminum Stock* part.
+
+
+
+
+// summary
+
+==== Drill the Aluminum Stock
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* Drill Press
+//
+//* 5mm Drill Bit
+//
+//* Heatsink Block Jig
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Aluminum Stock
+//
+//
+
+// details
+
+*Instructions*
+
+. Bring the 50mm *Aluminum Stock* part from the previous step to the location of the *Drill Press*.
+. While following the manufacturer's instructions for the *Drill Press*, securely install the *5mm Drill Bit* into the *Drill Press*.
+. Align the *Heatsink Block Jig* over the 50mm *Aluminum Stock* part.
+. Use the mounting tools included with the drill press (or a suitable alternative) to secure the 50mm *Aluminum Stock* part in place for the first hole to be drilled.
+. While taking every necessary precaution, turn on the drill press and use it to drill the hole through the 50mm *Aluminum Stock* part.
+. Repeat the above steps for all three holes that need to be drilled into the Universal Gearless Extruder Heatsink Block.
+
+
+
+
+// summary
+
+==== Tap the M6 threaded hole
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* Tap Handle
+//
+//* M6 tap
+//
+//* Vise
+//
+//* Metal File
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Aluminum Stock
+//
+//
+
+// details
+
+*Instructions*
+
+. Following the manufacturer's instructions, install the *M6 tap* into the *Tap Handle*.
+. Secure the *Universal Gearless Extruder Heatsink Block* in the jaws of the *Vise* with the widest side of the *Universal Gearless Extruder Heatsink Block* facing up. The smallest hole should be accessible from the top.
+. Using the *Tap Handle* and the *M6 tap*, begin to tap the hole.
+. For best results, unscrew the *M6 tap* periodically while tapping the *Universal Gearless Extruder Heatsink Block*. This allows the metal shavings to fall out of the way.
+. Once the hole is fully tapped, use the *Metal File* to remove any excess metal from the *Universal Gearless Extruder Heatsink Block*.
+. The Universal Gearless Extruder Heatsink Block is now complete.
 
 
 
@@ -6065,6 +6167,24 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 
 // tools
 
+=== Tools
+|===
+|Name |Description |Notes
+
+
+
+|5mm Allen Wrench
+|5mm Allen Wrench
+|
+
+
+
+|Needle Nose Pliers
+|Needle Nose Pliers
+|
+
+|===
+
 
 // materials
 
@@ -6090,7 +6210,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 
 
 
-|2 module
+|2 module(s)
 |universal-axis-z
 |Universal Z Axis
 |Universal Z Axis Module v1.0.0
@@ -6136,12 +6256,52 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 |Universal Frame Module v1.0.0
 |
 
+
+
+|3 part(s)
+|endstop
+|RAMPS 1.4 Endstop
+|RAMPS 1.4 Mechanical Limit Switch/Endstop v1.0.0
+|
+
+
+
+|1 part
+|m6-25mm-screw
+|M6 x 25mm Screw
+|M6 x 25mm Socket Head Cap Screw v1.0.0
+|
+
+
+
+|7 part
+|rebar-mount
+|Rebar Mount
+|Rebar Mount v1.0.0
+|
+
+
+
+|20 part(s)
+|zip-tie-large
+|Large Zip Tie
+|8 Inch Zip Tie v1.0.0
+|
+
 |===
 
 
 // Precautions
 
 === Precautions
+
+
+
+
+
+
+
+
 
 
 
@@ -6185,15 +6345,351 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Procedure
 === Procedure
 
 // summary
 
-==== Throw Universal Gearless Extruder out the window
+==== Prepare the Universal Frame
 
 
 // requiredTools
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Universal Frame
+//
+//* Rebar Mount
+//
+//
+
+// details
+
+*Instructions*
+
+. TODO
+
+
+
+
+// summary
+
+==== Mount the Universal Y1 Axis
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* 5mm Allen Wrench
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Universal Y1 Axis
+//
+//* M6 x 25mm Screw
+//
+//
+
+// details
+
+*Instructions*
+
+. TODO
+
+
+
+
+// summary
+
+==== Mount the Universal Y2 Axis
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* 5mm Allen Wrench
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Universal Y2 Axis
+//
+//* M6 x 25mm Screw
+//
+//
+
+// details
+
+*Instructions*
+
+. TODO
+
+
+
+
+// summary
+
+==== Mount the Universal Z Axis module(s)
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* 5mm Allen Wrench
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Universal Y2 Axis
+//
+//* M6 x 25mm Screw
+//
+//
+
+// details
+
+*Instructions*
+
+. TODO
+
+
+
+
+// summary
+
+==== Mount the Universal X Axis
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* 5mm Allen Wrench
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Universal X Axis
+//
+//* M6 x 25mm Screw
+//
+//
+
+// details
+
+*Instructions*
+
+. TODO
+
+
+
+
+// summary
+
+==== Mount the Universal Controller
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* 5mm Allen Wrench
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Universal Controller
+//
+//* Large Zip Tie
+//
+//
+
+// details
+
+*Instructions*
+
+. TODO
+
+
+
+
+// summary
+
+==== Tighten the axis belts
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* 5mm Allen Wrench
+//
+//* Needle Nose Pliers
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Universal X Axis
+//
+//* Universal Y1 Axis
+//
+//* Universal Y2 Axis
+//
+//* Universal Z Axis
+//
+//
+
+// details
+
+*Instructions*
+
+. TODO
+
+
+
+
+// summary
+
+==== Install the RAMPS 1.4 Endstop part(s)
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* 5mm Allen Wrench
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* RAMPS 1.4 Endstop
+//
+//
+
+// details
+
+*Instructions*
+
+. TODO
+
+
+
+
+// summary
+
+==== Wire the Axes and RAMPS 1.4 Endstop part(s)
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* 5mm Allen Wrench
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* RAMPS 1.4 Endstop
+//
+//
+
+// details
+
+*Instructions*
+
+. TODO
+
+
+
+
+// summary
+
+==== Install and Wire the Fast Heated Bed
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* 5mm Allen Wrench
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Fast Heated Bed
+//
+//
+
+// details
+
+*Instructions*
+
+. TODO
+
+
+
+
+// summary
+
+==== Install and Wire the 
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* 5mm Allen Wrench
+//
 //
 
 // requiredParts
@@ -6208,7 +6704,126 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 
 *Instructions*
 
-. Hello World!
+. TODO
+
+
+
+
+// summary
+
+==== Test the wireless printer management software ()
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. TODO
+
+
+
+
+// summary
+
+==== Test the Heaters, Motion System, and Auto-Home
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. TODO
+
+
+
+
+// summary
+
+==== Run automatic calibration of Fast Heated Bed
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. TODO
+
+
+
+
+// summary
+
+==== Set up slicer software and prepare a test print
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. TODO
+
+
+
+
+// summary
+
+==== Upload and print the test print (SD Card Method)
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. TODO
+
+
+
+
+// summary
+
+==== Upload and print the test print (Wireless Printing Method)
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
 . TODO
 
 
