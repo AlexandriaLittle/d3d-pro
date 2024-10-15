@@ -10,7 +10,7 @@
   details: |
     . Use the *{{tools.hobby-knife.description}}* to clean any extra plastic off of the 3D printed parts.
 
-- summary: Prepare {{parts.corner-connector.description}} {{parts.corner-connector.quantityUnits}}, {{parts.corner-connector-left.description}} {{parts.corner-connector-left.quantityUnits}}, and {{parts.corner-connector-right.description}} {{parts.corner-connector-right.quantityUnits}} for {{parts.rebar-stake.description}} {{parts.rebar-stake.quantityUnits}}
+- summary: Prepare parts for {{parts.rebar-stake.description}} {{parts.rebar-stake.quantityUnits}}
   requiredParts:
   - corner-connector
   - m6-20mm-screw
