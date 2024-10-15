@@ -70,6 +70,15 @@ universal-frame:
   - universal-frame
   selectedOption: 0
   notes: ''
+endstop:
+  id: endstop
+  description: RAMPS 1.4 Endstop
+  quantity: 3
+  quantityUnits: part(s)
+  options:
+  - ramps-1_4-endstop
+  selectedOption: 0
+  notes: ''
 m6-25mm-screw:
   id: m6-25mm-screw
   description: M6 x 25mm Screw

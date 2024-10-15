@@ -77,16 +77,92 @@
   details: |
     . TODO
 
-- summary: Tighten the axis belts
+- summary: Install the {{parts.endstop.description}} {{parts.endstop.quantityUnits}}
   requiredParts:
-    - universal-axis-x
-    - universal-axis-y1
-    - universal-axis-y2
-    - universal-axis-z
+    - endstop
 
   requiredTools:
     - 5mm-allen-wrench
-    - needle-nose-pliers
+
+  details: |
+    . TODO
+
+- summary: Wire the Axes and {{parts.endstop.description}} {{parts.endstop.quantityUnits}}
+  requiredParts:
+    - endstop
+
+  requiredTools:
+    - 5mm-allen-wrench
+
+  details: |
+    . TODO
+
+- summary: Install and Wire the {{parts.fast-heated-bed.description}}
+  requiredParts:
+    - fast-heated-bed
+
+  requiredTools:
+    - 5mm-allen-wrench
+
+  details: |
+    . TODO
+
+- summary: Install and Wire the {{parts.univerasl-gearless-extruder.description}}
+  requiredParts:
+    - universal-gearless-extruder
+
+  requiredTools:
+    - 5mm-allen-wrench
+
+  details: |
+    . TODO
+
+- summary: Test the wireless printer management software ({{component.octoprint-raspberry-pi-software-image.description}})
+  requiredParts: []
+
+  requiredTools: []
+
+  details: |
+    . TODO
+
+- summary: Test the Heaters, Motion System, and Auto-Home
+  requiredParts: []
+
+  requiredTools: []
+
+  details: |
+    . TODO
+
+- summary: Run automatic calibration of {{parts.fast-heated-bed.description}}
+  requiredParts: []
+
+  requiredTools: []
+
+  details: |
+    . TODO
+
+- summary: Set up slicer software and prepare a test print
+  requiredParts: []
+
+  requiredTools: []
+
+  details: |
+    . TODO
+
+
+- summary: Upload and print the test print (SD Card Method)
+  requiredParts: []
+
+  requiredTools: []
+
+  details: |
+    . TODO
+
+
+- summary: Upload and print the test print (Wireless Printing Method)
+  requiredParts: []
+
+  requiredTools: []
 
   details: |
     . TODO
