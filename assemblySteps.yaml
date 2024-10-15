@@ -1,9 +1,92 @@
-- summary: Throw {{parts.universal-gearless-extruder.description}} out the window
+- summary: Prepare the {{parts.universal-frame.description}}
   requiredParts:
-    - universal-gearless-extruder
+    - universal-frame
+    - rebar-mount
 
   requiredTools: []
 
   details: |
-    . Hello World!
+    . TODO
+
+- summary: Mount the {{parts.universal-axis-y1.description}}
+  requiredParts:
+    - universal-axis-y1
+    - m6-25mm-screw
+
+  requiredTools:
+    - 5mm-allen-wrench
+
+  details: |
+    . TODO
+
+- summary: Mount the {{parts.universal-axis-y2.description}}
+  requiredParts:
+    - universal-axis-y2
+    - m6-25mm-screw
+
+  requiredTools:
+    - 5mm-allen-wrench
+
+  details: |
+    . TODO
+
+- summary: Mount the {{parts.universal-axis-z.description}} {{parts.universal-axis-z.quantityUnits}}
+  requiredParts:
+    - universal-axis-y2
+    - m6-25mm-screw
+
+  requiredTools:
+    - 5mm-allen-wrench
+
+  details: |
+    . TODO
+
+- summary: Mount the {{parts.universal-axis-x.description}}
+  requiredParts:
+    - universal-axis-x
+    - m6-25mm-screw
+
+  requiredTools:
+    - 5mm-allen-wrench
+
+  details: |
+    . TODO
+
+- summary: Mount the {{parts.universal-controller.description}}
+  requiredParts:
+    - universal-controller
+    - zip-tie-large
+
+  requiredTools:
+    - 5mm-allen-wrench
+
+  details: |
+    . TODO
+
+- summary: Tighten the axis belts
+  requiredParts:
+    - universal-axis-x
+    - universal-axis-y1
+    - universal-axis-y2
+    - universal-axis-z
+
+  requiredTools:
+    - 5mm-allen-wrench
+    - needle-nose-pliers
+
+  details: |
+    . TODO
+
+- summary: Tighten the axis belts
+  requiredParts:
+    - universal-axis-x
+    - universal-axis-y1
+    - universal-axis-y2
+    - universal-axis-z
+
+  requiredTools:
+    - 5mm-allen-wrench
+    - needle-nose-pliers
+
+  details: |
     . TODO

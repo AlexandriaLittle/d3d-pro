@@ -20,7 +20,7 @@ universal-axis-z:
   id: universal-axis-z
   description: Universal Z Axis
   quantity: 2
-  quantityUnits: module
+  quantityUnits: module(s)
   options:
   - universal-axis-z
   selectedOption: 0
@@ -70,3 +70,30 @@ universal-frame:
   - universal-frame
   selectedOption: 0
   notes: ''
+m6-25mm-screw:
+  id: m6-25mm-screw
+  description: M6 x 25mm Screw
+  quantity: 1
+  quantityUnits: part
+  options:
+  - m6-25mm-socket-head-cap-screw
+  selectedOption: 0
+  notes: ''
+rebar-mount:
+  id: rebar-mount
+  description: Rebar Mount
+  quantity: 7
+  quantityUnits: part
+  options:
+  - rebar-mount
+  selectedOption: 0
+  notes: ''
+zip-tie-large:
+  description: Large Zip Tie
+  id: zip-tie-large
+  notes: ''
+  options:
+    - zip-tie-large
+  quantity: 20
+  quantityUnits: part(s)
+  selectedOption: 0

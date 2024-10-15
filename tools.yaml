@@ -1,1 +1,18 @@
-{}
+5mm-allen-wrench:
+  id: 5mm-allen-wrench
+  description: 5mm Allen Wrench
+  quantity: 1
+  quantityUnits: part
+  options:
+  - 5mm-allen-wrench
+  selectedOption: 0
+  notes: ''
+needle-nose-pliers:
+  id: needle-nose-pliers
+  description: Needle Nose Pliers
+  quantity: 1
+  quantityUnits: part
+  options:
+  - needle-nose-pliers
+  selectedOption: 0
+  notes: ''
