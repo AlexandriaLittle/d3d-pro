@@ -1,4 +1,4 @@
-- summary: Manufacture the {{description}}
+- summary: Cut the {{parts.aluminum-stock.description}}
   requiredParts:
     - aluminum-stock
 
@@ -13,7 +13,8 @@
     - metal-file
 
   details: |
+    . Follow the *{{tools.circular-saw.description}}* manufacturer's instructions to safely attach a *{{tools.cutoff-wheel.description}}* {{tools.cutoff-wheel.quantityUnits}} to the *{{tools.circular-saw.description}}*.
     . Secure the *{{parts.aluminum-stock.description}}* {{parts.aluminum-stock.quantityUnits}} in the *{{tools.vise.description}}* with most of the *{{parts.aluminum-stock.description}}* hanging out of the side of the *{{tools.vise.description}}*. 
-    . Use a *{{tools.measuring-tape.description}}* and a *{{tools.permanent-marker.description}}* to mark a 50mm cut from the end of the *{{parts.aluminum-stock.description}}* {{parts.aluminum-stock.quantityUnits}}. Make sure to leave enough room to make a cut with the *{{tools.circular-saw.description}}*.
+    . Use a *{{tools.measuring-tape.description}}* and a *{{tools.permanent-marker.description}}* to mark a 50mm cut from the end of the *{{parts.aluminum-stock.description}}* {{parts.aluminum-stock.quantityUnits}}. Make sure to leave enough room for the width of the *{{tools.cutoff-wheel.description}}* on the *{{tools.circular-saw.description}}*.
     . While taking all appropriate precautions, use the *{{tools.circular-saw.description}}* to make the cut from the previous step.
     . 

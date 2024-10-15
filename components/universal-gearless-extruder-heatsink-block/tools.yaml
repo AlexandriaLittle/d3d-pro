@@ -7,6 +7,15 @@ circular-saw:
   quantity: 1
   quantityUnits: part
   selectedOption: 0
+cutoff-wheel:
+  description: Metal Cutting Wheel
+  id: cutoff-wheel
+  notes: ''
+  options:
+    - metal-cutoff-wheel
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
 drill-press:
   description: Drill Press
   id: drill-press
