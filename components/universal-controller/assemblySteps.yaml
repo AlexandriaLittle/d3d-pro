@@ -99,7 +99,7 @@
     . Use the tip of the *{{tools.soldering-iron.description}}* to heat the bare end of the clamped *{{parts.22awg-wire.description}}* {{parts.22awg-wire.quantityUnits}} for a few seconds.
     . Apply enough *{{parts.solder.description}}* to the contact point of the *{{tools.soldering-iron.description}}* and the clamped *{{parts.22awg-wire.description}}* to bind together the strands of bare *{{parts.22awg-wire.description}}*.
     . Remove the *{{parts.solder.description}}* and the end of the *{{tools.soldering-iron.description}}* from the *{{parts.22awg-wire.description}}*.
-    . Repeat the above steps for the remaining *{{parts.22awg-wire.description}}* {{parts.22awg-wire.quantityUnits}}.
+    . Repeat the above steps for the soldering the remaining *{{parts.22awg-wire.description}}* {{parts.22awg-wire.quantityUnits}}.
 
 
 - summary: Assemble the {{parts.ramps-board.description}} and {{parts.arduino.description}}
