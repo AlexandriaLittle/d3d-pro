@@ -3716,7 +3716,7 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 //
 //* Measuring Tape
 //
-//* 
+//* Permanent Marker
 //
 //* Metal File
 //
@@ -3736,7 +3736,7 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 . Follow the *Circular Saw* manufacturer's instructions to safely attach a *Metal Cutting Wheel* part to the *Circular Saw*.
 . Secure the *Aluminum Stock* part in the *Vise* with most of the *Aluminum Stock* hanging out of the side of the *Vise*. 
-. Use a *Measuring Tape* and a ** to mark a 50mm cut from the end of the *Aluminum Stock* part. Make sure to leave enough room for the width of the *Metal Cutting Wheel* on the *Circular Saw*.
+. Use a *Measuring Tape* and a *Permanent Marker* to mark a 50mm cut from the end of the *Aluminum Stock* part. Make sure to leave enough room for the width of the *Metal Cutting Wheel* on the *Circular Saw*.
 . While taking all appropriate precautions, use the *Circular Saw* to make the cut from the previous step.
 . After the part cools from the cut, remove the remaining *Aluminum Stock* from the *Vise* and set it aside.
 . If necessary, use the *Metal File* to remove burrs from the edges of the 50mm *Aluminum Stock* part.
@@ -6553,7 +6553,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 
 // summary
 
-==== Tighten the axis belts
+==== Tighten the Axis Belts
 
 
 // requiredTools
@@ -6681,7 +6681,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 
 // summary
 
-==== Install and Wire the 
+==== Install and Wire the Universal Gearless Extruder
 
 
 // requiredTools
@@ -6711,7 +6711,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 
 // summary
 
-==== Test the wireless printer management software ()
+==== Test the wireless printer management software (Octoprint Raspberry Pi Software Image)
 
 
 // requiredTools

@@ -3489,7 +3489,7 @@ components:
             selectedOption: 0
             descriptionLong: '5mm-drill-bit: 5mm Drill Bit'
             descriptionSelected: '5mm-drill-bit: 5mm Drill Bit (5mm Drill Bit v1.0.0)'
-          marker:
+          permanent-marker:
             description: Permanent Marker
             id: marker
             notes: ''
@@ -3543,9 +3543,10 @@ components:
               . Secure the *Aluminum Stock* part in the *Vise* with most of the
               *Aluminum Stock* hanging out of the side of the *Vise*. 
 
-              . Use a *Measuring Tape* and a ** to mark a 50mm cut from the end
-              of the *Aluminum Stock* part. Make sure to leave enough room for
-              the width of the *Metal Cutting Wheel* on the *Circular Saw*.
+              . Use a *Measuring Tape* and a *Permanent Marker* to mark a 50mm
+              cut from the end of the *Aluminum Stock* part. Make sure to leave
+              enough room for the width of the *Metal Cutting Wheel* on the
+              *Circular Saw*.
 
               . While taking all appropriate precautions, use the *Circular Saw*
               to make the cut from the previous step.
@@ -16105,7 +16106,7 @@ components:
                 selectedOption: 0
                 descriptionLong: '5mm-drill-bit: 5mm Drill Bit'
                 descriptionSelected: '5mm-drill-bit: 5mm Drill Bit (5mm Drill Bit v1.0.0)'
-              marker:
+              permanent-marker:
                 description: Permanent Marker
                 id: marker
                 notes: ''
@@ -16160,10 +16161,10 @@ components:
                   . Secure the *Aluminum Stock* part in the *Vise* with most of
                   the *Aluminum Stock* hanging out of the side of the *Vise*. 
 
-                  . Use a *Measuring Tape* and a ** to mark a 50mm cut from the
-                  end of the *Aluminum Stock* part. Make sure to leave enough
-                  room for the width of the *Metal Cutting Wheel* on the
-                  *Circular Saw*.
+                  . Use a *Measuring Tape* and a *Permanent Marker* to mark a
+                  50mm cut from the end of the *Aluminum Stock* part. Make sure
+                  to leave enough room for the width of the *Metal Cutting
+                  Wheel* on the *Circular Saw*.
 
                   . While taking all appropriate precautions, use the *Circular
                   Saw* to make the cut from the previous step.
@@ -17936,7 +17937,7 @@ components:
         selectedOption: 0
         descriptionLong: '5mm-drill-bit: 5mm Drill Bit'
         descriptionSelected: '5mm-drill-bit: 5mm Drill Bit (5mm Drill Bit v1.0.0)'
-      marker:
+      permanent-marker:
         description: Permanent Marker
         id: marker
         notes: ''
@@ -17990,9 +17991,9 @@ components:
           . Secure the *Aluminum Stock* part in the *Vise* with most of the
           *Aluminum Stock* hanging out of the side of the *Vise*. 
 
-          . Use a *Measuring Tape* and a ** to mark a 50mm cut from the end of
-          the *Aluminum Stock* part. Make sure to leave enough room for the
-          width of the *Metal Cutting Wheel* on the *Circular Saw*.
+          . Use a *Measuring Tape* and a *Permanent Marker* to mark a 50mm cut
+          from the end of the *Aluminum Stock* part. Make sure to leave enough
+          room for the width of the *Metal Cutting Wheel* on the *Circular Saw*.
 
           . While taking all appropriate precautions, use the *Circular Saw* to
           make the cut from the previous step.
@@ -18405,7 +18406,7 @@ assemblySteps:
       - 5mm-allen-wrench
     details: |
       . TODO
-  - summary: Tighten the axis belts
+  - summary: Tighten the Axis Belts
     requiredParts:
       - universal-axis-x
       - universal-axis-y1
@@ -18437,14 +18438,16 @@ assemblySteps:
       - 5mm-allen-wrench
     details: |
       . TODO
-  - summary: 'Install and Wire the '
+  - summary: Install and Wire the Universal Gearless Extruder
     requiredParts:
       - universal-gearless-extruder
     requiredTools:
       - 5mm-allen-wrench
     details: |
       . TODO
-  - summary: Test the wireless printer management software ()
+  - summary: >-
+      Test the wireless printer management software (Octoprint Raspberry Pi
+      Software Image)
     requiredParts: []
     requiredTools: []
     details: |
