@@ -5651,7 +5651,7 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 *Instructions*
 
 . Using the *Wire Strippers/Cutters*, cut one 200mm long piece of *Red 22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
-. Use the *Wire Strippers/Cutters* to strip away 20mm of insulation from both ends of the above *22AWG Wire*.
+. Use the *Wire Strippers/Cutters* to strip away 20mm of insulation from both ends of the above *22AWG Wire* length(s).
 . Use the *Dupont Crimper* to crimp a *Fork Terminal* part(s) to one end of each *22AWG Wire*.
 . Preheat the *Soldering Iron* to the temperature recommended on the *Electrical Solder* packaging.
 . Use the *Helping Hands* to clamp in place the bare end of one of the *22AWG Wire* length(s).

@@ -5,13 +5,14 @@ It would mean the world to all of us who poured our time, love, and efforts into
  - Alexandria Little
  - Marcin Jakubowski, Ph.D.
  - Open Source Ecology
+ - Nathan Heidt
  - Sean Marquez
  - J. Simmons, Ph.D.
  - Eric Lotze (One of the original 3D printer devs)
  - Irvin Inzurriaga (Wiring Video)
  - Jean-Baptiste Vervaeck (Graphic design of original documentation template)
  - Printables User @OK1HRA_5209 - https://www.printables.com/model/716371-parameterizable-rugged-box-in-openscad[Parameterizable rugged box in OpenScad] (CC-BY-SA-4.0)
- - Nathan Heidt
-
+ - Marlena Nedelkovich
+ 
 == A note on tool substitution
 There are a lot of tools listed as 'required' in this project, but many of them can be substituted for other, simpler tools. If you do not have access to all of the nice-to-have tools that are listed in this project, feel free to adapt the instructions to what you have on hand. Please remember to be safe and use common sense!
