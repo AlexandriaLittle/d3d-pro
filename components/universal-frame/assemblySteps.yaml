@@ -22,7 +22,7 @@
   details: |
     . Insert an *{{parts.m6-thin-nut.description}}* into the slot of the *{{parts.corner-connector.description}}* so that the hole of the *{{parts.m6-thin-nut.description}}* aligns with the hole in the *{{parts.corner-connector.description}}*.
     . While holding the *{{parts.m6-thin-nut.description}}* in place with a finger, insert an *{{parts.m6-20mm-screw.description}}* into the hole of the *{{parts.corner-connector.description}}*.
-    . Using the *{{tools.5mm-allen-wrench.description}}*, screw in the *{{parts.m6-20mm-screw.description}}* enough to hold the *{{parts.m6-20mm-screw.description}}* and *{{parts.m6-thin-nut.description}}* in place. Leave room for the *{{parts.rebar-stake.description}}* to be inserted later.
+    . Using the *{{tools.5mm-allen-wrench.description}}*, screw in the *{{parts.m6-20mm-screw.description}}* enough to hold the {{parts.m6-20mm-screw.quantityUnits}} and *{{parts.m6-thin-nut.description}}* in place. Leave room for the *{{parts.rebar-stake.description}}* to be inserted later.
     . Repeat the above steps for each of the three slots on the *{{parts.corner-connector.description}}*.
     . Repeat each of the above steps for the *{{parts.corner-connector.description}}* {{parts.corner-connector.quantityUnits}}, *{{parts.corner-connector-left.description}}* {{parts.corner-connector-left.quantityUnits}}, and *{{parts.corner-connector-right.description}}* {{parts.corner-connector-right.quantityUnits}}
 
