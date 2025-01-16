@@ -1,3 +1,16 @@
+- summary: Prepare the {{tools.plate-jig.description}}
+  requiredParts: []
+
+  requiredTools: []
+
+  details: |
+    . Reproduce the {{tools.plate-jig.description}} SVG file that is located in the 'source' folder of the project documentation. The jig is a 300mm x 300mm square with 5mm radius holes centered at (15,15) (15,285) (285,15) and (285, 285).
+    . One method for such reproduction is to send the file to be printed at a local printing shop (e.g. Staples, Office Depot, etc.)
+    . Alternatively, the jig can be printed at home if you have access to a printer capable of printing on 12" x 12" cardstock.
+    . As a final option, use poster board or cardstock, cut a 300mm x 300mm square, and draw the circles as described above.
+    . Lastly, cut out the circles in each corner to create a hole for marking the work surface later.
+    . The {{tools.plate-jig.description}} is now complete.
+
 - summary: Prepare the {{parts.steel-sheet.description}} for Welding
   requiredParts:
   - steel-sheet
