@@ -1,3 +1,6 @@
 [submodule "dof-helpers"]
 	path = dof-helpers
 	url = https://github.com/AlexandriaLittle/dof-helpers.git
+[submodule "source/D3D_Pro_Marlin"]
+	path = source/D3D_Pro_Marlin
+	url = https://github.com/AlexandriaLittle/D3D_Pro_Marlin.git
