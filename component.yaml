@@ -3794,7 +3794,10 @@ components:
       24v-power-supply:
         description: 24v Power Supply
         id: 24v-power-supply
-        notes: ''
+        notes: >-
+          This tool can be substituted with a Universal Controller with the
+          hotend connected as is detailed in the Universal Controller assembly
+          steps.
         options:
           - 24v-power-supply
         quantity: 1
@@ -4862,7 +4865,9 @@ components:
       circular-saw:
         description: Circular Saw
         id: circular-saw
-        notes: ''
+        notes: >-
+          The circular saw is recommended, but can be substituted for a
+          fine-toothed hack saw, band saw with metal cutting blade, etc.
         options:
           - circular-saw
         quantity: 1
@@ -4886,7 +4891,9 @@ components:
       vise:
         description: Vise
         id: vise
-        notes: ''
+        notes: >-
+          Substitutes include bar clamps on a flat surface or another
+          appropriate/preferred workholding method.
         options:
           - metal-jaw-vise
         quantity: 1
@@ -4897,7 +4904,9 @@ components:
       measuring-tape:
         description: Measuring Tape
         id: measuring-tape
-        notes: ''
+        notes: >-
+          Substitutes include a meter stick, a jig measured to the length of the
+          cut, etc.
         options:
           - measuring-tape
         quantity: 1
@@ -4908,7 +4917,10 @@ components:
       marker:
         description: Permanent Marker
         id: marker
-        notes: ''
+        notes: >-
+          Substitutes include a paint pen/marker, scoring a line with a cutting
+          tool, etc. Make sure that the marker will be able to be seen on the
+          writing surface.
         options:
           - permanent-marker
         quantity: 1
@@ -14119,7 +14131,9 @@ components:
           circular-saw:
             description: Circular Saw
             id: circular-saw
-            notes: ''
+            notes: >-
+              The circular saw is recommended, but can be substituted for a
+              fine-toothed hack saw, band saw with metal cutting blade, etc.
             options:
               - circular-saw
             quantity: 1
@@ -14143,7 +14157,9 @@ components:
           vise:
             description: Vise
             id: vise
-            notes: ''
+            notes: >-
+              Substitutes include bar clamps on a flat surface or another
+              appropriate/preferred workholding method.
             options:
               - metal-jaw-vise
             quantity: 1
@@ -14154,7 +14170,9 @@ components:
           measuring-tape:
             description: Measuring Tape
             id: measuring-tape
-            notes: ''
+            notes: >-
+              Substitutes include a meter stick, a jig measured to the length of
+              the cut, etc.
             options:
               - measuring-tape
             quantity: 1
@@ -14165,7 +14183,10 @@ components:
           marker:
             description: Permanent Marker
             id: marker
-            notes: ''
+            notes: >-
+              Substitutes include a paint pen/marker, scoring a line with a
+              cutting tool, etc. Make sure that the marker will be able to be
+              seen on the writing surface.
             options:
               - permanent-marker
             quantity: 1
@@ -14347,7 +14368,9 @@ components:
               circular-saw:
                 description: Circular Saw
                 id: circular-saw
-                notes: ''
+                notes: >-
+                  The circular saw is recommended, but can be substituted for a
+                  fine-toothed hack saw, band saw with metal cutting blade, etc.
                 options:
                   - circular-saw
                 quantity: 1
@@ -14371,7 +14394,9 @@ components:
               vise:
                 description: Vise
                 id: vise
-                notes: ''
+                notes: >-
+                  Substitutes include bar clamps on a flat surface or another
+                  appropriate/preferred workholding method.
                 options:
                   - metal-jaw-vise
                 quantity: 1
@@ -14382,7 +14407,9 @@ components:
               measuring-tape:
                 description: Measuring Tape
                 id: measuring-tape
-                notes: ''
+                notes: >-
+                  Substitutes include a meter stick, a jig measured to the
+                  length of the cut, etc.
                 options:
                   - measuring-tape
                 quantity: 1
@@ -14393,7 +14420,10 @@ components:
               marker:
                 description: Permanent Marker
                 id: marker
-                notes: ''
+                notes: >-
+                  Substitutes include a paint pen/marker, scoring a line with a
+                  cutting tool, etc. Make sure that the marker will be able to
+                  be seen on the writing surface.
                 options:
                   - permanent-marker
                 quantity: 1
@@ -14626,7 +14656,9 @@ components:
               circular-saw:
                 description: Circular Saw
                 id: circular-saw
-                notes: ''
+                notes: >-
+                  The circular saw is recommended, but can be substituted for a
+                  fine-toothed hack saw, band saw with metal cutting blade, etc.
                 options:
                   - circular-saw
                 quantity: 1
@@ -14650,7 +14682,9 @@ components:
               vise:
                 description: Vise
                 id: vise
-                notes: ''
+                notes: >-
+                  Substitutes include bar clamps on a flat surface or another
+                  appropriate/preferred workholding method.
                 options:
                   - metal-jaw-vise
                 quantity: 1
@@ -14661,7 +14695,9 @@ components:
               measuring-tape:
                 description: Measuring Tape
                 id: measuring-tape
-                notes: ''
+                notes: >-
+                  Substitutes include a meter stick, a jig measured to the
+                  length of the cut, etc.
                 options:
                   - measuring-tape
                 quantity: 1
@@ -14672,7 +14708,10 @@ components:
               marker:
                 description: Permanent Marker
                 id: marker
-                notes: ''
+                notes: >-
+                  Substitutes include a paint pen/marker, scoring a line with a
+                  cutting tool, etc. Make sure that the marker will be able to
+                  be seen on the writing surface.
                 options:
                   - permanent-marker
                 quantity: 1
@@ -14862,8 +14901,8 @@ components:
           *M6 x 20mm Screw* into the hole of the *Corner Connector*.
 
           . Using the *5mm Allen Wrench*, screw in the *M6 x 20mm Screw* enough
-          to hold the *M6 x 20mm Screw* and *M6 Thin Nut* in place. Leave room
-          for the *Rebar Stake* to be inserted later.
+          to hold the part(s) and *M6 Thin Nut* in place. Leave room for the
+          *Rebar Stake* to be inserted later.
 
           . Repeat the above steps for each of the three slots on the *Corner
           Connector*.
@@ -15150,7 +15189,9 @@ components:
           circular-saw:
             description: Circular Saw
             id: circular-saw
-            notes: ''
+            notes: >-
+              The circular saw is recommended, but can be substituted for a
+              fine-toothed hack saw, band saw with metal cutting blade, etc.
             options:
               - circular-saw
             quantity: 1
@@ -15174,7 +15215,9 @@ components:
           vise:
             description: Vise
             id: vise
-            notes: ''
+            notes: >-
+              Substitutes include bar clamps on a flat surface or another
+              appropriate/preferred workholding method.
             options:
               - metal-jaw-vise
             quantity: 1
@@ -15185,7 +15228,9 @@ components:
           measuring-tape:
             description: Measuring Tape
             id: measuring-tape
-            notes: ''
+            notes: >-
+              Substitutes include a meter stick, a jig measured to the length of
+              the cut, etc.
             options:
               - measuring-tape
             quantity: 1
@@ -15196,7 +15241,10 @@ components:
           marker:
             description: Permanent Marker
             id: marker
-            notes: ''
+            notes: >-
+              Substitutes include a paint pen/marker, scoring a line with a
+              cutting tool, etc. Make sure that the marker will be able to be
+              seen on the writing surface.
             options:
               - permanent-marker
             quantity: 1
@@ -15426,7 +15474,9 @@ components:
           circular-saw:
             description: Circular Saw
             id: circular-saw
-            notes: ''
+            notes: >-
+              The circular saw is recommended, but can be substituted for a
+              fine-toothed hack saw, band saw with metal cutting blade, etc.
             options:
               - circular-saw
             quantity: 1
@@ -15450,7 +15500,9 @@ components:
           vise:
             description: Vise
             id: vise
-            notes: ''
+            notes: >-
+              Substitutes include bar clamps on a flat surface or another
+              appropriate/preferred workholding method.
             options:
               - metal-jaw-vise
             quantity: 1
@@ -15461,7 +15513,9 @@ components:
           measuring-tape:
             description: Measuring Tape
             id: measuring-tape
-            notes: ''
+            notes: >-
+              Substitutes include a meter stick, a jig measured to the length of
+              the cut, etc.
             options:
               - measuring-tape
             quantity: 1
@@ -15472,7 +15526,10 @@ components:
           marker:
             description: Permanent Marker
             id: marker
-            notes: ''
+            notes: >-
+              Substitutes include a paint pen/marker, scoring a line with a
+              cutting tool, etc. Make sure that the marker will be able to be
+              seen on the writing surface.
             options:
               - permanent-marker
             quantity: 1
@@ -16416,7 +16473,10 @@ components:
           24v-power-supply:
             description: 24v Power Supply
             id: 24v-power-supply
-            notes: ''
+            notes: >-
+              This tool can be substituted with a Universal Controller with the
+              hotend connected as is detailed in the Universal Controller
+              assembly steps.
             options:
               - 24v-power-supply
             quantity: 1

@@ -1,7 +1,7 @@
 = D3D Pro 3D Printer Assembly Instructions
 Alexandria Little - CC-BY-SA-4.0
 :revnumber: v23.12
-:revdate: 10/15/2024
+:revdate: 1/16/2025
 :sectnums:
 :toc:
 :toclevels: 3
@@ -41,7 +41,7 @@ include::flatToolsBOM.adoc[]
 
 |Circular Saw
 |Circular Saw
-|
+|The circular saw is recommended, but can be substituted for a fine-toothed hack saw, band saw with metal cutting blade, etc.
 
 
 
@@ -53,19 +53,19 @@ include::flatToolsBOM.adoc[]
 
 |Vise
 |Metal Jaw Vise
-|
+|Substitutes include bar clamps on a flat surface or another appropriate/preferred workholding method.
 
 
 
 |Measuring Tape
 |Measuring Tape
-|
+|Substitutes include a meter stick, a jig measured to the length of the cut, etc.
 
 
 
 |Permanent Marker
 |Permanent Marker
-|
+|Substitutes include a paint pen/marker, scoring a line with a cutting tool, etc. Make sure that the marker will be able to be seen on the writing surface.
 
 |===
 
@@ -324,7 +324,7 @@ include::flatToolsBOM.adoc[]
 
 . Insert an *M6 Thin Nut* into the slot of the *Corner Connector* so that the hole of the *M6 Thin Nut* aligns with the hole in the *Corner Connector*.
 . While holding the *M6 Thin Nut* in place with a finger, insert an *M6 x 20mm Screw* into the hole of the *Corner Connector*.
-. Using the *5mm Allen Wrench*, screw in the *M6 x 20mm Screw* enough to hold the *M6 x 20mm Screw* and *M6 Thin Nut* in place. Leave room for the *Rebar Stake* to be inserted later.
+. Using the *5mm Allen Wrench*, screw in the *M6 x 20mm Screw* enough to hold the part(s) and *M6 Thin Nut* in place. Leave room for the *Rebar Stake* to be inserted later.
 . Repeat the above steps for each of the three slots on the *Corner Connector*.
 . Repeat each of the above steps for the *Corner Connector* part(s), *Left Corner Connector* part(s), and *Right Corner Connector* part(s)
 
@@ -5018,7 +5018,7 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 |24v Power Supply
 |24V Industrial Power Supply Module
-|
+|This tool can be substituted with a Universal Controller with the hotend connected as is detailed in the Universal Controller assembly steps.
 
 
 
