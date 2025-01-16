@@ -10,7 +10,7 @@
 24v-power-supply:
   description: 24v Power Supply
   id: 24v-power-supply
-  notes: ''
+  notes: 'This tool can be substituted with a Universal Controller with the hotend connected as is detailed in the Universal Controller assembly steps.'
   options:
     - 24v-power-supply
   quantity: 1
