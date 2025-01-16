@@ -4,19 +4,23 @@
 
 image::source/images/social-share.png["D3D Pro 3D Printer"]
 
+== How to use this project:
+All of the files needed to produce the machine are in the 'source' folder. This includes the STLs for printing, the purchase list, and the firmware source code. The instructions are available https://alexandrialittle.github.io/d3d-pro/[HERE].
+
+
 Modeled in Legacy DOF (Distributed Open Source Hardware Framework)
 
 == Frequently Asked Questions:
 
 === Who is this printer for? Why should I build this printer?
-- This printer is designed for the hobbyist, the "prosumer", and anyone who needs industrial productivity on a small scale. The D3D Pro 3D Printer is designed to be user repairable for life - i.e. not planned obsolesence / planned failure. It is made entirely from common-off-the-shelf components so that sourcing the materials for the build and for repair is easy and quick. If you need a machine that will last you your entire life, this is the one for you!
+- This printer is designed for the hobbyist, the "prosumer", and anyone who needs industrial productivity on a small scale. The D3D Pro 3D Printer is designed to be user repairable for life - i.e. not planned obsolesence / planned failure. It is made entirely from common-off-the-shelf components so that sourcing the materials for the build and for repair is easy and quick. If you need a machine that can last you your entire life, this is the one for you!
 
 === What features does the D3D Pro have? What is it capable of?
 * The D3D Pro has automatic bed leveling, printing over WIFI, advanced Marlin firmware features including Input Shaping and Linear (Pressure) Advance, a gearless extruder with an open filament path, superior performance with flexable filaments (due to the short distance between filament drive point and melt zone), a standardized Universal Axis motion system, and much more.
 * The D3D Pro is capable of printing strong, industrial quality parts quickly with good print precision and robust performance.
 
 === What is the print volume?
-* The D3D Pro printer has a 300mm x 300mm x 300mm print volume. Is that not enough for your needs? The printer is also fully scalable!
+* The D3D Pro printer has a 300mm x 300mm x 350mm print volume. Is that not enough for your needs? The printer is also fully scalable!
 
 === What does "modular" mean for this 3D Printer?
 * The D3D Pro is broken up into six modules - The Univeral Axis, the Universal Frame, the Universal Controller, the Universal Gearless Extruder, the Fast Heated Bed, and the Filament Spool Holder. These modules can be used for many things beyond just a 3D Printer, including other CNC machines, camera sliders, a personal computer, a robot controller, a miltipurpose heated surface, and more! More modules can be added to the 3D Printer to increase its performance capabilities. For example, more Universal Axes can be added to increase bed lift, additional Universal Controllers and Universal Gearless Extruders can be added for higher throughput, etc.
