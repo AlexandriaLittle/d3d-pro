@@ -1,0 +1,9 @@
+{
+  "name": "arduino-ide",
+  "version": "1.0.0",
+  "description": "Arduino IDE",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

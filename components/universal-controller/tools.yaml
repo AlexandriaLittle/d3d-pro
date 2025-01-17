@@ -97,3 +97,12 @@ dupont-crimper:
   quantity: 1
   quantityUnits: part
   selectedOption: 0
+arduino-ide:
+  description: Arduino IDE
+  id: arduino-ide
+  notes: ''
+  options:
+    - arduino-ide
+  quantity: 1
+  quantityUnits: software
+  selectedOption: 0

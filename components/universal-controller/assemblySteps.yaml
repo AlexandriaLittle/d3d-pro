@@ -120,19 +120,23 @@
     . TODO
 
 - summary: Flash firmware on the {{parts.arduino.description}}
-  requiredParts: []
+  requiredParts:
+  - arduino
+  - usb-a-to-usb-b-cable
 
-  requiredTools: []
+  requiredTools:
+  - pc
+  - arduino-ide
 
   details: |
-    . Plug the arduino into the PC with a USB cable.
-    . Download the most recent firmware from the D3D Pro firmware repo.
-    . Download and install Arduino IDE
-    . Load the firmware into the Arduino IDE
-    . Select your board from the boards menu at the top.
-    . Click upload and wait for it to upload.
-    . When it says 'Done Uploading' you're done.
-    . TODO
+    . Plug the {{parts.arduino.description}} into the {{tools.pc.description}} with a {{parts.usb-a-to-usb-b-cable.description}}.
+    . Download and install {{tools.arduino-ide.description}} from the https://www.arduino.cc/en/software[Arduino website].
+    . Open the {{tools.arduino-ide.description}} {{tools.arduino-ide.quantityUnits}}.
+    . On the top menu, click 'File' > 'Open...' and navigate to the project documentation folder. 
+    . To load the {{parts.marlin-firmware.description}} into the {{tools.arduino-ide.description}}, navigate to 'D3D Pro Marlin/Marlin' and select the 'Marlin.ino' file.
+    . Select {{parts.arduino.description}} from the boards menu at the top of the {{tools.arduino-ide.description}}.
+    . Click 'Upload' and wait for the firmware to compile and upload. This step may take a few minutes.
+    . When the 'Done Uploading' alert appears, the firmware is installed.
 
 - summary: Flash the {{parts.raspberry-pi-image.description}} onto the {{parts.16gb-microsd-card.description}} and set up WIFI
   requiredParts: []
