@@ -3758,7 +3758,7 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 |raspberry-pi
 |Raspberry Pi Computer
 |Raspberry Pi Model 4B v1.0.0
-|
+|The Raspberry Pi is an optional component that enables extra features like wireless printing. It is not strictly required, as gcode files can be loaded into the printer via an SD card.
 
 
 
