@@ -118,7 +118,7 @@ microsd-to-sd-card-adapter:
 raspberry-pi:
   description: Raspberry Pi Computer
   id: raspberry-pi
-  notes: ''
+  notes: 'The Raspberry Pi is an optional component that enables extra features like wireless printing. It is not strictly required, as gcode files can be loaded into the printer via an SD card.'
   options:
     - raspberry-pi-4b
   quantity: 1
