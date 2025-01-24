@@ -108,12 +108,18 @@
   - arduino
   - heatsink
   - ramps-smart-adapter
+  - a4988-stepper-motor-driver
 
   requiredTools: []
 
   details: |
-    . Put the heatsinks on the drivers.
-    . Put the (CORRECTLY ORIENTED) drivers into the RAMPS.
+    . Remove the sticker cover from a {{parts.heatsink.description}}.
+    . Stick the {{parts.heatsink.description}} on the black chip in the center of a {{parts.a4988-stepper-motor-driver.description}}.
+    . Repeat the above steps for each {{parts.a4988-stepper-motor-driver.description}}.
+    . Orient the {{parts.ramps-board.description}} with the USB B port facing left.
+    . Orient a {{parts.a4988-stepper-motor-driver.description}} with the white potentiometer on the RIGHT side.
+    . Insert the {{parts.a4988-stepper-motor-driver.description}} into the E0 slot of the {{parts.ramps-board.description}}. Orientation is VERY IMPORTANT as the {{parts.a4988-stepper-motor-driver.description}} can be inserted backwards which will DESTROY the electronics when powered on.
+    . Repeat the above steps for the X, Y, Z, and E1 slots in the {{parts.ramps-board.description}}
     . Align the RAMPS and Mega and press together.
     . Insert the smart adapter into the RAMPS.
     . Done
