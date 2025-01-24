@@ -1,7 +1,7 @@
 = D3D Pro 3D Printer Assembly Instructions
 Alexandria Little - CC-BY-SA-4.0
 :revnumber: v23.12
-:revdate: 1/16/2025
+:revdate: 1/24/2025
 :sectnums:
 :toc:
 :toclevels: 3
@@ -1258,6 +1258,31 @@ include::flatToolsBOM.adoc[]
 
 // Procedure
 === Procedure
+
+// summary
+
+==== Prepare the Plate Jig
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+
+// details
+
+*Instructions*
+
+. Reproduce the Plate Jig SVG file that is located in the 'source' folder of the project documentation. The jig is a 300mm x 300mm square with 5mm radius holes centered at (15,15) (15,285) (285,15) and (285, 285).
+. One method for such reproduction is to send the file to be printed at a local printing shop (e.g. Staples, Office Depot, etc.)
+. Alternatively, the jig can be printed at home if you have access to a printer capable of printing on 12" x 12" cardstock.
+. As a final option, use poster board or cardstock, cut a 300mm x 300mm square, and draw the circles as described above.
+. Lastly, cut out the circles in each corner to create a hole for marking the work surface later.
+. The Plate Jig is now complete.
+
+
+
 
 // summary
 
@@ -3608,6 +3633,12 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 |Dupont Wire Crimper
 |
 
+
+
+|Arduino IDE
+|Arduino IDE
+|
+
 |===
 
 
@@ -4011,6 +4042,10 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
+
+
+
+
 * *Electrical Solder:* Rosin Core Lead Free Electrical Solder can contain toxic chemicals! Always work in a well ventialted area and use personal protection equipment!
 
 
@@ -4064,6 +4099,8 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
+
+* *A4988 Stepper Motor Driver:* The A4988 Stepper Motor Driver must be oriented correctly when inserted into the , or both components WILL BE DESTROYED when powered on.
 
 
 
@@ -4382,18 +4419,26 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 //
 //* RAMPS 1.4 Smart Adapter
 //
+//* A4988 Stepper Motor Driver
+//
 //
 
 // details
 
 *Instructions*
 
-. Put the heatsinks on the drivers.
-. Put the (CORRECTLY ORIENTED) drivers into the RAMPS.
-. Align the RAMPS and Mega and press together.
-. Insert the smart adapter into the RAMPS.
-. Done
-. TODO
+. Remove the sticker cover from a *Stepper Motor Driver Heatsink*.
+. Stick the *Stepper Motor Driver Heatsink* on the black chip in the center of a *A4988 Stepper Motor Driver*.
+. Repeat the above steps for each *A4988 Stepper Motor Driver*.
+. Orient the *RAMPS 1.4 Board* with the USB B port facing left. This orientation will be assumed for the remaining steps in this section.
+. Orient a *A4988 Stepper Motor Driver* with the white potentiometer on the *RIGHT* side.
+. Insert the *A4988 Stepper Motor Driver* into the E0 slot of the *RAMPS 1.4 Board*. Orientation is VERY IMPORTANT as the *A4988 Stepper Motor Driver* can be inserted backwards which will DESTROY the electronics when powered on.
+. Repeat the above steps for the X, Y, Z, and E1 slots in the *RAMPS 1.4 Board*. The E1 slot is used to drive the Y2 axis.
+. Align the *RAMPS 1.4 Board* and *Arduino Mega 2560* such that the *Arduino Mega 2560* is directly above the *RAMPS 1.4 Board* and gently seat the pins into their sockets. There is only one possible orientation that allows both components to sit directly above one another.
+. Using even pressure, push down on each corner of the *RAMPS 1.4 Board* until its pins are fully seated into the *Arduino Mega 2560*.
+. Position the *RAMPS 1.4 Smart Adapter* over the right side of the *RAMPS 1.4 Board* so that both sets of sockets on the *RAMPS 1.4 Smart Adapter* align with the pins on the *RAMPS 1.4 Board*. There is only one orientation that will fit all pins properly.
+. Using even pressure on both ends of the *RAMPS 1.4 Smart Adapter*, push the part gently into place over the *RAMPS 1.4 Board* until both components are seated against one another.
+. The RAMPS 1.4 Board and Arduino Mega 2560 assembly is complete.
 
 
 
@@ -4405,22 +4450,36 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 // requiredTools
 //
+//*Required Tools*
+//
+//* Personal Computer
+//
+//* Arduino IDE
+//
+//
 
 // requiredParts
+//
+//*Required Parts*
+//
+//* Arduino Mega 2560
+//
+//* USB A to USB B Cable
+//
 //
 
 // details
 
 *Instructions*
 
-. Plug the arduino into the PC with a USB cable.
-. Download the most recent firmware from the D3D Pro firmware repo.
-. Download and install Arduino IDE
-. Load the firmware into the Arduino IDE
-. Select your board from the boards menu at the top.
-. Click upload and wait for it to upload.
-. When it says 'Done Uploading' you're done.
-. TODO
+. Plug the *Arduino Mega 2560* into the *Personal Computer* with a *USB A to USB B Cable*.
+. Download and install *Arduino IDE* from the https://www.arduino.cc/en/software[Arduino website].
+. Open the *Arduino IDE* software.
+. On the top menu, click 'File' > 'Open...' and navigate to the project documentation folder. 
+. To load the *Marlin Firmware* into the *Arduino IDE*, navigate to 'D3D Pro Marlin/Marlin' and select the 'Marlin.ino' file.
+. Select *Arduino Mega 2560* from the boards menu at the top of the *Arduino IDE*.
+. Click 'Upload' and wait for the firmware to compile and upload. This step may take a few minutes.
+. When the 'Done Uploading' alert appears, the firmware is installed.
 
 
 

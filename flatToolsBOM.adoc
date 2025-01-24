@@ -90,6 +90,13 @@
 
 
 |1
+|software
+|arduino-ide
+|Arduino IDE
+
+
+
+|1
 |part
 |circular-saw
 |Circular Saw

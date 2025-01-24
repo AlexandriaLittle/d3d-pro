@@ -59,6 +59,11 @@ components:
     name: 8mm-600mm-smooth-rod
     quantity: 1
     quantityUnits: part
+  arduino-ide:
+    description: Arduino IDE
+    name: arduino-ide
+    quantity: 1
+    quantityUnits: software
   circular-saw:
     description: Circular Saw
     name: circular-saw

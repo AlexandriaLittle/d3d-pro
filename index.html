@@ -451,7 +451,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="details">
 <span id="author" class="author">Alexandria Little - CC-BY-SA-4.0</span><br>
 <span id="revnumber">version v23.12,</span>
-<span id="revdate">1/16/2025</span>
+<span id="revdate">1/24/2025</span>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
@@ -544,8 +544,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_precautions_5">12.3. Precautions</a></li>
 <li><a href="#_procedure_7">12.4. Procedure</a>
 <ul class="sectlevel3">
-<li><a href="#_prepare_the_steel_sheet_for_welding">12.4.1. Prepare the Steel Sheet for Welding</a></li>
-<li><a href="#_weld_the_m6_x_25mm_screw_parts_to_the_steel_sheet">12.4.2. Weld the M6 x 25mm Screw part(s) to the Steel Sheet</a></li>
+<li><a href="#_prepare_the_plate_jig">12.4.1. Prepare the Plate Jig</a></li>
+<li><a href="#_prepare_the_steel_sheet_for_welding">12.4.2. Prepare the Steel Sheet for Welding</a></li>
+<li><a href="#_weld_the_m6_x_25mm_screw_parts_to_the_steel_sheet">12.4.3. Weld the M6 x 25mm Screw part(s) to the Steel Sheet</a></li>
 </ul>
 </li>
 </ul>
@@ -1515,6 +1516,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-left valign-top"><p class="tableblock">part</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">8mm-600mm-smooth-rod</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">8mm x 600mm Smooth Rod</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">software</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">arduino-ide</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Arduino IDE</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">1</p></td>
@@ -2762,7 +2769,35 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect2">
 <h3 id="_procedure_7">12.4. Procedure</h3>
 <div class="sect3">
-<h4 id="_prepare_the_steel_sheet_for_welding">12.4.1. Prepare the Steel Sheet for Welding</h4>
+<h4 id="_prepare_the_plate_jig">12.4.1. Prepare the Plate Jig</h4>
+<div class="paragraph">
+<p><strong>Instructions</strong></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Reproduce the Plate Jig SVG file that is located in the 'source' folder of the project documentation. The jig is a 300mm x 300mm square with 5mm radius holes centered at (15,15) (15,285) (285,15) and (285, 285).</p>
+</li>
+<li>
+<p>One method for such reproduction is to send the file to be printed at a local printing shop (e.g. Staples, Office Depot, etc.)</p>
+</li>
+<li>
+<p>Alternatively, the jig can be printed at home if you have access to a printer capable of printing on 12" x 12" cardstock.</p>
+</li>
+<li>
+<p>As a final option, use poster board or cardstock, cut a 300mm x 300mm square, and draw the circles as described above.</p>
+</li>
+<li>
+<p>Lastly, cut out the circles in each corner to create a hole for marking the work surface later.</p>
+</li>
+<li>
+<p>The Plate Jig is now complete.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_prepare_the_steel_sheet_for_welding">12.4.2. Prepare the Steel Sheet for Welding</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -2781,7 +2816,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_weld_the_m6_x_25mm_screw_parts_to_the_steel_sheet">12.4.2. Weld the M6 x 25mm Screw part(s) to the Steel Sheet</h4>
+<h4 id="_weld_the_m6_x_25mm_screw_parts_to_the_steel_sheet">12.4.3. Weld the M6 x 25mm Screw part(s) to the Steel Sheet</h4>
 <div class="paragraph">
 <p><strong>Instructions</strong></p>
 </div>
@@ -4798,6 +4833,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-left valign-top"><p class="tableblock">Dupont Wire Crimper</p></td>
 <td class="tableblock halign-left valign-top"></td>
 </tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Arduino IDE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Arduino IDE</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -5103,6 +5143,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li>
 <p><strong>Electrical Solder:</strong> Rosin Core Lead Free Electrical Solder can contain toxic chemicals! Always work in a well ventialted area and use personal protection equipment!</p>
 </li>
+<li>
+<p><strong>A4988 Stepper Motor Driver:</strong> The A4988 Stepper Motor Driver must be oriented correctly when inserted into the , or both components WILL BE DESTROYED when powered on.</p>
+</li>
 </ul>
 </div>
 </div>
@@ -5280,22 +5323,40 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Put the heatsinks on the drivers.</p>
+<p>Remove the sticker cover from a <strong>Stepper Motor Driver Heatsink</strong>.</p>
 </li>
 <li>
-<p>Put the (CORRECTLY ORIENTED) drivers into the RAMPS.</p>
+<p>Stick the <strong>Stepper Motor Driver Heatsink</strong> on the black chip in the center of a <strong>A4988 Stepper Motor Driver</strong>.</p>
 </li>
 <li>
-<p>Align the RAMPS and Mega and press together.</p>
+<p>Repeat the above steps for each <strong>A4988 Stepper Motor Driver</strong>.</p>
 </li>
 <li>
-<p>Insert the smart adapter into the RAMPS.</p>
+<p>Orient the <strong>RAMPS 1.4 Board</strong> with the USB B port facing left. This orientation will be assumed for the remaining steps in this section.</p>
 </li>
 <li>
-<p>Done</p>
+<p>Orient a <strong>A4988 Stepper Motor Driver</strong> with the white potentiometer on the <strong>RIGHT</strong> side.</p>
 </li>
 <li>
-<p>TODO</p>
+<p>Insert the <strong>A4988 Stepper Motor Driver</strong> into the E0 slot of the <strong>RAMPS 1.4 Board</strong>. Orientation is VERY IMPORTANT as the <strong>A4988 Stepper Motor Driver</strong> can be inserted backwards which will DESTROY the electronics when powered on.</p>
+</li>
+<li>
+<p>Repeat the above steps for the X, Y, Z, and E1 slots in the <strong>RAMPS 1.4 Board</strong>. The E1 slot is used to drive the Y2 axis.</p>
+</li>
+<li>
+<p>Align the <strong>RAMPS 1.4 Board</strong> and <strong>Arduino Mega 2560</strong> such that the <strong>Arduino Mega 2560</strong> is directly above the <strong>RAMPS 1.4 Board</strong> and gently seat the pins into their sockets. There is only one possible orientation that allows both components to sit directly above one another.</p>
+</li>
+<li>
+<p>Using even pressure, push down on each corner of the <strong>RAMPS 1.4 Board</strong> until its pins are fully seated into the <strong>Arduino Mega 2560</strong>.</p>
+</li>
+<li>
+<p>Position the <strong>RAMPS 1.4 Smart Adapter</strong> over the right side of the <strong>RAMPS 1.4 Board</strong> so that both sets of sockets on the <strong>RAMPS 1.4 Smart Adapter</strong> align with the pins on the <strong>RAMPS 1.4 Board</strong>. There is only one orientation that will fit all pins properly.</p>
+</li>
+<li>
+<p>Using even pressure on both ends of the <strong>RAMPS 1.4 Smart Adapter</strong>, push the part gently into place over the <strong>RAMPS 1.4 Board</strong> until both components are seated against one another.</p>
+</li>
+<li>
+<p>The RAMPS 1.4 Board and Arduino Mega 2560 assembly is complete.</p>
 </li>
 </ol>
 </div>
@@ -5308,28 +5369,28 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Plug the arduino into the PC with a USB cable.</p>
+<p>Plug the <strong>Arduino Mega 2560</strong> into the <strong>Personal Computer</strong> with a <strong>USB A to USB B Cable</strong>.</p>
 </li>
 <li>
-<p>Download the most recent firmware from the D3D Pro firmware repo.</p>
+<p>Download and install <strong>Arduino IDE</strong> from the <a href="https://www.arduino.cc/en/software">Arduino website</a>.</p>
 </li>
 <li>
-<p>Download and install Arduino IDE</p>
+<p>Open the <strong>Arduino IDE</strong> software.</p>
 </li>
 <li>
-<p>Load the firmware into the Arduino IDE</p>
+<p>On the top menu, click 'File' &gt; 'Open&#8230;&#8203;' and navigate to the project documentation folder.</p>
 </li>
 <li>
-<p>Select your board from the boards menu at the top.</p>
+<p>To load the <strong>Marlin Firmware</strong> into the <strong>Arduino IDE</strong>, navigate to 'D3D Pro Marlin/Marlin' and select the 'Marlin.ino' file.</p>
 </li>
 <li>
-<p>Click upload and wait for it to upload.</p>
+<p>Select <strong>Arduino Mega 2560</strong> from the boards menu at the top of the <strong>Arduino IDE</strong>.</p>
 </li>
 <li>
-<p>When it says 'Done Uploading' you&#8217;re done.</p>
+<p>Click 'Upload' and wait for the firmware to compile and upload. This step may take a few minutes.</p>
 </li>
 <li>
-<p>TODO</p>
+<p>When the 'Done Uploading' alert appears, the firmware is installed.</p>
 </li>
 </ol>
 </div>
@@ -7210,7 +7271,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="footer">
 <div id="footer-text">
 Version v23.12<br>
-Last updated 2025-01-16 22:53:18 UTC
+Last updated 2025-01-24 10:12:22 UTC
 </div>
 </div>
 </body>
