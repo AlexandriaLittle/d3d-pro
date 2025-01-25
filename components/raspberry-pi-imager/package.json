@@ -1,0 +1,9 @@
+{
+  "name": "raspberry-pi-imager",
+  "version": "1.0.0",
+  "description": "Raspberry Pi Imager",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}
