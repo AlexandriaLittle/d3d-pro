@@ -106,3 +106,12 @@ arduino-ide:
   quantity: 1
   quantityUnits: software
   selectedOption: 0
+raspberry-pi-imager:
+  description: Raspberry Pi Imager
+  id: raspberry-pi-imager
+  notes: ''
+  options:
+    - raspberry-pi-imager
+  quantity: 1
+  quantityUnits: software
+  selectedOption: 0
