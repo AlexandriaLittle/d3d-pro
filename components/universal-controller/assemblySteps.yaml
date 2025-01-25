@@ -169,15 +169,6 @@
     . If prompted by the *{{tools.pc.description}}*, authorize the operation (usually by entering a password).
     . The *{{parts.16gb-microsd-card.description}}* is ready for use in the *{{parts.raspberry-pi.description}}*.
 
-- summary: Set up WIFI on the {{parts.raspberry-pi.description}}
-  requiredParts: []
-
-  requiredTools: []
-
-  details: |
-    . Hello World!
-    . TODO
-
 - summary: Configure {{parts.raspberry-pi-image.description}} for use
   requiredParts: []
 
