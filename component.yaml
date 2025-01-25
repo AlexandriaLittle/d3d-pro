@@ -14020,12 +14020,6 @@ components:
 
           . The *16GB MicroSD Card* is ready for use in the *Raspberry Pi
           Computer*.
-      - summary: Set up WIFI on the Raspberry Pi Computer
-        requiredParts: []
-        requiredTools: []
-        details: |
-          . Hello World!
-          . TODO
       - summary: Configure Octoprint Raspberry Pi Software Image for use
         requiredParts: []
         requiredTools: []

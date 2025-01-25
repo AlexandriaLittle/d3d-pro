@@ -4542,27 +4542,6 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 // summary
 
-==== Set up WIFI on the Raspberry Pi Computer
-
-
-// requiredTools
-//
-
-// requiredParts
-//
-
-// details
-
-*Instructions*
-
-. Hello World!
-. TODO
-
-
-
-
-// summary
-
 ==== Configure Octoprint Raspberry Pi Software Image for use
 
 
