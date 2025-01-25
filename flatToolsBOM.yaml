@@ -159,6 +159,11 @@ components:
     name: phillips-2-screwdriver
     quantity: 1
     quantityUnits: part
+  raspberry-pi-imager:
+    description: Raspberry Pi Imager
+    name: raspberry-pi-imager
+    quantity: 1
+    quantityUnits: software
   scissors:
     description: Scissors
     name: scissors

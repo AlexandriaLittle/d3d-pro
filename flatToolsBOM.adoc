@@ -230,6 +230,13 @@
 
 
 |1
+|software
+|raspberry-pi-imager
+|Raspberry Pi Imager
+
+
+
+|1
 |part
 |scissors
 |Scissors

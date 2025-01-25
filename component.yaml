@@ -4818,6 +4818,17 @@ components:
     parts: {}
     tools: {}
     precautions: []
+  raspberry-pi-imager:
+    name: raspberry-pi-imager
+    version: 1.0.0
+    description: Raspberry Pi Imager
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
   rebar-mount:
     name: rebar-mount
     version: 1.0.0
@@ -12952,6 +12963,17 @@ components:
         parts: {}
         tools: {}
         precautions: []
+      raspberry-pi-imager:
+        name: raspberry-pi-imager
+        version: 1.0.0
+        description: Raspberry Pi Imager
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
       reprap-discount-full-graphic-smart-controller:
         name: reprap-discount-full-graphic-smart-controller
         version: 1.0.0
@@ -13676,6 +13698,17 @@ components:
         selectedOption: 0
         descriptionLong: 'arduino-ide: Arduino IDE'
         descriptionSelected: 'arduino-ide: Arduino IDE (Arduino IDE v1.0.0)'
+      raspberry-pi-imager:
+        description: Raspberry Pi Imager
+        id: raspberry-pi-imager
+        notes: ''
+        options:
+          - raspberry-pi-imager
+        quantity: 1
+        quantityUnits: software
+        selectedOption: 0
+        descriptionLong: 'raspberry-pi-imager: Raspberry Pi Imager'
+        descriptionSelected: 'raspberry-pi-imager: Raspberry Pi Imager (Raspberry Pi Imager v1.0.0)'
     precautions:
       - >-
         The Universal Controller Assembly runs on 120v AC electricity, which can
@@ -13918,6 +13951,7 @@ components:
 
           . Download and install *Arduino IDE* from the
           https://www.arduino.cc/en/software[Arduino website].
+          (https://www.arduino.cc/en/software)
 
           . Open the *Arduino IDE* software.
 
@@ -13937,26 +13971,55 @@ components:
       - summary: >-
           Flash the Octoprint Raspberry Pi Software Image onto the 16GB MicroSD
           Card and set up WIFI
-        requiredParts: []
-        requiredTools: []
+        requiredParts:
+          - 16gb-microsd-card
+          - microsd-to-sd-card-adapter
+        requiredTools:
+          - pc
+          - raspberry-pi-imager
         details: >
-          . Download the raspberry pi imager.
+          . Download and install the *Raspberry Pi Imager* software from the
+          https://www.raspberrypi.com/software/[Raspberry Pi Website]
+          (https://www.raspberrypi.com/software/) onto the Personal Computer.
 
-          . Navigate to OctoPi
+          . Insert the *16GB MicroSD Card* into the *Personal Computer*. If
+          necessary, use a MicroSD to SD Card Adapter or other compatible
+          adapter.
 
-          . Insert the MicroSD card into the adapter.
+          . Open the *Raspberry Pi Imager* software and click 'Choose Device'.
+          Select the appropriate Raspberry Pi Computer from the manu.
 
-          . Insert the adapter into your personal computer.
+          . Next, click 'Choose OS' > 'Other specific-purpose OS' > '3D
+          Printing' > 'OctoPi' > 'OctoPi (Stable)'.
 
-          . If using Wifi and not an ethernet connection, go into more details
+          . Click 'Choose Storage' next, and select the *16GB MicroSD Card* from
+          the list.
 
-          . Select the wireless networking option and put in your wifi
-          credentials.
+          . Click 'Next' to proceed. A popup will appear that asks "Would you
+          like to apply OS customisation settings?".
 
-          . use the imager to download and flash the octopi image to the MicroSD
-          card.
+          . To set up Wifi on the device, click "Edit Settings", select the
+          checkbox to the left of the "Configure wireless LAN" section and fill
+          in your wireless credentials. Feel free to customise other settings.
 
-          . TODO
+          . Once the customisations have been made, click 'Save' at the bottom
+          of the window, and then click 'Yes' on the original menu.
+
+          . If only an ethernet connection will be used the previous two
+          customisation steps can be skipped.
+
+          . The last step explains that ALL DATA on the *16GB MicroSD Card* will
+          be erased by this operation. 
+
+          . Click 'Yes' to confirm the operation, erase all data on the *16GB
+          MicroSD Card*, and install the *Octoprint Raspberry Pi Software Image*
+          onto the *16GB MicroSD Card*.
+
+          . If prompted by the *Personal Computer*, authorize the operation
+          (usually by entering a password).
+
+          . The *16GB MicroSD Card* is ready for use in the *Raspberry Pi
+          Computer*.
       - summary: Set up WIFI on the Raspberry Pi Computer
         requiredParts: []
         requiredTools: []

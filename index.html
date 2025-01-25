@@ -451,7 +451,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="details">
 <span id="author" class="author">Alexandria Little - CC-BY-SA-4.0</span><br>
 <span id="revnumber">version v23.12,</span>
-<span id="revdate">1/24/2025</span>
+<span id="revdate">1/25/2025</span>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
@@ -1636,6 +1636,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-left valign-top"><p class="tableblock">part</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">phillips-2-screwdriver</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">#2 Phillips Head Screwdriver</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">software</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">raspberry-pi-imager</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Raspberry Pi Imager</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">1</p></td>
@@ -4838,6 +4844,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-left valign-top"><p class="tableblock">Arduino IDE</p></td>
 <td class="tableblock halign-left valign-top"></td>
 </tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Raspberry Pi Imager</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Raspberry Pi Imager</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -5372,7 +5383,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Plug the <strong>Arduino Mega 2560</strong> into the <strong>Personal Computer</strong> with a <strong>USB A to USB B Cable</strong>.</p>
 </li>
 <li>
-<p>Download and install <strong>Arduino IDE</strong> from the <a href="https://www.arduino.cc/en/software">Arduino website</a>.</p>
+<p>Download and install <strong>Arduino IDE</strong> from the <a href="https://www.arduino.cc/en/software">Arduino website</a>. (<a href="https://www.arduino.cc/en/software" class="bare">https://www.arduino.cc/en/software</a>)</p>
 </li>
 <li>
 <p>Open the <strong>Arduino IDE</strong> software.</p>
@@ -5403,28 +5414,43 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Download the raspberry pi imager.</p>
+<p>Download and install the <strong>Raspberry Pi Imager</strong> software from the <a href="https://www.raspberrypi.com/software/">Raspberry Pi Website</a> (<a href="https://www.raspberrypi.com/software/" class="bare">https://www.raspberrypi.com/software/</a>) onto the Personal Computer.</p>
 </li>
 <li>
-<p>Navigate to OctoPi</p>
+<p>Insert the <strong>16GB MicroSD Card</strong> into the <strong>Personal Computer</strong>. If necessary, use a MicroSD to SD Card Adapter or other compatible adapter.</p>
 </li>
 <li>
-<p>Insert the MicroSD card into the adapter.</p>
+<p>Open the <strong>Raspberry Pi Imager</strong> software and click 'Choose Device'. Select the appropriate Raspberry Pi Computer from the manu.</p>
 </li>
 <li>
-<p>Insert the adapter into your personal computer.</p>
+<p>Next, click 'Choose OS' &gt; 'Other specific-purpose OS' &gt; '3D Printing' &gt; 'OctoPi' &gt; 'OctoPi (Stable)'.</p>
 </li>
 <li>
-<p>If using Wifi and not an ethernet connection, go into more details</p>
+<p>Click 'Choose Storage' next, and select the <strong>16GB MicroSD Card</strong> from the list.</p>
 </li>
 <li>
-<p>Select the wireless networking option and put in your wifi credentials.</p>
+<p>Click 'Next' to proceed. A popup will appear that asks "Would you like to apply OS customisation settings?".</p>
 </li>
 <li>
-<p>use the imager to download and flash the octopi image to the MicroSD card.</p>
+<p>To set up Wifi on the device, click "Edit Settings", select the checkbox to the left of the "Configure wireless LAN" section and fill in your wireless credentials. Feel free to customise other settings.</p>
 </li>
 <li>
-<p>TODO</p>
+<p>Once the customisations have been made, click 'Save' at the bottom of the window, and then click 'Yes' on the original menu.</p>
+</li>
+<li>
+<p>If only an ethernet connection will be used the previous two customisation steps can be skipped.</p>
+</li>
+<li>
+<p>The last step explains that ALL DATA on the <strong>16GB MicroSD Card</strong> will be erased by this operation.</p>
+</li>
+<li>
+<p>Click 'Yes' to confirm the operation, erase all data on the <strong>16GB MicroSD Card</strong>, and install the <strong>Octoprint Raspberry Pi Software Image</strong> onto the <strong>16GB MicroSD Card</strong>.</p>
+</li>
+<li>
+<p>If prompted by the <strong>Personal Computer</strong>, authorize the operation (usually by entering a password).</p>
+</li>
+<li>
+<p>The <strong>16GB MicroSD Card</strong> is ready for use in the <strong>Raspberry Pi Computer</strong>.</p>
 </li>
 </ol>
 </div>
@@ -7271,7 +7297,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="footer">
 <div id="footer-text">
 Version v23.12<br>
-Last updated 2025-01-24 10:21:10 UTC
+Last updated 2025-01-25 02:41:28 UTC
 </div>
 </div>
 </body>
