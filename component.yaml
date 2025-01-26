@@ -4785,6 +4785,17 @@ components:
     parts: {}
     tools: {}
     precautions: []
+  ramps-1_4-board-assembly:
+    name: ramps-1_4-board-assembly
+    version: 1.0.0
+    description: RAMPS 1.4 Board Assembly
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
   ramps-1_4-endstop:
     name: ramps-1_4-endstop
     version: 1.0.0
@@ -13938,6 +13949,8 @@ components:
           components are seated against one another.
 
           . The RAMPS 1.4 Board and Arduino Mega 2560 assembly is complete.
+
+          . TODO: ADD CRITICAL RESISTOR REMOVAL STEP
       - summary: Flash firmware on the Arduino Mega 2560
         requiredParts:
           - arduino
@@ -14027,15 +14040,34 @@ components:
           . Hello World!
           . TODO
       - summary: Attach components to the Universal Controller Case
-        requiredParts: []
+        requiredParts:
+          - case
+          - 24v-power-supply
+          - 16gb-microsd-card
+          - raspberry-pi
+          - ssr
+          - gfci
+          - zip-tie-large
+          - zip-tie-small
         requiredTools: []
-        details: |
+        details: >
+          . The below image shows the layout of the components within the
+          *Universal Controller Case*.
+
+          +
+
+          image:IMG_3718.jpg[,600,600,pdfwidth=60%] 
+
           . Zip tie the Mega/RAMPS
+
           . Zip tie power supply module
+
           . Zip tie the raspberry pie
+
           . Zip tie the SSR
+
           . Zip tie the GFCI
-          . Insert the rocker switch into the side of the case
+
           . TODO
       - summary: Wire the GFCI
         requiredParts: []

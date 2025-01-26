@@ -4449,6 +4449,7 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 . Position the *RAMPS 1.4 Smart Adapter* over the right side of the *RAMPS 1.4 Board* so that both sets of sockets on the *RAMPS 1.4 Smart Adapter* align with the pins on the *RAMPS 1.4 Board*. There is only one orientation that will fit all pins properly.
 . Using even pressure on both ends of the *RAMPS 1.4 Smart Adapter*, push the part gently into place over the *RAMPS 1.4 Board* until both components are seated against one another.
 . The RAMPS 1.4 Board and Arduino Mega 2560 assembly is complete.
+. TODO: ADD CRITICAL RESISTOR REMOVAL STEP
 
 
 
@@ -4571,17 +4572,38 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 // requiredParts
 //
+//*Required Parts*
+//
+//* Universal Controller Case
+//
+//* 24v Power Supply Module
+//
+//* 16GB MicroSD Card
+//
+//* Raspberry Pi Computer
+//
+//* 
+//
+//* GFCI
+//
+//* Large Zip Tie
+//
+//* Small Zip Tie
+//
+//
 
 // details
 
 *Instructions*
 
+. The below image shows the layout of the components within the *Universal Controller Case*.
++
+image:IMG_3718.jpg[,600,600,pdfwidth=60%] 
 . Zip tie the Mega/RAMPS
 . Zip tie power supply module
 . Zip tie the raspberry pie
 . Zip tie the SSR
 . Zip tie the GFCI
-. Insert the rocker switch into the side of the case
 . TODO
 
 
