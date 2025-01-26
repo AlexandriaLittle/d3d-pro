@@ -125,6 +125,7 @@
     . Position the *{{parts.ramps-smart-adapter.description}}* over the right side of the *{{parts.ramps-board.description}}* so that both sets of sockets on the *{{parts.ramps-smart-adapter.description}}* align with the pins on the *{{parts.ramps-board.description}}*. There is only one orientation that will fit all pins properly.
     . Using even pressure on both ends of the *{{parts.ramps-smart-adapter.description}}*, push the {{parts.ramps-smart-adapter.quantityUnits}} gently into place over the *{{parts.ramps-board.description}}* until both components are seated against one another.
     . The {{parts.ramps-board.description}} and {{parts.arduino.description}} assembly is complete.
+    . TODO: ADD CRITICAL RESISTOR REMOVAL STEP
 
 - summary: Flash firmware on the {{parts.arduino.description}}
   requiredParts:
@@ -179,17 +180,27 @@
     . TODO
 
 - summary: Attach components to the {{parts.case.description}}
-  requiredParts: []
+  requiredParts: 
+  - case
+  - 24v-power-supply
+  - 16gb-microsd-card
+  - raspberry-pi
+  - ssr
+  - gfci
+  - zip-tie-large
+  - zip-tie-small
 
   requiredTools: []
 
   details: |
+    . The below image shows the layout of the components within the *{{parts.case.description}}*.
+    +
+    image:IMG_3718.jpg[,600,600,pdfwidth=60%] 
     . Zip tie the Mega/RAMPS
     . Zip tie power supply module
     . Zip tie the raspberry pie
     . Zip tie the SSR
     . Zip tie the GFCI
-    . Insert the rocker switch into the side of the case
     . TODO
 
 - summary: Wire the {{parts.gfci.description}}
