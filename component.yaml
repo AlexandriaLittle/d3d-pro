@@ -4792,10 +4792,182 @@ components:
     license: CC-BY-SA-4.0
     author: Alexandria Little
     dependencies: {}
-    components: {}
-    parts: {}
+    components:
+      a4988-stepper-motor-driver:
+        name: a4988-stepper-motor-driver
+        version: 1.0.0
+        description: A4988 Stepper Motor Driver
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions:
+          - >-
+            The A4988 Stepper Motor Driver must be oriented correctly when
+            inserted into the , or both components WILL BE DESTROYED when
+            powered on.
+      arduino-mega-2560:
+        name: arduino-mega-2560
+        version: 1.0.0
+        description: Arduino Mega 2560
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      ramps-1_4-board:
+        name: ramps-1_4-board
+        version: 1.0.0
+        description: RAMPS 1.4 Board
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      ramps-1_4-smart-adapter:
+        name: ramps-1_4-smart-adapter
+        version: 1.0.0
+        description: RAMPS 1.4 Smart Adapter
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      stepper-motor-driver-heatsink:
+        name: stepper-motor-driver-heatsink
+        version: 1.0.0
+        description: Stepper Motor Driver Heatsink
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+    parts:
+      ramps-board:
+        description: RAMPS 1.4 Board
+        id: ramps-board
+        notes: ''
+        options:
+          - ramps-1_4-board
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'ramps-board: RAMPS 1.4 Board'
+        descriptionSelected: 'ramps-board: RAMPS 1.4 Board (RAMPS 1.4 Board v1.0.0)'
+      arduino:
+        description: Arduino Mega 2560
+        id: arduino
+        notes: ''
+        options:
+          - arduino-mega-2560
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'arduino: Arduino Mega 2560'
+        descriptionSelected: 'arduino: Arduino Mega 2560 (Arduino Mega 2560 v1.0.0)'
+      heatsink:
+        description: Stepper Motor Driver Heatsink
+        id: heatsink
+        notes: ''
+        options:
+          - stepper-motor-driver-heatsink
+        quantity: 5
+        quantityUnits: part(s)
+        selectedOption: 0
+        descriptionLong: 'heatsink: Stepper Motor Driver Heatsink'
+        descriptionSelected: >-
+          heatsink: Stepper Motor Driver Heatsink (Stepper Motor Driver Heatsink
+          v1.0.0)
+      ramps-smart-adapter:
+        description: RAMPS 1.4 Smart Adapter
+        id: ramps-smart-adapter
+        notes: ''
+        options:
+          - ramps-1_4-smart-adapter
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'ramps-smart-adapter: RAMPS 1.4 Smart Adapter'
+        descriptionSelected: >-
+          ramps-smart-adapter: RAMPS 1.4 Smart Adapter (RAMPS 1.4 Smart Adapter
+          v1.0.0)
+      a4988-stepper-motor-driver:
+        description: A4988 Stepper Motor Driver
+        id: a4988-stepper-motor-driver
+        notes: ''
+        options:
+          - a4988-stepper-motor-driver
+        quantity: 5
+        quantityUnits: part(s)
+        selectedOption: 0
+        descriptionLong: 'a4988-stepper-motor-driver: A4988 Stepper Motor Driver'
+        descriptionSelected: >-
+          a4988-stepper-motor-driver: A4988 Stepper Motor Driver (A4988 Stepper
+          Motor Driver v1.0.0)
     tools: {}
     precautions: []
+    assemblySteps:
+      - summary: Assemble the RAMPS 1.4 Board and Arduino Mega 2560
+        requiredParts:
+          - ramps-board
+          - arduino
+          - heatsink
+          - ramps-smart-adapter
+          - a4988-stepper-motor-driver
+        requiredTools: []
+        details: >
+          . Remove the sticker cover from a *Stepper Motor Driver Heatsink*.
+
+          . Stick the *Stepper Motor Driver Heatsink* on the black chip in the
+          center of a *A4988 Stepper Motor Driver*.
+
+          . Repeat the above steps for each *A4988 Stepper Motor Driver*.
+
+          . Orient the *RAMPS 1.4 Board* with the USB B port facing left. This
+          orientation will be assumed for the remaining steps in this section.
+
+          . Orient a *A4988 Stepper Motor Driver* with the white potentiometer
+          on the *RIGHT* side.
+
+          . Insert the *A4988 Stepper Motor Driver* into the E0 slot of the
+          *RAMPS 1.4 Board*. Orientation is VERY IMPORTANT as the *A4988 Stepper
+          Motor Driver* can be inserted backwards which will DESTROY the
+          electronics when powered on.
+
+          . Repeat the above steps for the X, Y, Z, and E1 slots in the *RAMPS
+          1.4 Board*. The E1 slot is used to drive the Y2 axis.
+
+          . Align the *RAMPS 1.4 Board* and *Arduino Mega 2560* such that the
+          *Arduino Mega 2560* is directly above the *RAMPS 1.4 Board* and gently
+          seat the pins into their sockets. There is only one possible
+          orientation that allows both components to sit directly above one
+          another.
+
+          . Using even pressure, push down on each corner of the *RAMPS 1.4
+          Board* until its pins are fully seated into the *Arduino Mega 2560*.
+
+          . Position the *RAMPS 1.4 Smart Adapter* over the right side of the
+          *RAMPS 1.4 Board* so that both sets of sockets on the *RAMPS 1.4 Smart
+          Adapter* align with the pins on the *RAMPS 1.4 Board*. There is only
+          one orientation that will fit all pins properly.
+
+          . Using even pressure on both ends of the *RAMPS 1.4 Smart Adapter*,
+          push the part gently into place over the *RAMPS 1.4 Board* until both
+          components are seated against one another.
+
+          . The RAMPS 1.4 Board and Arduino Mega 2560 assembly is complete.
+
+          . TODO: ADD CRITICAL RESISTOR REMOVAL STEP
   ramps-1_4-endstop:
     name: ramps-1_4-endstop
     version: 1.0.0
@@ -12952,6 +13124,191 @@ components:
         parts: {}
         tools: {}
         precautions: []
+      ramps-1_4-board-assembly:
+        name: ramps-1_4-board-assembly
+        version: 1.0.0
+        description: RAMPS 1.4 Board Assembly
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components:
+          a4988-stepper-motor-driver:
+            name: a4988-stepper-motor-driver
+            version: 1.0.0
+            description: A4988 Stepper Motor Driver
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions:
+              - >-
+                The A4988 Stepper Motor Driver must be oriented correctly when
+                inserted into the , or both components WILL BE DESTROYED when
+                powered on.
+          arduino-mega-2560:
+            name: arduino-mega-2560
+            version: 1.0.0
+            description: Arduino Mega 2560
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          ramps-1_4-board:
+            name: ramps-1_4-board
+            version: 1.0.0
+            description: RAMPS 1.4 Board
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          ramps-1_4-smart-adapter:
+            name: ramps-1_4-smart-adapter
+            version: 1.0.0
+            description: RAMPS 1.4 Smart Adapter
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          stepper-motor-driver-heatsink:
+            name: stepper-motor-driver-heatsink
+            version: 1.0.0
+            description: Stepper Motor Driver Heatsink
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+        parts:
+          ramps-board:
+            description: RAMPS 1.4 Board
+            id: ramps-board
+            notes: ''
+            options:
+              - ramps-1_4-board
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'ramps-board: RAMPS 1.4 Board'
+            descriptionSelected: 'ramps-board: RAMPS 1.4 Board (RAMPS 1.4 Board v1.0.0)'
+          arduino:
+            description: Arduino Mega 2560
+            id: arduino
+            notes: ''
+            options:
+              - arduino-mega-2560
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'arduino: Arduino Mega 2560'
+            descriptionSelected: 'arduino: Arduino Mega 2560 (Arduino Mega 2560 v1.0.0)'
+          heatsink:
+            description: Stepper Motor Driver Heatsink
+            id: heatsink
+            notes: ''
+            options:
+              - stepper-motor-driver-heatsink
+            quantity: 5
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: 'heatsink: Stepper Motor Driver Heatsink'
+            descriptionSelected: >-
+              heatsink: Stepper Motor Driver Heatsink (Stepper Motor Driver
+              Heatsink v1.0.0)
+          ramps-smart-adapter:
+            description: RAMPS 1.4 Smart Adapter
+            id: ramps-smart-adapter
+            notes: ''
+            options:
+              - ramps-1_4-smart-adapter
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'ramps-smart-adapter: RAMPS 1.4 Smart Adapter'
+            descriptionSelected: >-
+              ramps-smart-adapter: RAMPS 1.4 Smart Adapter (RAMPS 1.4 Smart
+              Adapter v1.0.0)
+          a4988-stepper-motor-driver:
+            description: A4988 Stepper Motor Driver
+            id: a4988-stepper-motor-driver
+            notes: ''
+            options:
+              - a4988-stepper-motor-driver
+            quantity: 5
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: 'a4988-stepper-motor-driver: A4988 Stepper Motor Driver'
+            descriptionSelected: >-
+              a4988-stepper-motor-driver: A4988 Stepper Motor Driver (A4988
+              Stepper Motor Driver v1.0.0)
+        tools: {}
+        precautions: []
+        assemblySteps:
+          - summary: Assemble the RAMPS 1.4 Board and Arduino Mega 2560
+            requiredParts:
+              - ramps-board
+              - arduino
+              - heatsink
+              - ramps-smart-adapter
+              - a4988-stepper-motor-driver
+            requiredTools: []
+            details: >
+              . Remove the sticker cover from a *Stepper Motor Driver Heatsink*.
+
+              . Stick the *Stepper Motor Driver Heatsink* on the black chip in
+              the center of a *A4988 Stepper Motor Driver*.
+
+              . Repeat the above steps for each *A4988 Stepper Motor Driver*.
+
+              . Orient the *RAMPS 1.4 Board* with the USB B port facing left.
+              This orientation will be assumed for the remaining steps in this
+              section.
+
+              . Orient a *A4988 Stepper Motor Driver* with the white
+              potentiometer on the *RIGHT* side.
+
+              . Insert the *A4988 Stepper Motor Driver* into the E0 slot of the
+              *RAMPS 1.4 Board*. Orientation is VERY IMPORTANT as the *A4988
+              Stepper Motor Driver* can be inserted backwards which will DESTROY
+              the electronics when powered on.
+
+              . Repeat the above steps for the X, Y, Z, and E1 slots in the
+              *RAMPS 1.4 Board*. The E1 slot is used to drive the Y2 axis.
+
+              . Align the *RAMPS 1.4 Board* and *Arduino Mega 2560* such that
+              the *Arduino Mega 2560* is directly above the *RAMPS 1.4 Board*
+              and gently seat the pins into their sockets. There is only one
+              possible orientation that allows both components to sit directly
+              above one another.
+
+              . Using even pressure, push down on each corner of the *RAMPS 1.4
+              Board* until its pins are fully seated into the *Arduino Mega
+              2560*.
+
+              . Position the *RAMPS 1.4 Smart Adapter* over the right side of
+              the *RAMPS 1.4 Board* so that both sets of sockets on the *RAMPS
+              1.4 Smart Adapter* align with the pins on the *RAMPS 1.4 Board*.
+              There is only one orientation that will fit all pins properly.
+
+              . Using even pressure on both ends of the *RAMPS 1.4 Smart
+              Adapter*, push the part gently into place over the *RAMPS 1.4
+              Board* until both components are seated against one another.
+
+              . The RAMPS 1.4 Board and Arduino Mega 2560 assembly is complete.
+
+              . TODO: ADD CRITICAL RESISTOR REMOVAL STEP
       ramps-1_4-smart-adapter:
         name: ramps-1_4-smart-adapter
         version: 1.0.0
@@ -13111,17 +13468,19 @@ components:
         tools: {}
         precautions: []
     parts:
-      ramps-board:
-        description: RAMPS 1.4 Board
-        id: ramps-board
+      ramps-board-assembly:
+        description: RAMPS Board Assembly
+        id: ramps-board-assembly
         notes: ''
         options:
-          - ramps-1_4-board
+          - ramps-1_4-board-assembly
         quantity: 1
-        quantityUnits: part
+        quantityUnits: module
         selectedOption: 0
-        descriptionLong: 'ramps-board: RAMPS 1.4 Board'
-        descriptionSelected: 'ramps-board: RAMPS 1.4 Board (RAMPS 1.4 Board v1.0.0)'
+        descriptionLong: 'ramps-board-assembly: RAMPS Board Assembly'
+        descriptionSelected: >-
+          ramps-board-assembly: RAMPS Board Assembly (RAMPS 1.4 Board Assembly
+          v1.0.0)
       electrical-tape:
         description: Electrical Tape
         id: electrical-tape
@@ -13157,17 +13516,6 @@ components:
         descriptionSelected: >-
           24v-power-supply: 24v Power Supply Module (24V Industrial Power Supply
           Module v1.0.0)
-      arduino:
-        description: Arduino Mega 2560
-        id: arduino
-        notes: ''
-        options:
-          - arduino-mega-2560
-        quantity: 1
-        quantityUnits: part
-        selectedOption: 0
-        descriptionLong: 'arduino: Arduino Mega 2560'
-        descriptionSelected: 'arduino: Arduino Mega 2560 (Arduino Mega 2560 v1.0.0)'
       electrical-cord:
         description: Three Prong Electrical Cord
         id: electrical-cord
@@ -13350,19 +13698,6 @@ components:
         selectedOption: 0
         descriptionLong: 'zip-tie-small: Small Zip Tie'
         descriptionSelected: 'zip-tie-small: Small Zip Tie (4 Inch Zip Tie v1.0.0)'
-      a4988-stepper-motor-driver:
-        description: A4988 Stepper Motor Driver
-        id: a4988-stepper-motor-driver
-        notes: ''
-        options:
-          - a4988-stepper-motor-driver
-        quantity: 5
-        quantityUnits: part(s)
-        selectedOption: 0
-        descriptionLong: 'a4988-stepper-motor-driver: A4988 Stepper Motor Driver'
-        descriptionSelected: >-
-          a4988-stepper-motor-driver: A4988 Stepper Motor Driver (A4988 Stepper
-          Motor Driver v1.0.0)
       jumper:
         description: Jumper Cap
         id: jumper
@@ -13386,19 +13721,6 @@ components:
         descriptionLong: '10-pin-idc-connector: 10 Pin IDC Conector'
         descriptionSelected: >-
           10-pin-idc-connector: 10 Pin IDC Conector (10 Pin IDC Connector Cable
-          v1.0.0)
-      ramps-smart-adapter:
-        description: RAMPS 1.4 Smart Adapter
-        id: ramps-smart-adapter
-        notes: ''
-        options:
-          - ramps-1_4-smart-adapter
-        quantity: 1
-        quantityUnits: part
-        selectedOption: 0
-        descriptionLong: 'ramps-smart-adapter: RAMPS 1.4 Smart Adapter'
-        descriptionSelected: >-
-          ramps-smart-adapter: RAMPS 1.4 Smart Adapter (RAMPS 1.4 Smart Adapter
           v1.0.0)
       marlin-firmware:
         description: Marlin Firmware
@@ -13446,19 +13768,6 @@ components:
         selectedOption: 0
         descriptionLong: 'fork-terminal: Fork Terminal'
         descriptionSelected: 'fork-terminal: Fork Terminal (Electrical Fork Terminal v1.0.0)'
-      heatsink:
-        description: Stepper Motor Driver Heatsink
-        id: heatsink
-        notes: ''
-        options:
-          - stepper-motor-driver-heatsink
-        quantity: 5
-        quantityUnits: part(s)
-        selectedOption: 0
-        descriptionLong: 'heatsink: Stepper Motor Driver Heatsink'
-        descriptionSelected: >-
-          heatsink: Stepper Motor Driver Heatsink (Stepper Motor Driver Heatsink
-          v1.0.0)
       2-pin-dupont-connector:
         description: 2 Pin Female Dupont Connector
         id: 2-pin-dupont-connector
@@ -13738,7 +14047,9 @@ components:
         details: >
           . Use the *Hobby Knife* to clean any extra plastic off of the 3D
           printed components.
-      - summary: Assemble the RAMPS 1.4 Board to RAMPS 1.4 Board 24v Power Custom Wires
+      - summary: >-
+          Assemble the RAMPS Board Assembly to RAMPS Board Assembly 24v Power
+          Custom Wires
         requiredParts:
           - ferrule
           - 22awg-wire
@@ -13775,11 +14086,11 @@ components:
           *Red 22AWG Wire* and *Black 22AWG Wire* into a *2 Pin Female Dupont
           Connector*.
 
-          . The *RAMPS 1.4 Board to RAMPS 1.4 Board 24v Power Custom Wires* are
-          complete.
+          . The *RAMPS Board Assembly to RAMPS Board Assembly 24v Power Custom
+          Wires* are complete.
       - summary: >-
-          Assemble the RAMPS 1.4 Board to Solid State Relay (SSR) 24v Signal
-          Custom Wires
+          Assemble the RAMPS Board Assembly to Solid State Relay (SSR) 24v
+          Signal Custom Wires
         requiredParts:
           - ferrule
           - 22awg-wire
@@ -13810,8 +14121,8 @@ components:
           Terminal* part(s) to the exposed ends of each *Red 22AWG Wire* and
           *Black 22AWG Wire*.
 
-          . The *RAMPS 1.4 Board to Solid State Relay (SSR) 24v Signal Custom
-          Wires* are complete.
+          . The *RAMPS Board Assembly to Solid State Relay (SSR) 24v Signal
+          Custom Wires* are complete.
       - summary: >-
           Assemble the Two Prong Electrical Plug and Solid State Relay (SSR)
           120v Power Custom Wires
@@ -13900,66 +14211,15 @@ components:
 
           . Repeat the above steps for the soldering the remaining *22AWG Wire*
           length(s).
-      - summary: Assemble the RAMPS 1.4 Board and Arduino Mega 2560
+      - summary: Flash firmware on the RAMPS Board Assembly
         requiredParts:
-          - ramps-board
-          - arduino
-          - heatsink
-          - ramps-smart-adapter
-          - a4988-stepper-motor-driver
-        requiredTools: []
-        details: >
-          . Remove the sticker cover from a *Stepper Motor Driver Heatsink*.
-
-          . Stick the *Stepper Motor Driver Heatsink* on the black chip in the
-          center of a *A4988 Stepper Motor Driver*.
-
-          . Repeat the above steps for each *A4988 Stepper Motor Driver*.
-
-          . Orient the *RAMPS 1.4 Board* with the USB B port facing left. This
-          orientation will be assumed for the remaining steps in this section.
-
-          . Orient a *A4988 Stepper Motor Driver* with the white potentiometer
-          on the *RIGHT* side.
-
-          . Insert the *A4988 Stepper Motor Driver* into the E0 slot of the
-          *RAMPS 1.4 Board*. Orientation is VERY IMPORTANT as the *A4988 Stepper
-          Motor Driver* can be inserted backwards which will DESTROY the
-          electronics when powered on.
-
-          . Repeat the above steps for the X, Y, Z, and E1 slots in the *RAMPS
-          1.4 Board*. The E1 slot is used to drive the Y2 axis.
-
-          . Align the *RAMPS 1.4 Board* and *Arduino Mega 2560* such that the
-          *Arduino Mega 2560* is directly above the *RAMPS 1.4 Board* and gently
-          seat the pins into their sockets. There is only one possible
-          orientation that allows both components to sit directly above one
-          another.
-
-          . Using even pressure, push down on each corner of the *RAMPS 1.4
-          Board* until its pins are fully seated into the *Arduino Mega 2560*.
-
-          . Position the *RAMPS 1.4 Smart Adapter* over the right side of the
-          *RAMPS 1.4 Board* so that both sets of sockets on the *RAMPS 1.4 Smart
-          Adapter* align with the pins on the *RAMPS 1.4 Board*. There is only
-          one orientation that will fit all pins properly.
-
-          . Using even pressure on both ends of the *RAMPS 1.4 Smart Adapter*,
-          push the part gently into place over the *RAMPS 1.4 Board* until both
-          components are seated against one another.
-
-          . The RAMPS 1.4 Board and Arduino Mega 2560 assembly is complete.
-
-          . TODO: ADD CRITICAL RESISTOR REMOVAL STEP
-      - summary: Flash firmware on the Arduino Mega 2560
-        requiredParts:
-          - arduino
+          - ramps-board-assembly
           - usb-a-to-usb-b-cable
         requiredTools:
           - pc
           - arduino-ide
         details: >
-          . Plug the *Arduino Mega 2560* into the *Personal Computer* with a
+          . Plug the *RAMPS Board Assembly* into the *Personal Computer* with a
           *USB A to USB B Cable*.
 
           . Download and install *Arduino IDE* from the
@@ -14056,19 +14316,22 @@ components:
 
           +
 
-          image:IMG_3718.jpg[,600,600,pdfwidth=60%] 
+          image:IMG_3718.jpeg[,600,600,pdfwidth=60%] 
 
-          . Zip tie the Mega/RAMPS
+          . Zip tie the *RAMPS Board Assembly* in the four bottom holes using
+          *Small Zip Tie*.
 
-          . Zip tie power supply module
+          . Zip tie the *24v Power Supply Module* in the four bottom holes using
+          *Small Zip Tie*.
 
-          . Zip tie the raspberry pie
+          . Zip tie the *Raspberry Pi Computer* around the center using *Large
+          Zip Tie*.
 
-          . Zip tie the SSR
+          . Zip tie the *Solid State Relay (SSR)* through the mounting holes (if
+          available) or around the center.
 
-          . Zip tie the GFCI
-
-          . TODO
+          . Zip tie the *GFCI* from the back side of the case through the top
+          and bottom mounting holes using *Small Zip Tie*.
       - summary: Wire the GFCI
         requiredParts: []
         requiredTools: []
@@ -14195,21 +14458,21 @@ components:
           . The Raspberry Pi is now wired.
 
           . TODO
-      - summary: Wire the RAMPS 1.4 Board
+      - summary: Wire the RAMPS Board Assembly
         requiredParts: []
         requiredTools: []
         details: >
           . Plug the USB B end of the USB A/USB B cable (connected to the
           raspberry pi) into the USB B port.
 
-          . Connect the ferrule ends of the RAMPS 1.4 Board to RAMPS 1.4 Board
-          24v Power Custom Wires to the bottom left terminals, paying close
-          attention to the polarity.
+          . Connect the ferrule ends of the RAMPS Board Assembly to RAMPS Board
+          Assembly 24v Power Custom Wires to the bottom left terminals, paying
+          close attention to the polarity.
 
-          . Plug the 2-pin-dupont-connector end of the RAMPS 1.4 Board to RAMPS
-          1.4 Board 24v Power Custom Wires into the bottom left ports of the Aux
-          1 pins on the RAMPS board, with positive on the left and negative on
-          the right.
+          . Plug the 2-pin-dupont-connector end of the RAMPS Board Assembly to
+          RAMPS Board Assembly 24v Power Custom Wires into the bottom left ports
+          of the Aux 1 pins on the RAMPS board, with positive on the left and
+          negative on the right.
 
           . Plug in the 24v power supply cables into their port, paying
           attention to the polarity.

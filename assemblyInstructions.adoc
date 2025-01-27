@@ -1,7 +1,7 @@
 = D3D Pro 3D Printer Assembly Instructions
 Alexandria Little - CC-BY-SA-4.0
 :revnumber: v23.12
-:revdate: 1/26/2025
+:revdate: 1/27/2025
 :sectnums:
 :toc:
 :toclevels: 3
@@ -3559,6 +3559,144 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
+== Assemble RAMPS 1.4 Board Assembly
+
+// tools
+
+
+// materials
+
+=== Materials
+|===
+|Quantity |ID |Name |Description |Notes
+
+
+
+|1 part
+|ramps-board
+|RAMPS 1.4 Board
+|RAMPS 1.4 Board v1.0.0
+|
+
+
+
+|1 part
+|arduino
+|Arduino Mega 2560
+|Arduino Mega 2560 v1.0.0
+|
+
+
+
+|5 part(s)
+|heatsink
+|Stepper Motor Driver Heatsink
+|Stepper Motor Driver Heatsink v1.0.0
+|
+
+
+
+|1 part
+|ramps-smart-adapter
+|RAMPS 1.4 Smart Adapter
+|RAMPS 1.4 Smart Adapter v1.0.0
+|
+
+
+
+|5 part(s)
+|a4988-stepper-motor-driver
+|A4988 Stepper Motor Driver
+|A4988 Stepper Motor Driver v1.0.0
+|
+
+|===
+
+
+// Precautions
+
+=== Precautions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* *A4988 Stepper Motor Driver:* The A4988 Stepper Motor Driver must be oriented correctly when inserted into the , or both components WILL BE DESTROYED when powered on.
+
+
+
+
+
+
+// Procedure
+=== Procedure
+
+// summary
+
+==== Assemble the RAMPS 1.4 Board and Arduino Mega 2560
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* RAMPS 1.4 Board
+//
+//* Arduino Mega 2560
+//
+//* Stepper Motor Driver Heatsink
+//
+//* RAMPS 1.4 Smart Adapter
+//
+//* A4988 Stepper Motor Driver
+//
+//
+
+// details
+
+*Instructions*
+
+. Remove the sticker cover from a *Stepper Motor Driver Heatsink*.
+. Stick the *Stepper Motor Driver Heatsink* on the black chip in the center of a *A4988 Stepper Motor Driver*.
+. Repeat the above steps for each *A4988 Stepper Motor Driver*.
+. Orient the *RAMPS 1.4 Board* with the USB B port facing left. This orientation will be assumed for the remaining steps in this section.
+. Orient a *A4988 Stepper Motor Driver* with the white potentiometer on the *RIGHT* side.
+. Insert the *A4988 Stepper Motor Driver* into the E0 slot of the *RAMPS 1.4 Board*. Orientation is VERY IMPORTANT as the *A4988 Stepper Motor Driver* can be inserted backwards which will DESTROY the electronics when powered on.
+. Repeat the above steps for the X, Y, Z, and E1 slots in the *RAMPS 1.4 Board*. The E1 slot is used to drive the Y2 axis.
+. Align the *RAMPS 1.4 Board* and *Arduino Mega 2560* such that the *Arduino Mega 2560* is directly above the *RAMPS 1.4 Board* and gently seat the pins into their sockets. There is only one possible orientation that allows both components to sit directly above one another.
+. Using even pressure, push down on each corner of the *RAMPS 1.4 Board* until its pins are fully seated into the *Arduino Mega 2560*.
+. Position the *RAMPS 1.4 Smart Adapter* over the right side of the *RAMPS 1.4 Board* so that both sets of sockets on the *RAMPS 1.4 Smart Adapter* align with the pins on the *RAMPS 1.4 Board*. There is only one orientation that will fit all pins properly.
+. Using even pressure on both ends of the *RAMPS 1.4 Smart Adapter*, push the part gently into place over the *RAMPS 1.4 Board* until both components are seated against one another.
+. The RAMPS 1.4 Board and Arduino Mega 2560 assembly is complete.
+. TODO: ADD CRITICAL RESISTOR REMOVAL STEP
+
+
+
+
+
+
 == Assemble Universal Controller Assembly
 
 // tools
@@ -3656,10 +3794,10 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
-|1 part
-|ramps-board
-|RAMPS 1.4 Board
-|RAMPS 1.4 Board v1.0.0
+|1 module
+|ramps-board-assembly
+|RAMPS Board Assembly
+|RAMPS 1.4 Board Assembly v1.0.0
 |
 
 
@@ -3684,14 +3822,6 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 |24v-power-supply
 |24v Power Supply Module
 |24V Industrial Power Supply Module v1.0.0
-|
-
-
-
-|1 part
-|arduino
-|Arduino Mega 2560
-|Arduino Mega 2560 v1.0.0
 |
 
 
@@ -3816,14 +3946,6 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
-|5 part(s)
-|a4988-stepper-motor-driver
-|A4988 Stepper Motor Driver
-|A4988 Stepper Motor Driver v1.0.0
-|
-
-
-
 |15 part(s)
 |jumper
 |Jumper Cap
@@ -3836,14 +3958,6 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 |10-pin-idc-connector
 |10 Pin IDC Conector
 |10 Pin IDC Connector Cable v1.0.0
-|
-
-
-
-|1 part
-|ramps-smart-adapter
-|RAMPS 1.4 Smart Adapter
-|RAMPS 1.4 Smart Adapter v1.0.0
 |
 
 
@@ -3876,14 +3990,6 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 |fork-terminal
 |Fork Terminal
 |Electrical Fork Terminal v1.0.0
-|
-
-
-
-|5 part(s)
-|heatsink
-|Stepper Motor Driver Heatsink
-|Stepper Motor Driver Heatsink v1.0.0
 |
 
 
@@ -4052,10 +4158,6 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
-
-
-
-
 * *Electrical Solder:* Rosin Core Lead Free Electrical Solder can contain toxic chemicals! Always work in a well ventialted area and use personal protection equipment!
 
 
@@ -4097,20 +4199,6 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-* *A4988 Stepper Motor Driver:* The A4988 Stepper Motor Driver must be oriented correctly when inserted into the , or both components WILL BE DESTROYED when powered on.
 
 
 
@@ -4220,7 +4308,7 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 // summary
 
-==== Assemble the RAMPS 1.4 Board to RAMPS 1.4 Board 24v Power Custom Wires
+==== Assemble the RAMPS Board Assembly to RAMPS Board Assembly 24v Power Custom Wires
 
 
 // requiredTools
@@ -4261,14 +4349,14 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 . Repeat the above steps to crimp another *Ferrule* to the end of the *Black 22AWG Wire*.
 . Using the *Dupont Crimper*, crimp *Dupont Female Pin Connector* part(s) onto the exposed ends of the *Red 22AWG Wire* and *Black 22AWG Wire*.
 . Insert the both of the *Dupont Female Pin Connector* ends of the *Red 22AWG Wire* and *Black 22AWG Wire* into a *2 Pin Female Dupont Connector*.
-. The *RAMPS 1.4 Board to RAMPS 1.4 Board 24v Power Custom Wires* are complete.
+. The *RAMPS Board Assembly to RAMPS Board Assembly 24v Power Custom Wires* are complete.
 
 
 
 
 // summary
 
-==== Assemble the RAMPS 1.4 Board to Solid State Relay (SSR) 24v Signal Custom Wires
+==== Assemble the RAMPS Board Assembly to Solid State Relay (SSR) 24v Signal Custom Wires
 
 
 // requiredTools
@@ -4305,7 +4393,7 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 . Using the *Ferrule Crimper*, crimp the *Ferrule* part(s) onto the *Red 22AWG Wire* and *Black 22AWG Wire*.
 . Use the *Wire Strippers/Cutters* to cut off any excess *Red 22AWG Wire* or *Black 22AWG Wire* that is poking through the ends of the *Ferrule* part(s).
 . Use the *Dupont Crimper* to crimp on appropriately sized *Fork Terminal* part(s) to the exposed ends of each *Red 22AWG Wire* and *Black 22AWG Wire*.
-. The *RAMPS 1.4 Board to Solid State Relay (SSR) 24v Signal Custom Wires* are complete.
+. The *RAMPS Board Assembly to Solid State Relay (SSR) 24v Signal Custom Wires* are complete.
 
 
 
@@ -4411,52 +4499,7 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 // summary
 
-==== Assemble the RAMPS 1.4 Board and Arduino Mega 2560
-
-
-// requiredTools
-//
-
-// requiredParts
-//
-//*Required Parts*
-//
-//* RAMPS 1.4 Board
-//
-//* Arduino Mega 2560
-//
-//* Stepper Motor Driver Heatsink
-//
-//* RAMPS 1.4 Smart Adapter
-//
-//* A4988 Stepper Motor Driver
-//
-//
-
-// details
-
-*Instructions*
-
-. Remove the sticker cover from a *Stepper Motor Driver Heatsink*.
-. Stick the *Stepper Motor Driver Heatsink* on the black chip in the center of a *A4988 Stepper Motor Driver*.
-. Repeat the above steps for each *A4988 Stepper Motor Driver*.
-. Orient the *RAMPS 1.4 Board* with the USB B port facing left. This orientation will be assumed for the remaining steps in this section.
-. Orient a *A4988 Stepper Motor Driver* with the white potentiometer on the *RIGHT* side.
-. Insert the *A4988 Stepper Motor Driver* into the E0 slot of the *RAMPS 1.4 Board*. Orientation is VERY IMPORTANT as the *A4988 Stepper Motor Driver* can be inserted backwards which will DESTROY the electronics when powered on.
-. Repeat the above steps for the X, Y, Z, and E1 slots in the *RAMPS 1.4 Board*. The E1 slot is used to drive the Y2 axis.
-. Align the *RAMPS 1.4 Board* and *Arduino Mega 2560* such that the *Arduino Mega 2560* is directly above the *RAMPS 1.4 Board* and gently seat the pins into their sockets. There is only one possible orientation that allows both components to sit directly above one another.
-. Using even pressure, push down on each corner of the *RAMPS 1.4 Board* until its pins are fully seated into the *Arduino Mega 2560*.
-. Position the *RAMPS 1.4 Smart Adapter* over the right side of the *RAMPS 1.4 Board* so that both sets of sockets on the *RAMPS 1.4 Smart Adapter* align with the pins on the *RAMPS 1.4 Board*. There is only one orientation that will fit all pins properly.
-. Using even pressure on both ends of the *RAMPS 1.4 Smart Adapter*, push the part gently into place over the *RAMPS 1.4 Board* until both components are seated against one another.
-. The RAMPS 1.4 Board and Arduino Mega 2560 assembly is complete.
-. TODO: ADD CRITICAL RESISTOR REMOVAL STEP
-
-
-
-
-// summary
-
-==== Flash firmware on the Arduino Mega 2560
+==== Flash firmware on the RAMPS Board Assembly
 
 
 // requiredTools
@@ -4473,7 +4516,7 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 //
 //*Required Parts*
 //
-//* Arduino Mega 2560
+//* RAMPS Board Assembly
 //
 //* USB A to USB B Cable
 //
@@ -4483,7 +4526,7 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 *Instructions*
 
-. Plug the *Arduino Mega 2560* into the *Personal Computer* with a *USB A to USB B Cable*.
+. Plug the *RAMPS Board Assembly* into the *Personal Computer* with a *USB A to USB B Cable*.
 . Download and install *Arduino IDE* from the https://www.arduino.cc/en/software[Arduino website]. (https://www.arduino.cc/en/software)
 . Open the *Arduino IDE* software.
 . On the top menu, click 'File' > 'Open...' and navigate to the project documentation folder. 
@@ -4598,13 +4641,12 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 . The below image shows the layout of the components within the *Universal Controller Case*.
 +
-image:IMG_3718.jpg[,600,600,pdfwidth=60%] 
-. Zip tie the Mega/RAMPS
-. Zip tie power supply module
-. Zip tie the raspberry pie
-. Zip tie the SSR
-. Zip tie the GFCI
-. TODO
+image:IMG_3718.jpeg[,600,600,pdfwidth=60%] 
+. Zip tie the *RAMPS Board Assembly* in the four bottom holes using *Small Zip Tie*.
+. Zip tie the *24v Power Supply Module* in the four bottom holes using *Small Zip Tie*.
+. Zip tie the *Raspberry Pi Computer* around the center using *Large Zip Tie*.
+. Zip tie the *Solid State Relay (SSR)* through the mounting holes (if available) or around the center.
+. Zip tie the *GFCI* from the back side of the case through the top and bottom mounting holes using *Small Zip Tie*.
 
 
 
@@ -4750,7 +4792,7 @@ image:IMG_3718.jpg[,600,600,pdfwidth=60%]
 
 // summary
 
-==== Wire the RAMPS 1.4 Board
+==== Wire the RAMPS Board Assembly
 
 
 // requiredTools
@@ -4764,8 +4806,8 @@ image:IMG_3718.jpg[,600,600,pdfwidth=60%]
 *Instructions*
 
 . Plug the USB B end of the USB A/USB B cable (connected to the raspberry pi) into the USB B port.
-. Connect the ferrule ends of the RAMPS 1.4 Board to RAMPS 1.4 Board 24v Power Custom Wires to the bottom left terminals, paying close attention to the polarity.
-. Plug the 2-pin-dupont-connector end of the RAMPS 1.4 Board to RAMPS 1.4 Board 24v Power Custom Wires into the bottom left ports of the Aux 1 pins on the RAMPS board, with positive on the left and negative on the right.
+. Connect the ferrule ends of the RAMPS Board Assembly to RAMPS Board Assembly 24v Power Custom Wires to the bottom left terminals, paying close attention to the polarity.
+. Plug the 2-pin-dupont-connector end of the RAMPS Board Assembly to RAMPS Board Assembly 24v Power Custom Wires into the bottom left ports of the Aux 1 pins on the RAMPS board, with positive on the left and negative on the right.
 . Plug in the 24v power supply cables into their port, paying attention to the polarity.
 . Plug in the SSR signal wires into the heated bed port, paying attention to the polarity.
 . To be continued
