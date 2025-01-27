@@ -1,1 +1,45 @@
-{}
+ramps-board:
+  description: RAMPS 1.4 Board
+  id: ramps-board
+  notes: ''
+  options:
+    - ramps-1_4-board
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+arduino:
+  description: Arduino Mega 2560
+  id: arduino
+  notes: ''
+  options:
+    - arduino-mega-2560
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+heatsink:
+  description: Stepper Motor Driver Heatsink
+  id: heatsink
+  notes: ''
+  options:
+    - stepper-motor-driver-heatsink
+  quantity: 5
+  quantityUnits: part(s)
+  selectedOption: 0
+ramps-smart-adapter:
+  description: RAMPS 1.4 Smart Adapter
+  id: ramps-smart-adapter
+  notes: ''
+  options:
+    - ramps-1_4-smart-adapter
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+a4988-stepper-motor-driver:
+  description: A4988 Stepper Motor Driver
+  id: a4988-stepper-motor-driver
+  notes: ''
+  options:
+    - a4988-stepper-motor-driver
+  quantity: 5
+  quantityUnits: part(s)
+  selectedOption: 0

@@ -1,1 +1,24 @@
-[]
+- summary: Assemble the {{parts.ramps-board.description}} and {{parts.arduino.description}}
+  requiredParts:
+  - ramps-board
+  - arduino
+  - heatsink
+  - ramps-smart-adapter
+  - a4988-stepper-motor-driver
+
+  requiredTools: []
+
+  details: |
+    . Remove the sticker cover from a *{{parts.heatsink.description}}*.
+    . Stick the *{{parts.heatsink.description}}* on the black chip in the center of a *{{parts.a4988-stepper-motor-driver.description}}*.
+    . Repeat the above steps for each *{{parts.a4988-stepper-motor-driver.description}}*.
+    . Orient the *{{parts.ramps-board.description}}* with the USB B port facing left. This orientation will be assumed for the remaining steps in this section.
+    . Orient a *{{parts.a4988-stepper-motor-driver.description}}* with the white potentiometer on the *RIGHT* side.
+    . Insert the *{{parts.a4988-stepper-motor-driver.description}}* into the E0 slot of the *{{parts.ramps-board.description}}*. Orientation is VERY IMPORTANT as the *{{parts.a4988-stepper-motor-driver.description}}* can be inserted backwards which will DESTROY the electronics when powered on.
+    . Repeat the above steps for the X, Y, Z, and E1 slots in the *{{parts.ramps-board.description}}*. The E1 slot is used to drive the Y2 axis.
+    . Align the *{{parts.ramps-board.description}}* and *{{parts.arduino.description}}* such that the *{{parts.arduino.description}}* is directly above the *{{parts.ramps-board.description}}* and gently seat the pins into their sockets. There is only one possible orientation that allows both components to sit directly above one another.
+    . Using even pressure, push down on each corner of the *{{parts.ramps-board.description}}* until its pins are fully seated into the *{{parts.arduino.description}}*.
+    . Position the *{{parts.ramps-smart-adapter.description}}* over the right side of the *{{parts.ramps-board.description}}* so that both sets of sockets on the *{{parts.ramps-smart-adapter.description}}* align with the pins on the *{{parts.ramps-board.description}}*. There is only one orientation that will fit all pins properly.
+    . Using even pressure on both ends of the *{{parts.ramps-smart-adapter.description}}*, push the {{parts.ramps-smart-adapter.quantityUnits}} gently into place over the *{{parts.ramps-board.description}}* until both components are seated against one another.
+    . The {{parts.ramps-board.description}} and {{parts.arduino.description}} assembly is complete.
+    . TODO: ADD CRITICAL RESISTOR REMOVAL STEP
