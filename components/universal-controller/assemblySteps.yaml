@@ -195,7 +195,7 @@
   details: |
     . The below image shows the layout of the components within the *{{parts.case.description}}*.
     +
-    image:IMG_3718.jpg[,600,600,pdfwidth=60%] 
+    image:IMG_3718.jpeg[,600,600,pdfwidth=60%] 
     . Zip tie the Mega/RAMPS
     . Zip tie power supply module
     . Zip tie the raspberry pie
