@@ -171,12 +171,11 @@
     . The below image shows the layout of the components within the *{{parts.case.description}}*.
     +
     image:IMG_3718.jpeg[,600,600,pdfwidth=60%] 
-    . Zip tie the Mega/RAMPS
-    . Zip tie power supply module
-    . Zip tie the raspberry pie
-    . Zip tie the SSR
-    . Zip tie the GFCI
-    . TODO
+    . Zip tie the *{{parts.ramps-board-assembly.description}}* in the four bottom holes using *{{parts.zip-tie-small.description}}*.
+    . Zip tie the *{{parts.24v-power-supply.description}}* in the four bottom holes using *{{parts.zip-tie-small.description}}*.
+    . Zip tie the *{{parts.raspberry-pi.description}}* around the center using *{{parts.zip-tie-large.description}}*.
+    . Zip tie the *{{parts.solid-state-relay.description}}* through the mounting holes (if available) or around the center.
+    . Zip tie the *{{parts.gfci.description}}* from the back side of the case through the top and bottom mounting holes using *{{parts.zip-tie-small.description}}*.
 
 - summary: Wire the {{parts.gfci.description}}
   requiredParts: []
