@@ -77,7 +77,6 @@
     . Repeat the above steps for each of the remaining *{{parts.22awg-wire.description}}* {{parts.22awg-wire.quantityUnits}}.
     . The {{parts.electrical-plug.description}} and {{parts.solid-state-relay.description}} 120v Power Custom Wires are complete.
     
-
 - summary: Assemble the {{parts.solid-state-relay.description}} 24v Signal Custom Wires
   requiredParts: 
   - 22awg-wire
@@ -100,7 +99,6 @@
     . Apply enough *{{parts.solder.description}}* to the contact point of the *{{tools.soldering-iron.description}}* and the clamped *{{parts.22awg-wire.description}}* to bind together the strands of bare *{{parts.22awg-wire.description}}*.
     . Remove the *{{parts.solder.description}}* and the end of the *{{tools.soldering-iron.description}}* from the *{{parts.22awg-wire.description}}*.
     . Repeat the above steps for the soldering the remaining *{{parts.22awg-wire.description}}* {{parts.22awg-wire.quantityUnits}}.
-
 
 - summary: Flash firmware on the {{parts.ramps-board-assembly.description}}
   requiredParts:
@@ -178,12 +176,19 @@
     . Zip tie the *{{parts.gfci.description}}* from the back side of the case through the top and bottom mounting holes using *{{parts.zip-tie-small.description}}*.
 
 - summary: Wire the {{parts.gfci.description}}
-  requiredParts: []
+  requiredParts:
+  - gfci
+  - electrical-cord
+  - electrical-tape
+  - emergency-switch
 
-  requiredTools: []
+  requiredTools:
+  - helping-hands
+  - soldering-iron
 
   details: |
-    . Take the power supply cable and strip back 4-6cm of sheathing.
+    . TODO: Add inline fuse holder, fuse, and specific wire components
+    . Take the *{{parts.electrical-cord.description}}* and strip back 1-2cm of sheathing.
     . Extend one of the power wires (not ground) with 200mm of wire.
     . Bring the extended power wire into the case through the bottom right hole.
     . Solder the inline fuse onto the extended power wire (still not ground).
@@ -229,7 +234,6 @@
     . Screw down the screws in the 24V outlet terminals.
     . The 24v power supply is done. 
     . TODO
-
 
 - summary: Wire the {{parts.solid-state-relay.description}}
   requiredParts: []

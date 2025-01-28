@@ -1,0 +1,9 @@
+{
+  "name": "19mm-latching-emergency-stop-switch",
+  "version": "1.0.0",
+  "description": "19mm Latching Emergency Stop Switch",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}
