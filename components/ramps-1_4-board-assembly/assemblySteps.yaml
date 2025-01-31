@@ -12,7 +12,7 @@
     . Remove the sticker cover from a *{{parts.heatsink.description}}*.
     . Stick the *{{parts.heatsink.description}}* on the black chip in the center of a *{{parts.a4988-stepper-motor-driver.description}}*.
     . Repeat the above steps for each *{{parts.a4988-stepper-motor-driver.description}}*.
-    . Orient the *{{parts.ramps-board.description}}* with the USB B port facing left. This orientation will be assumed for the remaining steps in this section.
+    . Orient the *{{parts.ramps-board.description}}* with the screw in terminals facing left and the row of pins on the right. This orientation will be assumed for the remaining steps in this section.
     . Orient a *{{parts.a4988-stepper-motor-driver.description}}* with the white potentiometer on the *RIGHT* side.
     . Insert the *{{parts.a4988-stepper-motor-driver.description}}* into the E0 slot of the *{{parts.ramps-board.description}}*. Orientation is VERY IMPORTANT as the *{{parts.a4988-stepper-motor-driver.description}}* can be inserted backwards which will DESTROY the electronics when powered on.
     . Repeat the above steps for the X, Y, Z, and E1 slots in the *{{parts.ramps-board.description}}*. The E1 slot is used to drive the Y2 axis.
