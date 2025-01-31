@@ -42,6 +42,13 @@
 
 |1
 |part
+|19mm-latching-emergency-stop-switch
+|19mm Latching Emergency Stop Switch
+
+
+
+|1
+|part
 |1_75mm-heat-break
 |1.75mm Heat Break
 

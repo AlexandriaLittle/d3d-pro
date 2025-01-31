@@ -1,7 +1,7 @@
 = D3D Pro 3D Printer Assembly Instructions
 Alexandria Little - CC-BY-SA-4.0
 :revnumber: v23.12
-:revdate: 1/27/2025
+:revdate: 1/31/2025
 :sectnums:
 :toc:
 :toclevels: 3
@@ -3681,7 +3681,7 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 . Remove the sticker cover from a *Stepper Motor Driver Heatsink*.
 . Stick the *Stepper Motor Driver Heatsink* on the black chip in the center of a *A4988 Stepper Motor Driver*.
 . Repeat the above steps for each *A4988 Stepper Motor Driver*.
-. Orient the *RAMPS 1.4 Board* with the USB B port facing left. This orientation will be assumed for the remaining steps in this section.
+. Orient the *RAMPS 1.4 Board* with the screw in terminals facing left and the row of pins on the right. This orientation will be assumed for the remaining steps in this section.
 . Orient a *A4988 Stepper Motor Driver* with the white potentiometer on the *RIGHT* side.
 . Insert the *A4988 Stepper Motor Driver* into the E0 slot of the *RAMPS 1.4 Board*. Orientation is VERY IMPORTANT as the *A4988 Stepper Motor Driver* can be inserted backwards which will DESTROY the electronics when powered on.
 . Repeat the above steps for the X, Y, Z, and E1 slots in the *RAMPS 1.4 Board*. The E1 slot is used to drive the Y2 axis.
@@ -4064,6 +4064,14 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 |22AWG Braided Copper Wire v1.0.0
 |
 
+
+
+|1 part
+|emergency-switch
+|Emergency Stop Switch
+|19mm Latching Emergency Stop Switch v1.0.0
+|
+
 |===
 
 
@@ -4159,6 +4167,10 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 * *Electrical Solder:* Rosin Core Lead Free Electrical Solder can contain toxic chemicals! Always work in a well ventialted area and use personal protection equipment!
+
+
+
+
 
 
 
@@ -4586,27 +4598,6 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 // summary
 
-==== Configure Octoprint Raspberry Pi Software Image for use
-
-
-// requiredTools
-//
-
-// requiredParts
-//
-
-// details
-
-*Instructions*
-
-. Hello World!
-. TODO
-
-
-
-
-// summary
-
 ==== Attach components to the Universal Controller Case
 
 
@@ -4658,15 +4649,34 @@ image:IMG_3718.jpeg[,600,600,pdfwidth=60%]
 
 // requiredTools
 //
+//*Required Tools*
+//
+//* Helping Hands
+//
+//* Soldering Iron
+//
+//
 
 // requiredParts
+//
+//*Required Parts*
+//
+//* GFCI
+//
+//* Three Prong Electrical Cord
+//
+//* Electrical Tape
+//
+//* Emergency Stop Switch
+//
 //
 
 // details
 
 *Instructions*
 
-. Take the power supply cable and strip back 4-6cm of sheathing.
+. TODO: Add inline fuse holder, fuse, and specific wire components
+. Take the *Three Prong Electrical Cord* and strip back 1-2cm of sheathing.
 . Extend one of the power wires (not ground) with 200mm of wire.
 . Bring the extended power wire into the case through the bottom right hole.
 . Solder the inline fuse onto the extended power wire (still not ground).

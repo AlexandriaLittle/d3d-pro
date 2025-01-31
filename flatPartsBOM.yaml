@@ -24,6 +24,11 @@ components:
     name: 16gb-microsd-card
     quantity: 1
     quantityUnits: part
+  19mm-latching-emergency-stop-switch:
+    description: 19mm Latching Emergency Stop Switch
+    name: 19mm-latching-emergency-stop-switch
+    quantity: 1
+    quantityUnits: part
   1_75mm-heat-break:
     description: 1.75mm Heat Break
     name: 1_75mm-heat-break
