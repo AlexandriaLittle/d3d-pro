@@ -1,1 +1,9 @@
-{}
+flush-cutter:
+  description: Flush Cutter Wire Snips
+  id: flush-cutter
+  notes: ''
+  options:
+    - flush-cutter-wire-snips
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
