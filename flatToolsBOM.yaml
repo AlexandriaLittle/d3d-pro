@@ -89,6 +89,11 @@ components:
     name: ferrule-crimper
     quantity: 1
     quantityUnits: part
+  flush-cutter-wire-snips:
+    description: Flush Cutter Wire Snips
+    name: flush-cutter-wire-snips
+    quantity: 1
+    quantityUnits: part
   helping-hands:
     description: Helping Hands Clamp Stand
     name: helping-hands

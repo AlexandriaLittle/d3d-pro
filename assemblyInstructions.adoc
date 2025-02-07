@@ -1,7 +1,7 @@
 = D3D Pro 3D Printer Assembly Instructions
 Alexandria Little - CC-BY-SA-4.0
 :revnumber: v23.12
-:revdate: 1/31/2025
+:revdate: 2/7/2025
 :sectnums:
 :toc:
 :toclevels: 3
@@ -3563,6 +3563,18 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 // tools
 
+=== Tools
+|===
+|Name |Description |Notes
+
+
+
+|Flush Cutter Wire Snips
+|Flush Cutter Wire Snips
+|
+
+|===
+
 
 // materials
 
@@ -3640,7 +3652,11 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
-* *A4988 Stepper Motor Driver:* The A4988 Stepper Motor Driver must be oriented correctly when inserted into the , or both components WILL BE DESTROYED when powered on.
+
+
+
+
+* *A4988 Stepper Motor Driver:* The A4988 Stepper Motor Driver must be oriented correctly when inserted into the RAMPS 1.4 Board, or both components WILL BE DESTROYED when powered on.
 
 
 
@@ -3649,6 +3665,38 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 // Procedure
 === Procedure
+
+// summary
+
+==== Remove the D1 diode from the RAMPS 1.4 Board
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* Flush Cutter Wire Snips
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* RAMPS 1.4 Board
+//
+//
+
+// details
+
+*Instructions*
+
+. Orient the *RAMPS 1.4 Board* with the screw-in terminals facing left and the row of pins on the right. This orientation will be assumed for the remaining steps in this section. 
+. Locate the D1 diode on the *RAMPS 1.4 Board*. It is located between the slots for the X and Y *A4988 Stepper Motor Driver* part(s), below the capacitors.
+. Using the *Flush Cutter Wire Snips*, cut the D1 diode off of the *RAMPS 1.4 Board*.
+
+
+
 
 // summary
 
@@ -3681,7 +3729,7 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 . Remove the sticker cover from a *Stepper Motor Driver Heatsink*.
 . Stick the *Stepper Motor Driver Heatsink* on the black chip in the center of a *A4988 Stepper Motor Driver*.
 . Repeat the above steps for each *A4988 Stepper Motor Driver*.
-. Orient the *RAMPS 1.4 Board* with the screw in terminals facing left and the row of pins on the right. This orientation will be assumed for the remaining steps in this section.
+. Orient the *RAMPS 1.4 Board* with the screw-in terminals facing left and the row of pins on the right. This orientation will be assumed for the remaining steps in this section.
 . Orient a *A4988 Stepper Motor Driver* with the white potentiometer on the *RIGHT* side.
 . Insert the *A4988 Stepper Motor Driver* into the E0 slot of the *RAMPS 1.4 Board*. Orientation is VERY IMPORTANT as the *A4988 Stepper Motor Driver* can be inserted backwards which will DESTROY the electronics when powered on.
 . Repeat the above steps for the X, Y, Z, and E1 slots in the *RAMPS 1.4 Board*. The E1 slot is used to drive the Y2 axis.

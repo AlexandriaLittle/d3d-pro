@@ -379,7 +379,8 @@ components:
     precautions:
       - >-
         The A4988 Stepper Motor Driver must be oriented correctly when inserted
-        into the , or both components WILL BE DESTROYED when powered on.
+        into the RAMPS 1.4 Board, or both components WILL BE DESTROYED when
+        powered on.
   arduino-ide:
     name: arduino-ide
     version: 1.0.0
@@ -3051,6 +3052,17 @@ components:
     parts: {}
     tools: {}
     precautions: []
+  flush-cutter-wire-snips:
+    name: flush-cutter-wire-snips
+    version: 1.0.0
+    description: Flush Cutter Wire Snips
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
   ground-fault-connection-interrupter:
     name: ground-fault-connection-interrupter
     version: 1.0.0
@@ -4817,12 +4829,23 @@ components:
         precautions:
           - >-
             The A4988 Stepper Motor Driver must be oriented correctly when
-            inserted into the , or both components WILL BE DESTROYED when
-            powered on.
+            inserted into the RAMPS 1.4 Board, or both components WILL BE
+            DESTROYED when powered on.
       arduino-mega-2560:
         name: arduino-mega-2560
         version: 1.0.0
         description: Arduino Mega 2560
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      flush-cutter-wire-snips:
+        name: flush-cutter-wire-snips
+        version: 1.0.0
+        description: Flush Cutter Wire Snips
         license: CC-BY-SA-4.0
         author: Alexandria Little
         dependencies: {}
@@ -4925,9 +4948,36 @@ components:
         descriptionSelected: >-
           a4988-stepper-motor-driver: A4988 Stepper Motor Driver (A4988 Stepper
           Motor Driver v1.0.0)
-    tools: {}
+    tools:
+      flush-cutter:
+        description: Flush Cutter Wire Snips
+        id: flush-cutter
+        notes: ''
+        options:
+          - flush-cutter-wire-snips
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'flush-cutter: Flush Cutter Wire Snips'
+        descriptionSelected: 'flush-cutter: Flush Cutter Wire Snips (Flush Cutter Wire Snips v1.0.0)'
     precautions: []
     assemblySteps:
+      - summary: Remove the D1 diode from the RAMPS 1.4 Board
+        requiredParts:
+          - ramps-board
+        requiredTools:
+          - flush-cutter
+        details: >
+          . Orient the *RAMPS 1.4 Board* with the screw-in terminals facing left
+          and the row of pins on the right. This orientation will be assumed for
+          the remaining steps in this section. 
+
+          . Locate the D1 diode on the *RAMPS 1.4 Board*. It is located between
+          the slots for the X and Y *A4988 Stepper Motor Driver* part(s), below
+          the capacitors.
+
+          . Using the *Flush Cutter Wire Snips*, cut the D1 diode off of the
+          *RAMPS 1.4 Board*.
       - summary: Assemble the RAMPS 1.4 Board and Arduino Mega 2560
         requiredParts:
           - ramps-board
@@ -4944,7 +4994,7 @@ components:
 
           . Repeat the above steps for each *A4988 Stepper Motor Driver*.
 
-          . Orient the *RAMPS 1.4 Board* with the screw in terminals facing left
+          . Orient the *RAMPS 1.4 Board* with the screw-in terminals facing left
           and the row of pins on the right. This orientation will be assumed for
           the remaining steps in this section.
 
@@ -11388,8 +11438,8 @@ components:
         precautions:
           - >-
             The A4988 Stepper Motor Driver must be oriented correctly when
-            inserted into the , or both components WILL BE DESTROYED when
-            powered on.
+            inserted into the RAMPS 1.4 Board, or both components WILL BE
+            DESTROYED when powered on.
       arduino-ide:
         name: arduino-ide
         version: 1.0.0
@@ -13168,12 +13218,23 @@ components:
             precautions:
               - >-
                 The A4988 Stepper Motor Driver must be oriented correctly when
-                inserted into the , or both components WILL BE DESTROYED when
-                powered on.
+                inserted into the RAMPS 1.4 Board, or both components WILL BE
+                DESTROYED when powered on.
           arduino-mega-2560:
             name: arduino-mega-2560
             version: 1.0.0
             description: Arduino Mega 2560
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          flush-cutter-wire-snips:
+            name: flush-cutter-wire-snips
+            version: 1.0.0
+            description: Flush Cutter Wire Snips
             license: CC-BY-SA-4.0
             author: Alexandria Little
             dependencies: {}
@@ -13276,9 +13337,38 @@ components:
             descriptionSelected: >-
               a4988-stepper-motor-driver: A4988 Stepper Motor Driver (A4988
               Stepper Motor Driver v1.0.0)
-        tools: {}
+        tools:
+          flush-cutter:
+            description: Flush Cutter Wire Snips
+            id: flush-cutter
+            notes: ''
+            options:
+              - flush-cutter-wire-snips
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'flush-cutter: Flush Cutter Wire Snips'
+            descriptionSelected: >-
+              flush-cutter: Flush Cutter Wire Snips (Flush Cutter Wire Snips
+              v1.0.0)
         precautions: []
         assemblySteps:
+          - summary: Remove the D1 diode from the RAMPS 1.4 Board
+            requiredParts:
+              - ramps-board
+            requiredTools:
+              - flush-cutter
+            details: >
+              . Orient the *RAMPS 1.4 Board* with the screw-in terminals facing
+              left and the row of pins on the right. This orientation will be
+              assumed for the remaining steps in this section. 
+
+              . Locate the D1 diode on the *RAMPS 1.4 Board*. It is located
+              between the slots for the X and Y *A4988 Stepper Motor Driver*
+              part(s), below the capacitors.
+
+              . Using the *Flush Cutter Wire Snips*, cut the D1 diode off of the
+              *RAMPS 1.4 Board*.
           - summary: Assemble the RAMPS 1.4 Board and Arduino Mega 2560
             requiredParts:
               - ramps-board
@@ -13295,7 +13385,7 @@ components:
 
               . Repeat the above steps for each *A4988 Stepper Motor Driver*.
 
-              . Orient the *RAMPS 1.4 Board* with the screw in terminals facing
+              . Orient the *RAMPS 1.4 Board* with the screw-in terminals facing
               left and the row of pins on the right. This orientation will be
               assumed for the remaining steps in this section.
 
