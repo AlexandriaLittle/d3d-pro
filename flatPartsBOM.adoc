@@ -75,7 +75,7 @@
 
 
 
-|3101
+|3501
 |mm
 |22awg-wire
 |22AWG Braided Copper Wire
@@ -194,7 +194,7 @@
 
 
 
-|6
+|10
 |part(s)
 |electrical-fork-terminal
 |Electrical Fork Terminal
@@ -229,7 +229,7 @@
 
 
 
-|26
+|28
 |part(s)
 |ferrule
 |Wire Ferrule

@@ -52,7 +52,7 @@ components:
   22awg-wire:
     description: 22AWG Braided Copper Wire
     name: 22awg-wire
-    quantity: 3101
+    quantity: 3501
     quantityUnits: mm
   24v-40mm-fan:
     description: 24v 40mm x 40mm x 10mm Fan
@@ -137,7 +137,7 @@ components:
   electrical-fork-terminal:
     description: Electrical Fork Terminal
     name: electrical-fork-terminal
-    quantity: 6
+    quantity: 10
     quantityUnits: part(s)
   electrical-plug-nema-1-15:
     description: Electrical Plug (NEMA 1-15)
@@ -162,7 +162,7 @@ components:
   ferrule:
     description: Wire Ferrule
     name: ferrule
-    quantity: 26
+    quantity: 28
     quantityUnits: part(s)
   ground-fault-connection-interrupter:
     description: Ground Fault Connection Interrupter (GFCI)

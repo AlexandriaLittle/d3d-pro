@@ -212,6 +212,187 @@ components:
     parts: {}
     tools: {}
     precautions: []
+  24v-power-supply-120v-power-wire:
+    name: 24v-power-supply-120v-power-wire
+    version: 1.0.0
+    description: 24v Power Supply 120v Power Wire
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components:
+      22awg-wire:
+        name: 22awg-wire
+        version: 1.0.0
+        description: 22AWG Braided Copper Wire
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      dupont-crimper:
+        name: dupont-crimper
+        version: 1.0.0
+        description: Dupont Wire Crimper
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      electrical-fork-terminal:
+        name: electrical-fork-terminal
+        version: 1.0.0
+        description: Electrical Fork Terminal
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      ferrule:
+        name: ferrule
+        version: 1.0.0
+        description: Wire Ferrule
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      ferrule-crimper:
+        name: ferrule-crimper
+        version: 1.0.0
+        description: Wire Ferrule Crimper
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      wire-stripper-cutter:
+        name: wire-stripper-cutter
+        version: 1.0.0
+        description: Wire Stripper/Cutter
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+    parts:
+      22awg-wire-black:
+        description: Black 22AWG Wire
+        id: 22awg-wire-black
+        notes: ''
+        options:
+          - 22awg-wire
+        quantity: 200
+        quantityUnits: mm
+        selectedOption: 0
+        descriptionLong: '22awg-wire-black: Black 22AWG Wire'
+        descriptionSelected: '22awg-wire-black: Black 22AWG Wire (22AWG Braided Copper Wire v1.0.0)'
+      22awg-wire-red:
+        description: Red 22AWG Wire
+        id: 22awg-wire-red
+        notes: ''
+        options:
+          - 22awg-wire
+        quantity: 200
+        quantityUnits: mm
+        selectedOption: 0
+        descriptionLong: '22awg-wire-red: Red 22AWG Wire'
+        descriptionSelected: '22awg-wire-red: Red 22AWG Wire (22AWG Braided Copper Wire v1.0.0)'
+      fork-terminal:
+        description: Fork Terminal
+        id: fork-terminal
+        notes: ''
+        options:
+          - electrical-fork-terminal
+        quantity: 4
+        quantityUnits: part(s)
+        selectedOption: 0
+        descriptionLong: 'fork-terminal: Fork Terminal'
+        descriptionSelected: 'fork-terminal: Fork Terminal (Electrical Fork Terminal v1.0.0)'
+      ferrule:
+        description: Ferrule
+        id: ferrule
+        notes: ''
+        options:
+          - ferrule
+        quantity: 2
+        quantityUnits: part(s)
+        selectedOption: 0
+        descriptionLong: 'ferrule: Ferrule'
+        descriptionSelected: 'ferrule: Ferrule (Wire Ferrule v1.0.0)'
+    tools:
+      ferrule-crimper:
+        description: Ferrule Crimper
+        id: ferrule-crimper
+        notes: ''
+        options:
+          - ferrule-crimper
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'ferrule-crimper: Ferrule Crimper'
+        descriptionSelected: 'ferrule-crimper: Ferrule Crimper (Wire Ferrule Crimper v1.0.0)'
+      wire-stripper-cutter:
+        description: Wire Strippers/Cutters
+        id: wire-stripper-cutter
+        notes: ''
+        options:
+          - wire-stripper-cutter
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'wire-stripper-cutter: Wire Strippers/Cutters'
+        descriptionSelected: >-
+          wire-stripper-cutter: Wire Strippers/Cutters (Wire Stripper/Cutter
+          v1.0.0)
+      dupont-crimper:
+        description: Dupont Crimper
+        id: dupont-crimper
+        notes: ''
+        options:
+          - dupont-crimper
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'dupont-crimper: Dupont Crimper'
+        descriptionSelected: 'dupont-crimper: Dupont Crimper (Dupont Wire Crimper v1.0.0)'
+    precautions: []
+    assemblySteps:
+      - summary: Assemble the 24v Power Supply 120v Power Wire
+        requiredParts:
+          - 22awg-wire
+          - fork-terminal
+          - ferrule
+        requiredTools:
+          - dupont-crimper
+          - wire-stripper-cutter
+          - ferrule-crimper
+        details: >
+          . Using the *Wire Strippers/Cutters*, cut one 200mm long pieces of
+          *Red 22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
+
+          . Using the *Wire Strippers/Cutters*, strip 2cm of insulation off of
+          each end of the *Red 22AWG Wire* and *Black 22AWG Wire* part(s) from
+          the above steps.
+
+          . Using the *Dupont Crimper*, crimp one *Fork Terminal* onto one end
+          of each of the above *Red 22AWG Wire* and *Black 22AWG Wire* part(s).
+
+          . Using the *Ferrule Crimper*, crimp one *Ferrule* onto one end of
+          each of the above *Red 22AWG Wire* and *Black 22AWG Wire* part(s).
+
+          . The 24v Power Supply 120v Power Wire is complete.
   2_54mm-jumper-cap:
     name: 2_54mm-jumper-cap
     version: 1.0.0
@@ -14836,6 +15017,225 @@ components:
         parts: {}
         tools: {}
         precautions: []
+      universal-controller-electrical-plug:
+        name: universal-controller-electrical-plug
+        version: 1.0.0
+        description: Universal Controller Electrical Plug
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components:
+          24v-power-supply-120v-power-wire:
+            name: 24v-power-supply-120v-power-wire
+            version: 1.0.0
+            description: 24v Power Supply 120v Power Wire
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components:
+              22awg-wire:
+                name: 22awg-wire
+                version: 1.0.0
+                description: 22AWG Braided Copper Wire
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              dupont-crimper:
+                name: dupont-crimper
+                version: 1.0.0
+                description: Dupont Wire Crimper
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              electrical-fork-terminal:
+                name: electrical-fork-terminal
+                version: 1.0.0
+                description: Electrical Fork Terminal
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              ferrule:
+                name: ferrule
+                version: 1.0.0
+                description: Wire Ferrule
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              ferrule-crimper:
+                name: ferrule-crimper
+                version: 1.0.0
+                description: Wire Ferrule Crimper
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              wire-stripper-cutter:
+                name: wire-stripper-cutter
+                version: 1.0.0
+                description: Wire Stripper/Cutter
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+            parts:
+              22awg-wire-black:
+                description: Black 22AWG Wire
+                id: 22awg-wire-black
+                notes: ''
+                options:
+                  - 22awg-wire
+                quantity: 200
+                quantityUnits: mm
+                selectedOption: 0
+                descriptionLong: '22awg-wire-black: Black 22AWG Wire'
+                descriptionSelected: >-
+                  22awg-wire-black: Black 22AWG Wire (22AWG Braided Copper Wire
+                  v1.0.0)
+              22awg-wire-red:
+                description: Red 22AWG Wire
+                id: 22awg-wire-red
+                notes: ''
+                options:
+                  - 22awg-wire
+                quantity: 200
+                quantityUnits: mm
+                selectedOption: 0
+                descriptionLong: '22awg-wire-red: Red 22AWG Wire'
+                descriptionSelected: >-
+                  22awg-wire-red: Red 22AWG Wire (22AWG Braided Copper Wire
+                  v1.0.0)
+              fork-terminal:
+                description: Fork Terminal
+                id: fork-terminal
+                notes: ''
+                options:
+                  - electrical-fork-terminal
+                quantity: 4
+                quantityUnits: part(s)
+                selectedOption: 0
+                descriptionLong: 'fork-terminal: Fork Terminal'
+                descriptionSelected: 'fork-terminal: Fork Terminal (Electrical Fork Terminal v1.0.0)'
+              ferrule:
+                description: Ferrule
+                id: ferrule
+                notes: ''
+                options:
+                  - ferrule
+                quantity: 2
+                quantityUnits: part(s)
+                selectedOption: 0
+                descriptionLong: 'ferrule: Ferrule'
+                descriptionSelected: 'ferrule: Ferrule (Wire Ferrule v1.0.0)'
+            tools:
+              ferrule-crimper:
+                description: Ferrule Crimper
+                id: ferrule-crimper
+                notes: ''
+                options:
+                  - ferrule-crimper
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'ferrule-crimper: Ferrule Crimper'
+                descriptionSelected: 'ferrule-crimper: Ferrule Crimper (Wire Ferrule Crimper v1.0.0)'
+              wire-stripper-cutter:
+                description: Wire Strippers/Cutters
+                id: wire-stripper-cutter
+                notes: ''
+                options:
+                  - wire-stripper-cutter
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'wire-stripper-cutter: Wire Strippers/Cutters'
+                descriptionSelected: >-
+                  wire-stripper-cutter: Wire Strippers/Cutters (Wire
+                  Stripper/Cutter v1.0.0)
+              dupont-crimper:
+                description: Dupont Crimper
+                id: dupont-crimper
+                notes: ''
+                options:
+                  - dupont-crimper
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'dupont-crimper: Dupont Crimper'
+                descriptionSelected: 'dupont-crimper: Dupont Crimper (Dupont Wire Crimper v1.0.0)'
+            precautions: []
+            assemblySteps:
+              - summary: Assemble the 24v Power Supply 120v Power Wire
+                requiredParts:
+                  - 22awg-wire
+                  - fork-terminal
+                  - ferrule
+                requiredTools:
+                  - dupont-crimper
+                  - wire-stripper-cutter
+                  - ferrule-crimper
+                details: >
+                  . Using the *Wire Strippers/Cutters*, cut one 200mm long
+                  pieces of *Red 22AWG Wire* and one 200mm long piece of *Black
+                  22AWG Wire*.
+
+                  . Using the *Wire Strippers/Cutters*, strip 2cm of insulation
+                  off of each end of the *Red 22AWG Wire* and *Black 22AWG Wire*
+                  part(s) from the above steps.
+
+                  . Using the *Dupont Crimper*, crimp one *Fork Terminal* onto
+                  one end of each of the above *Red 22AWG Wire* and *Black 22AWG
+                  Wire* part(s).
+
+                  . Using the *Ferrule Crimper*, crimp one *Ferrule* onto one
+                  end of each of the above *Red 22AWG Wire* and *Black 22AWG
+                  Wire* part(s).
+
+                  . The 24v Power Supply 120v Power Wire is complete.
+        parts:
+          24v-power-supply-120v-power-wire:
+            description: 24v Power Supply 120v Power Wire
+            id: 24v-power-supply-120v-power-wire
+            notes: ''
+            options:
+              - 24v-power-supply-120v-power-wire
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: '24v-power-supply-120v-power-wire: 24v Power Supply 120v Power Wire'
+            descriptionSelected: >-
+              24v-power-supply-120v-power-wire: 24v Power Supply 120v Power Wire
+              (24v Power Supply 120v Power Wire v1.0.0)
+        tools: {}
+        precautions: []
+        assemblySteps:
+          - summary: Assemble the Universal Controller Electrical Plug
+            requiredParts:
+              - 24v-power-supply-120v-power-wire
+            requiredTools: []
+            details: |
+              . TODO: Finish me please :)
       usb-a-to-usb-b-cable:
         name: usb-a-to-usb-b-cable
         version: 1.0.0
@@ -15303,6 +15703,21 @@ components:
         descriptionSelected: >-
           emergency-switch: Emergency Stop Switch (19mm Latching Emergency Stop
           Switch v1.0.0)
+      universal-controller-electrical-plug:
+        description: Universal Controller Electrical Plug
+        id: universal-controller-electrical-plug
+        notes: ''
+        options:
+          - universal-controller-electrical-plug
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: >-
+          universal-controller-electrical-plug: Universal Controller Electrical
+          Plug
+        descriptionSelected: >-
+          universal-controller-electrical-plug: Universal Controller Electrical
+          Plug (Universal Controller Electrical Plug v1.0.0)
     tools:
       3mm-flat-screwdriver:
         description: 3mm Flat Head Screwdriver
@@ -15523,44 +15938,6 @@ components:
 
           . The Two Prong Electrical Plug and Solid State Relay (SSR) 120v Power
           Custom Wires are complete.
-      - summary: Assemble the Solid State Relay (SSR) 24v Signal Custom Wires
-        requiredParts:
-          - 22awg-wire
-          - forked-terminal
-          - solder
-        requiredTools:
-          - dupont-crimper
-          - wire-stripper-cutter
-          - soldering-iron
-          - helping-hands
-        details: >
-          . Using the *Wire Strippers/Cutters*, cut one 200mm long piece of *Red
-          22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
-
-          . Use the *Wire Strippers/Cutters* to strip away 20mm of insulation
-          from both ends of the above *22AWG Wire* length(s).
-
-          . Use the *Dupont Crimper* to crimp a *Fork Terminal* part(s) to one
-          end of each *22AWG Wire*.
-
-          . Preheat the *Soldering Iron* to the temperature recommended on the
-          *Electrical Solder* packaging.
-
-          . Use the *Helping Hands* to clamp in place the bare end of one of the
-          *22AWG Wire* length(s).
-
-          . Use the tip of the *Soldering Iron* to heat the bare end of the
-          clamped *22AWG Wire* length(s) for a few seconds.
-
-          . Apply enough *Electrical Solder* to the contact point of the
-          *Soldering Iron* and the clamped *22AWG Wire* to bind together the
-          strands of bare *22AWG Wire*.
-
-          . Remove the *Electrical Solder* and the end of the *Soldering Iron*
-          from the *22AWG Wire*.
-
-          . Repeat the above steps for the soldering the remaining *22AWG Wire*
-          length(s).
       - summary: Flash firmware on the RAMPS Board Assembly
         requiredParts:
           - ramps-board-assembly
@@ -15853,6 +16230,221 @@ components:
     parts: {}
     tools: {}
     precautions: []
+  universal-controller-electrical-plug:
+    name: universal-controller-electrical-plug
+    version: 1.0.0
+    description: Universal Controller Electrical Plug
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components:
+      24v-power-supply-120v-power-wire:
+        name: 24v-power-supply-120v-power-wire
+        version: 1.0.0
+        description: 24v Power Supply 120v Power Wire
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components:
+          22awg-wire:
+            name: 22awg-wire
+            version: 1.0.0
+            description: 22AWG Braided Copper Wire
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          dupont-crimper:
+            name: dupont-crimper
+            version: 1.0.0
+            description: Dupont Wire Crimper
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          electrical-fork-terminal:
+            name: electrical-fork-terminal
+            version: 1.0.0
+            description: Electrical Fork Terminal
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          ferrule:
+            name: ferrule
+            version: 1.0.0
+            description: Wire Ferrule
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          ferrule-crimper:
+            name: ferrule-crimper
+            version: 1.0.0
+            description: Wire Ferrule Crimper
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          wire-stripper-cutter:
+            name: wire-stripper-cutter
+            version: 1.0.0
+            description: Wire Stripper/Cutter
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+        parts:
+          22awg-wire-black:
+            description: Black 22AWG Wire
+            id: 22awg-wire-black
+            notes: ''
+            options:
+              - 22awg-wire
+            quantity: 200
+            quantityUnits: mm
+            selectedOption: 0
+            descriptionLong: '22awg-wire-black: Black 22AWG Wire'
+            descriptionSelected: >-
+              22awg-wire-black: Black 22AWG Wire (22AWG Braided Copper Wire
+              v1.0.0)
+          22awg-wire-red:
+            description: Red 22AWG Wire
+            id: 22awg-wire-red
+            notes: ''
+            options:
+              - 22awg-wire
+            quantity: 200
+            quantityUnits: mm
+            selectedOption: 0
+            descriptionLong: '22awg-wire-red: Red 22AWG Wire'
+            descriptionSelected: '22awg-wire-red: Red 22AWG Wire (22AWG Braided Copper Wire v1.0.0)'
+          fork-terminal:
+            description: Fork Terminal
+            id: fork-terminal
+            notes: ''
+            options:
+              - electrical-fork-terminal
+            quantity: 4
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: 'fork-terminal: Fork Terminal'
+            descriptionSelected: 'fork-terminal: Fork Terminal (Electrical Fork Terminal v1.0.0)'
+          ferrule:
+            description: Ferrule
+            id: ferrule
+            notes: ''
+            options:
+              - ferrule
+            quantity: 2
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: 'ferrule: Ferrule'
+            descriptionSelected: 'ferrule: Ferrule (Wire Ferrule v1.0.0)'
+        tools:
+          ferrule-crimper:
+            description: Ferrule Crimper
+            id: ferrule-crimper
+            notes: ''
+            options:
+              - ferrule-crimper
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'ferrule-crimper: Ferrule Crimper'
+            descriptionSelected: 'ferrule-crimper: Ferrule Crimper (Wire Ferrule Crimper v1.0.0)'
+          wire-stripper-cutter:
+            description: Wire Strippers/Cutters
+            id: wire-stripper-cutter
+            notes: ''
+            options:
+              - wire-stripper-cutter
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'wire-stripper-cutter: Wire Strippers/Cutters'
+            descriptionSelected: >-
+              wire-stripper-cutter: Wire Strippers/Cutters (Wire Stripper/Cutter
+              v1.0.0)
+          dupont-crimper:
+            description: Dupont Crimper
+            id: dupont-crimper
+            notes: ''
+            options:
+              - dupont-crimper
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'dupont-crimper: Dupont Crimper'
+            descriptionSelected: 'dupont-crimper: Dupont Crimper (Dupont Wire Crimper v1.0.0)'
+        precautions: []
+        assemblySteps:
+          - summary: Assemble the 24v Power Supply 120v Power Wire
+            requiredParts:
+              - 22awg-wire
+              - fork-terminal
+              - ferrule
+            requiredTools:
+              - dupont-crimper
+              - wire-stripper-cutter
+              - ferrule-crimper
+            details: >
+              . Using the *Wire Strippers/Cutters*, cut one 200mm long pieces of
+              *Red 22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
+
+              . Using the *Wire Strippers/Cutters*, strip 2cm of insulation off
+              of each end of the *Red 22AWG Wire* and *Black 22AWG Wire* part(s)
+              from the above steps.
+
+              . Using the *Dupont Crimper*, crimp one *Fork Terminal* onto one
+              end of each of the above *Red 22AWG Wire* and *Black 22AWG Wire*
+              part(s).
+
+              . Using the *Ferrule Crimper*, crimp one *Ferrule* onto one end of
+              each of the above *Red 22AWG Wire* and *Black 22AWG Wire* part(s).
+
+              . The 24v Power Supply 120v Power Wire is complete.
+    parts:
+      24v-power-supply-120v-power-wire:
+        description: 24v Power Supply 120v Power Wire
+        id: 24v-power-supply-120v-power-wire
+        notes: ''
+        options:
+          - 24v-power-supply-120v-power-wire
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: '24v-power-supply-120v-power-wire: 24v Power Supply 120v Power Wire'
+        descriptionSelected: >-
+          24v-power-supply-120v-power-wire: 24v Power Supply 120v Power Wire
+          (24v Power Supply 120v Power Wire v1.0.0)
+    tools: {}
+    precautions: []
+    assemblySteps:
+      - summary: Assemble the Universal Controller Electrical Plug
+        requiredParts:
+          - 24v-power-supply-120v-power-wire
+        requiredTools: []
+        details: |
+          . TODO: Finish me please :)
   universal-frame:
     name: universal-frame
     version: 1.0.0

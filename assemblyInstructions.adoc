@@ -3559,6 +3559,183 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
+== Assemble 24v Power Supply 120v Power Wire
+
+// tools
+
+=== Tools
+|===
+|Name |Description |Notes
+
+
+
+|Ferrule Crimper
+|Wire Ferrule Crimper
+|
+
+
+
+|Wire Strippers/Cutters
+|Wire Stripper/Cutter
+|
+
+
+
+|Dupont Crimper
+|Dupont Wire Crimper
+|
+
+|===
+
+
+// materials
+
+=== Materials
+|===
+|Quantity |ID |Name |Description |Notes
+
+
+
+|200 mm
+|22awg-wire-black
+|Black 22AWG Wire
+|22AWG Braided Copper Wire v1.0.0
+|
+
+
+
+|200 mm
+|22awg-wire-red
+|Red 22AWG Wire
+|22AWG Braided Copper Wire v1.0.0
+|
+
+
+
+|4 part(s)
+|fork-terminal
+|Fork Terminal
+|Electrical Fork Terminal v1.0.0
+|
+
+
+
+|2 part(s)
+|ferrule
+|Ferrule
+|Wire Ferrule v1.0.0
+|
+
+|===
+
+
+// Precautions
+
+
+
+// Procedure
+=== Procedure
+
+// summary
+
+==== Assemble the 24v Power Supply 120v Power Wire
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* Dupont Crimper
+//
+//* Wire Strippers/Cutters
+//
+//* Ferrule Crimper
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* 
+//
+//* Fork Terminal
+//
+//* Ferrule
+//
+//
+
+// details
+
+*Instructions*
+
+. Using the *Wire Strippers/Cutters*, cut one 200mm long pieces of *Red 22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
+. Using the *Wire Strippers/Cutters*, strip 2cm of insulation off of each end of the *Red 22AWG Wire* and *Black 22AWG Wire* part(s) from the above steps.
+. Using the *Dupont Crimper*, crimp one *Fork Terminal* onto one end of each of the above *Red 22AWG Wire* and *Black 22AWG Wire* part(s).
+. Using the *Ferrule Crimper*, crimp one *Ferrule* onto one end of each of the above *Red 22AWG Wire* and *Black 22AWG Wire* part(s).
+. The 24v Power Supply 120v Power Wire is complete.
+
+
+
+
+
+
+== Assemble Universal Controller Electrical Plug
+
+// tools
+
+
+// materials
+
+=== Materials
+|===
+|Quantity |ID |Name |Description |Notes
+
+
+
+|1 part
+|24v-power-supply-120v-power-wire
+|24v Power Supply 120v Power Wire
+|24v Power Supply 120v Power Wire v1.0.0
+|
+
+|===
+
+
+// Precautions
+
+
+
+// Procedure
+=== Procedure
+
+// summary
+
+==== Assemble the Universal Controller Electrical Plug
+
+
+// requiredTools
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* 24v Power Supply 120v Power Wire
+//
+//
+
+// details
+
+*Instructions*
+
+. TODO: Finish me please :)
+
+
+
+
+
+
 == Assemble RAMPS 1.4 Board Assembly Heated Bed Signal Wire
 
 // tools
@@ -4401,6 +4578,14 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 |19mm Latching Emergency Stop Switch v1.0.0
 |
 
+
+
+|1 part
+|universal-controller-electrical-plug
+|Universal Controller Electrical Plug
+|Universal Controller Electrical Plug v1.0.0
+|
+
 |===
 
 
@@ -4614,6 +4799,10 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
+
+
+
+
 // Procedure
 === Procedure
 
@@ -4694,54 +4883,6 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 . Remove the *Electrical Solder* and the end of the *Soldering Iron* from the *22AWG Wire*.
 . Repeat the above steps for each of the remaining *22AWG Wire* length(s).
 . The Two Prong Electrical Plug and Solid State Relay (SSR) 120v Power Custom Wires are complete.
-
-
-
-
-// summary
-
-==== Assemble the Solid State Relay (SSR) 24v Signal Custom Wires
-
-
-// requiredTools
-//
-//*Required Tools*
-//
-//* Dupont Crimper
-//
-//* Wire Strippers/Cutters
-//
-//* Soldering Iron
-//
-//* Helping Hands
-//
-//
-
-// requiredParts
-//
-//*Required Parts*
-//
-//* 22AWG Wire
-//
-//* 
-//
-//* Electrical Solder
-//
-//
-
-// details
-
-*Instructions*
-
-. Using the *Wire Strippers/Cutters*, cut one 200mm long piece of *Red 22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
-. Use the *Wire Strippers/Cutters* to strip away 20mm of insulation from both ends of the above *22AWG Wire* length(s).
-. Use the *Dupont Crimper* to crimp a *Fork Terminal* part(s) to one end of each *22AWG Wire*.
-. Preheat the *Soldering Iron* to the temperature recommended on the *Electrical Solder* packaging.
-. Use the *Helping Hands* to clamp in place the bare end of one of the *22AWG Wire* length(s).
-. Use the tip of the *Soldering Iron* to heat the bare end of the clamped *22AWG Wire* length(s) for a few seconds.
-. Apply enough *Electrical Solder* to the contact point of the *Soldering Iron* and the clamped *22AWG Wire* to bind together the strands of bare *22AWG Wire*.
-. Remove the *Electrical Solder* and the end of the *Soldering Iron* from the *22AWG Wire*.
-. Repeat the above steps for the soldering the remaining *22AWG Wire* length(s).
 
 
 
