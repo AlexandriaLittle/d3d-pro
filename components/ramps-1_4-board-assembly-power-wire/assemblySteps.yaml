@@ -11,7 +11,7 @@
   - dupont-crimper
 
   details: |
-    . Using the *{{tools.wire-stripper-cutter.description}}*, cut one 100mm long piece of *{{parts.22awg-wire-red.description}}* and one 100mm long piece of *{{parts.22awg-wire-black.description}}*.
+    . Using the *{{tools.wire-stripper-cutter.description}}*, cut one {{parts.22awg-wire-red.quantity}}{{parts.22awg-wire-red.quantityUnits}} long piece of *{{parts.22awg-wire-red.description}}* and one {{parts.22awg-wire-black.quantity}}{{parts.22awg-wire-black.quantityUnits}} long piece of *{{parts.22awg-wire-black.description}}*.
     . Using the *{{tools.wire-stripper-cutter.description}}*, strip approximately 1cm of insulation off of both ends of the *{{parts.22awg-wire-red.description}}* and *{{parts.22awg-wire-black.description}}*.
     . Place an appropriately sized *{{parts.ferrule.description}}* onto the end of the stripped *{{parts.22awg-wire-red.description}}*.
     . Using the *{{tools.ferrule-crimper.description}}*, crimp the *{{parts.ferrule.description}}* onto the wire.
