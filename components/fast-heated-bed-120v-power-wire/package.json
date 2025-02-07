@@ -1,0 +1,9 @@
+{
+  "name": "fast-heated-bed-120v-power-wire",
+  "version": "1.0.0",
+  "description": "Fast Heated Bed 120v Power Wire",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}
