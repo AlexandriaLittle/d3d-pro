@@ -1,1 +1,20 @@
-[]
+- summary: Assemble the {{description}}
+  requiredParts:
+  - 18awg-wire
+  - fork-terminal
+  - ferrule
+
+  requiredTools:
+  - dupont-crimper
+  - wire-stripper-cutter
+  - ferrule-crimper
+
+  details: |
+    . Using the *{{tools.wire-stripper-cutter.description}}*, cut one 200mm long piece of *{{parts.18awg-wire-red.description}}*.
+    . Using the *{{tools.wire-stripper-cutter.description}}*, cut one 750mm long piece of *{{parts.18awg-wire-red.description}}* and one 750mm long piece of *{{parts.18awg-wire-black.description}}*.
+    . Using the *{{tools.wire-stripper-cutter.description}}*, strip 2cm of insulation off of each end of the *{{parts.18awg-wire-black.description}}* and *{{parts.18awg-wire-red.description}}* from the above steps.
+    . Using the *{{tools.dupont-crimper.description}}*, crimp one *{{parts.fork-terminal.description}}* onto one end of each of the *{{parts.18awg-wire-black.description}}* and *{{parts.18awg-wire-red.description}}* from the above steps.
+    . Using the *{{tools.dupont-crimper.description}}*, crimp one *{{parts.fork-terminal.description}}* onto the bare end of the 200mm *{{parts.18awg-wire-red.description}}*. Set this wire aside as it is completed.
+    . Using the *{{tools.wire-stripper-cutter.description}}*, cut off the plastic shield end of two *{{parts.ferrule.description}}* {{parts.ferrule.quantityUnits}} so that only the metal *{{parts.ferrule.description}}* tubes remain.
+    . Using the *{{tools.ferrule-crimper}}*, crimp the *{{parts.ferrule.description}}* tubes to the bare ends of the remaining *{{parts.18awg-wire-black.description}}* and *{{parts.18awg-wire-red.description}}*.
+    . The *{{description}}* is complete.

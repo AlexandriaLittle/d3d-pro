@@ -1,1 +1,27 @@
-{}
+18awg-wire-red:
+  description: Red 18AWG Wire
+  id: 18awg-wire-red
+  notes: ''
+  options:
+    - 18awg-wire
+  quantity: 950
+  quantityUnits: mm
+  selectedOption: 0
+18awg-wire-black:
+  description: Black 18AWG Wire
+  id: 18awg-wire-black
+  notes: ''
+  options:
+    - 18awg-wire
+  quantity: 750
+  quantityUnits: mm
+  selectedOption: 0
+ferrule:
+  description: Ferrule
+  id: ferrule
+  notes: ''
+  options:
+    - ferrule
+  quantity: 2
+  quantityUnits: part(s)
+  selectedOption: 0
