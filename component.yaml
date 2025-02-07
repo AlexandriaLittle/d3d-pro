@@ -30,17 +30,6 @@ components:
     parts: {}
     tools: {}
     precautions: []
-  14awg-wire:
-    name: 14awg-wire
-    version: 1.0.0
-    description: 14 AWG Braided Copper Wire
-    license: CC-BY-SA-4.0
-    author: Alexandria Little
-    dependencies: {}
-    components: {}
-    parts: {}
-    tools: {}
-    precautions: []
   15a-120v-glass-fuse:
     name: 15a-120v-glass-fuse
     version: 1.0.0
@@ -70,6 +59,17 @@ components:
     name: 16gb-microsd-card
     version: 1.0.0
     description: 16GB MicroSD Card
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
+  18awg-wire:
+    name: 18awg-wire
+    version: 1.0.0
+    description: 18AWG Braided Copper Wire
     license: CC-BY-SA-4.0
     author: Alexandria Little
     dependencies: {}
@@ -379,8 +379,8 @@ components:
           - wire-stripper-cutter
           - ferrule-crimper
         details: >
-          . Using the *Wire Strippers/Cutters*, cut one 100mm long pieces of
-          *Red 22AWG Wire* and one 100mm long piece of *Black 22AWG Wire*.
+          . Using the *Wire Strippers/Cutters*, cut one 100mm long piece of *Red
+          22AWG Wire* and one 100mm long piece of *Black 22AWG Wire*.
 
           . Using the *Wire Strippers/Cutters*, strip 2cm of insulation off of
           each end of the *Red 22AWG Wire* and *Black 22AWG Wire* part(s) from
@@ -2126,6 +2126,19 @@ components:
         tools: {}
         precautions: []
     parts:
+      lightbulb-assembly:
+        description: Halogen Lightbulb Assembly
+        id: lightbulb-assembly
+        notes: ''
+        options:
+          - fast-heated-bed-lightbulb-assembly
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'lightbulb-assembly: Halogen Lightbulb Assembly'
+        descriptionSelected: >-
+          lightbulb-assembly: Halogen Lightbulb Assembly (Halogen Lightbulb
+          Assembly v1.0.0)
       8mm-rod:
         description: 8mm Rod
         id: 8mm-rod
@@ -2209,19 +2222,6 @@ components:
         descriptionSelected: >-
           corner-brace: Corner Brace (2 inch x 5/8 Inch Corner Brace (Four
           Holes) v1.0.0)
-      lightbulb-assembly:
-        description: Halogen Lightbulb Assembly
-        id: lightbulb-assembly
-        notes: ''
-        options:
-          - fast-heated-bed-lightbulb-assembly
-        quantity: 1
-        quantityUnits: part
-        selectedOption: 0
-        descriptionLong: 'lightbulb-assembly: Halogen Lightbulb Assembly'
-        descriptionSelected: >-
-          lightbulb-assembly: Halogen Lightbulb Assembly (Halogen Lightbulb
-          Assembly v1.0.0)
       m6-20mm-screw:
         description: M6 x 20mm Screw
         id: m6-20mm-screw
@@ -2370,10 +2370,192 @@ components:
     license: CC-BY-SA-4.0
     author: Alexandria Little
     dependencies: {}
-    components: {}
-    parts: {}
-    tools: {}
+    components:
+      18awg-wire:
+        name: 18awg-wire
+        version: 1.0.0
+        description: 18AWG Braided Copper Wire
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      dupont-crimper:
+        name: dupont-crimper
+        version: 1.0.0
+        description: Dupont Wire Crimper
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      electrical-fork-terminal:
+        name: electrical-fork-terminal
+        version: 1.0.0
+        description: Electrical Fork Terminal
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      ferrule:
+        name: ferrule
+        version: 1.0.0
+        description: Wire Ferrule
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      ferrule-crimper:
+        name: ferrule-crimper
+        version: 1.0.0
+        description: Wire Ferrule Crimper
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      wire-stripper-cutter:
+        name: wire-stripper-cutter
+        version: 1.0.0
+        description: Wire Stripper/Cutter
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+    parts:
+      18awg-wire-red:
+        description: Red 18AWG Wire
+        id: 18awg-wire-red
+        notes: ''
+        options:
+          - 18awg-wire
+        quantity: 950
+        quantityUnits: mm
+        selectedOption: 0
+        descriptionLong: '18awg-wire-red: Red 18AWG Wire'
+        descriptionSelected: '18awg-wire-red: Red 18AWG Wire (18AWG Braided Copper Wire v1.0.0)'
+      18awg-wire-black:
+        description: Black 18AWG Wire
+        id: 18awg-wire-black
+        notes: ''
+        options:
+          - 18awg-wire
+        quantity: 750
+        quantityUnits: mm
+        selectedOption: 0
+        descriptionLong: '18awg-wire-black: Black 18AWG Wire'
+        descriptionSelected: '18awg-wire-black: Black 18AWG Wire (18AWG Braided Copper Wire v1.0.0)'
+      ferrule:
+        description: Ferrule
+        id: ferrule
+        notes: ''
+        options:
+          - ferrule
+        quantity: 2
+        quantityUnits: part(s)
+        selectedOption: 0
+        descriptionLong: 'ferrule: Ferrule'
+        descriptionSelected: 'ferrule: Ferrule (Wire Ferrule v1.0.0)'
+      fork-terminal:
+        description: Fork Terminal
+        id: fork-terminal
+        notes: ''
+        options:
+          - electrical-fork-terminal
+        quantity: 4
+        quantityUnits: part(s)
+        selectedOption: 0
+        descriptionLong: 'fork-terminal: Fork Terminal'
+        descriptionSelected: 'fork-terminal: Fork Terminal (Electrical Fork Terminal v1.0.0)'
+    tools:
+      wire-stripper-cutter:
+        description: Wire Strippers/Cutters
+        id: wire-stripper-cutter
+        notes: ''
+        options:
+          - wire-stripper-cutter
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'wire-stripper-cutter: Wire Strippers/Cutters'
+        descriptionSelected: >-
+          wire-stripper-cutter: Wire Strippers/Cutters (Wire Stripper/Cutter
+          v1.0.0)
+      ferrule-crimper:
+        description: Ferrule Crimper
+        id: ferrule-crimper
+        notes: ''
+        options:
+          - ferrule-crimper
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'ferrule-crimper: Ferrule Crimper'
+        descriptionSelected: 'ferrule-crimper: Ferrule Crimper (Wire Ferrule Crimper v1.0.0)'
+      dupont-crimper:
+        description: Dupont Crimper
+        id: dupont-crimper
+        notes: ''
+        options:
+          - dupont-crimper
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'dupont-crimper: Dupont Crimper'
+        descriptionSelected: 'dupont-crimper: Dupont Crimper (Dupont Wire Crimper v1.0.0)'
     precautions: []
+    assemblySteps:
+      - summary: Assemble the Fast Heated Bed 120v Power Wire
+        requiredParts:
+          - 18awg-wire
+          - fork-terminal
+          - ferrule
+        requiredTools:
+          - dupont-crimper
+          - wire-stripper-cutter
+          - ferrule-crimper
+        details: >
+          . Using the *Wire Strippers/Cutters*, cut one 200mm long piece of *Red
+          18AWG Wire*.
+
+          . Using the *Wire Strippers/Cutters*, cut one 750mm long piece of *Red
+          18AWG Wire* and one 750mm long piece of *Black 18AWG Wire*.
+
+          . Using the *Wire Strippers/Cutters*, strip 2cm of insulation off of
+          each end of the *Black 18AWG Wire* and *Red 18AWG Wire* from the above
+          steps.
+
+          . Using the *Dupont Crimper*, crimp one *Fork Terminal* onto one end
+          of each of the *Black 18AWG Wire* and *Red 18AWG Wire* from the above
+          steps.
+
+          . Using the *Dupont Crimper*, crimp one *Fork Terminal* onto the bare
+          end of the 200mm *Red 18AWG Wire*. Set this wire aside as it is
+          completed.
+
+          . Using the *Wire Strippers/Cutters*, cut off the plastic shield end
+          of two *Ferrule* part(s) so that only the metal *Ferrule* tubes
+          remain.
+
+          . Using the *Ferrule Crimper*, crimp the *Ferrule* tubes to the bare
+          ends of the remaining *Black 18AWG Wire* and *Red 18AWG Wire*.
+
+          . The *Fast Heated Bed 120v Power Wire* is complete.
   fast-heated-bed-bottom-plate:
     name: fast-heated-bed-bottom-plate
     version: 1.0.0
@@ -12358,17 +12540,6 @@ components:
         parts: {}
         tools: {}
         precautions: []
-      14awg-wire:
-        name: 14awg-wire
-        version: 1.0.0
-        description: 14 AWG Braided Copper Wire
-        license: CC-BY-SA-4.0
-        author: Alexandria Little
-        dependencies: {}
-        components: {}
-        parts: {}
-        tools: {}
-        precautions: []
       16gb-microsd-card:
         name: 16gb-microsd-card
         version: 1.0.0
@@ -13858,6 +14029,19 @@ components:
             tools: {}
             precautions: []
         parts:
+          lightbulb-assembly:
+            description: Halogen Lightbulb Assembly
+            id: lightbulb-assembly
+            notes: ''
+            options:
+              - fast-heated-bed-lightbulb-assembly
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'lightbulb-assembly: Halogen Lightbulb Assembly'
+            descriptionSelected: >-
+              lightbulb-assembly: Halogen Lightbulb Assembly (Halogen Lightbulb
+              Assembly v1.0.0)
           8mm-rod:
             description: 8mm Rod
             id: 8mm-rod
@@ -13941,19 +14125,6 @@ components:
             descriptionSelected: >-
               corner-brace: Corner Brace (2 inch x 5/8 Inch Corner Brace (Four
               Holes) v1.0.0)
-          lightbulb-assembly:
-            description: Halogen Lightbulb Assembly
-            id: lightbulb-assembly
-            notes: ''
-            options:
-              - fast-heated-bed-lightbulb-assembly
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'lightbulb-assembly: Halogen Lightbulb Assembly'
-            descriptionSelected: >-
-              lightbulb-assembly: Halogen Lightbulb Assembly (Halogen Lightbulb
-              Assembly v1.0.0)
           m6-20mm-screw:
             description: M6 x 20mm Screw
             id: m6-20mm-screw
@@ -15207,9 +15378,9 @@ components:
                   - wire-stripper-cutter
                   - ferrule-crimper
                 details: >
-                  . Using the *Wire Strippers/Cutters*, cut one 100mm long
-                  pieces of *Red 22AWG Wire* and one 100mm long piece of *Black
-                  22AWG Wire*.
+                  . Using the *Wire Strippers/Cutters*, cut one 100mm long piece
+                  of *Red 22AWG Wire* and one 100mm long piece of *Black 22AWG
+                  Wire*.
 
                   . Using the *Wire Strippers/Cutters*, strip 2cm of insulation
                   off of each end of the *Red 22AWG Wire* and *Black 22AWG Wire*
@@ -15224,6 +15395,205 @@ components:
                   Wire* part(s).
 
                   . The *24v Power Supply 120v Power Wire* is complete.
+          fast-heated-bed-120v-power-wire:
+            name: fast-heated-bed-120v-power-wire
+            version: 1.0.0
+            description: Fast Heated Bed 120v Power Wire
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components:
+              18awg-wire:
+                name: 18awg-wire
+                version: 1.0.0
+                description: 18AWG Braided Copper Wire
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              dupont-crimper:
+                name: dupont-crimper
+                version: 1.0.0
+                description: Dupont Wire Crimper
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              electrical-fork-terminal:
+                name: electrical-fork-terminal
+                version: 1.0.0
+                description: Electrical Fork Terminal
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              ferrule:
+                name: ferrule
+                version: 1.0.0
+                description: Wire Ferrule
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              ferrule-crimper:
+                name: ferrule-crimper
+                version: 1.0.0
+                description: Wire Ferrule Crimper
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              wire-stripper-cutter:
+                name: wire-stripper-cutter
+                version: 1.0.0
+                description: Wire Stripper/Cutter
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+            parts:
+              18awg-wire-red:
+                description: Red 18AWG Wire
+                id: 18awg-wire-red
+                notes: ''
+                options:
+                  - 18awg-wire
+                quantity: 950
+                quantityUnits: mm
+                selectedOption: 0
+                descriptionLong: '18awg-wire-red: Red 18AWG Wire'
+                descriptionSelected: >-
+                  18awg-wire-red: Red 18AWG Wire (18AWG Braided Copper Wire
+                  v1.0.0)
+              18awg-wire-black:
+                description: Black 18AWG Wire
+                id: 18awg-wire-black
+                notes: ''
+                options:
+                  - 18awg-wire
+                quantity: 750
+                quantityUnits: mm
+                selectedOption: 0
+                descriptionLong: '18awg-wire-black: Black 18AWG Wire'
+                descriptionSelected: >-
+                  18awg-wire-black: Black 18AWG Wire (18AWG Braided Copper Wire
+                  v1.0.0)
+              ferrule:
+                description: Ferrule
+                id: ferrule
+                notes: ''
+                options:
+                  - ferrule
+                quantity: 2
+                quantityUnits: part(s)
+                selectedOption: 0
+                descriptionLong: 'ferrule: Ferrule'
+                descriptionSelected: 'ferrule: Ferrule (Wire Ferrule v1.0.0)'
+              fork-terminal:
+                description: Fork Terminal
+                id: fork-terminal
+                notes: ''
+                options:
+                  - electrical-fork-terminal
+                quantity: 4
+                quantityUnits: part(s)
+                selectedOption: 0
+                descriptionLong: 'fork-terminal: Fork Terminal'
+                descriptionSelected: 'fork-terminal: Fork Terminal (Electrical Fork Terminal v1.0.0)'
+            tools:
+              wire-stripper-cutter:
+                description: Wire Strippers/Cutters
+                id: wire-stripper-cutter
+                notes: ''
+                options:
+                  - wire-stripper-cutter
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'wire-stripper-cutter: Wire Strippers/Cutters'
+                descriptionSelected: >-
+                  wire-stripper-cutter: Wire Strippers/Cutters (Wire
+                  Stripper/Cutter v1.0.0)
+              ferrule-crimper:
+                description: Ferrule Crimper
+                id: ferrule-crimper
+                notes: ''
+                options:
+                  - ferrule-crimper
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'ferrule-crimper: Ferrule Crimper'
+                descriptionSelected: 'ferrule-crimper: Ferrule Crimper (Wire Ferrule Crimper v1.0.0)'
+              dupont-crimper:
+                description: Dupont Crimper
+                id: dupont-crimper
+                notes: ''
+                options:
+                  - dupont-crimper
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'dupont-crimper: Dupont Crimper'
+                descriptionSelected: 'dupont-crimper: Dupont Crimper (Dupont Wire Crimper v1.0.0)'
+            precautions: []
+            assemblySteps:
+              - summary: Assemble the Fast Heated Bed 120v Power Wire
+                requiredParts:
+                  - 18awg-wire
+                  - fork-terminal
+                  - ferrule
+                requiredTools:
+                  - dupont-crimper
+                  - wire-stripper-cutter
+                  - ferrule-crimper
+                details: >
+                  . Using the *Wire Strippers/Cutters*, cut one 200mm long piece
+                  of *Red 18AWG Wire*.
+
+                  . Using the *Wire Strippers/Cutters*, cut one 750mm long piece
+                  of *Red 18AWG Wire* and one 750mm long piece of *Black 18AWG
+                  Wire*.
+
+                  . Using the *Wire Strippers/Cutters*, strip 2cm of insulation
+                  off of each end of the *Black 18AWG Wire* and *Red 18AWG Wire*
+                  from the above steps.
+
+                  . Using the *Dupont Crimper*, crimp one *Fork Terminal* onto
+                  one end of each of the *Black 18AWG Wire* and *Red 18AWG Wire*
+                  from the above steps.
+
+                  . Using the *Dupont Crimper*, crimp one *Fork Terminal* onto
+                  the bare end of the 200mm *Red 18AWG Wire*. Set this wire
+                  aside as it is completed.
+
+                  . Using the *Wire Strippers/Cutters*, cut off the plastic
+                  shield end of two *Ferrule* part(s) so that only the metal
+                  *Ferrule* tubes remain.
+
+                  . Using the *Ferrule Crimper*, crimp the *Ferrule* tubes to
+                  the bare ends of the remaining *Black 18AWG Wire* and *Red
+                  18AWG Wire*.
+
+                  . The *Fast Heated Bed 120v Power Wire* is complete.
         parts:
           24v-power-supply-120v-power-wire:
             description: 24v Power Supply 120v Power Wire
@@ -15238,6 +15608,19 @@ components:
             descriptionSelected: >-
               24v-power-supply-120v-power-wire: 24v Power Supply 120v Power Wire
               (24v Power Supply 120v Power Wire v1.0.0)
+          fast-heated-bed-120v-power-wire:
+            description: Fast Heated Bed 120v Power Wire
+            id: fast-heated-bed-120v-power-wire
+            notes: ''
+            options:
+              - fast-heated-bed-120v-power-wire
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'fast-heated-bed-120v-power-wire: Fast Heated Bed 120v Power Wire'
+            descriptionSelected: >-
+              fast-heated-bed-120v-power-wire: Fast Heated Bed 120v Power Wire
+              (Fast Heated Bed 120v Power Wire v1.0.0)
         tools: {}
         precautions: []
         assemblySteps:
@@ -15570,17 +15953,6 @@ components:
         descriptionSelected: >-
           raspberry-pi-image: Octoprint Raspberry Pi Software Image (Octoprint
           Raspberry Pi Software Image v1.0.0)
-      14awg-wire:
-        description: 14AWG Wire
-        id: 14awg-wire
-        notes: ''
-        options:
-          - 14awg-wire
-        quantity: 1
-        quantityUnits: mm
-        selectedOption: 0
-        descriptionLong: '14awg-wire: 14AWG Wire'
-        descriptionSelected: '14awg-wire: 14AWG Wire (14 AWG Braided Copper Wire v1.0.0)'
       fork-terminal:
         description: Fork Terminal
         id: fork-terminal
@@ -16418,7 +16790,7 @@ components:
               - wire-stripper-cutter
               - ferrule-crimper
             details: >
-              . Using the *Wire Strippers/Cutters*, cut one 100mm long pieces of
+              . Using the *Wire Strippers/Cutters*, cut one 100mm long piece of
               *Red 22AWG Wire* and one 100mm long piece of *Black 22AWG Wire*.
 
               . Using the *Wire Strippers/Cutters*, strip 2cm of insulation off
@@ -16433,6 +16805,202 @@ components:
               each of the above *Red 22AWG Wire* and *Black 22AWG Wire* part(s).
 
               . The *24v Power Supply 120v Power Wire* is complete.
+      fast-heated-bed-120v-power-wire:
+        name: fast-heated-bed-120v-power-wire
+        version: 1.0.0
+        description: Fast Heated Bed 120v Power Wire
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components:
+          18awg-wire:
+            name: 18awg-wire
+            version: 1.0.0
+            description: 18AWG Braided Copper Wire
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          dupont-crimper:
+            name: dupont-crimper
+            version: 1.0.0
+            description: Dupont Wire Crimper
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          electrical-fork-terminal:
+            name: electrical-fork-terminal
+            version: 1.0.0
+            description: Electrical Fork Terminal
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          ferrule:
+            name: ferrule
+            version: 1.0.0
+            description: Wire Ferrule
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          ferrule-crimper:
+            name: ferrule-crimper
+            version: 1.0.0
+            description: Wire Ferrule Crimper
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          wire-stripper-cutter:
+            name: wire-stripper-cutter
+            version: 1.0.0
+            description: Wire Stripper/Cutter
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+        parts:
+          18awg-wire-red:
+            description: Red 18AWG Wire
+            id: 18awg-wire-red
+            notes: ''
+            options:
+              - 18awg-wire
+            quantity: 950
+            quantityUnits: mm
+            selectedOption: 0
+            descriptionLong: '18awg-wire-red: Red 18AWG Wire'
+            descriptionSelected: '18awg-wire-red: Red 18AWG Wire (18AWG Braided Copper Wire v1.0.0)'
+          18awg-wire-black:
+            description: Black 18AWG Wire
+            id: 18awg-wire-black
+            notes: ''
+            options:
+              - 18awg-wire
+            quantity: 750
+            quantityUnits: mm
+            selectedOption: 0
+            descriptionLong: '18awg-wire-black: Black 18AWG Wire'
+            descriptionSelected: >-
+              18awg-wire-black: Black 18AWG Wire (18AWG Braided Copper Wire
+              v1.0.0)
+          ferrule:
+            description: Ferrule
+            id: ferrule
+            notes: ''
+            options:
+              - ferrule
+            quantity: 2
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: 'ferrule: Ferrule'
+            descriptionSelected: 'ferrule: Ferrule (Wire Ferrule v1.0.0)'
+          fork-terminal:
+            description: Fork Terminal
+            id: fork-terminal
+            notes: ''
+            options:
+              - electrical-fork-terminal
+            quantity: 4
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: 'fork-terminal: Fork Terminal'
+            descriptionSelected: 'fork-terminal: Fork Terminal (Electrical Fork Terminal v1.0.0)'
+        tools:
+          wire-stripper-cutter:
+            description: Wire Strippers/Cutters
+            id: wire-stripper-cutter
+            notes: ''
+            options:
+              - wire-stripper-cutter
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'wire-stripper-cutter: Wire Strippers/Cutters'
+            descriptionSelected: >-
+              wire-stripper-cutter: Wire Strippers/Cutters (Wire Stripper/Cutter
+              v1.0.0)
+          ferrule-crimper:
+            description: Ferrule Crimper
+            id: ferrule-crimper
+            notes: ''
+            options:
+              - ferrule-crimper
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'ferrule-crimper: Ferrule Crimper'
+            descriptionSelected: 'ferrule-crimper: Ferrule Crimper (Wire Ferrule Crimper v1.0.0)'
+          dupont-crimper:
+            description: Dupont Crimper
+            id: dupont-crimper
+            notes: ''
+            options:
+              - dupont-crimper
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'dupont-crimper: Dupont Crimper'
+            descriptionSelected: 'dupont-crimper: Dupont Crimper (Dupont Wire Crimper v1.0.0)'
+        precautions: []
+        assemblySteps:
+          - summary: Assemble the Fast Heated Bed 120v Power Wire
+            requiredParts:
+              - 18awg-wire
+              - fork-terminal
+              - ferrule
+            requiredTools:
+              - dupont-crimper
+              - wire-stripper-cutter
+              - ferrule-crimper
+            details: >
+              . Using the *Wire Strippers/Cutters*, cut one 200mm long piece of
+              *Red 18AWG Wire*.
+
+              . Using the *Wire Strippers/Cutters*, cut one 750mm long piece of
+              *Red 18AWG Wire* and one 750mm long piece of *Black 18AWG Wire*.
+
+              . Using the *Wire Strippers/Cutters*, strip 2cm of insulation off
+              of each end of the *Black 18AWG Wire* and *Red 18AWG Wire* from
+              the above steps.
+
+              . Using the *Dupont Crimper*, crimp one *Fork Terminal* onto one
+              end of each of the *Black 18AWG Wire* and *Red 18AWG Wire* from
+              the above steps.
+
+              . Using the *Dupont Crimper*, crimp one *Fork Terminal* onto the
+              bare end of the 200mm *Red 18AWG Wire*. Set this wire aside as it
+              is completed.
+
+              . Using the *Wire Strippers/Cutters*, cut off the plastic shield
+              end of two *Ferrule* part(s) so that only the metal *Ferrule*
+              tubes remain.
+
+              . Using the *Ferrule Crimper*, crimp the *Ferrule* tubes to the
+              bare ends of the remaining *Black 18AWG Wire* and *Red 18AWG
+              Wire*.
+
+              . The *Fast Heated Bed 120v Power Wire* is complete.
     parts:
       24v-power-supply-120v-power-wire:
         description: 24v Power Supply 120v Power Wire
@@ -16447,6 +17015,19 @@ components:
         descriptionSelected: >-
           24v-power-supply-120v-power-wire: 24v Power Supply 120v Power Wire
           (24v Power Supply 120v Power Wire v1.0.0)
+      fast-heated-bed-120v-power-wire:
+        description: Fast Heated Bed 120v Power Wire
+        id: fast-heated-bed-120v-power-wire
+        notes: ''
+        options:
+          - fast-heated-bed-120v-power-wire
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'fast-heated-bed-120v-power-wire: Fast Heated Bed 120v Power Wire'
+        descriptionSelected: >-
+          fast-heated-bed-120v-power-wire: Fast Heated Bed 120v Power Wire (Fast
+          Heated Bed 120v Power Wire v1.0.0)
     tools: {}
     precautions: []
     assemblySteps:

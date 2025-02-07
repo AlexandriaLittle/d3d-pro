@@ -558,308 +558,6 @@ include::flatToolsBOM.adoc[]
 
 
 
-== Assemble Halogen Lightbulb Assembly
-
-// tools
-
-=== Tools
-|===
-|Name |Description |Notes
-
-
-
-|Soldering Iron
-|Soldering Iron
-|
-
-
-
-|Helping Hands
-|Helping Hands Clamp Stand
-|
-
-
-
-|Paper Towels
-|Paper Towels
-|
-
-
-
-|Heat Source
-|Lighter
-|A heat gun, a lighter, etc.
-
-
-
-|Scissors
-|Scissors
-|
-
-
-
-|Wire Strippers/Cutters
-|Wire Stripper/Cutter
-|
-
-|===
-
-
-// materials
-
-=== Materials
-|===
-|Quantity |ID |Name |Description |Notes
-
-
-
-|3 part(s)
-|halogen-lightbulb
-|Halogen Lightbulb
-|R7S 118mm Halogen Lightbulb v1.0.0
-|
-
-
-
-|3 part(s)
-|halogen-lightbulb-holder
-|Halogen Lightbulb Holder
-|R7S 118mm Halogen Lightbulb Holder v1.0.0
-|
-
-
-
-|2 application(s)
-|electrical-solder
-|Electrical Solder
-|Rosin Core Lead Free Electrical Solder v1.0.0
-|
-
-
-
-|2 part(s)
-|heat-shrink-tubing
-|Heat Shrink Tubing
-|Heat Shrink Tubing v1.0.0
-|
-
-
-
-|4 part(s)
-|metal-zip-tie
-|Metal Zip Tie
-|Metal Zip Tie v1.0.0
-|
-
-
-
-|1 part(s)
-|carbon-fiber-blanket-stock
-|Carbon Fiber Blanket
-|Carbon Fiber Blanket (Stock Size) v1.0.0
-|
-
-|===
-
-
-// Precautions
-
-=== Precautions
-
-* *Halogen Lightbulb Assembly:* If oils from skin contact or other debris get on the Halogen Lightbulb part(s) they can be cleaned while at room temperature with rubbing alcohol and a clean paper towel.
-
-* *Halogen Lightbulb Assembly:* Halogen Lightbulb part(s) require special handling. Make sure to not touch the Halogen Lightbulb part(s) in the assembly with bare hands or they will be damaged during operation! The lifetime of a Halogen Lightbulb is reduced dramatically if operated while dirty.
-
-
-
-
-
-
-* *Soldering Iron:* A Soldering Iron gets very very hot and can burn you! Follow all of the manufacturer recommended safety precautions when using a Soldering Iron!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* *Electrical Solder:* Rosin Core Lead Free Electrical Solder can contain toxic chemicals! Always work in a well ventialted area and use personal protection equipment!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Procedure
-=== Procedure
-
-// summary
-
-==== Solder the Halogen Lightbulb Holder part(s)
-
-
-// requiredTools
-//
-//*Required Tools*
-//
-//* Soldering Iron
-//
-//* Wire Strippers/Cutters
-//
-//
-
-// requiredParts
-//
-//*Required Parts*
-//
-//* Halogen Lightbulb Holder
-//
-//* Electrical Solder
-//
-//
-
-// details
-
-*Instructions*
-
-. If necessary, use the *Wire Strippers/Cutters* to strip the ends of all of the *Halogen Lightbulb Holder* wires.
-. Preheat the *Soldering Iron* to the operating temperature recommended by the *Electrical Solder* packaging.
-. Slide a *Heat Shrink Tubing* part(s) over one of the wires of a *Halogen Lightbulb Holder*.
-. Position one wire of one of the *Halogen Lightbulb Holder* part(s) and the wire with *Heat Shrink Tubing* from the previous step in the *Helping Hands* so that the exposed ends of the wires are touching. It may help to twist the wires together so that they stay in place during soldering.
-. Make sure that the *Heat Shrink Tubing* is out of the way of the exposed wire.
-. Hold the hot end of the *Soldering Iron* against the exposed wires in the *Helping Hands* for a few seconds to heat the wires.
-. Apply *Electrical Solder* to the contact point between the hot end of the *Soldering Iron* and the exposed wires until enough has been added to fuse the wires and make a good electrical connection.
-. Once the *Electrical Solder* has been applied, set the *Electrical Solder* aside and continue to hold the soldering iron to the soldered wires for a few seconds to allow the solder to flow up the wires.
-. Remove the hot end of the *Soldering Iron* from the wires.
-. Wait for the wires to cool and then remove them from the *Helping Hands*. 
-. Slide the *Heat Shrink Tubing* across the soldered area and use a *Heat Source* to shrink the *Heat Shrink Tubing* over the wires.
-. Take the other wire of one of the previously soldered *Halogen Lightbulb Holder* part(s), slide a *Heat Shrink Tubing* part(s) onto the wire, and position it in the *Helping Hands*.
-. Position one of the wires of the remaining *Halogen Lightbulb Holder* part(s) in the unused side of the *Helping Hands*.
-. Hold the hot end of the *Soldering Iron* against the exposed wires in the *Helping Hands* for a few seconds to heat the wires.
-. Apply *Electrical Solder* to the contact point between the hot end of the *Soldering Iron* and the exposed wires until enough has been added to fuse the wires and make a good electrical connection.
-. Once the *Electrical Solder* has been applied, set the *Electrical Solder* aside and continue to hold the soldering iron to the soldered wires for a few seconds to allow the solder to flow up the wires.
-. Remove the hot end of the *Soldering Iron* from the wires.
-. Wait for the wires to cool and then remove them from the *Helping Hands*.
-
-
-
-
-// summary
-
-==== Insulate the soldered connections
-
-
-// requiredTools
-//
-//*Required Tools*
-//
-//* Scissors
-//
-//* Wire Strippers/Cutters
-//
-//
-
-// requiredParts
-//
-//*Required Parts*
-//
-//* Halogen Lightbulb Holder
-//
-//* Metal Zip Tie
-//
-//* Carbon Fiber Blanket
-//
-//
-
-// details
-
-*Instructions*
-
-. Cut two pieces of the *Carbon Fiber Blanket* to size (75mm x 75mm) using *Scissors*.
-. Wrap one piece of the *Carbon Fiber Blanket* over one of the *Heat Shrink Tubing* part(s).
-. Use two *Metal Zip Tie* part(s) to secure each end of the *Carbon Fiber Blanket* part(s). This should fully cover the *Heat Shrink Tubing*.
-. Perform the above steps again over the remaining *Heat Shrink Tubing* part(s).
-. Optionally, cut the excess *Metal Zip Tie* off using *Wire Strippers/Cutters*.
-
-
-
-
-// summary
-
-==== Add Halogen Lightbulb part(s)
-
-
-// requiredTools
-//
-//*Required Tools*
-//
-//* Paper Towels
-//
-//
-
-// requiredParts
-//
-//*Required Parts*
-//
-//* Halogen Lightbulb
-//
-//* Halogen Lightbulb Holder
-//
-//
-
-// details
-
-*Instructions*
-
-. Using *Paper Towels*, remove a *Halogen Lightbulb* part(s) from its packaging material and insert it into one of the *Halogen Lightbulb Holder* part(s). Be careful to not touch the *Halogen Lightbulb* with your hands (see precautions).
-. Repeat the above step for each of the other *Halogen Lightbulb Holder* part(s)*.
-. The *Halogen Lightbulb Assembly* is now complete.
-
-
-
-
-
-
 == Assemble Metal Conduit
 
 // tools
@@ -1359,6 +1057,308 @@ include::flatToolsBOM.adoc[]
 
 
 
+== Assemble Halogen Lightbulb Assembly
+
+// tools
+
+=== Tools
+|===
+|Name |Description |Notes
+
+
+
+|Soldering Iron
+|Soldering Iron
+|
+
+
+
+|Helping Hands
+|Helping Hands Clamp Stand
+|
+
+
+
+|Paper Towels
+|Paper Towels
+|
+
+
+
+|Heat Source
+|Lighter
+|A heat gun, a lighter, etc.
+
+
+
+|Scissors
+|Scissors
+|
+
+
+
+|Wire Strippers/Cutters
+|Wire Stripper/Cutter
+|
+
+|===
+
+
+// materials
+
+=== Materials
+|===
+|Quantity |ID |Name |Description |Notes
+
+
+
+|3 part(s)
+|halogen-lightbulb
+|Halogen Lightbulb
+|R7S 118mm Halogen Lightbulb v1.0.0
+|
+
+
+
+|3 part(s)
+|halogen-lightbulb-holder
+|Halogen Lightbulb Holder
+|R7S 118mm Halogen Lightbulb Holder v1.0.0
+|
+
+
+
+|2 application(s)
+|electrical-solder
+|Electrical Solder
+|Rosin Core Lead Free Electrical Solder v1.0.0
+|
+
+
+
+|2 part(s)
+|heat-shrink-tubing
+|Heat Shrink Tubing
+|Heat Shrink Tubing v1.0.0
+|
+
+
+
+|4 part(s)
+|metal-zip-tie
+|Metal Zip Tie
+|Metal Zip Tie v1.0.0
+|
+
+
+
+|1 part(s)
+|carbon-fiber-blanket-stock
+|Carbon Fiber Blanket
+|Carbon Fiber Blanket (Stock Size) v1.0.0
+|
+
+|===
+
+
+// Precautions
+
+=== Precautions
+
+* *Halogen Lightbulb Assembly:* If oils from skin contact or other debris get on the Halogen Lightbulb part(s) they can be cleaned while at room temperature with rubbing alcohol and a clean paper towel.
+
+* *Halogen Lightbulb Assembly:* Halogen Lightbulb part(s) require special handling. Make sure to not touch the Halogen Lightbulb part(s) in the assembly with bare hands or they will be damaged during operation! The lifetime of a Halogen Lightbulb is reduced dramatically if operated while dirty.
+
+
+
+
+
+
+* *Soldering Iron:* A Soldering Iron gets very very hot and can burn you! Follow all of the manufacturer recommended safety precautions when using a Soldering Iron!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* *Electrical Solder:* Rosin Core Lead Free Electrical Solder can contain toxic chemicals! Always work in a well ventialted area and use personal protection equipment!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Procedure
+=== Procedure
+
+// summary
+
+==== Solder the Halogen Lightbulb Holder part(s)
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* Soldering Iron
+//
+//* Wire Strippers/Cutters
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Halogen Lightbulb Holder
+//
+//* Electrical Solder
+//
+//
+
+// details
+
+*Instructions*
+
+. If necessary, use the *Wire Strippers/Cutters* to strip the ends of all of the *Halogen Lightbulb Holder* wires.
+. Preheat the *Soldering Iron* to the operating temperature recommended by the *Electrical Solder* packaging.
+. Slide a *Heat Shrink Tubing* part(s) over one of the wires of a *Halogen Lightbulb Holder*.
+. Position one wire of one of the *Halogen Lightbulb Holder* part(s) and the wire with *Heat Shrink Tubing* from the previous step in the *Helping Hands* so that the exposed ends of the wires are touching. It may help to twist the wires together so that they stay in place during soldering.
+. Make sure that the *Heat Shrink Tubing* is out of the way of the exposed wire.
+. Hold the hot end of the *Soldering Iron* against the exposed wires in the *Helping Hands* for a few seconds to heat the wires.
+. Apply *Electrical Solder* to the contact point between the hot end of the *Soldering Iron* and the exposed wires until enough has been added to fuse the wires and make a good electrical connection.
+. Once the *Electrical Solder* has been applied, set the *Electrical Solder* aside and continue to hold the soldering iron to the soldered wires for a few seconds to allow the solder to flow up the wires.
+. Remove the hot end of the *Soldering Iron* from the wires.
+. Wait for the wires to cool and then remove them from the *Helping Hands*. 
+. Slide the *Heat Shrink Tubing* across the soldered area and use a *Heat Source* to shrink the *Heat Shrink Tubing* over the wires.
+. Take the other wire of one of the previously soldered *Halogen Lightbulb Holder* part(s), slide a *Heat Shrink Tubing* part(s) onto the wire, and position it in the *Helping Hands*.
+. Position one of the wires of the remaining *Halogen Lightbulb Holder* part(s) in the unused side of the *Helping Hands*.
+. Hold the hot end of the *Soldering Iron* against the exposed wires in the *Helping Hands* for a few seconds to heat the wires.
+. Apply *Electrical Solder* to the contact point between the hot end of the *Soldering Iron* and the exposed wires until enough has been added to fuse the wires and make a good electrical connection.
+. Once the *Electrical Solder* has been applied, set the *Electrical Solder* aside and continue to hold the soldering iron to the soldered wires for a few seconds to allow the solder to flow up the wires.
+. Remove the hot end of the *Soldering Iron* from the wires.
+. Wait for the wires to cool and then remove them from the *Helping Hands*.
+
+
+
+
+// summary
+
+==== Insulate the soldered connections
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* Scissors
+//
+//* Wire Strippers/Cutters
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Halogen Lightbulb Holder
+//
+//* Metal Zip Tie
+//
+//* Carbon Fiber Blanket
+//
+//
+
+// details
+
+*Instructions*
+
+. Cut two pieces of the *Carbon Fiber Blanket* to size (75mm x 75mm) using *Scissors*.
+. Wrap one piece of the *Carbon Fiber Blanket* over one of the *Heat Shrink Tubing* part(s).
+. Use two *Metal Zip Tie* part(s) to secure each end of the *Carbon Fiber Blanket* part(s). This should fully cover the *Heat Shrink Tubing*.
+. Perform the above steps again over the remaining *Heat Shrink Tubing* part(s).
+. Optionally, cut the excess *Metal Zip Tie* off using *Wire Strippers/Cutters*.
+
+
+
+
+// summary
+
+==== Add Halogen Lightbulb part(s)
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* Paper Towels
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Halogen Lightbulb
+//
+//* Halogen Lightbulb Holder
+//
+//
+
+// details
+
+*Instructions*
+
+. Using *Paper Towels*, remove a *Halogen Lightbulb* part(s) from its packaging material and insert it into one of the *Halogen Lightbulb Holder* part(s). Be careful to not touch the *Halogen Lightbulb* with your hands (see precautions).
+. Repeat the above step for each of the other *Halogen Lightbulb Holder* part(s)*.
+. The *Halogen Lightbulb Assembly* is now complete.
+
+
+
+
+
+
 == Assemble Fast Heated Bed Module
 
 // tools
@@ -1387,6 +1387,14 @@ include::flatToolsBOM.adoc[]
 === Materials
 |===
 |Quantity |ID |Name |Description |Notes
+
+
+
+|1 part
+|lightbulb-assembly
+|Halogen Lightbulb Assembly
+|Halogen Lightbulb Assembly v1.0.0
+|
 
 
 
@@ -1442,14 +1450,6 @@ include::flatToolsBOM.adoc[]
 |corner-brace
 |Corner Brace
 |2 inch x 5/8 Inch Corner Brace (Four Holes) v1.0.0
-|
-
-
-
-|1 part
-|lightbulb-assembly
-|Halogen Lightbulb Assembly
-|Halogen Lightbulb Assembly v1.0.0
 |
 
 
@@ -1514,37 +1514,37 @@ include::flatToolsBOM.adoc[]
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * *Halogen Lightbulb Assembly:* If oils from skin contact or other debris get on the Halogen Lightbulb part(s) they can be cleaned while at room temperature with rubbing alcohol and a clean paper towel.
 
 * *Halogen Lightbulb Assembly:* Halogen Lightbulb part(s) require special handling. Make sure to not touch the Halogen Lightbulb part(s) in the assembly with bare hands or they will be damaged during operation! The lifetime of a Halogen Lightbulb is reduced dramatically if operated while dirty.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3559,6 +3559,130 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
+== Assemble Fast Heated Bed 120v Power Wire
+
+// tools
+
+=== Tools
+|===
+|Name |Description |Notes
+
+
+
+|Wire Strippers/Cutters
+|Wire Stripper/Cutter
+|
+
+
+
+|Ferrule Crimper
+|Wire Ferrule Crimper
+|
+
+
+
+|Dupont Crimper
+|Dupont Wire Crimper
+|
+
+|===
+
+
+// materials
+
+=== Materials
+|===
+|Quantity |ID |Name |Description |Notes
+
+
+
+|950 mm
+|18awg-wire-red
+|Red 18AWG Wire
+|18AWG Braided Copper Wire v1.0.0
+|
+
+
+
+|750 mm
+|18awg-wire-black
+|Black 18AWG Wire
+|18AWG Braided Copper Wire v1.0.0
+|
+
+
+
+|2 part(s)
+|ferrule
+|Ferrule
+|Wire Ferrule v1.0.0
+|
+
+
+
+|4 part(s)
+|fork-terminal
+|Fork Terminal
+|Electrical Fork Terminal v1.0.0
+|
+
+|===
+
+
+// Precautions
+
+
+
+// Procedure
+=== Procedure
+
+// summary
+
+==== Assemble the Fast Heated Bed 120v Power Wire
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* Dupont Crimper
+//
+//* Wire Strippers/Cutters
+//
+//* Ferrule Crimper
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* 
+//
+//* Fork Terminal
+//
+//* Ferrule
+//
+//
+
+// details
+
+*Instructions*
+
+. Using the *Wire Strippers/Cutters*, cut one 200mm long piece of *Red 18AWG Wire*.
+. Using the *Wire Strippers/Cutters*, cut one 750mm long piece of *Red 18AWG Wire* and one 750mm long piece of *Black 18AWG Wire*.
+. Using the *Wire Strippers/Cutters*, strip 2cm of insulation off of each end of the *Black 18AWG Wire* and *Red 18AWG Wire* from the above steps.
+. Using the *Dupont Crimper*, crimp one *Fork Terminal* onto one end of each of the *Black 18AWG Wire* and *Red 18AWG Wire* from the above steps.
+. Using the *Dupont Crimper*, crimp one *Fork Terminal* onto the bare end of the 200mm *Red 18AWG Wire*. Set this wire aside as it is completed.
+. Using the *Wire Strippers/Cutters*, cut off the plastic shield end of two *Ferrule* part(s) so that only the metal *Ferrule* tubes remain.
+. Using the *Ferrule Crimper*, crimp the *Ferrule* tubes to the bare ends of the remaining *Black 18AWG Wire* and *Red 18AWG Wire*.
+. The *Fast Heated Bed 120v Power Wire* is complete.
+
+
+
+
+
+
 == Assemble 24v Power Supply 120v Power Wire
 
 // tools
@@ -3669,7 +3793,7 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 *Instructions*
 
-. Using the *Wire Strippers/Cutters*, cut one 100mm long pieces of *Red 22AWG Wire* and one 100mm long piece of *Black 22AWG Wire*.
+. Using the *Wire Strippers/Cutters*, cut one 100mm long piece of *Red 22AWG Wire* and one 100mm long piece of *Black 22AWG Wire*.
 . Using the *Wire Strippers/Cutters*, strip 2cm of insulation off of each end of the *Red 22AWG Wire* and *Black 22AWG Wire* part(s) from the above steps.
 . Using the *Dupont Crimper*, crimp one *Fork Terminal* onto one end of each of the above *Red 22AWG Wire* and *Black 22AWG Wire* part(s).
 . Using the *Ferrule Crimper*, crimp one *Ferrule* onto one end of each of the above *Red 22AWG Wire* and *Black 22AWG Wire* part(s).
@@ -3697,6 +3821,14 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 |24v-power-supply-120v-power-wire
 |24v Power Supply 120v Power Wire
 |24v Power Supply 120v Power Wire v1.0.0
+|
+
+
+
+|1 part
+|fast-heated-bed-120v-power-wire
+|Fast Heated Bed 120v Power Wire
+|Fast Heated Bed 120v Power Wire v1.0.0
 |
 
 |===
@@ -4484,14 +4616,6 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
-|1 mm
-|14awg-wire
-|14AWG Wire
-|14 AWG Braided Copper Wire v1.0.0
-|
-
-
-
 |4 part(s)
 |fork-terminal
 |Fork Terminal
@@ -4681,10 +4805,6 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 * *Electrical Solder:* Rosin Core Lead Free Electrical Solder can contain toxic chemicals! Always work in a well ventialted area and use personal protection equipment!
-
-
-
-
 
 
 

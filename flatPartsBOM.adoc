@@ -19,13 +19,6 @@
 
 
 
-|1
-|mm
-|14awg-wire
-|14 AWG Braided Copper Wire
-
-
-
 |2
 |part
 |16ga-steel-sheet
@@ -37,6 +30,13 @@
 |part
 |16gb-microsd-card
 |16GB MicroSD Card
+
+
+
+|1700
+|mm
+|18awg-wire
+|18AWG Braided Copper Wire
 
 
 
@@ -194,7 +194,7 @@
 
 
 
-|8
+|12
 |part(s)
 |electrical-fork-terminal
 |Electrical Fork Terminal
@@ -229,7 +229,7 @@
 
 
 
-|28
+|30
 |part(s)
 |ferrule
 |Wire Ferrule

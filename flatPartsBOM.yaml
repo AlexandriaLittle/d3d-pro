@@ -9,11 +9,6 @@ components:
     name: 10mm-od-35mm-spring
     quantity: 1
     quantityUnits: part
-  14awg-wire:
-    description: 14 AWG Braided Copper Wire
-    name: 14awg-wire
-    quantity: 1
-    quantityUnits: mm
   16ga-steel-sheet:
     description: 16 Gauge 300mm x 300mm Steel Sheet
     name: 16ga-steel-sheet
@@ -24,6 +19,11 @@ components:
     name: 16gb-microsd-card
     quantity: 1
     quantityUnits: part
+  18awg-wire:
+    description: 18AWG Braided Copper Wire
+    name: 18awg-wire
+    quantity: 1700
+    quantityUnits: mm
   19mm-latching-emergency-stop-switch:
     description: 19mm Latching Emergency Stop Switch
     name: 19mm-latching-emergency-stop-switch
@@ -137,7 +137,7 @@ components:
   electrical-fork-terminal:
     description: Electrical Fork Terminal
     name: electrical-fork-terminal
-    quantity: 8
+    quantity: 12
     quantityUnits: part(s)
   electrical-plug-nema-1-15:
     description: Electrical Plug (NEMA 1-15)
@@ -162,7 +162,7 @@ components:
   ferrule:
     description: Wire Ferrule
     name: ferrule
-    quantity: 28
+    quantity: 30
     quantityUnits: part(s)
   ground-fault-connection-interrupter:
     description: Ground Fault Connection Interrupter (GFCI)
