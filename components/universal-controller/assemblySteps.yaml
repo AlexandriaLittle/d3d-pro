@@ -152,7 +152,7 @@
     . Once the plug closes properly, screw the plug together snugly.
     . Wrap the plug neatly in electrical tape.
     . Done with the electical plug.
-    . TODO
+    . TODO: SPLIT INTO SEPARATE COMPONENT
 
 - summary: Wire the {{parts.24v-power-supply.description}}
   requiredParts: []
