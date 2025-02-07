@@ -3559,6 +3559,129 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
+== Assemble RAMPS 1.4 Board Assembly Heated Bed Signal Wire
+
+// tools
+
+=== Tools
+|===
+|Name |Description |Notes
+
+
+
+|Wire Strippers/Cutters
+|Wire Stripper/Cutter
+|
+
+
+
+|Dupont Crimper
+|Dupont Wire Crimper
+|
+
+
+
+|Ferrule Crimper
+|Wire Ferrule Crimper
+|
+
+|===
+
+
+// materials
+
+=== Materials
+|===
+|Quantity |ID |Name |Description |Notes
+
+
+
+|2 part(s)
+|fork-terminal
+|Fork Terminal
+|Electrical Fork Terminal v1.0.0
+|
+
+
+
+|2 part(s)
+|ferrule
+|Ferrule
+|Wire Ferrule v1.0.0
+|
+
+
+
+|200 mm
+|22awg-wire-black
+|Black 22AWG Wire
+|22AWG Braided Copper Wire v1.0.0
+|
+
+
+
+|200 mm
+|22awg-wire-red
+|Red 22AWG Wire
+|22AWG Braided Copper Wire v1.0.0
+|
+
+|===
+
+
+// Precautions
+
+
+
+// Procedure
+=== Procedure
+
+// summary
+
+==== Assemble the RAMPS 1.4 Board Assembly Heated Bed Signal Wire
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* Dupont Crimper
+//
+//* Ferrule Crimper
+//
+//* Wire Strippers/Cutters
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Ferrule
+//
+//* 
+//
+//* Fork Terminal
+//
+//
+
+// details
+
+*Instructions*
+
+. Using the *Wire Strippers/Cutters*, cut one 200mm long piece of *Red 22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
+. Using the *Wire Strippers/Cutters*, strip approximately 1cm of insulation off of both ends of each of the *Red 22AWG Wire* and *Black 22AWG Wire* lengths.
+. Place an appropriately sized *Ferrule* onto one end of each of the stripped *Red 22AWG Wire* and *Black 22AWG Wire* lengths.
+. Using the *Ferrule Crimper*, crimp the *Ferrule* part(s) onto the *Red 22AWG Wire* and *Black 22AWG Wire*.
+. Use the *Wire Strippers/Cutters* to cut off any excess *Red 22AWG Wire* or *Black 22AWG Wire* that is poking through the ends of the *Ferrule* part(s).
+. Use the *Dupont Crimper* to crimp on appropriately sized *Fork Terminal* part(s) to the exposed ends of each *Red 22AWG Wire* and *Black 22AWG Wire*.
+. The *RAMPS 1.4 Board Assembly Heated Bed Signal Wire* is complete.
+
+
+
+
+
+
 == Assemble RAMPS 1.4 Board Assembly Power Wire
 
 // tools
@@ -3679,7 +3802,7 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 *Instructions*
 
-. Using the *Wire Strippers/Cutters*, cut one 100mm long piece of *Red 22AWG Wire* and one 100mm long piece of *Black 22AWG Wire*.
+. Using the *Wire Strippers/Cutters*, cut one 50mm long piece of *Red 22AWG Wire* and one 50mm long piece of *Black 22AWG Wire*.
 . Using the *Wire Strippers/Cutters*, strip approximately 1cm of insulation off of both ends of the *Red 22AWG Wire* and *Black 22AWG Wire*.
 . Place an appropriately sized *Ferrule* onto the end of the stripped *Red 22AWG Wire*.
 . Using the *Ferrule Crimper*, crimp the *Ferrule* onto the wire.
@@ -3687,7 +3810,7 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 . Repeat the above steps to crimp another *Ferrule* to the end of the *Black 22AWG Wire*.
 . Using the *Dupont Crimper*, crimp *Dupont Female Pin Connector* part(s) onto the exposed ends of the *Red 22AWG Wire* and *Black 22AWG Wire*.
 . Insert the both of the *Dupont Female Pin Connector* ends of the *Red 22AWG Wire* and *Black 22AWG Wire* into a *2 Pin Female Dupont Connector*.
-. The * to  24v Power Custom Wires* are complete.
+. The *RAMPS 1.4 Board Assembly Power Wire* is complete.
 
 
 
@@ -3765,6 +3888,14 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 |RAMPS 1.4 Board Assembly Power Wire v1.0.0
 |
 
+
+
+|1 part
+|heated-bed-signal-wire
+|RAMPS 1.4 Board Assembly Heated Bed Signal Wire
+|RAMPS 1.4 Board Assembly Heated Bed Signal Wire v1.0.0
+|
+
 |===
 
 
@@ -3800,6 +3931,10 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 * *A4988 Stepper Motor Driver:* The A4988 Stepper Motor Driver must be oriented correctly when inserted into the RAMPS 1.4 Board, or both components WILL BE DESTROYED when powered on.
+
+
+
+
 
 
 
@@ -4508,50 +4643,6 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 *Instructions*
 
 . Use the *Hobby Knife* to clean any extra plastic off of the 3D printed components.
-
-
-
-
-// summary
-
-==== Assemble the RAMPS Board Assembly to Solid State Relay (SSR) 24v Signal Custom Wires
-
-
-// requiredTools
-//
-//*Required Tools*
-//
-//* Dupont Crimper
-//
-//* Ferrule Crimper
-//
-//* Wire Strippers/Cutters
-//
-//
-
-// requiredParts
-//
-//*Required Parts*
-//
-//* Ferrule
-//
-//* 22AWG Wire
-//
-//* Fork Terminal
-//
-//
-
-// details
-
-*Instructions*
-
-. Using the *Wire Strippers/Cutters*, cut one 200mm long piece of *Red 22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
-. Using the *Wire Strippers/Cutters*, strip approximately 1cm of insulation off of both ends of each of the *Red 22AWG Wire* and *Black 22AWG Wire* lengths.
-. Place an appropriately sized *Ferrule* onto one end of each of the stripped *Red 22AWG Wire* and *Black 22AWG Wire* lengths.
-. Using the *Ferrule Crimper*, crimp the *Ferrule* part(s) onto the *Red 22AWG Wire* and *Black 22AWG Wire*.
-. Use the *Wire Strippers/Cutters* to cut off any excess *Red 22AWG Wire* or *Black 22AWG Wire* that is poking through the ends of the *Ferrule* part(s).
-. Use the *Dupont Crimper* to crimp on appropriately sized *Fork Terminal* part(s) to the exposed ends of each *Red 22AWG Wire* and *Black 22AWG Wire*.
-. The *RAMPS Board Assembly to Solid State Relay (SSR) 24v Signal Custom Wires* are complete.
 
 
 

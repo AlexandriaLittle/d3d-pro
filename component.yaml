@@ -4864,6 +4864,198 @@ components:
         parts: {}
         tools: {}
         precautions: []
+      ramps-1_4-board-assembly-heated-bed-signal-wire:
+        name: ramps-1_4-board-assembly-heated-bed-signal-wire
+        version: 1.0.0
+        description: RAMPS 1.4 Board Assembly Heated Bed Signal Wire
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components:
+          22awg-wire:
+            name: 22awg-wire
+            version: 1.0.0
+            description: 22AWG Braided Copper Wire
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          dupont-crimper:
+            name: dupont-crimper
+            version: 1.0.0
+            description: Dupont Wire Crimper
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          electrical-fork-terminal:
+            name: electrical-fork-terminal
+            version: 1.0.0
+            description: Electrical Fork Terminal
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          ferrule:
+            name: ferrule
+            version: 1.0.0
+            description: Wire Ferrule
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          ferrule-crimper:
+            name: ferrule-crimper
+            version: 1.0.0
+            description: Wire Ferrule Crimper
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          wire-stripper-cutter:
+            name: wire-stripper-cutter
+            version: 1.0.0
+            description: Wire Stripper/Cutter
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+        parts:
+          fork-terminal:
+            description: Fork Terminal
+            id: fork-terminal
+            notes: ''
+            options:
+              - electrical-fork-terminal
+            quantity: 2
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: 'fork-terminal: Fork Terminal'
+            descriptionSelected: 'fork-terminal: Fork Terminal (Electrical Fork Terminal v1.0.0)'
+          ferrule:
+            description: Ferrule
+            id: ferrule
+            notes: ''
+            options:
+              - ferrule
+            quantity: 2
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: 'ferrule: Ferrule'
+            descriptionSelected: 'ferrule: Ferrule (Wire Ferrule v1.0.0)'
+          22awg-wire-black:
+            description: Black 22AWG Wire
+            id: 22awg-wire-black
+            notes: ''
+            options:
+              - 22awg-wire
+            quantity: 200
+            quantityUnits: mm
+            selectedOption: 0
+            descriptionLong: '22awg-wire-black: Black 22AWG Wire'
+            descriptionSelected: >-
+              22awg-wire-black: Black 22AWG Wire (22AWG Braided Copper Wire
+              v1.0.0)
+          22awg-wire-red:
+            description: Red 22AWG Wire
+            id: 22awg-wire-red
+            notes: ''
+            options:
+              - 22awg-wire
+            quantity: 200
+            quantityUnits: mm
+            selectedOption: 0
+            descriptionLong: '22awg-wire-red: Red 22AWG Wire'
+            descriptionSelected: '22awg-wire-red: Red 22AWG Wire (22AWG Braided Copper Wire v1.0.0)'
+        tools:
+          wire-stripper-cutter:
+            description: Wire Strippers/Cutters
+            id: wire-stripper-cutter
+            notes: ''
+            options:
+              - wire-stripper-cutter
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'wire-stripper-cutter: Wire Strippers/Cutters'
+            descriptionSelected: >-
+              wire-stripper-cutter: Wire Strippers/Cutters (Wire Stripper/Cutter
+              v1.0.0)
+          dupont-crimper:
+            description: Dupont Crimper
+            id: dupont-crimper
+            notes: ''
+            options:
+              - dupont-crimper
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'dupont-crimper: Dupont Crimper'
+            descriptionSelected: 'dupont-crimper: Dupont Crimper (Dupont Wire Crimper v1.0.0)'
+          ferrule-crimper:
+            description: Ferrule Crimper
+            id: ferrule-crimper
+            notes: ''
+            options:
+              - ferrule-crimper
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'ferrule-crimper: Ferrule Crimper'
+            descriptionSelected: 'ferrule-crimper: Ferrule Crimper (Wire Ferrule Crimper v1.0.0)'
+        precautions: []
+        assemblySteps:
+          - summary: Assemble the RAMPS 1.4 Board Assembly Heated Bed Signal Wire
+            requiredParts:
+              - ferrule
+              - 22awg-wire
+              - fork-terminal
+            requiredTools:
+              - dupont-crimper
+              - ferrule-crimper
+              - wire-stripper-cutter
+            details: >
+              . Using the *Wire Strippers/Cutters*, cut one 200mm long piece of
+              *Red 22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
+
+              . Using the *Wire Strippers/Cutters*, strip approximately 1cm of
+              insulation off of both ends of each of the *Red 22AWG Wire* and
+              *Black 22AWG Wire* lengths.
+
+              . Place an appropriately sized *Ferrule* onto one end of each of
+              the stripped *Red 22AWG Wire* and *Black 22AWG Wire* lengths.
+
+              . Using the *Ferrule Crimper*, crimp the *Ferrule* part(s) onto
+              the *Red 22AWG Wire* and *Black 22AWG Wire*.
+
+              . Use the *Wire Strippers/Cutters* to cut off any excess *Red
+              22AWG Wire* or *Black 22AWG Wire* that is poking through the ends
+              of the *Ferrule* part(s).
+
+              . Use the *Dupont Crimper* to crimp on appropriately sized *Fork
+              Terminal* part(s) to the exposed ends of each *Red 22AWG Wire* and
+              *Black 22AWG Wire*.
+
+              . The *RAMPS 1.4 Board Assembly Heated Bed Signal Wire* is
+              complete.
       ramps-1_4-board-assembly-power-wire:
         name: ramps-1_4-board-assembly-power-wire
         version: 1.0.0
@@ -5060,8 +5252,8 @@ components:
               - ferrule-crimper
               - dupont-crimper
             details: >
-              . Using the *Wire Strippers/Cutters*, cut one 100mm long piece of
-              *Red 22AWG Wire* and one 100mm long piece of *Black 22AWG Wire*.
+              . Using the *Wire Strippers/Cutters*, cut one 50mm long piece of
+              *Red 22AWG Wire* and one 50mm long piece of *Black 22AWG Wire*.
 
               . Using the *Wire Strippers/Cutters*, strip approximately 1cm of
               insulation off of both ends of the *Red 22AWG Wire* and *Black
@@ -5086,7 +5278,7 @@ components:
               *Red 22AWG Wire* and *Black 22AWG Wire* into a *2 Pin Female
               Dupont Connector*.
 
-              . The * to  24v Power Custom Wires* are complete.
+              . The *RAMPS 1.4 Board Assembly Power Wire* is complete.
       ramps-1_4-smart-adapter:
         name: ramps-1_4-smart-adapter
         version: 1.0.0
@@ -5184,6 +5376,21 @@ components:
         descriptionSelected: >-
           ramps-pwoer-wire: RAMPS 1.4 Board Assembly 24v Power Wire (RAMPS 1.4
           Board Assembly Power Wire v1.0.0)
+      heated-bed-signal-wire:
+        description: RAMPS 1.4 Board Assembly Heated Bed Signal Wire
+        id: heated-bed-signal-wire
+        notes: ''
+        options:
+          - ramps-1_4-board-assembly-heated-bed-signal-wire
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: >-
+          heated-bed-signal-wire: RAMPS 1.4 Board Assembly Heated Bed Signal
+          Wire
+        descriptionSelected: >-
+          heated-bed-signal-wire: RAMPS 1.4 Board Assembly Heated Bed Signal
+          Wire (RAMPS 1.4 Board Assembly Heated Bed Signal Wire v1.0.0)
     tools:
       flush-cutter:
         description: Flush Cutter Wire Snips
@@ -5264,6 +5471,195 @@ components:
           components are seated against one another.
 
           . The *RAMPS 1.4 Board Assembly* is complete.
+  ramps-1_4-board-assembly-heated-bed-signal-wire:
+    name: ramps-1_4-board-assembly-heated-bed-signal-wire
+    version: 1.0.0
+    description: RAMPS 1.4 Board Assembly Heated Bed Signal Wire
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components:
+      22awg-wire:
+        name: 22awg-wire
+        version: 1.0.0
+        description: 22AWG Braided Copper Wire
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      dupont-crimper:
+        name: dupont-crimper
+        version: 1.0.0
+        description: Dupont Wire Crimper
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      electrical-fork-terminal:
+        name: electrical-fork-terminal
+        version: 1.0.0
+        description: Electrical Fork Terminal
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      ferrule:
+        name: ferrule
+        version: 1.0.0
+        description: Wire Ferrule
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      ferrule-crimper:
+        name: ferrule-crimper
+        version: 1.0.0
+        description: Wire Ferrule Crimper
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      wire-stripper-cutter:
+        name: wire-stripper-cutter
+        version: 1.0.0
+        description: Wire Stripper/Cutter
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+    parts:
+      fork-terminal:
+        description: Fork Terminal
+        id: fork-terminal
+        notes: ''
+        options:
+          - electrical-fork-terminal
+        quantity: 2
+        quantityUnits: part(s)
+        selectedOption: 0
+        descriptionLong: 'fork-terminal: Fork Terminal'
+        descriptionSelected: 'fork-terminal: Fork Terminal (Electrical Fork Terminal v1.0.0)'
+      ferrule:
+        description: Ferrule
+        id: ferrule
+        notes: ''
+        options:
+          - ferrule
+        quantity: 2
+        quantityUnits: part(s)
+        selectedOption: 0
+        descriptionLong: 'ferrule: Ferrule'
+        descriptionSelected: 'ferrule: Ferrule (Wire Ferrule v1.0.0)'
+      22awg-wire-black:
+        description: Black 22AWG Wire
+        id: 22awg-wire-black
+        notes: ''
+        options:
+          - 22awg-wire
+        quantity: 200
+        quantityUnits: mm
+        selectedOption: 0
+        descriptionLong: '22awg-wire-black: Black 22AWG Wire'
+        descriptionSelected: '22awg-wire-black: Black 22AWG Wire (22AWG Braided Copper Wire v1.0.0)'
+      22awg-wire-red:
+        description: Red 22AWG Wire
+        id: 22awg-wire-red
+        notes: ''
+        options:
+          - 22awg-wire
+        quantity: 200
+        quantityUnits: mm
+        selectedOption: 0
+        descriptionLong: '22awg-wire-red: Red 22AWG Wire'
+        descriptionSelected: '22awg-wire-red: Red 22AWG Wire (22AWG Braided Copper Wire v1.0.0)'
+    tools:
+      wire-stripper-cutter:
+        description: Wire Strippers/Cutters
+        id: wire-stripper-cutter
+        notes: ''
+        options:
+          - wire-stripper-cutter
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'wire-stripper-cutter: Wire Strippers/Cutters'
+        descriptionSelected: >-
+          wire-stripper-cutter: Wire Strippers/Cutters (Wire Stripper/Cutter
+          v1.0.0)
+      dupont-crimper:
+        description: Dupont Crimper
+        id: dupont-crimper
+        notes: ''
+        options:
+          - dupont-crimper
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'dupont-crimper: Dupont Crimper'
+        descriptionSelected: 'dupont-crimper: Dupont Crimper (Dupont Wire Crimper v1.0.0)'
+      ferrule-crimper:
+        description: Ferrule Crimper
+        id: ferrule-crimper
+        notes: ''
+        options:
+          - ferrule-crimper
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'ferrule-crimper: Ferrule Crimper'
+        descriptionSelected: 'ferrule-crimper: Ferrule Crimper (Wire Ferrule Crimper v1.0.0)'
+    precautions: []
+    assemblySteps:
+      - summary: Assemble the RAMPS 1.4 Board Assembly Heated Bed Signal Wire
+        requiredParts:
+          - ferrule
+          - 22awg-wire
+          - fork-terminal
+        requiredTools:
+          - dupont-crimper
+          - ferrule-crimper
+          - wire-stripper-cutter
+        details: >
+          . Using the *Wire Strippers/Cutters*, cut one 200mm long piece of *Red
+          22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
+
+          . Using the *Wire Strippers/Cutters*, strip approximately 1cm of
+          insulation off of both ends of each of the *Red 22AWG Wire* and *Black
+          22AWG Wire* lengths.
+
+          . Place an appropriately sized *Ferrule* onto one end of each of the
+          stripped *Red 22AWG Wire* and *Black 22AWG Wire* lengths.
+
+          . Using the *Ferrule Crimper*, crimp the *Ferrule* part(s) onto the
+          *Red 22AWG Wire* and *Black 22AWG Wire*.
+
+          . Use the *Wire Strippers/Cutters* to cut off any excess *Red 22AWG
+          Wire* or *Black 22AWG Wire* that is poking through the ends of the
+          *Ferrule* part(s).
+
+          . Use the *Dupont Crimper* to crimp on appropriately sized *Fork
+          Terminal* part(s) to the exposed ends of each *Red 22AWG Wire* and
+          *Black 22AWG Wire*.
+
+          . The *RAMPS 1.4 Board Assembly Heated Bed Signal Wire* is complete.
   ramps-1_4-board-assembly-power-wire:
     name: ramps-1_4-board-assembly-power-wire
     version: 1.0.0
@@ -5458,8 +5854,8 @@ components:
           - ferrule-crimper
           - dupont-crimper
         details: >
-          . Using the *Wire Strippers/Cutters*, cut one 100mm long piece of *Red
-          22AWG Wire* and one 100mm long piece of *Black 22AWG Wire*.
+          . Using the *Wire Strippers/Cutters*, cut one 50mm long piece of *Red
+          22AWG Wire* and one 50mm long piece of *Black 22AWG Wire*.
 
           . Using the *Wire Strippers/Cutters*, strip approximately 1cm of
           insulation off of both ends of the *Red 22AWG Wire* and *Black 22AWG
@@ -5484,7 +5880,7 @@ components:
           *Red 22AWG Wire* and *Black 22AWG Wire* into a *2 Pin Female Dupont
           Connector*.
 
-          . The * to  24v Power Custom Wires* are complete.
+          . The *RAMPS 1.4 Board Assembly Power Wire* is complete.
   ramps-1_4-endstop:
     name: ramps-1_4-endstop
     version: 1.0.0
@@ -13708,6 +14104,202 @@ components:
             parts: {}
             tools: {}
             precautions: []
+          ramps-1_4-board-assembly-heated-bed-signal-wire:
+            name: ramps-1_4-board-assembly-heated-bed-signal-wire
+            version: 1.0.0
+            description: RAMPS 1.4 Board Assembly Heated Bed Signal Wire
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components:
+              22awg-wire:
+                name: 22awg-wire
+                version: 1.0.0
+                description: 22AWG Braided Copper Wire
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              dupont-crimper:
+                name: dupont-crimper
+                version: 1.0.0
+                description: Dupont Wire Crimper
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              electrical-fork-terminal:
+                name: electrical-fork-terminal
+                version: 1.0.0
+                description: Electrical Fork Terminal
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              ferrule:
+                name: ferrule
+                version: 1.0.0
+                description: Wire Ferrule
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              ferrule-crimper:
+                name: ferrule-crimper
+                version: 1.0.0
+                description: Wire Ferrule Crimper
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              wire-stripper-cutter:
+                name: wire-stripper-cutter
+                version: 1.0.0
+                description: Wire Stripper/Cutter
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+            parts:
+              fork-terminal:
+                description: Fork Terminal
+                id: fork-terminal
+                notes: ''
+                options:
+                  - electrical-fork-terminal
+                quantity: 2
+                quantityUnits: part(s)
+                selectedOption: 0
+                descriptionLong: 'fork-terminal: Fork Terminal'
+                descriptionSelected: 'fork-terminal: Fork Terminal (Electrical Fork Terminal v1.0.0)'
+              ferrule:
+                description: Ferrule
+                id: ferrule
+                notes: ''
+                options:
+                  - ferrule
+                quantity: 2
+                quantityUnits: part(s)
+                selectedOption: 0
+                descriptionLong: 'ferrule: Ferrule'
+                descriptionSelected: 'ferrule: Ferrule (Wire Ferrule v1.0.0)'
+              22awg-wire-black:
+                description: Black 22AWG Wire
+                id: 22awg-wire-black
+                notes: ''
+                options:
+                  - 22awg-wire
+                quantity: 200
+                quantityUnits: mm
+                selectedOption: 0
+                descriptionLong: '22awg-wire-black: Black 22AWG Wire'
+                descriptionSelected: >-
+                  22awg-wire-black: Black 22AWG Wire (22AWG Braided Copper Wire
+                  v1.0.0)
+              22awg-wire-red:
+                description: Red 22AWG Wire
+                id: 22awg-wire-red
+                notes: ''
+                options:
+                  - 22awg-wire
+                quantity: 200
+                quantityUnits: mm
+                selectedOption: 0
+                descriptionLong: '22awg-wire-red: Red 22AWG Wire'
+                descriptionSelected: >-
+                  22awg-wire-red: Red 22AWG Wire (22AWG Braided Copper Wire
+                  v1.0.0)
+            tools:
+              wire-stripper-cutter:
+                description: Wire Strippers/Cutters
+                id: wire-stripper-cutter
+                notes: ''
+                options:
+                  - wire-stripper-cutter
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'wire-stripper-cutter: Wire Strippers/Cutters'
+                descriptionSelected: >-
+                  wire-stripper-cutter: Wire Strippers/Cutters (Wire
+                  Stripper/Cutter v1.0.0)
+              dupont-crimper:
+                description: Dupont Crimper
+                id: dupont-crimper
+                notes: ''
+                options:
+                  - dupont-crimper
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'dupont-crimper: Dupont Crimper'
+                descriptionSelected: 'dupont-crimper: Dupont Crimper (Dupont Wire Crimper v1.0.0)'
+              ferrule-crimper:
+                description: Ferrule Crimper
+                id: ferrule-crimper
+                notes: ''
+                options:
+                  - ferrule-crimper
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'ferrule-crimper: Ferrule Crimper'
+                descriptionSelected: 'ferrule-crimper: Ferrule Crimper (Wire Ferrule Crimper v1.0.0)'
+            precautions: []
+            assemblySteps:
+              - summary: Assemble the RAMPS 1.4 Board Assembly Heated Bed Signal Wire
+                requiredParts:
+                  - ferrule
+                  - 22awg-wire
+                  - fork-terminal
+                requiredTools:
+                  - dupont-crimper
+                  - ferrule-crimper
+                  - wire-stripper-cutter
+                details: >
+                  . Using the *Wire Strippers/Cutters*, cut one 200mm long piece
+                  of *Red 22AWG Wire* and one 200mm long piece of *Black 22AWG
+                  Wire*.
+
+                  . Using the *Wire Strippers/Cutters*, strip approximately 1cm
+                  of insulation off of both ends of each of the *Red 22AWG Wire*
+                  and *Black 22AWG Wire* lengths.
+
+                  . Place an appropriately sized *Ferrule* onto one end of each
+                  of the stripped *Red 22AWG Wire* and *Black 22AWG Wire*
+                  lengths.
+
+                  . Using the *Ferrule Crimper*, crimp the *Ferrule* part(s)
+                  onto the *Red 22AWG Wire* and *Black 22AWG Wire*.
+
+                  . Use the *Wire Strippers/Cutters* to cut off any excess *Red
+                  22AWG Wire* or *Black 22AWG Wire* that is poking through the
+                  ends of the *Ferrule* part(s).
+
+                  . Use the *Dupont Crimper* to crimp on appropriately sized
+                  *Fork Terminal* part(s) to the exposed ends of each *Red 22AWG
+                  Wire* and *Black 22AWG Wire*.
+
+                  . The *RAMPS 1.4 Board Assembly Heated Bed Signal Wire* is
+                  complete.
           ramps-1_4-board-assembly-power-wire:
             name: ramps-1_4-board-assembly-power-wire
             version: 1.0.0
@@ -13906,8 +14498,8 @@ components:
                   - ferrule-crimper
                   - dupont-crimper
                 details: >
-                  . Using the *Wire Strippers/Cutters*, cut one 100mm long piece
-                  of *Red 22AWG Wire* and one 100mm long piece of *Black 22AWG
+                  . Using the *Wire Strippers/Cutters*, cut one 50mm long piece
+                  of *Red 22AWG Wire* and one 50mm long piece of *Black 22AWG
                   Wire*.
 
                   . Using the *Wire Strippers/Cutters*, strip approximately 1cm
@@ -13934,7 +14526,7 @@ components:
                   the *Red 22AWG Wire* and *Black 22AWG Wire* into a *2 Pin
                   Female Dupont Connector*.
 
-                  . The * to  24v Power Custom Wires* are complete.
+                  . The *RAMPS 1.4 Board Assembly Power Wire* is complete.
           ramps-1_4-smart-adapter:
             name: ramps-1_4-smart-adapter
             version: 1.0.0
@@ -14032,6 +14624,21 @@ components:
             descriptionSelected: >-
               ramps-pwoer-wire: RAMPS 1.4 Board Assembly 24v Power Wire (RAMPS
               1.4 Board Assembly Power Wire v1.0.0)
+          heated-bed-signal-wire:
+            description: RAMPS 1.4 Board Assembly Heated Bed Signal Wire
+            id: heated-bed-signal-wire
+            notes: ''
+            options:
+              - ramps-1_4-board-assembly-heated-bed-signal-wire
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: >-
+              heated-bed-signal-wire: RAMPS 1.4 Board Assembly Heated Bed Signal
+              Wire
+            descriptionSelected: >-
+              heated-bed-signal-wire: RAMPS 1.4 Board Assembly Heated Bed Signal
+              Wire (RAMPS 1.4 Board Assembly Heated Bed Signal Wire v1.0.0)
         tools:
           flush-cutter:
             description: Flush Cutter Wire Snips
@@ -14866,41 +15473,6 @@ components:
         details: >
           . Use the *Hobby Knife* to clean any extra plastic off of the 3D
           printed components.
-      - summary: >-
-          Assemble the RAMPS Board Assembly to Solid State Relay (SSR) 24v
-          Signal Custom Wires
-        requiredParts:
-          - ferrule
-          - 22awg-wire
-          - fork-terminal
-        requiredTools:
-          - dupont-crimper
-          - ferrule-crimper
-          - wire-stripper-cutter
-        details: >
-          . Using the *Wire Strippers/Cutters*, cut one 200mm long piece of *Red
-          22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
-
-          . Using the *Wire Strippers/Cutters*, strip approximately 1cm of
-          insulation off of both ends of each of the *Red 22AWG Wire* and *Black
-          22AWG Wire* lengths.
-
-          . Place an appropriately sized *Ferrule* onto one end of each of the
-          stripped *Red 22AWG Wire* and *Black 22AWG Wire* lengths.
-
-          . Using the *Ferrule Crimper*, crimp the *Ferrule* part(s) onto the
-          *Red 22AWG Wire* and *Black 22AWG Wire*.
-
-          . Use the *Wire Strippers/Cutters* to cut off any excess *Red 22AWG
-          Wire* or *Black 22AWG Wire* that is poking through the ends of the
-          *Ferrule* part(s).
-
-          . Use the *Dupont Crimper* to crimp on appropriately sized *Fork
-          Terminal* part(s) to the exposed ends of each *Red 22AWG Wire* and
-          *Black 22AWG Wire*.
-
-          . The *RAMPS Board Assembly to Solid State Relay (SSR) 24v Signal
-          Custom Wires* are complete.
       - summary: >-
           Assemble the Two Prong Electrical Plug and Solid State Relay (SSR)
           120v Power Custom Wires
