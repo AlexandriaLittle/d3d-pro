@@ -14,4 +14,4 @@
     . Using the *{{tools.wire-stripper-cutter.description}}*, strip 2cm of insulation off of each end of the *{{parts.22awg-wire-red.description}}* and *{{parts.22awg-wire-black.description}}* part(s) from the above steps.
     . Using the *{{tools.dupont-crimper.description}}*, crimp one *{{parts.fork-terminal.description}}* onto one end of each of the above *{{parts.22awg-wire-red.description}}* and *{{parts.22awg-wire-black.description}}* part(s).
     . Using the *{{tools.ferrule-crimper.description}}*, crimp one *{{parts.ferrule.description}}* onto one end of each of the above *{{parts.22awg-wire-red.description}}* and *{{parts.22awg-wire-black.description}}* part(s).
-    . The {{description}} is complete.
+    . The *{{description}}* is complete.
