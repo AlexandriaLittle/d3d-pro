@@ -7,22 +7,13 @@ ferrule:
   quantity: 2
   quantityUnits: part(s)
   selectedOption: 0
-22awg-wire:
-  description: 22AWG Wire
-  id: 22awg-wire
-  notes: ''
-  options:
-    - 22awg-wire
-  quantity: 1
-  quantityUnits: length(s)
-  selectedOption: 0
 22awg-wire-black:
   description: Black 22AWG Wire
   id: 22awg-wire-black
   notes: ''
   options:
     - 22awg-wire
-  quantity: 200
+  quantity: 50
   quantityUnits: mm
   selectedOption: 0
 22awg-wire-red:
@@ -31,7 +22,7 @@ ferrule:
   notes: ''
   options:
     - 22awg-wire
-  quantity: 200
+  quantity: 50
   quantityUnits: mm
   selectedOption: 0
 dupont-female-pin-connector:
@@ -40,7 +31,7 @@ dupont-female-pin-connector:
   notes: ''
   options:
     - dupont-female-pin-connector
-  quantity: 1
+  quantity: 2
   quantityUnits: part(s)
   selectedOption: 0
 2-pin-dupont-connector:
