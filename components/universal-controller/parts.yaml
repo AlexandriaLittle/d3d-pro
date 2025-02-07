@@ -205,15 +205,6 @@ raspberry-pi-image:
   quantity: 1
   quantityUnits: image
   selectedOption: 0
-14awg-wire:
-  description: 14AWG Wire
-  id: 14awg-wire
-  notes: ''
-  options:
-    - 14awg-wire
-  quantity: 1
-  quantityUnits: mm
-  selectedOption: 0
 fork-terminal:
   description: Fork Terminal
   id: fork-terminal
