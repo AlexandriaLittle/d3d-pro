@@ -7,3 +7,12 @@
   quantity: 1
   quantityUnits: part
   selectedOption: 0
+fast-heated-bed-120v-power-wire:
+  description: Fast Heated Bed 120v Power Wire
+  id: fast-heated-bed-120v-power-wire
+  notes: ''
+  options:
+    - fast-heated-bed-120v-power-wire
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0

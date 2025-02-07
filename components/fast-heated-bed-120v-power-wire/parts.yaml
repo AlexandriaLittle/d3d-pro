@@ -25,3 +25,12 @@ ferrule:
   quantity: 2
   quantityUnits: part(s)
   selectedOption: 0
+fork-terminal:
+  description: Fork Terminal
+  id: fork-terminal
+  notes: ''
+  options:
+    - electrical-fork-terminal
+  quantity: 4
+  quantityUnits: part(s)
+  selectedOption: 0
