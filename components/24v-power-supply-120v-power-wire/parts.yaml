@@ -1,0 +1,36 @@
+22awg-wire-black:
+  description: Black 22AWG Wire
+  id: 22awg-wire-black
+  notes: ''
+  options:
+    - 22awg-wire
+  quantity: 200
+  quantityUnits: mm
+  selectedOption: 0
+22awg-wire-red:
+  description: Red 22AWG Wire
+  id: 22awg-wire-red
+  notes: ''
+  options:
+    - 22awg-wire
+  quantity: 200
+  quantityUnits: mm
+  selectedOption: 0
+fork-terminal:
+  description: Fork Terminal
+  id: fork-terminal
+  notes: ''
+  options:
+    - electrical-fork-terminal
+  quantity: 4
+  quantityUnits: part(s)
+  selectedOption: 0
+ferrule:
+  description: Ferrule
+  id: ferrule
+  notes: ''
+  options:
+    - ferrule
+  quantity: 2
+  quantityUnits: part(s)
+  selectedOption: 0

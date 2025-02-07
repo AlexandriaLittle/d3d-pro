@@ -1,0 +1,9 @@
+24v-power-supply-120v-power-wire:
+  description: 24v Power Supply 120v Power Wire
+  id: 24v-power-supply-120v-power-wire
+  notes: ''
+  options:
+    - 24v-power-supply-120v-power-wire
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0

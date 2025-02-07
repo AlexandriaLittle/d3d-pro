@@ -1,0 +1,8 @@
+- summary: Assemble the {{description}}
+  requiredParts:
+  - 24v-power-supply-120v-power-wire
+
+  requiredTools: []
+
+  details: |
+    . TODO: Finish me please :)
