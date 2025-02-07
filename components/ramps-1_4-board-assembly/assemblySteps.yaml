@@ -1,3 +1,11 @@
+- summary: Remove the D1 diode from the {{parts.ramps-board.description}}
+  requiredParts:
+  - ramps-board
+
+  requiredTools: []
+
+  details: |
+
 - summary: Assemble the {{parts.ramps-board.description}} and {{parts.arduino.description}}
   requiredParts:
   - ramps-board
