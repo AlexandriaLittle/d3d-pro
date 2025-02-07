@@ -313,3 +313,12 @@ emergency-switch:
   quantity: 1
   quantityUnits: part
   selectedOption: 0
+universal-controller-electrical-plug:
+  description: Universal Controller Electrical Plug
+  id: universal-controller-electrical-plug
+  notes: ''
+  options:
+    - universal-controller-electrical-plug
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
