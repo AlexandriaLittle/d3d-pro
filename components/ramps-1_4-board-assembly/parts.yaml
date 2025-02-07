@@ -43,3 +43,12 @@ a4988-stepper-motor-driver:
   quantity: 5
   quantityUnits: part(s)
   selectedOption: 0
+ramps-power-wire:
+  description: RAMPS 1.4 Board Assembly 24v Power Wire
+  id: ramps-pwoer-wire
+  notes: ''
+  options:
+    - ramps-1_4-board-assembly-power-wire
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
