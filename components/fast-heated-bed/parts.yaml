@@ -1,3 +1,12 @@
+lightbulb-assembly:
+  description: Halogen Lightbulb Assembly
+  id: lightbulb-assembly
+  notes: ''
+  options:
+    - fast-heated-bed-lightbulb-assembly
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
 8mm-rod:
   description: 8mm Rod
   id: 8mm-rod
@@ -60,15 +69,6 @@ corner-brace:
     - corner-brace
   quantity: 2
   quantityUnits: part(s)
-  selectedOption: 0
-lightbulb-assembly:
-  description: Halogen Lightbulb Assembly
-  id: lightbulb-assembly
-  notes: ''
-  options:
-    - fast-heated-bed-lightbulb-assembly
-  quantity: 1
-  quantityUnits: part
   selectedOption: 0
 m6-20mm-screw:
   description: M6 x 20mm Screw
