@@ -3596,7 +3596,7 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
-|200 mm
+|100 mm
 |22awg-wire-black
 |Black 22AWG Wire
 |22AWG Braided Copper Wire v1.0.0
@@ -3604,7 +3604,7 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
-|200 mm
+|100 mm
 |22awg-wire-red
 |Red 22AWG Wire
 |22AWG Braided Copper Wire v1.0.0
@@ -3612,7 +3612,7 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
-|4 part(s)
+|2 part(s)
 |fork-terminal
 |Fork Terminal
 |Electrical Fork Terminal v1.0.0
@@ -3669,11 +3669,11 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 *Instructions*
 
-. Using the *Wire Strippers/Cutters*, cut one 200mm long pieces of *Red 22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
+. Using the *Wire Strippers/Cutters*, cut one 100mm long pieces of *Red 22AWG Wire* and one 100mm long piece of *Black 22AWG Wire*.
 . Using the *Wire Strippers/Cutters*, strip 2cm of insulation off of each end of the *Red 22AWG Wire* and *Black 22AWG Wire* part(s) from the above steps.
 . Using the *Dupont Crimper*, crimp one *Fork Terminal* onto one end of each of the above *Red 22AWG Wire* and *Black 22AWG Wire* part(s).
 . Using the *Ferrule Crimper*, crimp one *Ferrule* onto one end of each of the above *Red 22AWG Wire* and *Black 22AWG Wire* part(s).
-. The 24v Power Supply 120v Power Wire is complete.
+. The *24v Power Supply 120v Power Wire* is complete.
 
 
 
@@ -5096,7 +5096,7 @@ image:IMG_3718.jpeg[,600,600,pdfwidth=60%]
 . Once the plug closes properly, screw the plug together snugly.
 . Wrap the plug neatly in electrical tape.
 . Done with the electical plug.
-. TODO
+. TODO: SPLIT INTO SEPARATE COMPONENT
 
 
 

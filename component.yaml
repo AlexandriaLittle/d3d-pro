@@ -293,7 +293,7 @@ components:
         notes: ''
         options:
           - 22awg-wire
-        quantity: 200
+        quantity: 100
         quantityUnits: mm
         selectedOption: 0
         descriptionLong: '22awg-wire-black: Black 22AWG Wire'
@@ -304,7 +304,7 @@ components:
         notes: ''
         options:
           - 22awg-wire
-        quantity: 200
+        quantity: 100
         quantityUnits: mm
         selectedOption: 0
         descriptionLong: '22awg-wire-red: Red 22AWG Wire'
@@ -315,7 +315,7 @@ components:
         notes: ''
         options:
           - electrical-fork-terminal
-        quantity: 4
+        quantity: 2
         quantityUnits: part(s)
         selectedOption: 0
         descriptionLong: 'fork-terminal: Fork Terminal'
@@ -379,8 +379,8 @@ components:
           - wire-stripper-cutter
           - ferrule-crimper
         details: >
-          . Using the *Wire Strippers/Cutters*, cut one 200mm long pieces of
-          *Red 22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
+          . Using the *Wire Strippers/Cutters*, cut one 100mm long pieces of
+          *Red 22AWG Wire* and one 100mm long piece of *Black 22AWG Wire*.
 
           . Using the *Wire Strippers/Cutters*, strip 2cm of insulation off of
           each end of the *Red 22AWG Wire* and *Black 22AWG Wire* part(s) from
@@ -392,7 +392,7 @@ components:
           . Using the *Ferrule Crimper*, crimp one *Ferrule* onto one end of
           each of the above *Red 22AWG Wire* and *Black 22AWG Wire* part(s).
 
-          . The 24v Power Supply 120v Power Wire is complete.
+          . The *24v Power Supply 120v Power Wire* is complete.
   2_54mm-jumper-cap:
     name: 2_54mm-jumper-cap
     version: 1.0.0
@@ -2363,6 +2363,17 @@ components:
           . While keeping the edges aligned, peel back more of the adhesive
           covering and apply more even pressure across the surface of the *PEI
           Sheet* until the *part* is fully adheared.
+  fast-heated-bed-120v-power-wire:
+    name: fast-heated-bed-120v-power-wire
+    version: 1.0.0
+    description: Fast Heated Bed 120v Power Wire
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
   fast-heated-bed-bottom-plate:
     name: fast-heated-bed-bottom-plate
     version: 1.0.0
@@ -15106,7 +15117,7 @@ components:
                 notes: ''
                 options:
                   - 22awg-wire
-                quantity: 200
+                quantity: 100
                 quantityUnits: mm
                 selectedOption: 0
                 descriptionLong: '22awg-wire-black: Black 22AWG Wire'
@@ -15119,7 +15130,7 @@ components:
                 notes: ''
                 options:
                   - 22awg-wire
-                quantity: 200
+                quantity: 100
                 quantityUnits: mm
                 selectedOption: 0
                 descriptionLong: '22awg-wire-red: Red 22AWG Wire'
@@ -15132,7 +15143,7 @@ components:
                 notes: ''
                 options:
                   - electrical-fork-terminal
-                quantity: 4
+                quantity: 2
                 quantityUnits: part(s)
                 selectedOption: 0
                 descriptionLong: 'fork-terminal: Fork Terminal'
@@ -15196,8 +15207,8 @@ components:
                   - wire-stripper-cutter
                   - ferrule-crimper
                 details: >
-                  . Using the *Wire Strippers/Cutters*, cut one 200mm long
-                  pieces of *Red 22AWG Wire* and one 200mm long piece of *Black
+                  . Using the *Wire Strippers/Cutters*, cut one 100mm long
+                  pieces of *Red 22AWG Wire* and one 100mm long piece of *Black
                   22AWG Wire*.
 
                   . Using the *Wire Strippers/Cutters*, strip 2cm of insulation
@@ -15212,7 +15223,7 @@ components:
                   end of each of the above *Red 22AWG Wire* and *Black 22AWG
                   Wire* part(s).
 
-                  . The 24v Power Supply 120v Power Wire is complete.
+                  . The *24v Power Supply 120v Power Wire* is complete.
         parts:
           24v-power-supply-120v-power-wire:
             description: 24v Power Supply 120v Power Wire
@@ -16128,7 +16139,7 @@ components:
 
           . Done with the electical plug.
 
-          . TODO
+          . TODO: SPLIT INTO SEPARATE COMPONENT
       - summary: Wire the 24v Power Supply Module
         requiredParts: []
         requiredTools: []
@@ -16319,7 +16330,7 @@ components:
             notes: ''
             options:
               - 22awg-wire
-            quantity: 200
+            quantity: 100
             quantityUnits: mm
             selectedOption: 0
             descriptionLong: '22awg-wire-black: Black 22AWG Wire'
@@ -16332,7 +16343,7 @@ components:
             notes: ''
             options:
               - 22awg-wire
-            quantity: 200
+            quantity: 100
             quantityUnits: mm
             selectedOption: 0
             descriptionLong: '22awg-wire-red: Red 22AWG Wire'
@@ -16343,7 +16354,7 @@ components:
             notes: ''
             options:
               - electrical-fork-terminal
-            quantity: 4
+            quantity: 2
             quantityUnits: part(s)
             selectedOption: 0
             descriptionLong: 'fork-terminal: Fork Terminal'
@@ -16407,8 +16418,8 @@ components:
               - wire-stripper-cutter
               - ferrule-crimper
             details: >
-              . Using the *Wire Strippers/Cutters*, cut one 200mm long pieces of
-              *Red 22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
+              . Using the *Wire Strippers/Cutters*, cut one 100mm long pieces of
+              *Red 22AWG Wire* and one 100mm long piece of *Black 22AWG Wire*.
 
               . Using the *Wire Strippers/Cutters*, strip 2cm of insulation off
               of each end of the *Red 22AWG Wire* and *Black 22AWG Wire* part(s)
@@ -16421,7 +16432,7 @@ components:
               . Using the *Ferrule Crimper*, crimp one *Ferrule* onto one end of
               each of the above *Red 22AWG Wire* and *Black 22AWG Wire* part(s).
 
-              . The 24v Power Supply 120v Power Wire is complete.
+              . The *24v Power Supply 120v Power Wire* is complete.
     parts:
       24v-power-supply-120v-power-wire:
         description: 24v Power Supply 120v Power Wire
