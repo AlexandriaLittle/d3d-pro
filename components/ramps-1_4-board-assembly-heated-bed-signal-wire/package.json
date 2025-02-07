@@ -1,0 +1,9 @@
+{
+  "name": "ramps-1_4-board-assembly-heated-bed-signal-wire",
+  "version": "1.0.0",
+  "description": "RAMPS 1.4 Board Assembly Heated Bed Signal Wire",
+  "license": "CC-BY-SA-4.0",
+  "author": "Alexandria Little",
+  "dependencies": {
+  }
+}

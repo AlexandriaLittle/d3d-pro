@@ -52,3 +52,12 @@ ramps-power-wire:
   quantity: 1
   quantityUnits: part
   selectedOption: 0
+heated-bed-signal-wire:
+  description: RAMPS 1.4 Board Assembly Heated Bed Signal Wire
+  id: heated-bed-signal-wire
+  notes: ''
+  options:
+    - ramps-1_4-board-assembly-heated-bed-signal-wire
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0

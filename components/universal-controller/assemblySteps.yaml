@@ -8,26 +8,6 @@
   details: |
     . Use the *{{tools.hobby-knife.description}}* to clean any extra plastic off of the 3D printed components.
 
-- summary: Assemble the {{parts.ramps-board-assembly.description}} to {{parts.solid-state-relay.description}} 24v Signal Custom Wires
-  requiredParts:
-  - ferrule
-  - 22awg-wire
-  - fork-terminal
-
-  requiredTools: 
-  - dupont-crimper
-  - ferrule-crimper
-  - wire-stripper-cutter
-
-  details: |
-    . Using the *{{tools.wire-stripper-cutter.description}}*, cut one 200mm long piece of *{{parts.22awg-wire-red.description}}* and one 200mm long piece of *{{parts.22awg-wire-black.description}}*.
-    . Using the *{{tools.wire-stripper-cutter.description}}*, strip approximately 1cm of insulation off of both ends of each of the *{{parts.22awg-wire-red.description}}* and *{{parts.22awg-wire-black.description}}* lengths.
-    . Place an appropriately sized *{{parts.ferrule.description}}* onto one end of each of the stripped *{{parts.22awg-wire-red.description}}* and *{{parts.22awg-wire-black.description}}* lengths.
-    . Using the *{{tools.ferrule-crimper.description}}*, crimp the *{{parts.ferrule.description}}* {{parts.ferrule.quantityUnits}} onto the *{{parts.22awg-wire-red.description}}* and *{{parts.22awg-wire-black.description}}*.
-    . Use the *{{tools.wire-stripper-cutter.description}}* to cut off any excess *{{parts.22awg-wire-red.description}}* or *{{parts.22awg-wire-black.description}}* that is poking through the ends of the *{{parts.ferrule.description}}* {{parts.ferrule.quantityUnits}}.
-    . Use the *{{tools.dupont-crimper.description}}* to crimp on appropriately sized *{{parts.fork-terminal.description}}* {{parts.fork-terminal.quantityUnits}} to the exposed ends of each *{{parts.22awg-wire-red.description}}* and *{{parts.22awg-wire-black.description}}*.
-    . The *{{parts.ramps-board-assembly.description}} to {{parts.solid-state-relay.description}} 24v Signal Custom Wires* are complete.
-
 - summary: Assemble the {{parts.electrical-plug.description}} and {{parts.solid-state-relay.description}} 120v Power Custom Wires
   requiredParts:
   - 22awg-wire

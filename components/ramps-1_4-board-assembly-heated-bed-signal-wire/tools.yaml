@@ -1,0 +1,27 @@
+wire-stripper-cutter:
+  description: Wire Strippers/Cutters
+  id: wire-stripper-cutter
+  notes: ''
+  options:
+    - wire-stripper-cutter
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+dupont-crimper:
+  description: Dupont Crimper
+  id: dupont-crimper
+  notes: ''
+  options:
+    - dupont-crimper
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+ferrule-crimper:
+  description: Ferrule Crimper
+  id: ferrule-crimper
+  notes: ''
+  options:
+    - ferrule-crimper
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
