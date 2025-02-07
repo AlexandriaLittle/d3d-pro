@@ -32,5 +32,4 @@
     . Using even pressure, push down on each corner of the *{{parts.ramps-board.description}}* until its pins are fully seated into the *{{parts.arduino.description}}*.
     . Position the *{{parts.ramps-smart-adapter.description}}* over the right side of the *{{parts.ramps-board.description}}* so that both sets of sockets on the *{{parts.ramps-smart-adapter.description}}* align with the pins on the *{{parts.ramps-board.description}}*. There is only one orientation that will fit all pins properly.
     . Using even pressure on both ends of the *{{parts.ramps-smart-adapter.description}}*, push the {{parts.ramps-smart-adapter.quantityUnits}} gently into place over the *{{parts.ramps-board.description}}* until both components are seated against one another.
-    . The {{parts.ramps-board.description}} and {{parts.arduino.description}} assembly is complete.
-    . TODO: ADD CRITICAL RESISTOR REMOVAL STEP
+    . The *{{description}}* is complete.
