@@ -4864,6 +4864,229 @@ components:
         parts: {}
         tools: {}
         precautions: []
+      ramps-1_4-board-assembly-power-wire:
+        name: ramps-1_4-board-assembly-power-wire
+        version: 1.0.0
+        description: RAMPS 1.4 Board Assembly Power Wire
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components:
+          2-pin-dupont-connector:
+            name: 2-pin-dupont-connector
+            version: 1.0.0
+            description: 2 Pin Dupont Connector Housing
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          22awg-wire:
+            name: 22awg-wire
+            version: 1.0.0
+            description: 22AWG Braided Copper Wire
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          dupont-crimper:
+            name: dupont-crimper
+            version: 1.0.0
+            description: Dupont Wire Crimper
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          dupont-female-pin-connector:
+            name: dupont-female-pin-connector
+            version: 1.0.0
+            description: Dupont Female Pin Connector
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          ferrule:
+            name: ferrule
+            version: 1.0.0
+            description: Wire Ferrule
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          ferrule-crimper:
+            name: ferrule-crimper
+            version: 1.0.0
+            description: Wire Ferrule Crimper
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          wire-stripper-cutter:
+            name: wire-stripper-cutter
+            version: 1.0.0
+            description: Wire Stripper/Cutter
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+        parts:
+          ferrule:
+            description: Ferrule
+            id: ferrule
+            notes: ''
+            options:
+              - ferrule
+            quantity: 2
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: 'ferrule: Ferrule'
+            descriptionSelected: 'ferrule: Ferrule (Wire Ferrule v1.0.0)'
+          22awg-wire-black:
+            description: Black 22AWG Wire
+            id: 22awg-wire-black
+            notes: ''
+            options:
+              - 22awg-wire
+            quantity: 50
+            quantityUnits: mm
+            selectedOption: 0
+            descriptionLong: '22awg-wire-black: Black 22AWG Wire'
+            descriptionSelected: >-
+              22awg-wire-black: Black 22AWG Wire (22AWG Braided Copper Wire
+              v1.0.0)
+          22awg-wire-red:
+            description: Red 22AWG Wire
+            id: 22awg-wire-red
+            notes: ''
+            options:
+              - 22awg-wire
+            quantity: 50
+            quantityUnits: mm
+            selectedOption: 0
+            descriptionLong: '22awg-wire-red: Red 22AWG Wire'
+            descriptionSelected: '22awg-wire-red: Red 22AWG Wire (22AWG Braided Copper Wire v1.0.0)'
+          dupont-female-pin-connector:
+            description: Dupont Female Pin Connector
+            id: dupont-female-pin-connector
+            notes: ''
+            options:
+              - dupont-female-pin-connector
+            quantity: 2
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: 'dupont-female-pin-connector: Dupont Female Pin Connector'
+            descriptionSelected: >-
+              dupont-female-pin-connector: Dupont Female Pin Connector (Dupont
+              Female Pin Connector v1.0.0)
+          2-pin-dupont-connector:
+            description: 2 Pin Female Dupont Connector
+            id: 2-pin-dupont-connector
+            notes: ''
+            options:
+              - 2-pin-dupont-connector
+            quantity: 1
+            quantityUnits: part(s)
+            selectedOption: 0
+            descriptionLong: '2-pin-dupont-connector: 2 Pin Female Dupont Connector'
+            descriptionSelected: >-
+              2-pin-dupont-connector: 2 Pin Female Dupont Connector (2 Pin
+              Dupont Connector Housing v1.0.0)
+        tools:
+          ferrule-crimper:
+            description: Ferrule Crimper
+            id: ferrule-crimper
+            notes: ''
+            options:
+              - ferrule-crimper
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'ferrule-crimper: Ferrule Crimper'
+            descriptionSelected: 'ferrule-crimper: Ferrule Crimper (Wire Ferrule Crimper v1.0.0)'
+          wire-stripper-cutter:
+            description: Wire Strippers/Cutters
+            id: wire-stripper-cutter
+            notes: ''
+            options:
+              - wire-stripper-cutter
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'wire-stripper-cutter: Wire Strippers/Cutters'
+            descriptionSelected: >-
+              wire-stripper-cutter: Wire Strippers/Cutters (Wire Stripper/Cutter
+              v1.0.0)
+          dupont-crimper:
+            description: Dupont Crimper
+            id: dupont-crimper
+            notes: ''
+            options:
+              - dupont-crimper
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'dupont-crimper: Dupont Crimper'
+            descriptionSelected: 'dupont-crimper: Dupont Crimper (Dupont Wire Crimper v1.0.0)'
+        precautions: []
+        assemblySteps:
+          - summary: Assemble the RAMPS 1.4 Board Assembly Power Wire
+            requiredParts:
+              - ferrule
+              - 22awg-wire
+              - dupont-female-pin-connector
+              - 2-pin-dupont-connector
+            requiredTools:
+              - wire-stripper-cutter
+              - ferrule-crimper
+              - dupont-crimper
+            details: >
+              . Using the *Wire Strippers/Cutters*, cut one 100mm long piece of
+              *Red 22AWG Wire* and one 100mm long piece of *Black 22AWG Wire*.
+
+              . Using the *Wire Strippers/Cutters*, strip approximately 1cm of
+              insulation off of both ends of the *Red 22AWG Wire* and *Black
+              22AWG Wire*.
+
+              . Place an appropriately sized *Ferrule* onto the end of the
+              stripped *Red 22AWG Wire*.
+
+              . Using the *Ferrule Crimper*, crimp the *Ferrule* onto the wire.
+
+              . Use the *Wire Strippers/Cutters* to cut off any excess *Red
+              22AWG Wire* that is poking through the end of the *Ferrule*.
+
+              . Repeat the above steps to crimp another *Ferrule* to the end of
+              the *Black 22AWG Wire*.
+
+              . Using the *Dupont Crimper*, crimp *Dupont Female Pin Connector*
+              part(s) onto the exposed ends of the *Red 22AWG Wire* and *Black
+              22AWG Wire*.
+
+              . Insert the both of the *Dupont Female Pin Connector* ends of the
+              *Red 22AWG Wire* and *Black 22AWG Wire* into a *2 Pin Female
+              Dupont Connector*.
+
+              . The * to  24v Power Custom Wires* are complete.
       ramps-1_4-smart-adapter:
         name: ramps-1_4-smart-adapter
         version: 1.0.0
@@ -4948,6 +5171,19 @@ components:
         descriptionSelected: >-
           a4988-stepper-motor-driver: A4988 Stepper Motor Driver (A4988 Stepper
           Motor Driver v1.0.0)
+      ramps-power-wire:
+        description: RAMPS 1.4 Board Assembly 24v Power Wire
+        id: ramps-pwoer-wire
+        notes: ''
+        options:
+          - ramps-1_4-board-assembly-power-wire
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'ramps-pwoer-wire: RAMPS 1.4 Board Assembly 24v Power Wire'
+        descriptionSelected: >-
+          ramps-pwoer-wire: RAMPS 1.4 Board Assembly 24v Power Wire (RAMPS 1.4
+          Board Assembly Power Wire v1.0.0)
     tools:
       flush-cutter:
         description: Flush Cutter Wire Snips
@@ -5027,9 +5263,228 @@ components:
           push the part gently into place over the *RAMPS 1.4 Board* until both
           components are seated against one another.
 
-          . The RAMPS 1.4 Board and Arduino Mega 2560 assembly is complete.
+          . The *RAMPS 1.4 Board Assembly* is complete.
+  ramps-1_4-board-assembly-power-wire:
+    name: ramps-1_4-board-assembly-power-wire
+    version: 1.0.0
+    description: RAMPS 1.4 Board Assembly Power Wire
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components:
+      2-pin-dupont-connector:
+        name: 2-pin-dupont-connector
+        version: 1.0.0
+        description: 2 Pin Dupont Connector Housing
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      22awg-wire:
+        name: 22awg-wire
+        version: 1.0.0
+        description: 22AWG Braided Copper Wire
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      dupont-crimper:
+        name: dupont-crimper
+        version: 1.0.0
+        description: Dupont Wire Crimper
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      dupont-female-pin-connector:
+        name: dupont-female-pin-connector
+        version: 1.0.0
+        description: Dupont Female Pin Connector
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      ferrule:
+        name: ferrule
+        version: 1.0.0
+        description: Wire Ferrule
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      ferrule-crimper:
+        name: ferrule-crimper
+        version: 1.0.0
+        description: Wire Ferrule Crimper
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      wire-stripper-cutter:
+        name: wire-stripper-cutter
+        version: 1.0.0
+        description: Wire Stripper/Cutter
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+    parts:
+      ferrule:
+        description: Ferrule
+        id: ferrule
+        notes: ''
+        options:
+          - ferrule
+        quantity: 2
+        quantityUnits: part(s)
+        selectedOption: 0
+        descriptionLong: 'ferrule: Ferrule'
+        descriptionSelected: 'ferrule: Ferrule (Wire Ferrule v1.0.0)'
+      22awg-wire-black:
+        description: Black 22AWG Wire
+        id: 22awg-wire-black
+        notes: ''
+        options:
+          - 22awg-wire
+        quantity: 50
+        quantityUnits: mm
+        selectedOption: 0
+        descriptionLong: '22awg-wire-black: Black 22AWG Wire'
+        descriptionSelected: '22awg-wire-black: Black 22AWG Wire (22AWG Braided Copper Wire v1.0.0)'
+      22awg-wire-red:
+        description: Red 22AWG Wire
+        id: 22awg-wire-red
+        notes: ''
+        options:
+          - 22awg-wire
+        quantity: 50
+        quantityUnits: mm
+        selectedOption: 0
+        descriptionLong: '22awg-wire-red: Red 22AWG Wire'
+        descriptionSelected: '22awg-wire-red: Red 22AWG Wire (22AWG Braided Copper Wire v1.0.0)'
+      dupont-female-pin-connector:
+        description: Dupont Female Pin Connector
+        id: dupont-female-pin-connector
+        notes: ''
+        options:
+          - dupont-female-pin-connector
+        quantity: 2
+        quantityUnits: part(s)
+        selectedOption: 0
+        descriptionLong: 'dupont-female-pin-connector: Dupont Female Pin Connector'
+        descriptionSelected: >-
+          dupont-female-pin-connector: Dupont Female Pin Connector (Dupont
+          Female Pin Connector v1.0.0)
+      2-pin-dupont-connector:
+        description: 2 Pin Female Dupont Connector
+        id: 2-pin-dupont-connector
+        notes: ''
+        options:
+          - 2-pin-dupont-connector
+        quantity: 1
+        quantityUnits: part(s)
+        selectedOption: 0
+        descriptionLong: '2-pin-dupont-connector: 2 Pin Female Dupont Connector'
+        descriptionSelected: >-
+          2-pin-dupont-connector: 2 Pin Female Dupont Connector (2 Pin Dupont
+          Connector Housing v1.0.0)
+    tools:
+      ferrule-crimper:
+        description: Ferrule Crimper
+        id: ferrule-crimper
+        notes: ''
+        options:
+          - ferrule-crimper
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'ferrule-crimper: Ferrule Crimper'
+        descriptionSelected: 'ferrule-crimper: Ferrule Crimper (Wire Ferrule Crimper v1.0.0)'
+      wire-stripper-cutter:
+        description: Wire Strippers/Cutters
+        id: wire-stripper-cutter
+        notes: ''
+        options:
+          - wire-stripper-cutter
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'wire-stripper-cutter: Wire Strippers/Cutters'
+        descriptionSelected: >-
+          wire-stripper-cutter: Wire Strippers/Cutters (Wire Stripper/Cutter
+          v1.0.0)
+      dupont-crimper:
+        description: Dupont Crimper
+        id: dupont-crimper
+        notes: ''
+        options:
+          - dupont-crimper
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'dupont-crimper: Dupont Crimper'
+        descriptionSelected: 'dupont-crimper: Dupont Crimper (Dupont Wire Crimper v1.0.0)'
+    precautions: []
+    assemblySteps:
+      - summary: Assemble the RAMPS 1.4 Board Assembly Power Wire
+        requiredParts:
+          - ferrule
+          - 22awg-wire
+          - dupont-female-pin-connector
+          - 2-pin-dupont-connector
+        requiredTools:
+          - wire-stripper-cutter
+          - ferrule-crimper
+          - dupont-crimper
+        details: >
+          . Using the *Wire Strippers/Cutters*, cut one 100mm long piece of *Red
+          22AWG Wire* and one 100mm long piece of *Black 22AWG Wire*.
 
-          . TODO: ADD CRITICAL RESISTOR REMOVAL STEP
+          . Using the *Wire Strippers/Cutters*, strip approximately 1cm of
+          insulation off of both ends of the *Red 22AWG Wire* and *Black 22AWG
+          Wire*.
+
+          . Place an appropriately sized *Ferrule* onto the end of the stripped
+          *Red 22AWG Wire*.
+
+          . Using the *Ferrule Crimper*, crimp the *Ferrule* onto the wire.
+
+          . Use the *Wire Strippers/Cutters* to cut off any excess *Red 22AWG
+          Wire* that is poking through the end of the *Ferrule*.
+
+          . Repeat the above steps to crimp another *Ferrule* to the end of the
+          *Black 22AWG Wire*.
+
+          . Using the *Dupont Crimper*, crimp *Dupont Female Pin Connector*
+          part(s) onto the exposed ends of the *Red 22AWG Wire* and *Black 22AWG
+          Wire*.
+
+          . Insert the both of the *Dupont Female Pin Connector* ends of the
+          *Red 22AWG Wire* and *Black 22AWG Wire* into a *2 Pin Female Dupont
+          Connector*.
+
+          . The * to  24v Power Custom Wires* are complete.
   ramps-1_4-endstop:
     name: ramps-1_4-endstop
     version: 1.0.0
@@ -13253,6 +13708,233 @@ components:
             parts: {}
             tools: {}
             precautions: []
+          ramps-1_4-board-assembly-power-wire:
+            name: ramps-1_4-board-assembly-power-wire
+            version: 1.0.0
+            description: RAMPS 1.4 Board Assembly Power Wire
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components:
+              2-pin-dupont-connector:
+                name: 2-pin-dupont-connector
+                version: 1.0.0
+                description: 2 Pin Dupont Connector Housing
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              22awg-wire:
+                name: 22awg-wire
+                version: 1.0.0
+                description: 22AWG Braided Copper Wire
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              dupont-crimper:
+                name: dupont-crimper
+                version: 1.0.0
+                description: Dupont Wire Crimper
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              dupont-female-pin-connector:
+                name: dupont-female-pin-connector
+                version: 1.0.0
+                description: Dupont Female Pin Connector
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              ferrule:
+                name: ferrule
+                version: 1.0.0
+                description: Wire Ferrule
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              ferrule-crimper:
+                name: ferrule-crimper
+                version: 1.0.0
+                description: Wire Ferrule Crimper
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+              wire-stripper-cutter:
+                name: wire-stripper-cutter
+                version: 1.0.0
+                description: Wire Stripper/Cutter
+                license: CC-BY-SA-4.0
+                author: Alexandria Little
+                dependencies: {}
+                components: {}
+                parts: {}
+                tools: {}
+                precautions: []
+            parts:
+              ferrule:
+                description: Ferrule
+                id: ferrule
+                notes: ''
+                options:
+                  - ferrule
+                quantity: 2
+                quantityUnits: part(s)
+                selectedOption: 0
+                descriptionLong: 'ferrule: Ferrule'
+                descriptionSelected: 'ferrule: Ferrule (Wire Ferrule v1.0.0)'
+              22awg-wire-black:
+                description: Black 22AWG Wire
+                id: 22awg-wire-black
+                notes: ''
+                options:
+                  - 22awg-wire
+                quantity: 50
+                quantityUnits: mm
+                selectedOption: 0
+                descriptionLong: '22awg-wire-black: Black 22AWG Wire'
+                descriptionSelected: >-
+                  22awg-wire-black: Black 22AWG Wire (22AWG Braided Copper Wire
+                  v1.0.0)
+              22awg-wire-red:
+                description: Red 22AWG Wire
+                id: 22awg-wire-red
+                notes: ''
+                options:
+                  - 22awg-wire
+                quantity: 50
+                quantityUnits: mm
+                selectedOption: 0
+                descriptionLong: '22awg-wire-red: Red 22AWG Wire'
+                descriptionSelected: >-
+                  22awg-wire-red: Red 22AWG Wire (22AWG Braided Copper Wire
+                  v1.0.0)
+              dupont-female-pin-connector:
+                description: Dupont Female Pin Connector
+                id: dupont-female-pin-connector
+                notes: ''
+                options:
+                  - dupont-female-pin-connector
+                quantity: 2
+                quantityUnits: part(s)
+                selectedOption: 0
+                descriptionLong: 'dupont-female-pin-connector: Dupont Female Pin Connector'
+                descriptionSelected: >-
+                  dupont-female-pin-connector: Dupont Female Pin Connector
+                  (Dupont Female Pin Connector v1.0.0)
+              2-pin-dupont-connector:
+                description: 2 Pin Female Dupont Connector
+                id: 2-pin-dupont-connector
+                notes: ''
+                options:
+                  - 2-pin-dupont-connector
+                quantity: 1
+                quantityUnits: part(s)
+                selectedOption: 0
+                descriptionLong: '2-pin-dupont-connector: 2 Pin Female Dupont Connector'
+                descriptionSelected: >-
+                  2-pin-dupont-connector: 2 Pin Female Dupont Connector (2 Pin
+                  Dupont Connector Housing v1.0.0)
+            tools:
+              ferrule-crimper:
+                description: Ferrule Crimper
+                id: ferrule-crimper
+                notes: ''
+                options:
+                  - ferrule-crimper
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'ferrule-crimper: Ferrule Crimper'
+                descriptionSelected: 'ferrule-crimper: Ferrule Crimper (Wire Ferrule Crimper v1.0.0)'
+              wire-stripper-cutter:
+                description: Wire Strippers/Cutters
+                id: wire-stripper-cutter
+                notes: ''
+                options:
+                  - wire-stripper-cutter
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'wire-stripper-cutter: Wire Strippers/Cutters'
+                descriptionSelected: >-
+                  wire-stripper-cutter: Wire Strippers/Cutters (Wire
+                  Stripper/Cutter v1.0.0)
+              dupont-crimper:
+                description: Dupont Crimper
+                id: dupont-crimper
+                notes: ''
+                options:
+                  - dupont-crimper
+                quantity: 1
+                quantityUnits: part
+                selectedOption: 0
+                descriptionLong: 'dupont-crimper: Dupont Crimper'
+                descriptionSelected: 'dupont-crimper: Dupont Crimper (Dupont Wire Crimper v1.0.0)'
+            precautions: []
+            assemblySteps:
+              - summary: Assemble the RAMPS 1.4 Board Assembly Power Wire
+                requiredParts:
+                  - ferrule
+                  - 22awg-wire
+                  - dupont-female-pin-connector
+                  - 2-pin-dupont-connector
+                requiredTools:
+                  - wire-stripper-cutter
+                  - ferrule-crimper
+                  - dupont-crimper
+                details: >
+                  . Using the *Wire Strippers/Cutters*, cut one 100mm long piece
+                  of *Red 22AWG Wire* and one 100mm long piece of *Black 22AWG
+                  Wire*.
+
+                  . Using the *Wire Strippers/Cutters*, strip approximately 1cm
+                  of insulation off of both ends of the *Red 22AWG Wire* and
+                  *Black 22AWG Wire*.
+
+                  . Place an appropriately sized *Ferrule* onto the end of the
+                  stripped *Red 22AWG Wire*.
+
+                  . Using the *Ferrule Crimper*, crimp the *Ferrule* onto the
+                  wire.
+
+                  . Use the *Wire Strippers/Cutters* to cut off any excess *Red
+                  22AWG Wire* that is poking through the end of the *Ferrule*.
+
+                  . Repeat the above steps to crimp another *Ferrule* to the end
+                  of the *Black 22AWG Wire*.
+
+                  . Using the *Dupont Crimper*, crimp *Dupont Female Pin
+                  Connector* part(s) onto the exposed ends of the *Red 22AWG
+                  Wire* and *Black 22AWG Wire*.
+
+                  . Insert the both of the *Dupont Female Pin Connector* ends of
+                  the *Red 22AWG Wire* and *Black 22AWG Wire* into a *2 Pin
+                  Female Dupont Connector*.
+
+                  . The * to  24v Power Custom Wires* are complete.
           ramps-1_4-smart-adapter:
             name: ramps-1_4-smart-adapter
             version: 1.0.0
@@ -13337,6 +14019,19 @@ components:
             descriptionSelected: >-
               a4988-stepper-motor-driver: A4988 Stepper Motor Driver (A4988
               Stepper Motor Driver v1.0.0)
+          ramps-power-wire:
+            description: RAMPS 1.4 Board Assembly 24v Power Wire
+            id: ramps-pwoer-wire
+            notes: ''
+            options:
+              - ramps-1_4-board-assembly-power-wire
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'ramps-pwoer-wire: RAMPS 1.4 Board Assembly 24v Power Wire'
+            descriptionSelected: >-
+              ramps-pwoer-wire: RAMPS 1.4 Board Assembly 24v Power Wire (RAMPS
+              1.4 Board Assembly Power Wire v1.0.0)
         tools:
           flush-cutter:
             description: Flush Cutter Wire Snips
@@ -13419,9 +14114,7 @@ components:
               Adapter*, push the part gently into place over the *RAMPS 1.4
               Board* until both components are seated against one another.
 
-              . The RAMPS 1.4 Board and Arduino Mega 2560 assembly is complete.
-
-              . TODO: ADD CRITICAL RESISTOR REMOVAL STEP
+              . The *RAMPS 1.4 Board Assembly* is complete.
       ramps-1_4-smart-adapter:
         name: ramps-1_4-smart-adapter
         version: 1.0.0
@@ -14173,47 +14866,6 @@ components:
         details: >
           . Use the *Hobby Knife* to clean any extra plastic off of the 3D
           printed components.
-      - summary: >-
-          Assemble the RAMPS Board Assembly to RAMPS Board Assembly 24v Power
-          Custom Wires
-        requiredParts:
-          - ferrule
-          - 22awg-wire
-          - dupont-female-pin-connector
-          - 2-pin-dupont-connector
-        requiredTools:
-          - wire-stripper-cutter
-          - ferrule-crimper
-          - dupont-crimper
-        details: >
-          . Using the *Wire Strippers/Cutters*, cut one 100mm long piece of *Red
-          22AWG Wire* and one 100mm long piece of *Black 22AWG Wire*.
-
-          . Using the *Wire Strippers/Cutters*, strip approximately 1cm of
-          insulation off of both ends of the *Red 22AWG Wire* and *Black 22AWG
-          Wire*.
-
-          . Place an appropriately sized *Ferrule* onto the end of the stripped
-          *Red 22AWG Wire*.
-
-          . Using the *Ferrule Crimper*, crimp the *Ferrule* onto the wire.
-
-          . Use the *Wire Strippers/Cutters* to cut off any excess *Red 22AWG
-          Wire* that is poking through the end of the *Ferrule*.
-
-          . Repeat the above steps to crimp another *Ferrule* to the end of the
-          *Black 22AWG Wire*.
-
-          . Using the *Dupont Crimper*, crimp *Dupont Female Pin Connector*
-          part(s) onto the exposed ends of the *Red 22AWG Wire* and *Black 22AWG
-          Wire*.
-
-          . Insert the both of the *Dupont Female Pin Connector* ends of the
-          *Red 22AWG Wire* and *Black 22AWG Wire* into a *2 Pin Female Dupont
-          Connector*.
-
-          . The *RAMPS Board Assembly to RAMPS Board Assembly 24v Power Custom
-          Wires* are complete.
       - summary: >-
           Assemble the RAMPS Board Assembly to Solid State Relay (SSR) 24v
           Signal Custom Wires

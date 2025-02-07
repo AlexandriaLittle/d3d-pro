@@ -3559,6 +3559,141 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
+== Assemble RAMPS 1.4 Board Assembly Power Wire
+
+// tools
+
+=== Tools
+|===
+|Name |Description |Notes
+
+
+
+|Ferrule Crimper
+|Wire Ferrule Crimper
+|
+
+
+
+|Wire Strippers/Cutters
+|Wire Stripper/Cutter
+|
+
+
+
+|Dupont Crimper
+|Dupont Wire Crimper
+|
+
+|===
+
+
+// materials
+
+=== Materials
+|===
+|Quantity |ID |Name |Description |Notes
+
+
+
+|2 part(s)
+|ferrule
+|Ferrule
+|Wire Ferrule v1.0.0
+|
+
+
+
+|50 mm
+|22awg-wire-black
+|Black 22AWG Wire
+|22AWG Braided Copper Wire v1.0.0
+|
+
+
+
+|50 mm
+|22awg-wire-red
+|Red 22AWG Wire
+|22AWG Braided Copper Wire v1.0.0
+|
+
+
+
+|2 part(s)
+|dupont-female-pin-connector
+|Dupont Female Pin Connector
+|Dupont Female Pin Connector v1.0.0
+|
+
+
+
+|1 part(s)
+|2-pin-dupont-connector
+|2 Pin Female Dupont Connector
+|2 Pin Dupont Connector Housing v1.0.0
+|
+
+|===
+
+
+// Precautions
+
+
+
+// Procedure
+=== Procedure
+
+// summary
+
+==== Assemble the RAMPS 1.4 Board Assembly Power Wire
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* Wire Strippers/Cutters
+//
+//* Ferrule Crimper
+//
+//* Dupont Crimper
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Ferrule
+//
+//* 
+//
+//* Dupont Female Pin Connector
+//
+//* 2 Pin Female Dupont Connector
+//
+//
+
+// details
+
+*Instructions*
+
+. Using the *Wire Strippers/Cutters*, cut one 100mm long piece of *Red 22AWG Wire* and one 100mm long piece of *Black 22AWG Wire*.
+. Using the *Wire Strippers/Cutters*, strip approximately 1cm of insulation off of both ends of the *Red 22AWG Wire* and *Black 22AWG Wire*.
+. Place an appropriately sized *Ferrule* onto the end of the stripped *Red 22AWG Wire*.
+. Using the *Ferrule Crimper*, crimp the *Ferrule* onto the wire.
+. Use the *Wire Strippers/Cutters* to cut off any excess *Red 22AWG Wire* that is poking through the end of the *Ferrule*.
+. Repeat the above steps to crimp another *Ferrule* to the end of the *Black 22AWG Wire*.
+. Using the *Dupont Crimper*, crimp *Dupont Female Pin Connector* part(s) onto the exposed ends of the *Red 22AWG Wire* and *Black 22AWG Wire*.
+. Insert the both of the *Dupont Female Pin Connector* ends of the *Red 22AWG Wire* and *Black 22AWG Wire* into a *2 Pin Female Dupont Connector*.
+. The * to  24v Power Custom Wires* are complete.
+
+
+
+
+
+
 == Assemble RAMPS 1.4 Board Assembly
 
 // tools
@@ -3622,6 +3757,14 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 |A4988 Stepper Motor Driver v1.0.0
 |
 
+
+
+|1 part
+|ramps-pwoer-wire
+|RAMPS 1.4 Board Assembly 24v Power Wire
+|RAMPS 1.4 Board Assembly Power Wire v1.0.0
+|
+
 |===
 
 
@@ -3657,6 +3800,10 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 * *A4988 Stepper Motor Driver:* The A4988 Stepper Motor Driver must be oriented correctly when inserted into the RAMPS 1.4 Board, or both components WILL BE DESTROYED when powered on.
+
+
+
+
 
 
 
@@ -3737,8 +3884,7 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 . Using even pressure, push down on each corner of the *RAMPS 1.4 Board* until its pins are fully seated into the *Arduino Mega 2560*.
 . Position the *RAMPS 1.4 Smart Adapter* over the right side of the *RAMPS 1.4 Board* so that both sets of sockets on the *RAMPS 1.4 Smart Adapter* align with the pins on the *RAMPS 1.4 Board*. There is only one orientation that will fit all pins properly.
 . Using even pressure on both ends of the *RAMPS 1.4 Smart Adapter*, push the part gently into place over the *RAMPS 1.4 Board* until both components are seated against one another.
-. The RAMPS 1.4 Board and Arduino Mega 2560 assembly is complete.
-. TODO: ADD CRITICAL RESISTOR REMOVAL STEP
+. The *RAMPS 1.4 Board Assembly* is complete.
 
 
 
@@ -4362,54 +4508,6 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 *Instructions*
 
 . Use the *Hobby Knife* to clean any extra plastic off of the 3D printed components.
-
-
-
-
-// summary
-
-==== Assemble the RAMPS Board Assembly to RAMPS Board Assembly 24v Power Custom Wires
-
-
-// requiredTools
-//
-//*Required Tools*
-//
-//* Wire Strippers/Cutters
-//
-//* Ferrule Crimper
-//
-//* Dupont Crimper
-//
-//
-
-// requiredParts
-//
-//*Required Parts*
-//
-//* Ferrule
-//
-//* 22AWG Wire
-//
-//* Dupont Female Pin Connector
-//
-//* 2 Pin Female Dupont Connector
-//
-//
-
-// details
-
-*Instructions*
-
-. Using the *Wire Strippers/Cutters*, cut one 100mm long piece of *Red 22AWG Wire* and one 100mm long piece of *Black 22AWG Wire*.
-. Using the *Wire Strippers/Cutters*, strip approximately 1cm of insulation off of both ends of the *Red 22AWG Wire* and *Black 22AWG Wire*.
-. Place an appropriately sized *Ferrule* onto the end of the stripped *Red 22AWG Wire*.
-. Using the *Ferrule Crimper*, crimp the *Ferrule* onto the wire.
-. Use the *Wire Strippers/Cutters* to cut off any excess *Red 22AWG Wire* that is poking through the end of the *Ferrule*.
-. Repeat the above steps to crimp another *Ferrule* to the end of the *Black 22AWG Wire*.
-. Using the *Dupont Crimper*, crimp *Dupont Female Pin Connector* part(s) onto the exposed ends of the *Red 22AWG Wire* and *Black 22AWG Wire*.
-. Insert the both of the *Dupont Female Pin Connector* ends of the *Red 22AWG Wire* and *Black 22AWG Wire* into a *2 Pin Female Dupont Connector*.
-. The *RAMPS Board Assembly to RAMPS Board Assembly 24v Power Custom Wires* are complete.
 
 
 

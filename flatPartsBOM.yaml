@@ -47,12 +47,12 @@ components:
   2-pin-dupont-connector:
     description: 2 Pin Dupont Connector Housing
     name: 2-pin-dupont-connector
-    quantity: 1
+    quantity: 2
     quantityUnits: part(s)
   22awg-wire:
     description: 22AWG Braided Copper Wire
     name: 22awg-wire
-    quantity: 2601
+    quantity: 2701
     quantityUnits: mm
   24v-40mm-fan:
     description: 24v 40mm x 40mm x 10mm Fan
@@ -127,7 +127,7 @@ components:
   dupont-female-pin-connector:
     description: Dupont Female Pin Connector
     name: dupont-female-pin-connector
-    quantity: 1
+    quantity: 3
     quantityUnits: part(s)
   electrical-cord-nema-5-15p:
     description: Electrical Cord (NEMA 5-15P)
@@ -162,7 +162,7 @@ components:
   ferrule:
     description: Wire Ferrule
     name: ferrule
-    quantity: 22
+    quantity: 24
     quantityUnits: part(s)
   ground-fault-connection-interrupter:
     description: Ground Fault Connection Interrupter (GFCI)
