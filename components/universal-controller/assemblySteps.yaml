@@ -8,32 +8,6 @@
   details: |
     . Use the *{{tools.hobby-knife.description}}* to clean any extra plastic off of the 3D printed components.
 
-- summary: Assemble the {{parts.electrical-plug.description}} and {{parts.solid-state-relay.description}} 120v Power Custom Wires
-  requiredParts:
-  - 22awg-wire
-  - fork-terminal
-  - solder
-
-  requiredTools:
-  - dupont-crimper
-  - wire-stripper-cutter
-  - soldering-iron
-  - helping-hands
-
-  details: |
-    . Using the *{{tools.wire-stripper-cutter.description}}*, cut two 200mm long pieces of *{{parts.22awg-wire-red.description}}* and one 200mm long piece of *{{parts.22awg-wire-black.description}}*.
-    . Using the *{{tools.wire-stripper-cutter.description}}*, cut one 750mm long piece of *{{parts.22awg-wire-red.description}}* and one 750mm long piece of *{{parts.22awg-wire-black.description}}*.
-    . Using the *{{tools.wire-stripper-cutter.description}}*, strip 20mm of insulation off of each end of the *{{parts.22awg-wire.description}}* {{parts.22awg-wire.quantityUnits}} from the above steps.
-    . Using the *{{tools.dupont-crimper.description}}*, crimp one *{{parts.fork-terminal.description}}* onto one end of each of the above *{{parts.22awg-wire.description}}* {{parts.22awg-wire.quantityUnits}}.
-    . Using the *{{tools.dupont-crimper.description}}*, crimp one *{{parts.fork-terminal.description}}* onto the bare end of one of the 200mm *{{parts.22awg-wire-red.description}}* {{parts.22awg-wire-red.quantityUnits}}. Set this wire aside as it is completed.
-    . Preheat the *{{tools.soldering-iron.description}}* to the temperature recommended on the *{{parts.solder.description}}* packaging.
-    . Use the *{{tools.helping-hands.description}}* to clamp in place the bare end of one of the remaining *{{parts.22awg-wire.description}}* {{parts.22awg-wire.quantityUnits}}.
-    . Use the tip of the *{{tools.soldering-iron.description}}* to heat the bare end of the clamped *{{parts.22awg-wire.description}}* {{parts.22awg-wire.quantityUnits}} for a few seconds.
-    . Apply enough *{{parts.solder.description}}* to the contact point of the *{{tools.soldering-iron.description}}* and the clamped *{{parts.22awg-wire.description}}* to bind together the strands of bare *{{parts.22awg-wire.description}}*.
-    . Remove the *{{parts.solder.description}}* and the end of the *{{tools.soldering-iron.description}}* from the *{{parts.22awg-wire.description}}*.
-    . Repeat the above steps for each of the remaining *{{parts.22awg-wire.description}}* {{parts.22awg-wire.quantityUnits}}.
-    . The {{parts.electrical-plug.description}} and {{parts.solid-state-relay.description}} 120v Power Custom Wires are complete.
-
 - summary: Flash firmware on the {{parts.ramps-board-assembly.description}}
   requiredParts:
   - ramps-board-assembly
