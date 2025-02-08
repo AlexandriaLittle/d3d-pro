@@ -1,7 +1,7 @@
 = D3D Pro 3D Printer Assembly Instructions
 Alexandria Little - CC-BY-SA-4.0
 :revnumber: v23.12
-:revdate: 2/7/2025
+:revdate: 2/8/2025
 :sectnums:
 :toc:
 :toclevels: 3
