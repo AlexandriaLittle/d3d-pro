@@ -11,6 +11,7 @@
 
   details: |
     . TODO: Add inline fuse holder, fuse, and specific wire components
+    . TODO: Separate out eemergency button for issue with assembly (button won't fit through bottom of case - needs to be wired together later using a lever nut)
     . Take the *{{parts.electrical-cord.description}}* and strip back 1-2cm of sheathing.
     . Extend one of the power wires (not ground) with 200mm of wire.
     . Bring the extended power wire into the case through the bottom right hole.
