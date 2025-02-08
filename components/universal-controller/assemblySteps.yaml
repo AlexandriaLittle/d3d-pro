@@ -95,14 +95,7 @@
   - soldering-iron
 
   details: |
-    . TODO: Add inline fuse holder, fuse, and specific wire components
-    . Take the *{{parts.electrical-cord.description}}* and strip back 1-2cm of sheathing.
-    . Extend one of the power wires (not ground) with 200mm of wire.
     . Bring the extended power wire into the case through the bottom right hole.
-    . Solder the inline fuse onto the extended power wire (still not ground).
-    . Solder the inline fuse to one of the tongs of the rocker switch.
-    . Solder a 200mm extension wire onto the other tong of the rocker switch.
-    . Solder the ends of the remaining exposed hot wires (not ground) to tin them.
     . Route the second extension wire back out of the case.
     . Connect the extension wire into one of the screw terminals on the back of the GFCI.
     . Connect the second wire onto the other screw terminal on the back of the GFCI.
