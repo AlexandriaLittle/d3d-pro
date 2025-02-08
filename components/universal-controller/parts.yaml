@@ -313,3 +313,12 @@ universal-controller-electrical-plug:
   quantity: 1
   quantityUnits: part
   selectedOption: 0
+universal-controller-120v-power-cord:
+  description: Universal Controller 120v Power Cord
+  id: universal-controller-120v-power-cord
+  notes: ''
+  options:
+    - universal-controller-120v-power-cord
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
