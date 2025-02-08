@@ -1,1 +1,36 @@
-{}
+electrical-cord:
+  description: Three Prong Electrical Cord
+  id: electrical-cord
+  notes: ''
+  options:
+    - electrical-cord-nema-5-15p
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+heat-shrink-tubing:
+  description: Heat Shrink Tubing
+  id: heat-shrink-tubing
+  notes: ''
+  options:
+    - heat-shrink-tubing
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+emergency-switch:
+  description: Emergency Stop Switch
+  id: emergency-switch
+  notes: ''
+  options:
+    - 19mm-latching-emergency-stop-switch
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+solder:
+  description: Electrical Solder
+  id: solder
+  notes: ''
+  options:
+    - electrical-solder
+  quantity: 1
+  quantityUnits: application(s)
+  selectedOption: 0

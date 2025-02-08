@@ -1,9 +1,9 @@
-- summary: Wire the {{parts.gfci.description}}
+- summary: Wire the {{description}}
   requiredParts:
   - electrical-cord
   - heat-shrink-tubing
   - emergency-switch
-  - electrical-solder
+  - solder
 
   requiredTools:
   - helping-hands
@@ -18,3 +18,4 @@
     . Solder the inline fuse to one of the tongs of the rocker switch.
     . Solder a 200mm extension wire onto the other tong of the rocker switch.
     . Use the Dupont crimper to crimp a fork terminal onto the end of the green ground wire
+    . TODO
