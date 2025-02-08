@@ -1,8 +1,19 @@
-- summary: Assemble the {{description}}
+- summary: Wire the {{description}}
   requiredParts:
   - 24v-power-supply-120v-power-wire
+  - fast-heated-bed-120v-pwoer-wire
 
-  requiredTools: []
+  requiredTools:
+  - phillips-2-screwdriver
+  - hobby-knife
 
   details: |
-    . TODO: Finish me please :)
+    . Gather one long SSR power wire, one short SSR power wire, and both of the 24V power supply wires.
+    . Connect the short SSR wire and one of the 24v power supply wires to the left terminal inside of the plug.
+    . Connect the long ssr wire and the other 24V power supply wire to the right terminal inside of the plug.
+    . Close the plug.
+    . If the wire prevents the plug from closing, use a hobby knife to cut away at the offending plastic inside of the plug.
+    . Once the plug closes properly, screw the plug together snugly.
+    . Wrap the plug neatly in electrical tape.
+    . Done with the electical plug.
+    . TODO: Finish me :)
