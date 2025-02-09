@@ -34,3 +34,21 @@ solder:
   quantity: 1
   quantityUnits: application(s)
   selectedOption: 0
+fuse-holder:
+  description: Inline Fuse Holder
+  id: fuse-holder
+  notes: ''
+  options:
+    - 18awg-wire-inline-fuse-holder
+  quantity: 1
+  quantityUnits: application(s)
+  selectedOption: 0
+fuse:
+  description: 5 Amp 120 Volt Glass Fuse
+  id: fuse
+  notes: ''
+  options:
+    - 5-amp-120-volt-glass-fuse
+  quantity: 1
+  quantityUnits: application(s)
+  selectedOption: 0
