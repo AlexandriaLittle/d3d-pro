@@ -27,7 +27,7 @@ components:
   19mm-latching-emergency-stop-switch:
     description: 19mm Latching Emergency Stop Switch
     name: 19mm-latching-emergency-stop-switch
-    quantity: 1
+    quantity: 2
     quantityUnits: part
   1_75mm-heat-break:
     description: 1.75mm Heat Break
@@ -132,7 +132,7 @@ components:
   electrical-cord-nema-5-15p:
     description: Electrical Cord (NEMA 5-15P)
     name: electrical-cord-nema-5-15p
-    quantity: 1
+    quantity: 2
     quantityUnits: part
   electrical-fork-terminal:
     description: Electrical Fork Terminal
@@ -147,7 +147,7 @@ components:
   electrical-solder:
     description: Rosin Core Lead Free Electrical Solder
     name: electrical-solder
-    quantity: 3
+    quantity: 4
     quantityUnits: application(s)
   electrical-tape:
     description: Electrical Tape
@@ -182,7 +182,7 @@ components:
   heat-shrink-tubing:
     description: Heat Shrink Tubing
     name: heat-shrink-tubing
-    quantity: 3
+    quantity: 4
     quantityUnits: part(s)
   height-sensor:
     description: LJ18A3-8-Z-BY-5V Proximity Switch

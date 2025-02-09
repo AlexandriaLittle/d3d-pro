@@ -40,7 +40,7 @@
 
 
 
-|1
+|2
 |part
 |19mm-latching-emergency-stop-switch
 |19mm Latching Emergency Stop Switch
@@ -187,7 +187,7 @@
 
 
 
-|1
+|2
 |part
 |electrical-cord-nema-5-15p
 |Electrical Cord (NEMA 5-15P)
@@ -208,7 +208,7 @@
 
 
 
-|3
+|4
 |application(s)
 |electrical-solder
 |Rosin Core Lead Free Electrical Solder
@@ -257,7 +257,7 @@
 
 
 
-|3
+|4
 |part(s)
 |heat-shrink-tubing
 |Heat Shrink Tubing

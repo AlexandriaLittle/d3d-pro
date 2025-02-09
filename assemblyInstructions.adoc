@@ -1,7 +1,7 @@
 = D3D Pro 3D Printer Assembly Instructions
 Alexandria Little - CC-BY-SA-4.0
 :revnumber: v23.12
-:revdate: 2/8/2025
+:revdate: 2/9/2025
 :sectnums:
 :toc:
 :toclevels: 3
@@ -3559,6 +3559,162 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
+== Assemble Universal Controller 120v Power Cord
+
+// tools
+
+=== Tools
+|===
+|Name |Description |Notes
+
+
+
+|Helping Hands
+|Helping Hands Clamp Stand
+|
+
+
+
+|Soldering Iron
+|Soldering Iron
+|
+
+|===
+
+
+// materials
+
+=== Materials
+|===
+|Quantity |ID |Name |Description |Notes
+
+
+
+|1 part
+|electrical-cord
+|Three Prong Electrical Cord
+|Electrical Cord (NEMA 5-15P) v1.0.0
+|
+
+
+
+|1 part
+|heat-shrink-tubing
+|Heat Shrink Tubing
+|Heat Shrink Tubing v1.0.0
+|
+
+
+
+|1 part
+|emergency-switch
+|Emergency Stop Switch
+|19mm Latching Emergency Stop Switch v1.0.0
+|
+
+
+
+|1 application(s)
+|solder
+|Electrical Solder
+|Rosin Core Lead Free Electrical Solder v1.0.0
+|
+
+|===
+
+
+// Precautions
+
+=== Precautions
+
+
+
+
+
+
+
+
+
+
+* *Soldering Iron:* A Soldering Iron gets very very hot and can burn you! Follow all of the manufacturer recommended safety precautions when using a Soldering Iron!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* *Electrical Solder:* Rosin Core Lead Free Electrical Solder can contain toxic chemicals! Always work in a well ventialted area and use personal protection equipment!
+
+
+
+
+
+
+// Procedure
+=== Procedure
+
+// summary
+
+==== Wire the Universal Controller 120v Power Cord
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* Helping Hands
+//
+//* Soldering Iron
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Three Prong Electrical Cord
+//
+//* Heat Shrink Tubing
+//
+//* Emergency Stop Switch
+//
+//* Electrical Solder
+//
+//
+
+// details
+
+*Instructions*
+
+. TODO: Add inline fuse holder, fuse, and specific wire components
+. TODO: Separate out eemergency button for issue with assembly (button won't fit through bottom of case - needs to be wired together later using a lever nut)
+. Take the *Three Prong Electrical Cord* and strip back 1-2cm of sheathing.
+. Extend one of the power wires (not ground) with 200mm of wire.
+. Bring the extended power wire into the case through the bottom right hole.
+. Solder the inline fuse onto the extended power wire (still not ground).
+. Solder the inline fuse to one of the tongs of the rocker switch.
+. Solder a 200mm extension wire onto the other tong of the rocker switch.
+. Use the Dupont crimper to crimp a fork terminal onto the end of the green ground wire
+. TODO
+
+
+
+
+
+
 == Assemble Fast Heated Bed 120v Power Wire
 
 // tools
@@ -3843,10 +3999,17 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 // summary
 
-==== Assemble the Universal Controller Electrical Plug
+==== Wire the Universal Controller Electrical Plug
 
 
 // requiredTools
+//
+//*Required Tools*
+//
+//* 
+//
+//* 
+//
 //
 
 // requiredParts
@@ -3855,13 +4018,23 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 //
 //* 24v Power Supply 120v Power Wire
 //
+//* 
+//
 //
 
 // details
 
 *Instructions*
 
-. TODO: Finish me please :)
+. Gather one long SSR power wire, one short SSR power wire, and both of the 24V power supply wires.
+. Connect the short SSR wire and one of the 24v power supply wires to the left terminal inside of the plug.
+. Connect the long ssr wire and the other 24V power supply wire to the right terminal inside of the plug.
+. Close the plug.
+. If the wire prevents the plug from closing, use a hobby knife to cut away at the offending plastic inside of the plug.
+. Once the plug closes properly, screw the plug together snugly.
+. Wrap the plug neatly in electrical tape.
+. Done with the electical plug.
+. TODO: Finish me :)
 
 
 
@@ -4710,6 +4883,14 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 |Universal Controller Electrical Plug v1.0.0
 |
 
+
+
+|1 part
+|universal-controller-120v-power-cord
+|Universal Controller 120v Power Cord
+|Universal Controller 120v Power Cord v1.0.0
+|
+
 |===
 
 
@@ -4923,6 +5104,10 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
+
+
+
+
 // Procedure
 === Procedure
 
@@ -4952,57 +5137,6 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 *Instructions*
 
 . Use the *Hobby Knife* to clean any extra plastic off of the 3D printed components.
-
-
-
-
-// summary
-
-==== Assemble the Two Prong Electrical Plug and Solid State Relay (SSR) 120v Power Custom Wires
-
-
-// requiredTools
-//
-//*Required Tools*
-//
-//* Dupont Crimper
-//
-//* Wire Strippers/Cutters
-//
-//* Soldering Iron
-//
-//* Helping Hands
-//
-//
-
-// requiredParts
-//
-//*Required Parts*
-//
-//* 22AWG Wire
-//
-//* Fork Terminal
-//
-//* Electrical Solder
-//
-//
-
-// details
-
-*Instructions*
-
-. Using the *Wire Strippers/Cutters*, cut two 200mm long pieces of *Red 22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
-. Using the *Wire Strippers/Cutters*, cut one 750mm long piece of *Red 22AWG Wire* and one 750mm long piece of *Black 22AWG Wire*.
-. Using the *Wire Strippers/Cutters*, strip 20mm of insulation off of each end of the *22AWG Wire* length(s) from the above steps.
-. Using the *Dupont Crimper*, crimp one *Fork Terminal* onto one end of each of the above *22AWG Wire* length(s).
-. Using the *Dupont Crimper*, crimp one *Fork Terminal* onto the bare end of one of the 200mm *Red 22AWG Wire* mm. Set this wire aside as it is completed.
-. Preheat the *Soldering Iron* to the temperature recommended on the *Electrical Solder* packaging.
-. Use the *Helping Hands* to clamp in place the bare end of one of the remaining *22AWG Wire* length(s).
-. Use the tip of the *Soldering Iron* to heat the bare end of the clamped *22AWG Wire* length(s) for a few seconds.
-. Apply enough *Electrical Solder* to the contact point of the *Soldering Iron* and the clamped *22AWG Wire* to bind together the strands of bare *22AWG Wire*.
-. Remove the *Electrical Solder* and the end of the *Soldering Iron* from the *22AWG Wire*.
-. Repeat the above steps for each of the remaining *22AWG Wire* length(s).
-. The Two Prong Electrical Plug and Solid State Relay (SSR) 120v Power Custom Wires are complete.
 
 
 
@@ -5173,14 +5307,7 @@ image:IMG_3718.jpeg[,600,600,pdfwidth=60%]
 
 *Instructions*
 
-. TODO: Add inline fuse holder, fuse, and specific wire components
-. Take the *Three Prong Electrical Cord* and strip back 1-2cm of sheathing.
-. Extend one of the power wires (not ground) with 200mm of wire.
 . Bring the extended power wire into the case through the bottom right hole.
-. Solder the inline fuse onto the extended power wire (still not ground).
-. Solder the inline fuse to one of the tongs of the rocker switch.
-. Solder a 200mm extension wire onto the other tong of the rocker switch.
-. Solder the ends of the remaining exposed hot wires (not ground) to tin them.
 . Route the second extension wire back out of the case.
 . Connect the extension wire into one of the screw terminals on the back of the GFCI.
 . Connect the second wire onto the other screw terminal on the back of the GFCI.
@@ -5189,34 +5316,6 @@ image:IMG_3718.jpeg[,600,600,pdfwidth=60%]
 . Loop all of the exposed terminals in multiple layers of electrical tape.
 . Done with GFCI.
 . TODO
-
-
-
-
-// summary
-
-==== Wire the Two Prong Electrical Plug
-
-
-// requiredTools
-//
-
-// requiredParts
-//
-
-// details
-
-*Instructions*
-
-. Gather one long SSR power wire, one short SSR power wire, and both of the 24V power supply wires.
-. Connect the short SSR wire and one of the 24v power supply wires to the left terminal inside of the plug.
-. Connect the long ssr wire and the other 24V power supply wire to the right terminal inside of the plug.
-. Close the plug.
-. If the wire prevents the plug from closing, use a hobby knife to cut away at the offending plastic inside of the plug.
-. Once the plug closes properly, screw the plug together snugly.
-. Wrap the plug neatly in electrical tape.
-. Done with the electical plug.
-. TODO: SPLIT INTO SEPARATE COMPONENT
 
 
 

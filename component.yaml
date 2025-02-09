@@ -15188,6 +15188,200 @@ components:
         parts: {}
         tools: {}
         precautions: []
+      universal-controller-120v-power-cord:
+        name: universal-controller-120v-power-cord
+        version: 1.0.0
+        description: Universal Controller 120v Power Cord
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components:
+          19mm-latching-emergency-stop-switch:
+            name: 19mm-latching-emergency-stop-switch
+            version: 1.0.0
+            description: 19mm Latching Emergency Stop Switch
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          electrical-cord-nema-5-15p:
+            name: electrical-cord-nema-5-15p
+            version: 1.0.0
+            description: Electrical Cord (NEMA 5-15P)
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          electrical-solder:
+            name: electrical-solder
+            version: 1.0.0
+            description: Rosin Core Lead Free Electrical Solder
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions:
+              - >-
+                Rosin Core Lead Free Electrical Solder can contain toxic
+                chemicals! Always work in a well ventialted area and use
+                personal protection equipment!
+          heat-shrink-tubing:
+            name: heat-shrink-tubing
+            version: 1.0.0
+            description: Heat Shrink Tubing
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          helping-hands:
+            name: helping-hands
+            version: 1.0.0
+            description: Helping Hands Clamp Stand
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          soldering-iron:
+            name: soldering-iron
+            version: 1.0.0
+            description: Soldering Iron
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions:
+              - >-
+                A Soldering Iron gets very very hot and can burn you! Follow all
+                of the manufacturer recommended safety precautions when using a
+                Soldering Iron!
+        parts:
+          electrical-cord:
+            description: Three Prong Electrical Cord
+            id: electrical-cord
+            notes: ''
+            options:
+              - electrical-cord-nema-5-15p
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'electrical-cord: Three Prong Electrical Cord'
+            descriptionSelected: >-
+              electrical-cord: Three Prong Electrical Cord (Electrical Cord
+              (NEMA 5-15P) v1.0.0)
+          heat-shrink-tubing:
+            description: Heat Shrink Tubing
+            id: heat-shrink-tubing
+            notes: ''
+            options:
+              - heat-shrink-tubing
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'heat-shrink-tubing: Heat Shrink Tubing'
+            descriptionSelected: 'heat-shrink-tubing: Heat Shrink Tubing (Heat Shrink Tubing v1.0.0)'
+          emergency-switch:
+            description: Emergency Stop Switch
+            id: emergency-switch
+            notes: ''
+            options:
+              - 19mm-latching-emergency-stop-switch
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'emergency-switch: Emergency Stop Switch'
+            descriptionSelected: >-
+              emergency-switch: Emergency Stop Switch (19mm Latching Emergency
+              Stop Switch v1.0.0)
+          solder:
+            description: Electrical Solder
+            id: solder
+            notes: ''
+            options:
+              - electrical-solder
+            quantity: 1
+            quantityUnits: application(s)
+            selectedOption: 0
+            descriptionLong: 'solder: Electrical Solder'
+            descriptionSelected: >-
+              solder: Electrical Solder (Rosin Core Lead Free Electrical Solder
+              v1.0.0)
+        tools:
+          helping-hands:
+            description: Helping Hands
+            id: helping-hands
+            notes: ''
+            options:
+              - helping-hands
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'helping-hands: Helping Hands'
+            descriptionSelected: 'helping-hands: Helping Hands (Helping Hands Clamp Stand v1.0.0)'
+          soldering-iron:
+            description: Soldering Iron
+            id: soldering-iron
+            notes: ''
+            options:
+              - soldering-iron
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'soldering-iron: Soldering Iron'
+            descriptionSelected: 'soldering-iron: Soldering Iron (Soldering Iron v1.0.0)'
+        precautions: []
+        assemblySteps:
+          - summary: Wire the Universal Controller 120v Power Cord
+            requiredParts:
+              - electrical-cord
+              - heat-shrink-tubing
+              - emergency-switch
+              - solder
+            requiredTools:
+              - helping-hands
+              - soldering-iron
+            details: >
+              . TODO: Add inline fuse holder, fuse, and specific wire components
+
+              . TODO: Separate out eemergency button for issue with assembly
+              (button won't fit through bottom of case - needs to be wired
+              together later using a lever nut)
+
+              . Take the *Three Prong Electrical Cord* and strip back 1-2cm of
+              sheathing.
+
+              . Extend one of the power wires (not ground) with 200mm of wire.
+
+              . Bring the extended power wire into the case through the bottom
+              right hole.
+
+              . Solder the inline fuse onto the extended power wire (still not
+              ground).
+
+              . Solder the inline fuse to one of the tongs of the rocker switch.
+
+              . Solder a 200mm extension wire onto the other tong of the rocker
+              switch.
+
+              . Use the Dupont crimper to crimp a fork terminal onto the end of
+              the green ground wire
+
+              . TODO
       universal-controller-case:
         name: universal-controller-case
         version: 1.0.0
@@ -15624,12 +15818,35 @@ components:
         tools: {}
         precautions: []
         assemblySteps:
-          - summary: Assemble the Universal Controller Electrical Plug
+          - summary: Wire the Universal Controller Electrical Plug
             requiredParts:
               - 24v-power-supply-120v-power-wire
-            requiredTools: []
-            details: |
-              . TODO: Finish me please :)
+              - fast-heated-bed-120v-pwoer-wire
+            requiredTools:
+              - phillips-2-screwdriver
+              - hobby-knife
+            details: >
+              . Gather one long SSR power wire, one short SSR power wire, and
+              both of the 24V power supply wires.
+
+              . Connect the short SSR wire and one of the 24v power supply wires
+              to the left terminal inside of the plug.
+
+              . Connect the long ssr wire and the other 24V power supply wire to
+              the right terminal inside of the plug.
+
+              . Close the plug.
+
+              . If the wire prevents the plug from closing, use a hobby knife to
+              cut away at the offending plastic inside of the plug.
+
+              . Once the plug closes properly, screw the plug together snugly.
+
+              . Wrap the plug neatly in electrical tape.
+
+              . Done with the electical plug.
+
+              . TODO: Finish me :)
       usb-a-to-usb-b-cable:
         name: usb-a-to-usb-b-cable
         version: 1.0.0
@@ -16101,6 +16318,21 @@ components:
         descriptionSelected: >-
           universal-controller-electrical-plug: Universal Controller Electrical
           Plug (Universal Controller Electrical Plug v1.0.0)
+      universal-controller-120v-power-cord:
+        description: Universal Controller 120v Power Cord
+        id: universal-controller-120v-power-cord
+        notes: ''
+        options:
+          - universal-controller-120v-power-cord
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: >-
+          universal-controller-120v-power-cord: Universal Controller 120v Power
+          Cord
+        descriptionSelected: >-
+          universal-controller-120v-power-cord: Universal Controller 120v Power
+          Cord (Universal Controller 120v Power Cord v1.0.0)
     tools:
       3mm-flat-screwdriver:
         description: 3mm Flat Head Screwdriver
@@ -16271,56 +16503,6 @@ components:
         details: >
           . Use the *Hobby Knife* to clean any extra plastic off of the 3D
           printed components.
-      - summary: >-
-          Assemble the Two Prong Electrical Plug and Solid State Relay (SSR)
-          120v Power Custom Wires
-        requiredParts:
-          - 22awg-wire
-          - fork-terminal
-          - solder
-        requiredTools:
-          - dupont-crimper
-          - wire-stripper-cutter
-          - soldering-iron
-          - helping-hands
-        details: >
-          . Using the *Wire Strippers/Cutters*, cut two 200mm long pieces of
-          *Red 22AWG Wire* and one 200mm long piece of *Black 22AWG Wire*.
-
-          . Using the *Wire Strippers/Cutters*, cut one 750mm long piece of *Red
-          22AWG Wire* and one 750mm long piece of *Black 22AWG Wire*.
-
-          . Using the *Wire Strippers/Cutters*, strip 20mm of insulation off of
-          each end of the *22AWG Wire* length(s) from the above steps.
-
-          . Using the *Dupont Crimper*, crimp one *Fork Terminal* onto one end
-          of each of the above *22AWG Wire* length(s).
-
-          . Using the *Dupont Crimper*, crimp one *Fork Terminal* onto the bare
-          end of one of the 200mm *Red 22AWG Wire* mm. Set this wire aside as it
-          is completed.
-
-          . Preheat the *Soldering Iron* to the temperature recommended on the
-          *Electrical Solder* packaging.
-
-          . Use the *Helping Hands* to clamp in place the bare end of one of the
-          remaining *22AWG Wire* length(s).
-
-          . Use the tip of the *Soldering Iron* to heat the bare end of the
-          clamped *22AWG Wire* length(s) for a few seconds.
-
-          . Apply enough *Electrical Solder* to the contact point of the
-          *Soldering Iron* and the clamped *22AWG Wire* to bind together the
-          strands of bare *22AWG Wire*.
-
-          . Remove the *Electrical Solder* and the end of the *Soldering Iron*
-          from the *22AWG Wire*.
-
-          . Repeat the above steps for each of the remaining *22AWG Wire*
-          length(s).
-
-          . The Two Prong Electrical Plug and Solid State Relay (SSR) 120v Power
-          Custom Wires are complete.
       - summary: Flash firmware on the RAMPS Board Assembly
         requiredParts:
           - ramps-board-assembly
@@ -16446,26 +16628,8 @@ components:
           - helping-hands
           - soldering-iron
         details: >
-          . TODO: Add inline fuse holder, fuse, and specific wire components
-
-          . Take the *Three Prong Electrical Cord* and strip back 1-2cm of
-          sheathing.
-
-          . Extend one of the power wires (not ground) with 200mm of wire.
-
           . Bring the extended power wire into the case through the bottom right
           hole.
-
-          . Solder the inline fuse onto the extended power wire (still not
-          ground).
-
-          . Solder the inline fuse to one of the tongs of the rocker switch.
-
-          . Solder a 200mm extension wire onto the other tong of the rocker
-          switch.
-
-          . Solder the ends of the remaining exposed hot wires (not ground) to
-          tin them.
 
           . Route the second extension wire back out of the case.
 
@@ -16487,31 +16651,6 @@ components:
           . Done with GFCI.
 
           . TODO
-      - summary: Wire the Two Prong Electrical Plug
-        requiredParts: []
-        requiredTools: []
-        details: >
-          . Gather one long SSR power wire, one short SSR power wire, and both
-          of the 24V power supply wires.
-
-          . Connect the short SSR wire and one of the 24v power supply wires to
-          the left terminal inside of the plug.
-
-          . Connect the long ssr wire and the other 24V power supply wire to the
-          right terminal inside of the plug.
-
-          . Close the plug.
-
-          . If the wire prevents the plug from closing, use a hobby knife to cut
-          away at the offending plastic inside of the plug.
-
-          . Once the plug closes properly, screw the plug together snugly.
-
-          . Wrap the plug neatly in electrical tape.
-
-          . Done with the electical plug.
-
-          . TODO: SPLIT INTO SEPARATE COMPONENT
       - summary: Wire the 24v Power Supply Module
         requiredParts: []
         requiredTools: []
@@ -16601,6 +16740,200 @@ components:
         requiredTools: []
         details: |
           . Hello World!
+          . TODO
+  universal-controller-120v-power-cord:
+    name: universal-controller-120v-power-cord
+    version: 1.0.0
+    description: Universal Controller 120v Power Cord
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components:
+      19mm-latching-emergency-stop-switch:
+        name: 19mm-latching-emergency-stop-switch
+        version: 1.0.0
+        description: 19mm Latching Emergency Stop Switch
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      electrical-cord-nema-5-15p:
+        name: electrical-cord-nema-5-15p
+        version: 1.0.0
+        description: Electrical Cord (NEMA 5-15P)
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      electrical-solder:
+        name: electrical-solder
+        version: 1.0.0
+        description: Rosin Core Lead Free Electrical Solder
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions:
+          - >-
+            Rosin Core Lead Free Electrical Solder can contain toxic chemicals!
+            Always work in a well ventialted area and use personal protection
+            equipment!
+      heat-shrink-tubing:
+        name: heat-shrink-tubing
+        version: 1.0.0
+        description: Heat Shrink Tubing
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      helping-hands:
+        name: helping-hands
+        version: 1.0.0
+        description: Helping Hands Clamp Stand
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      soldering-iron:
+        name: soldering-iron
+        version: 1.0.0
+        description: Soldering Iron
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions:
+          - >-
+            A Soldering Iron gets very very hot and can burn you! Follow all of
+            the manufacturer recommended safety precautions when using a
+            Soldering Iron!
+    parts:
+      electrical-cord:
+        description: Three Prong Electrical Cord
+        id: electrical-cord
+        notes: ''
+        options:
+          - electrical-cord-nema-5-15p
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'electrical-cord: Three Prong Electrical Cord'
+        descriptionSelected: >-
+          electrical-cord: Three Prong Electrical Cord (Electrical Cord (NEMA
+          5-15P) v1.0.0)
+      heat-shrink-tubing:
+        description: Heat Shrink Tubing
+        id: heat-shrink-tubing
+        notes: ''
+        options:
+          - heat-shrink-tubing
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'heat-shrink-tubing: Heat Shrink Tubing'
+        descriptionSelected: 'heat-shrink-tubing: Heat Shrink Tubing (Heat Shrink Tubing v1.0.0)'
+      emergency-switch:
+        description: Emergency Stop Switch
+        id: emergency-switch
+        notes: ''
+        options:
+          - 19mm-latching-emergency-stop-switch
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'emergency-switch: Emergency Stop Switch'
+        descriptionSelected: >-
+          emergency-switch: Emergency Stop Switch (19mm Latching Emergency Stop
+          Switch v1.0.0)
+      solder:
+        description: Electrical Solder
+        id: solder
+        notes: ''
+        options:
+          - electrical-solder
+        quantity: 1
+        quantityUnits: application(s)
+        selectedOption: 0
+        descriptionLong: 'solder: Electrical Solder'
+        descriptionSelected: >-
+          solder: Electrical Solder (Rosin Core Lead Free Electrical Solder
+          v1.0.0)
+    tools:
+      helping-hands:
+        description: Helping Hands
+        id: helping-hands
+        notes: ''
+        options:
+          - helping-hands
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'helping-hands: Helping Hands'
+        descriptionSelected: 'helping-hands: Helping Hands (Helping Hands Clamp Stand v1.0.0)'
+      soldering-iron:
+        description: Soldering Iron
+        id: soldering-iron
+        notes: ''
+        options:
+          - soldering-iron
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'soldering-iron: Soldering Iron'
+        descriptionSelected: 'soldering-iron: Soldering Iron (Soldering Iron v1.0.0)'
+    precautions: []
+    assemblySteps:
+      - summary: Wire the Universal Controller 120v Power Cord
+        requiredParts:
+          - electrical-cord
+          - heat-shrink-tubing
+          - emergency-switch
+          - solder
+        requiredTools:
+          - helping-hands
+          - soldering-iron
+        details: >
+          . TODO: Add inline fuse holder, fuse, and specific wire components
+
+          . TODO: Separate out eemergency button for issue with assembly (button
+          won't fit through bottom of case - needs to be wired together later
+          using a lever nut)
+
+          . Take the *Three Prong Electrical Cord* and strip back 1-2cm of
+          sheathing.
+
+          . Extend one of the power wires (not ground) with 200mm of wire.
+
+          . Bring the extended power wire into the case through the bottom right
+          hole.
+
+          . Solder the inline fuse onto the extended power wire (still not
+          ground).
+
+          . Solder the inline fuse to one of the tongs of the rocker switch.
+
+          . Solder a 200mm extension wire onto the other tong of the rocker
+          switch.
+
+          . Use the Dupont crimper to crimp a fork terminal onto the end of the
+          green ground wire
+
           . TODO
   universal-controller-case:
     name: universal-controller-case
@@ -17031,12 +17364,35 @@ components:
     tools: {}
     precautions: []
     assemblySteps:
-      - summary: Assemble the Universal Controller Electrical Plug
+      - summary: Wire the Universal Controller Electrical Plug
         requiredParts:
           - 24v-power-supply-120v-power-wire
-        requiredTools: []
-        details: |
-          . TODO: Finish me please :)
+          - fast-heated-bed-120v-pwoer-wire
+        requiredTools:
+          - phillips-2-screwdriver
+          - hobby-knife
+        details: >
+          . Gather one long SSR power wire, one short SSR power wire, and both
+          of the 24V power supply wires.
+
+          . Connect the short SSR wire and one of the 24v power supply wires to
+          the left terminal inside of the plug.
+
+          . Connect the long ssr wire and the other 24V power supply wire to the
+          right terminal inside of the plug.
+
+          . Close the plug.
+
+          . If the wire prevents the plug from closing, use a hobby knife to cut
+          away at the offending plastic inside of the plug.
+
+          . Once the plug closes properly, screw the plug together snugly.
+
+          . Wrap the plug neatly in electrical tape.
+
+          . Done with the electical plug.
+
+          . TODO: Finish me :)
   universal-frame:
     name: universal-frame
     version: 1.0.0
