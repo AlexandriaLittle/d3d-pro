@@ -3606,14 +3606,6 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
-|1 part
-|emergency-switch
-|Emergency Stop Switch
-|19mm Latching Emergency Stop Switch v1.0.0
-|
-
-
-
 |1 application(s)
 |solder
 |Electrical Solder
@@ -3637,10 +3629,6 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 * *Soldering Iron:* A Soldering Iron gets very very hot and can burn you! Follow all of the manufacturer recommended safety precautions when using a Soldering Iron!
-
-
-
-
 
 
 
@@ -3689,8 +3677,6 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 //
 //* Heat Shrink Tubing
 //
-//* Emergency Stop Switch
-//
 //* Electrical Solder
 //
 //
@@ -3699,8 +3685,6 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 *Instructions*
 
-. TODO: Add inline fuse holder, fuse, and specific wire components
-. TODO: Separate out eemergency button for issue with assembly (button won't fit through bottom of case - needs to be wired together later using a lever nut)
 . Take the *Three Prong Electrical Cord* and strip back 1-2cm of sheathing.
 . Extend one of the power wires (not ground) with 200mm of wire.
 . Bring the extended power wire into the case through the bottom right hole.
@@ -4035,6 +4019,157 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 . Wrap the plug neatly in electrical tape.
 . Done with the electical plug.
 . TODO: Finish me :)
+
+
+
+
+
+
+== Assemble Universal Controller Emergency Switch
+
+// tools
+
+=== Tools
+|===
+|Name |Description |Notes
+
+
+
+|Helping Hands
+|Helping Hands Clamp Stand
+|
+
+
+
+|Soldering Iron
+|Soldering Iron
+|
+
+|===
+
+
+// materials
+
+=== Materials
+|===
+|Quantity |ID |Name |Description |Notes
+
+
+
+|1 part
+|emergency-switch
+|Emergency Stop Switch
+|19mm Latching Emergency Stop Switch v1.0.0
+|
+
+
+
+|1 part
+|lever-wire-nut
+|Lever Wire Nut
+|2 Connection Lever Wire Nut v1.0.0
+|
+
+
+
+|1 part
+|heat-shrink-tubing
+|Heat Shrink Tubing
+|Heat Shrink Tubing v1.0.0
+|
+
+
+
+|1 application(s)
+|solder
+|Electrical Solder
+|Rosin Core Lead Free Electrical Solder v1.0.0
+|
+
+|===
+
+
+// Precautions
+
+=== Precautions
+
+
+
+
+
+
+
+
+
+
+* *Soldering Iron:* A Soldering Iron gets very very hot and can burn you! Follow all of the manufacturer recommended safety precautions when using a Soldering Iron!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* *Electrical Solder:* Rosin Core Lead Free Electrical Solder can contain toxic chemicals! Always work in a well ventialted area and use personal protection equipment!
+
+
+
+
+
+
+// Procedure
+=== Procedure
+
+// summary
+
+==== Wire the Universal Controller Emergency Switch
+
+
+// requiredTools
+//
+//*Required Tools*
+//
+//* Helping Hands
+//
+//* Soldering Iron
+//
+//
+
+// requiredParts
+//
+//*Required Parts*
+//
+//* Emergency Stop Switch
+//
+//* Lever Wire Nut
+//
+//* Heat Shrink Tubing
+//
+//* Electrical Solder
+//
+//
+
+// details
+
+*Instructions*
+
+. TODO: Add inline fuse holder, fuse, and 18awg wire components
+. Solder the inline fuse onto the extended power wire (still not ground).
+. Solder the inline fuse to one of the tongs of the rocker switch.
+. Solder a 200mm extension wire onto the other tong of the emergency-switch switch.
+. TODO
 
 
 
@@ -4872,7 +5007,7 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 |1 part
 |emergency-switch
 |Emergency Stop Switch
-|19mm Latching Emergency Stop Switch v1.0.0
+|Universal Controller Emergency Switch v1.0.0
 |
 
 

@@ -27,7 +27,7 @@ components:
   19mm-latching-emergency-stop-switch:
     description: 19mm Latching Emergency Stop Switch
     name: 19mm-latching-emergency-stop-switch
-    quantity: 2
+    quantity: 1
     quantityUnits: part
   1_75mm-heat-break:
     description: 1.75mm Heat Break
@@ -147,7 +147,7 @@ components:
   electrical-solder:
     description: Rosin Core Lead Free Electrical Solder
     name: electrical-solder
-    quantity: 4
+    quantity: 5
     quantityUnits: application(s)
   electrical-tape:
     description: Electrical Tape
@@ -182,7 +182,7 @@ components:
   heat-shrink-tubing:
     description: Heat Shrink Tubing
     name: heat-shrink-tubing
-    quantity: 4
+    quantity: 5
     quantityUnits: part(s)
   height-sensor:
     description: LJ18A3-8-Z-BY-5V Proximity Switch
@@ -192,7 +192,7 @@ components:
   lever-wire-nut:
     description: 2 Connection Lever Wire Nut
     name: lever-wire-nut
-    quantity: 1
+    quantity: 2
     quantityUnits: part
   lm8uu-linear-bearing:
     description: LM8UU Linear Bearing

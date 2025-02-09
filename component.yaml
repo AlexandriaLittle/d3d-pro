@@ -15295,19 +15295,6 @@ components:
             selectedOption: 0
             descriptionLong: 'heat-shrink-tubing: Heat Shrink Tubing'
             descriptionSelected: 'heat-shrink-tubing: Heat Shrink Tubing (Heat Shrink Tubing v1.0.0)'
-          emergency-switch:
-            description: Emergency Stop Switch
-            id: emergency-switch
-            notes: ''
-            options:
-              - 19mm-latching-emergency-stop-switch
-            quantity: 1
-            quantityUnits: part
-            selectedOption: 0
-            descriptionLong: 'emergency-switch: Emergency Stop Switch'
-            descriptionSelected: >-
-              emergency-switch: Emergency Stop Switch (19mm Latching Emergency
-              Stop Switch v1.0.0)
           solder:
             description: Electrical Solder
             id: solder
@@ -15350,18 +15337,11 @@ components:
             requiredParts:
               - electrical-cord
               - heat-shrink-tubing
-              - emergency-switch
               - solder
             requiredTools:
               - helping-hands
               - soldering-iron
             details: >
-              . TODO: Add inline fuse holder, fuse, and specific wire components
-
-              . TODO: Separate out eemergency button for issue with assembly
-              (button won't fit through bottom of case - needs to be wired
-              together later using a lever nut)
-
               . Take the *Three Prong Electrical Cord* and strip back 1-2cm of
               sheathing.
 
@@ -15847,6 +15827,185 @@ components:
               . Done with the electical plug.
 
               . TODO: Finish me :)
+      universal-controller-emergency-switch:
+        name: universal-controller-emergency-switch
+        version: 1.0.0
+        description: Universal Controller Emergency Switch
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components:
+          19mm-latching-emergency-stop-switch:
+            name: 19mm-latching-emergency-stop-switch
+            version: 1.0.0
+            description: 19mm Latching Emergency Stop Switch
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          electrical-solder:
+            name: electrical-solder
+            version: 1.0.0
+            description: Rosin Core Lead Free Electrical Solder
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions:
+              - >-
+                Rosin Core Lead Free Electrical Solder can contain toxic
+                chemicals! Always work in a well ventialted area and use
+                personal protection equipment!
+          heat-shrink-tubing:
+            name: heat-shrink-tubing
+            version: 1.0.0
+            description: Heat Shrink Tubing
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          helping-hands:
+            name: helping-hands
+            version: 1.0.0
+            description: Helping Hands Clamp Stand
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          lever-wire-nut:
+            name: lever-wire-nut
+            version: 1.0.0
+            description: 2 Connection Lever Wire Nut
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          soldering-iron:
+            name: soldering-iron
+            version: 1.0.0
+            description: Soldering Iron
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions:
+              - >-
+                A Soldering Iron gets very very hot and can burn you! Follow all
+                of the manufacturer recommended safety precautions when using a
+                Soldering Iron!
+        parts:
+          emergency-switch:
+            description: Emergency Stop Switch
+            id: emergency-switch
+            notes: ''
+            options:
+              - 19mm-latching-emergency-stop-switch
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'emergency-switch: Emergency Stop Switch'
+            descriptionSelected: >-
+              emergency-switch: Emergency Stop Switch (19mm Latching Emergency
+              Stop Switch v1.0.0)
+          lever-wire-nut:
+            description: Lever Wire Nut
+            id: lever-wire-nut
+            notes: ''
+            options:
+              - lever-wire-nut
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'lever-wire-nut: Lever Wire Nut'
+            descriptionSelected: >-
+              lever-wire-nut: Lever Wire Nut (2 Connection Lever Wire Nut
+              v1.0.0)
+          heat-shrink-tubing:
+            description: Heat Shrink Tubing
+            id: heat-shrink-tubing
+            notes: ''
+            options:
+              - heat-shrink-tubing
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'heat-shrink-tubing: Heat Shrink Tubing'
+            descriptionSelected: 'heat-shrink-tubing: Heat Shrink Tubing (Heat Shrink Tubing v1.0.0)'
+          solder:
+            description: Electrical Solder
+            id: solder
+            notes: ''
+            options:
+              - electrical-solder
+            quantity: 1
+            quantityUnits: application(s)
+            selectedOption: 0
+            descriptionLong: 'solder: Electrical Solder'
+            descriptionSelected: >-
+              solder: Electrical Solder (Rosin Core Lead Free Electrical Solder
+              v1.0.0)
+        tools:
+          helping-hands:
+            description: Helping Hands
+            id: helping-hands
+            notes: ''
+            options:
+              - helping-hands
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'helping-hands: Helping Hands'
+            descriptionSelected: 'helping-hands: Helping Hands (Helping Hands Clamp Stand v1.0.0)'
+          soldering-iron:
+            description: Soldering Iron
+            id: soldering-iron
+            notes: ''
+            options:
+              - soldering-iron
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'soldering-iron: Soldering Iron'
+            descriptionSelected: 'soldering-iron: Soldering Iron (Soldering Iron v1.0.0)'
+        precautions: []
+        assemblySteps:
+          - summary: Wire the Universal Controller Emergency Switch
+            requiredParts:
+              - emergency-switch
+              - lever-wire-nut
+              - heat-shrink-tubing
+              - solder
+            requiredTools:
+              - helping-hands
+              - soldering-iron
+            details: >
+              . TODO: Add inline fuse holder, fuse, and 18awg wire components
+
+              . Solder the inline fuse onto the extended power wire (still not
+              ground).
+
+              . Solder the inline fuse to one of the tongs of the rocker switch.
+
+              . Solder a 200mm extension wire onto the other tong of the
+              emergency-switch switch.
+
+              . TODO
       usb-a-to-usb-b-cable:
         name: usb-a-to-usb-b-cable
         version: 1.0.0
@@ -16295,14 +16454,14 @@ components:
         id: emergency-switch
         notes: ''
         options:
-          - 19mm-latching-emergency-stop-switch
+          - universal-controller-emergency-switch
         quantity: 1
         quantityUnits: part
         selectedOption: 0
         descriptionLong: 'emergency-switch: Emergency Stop Switch'
         descriptionSelected: >-
-          emergency-switch: Emergency Stop Switch (19mm Latching Emergency Stop
-          Switch v1.0.0)
+          emergency-switch: Emergency Stop Switch (Universal Controller
+          Emergency Switch v1.0.0)
       universal-controller-electrical-plug:
         description: Universal Controller Electrical Plug
         id: universal-controller-electrical-plug
@@ -16848,19 +17007,6 @@ components:
         selectedOption: 0
         descriptionLong: 'heat-shrink-tubing: Heat Shrink Tubing'
         descriptionSelected: 'heat-shrink-tubing: Heat Shrink Tubing (Heat Shrink Tubing v1.0.0)'
-      emergency-switch:
-        description: Emergency Stop Switch
-        id: emergency-switch
-        notes: ''
-        options:
-          - 19mm-latching-emergency-stop-switch
-        quantity: 1
-        quantityUnits: part
-        selectedOption: 0
-        descriptionLong: 'emergency-switch: Emergency Stop Switch'
-        descriptionSelected: >-
-          emergency-switch: Emergency Stop Switch (19mm Latching Emergency Stop
-          Switch v1.0.0)
       solder:
         description: Electrical Solder
         id: solder
@@ -16903,18 +17049,11 @@ components:
         requiredParts:
           - electrical-cord
           - heat-shrink-tubing
-          - emergency-switch
           - solder
         requiredTools:
           - helping-hands
           - soldering-iron
         details: >
-          . TODO: Add inline fuse holder, fuse, and specific wire components
-
-          . TODO: Separate out eemergency button for issue with assembly (button
-          won't fit through bottom of case - needs to be wired together later
-          using a lever nut)
-
           . Take the *Three Prong Electrical Cord* and strip back 1-2cm of
           sheathing.
 
@@ -17393,6 +17532,183 @@ components:
           . Done with the electical plug.
 
           . TODO: Finish me :)
+  universal-controller-emergency-switch:
+    name: universal-controller-emergency-switch
+    version: 1.0.0
+    description: Universal Controller Emergency Switch
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components:
+      19mm-latching-emergency-stop-switch:
+        name: 19mm-latching-emergency-stop-switch
+        version: 1.0.0
+        description: 19mm Latching Emergency Stop Switch
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      electrical-solder:
+        name: electrical-solder
+        version: 1.0.0
+        description: Rosin Core Lead Free Electrical Solder
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions:
+          - >-
+            Rosin Core Lead Free Electrical Solder can contain toxic chemicals!
+            Always work in a well ventialted area and use personal protection
+            equipment!
+      heat-shrink-tubing:
+        name: heat-shrink-tubing
+        version: 1.0.0
+        description: Heat Shrink Tubing
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      helping-hands:
+        name: helping-hands
+        version: 1.0.0
+        description: Helping Hands Clamp Stand
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      lever-wire-nut:
+        name: lever-wire-nut
+        version: 1.0.0
+        description: 2 Connection Lever Wire Nut
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      soldering-iron:
+        name: soldering-iron
+        version: 1.0.0
+        description: Soldering Iron
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions:
+          - >-
+            A Soldering Iron gets very very hot and can burn you! Follow all of
+            the manufacturer recommended safety precautions when using a
+            Soldering Iron!
+    parts:
+      emergency-switch:
+        description: Emergency Stop Switch
+        id: emergency-switch
+        notes: ''
+        options:
+          - 19mm-latching-emergency-stop-switch
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'emergency-switch: Emergency Stop Switch'
+        descriptionSelected: >-
+          emergency-switch: Emergency Stop Switch (19mm Latching Emergency Stop
+          Switch v1.0.0)
+      lever-wire-nut:
+        description: Lever Wire Nut
+        id: lever-wire-nut
+        notes: ''
+        options:
+          - lever-wire-nut
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'lever-wire-nut: Lever Wire Nut'
+        descriptionSelected: 'lever-wire-nut: Lever Wire Nut (2 Connection Lever Wire Nut v1.0.0)'
+      heat-shrink-tubing:
+        description: Heat Shrink Tubing
+        id: heat-shrink-tubing
+        notes: ''
+        options:
+          - heat-shrink-tubing
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'heat-shrink-tubing: Heat Shrink Tubing'
+        descriptionSelected: 'heat-shrink-tubing: Heat Shrink Tubing (Heat Shrink Tubing v1.0.0)'
+      solder:
+        description: Electrical Solder
+        id: solder
+        notes: ''
+        options:
+          - electrical-solder
+        quantity: 1
+        quantityUnits: application(s)
+        selectedOption: 0
+        descriptionLong: 'solder: Electrical Solder'
+        descriptionSelected: >-
+          solder: Electrical Solder (Rosin Core Lead Free Electrical Solder
+          v1.0.0)
+    tools:
+      helping-hands:
+        description: Helping Hands
+        id: helping-hands
+        notes: ''
+        options:
+          - helping-hands
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'helping-hands: Helping Hands'
+        descriptionSelected: 'helping-hands: Helping Hands (Helping Hands Clamp Stand v1.0.0)'
+      soldering-iron:
+        description: Soldering Iron
+        id: soldering-iron
+        notes: ''
+        options:
+          - soldering-iron
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'soldering-iron: Soldering Iron'
+        descriptionSelected: 'soldering-iron: Soldering Iron (Soldering Iron v1.0.0)'
+    precautions: []
+    assemblySteps:
+      - summary: Wire the Universal Controller Emergency Switch
+        requiredParts:
+          - emergency-switch
+          - lever-wire-nut
+          - heat-shrink-tubing
+          - solder
+        requiredTools:
+          - helping-hands
+          - soldering-iron
+        details: >
+          . TODO: Add inline fuse holder, fuse, and 18awg wire components
+
+          . Solder the inline fuse onto the extended power wire (still not
+          ground).
+
+          . Solder the inline fuse to one of the tongs of the rocker switch.
+
+          . Solder a 200mm extension wire onto the other tong of the
+          emergency-switch switch.
+
+          . TODO
   universal-frame:
     name: universal-frame
     version: 1.0.0

@@ -40,7 +40,7 @@
 
 
 
-|2
+|1
 |part
 |19mm-latching-emergency-stop-switch
 |19mm Latching Emergency Stop Switch
@@ -208,7 +208,7 @@
 
 
 
-|4
+|5
 |application(s)
 |electrical-solder
 |Rosin Core Lead Free Electrical Solder
@@ -257,7 +257,7 @@
 
 
 
-|4
+|5
 |part(s)
 |heat-shrink-tubing
 |Heat Shrink Tubing
@@ -271,7 +271,7 @@
 
 
 
-|1
+|2
 |part
 |lever-wire-nut
 |2 Connection Lever Wire Nut
