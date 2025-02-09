@@ -300,7 +300,7 @@ emergency-switch:
   id: emergency-switch
   notes: ''
   options:
-    - 19mm-latching-emergency-stop-switch
+    - universal-controller-emergency-switch
   quantity: 1
   quantityUnits: part
   selectedOption: 0

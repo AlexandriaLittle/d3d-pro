@@ -1,0 +1,17 @@
+- summary: Wire the {{description}}
+  requiredParts:
+  - emergency-switch
+  - lever-wire-nut
+  - heat-shrink-tubing
+  - solder
+
+  requiredTools:
+  - helping-hands
+  - soldering-iron
+
+  details: |
+    . TODO: Add inline fuse holder, fuse, and 18awg wire components
+    . Solder the inline fuse onto the extended power wire (still not ground).
+    . Solder the inline fuse to one of the tongs of the rocker switch.
+    . Solder a 200mm extension wire onto the other tong of the emergency-switch switch.
+    . TODO

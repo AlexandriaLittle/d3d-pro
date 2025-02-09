@@ -1,9 +1,18 @@
-electrical-cord:
-  description: Three Prong Electrical Cord
-  id: electrical-cord
+emergency-switch:
+  description: Emergency Stop Switch
+  id: emergency-switch
   notes: ''
   options:
-    - electrical-cord-nema-5-15p
+    - 19mm-latching-emergency-stop-switch
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
+lever-wire-nut:
+  description: Lever Wire Nut
+  id: lever-wire-nut
+  notes: ''
+  options:
+    - lever-wire-nut
   quantity: 1
   quantityUnits: part
   selectedOption: 0
