@@ -1,3 +1,12 @@
+3mm-allen-wrench:
+  description: 3mm Allen Wrench
+  id: 3mm-allen-wrench
+  notes: ''
+  options:
+    - 3mm-allen-wrench
+  quantity: 1
+  quantityUnits: part
+  selectedOption: 0
 5mm-allen-wrench:
   id: 5mm-allen-wrench
   description: 5mm Allen Wrench

@@ -106,3 +106,12 @@ zip-tie-large:
   quantity: 20
   quantityUnits: part(s)
   selectedOption: 0
+m6-nut:
+  description: M6 Nut
+  id: m6-nut
+  notes: ''
+  options:
+    - m6-nut
+  quantity: 2400
+  quantityUnits: part(s)
+  selectedOption: 0
