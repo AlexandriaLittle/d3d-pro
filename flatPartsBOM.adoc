@@ -41,6 +41,13 @@
 
 
 |1
+|application(s)
+|18awg-wire-inline-fuse-holder
+|18awg Wire Inline Fuse Holder
+
+
+
+|1
 |part
 |19mm-latching-emergency-stop-switch
 |19mm Latching Emergency Stop Switch
@@ -128,6 +135,13 @@
 |part(s)
 |4-pin-dupont-connector
 |4 Pin Dupont Connector Housing
+
+
+
+|1
+|application(s)
+|5-amp-120-volt-glass-fuse
+|5 Amp 120 Volt Glass Fuse
 
 
 
@@ -362,7 +376,7 @@
 
 
 
-|29
+|2429
 |part(s)
 |m6-nut
 |M6 Nut

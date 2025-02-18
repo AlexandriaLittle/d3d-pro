@@ -24,6 +24,11 @@ components:
     name: 18awg-wire
     quantity: 1700
     quantityUnits: mm
+  18awg-wire-inline-fuse-holder:
+    description: 18awg Wire Inline Fuse Holder
+    name: 18awg-wire-inline-fuse-holder
+    quantity: 1
+    quantityUnits: application(s)
   19mm-latching-emergency-stop-switch:
     description: 19mm Latching Emergency Stop Switch
     name: 19mm-latching-emergency-stop-switch
@@ -89,6 +94,11 @@ components:
     name: 4-pin-dupont-connector
     quantity: 1
     quantityUnits: part(s)
+  5-amp-120-volt-glass-fuse:
+    description: 5 Amp 120 Volt Glass Fuse
+    name: 5-amp-120-volt-glass-fuse
+    quantity: 1
+    quantityUnits: application(s)
   608-bearing:
     description: 608 ZZ Bearing
     name: 608-bearing
@@ -257,7 +267,7 @@ components:
   m6-nut:
     description: M6 Nut
     name: m6-nut
-    quantity: 29
+    quantity: 2429
     quantityUnits: part(s)
   m6-thin-nut:
     description: M6 Thin Nut

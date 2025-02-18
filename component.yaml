@@ -30,20 +30,6 @@ components:
     parts: {}
     tools: {}
     precautions: []
-  15a-120v-glass-fuse:
-    name: 15a-120v-glass-fuse
-    version: 1.0.0
-    description: 15A 120V Glass Fuse
-    license: CC-BY-SA-4.0
-    author: Alexandria Little
-    dependencies: {}
-    components: {}
-    parts: {}
-    tools: {}
-    precautions:
-      - >-
-        Make sure to verify that you are using a correctly rated fuse! Some are
-        only rated to 32V and if used with 120v it will burn out.
   16ga-steel-sheet:
     name: 16ga-steel-sheet
     version: 1.0.0
@@ -70,6 +56,17 @@ components:
     name: 18awg-wire
     version: 1.0.0
     description: 18AWG Braided Copper Wire
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
+  18awg-wire-inline-fuse-holder:
+    name: 18awg-wire-inline-fuse-holder
+    version: 1.0.0
+    description: 18awg Wire Inline Fuse Holder
     license: CC-BY-SA-4.0
     author: Alexandria Little
     dependencies: {}
@@ -463,6 +460,17 @@ components:
     name: 4-pin-dupont-connector
     version: 1.0.0
     description: 4 Pin Dupont Connector Housing
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
+  5-amp-120-volt-glass-fuse:
+    name: 5-amp-120-volt-glass-fuse
+    version: 1.0.0
+    description: 5 Amp 120 Volt Glass Fuse
     license: CC-BY-SA-4.0
     author: Alexandria Little
     dependencies: {}
@@ -12521,6 +12529,17 @@ components:
       - >-
         The Universal Axis Z Carriage is made of plastic and can be damaged if
         too much force is applied! Be careful when screwing in fasteners.
+  universal-axis-z-series-wire:
+    name: universal-axis-z-series-wire
+    version: 1.0.0
+    description: Universal Axis Z Series Wire
+    license: CC-BY-SA-4.0
+    author: Alexandria Little
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+    precautions: []
   universal-controller:
     name: universal-controller
     version: 1.0.0
@@ -15270,6 +15289,17 @@ components:
                 A Soldering Iron gets very very hot and can burn you! Follow all
                 of the manufacturer recommended safety precautions when using a
                 Soldering Iron!
+          wire-stripper-cutter:
+            name: wire-stripper-cutter
+            version: 1.0.0
+            description: Wire Stripper/Cutter
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
         parts:
           electrical-cord:
             description: Three Prong Electrical Cord
@@ -15331,6 +15361,19 @@ components:
             selectedOption: 0
             descriptionLong: 'soldering-iron: Soldering Iron'
             descriptionSelected: 'soldering-iron: Soldering Iron (Soldering Iron v1.0.0)'
+          wire-stripper-cutter:
+            description: Wire Strippers/Cutters
+            id: wire-stripper-cutter
+            notes: ''
+            options:
+              - wire-stripper-cutter
+            quantity: 1
+            quantityUnits: part
+            selectedOption: 0
+            descriptionLong: 'wire-stripper-cutter: Wire Strippers/Cutters'
+            descriptionSelected: >-
+              wire-stripper-cutter: Wire Strippers/Cutters (Wire Stripper/Cutter
+              v1.0.0)
         precautions: []
         assemblySteps:
           - summary: Wire the Universal Controller 120v Power Cord
@@ -15341,9 +15384,10 @@ components:
             requiredTools:
               - helping-hands
               - soldering-iron
+              - wire-stripper-cutter
             details: >
               . Take the *Three Prong Electrical Cord* and strip back 1-2cm of
-              sheathing.
+              sheathing using *Wire Strippers/Cutters*.
 
               . Extend one of the power wires (not ground) with 200mm of wire.
 
@@ -15835,10 +15879,32 @@ components:
         author: Alexandria Little
         dependencies: {}
         components:
+          18awg-wire-inline-fuse-holder:
+            name: 18awg-wire-inline-fuse-holder
+            version: 1.0.0
+            description: 18awg Wire Inline Fuse Holder
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
           19mm-latching-emergency-stop-switch:
             name: 19mm-latching-emergency-stop-switch
             version: 1.0.0
             description: 19mm Latching Emergency Stop Switch
+            license: CC-BY-SA-4.0
+            author: Alexandria Little
+            dependencies: {}
+            components: {}
+            parts: {}
+            tools: {}
+            precautions: []
+          5-amp-120-volt-glass-fuse:
+            name: 5-amp-120-volt-glass-fuse
+            version: 1.0.0
+            description: 5 Amp 120 Volt Glass Fuse
             license: CC-BY-SA-4.0
             author: Alexandria Little
             dependencies: {}
@@ -15960,6 +16026,30 @@ components:
             descriptionSelected: >-
               solder: Electrical Solder (Rosin Core Lead Free Electrical Solder
               v1.0.0)
+          fuse-holder:
+            description: Inline Fuse Holder
+            id: fuse-holder
+            notes: ''
+            options:
+              - 18awg-wire-inline-fuse-holder
+            quantity: 1
+            quantityUnits: application(s)
+            selectedOption: 0
+            descriptionLong: 'fuse-holder: Inline Fuse Holder'
+            descriptionSelected: >-
+              fuse-holder: Inline Fuse Holder (18awg Wire Inline Fuse Holder
+              v1.0.0)
+          fuse:
+            description: 5 Amp 120 Volt Glass Fuse
+            id: fuse
+            notes: ''
+            options:
+              - 5-amp-120-volt-glass-fuse
+            quantity: 1
+            quantityUnits: application(s)
+            selectedOption: 0
+            descriptionLong: 'fuse: 5 Amp 120 Volt Glass Fuse'
+            descriptionSelected: 'fuse: 5 Amp 120 Volt Glass Fuse (5 Amp 120 Volt Glass Fuse v1.0.0)'
         tools:
           helping-hands:
             description: Helping Hands
@@ -16982,6 +17072,17 @@ components:
             A Soldering Iron gets very very hot and can burn you! Follow all of
             the manufacturer recommended safety precautions when using a
             Soldering Iron!
+      wire-stripper-cutter:
+        name: wire-stripper-cutter
+        version: 1.0.0
+        description: Wire Stripper/Cutter
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
     parts:
       electrical-cord:
         description: Three Prong Electrical Cord
@@ -17043,6 +17144,19 @@ components:
         selectedOption: 0
         descriptionLong: 'soldering-iron: Soldering Iron'
         descriptionSelected: 'soldering-iron: Soldering Iron (Soldering Iron v1.0.0)'
+      wire-stripper-cutter:
+        description: Wire Strippers/Cutters
+        id: wire-stripper-cutter
+        notes: ''
+        options:
+          - wire-stripper-cutter
+        quantity: 1
+        quantityUnits: part
+        selectedOption: 0
+        descriptionLong: 'wire-stripper-cutter: Wire Strippers/Cutters'
+        descriptionSelected: >-
+          wire-stripper-cutter: Wire Strippers/Cutters (Wire Stripper/Cutter
+          v1.0.0)
     precautions: []
     assemblySteps:
       - summary: Wire the Universal Controller 120v Power Cord
@@ -17053,9 +17167,10 @@ components:
         requiredTools:
           - helping-hands
           - soldering-iron
+          - wire-stripper-cutter
         details: >
           . Take the *Three Prong Electrical Cord* and strip back 1-2cm of
-          sheathing.
+          sheathing using *Wire Strippers/Cutters*.
 
           . Extend one of the power wires (not ground) with 200mm of wire.
 
@@ -17540,10 +17655,32 @@ components:
     author: Alexandria Little
     dependencies: {}
     components:
+      18awg-wire-inline-fuse-holder:
+        name: 18awg-wire-inline-fuse-holder
+        version: 1.0.0
+        description: 18awg Wire Inline Fuse Holder
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
       19mm-latching-emergency-stop-switch:
         name: 19mm-latching-emergency-stop-switch
         version: 1.0.0
         description: 19mm Latching Emergency Stop Switch
+        license: CC-BY-SA-4.0
+        author: Alexandria Little
+        dependencies: {}
+        components: {}
+        parts: {}
+        tools: {}
+        precautions: []
+      5-amp-120-volt-glass-fuse:
+        name: 5-amp-120-volt-glass-fuse
+        version: 1.0.0
+        description: 5 Amp 120 Volt Glass Fuse
         license: CC-BY-SA-4.0
         author: Alexandria Little
         dependencies: {}
@@ -17663,6 +17800,28 @@ components:
         descriptionSelected: >-
           solder: Electrical Solder (Rosin Core Lead Free Electrical Solder
           v1.0.0)
+      fuse-holder:
+        description: Inline Fuse Holder
+        id: fuse-holder
+        notes: ''
+        options:
+          - 18awg-wire-inline-fuse-holder
+        quantity: 1
+        quantityUnits: application(s)
+        selectedOption: 0
+        descriptionLong: 'fuse-holder: Inline Fuse Holder'
+        descriptionSelected: 'fuse-holder: Inline Fuse Holder (18awg Wire Inline Fuse Holder v1.0.0)'
+      fuse:
+        description: 5 Amp 120 Volt Glass Fuse
+        id: fuse
+        notes: ''
+        options:
+          - 5-amp-120-volt-glass-fuse
+        quantity: 1
+        quantityUnits: application(s)
+        selectedOption: 0
+        descriptionLong: 'fuse: 5 Amp 120 Volt Glass Fuse'
+        descriptionSelected: 'fuse: 5 Amp 120 Volt Glass Fuse (5 Amp 120 Volt Glass Fuse v1.0.0)'
     tools:
       helping-hands:
         description: Helping Hands
@@ -22117,7 +22276,29 @@ parts:
     selectedOption: 0
     descriptionLong: 'zip-tie-large: Large Zip Tie'
     descriptionSelected: 'zip-tie-large: Large Zip Tie (8 Inch Zip Tie v1.0.0)'
+  m6-nut:
+    description: M6 Nut
+    id: m6-nut
+    notes: ''
+    options:
+      - m6-nut
+    quantity: 2400
+    quantityUnits: part(s)
+    selectedOption: 0
+    descriptionLong: 'm6-nut: M6 Nut'
+    descriptionSelected: 'm6-nut: M6 Nut (M6 Nut v1.0.0)'
 tools:
+  3mm-allen-wrench:
+    description: 3mm Allen Wrench
+    id: 3mm-allen-wrench
+    notes: ''
+    options:
+      - 3mm-allen-wrench
+    quantity: 1
+    quantityUnits: part
+    selectedOption: 0
+    descriptionLong: '3mm-allen-wrench: 3mm Allen Wrench'
+    descriptionSelected: '3mm-allen-wrench: 3mm Allen Wrench (3mm Allen Wrench v1.0.0)'
   5mm-allen-wrench:
     id: 5mm-allen-wrench
     description: 5mm Allen Wrench
@@ -22153,10 +22334,50 @@ assemblySteps:
     requiredParts:
       - universal-axis-y1
       - m6-25mm-screw
+      - m6-nut
     requiredTools:
       - 5mm-allen-wrench
-    details: |
-      . TODO
+      - 3mm-allen-wrench
+    details: >
+      . Choose a side of the *Universal Frame* where the mounting holes extend
+      past the edge of the frame.
+
+      . Position the *Universal Y1 Axis* so that the clips on the carriage are
+      pointing up and the motor side is on the left.
+
+      . Align the holes in the motor side with the holes in the *Universal
+      Frame*, and insert a *M6 x 25mm Screw* into both holes from behind.
+
+      . Insert two *M6 Nut* part(s) into the front mounting holes on the motor
+      side of the *Universal Y1 Axis*.
+
+      . Tighten the *M6 x 25mm Screw* part by hand so the *Universal Y1 Axis*
+      stays in palce.
+
+      . Loosen the set screws on the idler side of the *Universal Y1 Axis* using
+      a *3mm Allen Wrench* and slide the idler side along the axis until the
+      mounting holes align with the mounting holes on the *Universal Frame*.
+
+      . Tighten the set screws on the idler side using a *3mm Allen Wrench* to
+      secure its alignment with the *Universal Frame*
+
+      . Insert a *M6 x 25mm Screw* through the mounting holes on the *Universal
+      Frame* and into the idler side of the *Universal Y1 Axis*.
+
+      . Insert two *M6 Nut* part(s) into the mounting holes on the front of the
+      idler side.
+
+      . Tighten the *M6 x 25mm Screw* part by hand.
+
+      . Loosen the *M6 x 25mm Screw* part slightly so that the *Universal Y1
+      Axis* can move and push down on each end of the *Universal Y1 Axis* so
+      that it is seated evenly across it's length. Skipping this step can lead
+      to misalignment.
+
+      . Using a *5mm Allen Wrench*, tighten down the *M6 x 25mm Screw* part on
+      each side.
+
+      . The *Universal Y1 Axis* is now mounted.
   - summary: Mount the Universal Y2 Axis
     requiredParts:
       - universal-axis-y2

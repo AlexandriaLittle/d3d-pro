@@ -1,10 +1,10 @@
 = D3D Pro 3D Printer Assembly Instructions
 Alexandria Little - CC-BY-SA-4.0
 :revnumber: v23.12
-:revdate: 2/9/2025
+:revdate: 2/18/2025
 :sectnums:
 :toc:
-:toclevels: 3
+:toclevels: 1
 :docinfo: shared
 // :docinfodir: dist/
 
@@ -3579,6 +3579,12 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 |Soldering Iron
 |
 
+
+
+|Wire Strippers/Cutters
+|Wire Stripper/Cutter
+|
+
 |===
 
 
@@ -3644,6 +3650,10 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 
+
+
+
+
 * *Electrical Solder:* Rosin Core Lead Free Electrical Solder can contain toxic chemicals! Always work in a well ventialted area and use personal protection equipment!
 
 
@@ -3667,6 +3677,8 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 //
 //* Soldering Iron
 //
+//* Wire Strippers/Cutters
+//
 //
 
 // requiredParts
@@ -3685,7 +3697,7 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 *Instructions*
 
-. Take the *Three Prong Electrical Cord* and strip back 1-2cm of sheathing.
+. Take the *Three Prong Electrical Cord* and strip back 1-2cm of sheathing using *Wire Strippers/Cutters*.
 . Extend one of the power wires (not ground) with 200mm of wire.
 . Bring the extended power wire into the case through the bottom right hole.
 . Solder the inline fuse onto the extended power wire (still not ground).
@@ -4086,6 +4098,22 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 |Rosin Core Lead Free Electrical Solder v1.0.0
 |
 
+
+
+|1 application(s)
+|fuse-holder
+|Inline Fuse Holder
+|18awg Wire Inline Fuse Holder v1.0.0
+|
+
+
+
+|1 application(s)
+|fuse
+|5 Amp 120 Volt Glass Fuse
+|5 Amp 120 Volt Glass Fuse v1.0.0
+|
+
 |===
 
 
@@ -4123,6 +4151,14 @@ image:IMG_3690.jpeg[,300,300,pdfwidth=30%]
 
 
 * *Electrical Solder:* Rosin Core Lead Free Electrical Solder can contain toxic chemicals! Always work in a well ventialted area and use personal protection equipment!
+
+
+
+
+
+
+
+
 
 
 
@@ -7045,6 +7081,12 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 
 
 
+|3mm Allen Wrench
+|3mm Allen Wrench
+|
+
+
+
 |5mm Allen Wrench
 |5mm Allen Wrench
 |
@@ -7160,6 +7202,14 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 |8 Inch Zip Tie v1.0.0
 |
 
+
+
+|2400 part(s)
+|m6-nut
+|M6 Nut
+|M6 Nut v1.0.0
+|
+
 |===
 
 
@@ -7186,7 +7236,15 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 
 
 
+
+
+
+
 * *Universal Controller:* The Universal Controller Assembly runs on 120v AC electricity, which can kill you if wiring is done improperly!!! Follow all directions exactly, use common sense, never touch the Universal Controller Assembly components when powered on, and when in doubt use more electrical tape. This is your reminder that these instructions are for EDUCATIONAL PURPOSES ONLY and that you assume any and all liability for the use of these instructions.
+
+
+
+
 
 
 
@@ -7274,6 +7332,8 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 //
 //* 5mm Allen Wrench
 //
+//* 3mm Allen Wrench
+//
 //
 
 // requiredParts
@@ -7284,13 +7344,27 @@ image:IMG_3564.jpeg[,300,300,pdfwidth=30%]
 //
 //* M6 x 25mm Screw
 //
+//* M6 Nut
+//
 //
 
 // details
 
 *Instructions*
 
-. TODO
+. Choose a side of the *Universal Frame* where the mounting holes extend past the edge of the frame.
+. Position the *Universal Y1 Axis* so that the clips on the carriage are pointing up and the motor side is on the left.
+. Align the holes in the motor side with the holes in the *Universal Frame*, and insert a *M6 x 25mm Screw* into both holes from behind.
+. Insert two *M6 Nut* part(s) into the front mounting holes on the motor side of the *Universal Y1 Axis*.
+. Tighten the *M6 x 25mm Screw* part by hand so the *Universal Y1 Axis* stays in palce.
+. Loosen the set screws on the idler side of the *Universal Y1 Axis* using a *3mm Allen Wrench* and slide the idler side along the axis until the mounting holes align with the mounting holes on the *Universal Frame*.
+. Tighten the set screws on the idler side using a *3mm Allen Wrench* to secure its alignment with the *Universal Frame*
+. Insert a *M6 x 25mm Screw* through the mounting holes on the *Universal Frame* and into the idler side of the *Universal Y1 Axis*.
+. Insert two *M6 Nut* part(s) into the mounting holes on the front of the idler side.
+. Tighten the *M6 x 25mm Screw* part by hand.
+. Loosen the *M6 x 25mm Screw* part slightly so that the *Universal Y1 Axis* can move and push down on each end of the *Universal Y1 Axis* so that it is seated evenly across it's length. Skipping this step can lead to misalignment.
+. Using a *5mm Allen Wrench*, tighten down the *M6 x 25mm Screw* part on each side.
+. The *Universal Y1 Axis* is now mounted.
 
 
 
