@@ -7,9 +7,10 @@
   requiredTools:
   - helping-hands
   - soldering-iron
+  - wire-stripper-cutter
 
   details: |
-    . Take the *{{parts.electrical-cord.description}}* and strip back 1-2cm of sheathing.
+    . Take the *{{parts.electrical-cord.description}}* and strip back 1-2cm of sheathing using *{{tools.wire-stripper-cutter.description}}*.
     . Extend one of the power wires (not ground) with 200mm of wire.
     . Bring the extended power wire into the case through the bottom right hole.
     . Solder the inline fuse onto the extended power wire (still not ground).
