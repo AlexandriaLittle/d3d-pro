@@ -66,9 +66,13 @@
     image:IMG_3445.jpg[,300,300,pdfwidth=30%]
     image:IMG_3446.jpg[,300,300,pdfwidth=30%]
     image:IMG_3447.jpg[,300,300,pdfwidth=30%]
+    .
+    +
     image:IMG_3448.jpg[,300,300,pdfwidth=30%]
     image:IMG_3449.jpg[,300,300,pdfwidth=30%]
     image:IMG_3450.jpg[,300,300,pdfwidth=30%]
+    .
+    +
     image:IMG_3452.jpg[,300,300,pdfwidth=30%]
     . Wait two minutes for the *{{parts.volcano-heater-block.description}}* to get hot.
     . Using *{{tools.needle-nose-pliers.description}}*, hold the *{{parts.heat-break.description}}* in place while tightening down the *{{parts.nozzle.description}}* using the *{{tools.7mm-socket-wrench.description}}*. Make sure that the *{{parts.nozzle.description}}* bottoms out against the *{{parts.heat-break.description}}*, not against the *{{parts.volcano-heater-block.description}}* - the goal is to close the filament flow gap between the *{{parts.nozzle.description}}* and *{{parts.heat-break.description}}*.
